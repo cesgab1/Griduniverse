@@ -21,8 +21,9 @@ params = {"logA": {"prior": {"min": 2.9, "max": 3.2}, "ref": 3.045, "proposal": 
           "omch2": {"prior": {"min": 0.08, "max": 0.16}, "ref": 0.119, "proposal": 0.001},
           "tau": {"prior": {"min": 0.01, "max": 0.12}, "ref": 0.058, "proposal": 0.006},
           "mnu": MNU}
+vc_mode = "VC_ME" in os.environ
 if model == "LCDM":
-    theory = {("gboost_fluid.CAMBGF" if gf_mode else "gboost_camb.CAMBG") if g_mode else "camb": {"extra_args": extra}}
+    theory = {("gboost_fluid.CAMBGF" if gf_mode else "gboost_camb.CAMBG") if g_mode else ("vc_camb.CAMBVC" if vc_mode else "camb"): {"extra_args": extra}}
 elif model == "w0wa":
     theory = {"camb": {"extra_args": dict(extra, dark_energy_model="ppf")}}
     params["w"] = {"prior": {"min": -3, "max": 1}, "ref": -0.8, "proposal": 0.05}
@@ -34,7 +35,7 @@ info = {"packages_path": "/home/claude/cobaya_packages",
                        "planck_NPIPE_highl_CamSpec.TTTEEE": None, "bao.desi_dr2": None, sn: None},
         "theory": theory, "params": params,
         "sampler": {"minimize": {"method": "bobyqa", "best_of": 1 if refine else 2, "max_evals": "3000d"}},
-        "output": f"/home/claude/fullfit/out/{model}_{sn}" + ((f"_mnu{MNU}" if mnu_mode else (f"_g{GD}" if g_mode else (start_tag or "_refine"))) if refine else ""), "force": True}
+        "output": f"/home/claude/fullfit/out/{model}_{sn}" + ((f"_mnu{MNU}" if mnu_mode else (f"_g{GD}" if g_mode else (start_tag or "_refine"))) if refine else "") + ("_me" + os.environ["VC_ME"] if "VC_ME" in os.environ else ""), "force": True}
 if refine:
     start = read_min(f"/home/claude/fullfit/out/{model}_{sn}" + ("_refine" if (mnu_mode or g_mode) else ("_lawstart" if start_tag else "")) + ".minimum.txt")
     for k, v in info["params"].items():
@@ -49,7 +50,7 @@ if refine:
         info["params"][k] = d
 t0 = time.time()
 upd, sampler = run(info)
-tag = (f"_mnu{MNU}" if mnu_mode else (f"_g{GD}" if g_mode else (start_tag or "_refine"))) if refine else ""
+tag = ((f"_mnu{MNU}" if mnu_mode else (f"_g{GD}" if g_mode else (start_tag or "_refine"))) if refine else "") + ("_me" + os.environ["VC_ME"] if vc_mode else "")
 m = read_min(f"/home/claude/fullfit/out/{model}_{sn}{tag}.minimum.txt")
 res = {"model": model, "sn": sn, "refine": refine, "minutes": round((time.time() - t0) / 60, 1), "chi2": m["chi2"],
        "parts": {k: v for k, v in m.items() if k.startswith("chi2__") and k.count("__") == 1 and "." in k}}

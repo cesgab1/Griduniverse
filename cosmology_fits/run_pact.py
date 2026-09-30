@@ -11,6 +11,7 @@ params = {"logA": dict(P("logA", 2.9, 3.2, 3.05, 0.004), drop=True), "As": {"val
           "ns": P("ns", 0.9, 1.02, 0.968, 0.003), "H0": P("H0", 55, 85, 68.0, 0.3), "ombh2": P("ombh2", 0.02, 0.025, 0.0224, 0.0001),
           "omch2": P("omch2", 0.08, 0.16, 0.119, 0.0008), "tau": P("tau", 0.01, 0.12, 0.058, 0.004), "mnu": 0.06,
           "A_act": {"prior": {"min": 0.5, "max": 1.5}, "ref": start.get("A_act", 1.0), "proposal": 0.002}}
+if os.environ.get("OMK") == "free": params["omk"] = {"prior": {"min": -0.05, "max": 0.05}, "ref": 0.0, "proposal": 0.001}
 info = {"packages_path": "/home/claude/cobaya_packages",
         "likelihood": {"planck_2018_lowl.TT": None, "planck_2018_lowl.EE_sroll2": None,
                        "act_dr6_cmbonly.PlanckActCut": {"dataset_params": {"use_cl": "tt te ee", "lmin_cuts": "0 0 0", "lmax_cuts": "1000 600 600"},
