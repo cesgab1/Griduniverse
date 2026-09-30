@@ -1,0 +1,26 @@
+SPARC: 2803 points
+
+law                             best a0     chi2  scatter   trend
+McGaugh 2016 empirical        1.148e-10   4663.7    0.144  +0.010
+uniform slack                 1.694e-10   5266.9    0.152  +0.048
+exponential slack             1.284e-10   4747.7    0.145  +0.018
+half-Gaussian slack           1.576e-10   4975.7    0.148  +0.036
+
+median residual (dex) by pull bin   log g_bar: -11.75 -11.25 -10.75 -10.25  -9.75  -9.25  -8.75
+   McGaugh 2016 empirical       +0.004 -0.019 +0.009 +0.006 +0.025 -0.003 -0.004
+   uniform slack                -0.054 -0.052 +0.002 +0.057 +0.080 +0.017 -0.005
+   exponential slack            -0.003 -0.029 +0.011 +0.018 +0.041 +0.002 -0.011
+   half-Gaussian slack          -0.032 -0.042 +0.007 +0.036 +0.064 +0.012 -0.007
+
+cH0/6 = 1.093e-10 m/s^2.  In stretch units e = g/(cH0): a0/(cH0) = 1/6 -> p(0) = 12,
+   i.e. the loosest links carry ~8% excess length (uniform) -- needs to come out of the drainage/Poisson geometry; NOT derived yet.
+
+Solar System check (Saturn, g_N = 6.46e-05 m/s^2):
+   uniform slack          leftover pull 4.2e-11 m/s^2 -> Saturn perihelion drift    28.6 mas/yr
+   exponential slack      leftover pull 6.4e-11 m/s^2 -> Saturn perihelion drift    43.4 mas/yr
+   half-Gaussian slack    leftover pull 5.0e-11 m/s^2 -> Saturn perihelion drift    33.9 mas/yr
+   ephemeris bounds on Saturn's anomalous perihelion drift are at the ~1 mas/yr level (INPOP/EPM).
+   Any slack spread densest at zero slack gives leftover >= a0/4 (uniform is the minimum).
+Yd=0.4: best a0=1.683e-10  chi2=5354.0 | a0=cH0/6=1.093e-10: chi2=6604.3  (delta +1250.2)
+Yd=0.5: best a0=1.283e-10  chi2=4748.1 | a0=cH0/6=1.093e-10: chi2=4932.2  (delta +184.1)
+Yd=0.6: best a0=1.036e-10  chi2=4694.9 | a0=cH0/6=1.093e-10: chi2=4716.0  (delta +21.1)
