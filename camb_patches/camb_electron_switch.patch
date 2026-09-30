@@ -1,0 +1,132 @@
+diff --git a/fortran/gboost.f90 b/fortran/gboost.f90
+index ea31f18..ec8cada 100644
+--- a/fortran/gboost.f90
++++ b/fortran/gboost.f90
+@@ -5,6 +5,7 @@
+     implicit none
+     real(dl) :: gboost_delta = 0._dl, gboost_at = 1.e-4_dl
+     real(dl) :: vc_alpha = 1._dl, vc_me = 1._dl   ! fine-structure constant and electron mass at recombination / today
++    real(dl) :: vc_zs = -1._dl, vc_dz = 30._dl   ! electron mass relaxes to 1 around z = vc_zs (disabled if < 0)
+     contains
+     function Gfac(a)
+     real(dl), intent(in) :: a
+@@ -37,4 +38,19 @@
+     vc_alpha = al
+     vc_me = me
+     end subroutine set_vconst
++    function me_at_z(z)
++    real(dl), intent(in) :: z
++    real(dl) :: me_at_z
++    if (vc_zs < 0._dl) then
++        me_at_z = vc_me
++    else
++        me_at_z = 1._dl + (vc_me - 1._dl)*0.5_dl*(1._dl + tanh((z - vc_zs)/vc_dz))
++    end if
++    end function me_at_z
++    subroutine set_vswitch(zs, dz) bind(C, name='set_vswitch')
++    use iso_c_binding
++    real(c_double), value :: zs, dz
++    vc_zs = zs
++    vc_dz = dz
++    end subroutine set_vswitch
+     end module GBoost
+diff --git a/fortran/recfast.f90 b/fortran/recfast.f90
+index 8bf82ba..d72e739 100644
+--- a/fortran/recfast.f90
++++ b/fortran/recfast.f90
+@@ -681,6 +681,7 @@
+             ! He is 99% singly ionized, and *then* switch to joint H/He recombination.
+ 
+             z = zend
++            if (vc_zs >= 0._dl) call Recfast_vc_update(z)
+             ainv = 1._dl + z
+             z_scale = Calc%Tnow/COBE_CMBTemp*ainv - 1
+             if (.not. rosenbrock_handed_off .and. y(1) <= this%rosenbrock_handoff_xH) then
+@@ -1215,6 +1216,7 @@
+     type(RecombinationData), pointer :: Recomb
+ 
+     Recomb => this%Calc
++    if (vc_zs >= 0._dl) call Recfast_vc_update(z)
+     full_hydrogen = .false.
+     if (present(force_full_hydrogen)) full_hydrogen = force_full_hydrogen
+ 
+@@ -1714,19 +1716,22 @@
+     end subroutine TRecfast_SelfPointer
+ 
+ 
+-    subroutine Recfast_vc_update()
++    subroutine Recfast_vc_update(zin)
+     use GBoost
+-    real(dl) :: E
+-    E = vc_alpha**2*vc_me; vcE = E
+-    Lambda = Lambda_0*vc_alpha**8*vc_me; Lambda_He = Lambda_He_0*vc_alpha**8*vc_me
+-    A2P_s = A2P_s_0*vc_alpha**5*vc_me; A2P_t = A2P_t_0*vc_alpha**5*vc_me
++    real(dl), intent(in), optional :: zin
++    real(dl) :: E, me
++    me = vc_me
++    if (present(zin)) me = me_at_z(zin)
++    E = vc_alpha**2*me; vcE = E
++    Lambda = Lambda_0*vc_alpha**8*me; Lambda_He = Lambda_He_0*vc_alpha**8*me
++    A2P_s = A2P_s_0*vc_alpha**5*me; A2P_t = A2P_t_0*vc_alpha**5*me
+     Lalpha = Lalpha_0/E; Lalpha_He = Lalpha_He_0/E
+     DeltaB = DeltaB_0*E; CDB = CDB_0*E; DeltaB_He = DeltaB_He_0*E; CDB_He = CDB_He_0*E
+     CB1 = CB1_0*E; CB1_He1 = CB1_He1_0*E; CB1_He2 = CB1_He2_0*E
+-    CR = CR_0*vc_me; CK = CK_0/E**3; CK_He = CK_He_0/E**3
++    CR = CR_0*me; CK = CK_0/E**3; CK_He = CK_He_0/E**3
+     CL = CL_0*E; CL_He = CL_He_0*E; Bfact = Bfact_0*E
+-    CT = CT_0*vc_alpha**2/vc_me**3
+-    vcRate = vc_alpha**2/vc_me**2
++    CT = CT_0*vc_alpha**2/me**3
++    vcRate = vc_alpha**2/me**2
+     end subroutine Recfast_vc_update
+ 
+     end module Recombination
+diff --git a/fortran/results.f90 b/fortran/results.f90
+index 61c93a7..03334e3 100644
+--- a/fortran/results.f90
++++ b/fortran/results.f90
+@@ -1335,7 +1335,7 @@
+     select type (this => obj)
+     class is (CAMBdata)
+         ! ignoring reionisation, not relevant for distance measures
+-        noreion_doptdepth_dz = this%CP%Recomb%x_e(a)*this%akthom*dtauda(this, a)
++        noreion_doptdepth_dz = this%CP%Recomb%x_e(a)*this%akthom*dtauda(this, a)*(vc_me/me_at_z(1/a-1))**2
+     class default
+         error stop 'noreion_doptdepth_dz: expected CAMBdata'
+     end select
+@@ -1384,7 +1384,7 @@
+ 
+     select type (this => obj)
+     class is (CAMBdata)
+-        reion_doptdepth_dz = this%CP%Reion%x_e(z)*this%akthom*dtauda(this, 1._dl/(1._dl + z))
++        reion_doptdepth_dz = this%CP%Reion%x_e(z)*this%akthom*dtauda(this, 1._dl/(1._dl + z))*(vc_me/me_at_z(z))**2
+     class default
+         error stop 'reion_doptdepth_dz: expected CAMBdata'
+     end select
+@@ -2205,7 +2205,7 @@
+     call CP%Recomb%xe_Tm(a0, this%xe(1), this%tb(1))
+     barssc = barssc0*(1._dl - 0.75d0*CP%Yhe + (1._dl - CP%Yhe)*this%xe(1))
+     this%cs2(1) = 4._dl/3._dl*barssc*this%tb(1)
+-    this%dotmu(1) = this%xe(1)*State%akthom/a0**2
++    this%dotmu(1) = this%xe(1)*State%akthom/a0**2*(vc_me/me_at_z(1/a0-1))**2
+ 
+     !$OMP PARALLEL DO DEFAULT(SHARED), SCHEDULE(STATIC, 16), NUM_THREADS(2), IF(thermo_use_omp)
+     do i = 2, nthermo
+@@ -2242,7 +2242,7 @@
+             end if
+             this%xe(i) = CP%Reion%x_e(1/a - 1, tau, this%xe(ncount))
+             if (CP%Accuracy%AccurateReionization .and. CP%WantDerivedParameters) then
+-                this%dotmu(i) = (xe_a(i) - this%xe(i))*State%akthom/a2
++                this%dotmu(i) = (xe_a(i) - this%xe(i))*State%akthom/a2*(vc_me/me_at_z(1/a-1))**2
+ 
+                 if (last_dotmu /= 0) then
+                     this%actual_opt_depth = this%actual_opt_depth &
+@@ -2295,7 +2295,7 @@
+         end if
+ 
+         ! Calculation of the visibility function
+-        this%dotmu(i) = this%xe(i)*State%akthom/a2
++        this%dotmu(i) = this%xe(i)*State%akthom/a2*(vc_me/me_at_z(1/a-1))**2
+ 
+         if (this%tight_tau == 0 .and. 1/(tau*this%dotmu(i)) > 0.005) this%tight_tau = tau ! 0.005
+         ! Tight coupling switch time when k/opacity is smaller than 1/(tau*opacity)

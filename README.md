@@ -21,6 +21,7 @@ Every idea was turned into a calculation and compared with real measurements. Fa
 | Disc-galaxy lensing from light alone | KiDS-1000 (Brouwer+2021) | measured/predicted 0.91–0.94 ± 0.06 |
 | "Mass beats tension" boundary for slack (no free number) | KiDS-1000, 4 mass bins | fits as well as a free fade (χ² 145.5 vs 150.7 without) |
 | Heavier electron at recombination (grid tension sets the constants) | Planck + ACT DR6 + DESI + DES | m_e = 1.0078 ± 0.0044, Δχ² −2.0 at +1%, H₀ ≈ 69–71; first Hubble route to survive ACT |
+| Electron relaxes after recombination, its lost energy becoming the grid tension (dark energy) | Planck + ACT DR6 + DESI + DES; BBN, quasars, FIRAS, τ | Switch at recombination excluded (Δχ² +117); switch after z ≈ 900 keeps the full effect; energy matches today's dark energy if the switch is at z ≈ 100–200. Prediction: 21-cm step at 7–15 MHz |
 | Early stored stretch energy | Planck + ACT DR6 | rejected by ACT (Δχ² +13 at δ = 0.03) |
 | Five late-universe Hubble fixes | Pantheon+SH0ES, DESI, BBN | all ruled out (no-CMB H₀ = 68.6 ± 0.6) |
 
@@ -28,7 +29,8 @@ Every idea was turned into a calculation and compared with real measurements. Fa
 
 - **`camb_patches/`:** patches to [CAMB](https://github.com/cmbant/CAMB) (applied to the Sept 2026 master):
   - `camb_gboost.patch`: time-varying G in the Einstein equations;
-  - `camb_varying_constants.patch`: fine-structure constant α and electron mass at recombination (`set_vconst`).
+  - `camb_varying_constants.patch`: fine-structure constant α and electron mass at recombination (`set_vconst`);
+  - `camb_electron_switch.patch` (on top of the previous one): electron mass that relaxes to today's value around a chosen redshift (`set_vswitch`).
 - **`cosmology_fits/`:** Cobaya fits and cosmology tests: the dark-energy law, early stretch energy, P-ACT (ACT DR6) runs, supernova shell, sky-direction and host tests, local void, H₀ without CMB, quasars, early galaxies, the Cold Spot, and a₀ from cosmic tension.
 - **`galaxies_lensing/`:** SPARC rotation curves, the neighbour (external field) test, light-only predictions, KiDS lensing, lame links, mass-beats-tension, spinning capped black holes.
 - **`grid_models/`:** tension-grid gravity, full tension (γ = 1), cracked mosaics (grain check), cell size vs strain, lattice gauge and fermion runs, tetrahedral grids.
