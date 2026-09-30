@@ -1,0 +1,24 @@
+{
+ "chi2": Infinity,
+ "parts": {
+  "chi2__BAO": NaN,
+  "chi2__CMB": NaN,
+  "chi2__SN": NaN,
+  "chi2__planck_2018_lowl.TT": Infinity,
+  "chi2__planck_2018_lowl.EE_sroll2": Infinity,
+  "chi2__act_dr6_cmbonly.PlanckActCut": Infinity,
+  "chi2__act_dr6_cmbonly": Infinity,
+  "chi2__bao.desi_dr2": Infinity,
+  "chi2__sn.desdovekie": Infinity
+ },
+ "params": {
+  "H0": 68.502588,
+  "n_s": 0.97434898,
+  "omega_b": 0.022548605,
+  "omch2": 0.11788114,
+  "tau_reio": 0.059290191,
+  "A_act": 1.0004043,
+  "logA": 3.0495784
+ },
+ "minutes": 0.019488898913065593
+}

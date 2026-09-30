@@ -1,0 +1,17 @@
+a0 = cH0/6 = 1.109e-10
+g_bar     needed fermion mass / baryon mass   -> needed ω_f
+1e-12      8.37                               0.188
+3e-12      7.26                               0.163
+1e-11      5.62                               0.126
+3e-11      3.99                               0.090
+1e-10      2.36                               0.053
+3e-10      1.19                               0.027
+1e-09      0.31                               0.007
+
+Pauli capacity vs the dark density a cluster/galaxy needs (m = 2 eV):
+   cluster 1e15, r=0.2 Mpc              capacity/needed = 0.14
+   cluster 1e15, r=0.5 Mpc              capacity/needed = 1.32
+   cluster 1e15, r=1.0 Mpc              capacity/needed = 7.08
+   group 1e13, r=0.1 Mpc                capacity/needed = 0.02
+   galaxy halo (KiDS) r=0.3 Mpc, v 220  capacity/needed = 0.07
+   SPARC galaxy outskirts (~11 kpc): m_crit ≥ 6 eV -> 2 eV capacity ≤ (2/6)^4 ≈ 1% of the galaxy's missing mass

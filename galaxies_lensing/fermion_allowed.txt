@@ -1,0 +1,13 @@
+Light fermion (m = 2 eV) replacing part of the AeST condensate, other parameters at the AeST+β½ best fit (no refit)
+ω_f=0     : Δχ²      +0.0 (CMB     +0.0, BAO   +0.0, SN  +0.0)  σ8 0.745  extra early radiation ΔN_eff ≈ 0.00
+ω_f=0.002 : Δχ²     +13.9 (CMB     +0.9, BAO   +0.4, SN  +0.0)  σ8 0.717  extra early radiation ΔN_eff ≈ 0.04
+ω_f=0.005 : Δχ²    +153.1 (CMB    +44.0, BAO   +2.0, SN  +0.0)  σ8 0.669  extra early radiation ΔN_eff ≈ 0.14
+ω_f=0.01  : Δχ²   +1036.1 (CMB   +340.0, BAO   +8.5, SN  +0.0)  σ8 0.589  extra early radiation ΔN_eff ≈ 0.36
+ω_f=0.02  : Δχ²   +7001.5 (CMB  +2366.8, BAO  +45.6, SN  +0.0)  σ8 0.447  extra early radiation ΔN_eff ≈ 0.91
+Traceback (most recent call last):
+  File "<stdin>", line 14, in <module>
+  File "python/classy.pyx", line 595, in classy._classy.Class.compute
+classy._classy.CosmoComputationError: 
+
+Error in Class: thermodynamics_init(L:342) :error in thermodynamics_helium_from_bbn(ppr,pba,pth);
+=>thermodynamics_helium_from_bbn(L:672) :condition (DeltaNeff > deltaN[num_deltaN-1]) is true; You have asked for an unrealistic high value of Delta N_eff = 3.127009e+00. The corresponding value of the primordial helium fraction cannot be found in the interpolation table. If you really want this value, you should fix YHe to a given value rather than to BBN

@@ -5,7 +5,13 @@ sys.path.insert(0, "/home/claude/act_lite")
 from cobaya.run import run
 tag = sys.argv[1]; start = json.loads(sys.argv[2]) if len(sys.argv) > 2 else {}
 beta = float(os.environ.get("AEST_BETA", 0)); ex = os.environ.get("AEST_EX", "no")
-extra = {"gauge": "newtonian", "non_linear": "halofit", "l_max_scalars": 7000, "N_ur": 2.0328, "N_ncdm": 1, "m_ncdm": 0.06,
+FW = float(os.environ.get("FERM_OMEGA", 0)); FM = float(os.environ.get("FERM_MASS", 2.0))
+if FW > 0:
+    Tr = (FW*93.14/FM)**(1/3)                       # (T_f/T_nu)^3 = omega*93.14 eV / m
+    nc = {"N_ncdm": 2, "m_ncdm": f"0.06,{FM}", "T_ncdm": f"0.71611,{0.71611*Tr}"}
+else:
+    nc = {"N_ncdm": 1, "m_ncdm": 0.06}
+extra = {"gauge": "newtonian", "non_linear": "halofit", "l_max_scalars": 7000, "N_ur": 2.0328, **nc,
          "omega_cdm": 0.0, "fluid_equation_of_state": "AEST", "use_ppf": "no",
          **({"varying_fundamental_constants": "instantaneous", "varying_transition_redshift": float(os.environ.get("AEST_ZS", 138)),
              "varying_me": float(os.environ["AEST_ME"])} if "AEST_ME" in os.environ else {}),
@@ -14,7 +20,7 @@ def P(name, lo, hi, ref, prop): return {"prior": {"min": lo, "max": hi}, "ref": 
 params = {"logA": dict(P("logA", 2.9, 3.2, 3.05, 0.004), drop=True), "A_s": {"value": "lambda logA: 1e-10*np.exp(logA)"},
           "n_s": P("ns", 0.9, 1.02, 0.968, 0.003), "H0": P("H0", 55, 85, 68.0, 0.3), "omega_b": P("ombh2", 0.02, 0.025, 0.0224, 0.0001),
           "omch2": dict(P("omch2", 0.08, 0.16, 0.119, 0.0008), drop=True),
-          "Omega_fld": {"value": "lambda omch2, H0: omch2/(H0/100.)**2"},
+          "Omega_fld": {"value": f"lambda omch2, H0: (omch2-{FW})/(H0/100.)**2"},
           "tau_reio": P("tau", 0.01, 0.12, 0.058, 0.004),
           "A_act": {"prior": {"min": 0.5, "max": 1.5}, "ref": start.get("A_act", 1.0), "proposal": 0.002},
           "P_act": {"prior": {"min": 0.9, "max": 1.1}, "ref": start.get("P_act", 1.0), "proposal": 0.003}}
