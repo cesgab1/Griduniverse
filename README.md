@@ -54,5 +54,6 @@ Every idea was turned into a calculation and compared with real measurements. Fa
 - The two-layer electron uses Kaplan's domain-wall construction.
 - Strain-triggered collapse is Diósi–Penrose.
 - A heavier early electron is a known Hubble-fix candidate.
+- a₀ = cH₀/6 from the elastic response of the dark-energy medium is Verlinde's emergent gravity (2016).
 
 The grid-tension framing, the dark-energy law, and the tests here are this project's.
