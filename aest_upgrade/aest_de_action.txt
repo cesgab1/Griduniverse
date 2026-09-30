@@ -1,0 +1,18 @@
+
+== U = f(Θ): aether expansion only
+  shift charge  a^3(...) = Derivative(K(Derivative(phi(t), t)), Derivative(phi(t), t))    conserved: True
+  energy constraint  ->  3H^2 = -K(Derivative(phi(t), t)) + f(3*Derivative(a(t), t)/a(t)) + Derivative(K(Derivative(phi(t), t)), Derivative(phi(t), t))*Derivative(phi(t), t) - 3*Derivative(a(t), t)*Subs(Derivative(f(_xi_1), _xi_1), _xi_1, 3*Derivative(a(t), t)/a(t))/a(t)
+
+== U = f(Θ, Q): aether expansion + condensate clock rate
+  shift charge  a^3(...) = Derivative(K(Derivative(phi(t), t)), Derivative(phi(t), t)) - Derivative(f(3*Derivative(a(t), t)/a(t), Derivative(phi(t), t)), Derivative(phi(t), t))    conserved: True
+  energy constraint  ->  3H^2 = -K(Derivative(phi(t), t)) + f(3*Derivative(a(t), t)/a(t), Derivative(phi(t), t)) + Derivative(K(Derivative(phi(t), t)), Derivative(phi(t), t))*Derivative(phi(t), t) - Derivative(f(3*Derivative(a(t), t)/a(t), Derivative(phi(t), t)), Derivative(phi(t), t))*Derivative(phi(t), t) - 3*Derivative(a(t), t)*Subs(Derivative(f(_xi_1, Derivative(phi(t), t)), _xi_1), _xi_1, 3*Derivative(a(t), t)/a(t))/a(t)
+
+== U = V(φ): potential of AeST's scalar clock
+  shift charge  a^3(...) = Derivative(K(Derivative(phi(t), t)), Derivative(phi(t), t))    conserved: False
+  energy constraint  ->  3H^2 = -K(Derivative(phi(t), t)) + V(phi(t)) + Derivative(K(Derivative(phi(t), t)), Derivative(phi(t), t))*Derivative(phi(t), t)
+
+Reading the results:
+ f(Θ):   charge = a^3 K'(Q) is conserved and contains only K -> condensate keeps ρ_c ∝ a^-3 exactly (no exchange);
+         dark energy ρ_DE = f - Θ f'(Θ) depends on H alone  ->  ρ ∝ H^-β type (excluded by data: Δχ² +39.5 at β=½).
+ f(Θ,Q): charge = a^3 (K' - f_Q): shared between condensate and dark energy -> exchange; and Θ -> 0 inside galaxies (singular for ȧ^-β).
+ V(φ):   shift symmetry broken by V: d(a^3 K')/dt = -a^3 V'(φ) -> exchange; locally regular (φ ≈ Q0 t everywhere).
