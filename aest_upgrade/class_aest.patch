@@ -1,5 +1,5 @@
 diff --git a/include/background.h b/include/background.h
-index fe4d42d..c128da0 100644
+index fe4d42d..729ea6b 100644
 --- a/include/background.h
 +++ b/include/background.h
 @@ -12,7 +12,7 @@
@@ -11,15 +11,18 @@ index fe4d42d..c128da0 100644
  
  
  /** list of possible parametrizations of the varying fundamental constants */
-@@ -111,6 +111,7 @@ struct background
+@@ -111,6 +111,10 @@ struct background
    double wa_fld;   /**< \f$ wa_{DE} \f$: fluid equation of state parameter derivative */
    double cs2_fld;  /**< \f$ c^2_{s~DE} \f$: sound speed of the fluid in the frame comoving with the fluid (so, this is
                        not [delta p/delta rho] in the synchronous or newtonian gauge!) */
-+  double aest_KB, aest_K2, aest_Q0, aest_Z0, aest_I0; /**< AeST (Skordis & Zlosnik 2021) Cosh-function dark sector as a fluid */
++  double aest_KB, aest_K2, aest_Q0, aest_Z0, aest_I0;
++  double aest_de_beta; /**< dark energy rho_L ∝ (aH)^-beta (0 = cosmological constant) */
++  double aest_de_fac;  /**< normalisation, shot so that H(today)=H0 */
++  short aest_exchange; /**< energy exchange between this dark energy and the AeST condensate */ /**< AeST (Skordis & Zlosnik 2021) Cosh-function dark sector as a fluid */
    double Omega_EDE;        /**< \f$ wa_{DE} \f$: Early Dark Energy density parameter */
    double * scf_parameters; /**< list of parameters describing the scalar field potential */
    short attractor_ic_scf;  /**< whether the scalar field has attractor initial conditions */
-@@ -413,6 +414,8 @@ extern "C" {
+@@ -413,6 +417,8 @@ extern "C" {
                             double * pvecback
                             );
  
@@ -44,10 +47,44 @@ index a722e60..3c128e8 100644
    int index_pt_phi_scf;  /**< scalar field density */
    int index_pt_phi_prime_scf;  /**< scalar field velocity */
 diff --git a/source/background.c b/source/background.c
-index 87d60c6..369f5f3 100644
+index 87d60c6..2182af9 100644
 --- a/source/background.c
 +++ b/source/background.c
-@@ -661,6 +661,21 @@ int background_functions(
+@@ -530,7 +530,7 @@ int background_functions(
+   }
+ 
+   /* Lambda */
+-  if (pba->has_lambda == _TRUE_) {
++  if ((pba->has_lambda == _TRUE_) && (pba->aest_de_beta == 0.)) {
+     pvecback[pba->index_bg_rho_lambda] = pba->Omega0_lambda * pow(pba->H0,2);
+     rho_tot += pvecback[pba->index_bg_rho_lambda];
+     p_tot -= pvecback[pba->index_bg_rho_lambda];
+@@ -572,6 +572,24 @@ int background_functions(
+     rho_r += pvecback[pba->index_bg_rho_idr];
+   }
+ 
++  /* Grid-tension dark energy: rho_L = fac Omega_L H0^2 (aH/H0)^-beta, solved together with H (flat) */
++  if ((pba->has_lambda == _TRUE_) && (pba->aest_de_beta != 0.)) {
++    double C = pba->aest_de_fac*pba->Omega0_lambda*pow(pba->H0,2+pba->aest_de_beta)*pow(a,-pba->aest_de_beta);
++    double Hh = sqrt(rho_tot + pba->Omega0_lambda*pow(pba->H0,2)), f, df, rL, dlnH;
++    for (int it=0; it<100; it++) {
++      f = Hh*Hh - rho_tot - C*pow(Hh,-pba->aest_de_beta);
++      df = 2.*Hh + pba->aest_de_beta*C*pow(Hh,-pba->aest_de_beta-1.);
++      Hh -= f/df;
++      if (fabs(f/df) < 1.e-14*Hh) break;
++    }
++    rL = C*pow(Hh,-pba->aest_de_beta);
++    dlnH = -1.5*(rho_tot+p_tot)/(Hh*Hh);            /* d ln H / d ln a (Lambda-like term has rho+p=0) */
++    pvecback[pba->index_bg_rho_lambda] = rL;
++    rho_tot += rL;
++    p_tot -= rL;
++    dp_dloga += pba->aest_de_beta*rL*(1.+dlnH);      /* p = -rho_L, d rho_L/dloga = -beta rho_L (1 + dlnH) */
++  }
++
+   /** - compute expansion rate H from Friedmann equation: this is the
+       only place where the Friedmann equation is assumed. Remember
+       that densities are all expressed in units of \f$ [3c^2/8\pi G] \f$, ie
+@@ -661,6 +679,21 @@ int background_functions(
   * @return the error status
   */
  
@@ -69,7 +106,7 @@ index 87d60c6..369f5f3 100644
  int background_w_fld(
                       struct background * pba,
                       double a,
-@@ -702,6 +717,13 @@ int background_w_fld(
+@@ -702,6 +735,13 @@ int background_w_fld(
      // w_ede(a) taken from eq. (11) in 1706.00730
      *w_fld = - dOmega_ede_over_da*a/Omega_ede/3./(1.-Omega_ede)+a_eq/3./(a+a_eq);
      break;
@@ -83,7 +120,7 @@ index 87d60c6..369f5f3 100644
    }
  
  
-@@ -721,6 +743,14 @@ int background_w_fld(
+@@ -721,6 +761,14 @@ int background_w_fld(
        + dOmega_ede_over_da*dOmega_ede_over_da*a/3./(1.-Omega_ede)/(1.-Omega_ede)/Omega_ede
        + a_eq/3./(a+a_eq)/(a+a_eq);
      break;
@@ -98,7 +135,7 @@ index 87d60c6..369f5f3 100644
    }
  
    /** - finally, give the analytic solution of the following integral:
-@@ -740,6 +770,14 @@ int background_w_fld(
+@@ -740,6 +788,14 @@ int background_w_fld(
    case EDE:
      class_stop(pba->error_message,"EDE implementation not finished: to finish it, read the comments in background.c just before this line\n");
      break;
@@ -113,7 +150,37 @@ index 87d60c6..369f5f3 100644
    }
  
    /** note: of course you can generalise these formulas to anything,
-@@ -2098,6 +2136,8 @@ int background_solve(
+@@ -1959,7 +2015,13 @@ int background_solve(
+     break;
+   }
+ 
+-  /** - perform the integration */
++  /** - perform the integration (with shooting of the grid-tension dark-energy normalisation so that H(today) = H0) */
++  pba->aest_de_fac = 1.;
++  for (int shoot=0; shoot < ((pba->aest_de_beta != 0.) ? 12 : 1); shoot++) {
++  if (shoot > 0) {
++    class_call(background_initial_conditions(ppr,pba,pvecback,pvecback_integration,&(loga_ini)),
++               pba->error_message, pba->error_message);
++  }
+   class_call(generic_evolver(background_derivs,
+                              loga_ini,
+                              loga_final,
+@@ -1978,6 +2040,14 @@ int background_solve(
+                              pba->error_message),
+              pba->error_message,
+              pba->error_message);
++  if (pba->aest_de_beta != 0.) {
++    double H1, rL1, R1;
++    class_call(background_functions(pba, 1., pvecback_integration, normal_info, pvecback), pba->error_message, pba->error_message);
++    H1 = pvecback[pba->index_bg_H]; rL1 = pvecback[pba->index_bg_rho_lambda]; R1 = H1*H1 - rL1;
++    if (fabs(H1/pba->H0-1.) < 1.e-10) break;
++    pba->aest_de_fac *= (pba->H0*pba->H0 - R1)/rL1;
++  }
++  }
+ 
+   /** - recover some quantities today */
+   /* -> age in Gyears */
+@@ -2098,6 +2168,8 @@ int background_solve(
    pba->Omega0_nfsm =  pba->Omega0_b;
    if (pba->has_cdm == _TRUE_)
      pba->Omega0_nfsm += pba->Omega0_cdm;
@@ -122,11 +189,30 @@ index 87d60c6..369f5f3 100644
    if (pba->has_idm == _TRUE_)
      pba->Omega0_nfsm += pba->Omega0_idm;
    if (pba->has_dcdm == _TRUE_)
+@@ -2658,6 +2730,11 @@ int background_derivs(
+   if (pba->has_fld == _TRUE_) {
+     /** - Compute fld density \f$ d\rho/dloga = -3 (1+w_{fld}(a)) \rho \f$ */
+     dy[pba->index_bi_rho_fld] = -3.*(1.+pvecback[pba->index_bg_w_fld])*y[pba->index_bi_rho_fld];
++    if ((pba->fluid_equation_of_state == AEST) && (pba->aest_de_beta != 0.) && (pba->aest_exchange == _TRUE_)) {
++      double Hh = pvecback[pba->index_bg_H], rL = pvecback[pba->index_bg_rho_lambda];
++      double dlnH = -1.5*(pvecback[pba->index_bg_rho_tot]+pvecback[pba->index_bg_p_tot])/(Hh*Hh);
++      dy[pba->index_bi_rho_fld] -= -pba->aest_de_beta*rL*(1.+dlnH);   /* condensate gains what dark energy loses */
++    }
+   }
+ 
+   if (pba->has_scf == _TRUE_) {
 diff --git a/source/input.c b/source/input.c
-index d01e761..b30f405 100644
+index d01e761..56bf6ac 100644
 --- a/source/input.c
 +++ b/source/input.c
-@@ -3372,6 +3372,9 @@ int input_read_parameters_species(struct file_content * pfc,
+@@ -3368,10 +3368,16 @@ int input_read_parameters_species(struct file_content * pfc,
+     if (flag1 == _TRUE_) {
+       if ((strstr(string1,"CLP") != NULL) || (strstr(string1,"clp") != NULL)) {
+         pba->fluid_equation_of_state = CLP;
++  pba->aest_de_beta = 0.;
++  pba->aest_de_fac = 1.;
++  pba->aest_exchange = _FALSE_;
+       }
        else if ((strstr(string1,"EDE") != NULL) || (strstr(string1,"ede") != NULL)) {
          pba->fluid_equation_of_state = EDE;
        }
@@ -136,7 +222,7 @@ index d01e761..b30f405 100644
        else {
          class_stop(errmsg,"incomprehensible input '%s' for the field 'fluid_equation_of_state'",string1);
        }
-@@ -3384,6 +3387,23 @@ int input_read_parameters_species(struct file_content * pfc,
+@@ -3384,6 +3390,26 @@ int input_read_parameters_species(struct file_content * pfc,
        class_read_double("wa_fld",pba->wa_fld);
        class_read_double("cs2_fld",pba->cs2_fld);
      }
@@ -147,6 +233,9 @@ index d01e761..b30f405 100644
 +      class_read_double("aest_K2",pba->aest_K2);
 +      class_read_double("aest_Q0",pba->aest_Q0);
 +      class_read_double("aest_Z0",pba->aest_Z0);
++      class_read_double("aest_de_beta",pba->aest_de_beta);
++      class_call(parser_read_string(pfc,"aest_exchange",&string1,&flag1,errmsg),errmsg,errmsg);
++      if ((flag1 == _TRUE_) && (string_begins_with(string1,'y') || string_begins_with(string1,'Y'))) pba->aest_exchange = _TRUE_;
 +      pba->use_ppf = _FALSE_;
 +      target = 3.*pba->Omega0_fld*pba->H0*pba->H0;   /* 8 pi G rho today, 1/Mpc^2 */
 +      lo = -40.; hi = 10.;
@@ -161,7 +250,7 @@ index d01e761..b30f405 100644
        /** 8.a.2.3) Equation of state of the fluid in 'EDE' case */
        /* Read */
 diff --git a/source/perturbations.c b/source/perturbations.c
-index 8599f78..751bba6 100644
+index 8599f78..e28bd5f 100644
 --- a/source/perturbations.c
 +++ b/source/perturbations.c
 @@ -819,7 +819,10 @@ int perturbations_init(
@@ -269,7 +358,7 @@ index 8599f78..751bba6 100644
        }
        else {
          s2sq = ppw->s_l[2]*ppw->s_l[2];
-@@ -10795,6 +10840,27 @@ int perturbations_derivs(double tau,
+@@ -10795,6 +10840,34 @@ int perturbations_derivs(double tau,
          ca2 = w_fld - w_prime_fld / 3. / (1.+w_fld) / a_prime_over_a;
          cs2 = pba->cs2_fld;
  
@@ -287,6 +376,13 @@ index 8599f78..751bba6 100644
 +          psi_n = metric_euler/k2;
 +          dy[pv->index_pt_delta_fld] = -(1.+w_fld)*(y[pv->index_pt_theta_fld]+metric_continuity)
 +            - 3.*a_prime_over_a*(Pi - w_fld*y[pv->index_pt_delta_fld]);
++          if ((pba->aest_de_beta != 0.) && (pba->aest_exchange == _TRUE_)) {
++            /* homogeneous energy transfer along the condensate flow: delta' -= (Q/rho) delta, Q = -rho_L' */
++            double Hh = pvecback[pba->index_bg_H], rL = pvecback[pba->index_bg_rho_lambda];
++            double dlnH = -1.5*(pvecback[pba->index_bg_rho_tot]+pvecback[pba->index_bg_p_tot])/(Hh*Hh);
++            double drL = -pba->aest_de_beta*rL*(1.+dlnH);          /* d rho_L / d ln a */
++            dy[pv->index_pt_delta_fld] += a_prime_over_a*drL/pvecback[pba->index_bg_rho_fld]*y[pv->index_pt_delta_fld];
++          }
 +          dy[pv->index_pt_theta_fld] = -(1.-3.*c2a)*a_prime_over_a*y[pv->index_pt_theta_fld]
 +            + k2*Pi/(1.+w_fld) + metric_euler;
 +          dy[pv->index_pt_alpha_aest] = a*(E_a - psi_n);
@@ -297,7 +393,7 @@ index 8599f78..751bba6 100644
          /** - ----> fluid density */
  
          dy[pv->index_pt_delta_fld] =
-@@ -10808,6 +10874,7 @@ int perturbations_derivs(double tau,
+@@ -10808,6 +10881,7 @@ int perturbations_derivs(double tau,
            -(1.-3.*cs2)*a_prime_over_a*y[pv->index_pt_theta_fld]
            +cs2*k2/(1.+w_fld)*y[pv->index_pt_delta_fld]
            +metric_euler;
