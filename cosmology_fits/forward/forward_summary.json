@@ -10,6 +10,26 @@
   "sn": 1634.6009
  },
  {
+  "model": "grid, electron from energy budget +0.43% (\u03b2 law, self-consistent)",
+  "cmb": 791.75801,
+  "H0": 67.728931,
+  "Om": 0.31149140623105626,
+  "S8": 0.8292273328393893,
+  "age": 13.679317,
+  "bao": 10.782832,
+  "sn": 1630.1048
+ },
+ {
+  "model": "grid, electron from energy budget +1.12% (\u039b budget)",
+  "cmb": 791.78399,
+  "H0": 69.118173,
+  "Om": 0.3006591199941795,
+  "S8": 0.817231819767465,
+  "age": 13.529494,
+  "bao": 10.533108,
+  "sn": 1630.3686
+ },
+ {
   "model": "heavier electron only",
   "cmb": 792.51055,
   "H0": 69.486822,

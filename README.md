@@ -22,6 +22,7 @@ Every idea was turned into a calculation and compared with real measurements. Fa
 | "Mass beats tension" boundary for slack (no free number) | KiDS-1000, 4 mass bins | fits as well as a free fade (χ² 145.5 vs 150.7 without) |
 | Heavier electron at recombination (grid tension sets the constants) | Planck + ACT DR6 + DESI + DES | m_e = 1.0078 ± 0.0044, Δχ² −2.0 at +1%, H₀ ≈ 69–71; first Hubble route to survive ACT |
 | Electron relaxes after recombination, its lost energy becoming the grid tension (dark energy) | Planck + ACT DR6 + DESI + DES; BBN, quasars, FIRAS, τ | Switch at recombination excluded (Δχ² +117); switch after z ≈ 900 keeps the full effect; energy matches today's dark energy if the switch is at z ≈ 100–200. Prediction: 21-cm step at 7–15 MHz |
+| Forward from the Big Bang: CMB-only start, β = ½ and electron shift from the energy budget (nothing tuned to today) | Planck + ACT DR6 → predict DESI DR2 BAO, DES-Dovekie | Predicts today's distances better than ΛCDM: Δχ² ≈ −8 (BAO −3.5, SN −4.5); H₀ 67.7–69.1 |
 | Early stored stretch energy | Planck + ACT DR6 | rejected by ACT (Δχ² +13 at δ = 0.03) |
 | Five late-universe Hubble fixes | Pantheon+SH0ES, DESI, BBN | all ruled out (no-CMB H₀ = 68.6 ± 0.6) |
 

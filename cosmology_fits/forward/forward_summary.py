@@ -1,6 +1,6 @@
 import json,numpy as np
 P='/home/claude/fullfit/pact/'
-rows=[('ΛCDM','lcdm'),('heavier electron only','me'),('dark-energy law β=½ only','b05'),('full grid (β=½ + electron)','grid')]
+rows=[('ΛCDM','lcdm'),('grid, electron from energy budget +0.43% (β law, self-consistent)','gridE043'),('grid, electron from energy budget +1.12% (Λ budget)','gridE112'),('heavier electron only','me'),('dark-energy law β=½ only','b05'),('full grid (β=½ + electron)','grid')]
 full=json.load(open(P+'vc_me1.00.json'))   # ΛCDM fitted to everything, for reference
 print("reference ΛCDM fitted to all data: BAO χ²",round(full['parts'].get('chi2__bao.desi_dr2',0),1),"SN χ²",round(full['parts'].get('chi2__sn.desdovekie',0),1))
 out=[]
