@@ -7,6 +7,8 @@ tag = sys.argv[1]; start = json.loads(sys.argv[2]) if len(sys.argv) > 2 else {}
 beta = float(os.environ.get("AEST_BETA", 0)); ex = os.environ.get("AEST_EX", "no")
 extra = {"gauge": "newtonian", "non_linear": "halofit", "l_max_scalars": 7000, "N_ur": 2.0328, "N_ncdm": 1, "m_ncdm": 0.06,
          "omega_cdm": 0.0, "fluid_equation_of_state": "AEST", "use_ppf": "no",
+         **({"varying_fundamental_constants": "instantaneous", "varying_transition_redshift": float(os.environ.get("AEST_ZS", 138)),
+             "varying_me": float(os.environ["AEST_ME"])} if "AEST_ME" in os.environ else {}),
          "aest_KB": 0.5, "aest_K2": 7.5e3, "aest_Q0": 0.1, "aest_Z0": 1e-9, "aest_de_beta": beta, "aest_exchange": ex}
 def P(name, lo, hi, ref, prop): return {"prior": {"min": lo, "max": hi}, "ref": start.get(name, ref), "proposal": prop}
 params = {"logA": dict(P("logA", 2.9, 3.2, 3.05, 0.004), drop=True), "A_s": {"value": "lambda logA: 1e-10*np.exp(logA)"},
