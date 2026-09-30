@@ -1,0 +1,26 @@
+derived: H0 67.73, Ω_b 0.0494, Ω_x 0.2607, a0 = cH0/6 = 1.097e-10, switch z = 138
+σ(M) today: 1e+14: 1.020, 3e+14: 0.800, 1e+15: 0.595   σ8 = 0.818
+f 0.800: counts × 0.255 × 0.116 × 0.022 | pull ×1.04
+f 0.825: counts × 0.355 × 0.194 × 0.053 | pull ×1.06
+f 0.850: counts × 0.476 × 0.306 × 0.118 | pull ×1.08
+f 0.875: counts × 0.618 × 0.459 × 0.240 | pull ×1.10
+f 0.900: counts × 0.782 × 0.658 × 0.453 | pull ×1.12
+f 0.925: counts × 0.965 × 0.914 × 0.795 | pull ×1.14
+f 0.950: counts × 1.166 × 1.221 × 1.313 | pull ×1.16
+f 0.975: counts × 1.383 × 1.586 × 2.054 | pull ×1.18
+f 1.000: counts × 1.614 × 2.005 × 3.066 | pull ×1.20
+counts match (×1) at f = 0.930, 0.933, 0.936 (M = 1e14, 3e14, 1e15)
+per-cluster pull: median matches at f = 0.744; best shape fit at f = 0.445
+f=0.9 model/measured by g_bar: 1e-12:0.76 6e-12:0.85 3e-11:1.12 2e-10:1.95 1e-09:4.27
+counts tolerance from eROSITA ±1σ (σ8 ±1.2%): ×0.94 at 3e14
+counts tolerance from eROSITA ±1σ (σ8 ±1.2%): ×1.06 at 3e14
+
+SPARC rotation curves: predicted/measured pull (median) by strength of visible pull
+   f = 0.00 (slack only):  g_bar 1e-13..1e-12: 1.12   1e-12..1e-11: 1.01   1e-11..1e-10: 0.96   1e-10..1e-9: 0.97
+   f = 0.74 (slack + halo):  g_bar 1e-13..1e-12: 3.34   1e-12..1e-11: 2.23   1e-11..1e-10: 1.57   1e-10..1e-9: 1.15
+   f = 0.93 (slack + halo):  g_bar 1e-13..1e-12: 3.75   1e-12..1e-11: 2.49   1e-11..1e-10: 1.71   1e-10..1e-9: 1.20
+
+KiDS isolated lensing: predicted/measured pull (median) by strength of visible pull
+   f = 0.00 (slack only):  g_bar 1e-13..1e-12: 0.73   1e-12..1e-11: 0.90   1e-11..1e-10:   -    1e-10..1e-9:   - 
+   f = 0.74 (slack + halo):  g_bar 1e-13..1e-12: 3.59   1e-12..1e-11: 2.55   1e-11..1e-10:   -    1e-10..1e-9:   - 
+   f = 0.93 (slack + halo):  g_bar 1e-13..1e-12: 4.06   1e-12..1e-11: 2.85   1e-11..1e-10:   -    1e-10..1e-9:   - 
