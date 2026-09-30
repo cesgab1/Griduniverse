@@ -1,0 +1,22 @@
+KiDS: a0 for isolated galaxies vs all galaxies (incl. groups/crowded), same stellar-mass bins
+Caution: around non-isolated galaxies the neighbours' own mass adds lensing at large radii (weak pull) -> inner-only fit also shown
+
+  all radii
+  M* 10^8.5-10.3: isolated a0 1.40e-10 (1.20e-10-1.62e-10)   all 1.65e-10 (1.53e-10-1.77e-10)   ratio all/isolated 1.18
+  M* 10^10.3-10.6: isolated a0 2.03e-10 (1.83e-10-2.24e-10)   all 2.62e-10 (2.48e-10-2.75e-10)   ratio all/isolated 1.29
+  M* 10^10.6-10.8: isolated a0 1.99e-10 (1.82e-10-2.16e-10)   all 2.67e-10 (2.54e-10-2.79e-10)   ratio all/isolated 1.34
+  M* 10^10.8-11.0: isolated a0 1.98e-10 (1.84e-10-2.12e-10)   all 3.02e-10 (2.91e-10-3.14e-10)   ratio all/isolated 1.53
+
+  inner only (g_bar > 1e-12)
+  M* 10^8.5-10.3: isolated a0 1.79e-11 (5.03e-12-3.85e-11)   all 2.72e-11 (1.79e-11-3.83e-11)   ratio all/isolated 1.52
+  M* 10^10.3-10.6: isolated a0 1.08e-10 (7.84e-11-1.43e-10)   all 1.06e-10 (8.88e-11-1.24e-10)   ratio all/isolated 0.98
+  M* 10^10.6-10.8: isolated a0 1.39e-10 (1.10e-10-1.71e-10)   all 1.13e-10 (9.71e-11-1.30e-10)   ratio all/isolated 0.81
+  M* 10^10.8-11.0: isolated a0 1.55e-10 (1.30e-10-1.83e-10)   all 1.71e-10 (1.54e-10-1.89e-10)   ratio all/isolated 1.10
+
+SPARC: 141 galaxies, per-galaxy a0 vs outer rotation speed: Spearman ρ = +0.20 (p = 0.018); log a0 ∝ +0.35 log v
+   v 0-80 km/s:  38 galaxies, median a0 8.17e-11  (spread 0.40 dex)
+   v 80-150 km/s:  48 galaxies, median a0 1.32e-10  (spread 0.26 dex)
+   v 150-220 km/s:  35 galaxies, median a0 8.07e-11  (spread 0.23 dex)
+   v 220-400 km/s:  20 galaxies, median a0 1.59e-10  (spread 0.26 dex)
+Clusters (σ ~ 1000 km/s, v_c ~ 1400): behave as a0 ≈ 2.0e-9 (Tian+2024)
+   slope bootstrap: +0.35 ± 0.13; extrapolated to clusters (v 1400): ×2.4;  slope needed for ×18: 1.14
