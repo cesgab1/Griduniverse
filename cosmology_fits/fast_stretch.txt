@@ -1,0 +1,13 @@
+ΛCDM σ8 = 0.812
+c_s (km/s)  c_s²/c²     σ8     P(k)/P_CDM at k=0.05  0.1  0.2  0.5 h/Mpc   Jeans scale today (Mpc/h)
+    50      2.8e-08   0.806     1.00  1.00  0.99  0.92             5
+   100      1.1e-07   0.789     1.00  0.99  0.95  0.73            10
+   150      2.5e-07   0.763     0.99  0.97  0.89  0.48            15
+   240      6.4e-07   0.705     0.98  0.93  0.75  0.15            24
+   300      1.0e-06   0.661     0.97  0.89  0.63  0.05            30
+   540      3.2e-06   0.501     0.91  0.69  0.21  0.00            54
+  1000      1.1e-05   0.318     0.73  0.27  0.01  0.00           100
+
+needed window: galaxies (v_c 150-300 km/s) must NOT hold it -> c_s ≳ 300; clusters (σ ~ 1000) must -> c_s ≲ 1000
+limits on c_s²/c² (constant sound speed): CMB 3.2e-6 (99.7%; c_s < 540 km/s); CMB lensing + BAO + WiggleZ 0.2-0.63e-6 (95%; c_s < 130-240 km/s)
+measured σ8/S8 ≈ 0.77-0.83 (DES/KiDS/ACT lensing)

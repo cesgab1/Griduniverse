@@ -1,0 +1,9 @@
+ΛCDM {'bao': 16.950244607728763, 'sn': np.float64(1633.7786989252436), 'theta': np.float64(0.4701352697474434), 'H0': np.float64(68.06835609011847), 'tot': np.float64(1651.19907880272)}
+β=½  {'bao': 13.795194995434361, 'sn': np.float64(1630.229962739922), 'theta': np.float64(0.4636472352893053), 'H0': np.float64(67.13904404393563), 'tot': np.float64(1644.4888049706456)}
+α=0.02: 400/400 survive; Δχ² vs ΛCDM: best +59311.1, median +138550.4; share beating ΛCDM 0.0%, beating β=½ 0.0%
+α=0.05: 400/400 survive; Δχ² vs ΛCDM: best +6743.4, median +140232.9; share beating ΛCDM 0.0%, beating β=½ 0.0%
+α=0.1: 400/400 survive; Δχ² vs ΛCDM: best +6587.2, median +148296.9; share beating ΛCDM 0.0%, beating β=½ 0.0%
+α=0.15: 306/400 survive; Δχ² vs ΛCDM: best +3290.2, median +166720.6; share beating ΛCDM 0.0%, beating β=½ 0.0%
+α=0.2: 68/400 survive; Δχ² vs ΛCDM: best +1126.1, median +213831.2; share beating ΛCDM 0.0%, beating β=½ 0.0%
+α=0.3: 0/400 survive (negative Λ -> universe recollapses in every realisation)
+α=0.5: 0/400 survive (negative Λ -> universe recollapses in every realisation)
