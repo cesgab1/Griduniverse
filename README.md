@@ -26,6 +26,18 @@ Every idea was turned into a calculation and compared with real measurements. Fa
 | Early stored stretch energy | Planck + ACT DR6 | rejected by ACT (Δχ² +13 at δ = 0.03) |
 | Five late-universe Hubble fixes | Pantheon+SH0ES, DESI, BBN | all ruled out (no-CMB H₀ = 68.6 ± 0.6) |
 
+## Status (hostile review)
+
+This is a research program, not a unified theory. It has no single action. It needs a dark-matter-like ingredient in the CMB fits (100%) and in clusters (75–93%), but none in galaxies (~0%), and it has no relativistic formulation yet.
+
+What is original and testable here:
+- the dark-energy law ρ_DE ∝ ȧ^(−½);
+- the forward-from-the-Big-Bang prediction (about 2σ);
+- the electron-energy/dark-energy link, which predicts a 21-cm step at 5–26 MHz and a 0.4–1.1% early electron shift measurable by CMB-S4;
+- several empirical findings on a₀ and clusters.
+
+The rest is borrowed physics (credited below), tested-and-failed ideas (kept on record), or metaphor.
+
 ## Contents
 
 - **`camb_patches/`:** patches to [CAMB](https://github.com/cmbant/CAMB) (applied to the Sept 2026 master):
