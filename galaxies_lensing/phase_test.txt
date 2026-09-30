@@ -1,0 +1,70 @@
+SPARC (145 galaxies, outermost radii ~11 kpc): m_crit median 19.92 eV, 5th percentile 7.24 eV, min 6.14 eV
+KiDS isolated galaxies (lensing rotation curves):
+   mass bin 1: R=0.3 Mpc  v≈100 km/s  ρ≈6.9e-29 g/cm³  m_crit 3.41 eV
+   mass bin 1: R=1.0 Mpc  v≈153 km/s  ρ≈1.7e-29 g/cm³  m_crit 1.76 eV
+   mass bin 1: R=3.0 Mpc  v≈106 km/s  ρ≈2.5e-30 g/cm³  m_crit 1.43 eV
+   mass bin 2: R=0.3 Mpc  v≈201 km/s  ρ≈6.6e-28 g/cm³  m_crit 3.56 eV
+   mass bin 2: R=1.0 Mpc  v≈215 km/s  ρ≈4.8e-29 g/cm³  m_crit 1.76 eV
+   mass bin 2: R=3.0 Mpc  v≈107 km/s  ρ≈1.0e-43 g/cm³  m_crit 0.00 eV
+   mass bin 3: R=0.3 Mpc  v≈226 km/s  ρ≈9.7e-28 g/cm³  m_crit 3.59 eV
+   mass bin 3: R=1.0 Mpc  v≈227 km/s  ρ≈5.9e-29 g/cm³  m_crit 1.78 eV
+   mass bin 3: R=3.0 Mpc  v≈163 km/s  ρ≈1.0e-43 g/cm³  m_crit 0.00 eV
+   mass bin 4: R=0.3 Mpc  v≈221 km/s  ρ≈4.5e-28 g/cm³  m_crit 3.02 eV
+   mass bin 4: R=1.0 Mpc  v≈236 km/s  ρ≈8.1e-29 g/cm³  m_crit 1.87 eV
+   mass bin 4: R=3.0 Mpc  v≈187 km/s  ρ≈4.0e-30 g/cm³  m_crit 1.05 eV
+Clusters (NFW, where the cluster relation departs from the slack rule, 0.2-1.5 Mpc):
+   M200 5e+14: r=0.2 Mpc  σ≈680 km/s  ρ≈4.5e-26 g/cm³  m_crit 3.16 eV
+   M200 5e+14: r=0.5 Mpc  σ≈812 km/s  ρ≈8.0e-27 g/cm³  m_crit 1.80 eV
+   M200 5e+14: r=1.0 Mpc  σ≈837 km/s  ρ≈1.7e-27 g/cm³  m_crit 1.19 eV
+   M200 5e+14: r=1.5 Mpc  σ≈817 km/s  ρ≈6.1e-28 g/cm³  m_crit 0.94 eV
+   M200 1e+15: r=0.2 Mpc  σ≈808 km/s  ρ≈6.8e-26 g/cm³  m_crit 3.08 eV
+   M200 1e+15: r=0.5 Mpc  σ≈1023 km/s  ρ≈1.4e-26 g/cm³  m_crit 1.75 eV
+   M200 1e+15: r=1.0 Mpc  σ≈1107 km/s  ρ≈3.4e-27 g/cm³  m_crit 1.15 eV
+   M200 1e+15: r=1.5 Mpc  σ≈1111 km/s  ρ≈1.3e-27 g/cm³  m_crit 0.90 eV
+   M200 2e+15: r=0.2 Mpc  σ≈883 km/s  ρ≈8.3e-26 g/cm³  m_crit 3.04 eV
+   M200 2e+15: r=0.5 Mpc  σ≈1154 km/s  ρ≈1.9e-26 g/cm³  m_crit 1.72 eV
+   M200 2e+15: r=1.0 Mpc  σ≈1286 km/s  ρ≈4.9e-27 g/cm³  m_crit 1.13 eV
+   M200 2e+15: r=1.5 Mpc  σ≈1313 km/s  ρ≈2.0e-27 g/cm³  m_crit 0.88 eV
+Groups (NFW M200 1e13-1e14, r = 0.1-0.2 Mpc, must stay coherent):
+   M200 1e+13: r=0.1 Mpc σ≈244 km/s  m_crit 5.32 eV
+   M200 1e+13: r=0.2 Mpc σ≈244 km/s  m_crit 3.53 eV
+   M200 3e+13: r=0.1 Mpc σ≈324 km/s  m_crit 5.17 eV
+   M200 3e+13: r=0.2 Mpc σ≈346 km/s  m_crit 3.40 eV
+   M200 1e+14: r=0.1 Mpc σ≈416 km/s  m_crit 5.04 eV
+   M200 1e+14: r=0.2 Mpc σ≈479 km/s  m_crit 3.29 eV
+
+Need m < 1.76 eV (galaxies, incl. KiDS to 1 Mpc), m < 3.29 eV (groups), and m > 3.16 eV (clusters, all radii 0.2-1.5 Mpc)
+NO window
+
+Relaxed: coherent galaxies to 0.3 Mpc & groups to 0.2 Mpc -> m < 3.02 eV; melted cluster outskirts (>=1 Mpc) -> m > 1.19 eV
+window: 1.19-3.02 eV
+
+m = 2.0 eV: phase-switch radius (inside coherent, outside melted)
+   halo M200 1e+13 (σ≈234 km/s): switch at 0.56 Mpc
+   halo M200 1e+14 (σ≈499 km/s): switch at 0.46 Mpc
+   halo M200 5e+14 (σ≈750 km/s): switch at 0.42 Mpc
+   halo M200 1e+15 (σ≈912 km/s): switch at 0.41 Mpc
+   KiDS isolated galaxies bin 1: switch at 0.22 Mpc
+   KiDS isolated galaxies bin 2: switch at 1.04 Mpc
+   KiDS isolated galaxies bin 3: switch at 1.04 Mpc
+   KiDS isolated galaxies bin 4: switch at 1.04 Mpc
+
+m = 2.5 eV: phase-switch radius (inside coherent, outside melted)
+   halo M200 1e+13 (σ≈234 km/s): switch at 0.37 Mpc
+   halo M200 1e+14 (σ≈499 km/s): switch at 0.32 Mpc
+   halo M200 5e+14 (σ≈750 km/s): switch at 0.30 Mpc
+   halo M200 1e+15 (σ≈912 km/s): switch at 0.28 Mpc
+   KiDS isolated galaxies bin 1: switch at 0.22 Mpc
+   KiDS isolated galaxies bin 2: switch at 0.56 Mpc
+   KiDS isolated galaxies bin 3: switch at 0.76 Mpc
+   KiDS isolated galaxies bin 4: switch at 0.56 Mpc
+
+m = 3.0 eV: phase-switch radius (inside coherent, outside melted)
+   halo M200 1e+13 (σ≈234 km/s): switch at 0.27 Mpc
+   halo M200 1e+14 (σ≈499 km/s): switch at 0.24 Mpc
+   halo M200 5e+14 (σ≈750 km/s): switch at 0.22 Mpc
+   halo M200 1e+15 (σ≈912 km/s): switch at 0.21 Mpc
+   KiDS isolated galaxies bin 1: switch at 0.22 Mpc
+   KiDS isolated galaxies bin 2: switch at 0.41 Mpc
+   KiDS isolated galaxies bin 3: switch at 0.41 Mpc
+   KiDS isolated galaxies bin 4: switch at 0.30 Mpc
