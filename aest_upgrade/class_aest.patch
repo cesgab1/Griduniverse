@@ -1,0 +1,307 @@
+diff --git a/include/background.h b/include/background.h
+index fe4d42d..c128da0 100644
+--- a/include/background.h
++++ b/include/background.h
+@@ -12,7 +12,7 @@
+ 
+ /** list of possible parametrisations of the DE equation of state */
+ 
+-enum equation_of_state {CLP,EDE};
++enum equation_of_state {CLP,EDE,AEST};
+ 
+ 
+ /** list of possible parametrizations of the varying fundamental constants */
+@@ -111,6 +111,7 @@ struct background
+   double wa_fld;   /**< \f$ wa_{DE} \f$: fluid equation of state parameter derivative */
+   double cs2_fld;  /**< \f$ c^2_{s~DE} \f$: sound speed of the fluid in the frame comoving with the fluid (so, this is
+                       not [delta p/delta rho] in the synchronous or newtonian gauge!) */
++  double aest_KB, aest_K2, aest_Q0, aest_Z0, aest_I0; /**< AeST (Skordis & Zlosnik 2021) Cosh-function dark sector as a fluid */
+   double Omega_EDE;        /**< \f$ wa_{DE} \f$: Early Dark Energy density parameter */
+   double * scf_parameters; /**< list of parameters describing the scalar field potential */
+   short attractor_ic_scf;  /**< whether the scalar field has attractor initial conditions */
+@@ -413,6 +414,8 @@ extern "C" {
+                            double * pvecback
+                            );
+ 
++  int background_aest(struct background * pba, double a, double * Q, double * K, double * Kp, double * Kpp);
++
+   int background_w_fld(
+                        struct background * pba,
+                        double a,
+diff --git a/include/perturbations.h b/include/perturbations.h
+index a722e60..3c128e8 100644
+--- a/include/perturbations.h
++++ b/include/perturbations.h
+@@ -545,7 +545,9 @@ struct perturbations_vector
+   int index_pt_delta_dcdm; /**< dcdm density */
+   int index_pt_theta_dcdm; /**< dcdm velocity */
+   int index_pt_delta_fld;  /**< dark energy density in true fluid case */
+-  int index_pt_theta_fld;  /**< dark energy velocity in true fluid case */
++  int index_pt_theta_fld;
++  int index_pt_alpha_aest; /**< AeST vector perturbation alpha (A_i = d_i alpha), Mpc */
++  int index_pt_E_aest;     /**< AeST E = alpha_dot + Psi */  /**< dark energy velocity in true fluid case */
+   int index_pt_Gamma_fld;  /**< unique dark energy dynamical variable in PPF case */
+   int index_pt_phi_scf;  /**< scalar field density */
+   int index_pt_phi_prime_scf;  /**< scalar field velocity */
+diff --git a/source/background.c b/source/background.c
+index 87d60c6..369f5f3 100644
+--- a/source/background.c
++++ b/source/background.c
+@@ -661,6 +661,21 @@ int background_functions(
+  * @return the error status
+  */
+ 
++
++/** AeST dark sector, Cosh function K = 2 K2 Z0^2 [cosh(Z)-1], Z=(Q-Q0)/Z0, with dK/dQ = I0/a^3 (shift-symmetric solution).
++    Units: Q, Q0, Z0 in 1/Mpc (cosmic-time derivative), K in 1/Mpc^2. 8 pi G rho = Q K' - K, 8 pi G P = K. */
++int background_aest(struct background * pba, double a, double * Q, double * K, double * Kp, double * Kpp) {
++  double aa = MAX(a,1.e-30);
++  double s = pba->aest_I0/(2.*pba->aest_K2*pba->aest_Z0*aa*aa*aa);
++  double Z = asinh(s);
++  *Q = pba->aest_Q0 + pba->aest_Z0*Z;
++  *Kp = pba->aest_I0/(aa*aa*aa);
++  *Kpp = 2.*pba->aest_K2*sqrt(1.+s*s);
++  /* cosh(Z)-1 computed stably */
++  *K = 2.*pba->aest_K2*pba->aest_Z0*pba->aest_Z0*(s*s/(sqrt(1.+s*s)+1.));
++  return _SUCCESS_;
++}
++
+ int background_w_fld(
+                      struct background * pba,
+                      double a,
+@@ -702,6 +717,13 @@ int background_w_fld(
+     // w_ede(a) taken from eq. (11) in 1706.00730
+     *w_fld = - dOmega_ede_over_da*a/Omega_ede/3./(1.-Omega_ede)+a_eq/3./(a+a_eq);
+     break;
++  case AEST:
++    {
++      double Q,K,Kp,Kpp;
++      background_aest(pba,a,&Q,&K,&Kp,&Kpp);
++      *w_fld = K/(Q*Kp-K);
++    }
++    break;
+   }
+ 
+ 
+@@ -721,6 +743,14 @@ int background_w_fld(
+       + dOmega_ede_over_da*dOmega_ede_over_da*a/3./(1.-Omega_ede)/(1.-Omega_ede)/Omega_ede
+       + a_eq/3./(a+a_eq)/(a+a_eq);
+     break;
++  case AEST:
++    {
++      double Q,K,Kp,Kpp, aa=MAX(a,1.e-30), h=1.e-4*aa, w1, w2;
++      background_aest(pba,aa+h,&Q,&K,&Kp,&Kpp); w2 = K/(Q*Kp-K);
++      background_aest(pba,aa-h,&Q,&K,&Kp,&Kpp); w1 = K/(Q*Kp-K);
++      *dw_over_da_fld = (w2-w1)/(2.*h);
++    }
++    break;
+   }
+ 
+   /** - finally, give the analytic solution of the following integral:
+@@ -740,6 +770,14 @@ int background_w_fld(
+   case EDE:
+     class_stop(pba->error_message,"EDE implementation not finished: to finish it, read the comments in background.c just before this line\n");
+     break;
++  case AEST:
++    {
++      double Q,K,Kp,Kpp,r1,ra;
++      background_aest(pba,1.,&Q,&K,&Kp,&Kpp); r1 = Q*Kp-K;
++      background_aest(pba,a,&Q,&K,&Kp,&Kpp); ra = Q*Kp-K;
++      *integral_fld = log(ra/r1);
++    }
++    break;
+   }
+ 
+   /** note: of course you can generalise these formulas to anything,
+@@ -2098,6 +2136,8 @@ int background_solve(
+   pba->Omega0_nfsm =  pba->Omega0_b;
+   if (pba->has_cdm == _TRUE_)
+     pba->Omega0_nfsm += pba->Omega0_cdm;
++  if ((pba->has_fld == _TRUE_) && (pba->fluid_equation_of_state == AEST))
++    pba->Omega0_nfsm += pba->Omega0_fld;   /* AeST condensate: non-free-streaming matter (used by HyRec) */
+   if (pba->has_idm == _TRUE_)
+     pba->Omega0_nfsm += pba->Omega0_idm;
+   if (pba->has_dcdm == _TRUE_)
+diff --git a/source/input.c b/source/input.c
+index d01e761..b30f405 100644
+--- a/source/input.c
++++ b/source/input.c
+@@ -3372,6 +3372,9 @@ int input_read_parameters_species(struct file_content * pfc,
+       else if ((strstr(string1,"EDE") != NULL) || (strstr(string1,"ede") != NULL)) {
+         pba->fluid_equation_of_state = EDE;
+       }
++      else if ((strstr(string1,"AEST") != NULL) || (strstr(string1,"aest") != NULL)) {
++        pba->fluid_equation_of_state = AEST;
++      }
+       else {
+         class_stop(errmsg,"incomprehensible input '%s' for the field 'fluid_equation_of_state'",string1);
+       }
+@@ -3384,6 +3387,23 @@ int input_read_parameters_species(struct file_content * pfc,
+       class_read_double("wa_fld",pba->wa_fld);
+       class_read_double("cs2_fld",pba->cs2_fld);
+     }
++    if (pba->fluid_equation_of_state == AEST) {
++      /** AeST dark sector (Cosh function): fix I0 so that today's density matches Omega_fld */
++      double lo, hi, mid, Q, K, Kp, Kpp, target;
++      class_read_double("aest_KB",pba->aest_KB);
++      class_read_double("aest_K2",pba->aest_K2);
++      class_read_double("aest_Q0",pba->aest_Q0);
++      class_read_double("aest_Z0",pba->aest_Z0);
++      pba->use_ppf = _FALSE_;
++      target = 3.*pba->Omega0_fld*pba->H0*pba->H0;   /* 8 pi G rho today, 1/Mpc^2 */
++      lo = -40.; hi = 10.;
++      for (int it=0; it<200; it++) {
++        mid = 0.5*(lo+hi); pba->aest_I0 = pow(10.,mid);
++        background_aest(pba,1.,&Q,&K,&Kp,&Kpp);
++        if (Q*Kp-K > target) hi = mid; else lo = mid;
++      }
++      pba->aest_I0 = pow(10.,0.5*(lo+hi));
++    }
+     if (pba->fluid_equation_of_state == EDE) {
+       /** 8.a.2.3) Equation of state of the fluid in 'EDE' case */
+       /* Read */
+diff --git a/source/perturbations.c b/source/perturbations.c
+index 8599f78..751bba6 100644
+--- a/source/perturbations.c
++++ b/source/perturbations.c
+@@ -819,7 +819,10 @@ int perturbations_init(
+     class_call(background_w_fld(pba, 0., &w_fld_ini, &dw_over_da_fld, &integral_fld), pba->error_message, ppt->error_message);
+     class_call(background_w_fld(pba, 1.,   &w_fld_0, &dw_over_da_fld, &integral_fld), pba->error_message, ppt->error_message);
+ 
+-    class_test(w_fld_ini >= 0.,
++    class_test((pba->fluid_equation_of_state == AEST) && (ppt->gauge != newtonian),
++               ppt->error_message,
++               "AeST dark sector is implemented in the Newtonian gauge only (Skordis & Zlosnik 2021, eqs. 7-12): set gauge = newtonian");
++    class_test((w_fld_ini >= 0.) && (pba->fluid_equation_of_state != AEST),
+                ppt->error_message,
+                "The fluid is meant to be negligible at early time, and unimportant for defining the initial conditions of other species. You are using parameters for which this assumption may break down, since at early times you have w_fld(a--->0) = %e >= 0",w_fld_ini);
+ 
+@@ -4075,6 +4078,8 @@ int perturbations_vector_init(
+     if (pba->use_ppf == _FALSE_) {
+       class_define_index(ppv->index_pt_delta_fld,pba->has_fld,index_pt,1); /* fluid density */
+       class_define_index(ppv->index_pt_theta_fld,pba->has_fld,index_pt,1); /* fluid velocity */
++      class_define_index(ppv->index_pt_alpha_aest,(pba->has_fld && pba->fluid_equation_of_state==AEST),index_pt,1);
++      class_define_index(ppv->index_pt_E_aest,(pba->has_fld && pba->fluid_equation_of_state==AEST),index_pt,1);
+     }
+     else {
+       class_define_index(ppv->index_pt_Gamma_fld,pba->has_fld,index_pt,1); /* Gamma variable of PPF scheme */
+@@ -4724,6 +4729,10 @@ int perturbations_vector_init(
+ 
+           ppv->y[ppv->index_pt_theta_fld] =
+             ppw->pv->y[ppw->pv->index_pt_theta_fld];
++          if (pba->fluid_equation_of_state == AEST) {
++            ppv->y[ppv->index_pt_alpha_aest] = ppw->pv->y[ppw->pv->index_pt_alpha_aest];
++            ppv->y[ppv->index_pt_E_aest] = ppw->pv->y[ppw->pv->index_pt_E_aest];
++          }
+         }
+         else {
+           ppv->y[ppv->index_pt_Gamma_fld] =
+@@ -5812,6 +5821,9 @@ int perturbations_initial_conditions(struct precision * ppr,
+   if (pba->has_dcdm == _TRUE_) {
+     rho_m += ppw->pvecback[pba->index_bg_rho_dcdm];
+   }
++  if ((pba->has_fld == _TRUE_) && (pba->fluid_equation_of_state == AEST)) {
++    rho_m += ppw->pvecback[pba->index_bg_rho_fld];   /* AeST condensate is matter-like at early times */
++  }
+   if (pba->has_dr == _TRUE_) {
+     rho_r += ppw->pvecback[pba->index_bg_rho_dr];
+     rho_nu += ppw->pvecback[pba->index_bg_rho_dr];
+@@ -5941,7 +5953,14 @@ int perturbations_initial_conditions(struct precision * ppr,
+ 
+         class_call(background_w_fld(pba,a,&w_fld,&dw_over_da_fld,&integral_fld), pba->error_message, ppt->error_message);
+ 
+-        if (pba->use_ppf == _FALSE_) {
++        if ((pba->use_ppf == _FALSE_) && (pba->fluid_equation_of_state == AEST)) {
++          /* AeST condensate behaves as dust: adiabatic, like CDM in synchronous gauge */
++          ppw->pv->y[ppw->pv->index_pt_delta_fld] = 3./4.*ppw->pv->y[ppw->pv->index_pt_delta_g];
++          ppw->pv->y[ppw->pv->index_pt_theta_fld] = 0.;
++          ppw->pv->y[ppw->pv->index_pt_alpha_aest] = 0.;
++          ppw->pv->y[ppw->pv->index_pt_E_aest] = 0.;
++        }
++        else if (pba->use_ppf == _FALSE_) {
+           ppw->pv->y[ppw->pv->index_pt_delta_fld] = - ktau_two/4.*(1.+w_fld)*(4.-3.*pba->cs2_fld)/(4.-6.*w_fld+3.*pba->cs2_fld) * ppr->curvature_ini * s2_squared; /* from 1004.5509 */ //TBC: curvature
+ 
+           ppw->pv->y[ppw->pv->index_pt_theta_fld] = - k*ktau_three/4.*pba->cs2_fld/(4.-6.*w_fld+3.*pba->cs2_fld) * ppr->curvature_ini * s2_squared; /* from 1004.5509 */ //TBC:curvature
+@@ -6175,6 +6194,10 @@ int perturbations_initial_conditions(struct precision * ppr,
+         delta_cdm += ppw->pvecback[pba->index_bg_rho_dcdm] * ppw->pv->y[ppw->pv->index_pt_delta_dcdm];
+         rho_cdm += ppw->pvecback[pba->index_bg_rho_dcdm];
+       }
++      if ((pba->has_fld == _TRUE_) && (pba->fluid_equation_of_state == AEST)) {
++        delta_cdm += ppw->pvecback[pba->index_bg_rho_fld] * ppw->pv->y[ppw->pv->index_pt_delta_fld];
++        rho_cdm += ppw->pvecback[pba->index_bg_rho_fld];
++      }
+ 
+ 
+       if (rho_cdm > 0 ) {
+@@ -7638,6 +7661,19 @@ int perturbations_total_stress_energy(
+       }
+     }
+ 
++    /* AeST condensate counted as matter in delta_m / theta_m (its Einstein-equation contribution is added in the fld block) */
++    if ((pba->has_fld == _TRUE_) && (pba->fluid_equation_of_state == AEST)) {
++      if (ppt->has_source_delta_m == _TRUE_) {
++        delta_rho_m += ppw->pvecback[pba->index_bg_rho_fld]*y[ppw->pv->index_pt_delta_fld];
++        rho_m += ppw->pvecback[pba->index_bg_rho_fld];
++      }
++      if ((ppt->has_source_delta_m == _TRUE_) || (ppt->has_source_theta_m == _TRUE_)) {
++        if (ppt->gauge == newtonian)
++          rho_plus_p_theta_m += ppw->pvecback[pba->index_bg_rho_fld]*y[ppw->pv->index_pt_theta_fld];
++        rho_plus_p_m += ppw->pvecback[pba->index_bg_rho_fld];
++      }
++    }
++
+     /* idm contribution */
+     if (pba->has_idm == _TRUE_) {
+       ppw->delta_rho += ppw->pvecback[pba->index_bg_rho_idm]*y[ppw->pv->index_pt_delta_idm];
+@@ -7861,6 +7897,15 @@ int perturbations_total_stress_energy(
+         ca2_fld = w_fld - w_prime_fld / 3. / (1.+w_fld) / a_prime_over_a;
+         /** We must gauge transform the pressure perturbation from the fluid rest-frame to the gauge we are working in */
+         ppw->delta_p_fld = pba->cs2_fld * ppw->delta_rho_fld + (pba->cs2_fld-ca2_fld)*(3*a_prime_over_a*ppw->rho_plus_p_theta_fld/k/k);
++        if (pba->fluid_equation_of_state == AEST) {
++          double Qa,Ka,Kpa,Kppa, c2a, thp, chi, Sx;
++          background_aest(pba,a,&Qa,&Ka,&Kpa,&Kppa);
++          c2a = Kpa/(Qa*Kppa);
++          thp = a*y[ppw->pv->index_pt_theta_fld]/k/k;                 /* paper's velocity potential (cosmic time) */
++          chi = Qa*(thp + y[ppw->pv->index_pt_alpha_aest]);
++          Sx = pba->aest_KB*y[ppw->pv->index_pt_E_aest] + (2.-pba->aest_KB)*chi;
++          ppw->delta_p_fld = ppw->pvecback[pba->index_bg_rho_fld]*c2a*(y[ppw->pv->index_pt_delta_fld] + k*k*Sx/(3.*a*a*ppw->pvecback[pba->index_bg_rho_fld]));
++        }
+       }
+       else {
+         s2sq = ppw->s_l[2]*ppw->s_l[2];
+@@ -10795,6 +10840,27 @@ int perturbations_derivs(double tau,
+         ca2 = w_fld - w_prime_fld / 3. / (1.+w_fld) / a_prime_over_a;
+         cs2 = pba->cs2_fld;
+ 
++        if (pba->fluid_equation_of_state == AEST) {
++          /* Skordis & Zlosnik 2021 eqs. (9)-(12), converted to conformal time; theta_class = k^2 theta_paper / a */
++          double Qa,Ka,Kpa,Kppa, c2a, thp, chi, Sx, Pi, Hc, alpha_a, E_a, psi_n;
++          background_aest(pba,a,&Qa,&Ka,&Kpa,&Kppa);
++          c2a = Kpa/(Qa*Kppa);
++          Hc = a_prime_over_a/a;                      /* cosmic-time H */
++          alpha_a = y[pv->index_pt_alpha_aest]; E_a = y[pv->index_pt_E_aest];
++          thp = a*y[pv->index_pt_theta_fld]/k2;
++          chi = Qa*(thp + alpha_a);
++          Sx = pba->aest_KB*E_a + (2.-pba->aest_KB)*chi;
++          Pi = c2a*(y[pv->index_pt_delta_fld] + k2*Sx/(3.*a*a*pvecback[pba->index_bg_rho_fld]));
++          psi_n = metric_euler/k2;
++          dy[pv->index_pt_delta_fld] = -(1.+w_fld)*(y[pv->index_pt_theta_fld]+metric_continuity)
++            - 3.*a_prime_over_a*(Pi - w_fld*y[pv->index_pt_delta_fld]);
++          dy[pv->index_pt_theta_fld] = -(1.-3.*c2a)*a_prime_over_a*y[pv->index_pt_theta_fld]
++            + k2*Pi/(1.+w_fld) + metric_euler;
++          dy[pv->index_pt_alpha_aest] = a*(E_a - psi_n);
++          dy[pv->index_pt_E_aest] = -a_prime_over_a*E_a + a/pba->aest_KB*( Kpa*chi
++            - (2.-pba->aest_KB)*( Qa*Pi/(1.+w_fld) + (Hc + Qa)*chi - 3.*c2a*Hc*Qa*alpha_a ) );
++        }
++        else {
+         /** - ----> fluid density */
+ 
+         dy[pv->index_pt_delta_fld] =
+@@ -10808,6 +10874,7 @@ int perturbations_derivs(double tau,
+           -(1.-3.*cs2)*a_prime_over_a*y[pv->index_pt_theta_fld]
+           +cs2*k2/(1.+w_fld)*y[pv->index_pt_delta_fld]
+           +metric_euler;
++        }
+       }
+       else {
+         dy[pv->index_pt_Gamma_fld] = ppw->Gamma_prime_fld; /* Gamma variable of PPF formalism */
