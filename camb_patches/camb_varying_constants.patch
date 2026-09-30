@@ -1,0 +1,188 @@
+diff --git a/fortran/gboost.f90 b/fortran/gboost.f90
+index aea4c64..ea31f18 100644
+--- a/fortran/gboost.f90
++++ b/fortran/gboost.f90
+@@ -4,6 +4,7 @@
+     use precision
+     implicit none
+     real(dl) :: gboost_delta = 0._dl, gboost_at = 1.e-4_dl
++    real(dl) :: vc_alpha = 1._dl, vc_me = 1._dl   ! fine-structure constant and electron mass at recombination / today
+     contains
+     function Gfac(a)
+     real(dl), intent(in) :: a
+@@ -30,4 +31,10 @@
+     gboost_delta = delta
+     gboost_at = at
+     end subroutine set_gboost
++    subroutine set_vconst(al, me) bind(C, name='set_vconst')
++    use iso_c_binding
++    real(c_double), value :: al, me
++    vc_alpha = al
++    vc_me = me
++    end subroutine set_vconst
+     end module GBoost
+diff --git a/fortran/recfast.f90 b/fortran/recfast.f90
+index 0105dfa..8bf82ba 100644
+--- a/fortran/recfast.f90
++++ b/fortran/recfast.f90
+@@ -321,8 +321,8 @@
+ 
+     real(dl), parameter :: B01 = 3*B10
+ 
+-    real(dl), parameter :: Lambda = 8.2245809d0
+-    real(dl), parameter :: Lambda_He = 51.3d0 ! new value from Dalgarno
++    real(dl), parameter :: Lambda_0 = 8.2245809d0
++    real(dl), parameter :: Lambda_He_0 = 51.3d0 ! new value from Dalgarno
+     real(dl), parameter :: L_H_ion = 1.096787737d7 ! level for H ion. (in m^-1)
+     real(dl), parameter :: L_H_alpha = 8.225916453d6 ! averaged over 2 levels
+     real(dl), parameter :: L_He1_ion = 1.98310772d7 ! from Drake (1993)
+@@ -331,8 +331,8 @@
+     real(dl), parameter :: L_He_2p = 1.71134891d7 ! from Drake (1993)
+     ! 2 photon rates and atomic levels in SI units
+ 
+-    real(dl), parameter :: A2P_s = 1.798287d9 ! Morton, Wu & Drake (2006)
+-    real(dl), parameter :: A2P_t = 177.58d0 ! Lach & Pachuski (2001)
++    real(dl), parameter :: A2P_s_0 = 1.798287d9 ! Morton, Wu & Drake (2006)
++    real(dl), parameter :: A2P_t_0 = 177.58d0 ! Lach & Pachuski (2001)
+     real(dl), parameter :: L_He_2Pt = 1.690871466d7 ! Drake & Morton (2007)
+     real(dl), parameter :: L_He_2St = 1.5985597526d7 ! Drake & Morton (2007)
+     real(dl), parameter :: L_He2St_ion = 3.8454693845d6 ! Drake & Morton (2007)
+@@ -341,27 +341,29 @@
+     ! Atomic data for HeI
+ 
+     ! Set up some constants so they don't have to be calculated later
+-    real(dl), parameter :: Lalpha = 1.d0/L_H_alpha
+-    real(dl), parameter :: Lalpha_He = 1.d0/L_He_2p
+-    real(dl), parameter :: DeltaB = h_P*c*(L_H_ion - L_H_alpha)
+-    real(dl), parameter :: CDB = DeltaB/k_B
+-    real(dl), parameter :: DeltaB_He = h_P*c*(L_He1_ion - L_He_2s) ! 2s, not 2p
+-    real(dl), parameter :: CDB_He = DeltaB_He/k_B
+-    real(dl), parameter :: CB1 = h_P*c*L_H_ion/k_B
+-    real(dl), parameter :: CB1_He1 = h_P*c*L_He1_ion/k_B ! ionization for HeI
+-    real(dl), parameter :: CB1_He2 = h_P*c*L_He2_ion/k_B ! ionization for HeII
+-    real(dl), parameter :: CR = const_twopi*(m_e/h_P)*(k_B/h_P)
+-    real(dl), parameter :: CK = Lalpha**3/(const_eightpi)
+-    real(dl), parameter :: CK_He = Lalpha_He**3/(const_eightpi)
+-    real(dl), parameter :: CL = c*h_P/(k_B*Lalpha)
+-    real(dl), parameter :: CL_He = c*h_P/(k_B/L_He_2s) ! comes from det.bal. of 2s-1s
+-    real(dl), parameter :: CT = Compton_CT/MPC_in_sec
+-
+-    real(dl), parameter :: Bfact = h_P*c*(L_He_2p - L_He_2s)/k_B
++    real(dl), parameter :: Lalpha_0 = 1.d0/L_H_alpha
++    real(dl), parameter :: Lalpha_He_0 = 1.d0/L_He_2p
++    real(dl), parameter :: DeltaB_0 = h_P*c*(L_H_ion - L_H_alpha)
++    real(dl), parameter :: CDB_0 = DeltaB_0/k_B
++    real(dl), parameter :: DeltaB_He_0 = h_P*c*(L_He1_ion - L_He_2s) ! 2s, not 2p
++    real(dl), parameter :: CDB_He_0 = DeltaB_He_0/k_B
++    real(dl), parameter :: CB1_0 = h_P*c*L_H_ion/k_B
++    real(dl), parameter :: CB1_He1_0 = h_P*c*L_He1_ion/k_B ! ionization for HeI
++    real(dl), parameter :: CB1_He2_0 = h_P*c*L_He2_ion/k_B ! ionization for HeII
++    real(dl), parameter :: CR_0 = const_twopi*(m_e/h_P)*(k_B/h_P)
++    real(dl), parameter :: CK_0 = Lalpha_0**3/(const_eightpi)
++    real(dl), parameter :: CK_He_0 = Lalpha_He_0**3/(const_eightpi)
++    real(dl), parameter :: CL_0 = c*h_P/(k_B*Lalpha_0)
++    real(dl), parameter :: CL_He_0 = c*h_P/(k_B/L_He_2s) ! comes from det.bal. of 2s-1s
++    real(dl), parameter :: CT_0 = Compton_CT/MPC_in_sec
++
++    real(dl), parameter :: Bfact_0 = h_P*c*(L_He_2p - L_He_2s)/k_B
+ 
+     !       Matter departs from radiation when t(Th) > H_frac * t(H)
+     !       choose some safely small number
+     real(dl), parameter :: H_frac = 1d-3
++    real(dl), save :: Lambda = Lambda_0, Lambda_He = Lambda_He_0, A2P_s = A2P_s_0, A2P_t = A2P_t_0, Lalpha = Lalpha_0, Lalpha_He = Lalpha_He_0, DeltaB = DeltaB_0, CDB = CDB_0, DeltaB_He = DeltaB_He_0, CDB_He = CDB_He_0, CB1 = CB1_0, CB1_He1 = CB1_He1_0, CB1_He2 = CB1_He2_0, CR = CR_0, CK = CK_0, CK_He = CK_He_0, CL = CL_0, CL_He = CL_He_0, CT = CT_0, Bfact = Bfact_0
++    real(dl), save :: vcE = 1._dl, vcRate = 1._dl
+ 
+     procedure(state_function), private :: dtauda
+ 
+@@ -597,6 +599,8 @@
+     procedure(TClassRungeKuttaDP45) :: RungeKuttaDP45
+     logical :: storage_ok, rosenbrock_handed_off, rosenbrock_ok
+ 
++    call Recfast_vc_update()
++
+     if (.not. allocated(this%Calc)) allocate(this%Calc)
+     Calc => this%Calc
+ 
+@@ -1242,22 +1246,22 @@
+     cr_tmat_32 = cr_tmat*sqrt(cr_tmat)
+ 
+     ! Get the radiative rates using PPQ fit, identical to Hummer's table
+-    theta = Tmat*1.d-4
++    theta = Tmat/vcE*1.d-4
+     log_theta = log(theta)
+     theta_d = exp(d_PPB*log_theta)
+     cpd = c_PPB*theta_d
+-    Rdown = 1.d-19*a_PPB*exp(b_PPB*log_theta)/(1._dl + cpd)
++    Rdown = vcRate*1.d-19*a_PPB*exp(b_PPB*log_theta)/(1._dl + cpd)
+     Rup = Rdown*cr_tmat_32*exp(-CDB*inv_Tmat)
+ 
+     ! calculate He using a fit to a Verner & Ferland type formula
+-    sq_0 = sqrt(Tmat/T_0)
+-    sq_1 = sqrt(Tmat/T_1)
++    sq_0 = sqrt(Tmat/vcE/T_0)
++    sq_1 = sqrt(Tmat/vcE/T_1)
+     one_plus_sq_0 = 1.d0 + sq_0
+     one_plus_sq_1 = 1.d0 + sq_1
+     log_one_plus_sq_0 = log(one_plus_sq_0)
+     log_one_plus_sq_1 = log(one_plus_sq_1)
+     ! typo here corrected by Wayne Hu and Savita Gahlaut
+-    Rdown_He = a_VF/sq_0*exp(-((1.d0 - b_VF)*log_one_plus_sq_0 &
++    Rdown_He = vcRate*a_VF/sq_0*exp(-((1.d0 - b_VF)*log_one_plus_sq_0 &
+         + (1.d0 + b_VF)*log_one_plus_sq_1))
+     Rup_He = 4.d0*Rdown_He*cr_tmat_32*exp(-CDB_He*inv_Tmat)
+     ! Avoid overflow (pointed out by Jacques Roland)
+@@ -1281,9 +1285,9 @@
+     end if
+ 
+     ! add the HeI part, using same T_0 and T_1 values
+-    Rdown_trip = a_trip/sq_0*exp(-((1.d0 - b_trip)*log_one_plus_sq_0 &
++    Rdown_trip = vcRate*a_trip/sq_0*exp(-((1.d0 - b_trip)*log_one_plus_sq_0 &
+         + (1.d0 + b_trip)*log_one_plus_sq_1))
+-    Rup_trip = Rdown_trip*exp(-h_P*c*L_He2St_ion/k_B*inv_Tmat)*cr_tmat_32*(4.d0/3.d0)
++    Rup_trip = Rdown_trip*exp(-vcE*h_P*c*L_He2St_ion/k_B*inv_Tmat)*cr_tmat_32*(4.d0/3.d0)
+     ! last factor here is the statistical weight
+ 
+     tauHe_s = 0._dl
+@@ -1337,7 +1341,7 @@
+         tauHe_t = A2P_t*n_He*(1.d0 - x_He)*3.d0
+         tauHe_t = tauHe_t/(const_eightpi*Hz*L_He_2Pt**3)
+         call EscapeProbabilityAndDerivative(tauHe_t, pHe_t, dpHe_t_dtau)
+-        CL_PSt = h_P*c*(L_He_2Pt - L_He_2St)/k_B
++        CL_PSt = vcE*h_P*c*(L_He_2Pt - L_He_2St)/k_B
+         EPSt = exp(-CL_PSt*inv_Tmat)
+         if (x_H > 0.99999d0) then
+             CfHe_t = A2P_t*pHe_t*EPSt
+@@ -1709,4 +1713,20 @@
+ 
+     end subroutine TRecfast_SelfPointer
+ 
++
++    subroutine Recfast_vc_update()
++    use GBoost
++    real(dl) :: E
++    E = vc_alpha**2*vc_me; vcE = E
++    Lambda = Lambda_0*vc_alpha**8*vc_me; Lambda_He = Lambda_He_0*vc_alpha**8*vc_me
++    A2P_s = A2P_s_0*vc_alpha**5*vc_me; A2P_t = A2P_t_0*vc_alpha**5*vc_me
++    Lalpha = Lalpha_0/E; Lalpha_He = Lalpha_He_0/E
++    DeltaB = DeltaB_0*E; CDB = CDB_0*E; DeltaB_He = DeltaB_He_0*E; CDB_He = CDB_He_0*E
++    CB1 = CB1_0*E; CB1_He1 = CB1_He1_0*E; CB1_He2 = CB1_He2_0*E
++    CR = CR_0*vc_me; CK = CK_0/E**3; CK_He = CK_He_0/E**3
++    CL = CL_0*E; CL_He = CL_He_0*E; Bfact = Bfact_0*E
++    CT = CT_0*vc_alpha**2/vc_me**3
++    vcRate = vc_alpha**2/vc_me**2
++    end subroutine Recfast_vc_update
++
+     end module Recombination
+diff --git a/fortran/results.f90 b/fortran/results.f90
+index 140f564..61c93a7 100644
+--- a/fortran/results.f90
++++ b/fortran/results.f90
+@@ -490,7 +490,7 @@
+ 
+         this%Nnow = this%CP%ombh2/h2*(1 - this%CP%Yhe)*this%grhocrit*c**2/kappa/m_H/Mpc**2
+ 
+-        this%akthom = sigma_thomson*this%Nnow*Mpc
++        this%akthom = sigma_thomson*this%Nnow*Mpc*vc_alpha**2/vc_me**2
+         ! sigma_T * (number density of protons now)
+ 
+         this%fHe = this%CP%Yhe/(mass_ratio_He_H*(1.d0 - this%CP%Yhe)) ! n_He_tot / n_H_tot

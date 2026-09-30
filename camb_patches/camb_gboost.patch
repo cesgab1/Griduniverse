@@ -1,0 +1,155 @@
+diff --git a/fortran/Makefile_main b/fortran/Makefile_main
+index e287ee9..2f16827 100644
+--- a/fortran/Makefile_main
++++ b/fortran/Makefile_main
+@@ -32,7 +32,7 @@ DLL_DIR ?= $(if $(CAMB_BUILD_DIR),$(CAMB_BUILD_DIR)/camb/Releaselib,Releaselib)
+ 
+ CAMBLIB       = libcamb.a
+ 
+-SOURCEFILES      = constants config classes MathUtils RungeKuttaDP45 DarkAge21cm \
++SOURCEFILES      = constants gboost config classes MathUtils RungeKuttaDP45 DarkAge21cm \
+ 	DarkEnergyInterface SourceWindows massive_neutrinos model results bessels \
+ 	hyperspherical_bessels hyperspherical_bessels_airy hyperspherical_bessels_smallnu hyperspherical_bessels_olver \
+         $(RECOMBINATION_FILES) $(DARKENERGY_FILES) equations \
+diff --git a/fortran/equations.f90 b/fortran/equations.f90
+index fd43bb4..2b47b1c 100755
+--- a/fortran/equations.f90
++++ b/fortran/equations.f90
+@@ -5,6 +5,7 @@
+     function dtauda(this, a)
+     use results
+     use DarkEnergyInterface
++    use GBoost
+     implicit none
+     class(CAMBdata) :: this
+     real(dl), intent(in) :: a
+@@ -13,7 +14,7 @@
+     call this%CP%DarkEnergy%BackgroundDensityAndPressure(this%grhov, a, grhov_t)
+ 
+     ! 8*pi*G*rho*a**4.
+-    grhoa2 = this%grho_no_de(a) + grhov_t*a**2
++    grhoa2 = (this%grho_no_de(a) + grhov_t*a**2)*Gfac(a)
+     if (grhoa2 <= 0) then
+         call GlobalError('Universe stops expanding before today (recollapse not supported)', error_unsupported_params)
+         dtauda = 0
+@@ -1958,7 +1959,7 @@
+     rhomass = sum(State%grhormass(1:CP%Nu_mass_eigenstates))
+     grhonu = rhomass + State%grhornomass
+ 
+-    om = (State%grhob + State%grhoc)/sqrt(3*(State%grhog + grhonu))
++    om = (State%grhob + State%grhoc)/sqrt(3*(State%grhog + grhonu))*sqrt(1+gboost_delta)
+     omtau = om*tau
+     Rv = grhonu/(grhonu + State%grhog)
+ 
+@@ -2154,7 +2155,7 @@
+     eV%TightSwitchoffTime = min(eV%ThermoData%tight_tau, eV%ThermoData%OpacityToTime(eV%k_buf/ep))
+ 
+     rhomass = sum(State%grhormass(1:CP%Nu_mass_eigenstates))
+-    omtau = tau*(State%grhob + State%grhoc)/sqrt(3*(State%grhog + rhomass + State%grhornomass))
++    omtau = tau*(State%grhob + State%grhoc)/sqrt(3*(State%grhog + rhomass + State%grhornomass))*sqrt(1+gboost_delta)
+     a = tau*State%adotrad*(1 + omtau/4)
+ 
+     if (DoTensorNeutrinos) then
+@@ -2212,7 +2213,7 @@
+     k = EV%k_buf
+     k2 = EV%k2_buf
+ 
+-    omtau = tau*(State%grhob + State%grhoc)/sqrt(3*(State%grhog + State%grhornomass))
++    omtau = tau*(State%grhob + State%grhoc)/sqrt(3*(State%grhog + State%grhornomass))*sqrt(1+gboost_delta)
+ 
+     a = tau*State%adotrad*(1 + omtau/4)
+ 
+@@ -2310,6 +2311,7 @@
+     real(dl) ddopacity, visibility, dvisibility, ddvisibility, exptau, lenswindow
+     real(dl) ISW, quadrupole_source, doppler, monopole_source, tau0, ang_dist
+     real(dl) dgrho_de, dgq_de, cs2_de
++    real(dl) gf_boost, dgrho_save, dgq_save
+ 
+     k = EV%k_buf
+     k2 = EV%k2_buf
+@@ -2343,6 +2345,12 @@
+     else
+         call State%CP%DarkEnergy%BackgroundDensityAndPressure(State%grhov, a, grhov_t, w_dark_energy_t)
+     end if
++    gf_boost = Gfac(a)
++    grhob_t = grhob_t*gf_boost
++    grhoc_t = grhoc_t*gf_boost
++    grhor_t = grhor_t*gf_boost
++    grhog_t = grhog_t*gf_boost
++    grhov_t = grhov_t*gf_boost
+ 
+     ! total perturbations: matter terms first, then add massive nu, de and radiation
+     !  8*pi*a*a*SUM[rho_i*clx_i]
+@@ -2354,7 +2362,13 @@
+     grhonu_t = 0
+ 
+     if (State%CP%Num_Nu_massive > 0) then
++        dgrho_save = dgrho_matter
++        dgq_save = dgq
+         call MassiveNuVars(EV, ay, a, grhonu_t, gpres_nu, dgrho_matter, dgq, wnu_arr)
++        dgrho_matter = dgrho_save + gf_boost*(dgrho_matter - dgrho_save)
++        dgq = dgq_save + gf_boost*(dgq - dgq_save)
++        grhonu_t = grhonu_t*gf_boost
++        gpres_nu = gpres_nu*gf_boost
+     end if
+ 
+     grho_matter = grhonu_t + grhob_t + grhoc_t
+@@ -2485,7 +2499,7 @@
+     if (EV%TightCoupling) then
+         ! ddota/a
+         gpres = gpres_noDE + w_dark_energy_t*grhov_t
+-        adotdota = (adotoa*adotoa - gpres)/2
++        adotdota = (adotoa*adotoa - gpres)/2 + dlnGfac_dlna(a)*adotoa*adotoa/2
+ 
+         pig = 32._dl/45/opacity*k*(sigma + vb)
+ 
+@@ -2819,8 +2833,10 @@
+         pidot_sum = grhog_t*pigdot + grhor_t*pirdot
+         clxnu = 0
+         if (State%CP%Num_Nu_massive /= 0) then
++            dgrho_save = dgpi
+             call MassiveNuVarsOut(EV, ay, ayprime, a, adotoa, dgpi=dgpi, clxnu_all=clxnu, &
+                 dgpi_diff=dgpi_diff, pidot_sum=pidot_sum)
++            dgpi = dgrho_save + gf_boost*(dgpi - dgrho_save)
+         end if
+         gpres = gpres_noDE + w_dark_energy_t*grhov_t
+         diff_rhopi = pidot_sum - (4*dgpi + dgpi_diff)*adotoa + &
+diff --git a/fortran/results.f90 b/fortran/results.f90
+index bd08cf8..140f564 100644
+--- a/fortran/results.f90
++++ b/fortran/results.f90
+@@ -33,6 +33,7 @@
+     use config
+     use model
+     use Interpolation
++    use GBoost
+     !$ use omp_lib, only: omp_get_max_threads
+     implicit none
+     public
+@@ -485,7 +486,7 @@
+         this%grhov = this%grhocrit*this%Omega_de
+ 
+         ! adotrad gives da/dtau in the asymptotic radiation-dominated era:
+-        this%adotrad = sqrt((this%grhog + this%grhornomass + sum(this%grhormass(1:this%CP%Nu_mass_eigenstates)))/3)
++        this%adotrad = sqrt((this%grhog + this%grhornomass + sum(this%grhormass(1:this%CP%Nu_mass_eigenstates)))/3)*sqrt(1+gboost_delta)
+ 
+         this%Nnow = this%CP%ombh2/h2*(1 - this%CP%Yhe)*this%grhocrit*c**2/kappa/m_H/Mpc**2
+ 
+@@ -912,7 +913,7 @@
+     do i = 1, n
+         if (tau(i) < this%ThermoData%tauminn*1.1) then
+             om = (this%grhob + this%grhoc)/ &
+-                sqrt(3*(this%grhog + sum(this%grhormass(1:this%CP%Nu_mass_eigenstates)) + this%grhornomass))
++                sqrt(3*(this%grhog + sum(this%grhormass(1:this%CP%Nu_mass_eigenstates)) + this%grhornomass))*sqrt(1+gboost_delta)
+             arr(i) = 1/(this%adotrad*tau(i)*(1 + om*tau(i)/4)) - 1
+         else
+             arr(i) = 1/this%ThermoData%ScaleFactorAtTime%Value(tau(i)) - 1
+@@ -2030,7 +2031,7 @@
+         end associate
+     end do
+     om = (State%grhob + State%grhoc)/ &
+-        sqrt(3*(State%grhog + sum(State%grhormass(1:CP%Nu_mass_eigenstates)) + State%grhornomass))
++        sqrt(3*(State%grhog + sum(State%grhormass(1:CP%Nu_mass_eigenstates)) + State%grhornomass))*sqrt(1+gboost_delta)
+     a0 = this%tauminn*State%adotrad*(1 + om*this%tauminn/4)
+     ninverse = nint(background_boost*log(1/a0)/log(1/2d-10)*4000)
+     if (.not. CP%DarkEnergy%is_cosmological_constant) ninverse = ninverse*2
