@@ -1,0 +1,16 @@
+slack rule a0 = cH0/6 = 1.10e-10;  clusters behave as if a0 = 2.0e-9 (×18)
+
+g_bar       measured (clusters)   slack rule    missing factor in pull   ...in mass
+1e-12      3.72e-11            1.10e-11       × 3.4                   × 3.4
+3e-12      6.58e-11            1.97e-11       × 3.3                   × 3.3
+1e-11      1.23e-10            3.84e-11       × 3.2                   × 3.2
+3e-11      2.18e-10            7.36e-11       × 3.0                   × 3.0
+1e-10      4.07e-10            1.63e-10       × 2.5                   × 2.5
+3e-10      7.21e-10            3.71e-10       × 1.9                   × 1.9
+1e-09      1.35e-09            1.05e-09       × 1.3                   × 1.3
+
+1. hidden baryons: need ×10 more baryons than seen (clusters already hold the cosmic baryon share ~0.16 of total ΛCDM mass; ×10 would exceed all baryons in the universe per unit mass)
+2. neutrinos: MOND clusters need ~2 eV neutrinos each (Sanders 2003) or an 11 eV sterile one (Angus 2009); DESI DR2 + CMB: sum < 0.064 eV -> active route excluded
+3. per-galaxy slack adding linearly (Coma-like: 1000 galaxies of 1e10 Msun + 1e14 Msun gas): phantom mass ×10 vs MOND -> overshoots the ×3.2 needed, and the neighbour test (EFE, Chae+2021) showed slack combines non-linearly
+4. our CMB fits already contain a cold-dark-matter-like component (ω_c = 0.12, 5.4× baryons). Clusters' total/baryon ≈ 6.4, matching that share;
+   the framework has not yet said what this component is in grid terms, nor why it would gather in clusters but not dominate disc galaxies
