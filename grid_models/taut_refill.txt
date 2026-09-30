@@ -1,0 +1,38 @@
+
+SPARC, stellar mass-to-light 0.5 (2803 pts)   law | best a0 | chi2 | scatter | chi2 at a0=cH0/6
+   exponential slack  mu=1-exp(-x)        1.428e-10   4961.4  0.148   5466.3
+   half-Gaussian slack mu=erf(x/sqrt2)    1.358e-10   5433.8  0.154   5803.3
+   uniform slack  mu=min(x,1)             1.807e-10   5905.2  0.160   7928.9
+   McGaugh 2016 empirical (reference)     1.148e-10   4663.7  0.144   4678.5
+
+SPARC, stellar mass-to-light 0.6 (2803 pts)   law | best a0 | chi2 | scatter | chi2 at a0=cH0/6
+   exponential slack  mu=1-exp(-x)        1.166e-10   4674.5  0.144   4702.6
+   half-Gaussian slack mu=erf(x/sqrt2)    1.127e-10   4952.6  0.148   4959.8
+   uniform slack  mu=min(x,1)             1.511e-10   5312.5  0.152   6127.7
+   McGaugh 2016 empirical (reference)     9.115e-11   4681.1  0.144   4876.8
+
+Cassini quadrupole: bound Q2 = (3 +- 3)e-27 s^-2 ; Galactic field 2.32e-10 m/s^2
+   exponential slack  mu=1-exp(-x)        a0=1.43e-10 (M/L 0.5): Q2 =   33.61e-27
+   exponential slack  mu=1-exp(-x)        a0=1.17e-10 (M/L 0.6): Q2 =   26.92e-27
+                                          a0=cH0/6            : Q2 =   24.74e-27
+   half-Gaussian slack mu=erf(x/sqrt2)    a0=1.36e-10 (M/L 0.5): Q2 =   24.22e-27
+   half-Gaussian slack mu=erf(x/sqrt2)    a0=1.13e-10 (M/L 0.6): Q2 =   15.15e-27
+                                          a0=cH0/6            : Q2 =   13.80e-27
+   uniform slack  mu=min(x,1)             a0=1.81e-10 (M/L 0.5): Q2 =    4.90e-27
+   uniform slack  mu=min(x,1)             a0=1.51e-10 (M/L 0.6): Q2 =    1.93e-27
+                                          a0=cH0/6            : Q2 =    0.37e-27
+   McGaugh 2016 empirical (reference)     a0=1.15e-10 (M/L 0.5): Q2 =   35.79e-27
+   McGaugh 2016 empirical (reference)     a0=9.11e-11 (M/L 0.6): Q2 =   31.95e-27
+                                          a0=cH0/6            : Q2 =   35.02e-27
+
+bulge-free: 143 galaxies, 1715 pts, M/L 0.5
+   exponential slack  mu=1-exp(-x)        a0=1.277e-10 chi2= 3306.7   at cH0/6:  3431.4
+   half-Gaussian slack mu=erf(x/sqrt2)    a0=1.191e-10 chi2= 3473.7   at cH0/6:  3517.1
+   uniform slack  mu=min(x,1)             a0=1.578e-10 chi2= 3637.0   at cH0/6:  4469.4
+   McGaugh 2016 empirical (reference)     a0=1.067e-10 chi2= 3225.8   at cH0/6:  3228.4
+
+bulge-free: 143 galaxies, 1715 pts, M/L 0.6
+   exponential slack  mu=1-exp(-x)        a0=1.084e-10 chi2= 3172.5   at cH0/6:  3172.8
+   half-Gaussian slack mu=erf(x/sqrt2)    a0=1.028e-10 chi2= 3272.1   at cH0/6:  3293.4
+   uniform slack  mu=min(x,1)             a0=1.377e-10 chi2= 3431.4   at cH0/6:  3736.6
+   McGaugh 2016 empirical (reference)     a0=8.866e-11 chi2= 3205.2   at cH0/6:  3394.0
