@@ -1,0 +1,17 @@
+system                       form z  V_vir  V_esc  v_pec  (1) gravity current   (2) frame-locked fluid
+small galaxy                   1.10     83    117    312  TRAPPED               passes through
+Milky-Way-mass galaxy          0.90    171    242    323  TRAPPED               passes through
+group                          0.70    354    501    333  TRAPPED               TRAPPED
+large group                    0.60    501    708    338  TRAPPED               TRAPPED
+cluster                        0.55    740   1047    341  TRAPPED               TRAPPED
+massive cluster                0.40   1549   2191    347  TRAPPED               TRAPPED
+
+Needed: galaxies and groups 'passes', clusters 'TRAPPED'.
+
+log M500   trapped (frame-locked)    needed by data (fraction of cosmic share)
+    13.0                     0.96                                         0.02
+    13.5                     1.00                                         0.54
+    14.0                     1.00                                         0.71
+    14.5                     1.00                                         0.57
+    15.0                     1.00                                         0.38
+(needed = (1 - MOND/observed) / (5.4 x baryon fraction); hydrostatic-mass bias of ~20% would raise the cluster values)

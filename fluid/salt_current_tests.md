@@ -17,3 +17,15 @@ The cosmological fluid (Omega ~ 0.26, needed for the CMB) must by today sit almo
 pooled in massive nodes (clusters, ~2-4 x their baryons) and spread through the cosmic web (filaments, sheets) as moving streams.
 Next test: can streams outrun capture by galaxies when they form (z ~ 1-3)? Then: filament lensing and the large-radius
 galaxy-lensing signal should show fluid in the web, not in bound galaxy halos.
+
+## Current timing check (current_timing.*)
+(1) Gravity-driven currents: matter inside a halo's turnaround radius is bound by construction, and filament streams feed galaxies
+    directly at z ~ 2 (cold streams). A purely gravitational current traps fluid in halos of every mass. FAILS.
+(2) Fluid locked to the cosmic rest frame (Khronon's preferred slicing), halos moving through it at their peculiar speeds
+    (~310-350 km/s at z ~ 0.4-1.1): qualitatively right (galaxies V_esc 120-240 pass, groups and clusters trap), dividing mass
+    ~5e12 Msun with no free numbers. Quantitatively wrong with a Maxwellian spread of speeds:
+    | log M500 | trapped | needed by data |
+    | 13.0 | 0.96 | 0.02 |  | 13.5 | 1.00 | 0.54 |  | 14.0 | 1.00 | 0.71 |  | 14.5 | 1.00 | 0.57 |  | 15.0 | 1.00 | 0.38 |
+    (a Milky-Way-mass galaxy would still trap ~35%). And a fully frame-locked fluid could not cluster in the early universe (CMB).
+What the data need, robustly: no extra mass up to ~1e13 Msun, roughly half the cosmic share at 1e13.5-1e14.5, less at 1e15
+(subject to hydrostatic-mass bias, cluster baryon censuses and the MOND function at cluster accelerations).
