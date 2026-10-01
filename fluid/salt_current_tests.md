@@ -122,3 +122,19 @@ Heat that big would also empty groups and clusters. Recycling (ignored) only tig
 Lesson: heating can't do the separation. Lyman-alpha forces any heat outside wells to vanish within ~0.1 Gyr, i.e. within
 ~50-200 kpc of where it was made, which is inside the galaxy's own reach. 'Shallow wells lose fluid' by heat and
 'the ocean stays cold' cannot both hold. Same family: shaken ocean (global heat) failed on lensing vs redshift.
+
+## The fluid IS the MOND halo (fluid_is_halo.*) -- the one untested Family-4 idea. Budget checks PASS
+Idea: the extra mass MOND implies around each galaxy (phantom mass, M_dyn - M_b) is real fluid gathered from the cosmic fluid
+the CMB needs; not added on top of MOND. Lensing = dynamics (Khronon), so lensing sees exactly MOND, at every redshift.
+A. Time/supply (generous: spherical shells from the Hubble flow, galaxy's MOND pull, no external field): fluid that can have
+   fallen in by z = 0.9 is 7-16x the phantom mass inside 300 kpc (Mb 1e10-3e11). Supply is not the problem -- the problem is the
+   opposite: the galaxy must STOP at the phantom amount (saturation), or the excess adds on top (the DBI failure).
+B. Whole universe: phantom mass of all galaxies out to the external-field radius = Mb (a0/g_e - 1). With the GAMA mass function
+   (baryons in galaxies 8% of all baryons): Omega_phantom / Omega_c = 1.50 / 0.59 / 0.29 for g_e = 0.01 / 0.025 / 0.05 a0;
+   adding groups/clusters roughly doubles it (~0.7-1.5 for g_e 0.025-0.05). The CMB fluid and the total MOND halo mass of the
+   universe are the same size within the literature range of g_e. Not a precise closure (g_e and hot-gas census uncertain), but
+   no show-stopper, and it could have failed by orders of magnitude.
+Clusters: by construction still ~35% short (fluid = MOND cannot exceed MOND), as in every MOND theory.
+What it needs (open): (1) conversion: infalling cosmic fluid must turn into the MOND-profile state; (2) saturation: it stops at
+the MOND amount, excess stays outside. Distinguishing prediction: a real fluid can't have negative density, but MOND's phantom
+density goes slightly negative in some places (flattened systems in an external field, Milgrom 1986); here it can't.

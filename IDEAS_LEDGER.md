@@ -22,8 +22,9 @@ and capture it, and lensing shows no halos at z 0.3-0.9.
 - Move it with currents or drag (gravity currents, frame-locked, partially locked): closed or costly (growth damping).
 - Other matter (hot DM, missing baryons): closed.
 - Heat it out (shaken ocean, isolated wells, dark fountain): closed (lensing vs redshift; Lyman-alpha vs escape).
-- NOT YET TESTED: the fluid in a galaxy IS its MOND halo (one thing, not added), the original ocean picture
-  (flagged in fluid/state_change_tests.md, never computed).
+- The fluid in a galaxy IS its MOND halo (one thing, not added), the original ocean picture: budget checks PASS
+  (supply ample; total MOND halo mass of the universe = 0.3-1.5 x the CMB fluid for g_e = 0.01-0.05 a0). Open: conversion and
+  saturation mechanism; clusters still 35% short. `fluid/fluid_is_halo.*`
 
 ## Family 5. Black holes
 Planck stars: consistent, no observable effect for >1e26 yr. Ended holes can't make voids or fix H0: closed.

@@ -1,0 +1,14 @@
+A. Per galaxy: fluid that can have fallen in vs phantom mass the lensing needs
+   Mb (Msun) | v_flat | gathered by z=0.9 / z=0 | phantom needed within 300 kpc / 1 Mpc | ratio (gathered z=0.9 / needed 300 kpc)
+       1e+10 |   112  |  5.80e+12 /  1.38e+13 |  8.70e+11 /  2.92e+12 | 6.66
+       1e+11 |   200  |  3.17e+13 /  7.63e+13 |  2.68e+12 /  9.18e+12 | 11.80
+       3e+11 |   263  |  7.07e+13 /  1.72e+14 |  4.52e+12 /  1.58e+13 | 15.64
+   (cosmic share for comparison: 5.4 x Mb)
+
+B. Whole universe: phantom mass of all galaxies out to the external-field radius, M_ph = Mb (a0/g_e - 1)
+   baryons in galaxies (stars + cold + hot gas): Omega = 0.0040  (8% of all baryons)
+   g_e = 0.010 a0: Omega_phantom = 0.391  vs fluid available Omega_c = 0.261  -> ratio 1.50
+   g_e = 0.025 a0: Omega_phantom = 0.154  vs fluid available Omega_c = 0.261  -> ratio 0.59
+   g_e = 0.050 a0: Omega_phantom = 0.075  vs fluid available Omega_c = 0.261  -> ratio 0.29
+   + groups/clusters (Omega_b ~ 0.0062), g_e = 0.025 a0: total ratio ~ 1.5
+   + groups/clusters (Omega_b ~ 0.0062), g_e = 0.05 a0: total ratio ~ 0.7

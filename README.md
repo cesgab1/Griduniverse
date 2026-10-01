@@ -68,6 +68,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Khronon paper's DBI setting (λ_D ≈ 1) | not ΛCDM-like in our solver (σ₈ 0.22); needs λ_D ≈ 10⁷–10¹²; to be cross-checked with the authors' code if available |
 | Partially locked fluid (drag toward the grid frame) for the cluster shortfall | best of three avenues: 1 number, right group-to-cluster rise (χ² 24.9; 6.8 with 20% hydrostatic bias); overshoots at 1e15, and the drag strength would damp cosmological growth unless it acts only inside collapsing halos (`fluid/three_avenues.*`) |
 | Fate of the universe (`future/`) | grid law: a ~ t⁵, accelerates forever, never shrinks (the tension diverges as expansion slows; holds even if closed); cools toward absolute zero with no floor (Λ: floor 2.2e-30 K). Not testable now; it follows from the fitted law |
+| The fluid IS the MOND halo (original ocean picture) | budgets pass: galaxies can gather enough by z ≈ 0.9; total MOND halo mass of the universe ≈ 0.3–1.5 × the CMB fluid (external field 0.01–0.05 a₀). Needs a conversion + saturation mechanism; clusters still 35% short (`fluid/fluid_is_halo.*`) |
 | Hubble tension | treated as a calibration issue (working assumption); FRB H₀ undecided |
 
 ### Failed (and kept on record)
