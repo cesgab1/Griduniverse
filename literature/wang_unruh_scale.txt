@@ -1,0 +1,3 @@
+beta=0.5: cutoff = 292 x Planck energy;  a 1% change in the cutoff changes H by a factor 4.26 (dark energy by 18.16)
+beta=1: cutoff = 145 x Planck energy;  a 1% change in the cutoff changes H by a factor 4.23 (dark energy by 17.91)
+beta=2: cutoff = 72 x Planck energy;  a 1% change in the cutoff changes H by a factor 4.20 (dark energy by 17.66)
