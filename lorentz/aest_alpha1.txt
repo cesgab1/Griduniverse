@@ -1,0 +1,22 @@
+     K_B   lambda_s      alpha1  verdict (|alpha1| < 1e-4)
+   5e-01      1e+00   -5.00e+00  fails
+   5e-01      1e+01   -2.55e+00  fails
+   5e-01      1e+05   -2.00e+00  fails
+   5e-01        inf   -2.00e+00  fails
+   1e-01      1e+00   -4.20e+00  fails
+   1e-01      1e+01   -1.09e+00  fails
+   1e-01      1e+05   -4.00e-01  fails
+   1e-01        inf   -4.00e-01  fails
+   1e-03      1e+00   -4.00e+00  fails
+   1e-03      1e+01   -7.31e-01  fails
+   1e-03      1e+05   -4.08e-03  fails
+   1e-03        inf   -4.00e-03  fails
+   2e-05      1e+00   -4.00e+00  fails
+   2e-05      1e+01   -7.27e-01  fails
+   2e-05      1e+05   -1.60e-04  fails
+   2e-05        inf   -8.00e-05  passes
+
+Allowed corner: K_B < 2.5e-5 AND Solar System screened (effective lambda_s > ~8e4).
+Side effect (Skordis-Zlosnik 2022, eq.29): scalar sound speed^2 = (2-K_B)(1+K_B lambda_s/2)/(K2 K_B)
+   K_B=0.5: with K2 = 7.5e3 -> c_s^2 = 0.0004 (lambda_s small); keeping c_s <= 1 needs K2 >= 3
+   K_B=2e-05: with K2 = 7.5e3 -> c_s^2 = 13.3 (lambda_s small); keeping c_s <= 1 needs K2 >= 1e+05
