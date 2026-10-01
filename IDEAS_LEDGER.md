@@ -7,6 +7,13 @@ from geometry (slope 0.34-0.38 vs 0.56), channel geometry for a0 (needs coupling
 Includes "deeper wells stretch links more, so links respond more strongly" (EMOND-like). Do not re-propose without a new
 mechanism for WHY the response changes. The math of EMOND (a0 depends on well depth) is untested, but its grid story is this family.
 
+Spider-web geometry (Coalesce, Oct 2026): Family 1, but new in one respect. A sheet-like (2-D) web spreads the pull over a
+circle, not a sphere, so it falls as 1/r -- exactly the deep-MOND law, which no link model so far produced. Requirements:
+(a) the switch from 3-D to web-like must happen where the pull drops to a0 (the MOND radius sqrt(GM/a0)); a web of fixed size
+gives v^2 ~ M, but galaxies show v^4 ~ M (slope 3.85 +/- 0.09); (b) it must look the same in every direction (round lensing,
+polar-ring galaxies), so 'thread density falling as 1/r' rather than one flat sheet. Bonus: a strong outside pull would tighten
+the web back to 3-D, which is MOND's external-field effect. Still put in by hand: why the switch is at a0 (same as slack).
+
 ## Family 2. Relativistic base
 AeST: closed (fails Solar System by 1e3-1e4; early instability). Khronon: passes (current base). `lorentz/`, `aest_upgrade/`.
 
