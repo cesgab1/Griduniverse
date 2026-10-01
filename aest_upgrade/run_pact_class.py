@@ -15,7 +15,7 @@ extra = {"gauge": "newtonian", "non_linear": "halofit", "l_max_scalars": 7000, "
          "omega_cdm": 0.0, "fluid_equation_of_state": "AEST", "use_ppf": "no",
          **({"varying_fundamental_constants": "instantaneous", "varying_transition_redshift": float(os.environ.get("AEST_ZS", 138)),
              "varying_me": float(os.environ["AEST_ME"])} if "AEST_ME" in os.environ else {}),
-         "aest_KB": float(os.environ.get("AEST_KB", 0.5)), "aest_K2": 7.5e3, "aest_Q0": 0.1, "aest_Z0": 1e-9, "aest_de_beta": beta, "aest_exchange": ex}
+         "aest_KB": float(os.environ.get("AEST_KB", 0.5)), "aest_K2": 7.5e3, "aest_Q0": 0.1, "aest_Z0": 1e-9, "aest_de_beta": beta, "aest_exchange": ex, "aest_khronon": os.environ.get("AEST_KHR", "no")}
 def P(name, lo, hi, ref, prop): return {"prior": {"min": lo, "max": hi}, "ref": start.get(name, ref), "proposal": prop}
 params = {"logA": dict(P("logA", 2.9, 3.2, 3.05, 0.004), drop=True), "A_s": {"value": "lambda logA: 1e-10*np.exp(logA)"},
           "n_s": P("ns", 0.9, 1.02, 0.968, 0.003), "H0": P("H0", 55, 85, 68.0, 0.3), "omega_b": P("ombh2", 0.02, 0.025, 0.0224, 0.0001),

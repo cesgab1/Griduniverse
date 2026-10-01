@@ -1,5 +1,5 @@
 diff --git a/include/background.h b/include/background.h
-index fe4d42d..729ea6b 100644
+index fe4d42d..24c6389 100644
 --- a/include/background.h
 +++ b/include/background.h
 @@ -12,7 +12,7 @@
@@ -11,18 +11,19 @@ index fe4d42d..729ea6b 100644
  
  
  /** list of possible parametrizations of the varying fundamental constants */
-@@ -111,6 +111,10 @@ struct background
+@@ -111,6 +111,11 @@ struct background
    double wa_fld;   /**< \f$ wa_{DE} \f$: fluid equation of state parameter derivative */
    double cs2_fld;  /**< \f$ c^2_{s~DE} \f$: sound speed of the fluid in the frame comoving with the fluid (so, this is
                        not [delta p/delta rho] in the synchronous or newtonian gauge!) */
 +  double aest_KB, aest_K2, aest_Q0, aest_Z0, aest_I0;
 +  double aest_de_beta; /**< dark energy rho_L ∝ (aH)^-beta (0 = cosmological constant) */
 +  double aest_de_fac;  /**< normalisation, shot so that H(today)=H0 */
++  short aest_khronon; /**< use Khronon (Blanchet-Skordis 2024) GDM perturbations instead of AeST vector sector */
 +  short aest_exchange; /**< energy exchange between this dark energy and the AeST condensate */ /**< AeST (Skordis & Zlosnik 2021) Cosh-function dark sector as a fluid */
    double Omega_EDE;        /**< \f$ wa_{DE} \f$: Early Dark Energy density parameter */
    double * scf_parameters; /**< list of parameters describing the scalar field potential */
    short attractor_ic_scf;  /**< whether the scalar field has attractor initial conditions */
-@@ -413,6 +417,8 @@ extern "C" {
+@@ -413,6 +418,8 @@ extern "C" {
                             double * pvecback
                             );
  
@@ -202,16 +203,17 @@ index 87d60c6..2182af9 100644
  
    if (pba->has_scf == _TRUE_) {
 diff --git a/source/input.c b/source/input.c
-index d01e761..56bf6ac 100644
+index d01e761..9adff5d 100644
 --- a/source/input.c
 +++ b/source/input.c
-@@ -3368,10 +3368,16 @@ int input_read_parameters_species(struct file_content * pfc,
+@@ -3368,10 +3368,17 @@ int input_read_parameters_species(struct file_content * pfc,
      if (flag1 == _TRUE_) {
        if ((strstr(string1,"CLP") != NULL) || (strstr(string1,"clp") != NULL)) {
          pba->fluid_equation_of_state = CLP;
 +  pba->aest_de_beta = 0.;
 +  pba->aest_de_fac = 1.;
 +  pba->aest_exchange = _FALSE_;
++  pba->aest_khronon = _FALSE_;
        }
        else if ((strstr(string1,"EDE") != NULL) || (strstr(string1,"ede") != NULL)) {
          pba->fluid_equation_of_state = EDE;
@@ -222,7 +224,7 @@ index d01e761..56bf6ac 100644
        else {
          class_stop(errmsg,"incomprehensible input '%s' for the field 'fluid_equation_of_state'",string1);
        }
-@@ -3384,6 +3390,26 @@ int input_read_parameters_species(struct file_content * pfc,
+@@ -3384,6 +3391,28 @@ int input_read_parameters_species(struct file_content * pfc,
        class_read_double("wa_fld",pba->wa_fld);
        class_read_double("cs2_fld",pba->cs2_fld);
      }
@@ -236,6 +238,8 @@ index d01e761..56bf6ac 100644
 +      class_read_double("aest_de_beta",pba->aest_de_beta);
 +      class_call(parser_read_string(pfc,"aest_exchange",&string1,&flag1,errmsg),errmsg,errmsg);
 +      if ((flag1 == _TRUE_) && (string_begins_with(string1,'y') || string_begins_with(string1,'Y'))) pba->aest_exchange = _TRUE_;
++      class_call(parser_read_string(pfc,"aest_khronon",&string1,&flag1,errmsg),errmsg,errmsg);
++      if ((flag1 == _TRUE_) && (string_begins_with(string1,'y') || string_begins_with(string1,'Y'))) pba->aest_khronon = _TRUE_;
 +      pba->use_ppf = _FALSE_;
 +      target = 3.*pba->Omega0_fld*pba->H0*pba->H0;   /* 8 pi G rho today, 1/Mpc^2 */
 +      lo = -40.; hi = 10.;
@@ -250,7 +254,7 @@ index d01e761..56bf6ac 100644
        /** 8.a.2.3) Equation of state of the fluid in 'EDE' case */
        /* Read */
 diff --git a/source/perturbations.c b/source/perturbations.c
-index 8599f78..e28bd5f 100644
+index 8599f78..efe9246 100644
 --- a/source/perturbations.c
 +++ b/source/perturbations.c
 @@ -819,7 +819,10 @@ int perturbations_init(
@@ -342,7 +346,7 @@ index 8599f78..e28bd5f 100644
      /* idm contribution */
      if (pba->has_idm == _TRUE_) {
        ppw->delta_rho += ppw->pvecback[pba->index_bg_rho_idm]*y[ppw->pv->index_pt_delta_idm];
-@@ -7861,6 +7897,15 @@ int perturbations_total_stress_energy(
+@@ -7861,6 +7897,21 @@ int perturbations_total_stress_energy(
          ca2_fld = w_fld - w_prime_fld / 3. / (1.+w_fld) / a_prime_over_a;
          /** We must gauge transform the pressure perturbation from the fluid rest-frame to the gauge we are working in */
          ppw->delta_p_fld = pba->cs2_fld * ppw->delta_rho_fld + (pba->cs2_fld-ca2_fld)*(3*a_prime_over_a*ppw->rho_plus_p_theta_fld/k/k);
@@ -354,11 +358,17 @@ index 8599f78..e28bd5f 100644
 +          chi = Qa*(thp + y[ppw->pv->index_pt_alpha_aest]);
 +          Sx = pba->aest_KB*y[ppw->pv->index_pt_E_aest] + (2.-pba->aest_KB)*chi;
 +          ppw->delta_p_fld = ppw->pvecback[pba->index_bg_rho_fld]*c2a*(y[ppw->pv->index_pt_delta_fld] + k*k*Sx/(3.*a*a*ppw->pvecback[pba->index_bg_rho_fld]));
++          if (pba->aest_khronon == _TRUE_) {
++            /* Khronon GDM (Blanchet & Skordis 2024 eq 4.31): rest-frame sound speed c_s^2 = c_ad^2/(1 + c_ad^2 k^2/(4 pi G a^2 rho (1+w))) */
++            double rf = ppw->pvecback[pba->index_bg_rho_fld];
++            double cs2k = c2a/(1. + c2a*k*k/(1.5*a*a*rf*(1.+w_fld)));
++            ppw->delta_p_fld = cs2k*ppw->delta_rho_fld + (cs2k-ca2_fld)*(3*a_prime_over_a*ppw->rho_plus_p_theta_fld/k/k);
++          }
 +        }
        }
        else {
          s2sq = ppw->s_l[2]*ppw->s_l[2];
-@@ -10795,6 +10840,34 @@ int perturbations_derivs(double tau,
+@@ -10795,6 +10846,47 @@ int perturbations_derivs(double tau,
          ca2 = w_fld - w_prime_fld / 3. / (1.+w_fld) / a_prime_over_a;
          cs2 = pba->cs2_fld;
  
@@ -385,15 +395,28 @@ index 8599f78..e28bd5f 100644
 +          }
 +          dy[pv->index_pt_theta_fld] = -(1.-3.*c2a)*a_prime_over_a*y[pv->index_pt_theta_fld]
 +            + k2*Pi/(1.+w_fld) + metric_euler;
++          if (pba->aest_khronon == _TRUE_) {
++            /* Khronon = generalized dark matter: standard fluid equations with k-dependent rest-frame sound speed */
++            double cs2k = c2a/(1. + c2a*k2/(1.5*a*a*pvecback[pba->index_bg_rho_fld]*(1.+w_fld)));
++            double exch = dy[pv->index_pt_delta_fld] + (1.+w_fld)*(y[pv->index_pt_theta_fld]+metric_continuity)
++                          + 3.*a_prime_over_a*(Pi - w_fld*y[pv->index_pt_delta_fld]);   /* keep only the exchange term */
++            dy[pv->index_pt_delta_fld] = -(1.+w_fld)*(y[pv->index_pt_theta_fld]+metric_continuity)
++              - 3.*(cs2k-w_fld)*a_prime_over_a*y[pv->index_pt_delta_fld]
++              - 9.*(1.+w_fld)*(cs2k-ca2)*a_prime_over_a*a_prime_over_a*y[pv->index_pt_theta_fld]/k2 + exch;
++            dy[pv->index_pt_theta_fld] = -(1.-3.*cs2k)*a_prime_over_a*y[pv->index_pt_theta_fld]
++              + cs2k*k2/(1.+w_fld)*y[pv->index_pt_delta_fld] + metric_euler;
++            dy[pv->index_pt_alpha_aest] = 0.; dy[pv->index_pt_E_aest] = 0.;
++          } else {
 +          dy[pv->index_pt_alpha_aest] = a*(E_a - psi_n);
 +          dy[pv->index_pt_E_aest] = -a_prime_over_a*E_a + a/pba->aest_KB*( Kpa*chi
 +            - (2.-pba->aest_KB)*( Qa*Pi/(1.+w_fld) + (Hc + Qa)*chi - 3.*c2a*Hc*Qa*alpha_a ) );
++          }
 +        }
 +        else {
          /** - ----> fluid density */
  
          dy[pv->index_pt_delta_fld] =
-@@ -10808,6 +10881,7 @@ int perturbations_derivs(double tau,
+@@ -10808,6 +10900,7 @@ int perturbations_derivs(double tau,
            -(1.-3.*cs2)*a_prime_over_a*y[pv->index_pt_theta_fld]
            +cs2*k2/(1.+w_fld)*y[pv->index_pt_delta_fld]
            +metric_euler;

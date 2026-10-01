@@ -1,0 +1,6 @@
+P-ACT (Planck low-l + Planck cut + ACT DR6) + DESI DR2 BAO + DES-Dovekie SN, BOBYQA best fits
+AeST + Lambda (earlier)                    chi2  2440.29  d vs Khronon+Lambda  -0.15  CMB  792.15 BAO  13.35 SN  1634.78  H0 68.26
+AeST + grid DE, exchange (earlier)         chi2  2436.87  d vs Khronon+Lambda  -3.56  CMB  792.32 BAO  10.75 SN  1633.80  H0 68.50
+Khronon + Lambda                           chi2  2440.44  d vs Khronon+Lambda  +0.00  CMB  792.64 BAO  12.88 SN  1634.92  H0 68.27
+Khronon + grid DE beta=1/2, no exchange    chi2  2433.38  d vs Khronon+Lambda  -7.06  CMB  793.70 BAO   9.31 SN  1630.37  H0 67.68
+Khronon + grid DE beta=1/2, exchange       chi2  2436.84  d vs Khronon+Lambda  -3.59  CMB  792.29 BAO  10.75 SN  1633.80  H0 68.50
