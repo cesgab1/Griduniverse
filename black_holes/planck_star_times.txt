@@ -1,0 +1,10 @@
+Planck length 1.62e-35 m, Planck mass 2.18e-08 kg
+
+object                                          mass kg  core radius  bounce tau (M^2)  Hawking tau (M^3)
+primordial hole exploding today (k=0.05)       1.38e+23   2.99e-25 m       1.38e+10 yr        7.05e+45 yr
+stellar black hole, 10 Msun                    1.99e+31   1.57e-22 m       2.85e+26 yr        2.10e+70 yr
+Sgr A* (Milky Way centre), 4.3e6 Msun          8.55e+36   1.18e-20 m       5.28e+37 yr        1.67e+87 yr
+M87*, 6.5e9 Msun                               1.29e+40   1.36e-19 m       1.21e+44 yr        5.76e+96 yr
+largest known, ~4e10 Msun                      7.96e+40   2.49e-19 m       4.56e+45 yr        1.34e+99 yr
+
+Age of universe 1.4e+10 yr. Every astrophysical black hole, including all supermassive ones, is far from bouncing in either scenario.
