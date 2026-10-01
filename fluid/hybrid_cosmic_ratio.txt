@@ -1,0 +1,11 @@
+KiDS lensing (60 pts): MOND(baryons) + R x M_b fluid halo, Newtonian
+   NFW           : MOND only  202.1 | best R = 3.5 (2 sigma 2.2-5.0), chi2  168.4 | R = 5.4 (cosmic): chi2  174.7
+   cored 30 kpc  : MOND only  202.1 | best R = 4.9 (2 sigma 3.3-6.6), chi2  152.6 | R = 5.4 (cosmic): chi2  153.0
+   cored 100 kpc : MOND only  202.1 | best R = 11.7 (2 sigma 8.9-14.6), chi2  106.7 | R = 5.4 (cosmic): chi2  128.9
+
+Cluster, R = 5.4: g_obs / measured at 0.1, 0.3, 0.6, 1.0 Mpc
+   NFW           : 1.50  1.15  0.94  0.80
+   cored 30 kpc  : 1.47  1.15  0.94  0.80
+   cored 100 kpc : 0.92  1.13  0.94  0.79
+
+SPARC rotation curves (2788 pts, M/L 0.5): chi2 MOND only 4568 | + 5.4 M_b halo cored 30 kpc 4994 | cored 100 kpc 4594

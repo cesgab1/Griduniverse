@@ -65,6 +65,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Origin of a₀ | Verlinde-type argument gives cH₀/6; not derived in the fluid picture |
 | Black holes as Planck stars (no singularity; bounce/leak) | consistent with the grid; no observable consequence for astrophysical holes for >1e26 yr |
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
+| **'Ocean' hybrid: MOND from baryons through the geometry + unboosted fluid halo of the cosmic ratio (5.4 × baryons, ~100 kpc core)** | one rule, R not fitted: SPARC Δχ² +26 / 2788 pts; KiDS lensing χ² 202 → 129; clusters 0.79–1.13 of measured (MOND alone 0.33–0.35). Needs a theory where only baryons source MOND and light shares their metric; core size and galaxy retention not derived (`fluid/hybrid_ocean.md`) |
 | Khronon paper's DBI setting (λ_D ≈ 1) | not ΛCDM-like in our solver (σ₈ 0.22); needs λ_D ≈ 10⁷–10¹²; to be cross-checked with the authors' code if available |
 | Hubble tension | treated as a calibration issue (working assumption); FRB H₀ undecided |
 

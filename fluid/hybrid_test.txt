@@ -1,0 +1,12 @@
+KiDS lensing, MOND(baryons) + f x Newtonian halo (60 points):
+   halo NFW           : chi2(f=0, MOND only)  202.1 | best f = 0.16 chi2  146.2 | f allowed (2 sigma) 0.12-0.20 | chi2(f=1)  1794.6
+   halo cored 30 kpc  : chi2(f=0, MOND only)  202.1 | best f = 0.17 chi2  138.1 | f allowed (2 sigma) 0.14-0.21 | chi2(f=1)  1586.9
+   halo cored 100 kpc : chi2(f=0, MOND only)  202.1 | best f = 0.27 chi2  116.5 | f allowed (2 sigma) 0.21-0.33 | chi2(f=1)   754.2
+
+Cluster (baryons 1.6e+14 Msun, cosmic-share halo 1.1e+15): g_obs / measured cluster RAR at r = 0.1, 0.3, 0.6, 1.0 Mpc
+   f = 0.0, halo NFW           : 0.35  0.35  0.34  0.33
+   f = 0.0, halo cored 100 kpc : 0.35  0.35  0.34  0.33
+   f = 0.5, halo NFW           : 1.03  0.83  0.70  0.61
+   f = 0.5, halo cored 100 kpc : 0.69  0.81  0.70  0.61
+   f = 1.0, halo NFW           : 1.71  1.31  1.06  0.88
+   f = 1.0, halo cored 100 kpc : 1.03  1.27  1.06  0.88
