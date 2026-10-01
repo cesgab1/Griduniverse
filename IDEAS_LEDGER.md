@@ -30,8 +30,10 @@ and capture it, and lensing shows no halos at z 0.3-0.9.
 - Other matter (hot DM, missing baryons): closed.
 - Heat it out (shaken ocean, isolated wells, dark fountain): closed (lensing vs redshift; Lyman-alpha vs escape).
 - The fluid in a galaxy IS its MOND halo (one thing, not added), the original ocean picture: budget checks PASS
-  (supply ample; total MOND halo mass of the universe = 0.3-1.5 x the CMB fluid for g_e = 0.01-0.05 a0). Open: conversion and
-  saturation mechanism; clusters still 35% short. `fluid/fluid_is_halo.*`
+  (supply ample; total MOND halo mass of the universe = 0.3-1.5 x the CMB fluid for g_e = 0.01-0.05 a0). Khronon already has it
+  (paper eqs 3.13/3.16: one conserved density = dust + phantom) and its dynamics give a stable saturation at exactly MOND.
+  Problem: in the MOND regime the fluid has no self-gravity, so it gathers <~4 Mb, too little beyond ~4 r_M. Needs CDM-like
+  self-gravity on >~ Mpc scales (crossover 1/mu). Earlier hybrid/DBI collapse runs double-counted (fluid + MOND). `khronon_dynamics/`
 
 ## Family 5. Black holes
 Planck stars: consistent, no observable effect for >1e26 yr. Ended holes can't make voids or fix H0: closed.
