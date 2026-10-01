@@ -1,0 +1,7 @@
+n=1 polytrope core radius pi/mu: 1/mu = 48 kpc -> core 151 kpc (any mass)
+1/mu   48 kpc (core  151 kpc), dust before z=   14 (transition at 3.4e+03 x mean density): sigma8 0.812 (LCDM 0.814) | Lya P/P_LCDM z=3 k=1,2,5: 0.869 0.663 0.383
+1/mu   48 kpc (core  151 kpc), dust before z=   30 (transition at 3.0e+04 x mean density): sigma8 0.806 (LCDM 0.814) | Lya P/P_LCDM z=3 k=1,2,5: 0.585 0.326 0.161
+1/mu   48 kpc (core  151 kpc), dust before z=  100 (transition at 1.0e+06 x mean density): sigma8 0.753 (LCDM 0.814) | Lya P/P_LCDM z=3 k=1,2,5: 0.159 0.077 0.039
+1/mu   20 kpc (core   63 kpc), dust before z=   14 (transition at 3.4e+03 x mean density): sigma8 0.813 (LCDM 0.814) | Lya P/P_LCDM z=3 k=1,2,5: 0.973 0.903 0.649
+1/mu   20 kpc (core   63 kpc), dust before z=   30 (transition at 3.0e+04 x mean density): sigma8 0.812 (LCDM 0.814) | Lya P/P_LCDM z=3 k=1,2,5: 0.877 0.660 0.314
+1/mu   20 kpc (core   63 kpc), dust before z=  100 (transition at 1.0e+06 x mean density): sigma8 0.800 (LCDM 0.814) | Lya P/P_LCDM z=3 k=1,2,5: 0.420 0.196 0.075

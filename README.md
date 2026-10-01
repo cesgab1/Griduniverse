@@ -65,7 +65,6 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Origin of a₀ | Verlinde-type argument gives cH₀/6; not derived in the fluid picture |
 | Black holes as Planck stars (no singularity; bounce/leak) | consistent with the grid; no observable consequence for astrophysical holes for >1e26 yr |
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
-| **'Ocean' hybrid: MOND from baryons through the geometry + unboosted fluid halo of the cosmic ratio (5.4 × baryons, ~100 kpc core)** | one rule, R not fitted: SPARC Δχ² +26 / 2788 pts; KiDS lensing χ² 202 → 129; clusters 0.79–1.13 of measured (MOND alone 0.33–0.35). Needs a theory where only baryons source MOND and light shares their metric; core size and galaxy retention not derived (`fluid/hybrid_ocean.md`) |
 | Khronon paper's DBI setting (λ_D ≈ 1) | not ΛCDM-like in our solver (σ₈ 0.22); needs λ_D ≈ 10⁷–10¹²; to be cross-checked with the authors' code if available |
 | Hubble tension | treated as a calibration issue (working assumption); FRB H₀ undecided |
 
@@ -91,6 +90,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | DBI phase change: galaxies halo-free, clusters dark-matter-like | works today (static and time-dependent), but galaxies form when the threshold was 10–90 km/s, capture halos, and those halos are self-sustaining; at KiDS lens redshifts MOND + retained halo gives χ² 50,514 vs 202 for MOND alone | `clusters/README.md` §7–10. General lesson: a cold cosmological dark fluid in AeST/Khronon-type theories must not build galaxy halos, and nothing found so far prevents it |
 | Rate-dependent stiffness (viscoelastic fluid) keeping it out of galaxies | galaxy and cluster collapse times differ only 1.5× (0.84–0.94 vs 1.17–1.30 Gyr); best case still gives halos to 15–25% of galaxies | `fluid/state_change_tests.md` |
 | Any single switch (rate, speed, stress, mass, potential depth) | galaxies sit in the middle of every axis: some structures that must clump lie below them and some above | `fluid/trigger_axes.*` |
+| 'Ocean' hybrid: MOND from baryons + unboosted cosmic-ratio fluid halo (5.4 × baryons) | clusters: works (0.7–1.4 of measured vs 0.3–0.4), but that is LCDM-like. Galaxies: only survives SPARC if a ~150 kpc core switches the halo off; KiDS gain not robust (independent review); deriving the core from fluid pressure (n = 1 polytrope, radius π/μ) leaves 38% of the Lyman-α power (needs ~98%) | `fluid/hybrid_ocean.md` |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 
