@@ -14,3 +14,14 @@ Cosmology (AeST eqs 7-12 of Skordis & Zlosnik 2021, re-checked verbatim against 
 Verdict: in its published form AeST cannot satisfy both the preferred-frame bound (K_B < 2.5e-5) and early-universe stability
 (K_B >~ 0.1-0.2). Caveats: linear analysis of our implementation of the published equations; alpha2 not computed; a modified vector
 sector (e.g. extra aether terms c2, c4 chosen to cancel alpha1 with c14 = 0) is the obvious repair to explore.
+
+## c4 repair (c4_repair_static.*)
+Adding c4 J^2 to cancel alpha1 leaves a residual Newtonian term -c4 in the deep-MOND limit: MOND is replaced by Newton x 2/|c4|
+below g ~ |c4| a0. Keeping MOND needs |c4| << 1, which brings back alpha1 ~ -4 K_B. Repair fails.
+
+## Independent check of the instability (separate reviewer)
+Confirmed: sign and size of the early-time rate sqrt(3 Omega_fld/K_B) H from eq. 12; theta cannot cancel it; it lives in the
+gauge-invariant chi and shows in delta/P(k); the K_B -> 0 limit is a repelling constraint surface (worse, not better).
+Window: active until 3 Omega_fld H^2 ~ 2 Q^2 (z ~ 100 for Q0 = 0.1/Mpc); amplification ~e^7 (K_B 0.5), ~e^1300 (K_B 2.5e-5).
+Uncertain: full metric feedback not derived (looks far too weak at these rates); our CLASS sigma8 numbers need independent check.
+Not found in the literature (Minkowski stability paper has a related but different infrared mode with Hamiltonian unbounded for k < mu).

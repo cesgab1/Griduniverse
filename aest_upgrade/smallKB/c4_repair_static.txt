@@ -1,0 +1,10 @@
+coefficient of grad Phi: (K_B + (Jp + 1)*(-K_B - c_4 + 2) - 2)/(Jp + 1)
+deep-MOND limit (J' -> 0): -c_4  -> must vanish for MOND; with c4 = -K_B it is K_B
+
+Consequence: residual Newtonian term -c4 makes gravity Newtonian with G' = 2G/|c4| below g ~ |c4| a0/(2-K_B).
+   c4 = -K_B = -0.5: MOND lost below g ~ 3.3e-01 a0, replaced by Newton x 4
+   c4 = -K_B = -0.001: MOND lost below g ~ 5.0e-04 a0, replaced by Newton x 2000
+   c4 = -K_B = -2.5e-05: MOND lost below g ~ 1.3e-05 a0, replaced by Newton x 80000
+
+alpha1 = -4(K_B + c4) (screened). Keeping MOND needs |c4| << 1 -> alpha1 ~ -4 K_B again -> K_B < 2.5e-5 -> cosmological
+instability (growth_exponent.txt). The c4 repair does not escape: MOND, alpha1 and early-universe stability conflict.
