@@ -46,7 +46,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 ### Passed
 | Test | Result | Where |
 |---|---|---|
-| Dark-energy law ρ_DE ∝ ȧ^(−½) on the Khronon base | beats Λ by Δχ² −7.1 (no exchange) / −3.6 (exchange), no extra parameter | `aest_upgrade/khronon/` |
+| Dark-energy law ρ_DE ∝ ȧ^(−½) on the Khronon base | beats Λ by Δχ² −7.1 (no exchange) / −3.6 (exchange), no extra parameter; −6.7 / −3.8 with a Lyman-α-safe fluid | `aest_upgrade/khronon/` |
 | Forward from the Big Bang (CMB-only start) | predicts today's BAO + supernovae better than ΛCDM, Δχ² ≈ −8 | `cosmology_fits/forward/` |
 | Galaxy spin from light alone (MOND rule) | 78% of SPARC galaxies within 20% | `galaxies_lensing/` |
 | Disc-galaxy lensing from light alone | KiDS ratio 0.91–0.94 ± 0.06 | `galaxies_lensing/` |
@@ -62,7 +62,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Energy exchange between dark energy and the fluid | no-exchange fits better on Khronon; theory doesn't yet say which |
 | Electron energy → dark energy (switch at z ≈ 100–200) | consistent; predicts a 21-cm step at 7–15 MHz |
 | Cassini quadrupole vs rotation curves | sharp switch passes Cassini but fits galaxies worse; shared by every MOND theory (literature 8.7σ, 1.9σ without bulges) |
-| Clusters | MOND gives only ~⅓ of the cluster pull; Khronon's quasi-static mass term can't fix it (failed, below). Next: where the condensate settles nonlinearly (its Jeans scale) |
+| Clusters | MOND gives only ~⅓ of the cluster pull; Khronon's quasi-static mass term can't fix it (failed, below). Lyman-α forces the fluid to clump like cold dark matter down to ~0.3 Mpc; whether it then forms halos around galaxies (which MOND fits don't want) is the key open question |
 | Origin of a₀ | Verlinde-type argument gives cH₀/6; not derived in the fluid picture |
 | Black holes as Planck stars (no singularity; bounce/leak) | consistent with the grid; no observable consequence for astrophysical holes for >1e26 yr |
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
@@ -85,6 +85,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | AeST + c₄ J² repair | cancels α₁ but replaces MOND with Newton×(2/|c₄|) at low accelerations | MOND, preferred frame and stability are tied together |
 | Ended black holes (stellar clusters or supermassive) creating voids/cold regions that explain the Hubble tension | none has ended (shortest lifetime >1e26 yr); all black holes together hold ~6e-4 of the energy needed; cold voids slow visible light by ~1e-29, and H₀ uses brightness and redshift, not travel time | `black_holes/ended_holes_hubble.*`; the local-void route was already excluded by supernovae |
 | Khronon mass term (μ) supplying cluster mass | enough mass for cluster cores (1/μ ≈ 1 Mpc) multiplies isolated-galaxy lensing at 0.3–1 Mpc by 5–500×; for 1/μ ≲ 0.5 Mpc no static solution exists | `clusters/khronon_mass_term.*` |
+| Dark fluid clumping only in clusters (Jeans/crossover length 1–4 Mpc) | removes 15–60% of small-scale power at z ≈ 3; Lyman-α forest allows ~2% | `clusters/condensate_jeans.*` (also: the AeST paper's fluid setting used in our fits is Lyman-α-excluded; with a safe setting the dark-energy result still holds, −6.7 / −3.8) |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 
