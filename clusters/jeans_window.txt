@@ -1,0 +1,8 @@
+Gamma = 2: max kappa from early-w bound 2.24e+11, from Lyman-alpha 6.33e+14 -> binding: early w
+   galaxy halos forming z~2  : Jeans mass at virial density = 2.6e+05 Msun (largest allowed)
+   clusters forming z~0.5    : Jeans mass at virial density = 3.3e+04 Msun (largest allowed)
+Gamma = 3: max kappa from early-w bound 3.14e+24, from Lyman-alpha 2.92e+39 -> binding: early w
+   galaxy halos forming z~2  : Jeans mass at virial density = 1.1e-09 Msun (largest allowed)
+   clusters forming z~0.5    : Jeans mass at virial density = 6.0e-12 Msun (largest allowed)
+
+Window needed: fluid kept out of galaxies (M_J > 1e12 at z~2) yet held by clusters (M_J < 3e14 at z~0.5).

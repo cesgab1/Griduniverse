@@ -86,6 +86,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Ended black holes (stellar clusters or supermassive) creating voids/cold regions that explain the Hubble tension | none has ended (shortest lifetime >1e26 yr); all black holes together hold ~6e-4 of the energy needed; cold voids slow visible light by ~1e-29, and H₀ uses brightness and redshift, not travel time | `black_holes/ended_holes_hubble.*`; the local-void route was already excluded by supernovae |
 | Khronon mass term (μ) supplying cluster mass | enough mass for cluster cores (1/μ ≈ 1 Mpc) multiplies isolated-galaxy lensing at 0.3–1 Mpc by 5–500×; for 1/μ ≲ 0.5 Mpc no static solution exists | `clusters/khronon_mass_term.*` |
 | Dark fluid clumping only in clusters (Jeans/crossover length 1–4 Mpc) | removes 15–60% of small-scale power at z ≈ 3; Lyman-α forest allows ~2% | `clusters/condensate_jeans.*` (also: the AeST paper's fluid setting used in our fits is Lyman-α-excluded; with a safe setting the dark-energy result still holds, −6.7 / −3.8) |
+| Fluid pressure keeping it out of galaxy halos but not clusters | any density-only pressure law is capped by the early universe: largest Jeans mass at halo density 3e5 Msun (need >1e12) | `clusters/jeans_window.*` |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 

@@ -22,3 +22,19 @@
 4. Open problem this exposes: with Lyman-alpha-safe settings the fluid should gather around galaxies like cold dark matter, yet our
    galaxy fits (and MOND) need no halos. What an irrotational fluid (it cannot virialise like particles) does nonlinearly is not
    worked out for Khronon or AeST in the literature. This is now the key question for the model.
+
+5. Can the fluid's own pressure keep it out of galaxy halos but let it into clusters? (jeans_window.*)  No.
+   For any pressure law P = kappa rho^Gamma (Gamma = 2: dense channel gas = Khronon's quadratic K; Gamma = 3: dilute channel gas),
+   pressure grows toward the past, so the early-universe bound (w <= 0.016 at a = 10^-4.5) caps kappa. The largest allowed Jeans mass
+   at halo densities is 3e4-3e5 Msun (Gamma = 2) or ~1e-9 Msun (Gamma = 3), far below galaxy masses (1e12). Pressure that depends
+   only on density cannot do it; the fluid falls into galaxy halos too.
+
+6. Literature (summary of a dedicated search): no simulation or analytic model of halo formation exists for AeST, Khronon, mimetic DM
+   or "dust of dark energy". A single-valued (irrotational) flow forms caustics in finite time (Babichev & Ramazanov 1704.03367);
+   proposed completions (higher derivatives, complex/wave field, pressure) all change the theory. Khronon's MOND limit is derived for
+   stationary systems only (2404.06584); how infalling fluid ends up in that stationary state is unknown.
+
+Status: the deciding question is a dynamical one. Either the fluid builds halos around galaxies (then halos + MOND double-count and
+the galaxy successes fail), or Khronon's nonlinear dynamics turn infalling fluid into the stationary MOND configuration (then the
+fluid's energy must go somewhere). Needs a spherical-collapse solution of the full Khronon equations (weak-field: Newtonian gravity +
+the khronon's Hamilton-Jacobi flow with K(Q) and J(Y)).
