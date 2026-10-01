@@ -43,7 +43,9 @@ and capture it, and lensing shows no halos at z 0.3-0.9.
   (supply ample; total MOND halo mass of the universe = 0.3-1.5 x the CMB fluid for g_e = 0.01-0.05 a0). Khronon already has it
   (paper eqs 3.13/3.16: one conserved density = dust + phantom) and its dynamics give a stable saturation at exactly MOND.
   Problem: in the MOND regime the fluid has no self-gravity, so it gathers <~4 Mb, too little beyond ~4 r_M. Needs CDM-like
-  self-gravity on >~ Mpc scales (crossover 1/mu). Earlier hybrid/DBI collapse runs double-counted (fluid + MOND). `khronon_dynamics/`
+  self-gravity on >~ Mpc scales (crossover 1/mu). Earlier hybrid/DBI collapse runs double-counted (fluid + MOND). Crossover window (one-fluid): linear OK (Lya 0.995, sigma8
+  unchanged); a crossover growing from 0.1 Mpc (z=3) to >= 1 Mpc today expels the excess at ~30 kpc (galaxy ~ MOND amount), but
+  at 100-300 kpc the fluid is ~2x (with surroundings) to 8x short of MOND. `khronon_dynamics/`
 
 ## Family 5. Black holes
 Planck stars: consistent, no observable effect for >1e26 yr. Ended holes can't make voids or fix H0: closed.

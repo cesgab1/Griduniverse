@@ -31,3 +31,24 @@ The fluid must self-gravitate (CDM-like) on scales larger than the ~3 Mpc comovi
 cosmology and Lyman-alpha already demand. It must sit in its MOND equilibrium on galaxy scales. In Khronon both are set
 by one number, the crossover 1/mu (density-dependent for the DBI form). Open question: is there a crossover that does both, with
 the correct one-fluid bookkeeping and the constant in Xi = phi + C fixed by how much fluid actually arrived (not set to 0)?
+
+## 5. Crossover window with one-fluid bookkeeping (crossover.py, crossover_results.txt)
+Full weak-field equation with the mass term: div((1-f) grad Xi) - mu^2 Xi = 4 pi G drho. The fluid self-gravitates above the
+crossover lambda = 2 pi/mu (CDM-like) and is in the MOND regime below it. Schedule: comoving lambda = 100-200 kpc at z = 3
+(constant sound speed before), growing as a power of a to lambda0 today.
+Solver check: an early version differentiated Xi numerically and blew up where shells pile up. It now takes Xi' from the
+integrated form, and in the small-lambda limit it reproduces pure Newtonian dust (control: 5.8-7.3e11 vs 6.6e11 within 300 kpc).
+A. Linear: sigma8 unchanged (>= 0.999) for every schedule (lambda0 up to 10 Mpc); Lyman-alpha power 0.995-0.996 for
+   100 kpc at z = 3 (0.982 for 200 kpc). The window exists in linear theory.
+B. One galaxy (Mb = 1e11 in a 1.5e12 Msun region, radial shells), fluid excess vs MOND halo:
+   - ~30 kpc (rotation-curve scale): CDM-like control 5.8e11 (2.5x MOND); with a crossover growing to >= 1 Mpc today
+     1.2-1.9e11 (MOND 2.3e11). The excess IS expelled dynamically: the saturation works where SPARC measures.
+   - 100-300 kpc (lensing scale): 2.7-6.3e11 vs MOND 8.8e11-2.7e12, i.e. 2-8x short at z = 0. With correlated surroundings
+     (amplitude too high, so read z = 0.9): 4.6-6.1e11 at 100 kpc and 1.2-1.3e12 at 300 kpc, ~2x short of MOND.
+   - Seed only (no surrounding overdensity): 1.1-1.9e11 at 30 kpc, 2.3-2.7e11 at 300 kpc.
+   Note: MOND's halo grows without limit (~ r) out to the external-field radius. A CDM-like region saturates, so supply at
+   >= 100 kpc depends on the surroundings. LCDM matches KiDS there with the halo plus correlated neighbours; that is the
+   supply this picture would also need.
+Limits: 1-D, radial orbits, baryons fixed from z = 30, crude environment profile. These are trends, not precision numbers.
+Status: PLAUSIBLE/OPEN. Inner galaxy: works. Outer halo: short by ~2x with surroundings, more without. Next: realistic
+environment (3-D or a peak-profile initial condition) and the external-field radius, which limits how far MOND's halo must extend.
