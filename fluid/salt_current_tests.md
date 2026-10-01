@@ -93,3 +93,19 @@ Escape route: finish the heating before z ~ 1 (start z >~ 1.2-1.5). Then the der
 grows: sigma8 / unheated at sigma_h = 450 km/s = 0.92 (from z 0.65), 0.88 (1.0), 0.83 (1.5), 0.80 (2.0) -- excluded.
 General lesson: whatever keeps dark fluid out of galaxies must already be in place by z ~ 1 (lensing looks the same at
 z 0.3 and 0.9), while the fluid must still be cold and clumpy at z 2-5 (Lyman-alpha) and keep growing (sigma8).
+
+## Isolated wells (user idea): heat gained inside a well stays there; outside fluid stays cold (isolated_well.*)
+Translation: heat the fluid locally on infall (fixed heat per mass, e.g. latent heat of a state change, triggered by infall faster
+than v_th) instead of globally. Good: nothing changes with redshift (passes the lensing test by construction), large scales stay
+cold, and it is two conditions (fell into a well AND the well is shallow), so it is not a single switch.
+Catch: fraction of the cosmic fluid that has passed through wells deeper than v_th (Press-Schechter):
+  | v_th | z=5 | z=3 | z=2 | z=1 | z=0 |
+  |  20  | 0.16 | 0.32 | 0.43 | 0.57 | 0.72 |
+  |  40  | 0.09 | 0.23 | 0.34 | 0.49 | 0.65 |
+  |  80  | 0.03 | 0.13 | 0.23 | 0.38 | 0.57 |
+  | 150  | 0.01 | 0.06 | 0.13 | 0.26 | 0.46 |
+If the ejected fluid stayed hot (~450 km/s), 6-32% hot fluid at z = 3 removes ~12-54% of small-scale power (Lyman-alpha allows ~2%).
+So the user's second half is required, not optional: escaped fluid must give its heat back (cool) quickly once outside the well,
+i.e. heat is only ever held inside wells. That makes galaxies a 'dark fountain': in, heated, out, cooled, back in.
+Next test: steady-state fluid held by a galaxy in the fountain (inflow x residence time) vs KiDS/SPARC, and whether cooled
+fluid can re-enter clusters/groups at the needed rate. Unknown numbers: heat per mass (sigma ~ 450 km/s) and cooling time.

@@ -1,0 +1,6 @@
+Fraction of all matter (hence of the cosmic fluid) in halos with circular speed above v_th:
+  v_th (km/s) |   z = 5   z = 3   z = 2   z = 1   z = 0
+          20  |   0.16    0.32    0.43    0.57    0.72
+          40  |   0.09    0.23    0.34    0.49    0.65
+          80  |   0.03    0.13    0.23    0.38    0.57
+         150  |   0.01    0.06    0.13    0.26    0.46
