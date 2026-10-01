@@ -4,7 +4,7 @@ Checked against the published tests before doing our own:
 
 | Test | Result | Source |
 |---|---|---|
-| Weak lensing out to ~1 Mpc (KiDS-1000, Brouwer+2021) | Fails: reduced chi2 15.0 / 14.9 / 28.7 across three galaxy-mass bins; MOND gets 6.5 with no free parameters | Mistele, McGaugh & Hossenfelder, JCAP 09 (2023) 004, arXiv:2303.08560 |
+| Weak lensing out to ~1 Mpc (KiDS-1000, Brouwer+2021) | Fails: reduced chi2 15.0 / 14.9 / 28.7 across three galaxy-mass bins; MOND gets 6.5 with no free parameters | Mistele, McGaugh et al., JCAP 09 (2023) 004, arXiv:2303.08560 |
 | Why | The fluid-ripple (phonon) push acts on matter directly; light does not feel it. Rotation (push + Newton) and lensing (Newton only) cannot both look MOND-like | same |
 | SPARC rotation curves (169 galaxies) | Fits need star mass-to-light ratios that fall with galaxy size (unnatural); forcing the MOND regime overshoots strong-lensing masses | Mistele & McGaugh, A&A 2022, "Galactic mass-to-light ratios with superfluid dark matter" |
 | Solar System | Claimed: superfluidity breaks down near stars. Not tested quantitatively against Cassini in the literature we found | Berezhiani, Famaey & Khoury 2018 |
