@@ -1,0 +1,5 @@
+ lambda_D   v_crit |  Milky-Way-like galaxy |         massive spiral |           galaxy group |  cluster 1e14 Msun gas | massive cluster 3e14 g
+            (km/s) |   sqrt|phi_0| 499 km/s |   sqrt|phi_0| 669 km/s |  sqrt|phi_0| 1208 km/s |  sqrt|phi_0| 2082 km/s |  sqrt|phi_0| 2829 km/s
+    3e+09      925 |  fluid x1.49 (no halo) |  fluid x2.09 (no halo) |       COLLAPSES (dust) |       COLLAPSES (dust) |       COLLAPSES (dust)
+    1e+10      514 |  fluid x5.34 (no halo) |       COLLAPSES (dust) |       COLLAPSES (dust) |       COLLAPSES (dust) |       COLLAPSES (dust)
+    3e+10      265 |       COLLAPSES (dust) |       COLLAPSES (dust) |       COLLAPSES (dust) |       COLLAPSES (dust) |       COLLAPSES (dust)

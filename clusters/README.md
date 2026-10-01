@@ -38,3 +38,21 @@ Status: the deciding question is a dynamical one. Either the fluid builds halos 
 the galaxy successes fail), or Khronon's nonlinear dynamics turn infalling fluid into the stationary MOND configuration (then the
 fluid's energy must go somewhere). Needs a spherical-collapse solution of the full Khronon equations (weak-field: Newtonian gravity +
 the khronon's Hamilton-Jacobi flow with K(Q) and J(Y)).
+
+7. Khronon's DBI fluid (dbi_cosmology.*, dbi_largelam.*, dbi_window.*, dbi_phase_change.*, dbi_scan2d.*, table: dbi_scan_table.md)
+   - The paper's stated setting (1/mu = 22.3 Mpc, lambda_D ~ 1) does NOT give LCDM in our solver (sigma8 0.22, CMB off by >100%);
+     our implementation reproduces the paper's own c_ad^2 formula and its quadratic-K bound (1/mu <~ 0.2 kpc). LCDM-like behaviour
+     needs lambda_D ~ 1e7-1e12 (depending on mu), which keeps the fluid on its pressureless branch until late.
+   - Identity for any K(Q) (w << 1): c_ad^2 mu_eff^2 = K'/2Q ~ 4 pi G rho, so the cosmological crossover length today = 2 pi / mu_eff,
+     the same number that sets the extra pull around galaxies. Cosmology (sigma8, Lyman-alpha) and galaxy lensing pull in opposite
+     directions; a narrow window remains (1/mu_eff ~ 15-25 Mpc).
+   - Phase change: in a static well the khronon is pushed toward the DBI limit, x = x0 + |phi|/c^2 -> x_lim. Past the critical depth
+     v_crit = c sqrt(x_lim - x0) the fluid's pressure saturates and it becomes collapsing dust (dark-matter-like); shallower wells keep
+     it smooth (no halo, MOND only). Inside the cosmology window v_crit ~ 500-700 km/s: Milky-Way-like galaxies (central depth ~500
+     km/s with our MOND potentials) stay fluid; groups (~1200) and clusters (~2000-2800) collapse. Massive spirals (~670) are borderline.
+   - Best point found: 1/mu = 300 Mpc, lambda_D = 9e6: v_crit 694 km/s, sigma8 0.790, Lyman-alpha 0.979 (at the ~2% limit), galaxy
+     lensing +5% at 1 Mpc.
+   Status: PLAUSIBLE, not established. Caveats: sits on the Lyman-alpha limit; well depths depend on where the potential is zeroed
+   (3 Mpc here; MOND potentials grow logarithmically); the runaway past x_lim is inferred, not simulated; two free parameters (mu,
+   lambda_D) are chosen, not derived. It is the first mechanism in this project that gives "smooth in galaxies, dark matter in
+   clusters" from one fluid, and it refines lesson 5: density-only power laws fail, but a saturating (DBI) pressure can work.
