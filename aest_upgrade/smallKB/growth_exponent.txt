@@ -1,0 +1,5 @@
+K_B = 0.5      amplification e^    7.0   (analytic early-time estimate rate ~ sqrt(3 Omega_fld / K_B) aH)
+K_B = 0.2      amplification e^   12.3   (analytic early-time estimate rate ~ sqrt(3 Omega_fld / K_B) aH)
+K_B = 0.1      amplification e^   18.5   (analytic early-time estimate rate ~ sqrt(3 Omega_fld / K_B) aH)
+K_B = 0.001    amplification e^  219.8   (analytic early-time estimate rate ~ sqrt(3 Omega_fld / K_B) aH)
+K_B = 2.5e-05  amplification e^ 1422.2   (analytic early-time estimate rate ~ sqrt(3 Omega_fld / K_B) aH)
