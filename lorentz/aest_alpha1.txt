@@ -20,3 +20,10 @@ Allowed corner: K_B < 2.5e-5 AND Solar System screened (effective lambda_s > ~8e
 Side effect (Skordis-Zlosnik 2022, eq.29): scalar sound speed^2 = (2-K_B)(1+K_B lambda_s/2)/(K2 K_B)
    K_B=0.5: with K2 = 7.5e3 -> c_s^2 = 0.0004 (lambda_s small); keeping c_s <= 1 needs K2 >= 3
    K_B=2e-05: with K2 = 7.5e3 -> c_s^2 = 13.3 (lambda_s small); keeping c_s <= 1 needs K2 >= 1e+05
+
+Independent check (separate reviewer, no shared work): all four steps confirmed, including the G_N cross-check against
+the AeST PRL and the neutron-star paper. Corrections/caveats:
+- K_B = 0.5 is what our fits used; the AeST literature quotes K_B ~ 0.1 as fitting CMB well -> alpha1 ~ -0.4, still ~1e3 x too big.
+- in true screening the effective c4 is local/nonlinear, so the result is a leading-order estimate there.
+- pulsar alpha1 bounds (few e-5) are tighter than 1e-4; small K_B may bring strong-coupling issues.
+- no published PPN/preferred-frame calculation for AeST was found (check INSPIRE before claiming novelty).
