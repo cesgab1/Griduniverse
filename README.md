@@ -66,6 +66,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Black holes as Planck stars (no singularity; bounce/leak) | consistent with the grid; no observable consequence for astrophysical holes for >1e26 yr |
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
 | Khronon paper's DBI setting (λ_D ≈ 1) | not ΛCDM-like in our solver (σ₈ 0.22); needs λ_D ≈ 10⁷–10¹²; to be cross-checked with the authors' code if available |
+| Partially locked fluid (drag toward the grid frame) for the cluster shortfall | best of three avenues: 1 number, right group-to-cluster rise (χ² 24.9; 6.8 with 20% hydrostatic bias); overshoots at 1e15, and the drag strength would damp cosmological growth unless it acts only inside collapsing halos (`fluid/three_avenues.*`) |
 | Hubble tension | treated as a calibration issue (working assumption); FRB H₀ undecided |
 
 ### Failed (and kept on record)
@@ -93,6 +94,8 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | 'Ocean' hybrid: MOND from baryons + unboosted cosmic-ratio fluid halo (5.4 × baryons) | clusters: works (0.7–1.4 of measured vs 0.3–0.4), but that is LCDM-like. Galaxies: only survives SPARC if a ~150 kpc core switches the halo off; KiDS gain not robust (independent review); deriving the core from fluid pressure (n = 1 polytrope, radius π/μ) leaves 38% of the Lyman-α power (needs ~98%) | `fluid/hybrid_ocean.md` |
 | 'Salt': fluid shares the gas's fate (5.4 × retained baryons, spread like hot gas) | galaxies and groups need no extra mass under MOND once hot gas is included (KiDS χ² 103 vs 343 with fluid; SPARC 4568 vs 13464); clusters need ~2–4 × baryons, not 5.4 | `fluid/salt_current_tests.md`. What data say: extra mass only in systems ≳ 1e14 Msun |
 | 'Current': fluid streams past galaxies and pools at cluster nodes | gravity-driven streams trap fluid in every halo (turnaround argument); a frame-locked fluid gets the dividing mass right (~5e12 Msun, no free numbers) but traps 96% of the cosmic share in 1e13 groups (data: ~0) and 100% in clusters (data: 40–70%), and couldn't cluster for the CMB | `fluid/salt_current_tests.md` |
+| Hot dark component for the cluster shortfall | at most 6% of the cosmic share can be hot (Planck+BAO); clusters need 38–71% | `fluid/three_avenues.*` |
+| Missing ordinary matter in clusters | would need 2–3× the cosmic baryon ratio, hidden from every census; implausible, not strictly excluded | `fluid/three_avenues.*` |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 

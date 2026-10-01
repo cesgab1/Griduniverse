@@ -29,3 +29,19 @@ galaxy-lensing signal should show fluid in the web, not in bound galaxy halos.
     (a Milky-Way-mass galaxy would still trap ~35%). And a fully frame-locked fluid could not cluster in the early universe (CMB).
 What the data need, robustly: no extra mass up to ~1e13 Msun, roughly half the cosmic share at 1e13.5-1e14.5, less at 1e15
 (subject to hydrostatic-mass bias, cluster baryon censuses and the MOND function at cluster accelerations).
+
+## Three avenues for the cluster shortfall (three_avenues.*)
+Target: fraction of the cosmic fluid share each system must hold at R500 under MOND (from the salt test above).
+1. Partially locked fluid (drag toward the grid's rest frame; fluid is trapped if its speed relative to the halo is below k x V_esc,
+   Maxwellian speeds, 1 fitted number k):
+   - as measured: k = 0.29, mismatch chi2 = 24.9; predicted 0.02/0.14/0.34/0.61/0.91/1.00 vs needed 0/0.02/0.54/0.71/0.57/0.38
+     (log M 12, 13, 13.5, 14, 14.5, 15). Right rise from groups to clusters; wrong fall-off at 1e14.5-1e15.
+   - with 20% hydrostatic-mass bias: needed 0/0.50/1.09/1.23/0.97/0.65; k = 0.56, chi2 = 6.8, predicted 0.12/0.55/0.87/0.99/1.00/1.00.
+     Still can't give more than 1 x the cosmic share (needed 1.1-1.2 at 1e13.5-1e14) or the drop at 1e15.
+   - cost: the implied drag time (0.4 Gyr, tau*H0 = 0.03) would damp the fluid's growth on all scales (sigma8). It survives only if
+     the drag acts on fast relative motion inside collapsing halos and not on large-scale flows -- but bulk flows are also
+     ~300 km/s, so a plain speed threshold doesn't separate them. Open.
+2. Hot dark component (e.g. massive neutrinos): at most 0.06 of the cosmic share can be hot (Planck+BAO); needed 0.38-0.71. FAILS (6-12x short).
+3. Missing ordinary matter: clusters would need baryon fractions 0.33-0.51, i.e. 2.1-3.2 x the cosmic ratio, gathered from ~3x the
+   volume and hidden from X-ray/SZ/stellar censuses. Not strictly excluded, implausible.
+Best natural fit: avenue 1 (shape right, one number), with an unsolved cost to cosmological growth.
