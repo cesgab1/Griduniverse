@@ -45,7 +45,8 @@ and capture it, and lensing shows no halos at z 0.3-0.9.
   Problem: in the MOND regime the fluid has no self-gravity, so it gathers <~4 Mb, too little beyond ~4 r_M. Needs CDM-like
   self-gravity on >~ Mpc scales (crossover 1/mu). Earlier hybrid/DBI collapse runs double-counted (fluid + MOND). Crossover window (one-fluid): linear OK (Lya 0.995, sigma8
   unchanged); a crossover growing from 0.1 Mpc (z=3) to >= 1 Mpc today expels the excess at ~30 kpc (galaxy ~ MOND amount), but
-  at 100-300 kpc the fluid is ~2x (with surroundings) to 8x short of MOND. `khronon_dynamics/`
+  at 100-300 kpc the fluid is short of MOND; with realistic peak surroundings + external field (0.025-0.05 a0) the gap is
+  ~1.2-2.5x (worst at ~100 kpc), within what a 1-D model can resolve. Needs 3-D. `khronon_dynamics/`
 
 ## Family 5. Black holes
 Planck stars: consistent, no observable effect for >1e26 yr. Ended holes can't make voids or fix H0: closed.

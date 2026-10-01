@@ -52,3 +52,16 @@ B. One galaxy (Mb = 1e11 in a 1.5e12 Msun region, radial shells), fluid excess v
 Limits: 1-D, radial orbits, baryons fixed from z = 30, crude environment profile. These are trends, not precision numbers.
 Status: PLAUSIBLE/OPEN. Inner galaxy: works. Outer halo: short by ~2x with surroundings, more without. Next: realistic
 environment (3-D or a peak-profile initial condition) and the external-field radius, which limits how far MOND's halo must extend.
+
+## 6. Realistic surroundings + external field (peak_env.py, peak_env_results.txt)
+- Surroundings: conditional mean density around a 1.27-sigma peak (1.5e12 Msun region, collapsing at z = 1) in the LCDM
+  linear field (BBKS spectrum, sigma8 = 0.81). This replaces the crude R^-1.2 profile.
+- MOND target with the external field (1-D estimate), Mb = 1e11, phantom mass within 30/100/300/1000 kpc:
+  isolated 2.3e11 / 8.8e11 / 2.7e12 / 9.2e12; g_e = 0.025 a0: 2.1e11 / 6.9e11 / 1.4e12 / 1.9e12;
+  g_e = 0.05 a0: 2.0e11 / 5.5e11 / 8.7e11 / 9.6e11. The external field caps the halo near ~1-2e12.
+- Fluid excess at z = 0, crossover growing from 100 kpc (z = 3) to 1-10 Mpc today: 1.4-2.2e11 / 2.9-3.4e11 / 6.0-7.1e11 /
+  1.2-1.3e12. CDM-like control: 4.9e11 / 5.6e11 / 7.5e11 / 1.2e12.
+- Ratio to MOND for g_e = 0.025-0.05 a0: 30 kpc 0.7-1.1; 100 kpc 0.4-0.6; 300 kpc 0.4-0.8; 1 Mpc 0.6-1.3.
+Reading: with realistic surroundings and the external field, the gap shrinks from 2-8x to ~1.2-2.5x and is worst at ~100 kpc.
+At 30 kpc the CDM-like excess (2.3x MOND) is expelled to about the MOND amount. The 1-D radial-orbit model can't settle a gap
+of this size (radial shells oscillate; no angular momentum or relaxation). Deciding it needs a 3-D run. Status: PLAUSIBLE, not shown.

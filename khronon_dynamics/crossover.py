@@ -83,6 +83,9 @@ def galaxy(lam3, lam0, Mb=1e11, N=300, zi=30.0, Mhalo=0.0, kappa=0.0, env=False)
         Delta = (1.686*(1/31)/(1/3))*np.minimum(1.0, (R/RL)**-1.2)
     r = ai*R*(1 - Delta/3); v = Hof(ai)*r*(1 - Delta/3);
     jang = kappa*np.sqrt(G*Om*rhoc*4/3*np.pi*R**3*R)                   
+    return run_shells(R, m_f, r, v, lam3, lam0, Mb, zi, jang)
+def run_shells(R, m_f, r, v, lam3, lam0, Mb, zi, jang=0.0):
+    N = len(R)
     t = tz(zi); eps = 2.0; Xi = None; out = {}   # jang: specific angular momentum (secondary-infall style)
     marks = [(tz(2.0), "z=2"), (tz(0.9), "z=0.9"), (tz(0.0), "z=0")]
     while t < marks[-1][0]:
