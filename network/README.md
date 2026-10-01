@@ -53,3 +53,18 @@ Verdict:
    0.05 vs 0.08) and fungal is cleaner close in. The geometry only needs to be a random, connected 3-D mesh.
    The fungal picture adds a reason for the rule itself (growth follows flow).
 Earlier mosaic failures were failures of the slack rule, not of the mosaic geometry.
+
+# Is the fluid held in the thickened tubes the MOND halo? (tube_content_vs_phantom.*, mosaic) -- NO
+One universal fluid density per tube, conductance ~ (cross-section)^n, against the MOND halo mass measured from the pull
+(M = 4-32):
+| n | mismatch (rms, ln) | best density per mass (should be constant) | radial slope error |
+|---|---|---|---|
+| 2 (pipe flow) | 0.48 | 0.0042 -> 0.0052 | +0.6 to +1.3 |
+| 1 | 0.33 | 0.0111 -> 0.0080 | +0.2 to +0.9 |
+| 1/2 | 0.50 | 0.058 -> 0.018 (~ M^-1/2) | -0.05 to -0.5 |
+Analytic reason (general no-go): fluid that depends only on the local tube state is a local function of the pull g, but the
+MOND halo density is a derivative quantity, ~ sqrt(M)/r^2 = g/r, so at the same g it differs between masses. Matching the radius
+dependence needs n = 1/2; matching the mass dependence needs n = 1. Also, the fully built core would hold fluid where MOND has none.
+Reading: the tube network models the MOND force law (Khronon's J term: how the pull spreads). The fluid is not the tube
+contents. In Khronon it sits where the extra flux originates (rho_tau = -div(J_Y grad Xi)/4 pi G), i.e. it is a separate conserved
+component that the network shapes. The supply problem (khronon_dynamics/) is unchanged by the network picture.

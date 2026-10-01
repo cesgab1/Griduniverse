@@ -20,6 +20,8 @@ and v^4 ~ M automatically; 3-D lattice test passes (slope 1.01, isotropic to 5-1
 Same-fashion geometry comparison (network/README.md): static links give Newton in every geometry. With the flow rule:
 mosaic and fungal pass (tie), cubic imprints its axes (~20%, excluded), spider web never Newtonian and centred (excluded).
 Earlier mosaic failures were the slack rule's, not the geometry's.
+Fluid = contents of the thickened tubes (as the MOND halo): NO (general no-go: tube contents are local in g, the MOND halo
+density ~ g/r is not; mosaic test mismatch >= 0.33 in ln). The network models the force law only.
 Planks made of fluid with dead space between: the same tubes. (Earlier '10-um channels as light's grid' was a different claim.)
 
 ## Family 2. Relativistic base
