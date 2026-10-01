@@ -1,0 +1,13 @@
+B1. Acceleration starts at z = 0.65; the DE law then releases 6.5% of rho_DE = 0.045 rho_crit c^2 by today
+    escape speeds today (km/s): 1e12.0: 228  1e13.0: 492  1e13.5: 722  1e14.0: 1060  1e14.5: 1556  1e15.0: 2285
+B3. as measured: sigma_h = 587 km/s, mismatch chi2 = 25.5 | kept: 0.02(need 0.00)  0.13(need 0.02)  0.32(need 0.54)  0.65(need 0.71)  0.93(need 0.57)  1.00(need 0.38)
+    heating energy 1.5e-06 rho_crit c^2 = 3e-05 of the DE release (gravitational-wave background ~1e-9: 1e+03x too small)
+B3. 20% hydrostatic bias: sigma_h = 301 km/s, mismatch chi2 = 6.7 | kept: 0.10(need 0.00)  0.56(need 0.50)  0.88(need 1.00)  0.99(need 1.00)  1.00(need 0.97)  1.00(need 0.65)
+    heating energy 3.9e-07 rho_crit c^2 = 9e-06 of the DE release (gravitational-wave background ~1e-9: 4e+02x too small)
+B4. sigma_h =  300 km/s from z = 0.65: sigma8 / unheated = 0.964
+B4. sigma_h =  600 km/s from z = 0.65: sigma8 / unheated = 0.877
+B4. sigma_h =  800 km/s from z = 0.65: sigma8 / unheated = 0.804
+B4. sigma_h = 1100 km/s from z = 0.65: sigma8 / unheated = 0.694
+B4. sigma_h = 1500 km/s from z = 0.65: sigma8 / unheated = 0.577
+    (weak-lensing S8 sits ~5-8% below Planck: a drop of up to ~8% is welcome, > ~12% excluded)
+    Caveat: fluid near halo centres is bound ~2.5x deeper than at R500; if it must leave too, sigma_h rises ~2.5x.

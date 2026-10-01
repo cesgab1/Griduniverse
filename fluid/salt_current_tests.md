@@ -45,3 +45,22 @@ Target: fraction of the cosmic fluid share each system must hold at R500 under M
 3. Missing ordinary matter: clusters would need baryon fractions 0.33-0.51, i.e. 2.1-3.2 x the cosmic ratio, gathered from ~3x the
    volume and hidden from X-ray/SZ/stellar censuses. Not strictly excluded, implausible.
 Best natural fit: avenue 1 (shape right, one number), with an unsolved cost to cosmological growth.
+
+## Tesla valve + grid vibrations (valve_vibration.*)
+A. Tesla valve: rectifies only at high Reynolds number (fast flow), symmetric when slow. So it is a speed switch that ADDS
+   trapping (fast infall can't bounce back out); it can't stop slow gravitational capture by young galaxies. Alone: no.
+   With vibrations, valve + oscillation = valveless pump (a way vibrations could drive net flow). Kept for later.
+B. 'Shaken ocean': grid vibrations heat the dark fluid LATE, galaxies/groups lose their halos, deep clusters keep theirs.
+   - Timing derived from our dark-energy law (rho_DE ~ adot^-1/2): rho_DE stops rising and starts falling when acceleration
+     begins, z = 0.65; by today 6.5% of rho_DE (0.045 rho_crit c^2) is released. Heating needs only 1e-5 of it.
+     (The gravitational-wave background is 400-1000x too weak, so the vibration must be of the grid/dark-energy field itself.)
+   - Escapes the 'galaxies in the middle' no-go by timing: the early universe/Lyman-alpha (z 2-5) see a cold fluid;
+     galaxies formed early with halos and later lose them; clusters form late and deep.
+   - Shape (one number, sigma_h = the fluid's speed spread): as measured sigma_h = 587 km/s, chi2 25.5 (same as the locked fluid);
+     with 20% hydrostatic bias sigma_h = 301 km/s, chi2 6.7 (MW-size galaxies keep 10%, need ~0; 1e15 still overshoots).
+   - Cost (two-fluid linear growth from z = 0.65): sigma8 / unheated = 0.96 (300 km/s), 0.88 (600), 0.80 (800), 0.69 (1100).
+     At 300 km/s it lowers sigma8 by ~4% -- in the direction of the weak-lensing S8 tension, not against it.
+   - Open: fluid near halo centres is bound ~2.5x deeper than at R500; if it must be cleared there too, sigma_h -> ~750 km/s
+     and sigma8 drops ~18% (excluded). Needs a proper heated-halo equilibrium calculation (next).
+   - Predictions if it survives: galaxy lensing at lens redshift z > ~0.7 shows full dark halos (KiDS z ~ 0.2-0.4 shows none);
+     groups at z > 0.7 hold the full cosmic share; disks expand as their halos leave (size growth since z ~ 0.7).

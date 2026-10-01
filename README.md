@@ -67,6 +67,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
 | Khronon paper's DBI setting (λ_D ≈ 1) | not ΛCDM-like in our solver (σ₈ 0.22); needs λ_D ≈ 10⁷–10¹²; to be cross-checked with the authors' code if available |
 | Partially locked fluid (drag toward the grid frame) for the cluster shortfall | best of three avenues: 1 number, right group-to-cluster rise (χ² 24.9; 6.8 with 20% hydrostatic bias); overshoots at 1e15, and the drag strength would damp cosmological growth unless it acts only inside collapsing halos (`fluid/three_avenues.*`) |
+| 'Shaken ocean': grid vibrations heat the fluid after acceleration begins (z = 0.65, derived from the DE law), galaxies/groups lose halos, clusters keep them | same shape fit as the locked fluid (χ² 6.7 with hydrostatic bias, σ_h ≈ 300 km/s), energy is 1e-5 of the DE release, σ₈ −4% (helps S8); fails if halo centres must also be cleared (σ₈ −18%). Tesla valve alone only adds trapping (`fluid/valve_vibration.*`) |
 | Hubble tension | treated as a calibration issue (working assumption); FRB H₀ undecided |
 
 ### Failed (and kept on record)
