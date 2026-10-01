@@ -109,3 +109,16 @@ So the user's second half is required, not optional: escaped fluid must give its
 i.e. heat is only ever held inside wells. That makes galaxies a 'dark fountain': in, heated, out, cooled, back in.
 Next test: steady-state fluid held by a galaxy in the fountain (inflow x residence time) vs KiDS/SPARC, and whether cooled
 fluid can re-enter clusters/groups at the needed rate. Unknown numbers: heat per mass (sigma ~ 450 km/s) and cooling time.
+
+## Dark fountain (fountain.*) -- FAILS
+Heated fluid must (1) cool fast outside wells so the cosmic fluid stays cold (Lyman-alpha z = 3: hot fraction <~ 1%), but
+(2) get beyond the galaxy's reach before it cools, else it falls back and the galaxy keeps it all as a cycling cloud.
+  | v_th | t_c max (Lyman-alpha) | heat needed to escape (turnaround / MOND reach) | clusters allow |
+  |  20  | 0.08 Gyr | 2170 / 3090 km/s | <~ 500-600 |
+  |  80  | 0.10 Gyr | 1650 / 2350 km/s | <~ 500-600 |
+  | 150  | 0.16 Gyr | 1040 / 1480 km/s | <~ 500-600 |
+Even the most lenient corner is 2x off, and with v_th = 150 km/s most z = 3 galaxies (V < 150) would never heat and keep halos.
+Heat that big would also empty groups and clusters. Recycling (ignored) only tightens (1).
+Lesson: heating can't do the separation. Lyman-alpha forces any heat outside wells to vanish within ~0.1 Gyr, i.e. within
+~50-200 kpc of where it was made, which is inside the galaxy's own reach. 'Shallow wells lose fluid' by heat and
+'the ocean stays cold' cannot both hold. Same family: shaken ocean (global heat) failed on lensing vs redshift.

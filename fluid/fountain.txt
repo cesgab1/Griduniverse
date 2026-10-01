@@ -1,0 +1,11 @@
+Lyman-alpha (z = 3) vs escape, for a typical z = 3 galaxy with circular speed V = 150 km/s
+  virial radius 49 kpc; reach: turnaround 170 kpc, MOND external-field radius 243 kpc
+  v_th | ejection rate (/Gyr) | t_c max (Gyr) | sigma_h needed: turnaround / MOND reach (km/s) | clusters allow
+    20 |               0.130 |         0.077 |     2166 /     3089                        | <~ 500-600
+    40 |               0.122 |         0.082 |     2036 /     2904                        | <~ 500-600
+    80 |               0.099 |         0.101 |     1649 /     2351                        | <~ 500-600
+   150 |               0.062 |         0.161 |     1037 /     1480                        | <~ 500-600
+
+Today (z = 0), Milky-Way-like galaxy V = 200 km/s:
+  v_th 20: (if the same 1% applied) t_c max 0.92 Gyr -> sigma_h >= 1089 km/s (turnaround 1029 kpc)
+  v_th 80: (if the same 1% applied) t_c max 0.68 Gyr -> sigma_h >= 1490 km/s (turnaround 1029 kpc)
