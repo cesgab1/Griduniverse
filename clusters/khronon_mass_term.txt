@@ -1,0 +1,25 @@
+Cluster: g_obs / (measured cluster RAR) at r = 0.1, 0.3, 0.6, 1.0 Mpc   [1.0 = matches data]
+   R =  3.0 Mpc, MOND only       :   0.35   0.35   0.34   0.33   (condensate/baryon mass at 1 Mpc   0.00)
+   R =  3.0 Mpc, 1/mu = 22.0 Mpc :   0.35   0.35   0.34   0.33   (condensate/baryon mass at 1 Mpc   0.00)
+   R =  3.0 Mpc, 1/mu =  2.0 Mpc :   0.36   0.38   0.42   0.48   (condensate/baryon mass at 1 Mpc   0.87)
+   R =  3.0 Mpc, 1/mu =  1.0 Mpc :   0.76   1.49   2.79   4.73   (condensate/baryon mass at 1 Mpc  43.37)
+   R =  3.0 Mpc, 1/mu =  0.5 Mpc :   runaway   runaway   runaway   runaway   (condensate/baryon mass at 1 Mpc   runaway)
+   R =  3.0 Mpc, 1/mu = 0.25 Mpc :   runaway   runaway   runaway   runaway   (condensate/baryon mass at 1 Mpc   runaway)
+   R = 10.0 Mpc, MOND only       :   0.35   0.35   0.34   0.33   (condensate/baryon mass at 1 Mpc   0.00)
+   R = 10.0 Mpc, 1/mu = 22.0 Mpc :   0.35   0.35   0.34   0.33   (condensate/baryon mass at 1 Mpc   0.01)
+   R = 10.0 Mpc, 1/mu =  2.0 Mpc :   runaway   runaway   runaway   runaway   (condensate/baryon mass at 1 Mpc   runaway)
+   R = 10.0 Mpc, 1/mu =  1.0 Mpc :   runaway   runaway   runaway   runaway   (condensate/baryon mass at 1 Mpc   runaway)
+   R = 10.0 Mpc, 1/mu =  0.5 Mpc :   runaway   runaway   runaway   runaway   (condensate/baryon mass at 1 Mpc   runaway)
+   R = 10.0 Mpc, 1/mu = 0.25 Mpc :   runaway   runaway   runaway   runaway   (condensate/baryon mass at 1 Mpc   runaway)
+
+Isolated galaxy (lensing): g_obs / MOND-only at r = 0.1, 0.3, 0.6, 1.0 Mpc   [KiDS wants ~1]
+   R =  1.5 Mpc, 1/mu = 22.0 Mpc:   1.00   1.00   1.01   1.02
+   R =  1.5 Mpc, 1/mu =  2.0 Mpc:   1.04   1.62   3.44   6.08
+   R =  1.5 Mpc, 1/mu =  1.0 Mpc:   1.51   5.83  15.52  28.75
+   R =  1.5 Mpc, 1/mu =  0.5 Mpc:  15.09 102.02 329.06 654.29
+   R =  1.5 Mpc, 1/mu = 0.25 Mpc:   runaway   runaway   runaway   runaway
+   R =  3.0 Mpc, 1/mu = 22.0 Mpc:   1.00   1.00   1.02   1.05
+   R =  3.0 Mpc, 1/mu =  2.0 Mpc:   1.28   4.18  11.52  24.10
+   R =  3.0 Mpc, 1/mu =  1.0 Mpc:   9.47  61.03 204.70 490.75
+   R =  3.0 Mpc, 1/mu =  0.5 Mpc:   runaway   runaway   runaway   runaway
+   R =  3.0 Mpc, 1/mu = 0.25 Mpc:   runaway   runaway   runaway   runaway

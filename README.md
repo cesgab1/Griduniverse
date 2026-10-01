@@ -62,7 +62,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Energy exchange between dark energy and the fluid | no-exchange fits better on Khronon; theory doesn't yet say which |
 | Electron energy → dark energy (switch at z ≈ 100–200) | consistent; predicts a 21-cm step at 7–15 MHz |
 | Cassini quadrupole vs rotation curves | sharp switch passes Cassini but fits galaxies worse; shared by every MOND theory (literature 8.7σ, 1.9σ without bulges) |
-| Clusters | fluid trapped in hot cluster cores: not yet tested on Khronon |
+| Clusters | MOND gives only ~⅓ of the cluster pull; Khronon's quasi-static mass term can't fix it (failed, below). Next: where the condensate settles nonlinearly (its Jeans scale) |
 | Origin of a₀ | Verlinde-type argument gives cH₀/6; not derived in the fluid picture |
 | Black holes as Planck stars (no singularity; bounce/leak) | consistent with the grid; no observable consequence for astrophysical holes for >1e26 yr |
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
@@ -83,6 +83,8 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | AeST preferred frame (ours) | α₁ = −4[K_B + (2−K_B)/(1+λ_s)]: fails by 10³–10⁴ at K_B = 0.1–0.5 | always run the PPN/preferred-frame check on a base theory before building on it |
 | AeST at small K_B (ours) | early-universe vector mode grows as √(3Ω/K_B)·H: e¹³⁰⁰ at the K_B the Solar System needs | a fix in one regime can break another; check stability |
 | AeST + c₄ J² repair | cancels α₁ but replaces MOND with Newton×(2/|c₄|) at low accelerations | MOND, preferred frame and stability are tied together |
+| Ended black holes (stellar clusters or supermassive) creating voids/cold regions that explain the Hubble tension | none has ended (shortest lifetime >1e26 yr); all black holes together hold ~6e-4 of the energy needed; cold voids slow visible light by ~1e-29, and H₀ uses brightness and redshift, not travel time | `black_holes/ended_holes_hubble.*`; the local-void route was already excluded by supernovae |
+| Khronon mass term (μ) supplying cluster mass | enough mass for cluster cores (1/μ ≈ 1 Mpc) multiplies isolated-galaxy lensing at 0.3–1 Mpc by 5–500×; for 1/μ ≲ 0.5 Mpc no static solution exists | `clusters/khronon_mass_term.*` |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 
@@ -106,6 +108,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 - **`fluid/`:** the fluid between the layers: 1D-channel equation of state, superfluid a₀, tests of standalone superfluid dark matter.
 - **`lorentz/`:** light-speed (grid spacing) limits and the AeST preferred-frame calculation.
 - **`aest_upgrade/`:** our CLASS build (AeST and Khronon dark sectors + grid dark energy), fits, small-K_B instability, Khronon fits.
+- **`clusters/`:** cluster tests on the Khronon base.
 - **`black_holes/`:** Planck stars, lifetimes, end states, supermassive black holes.
 - **`literature/`:** reviews of related papers and a survey of relativistic MOND theories.
 - **`particles_collapse/`:** two electrons on a grid, the two-layer electron, acceleration- and strain-triggered collapse, flavour and neutrino studies.

@@ -1,0 +1,7 @@
+SMBH mass density: Omega = 3.5e-06;  all black holes: Omega ~ 1e-04
+Hubble tension needs a ~17% change in H^2 (or in the distance calibration)
+   all SMBHs converted to energy: 2.1e-05 of what is needed;  all black holes: 5.9e-04
+   radio 1.4 GHz: speed deficit in a void (1 - v/c) = 4.1e-18
+   visible light: speed deficit in a void (1 - v/c) = 3.2e-29
+Distances in the Hubble diagram come from brightness (standard candles) and redshift, not from light travel time:
+   slowing light delays arrival but changes neither brightness nor redshift -> no effect on H0.
