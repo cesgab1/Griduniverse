@@ -1,0 +1,4 @@
+cubic   sigma  0.962 | a0_eff 1.47e+00 | MOND shape rms  0.10 | with r_M = 8: inner adaptive/static  1.00, outer slope -0.92
+mosaic  sigma  3.138 | a0_eff 1.34e+00 | MOND shape rms  0.05 | with r_M = 8: inner adaptive/static  1.00, outer slope -0.97
+web     sigma  1.675 | a0_eff 1.14e+00 | MOND shape rms  0.68 | with r_M = 8: inner adaptive/static  1.00, outer slope -0.18
+fungal  sigma  0.480 | a0_eff 1.59e+00 | MOND shape rms  0.08 | with r_M = 8: inner adaptive/static  1.00, outer slope -1.05

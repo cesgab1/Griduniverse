@@ -17,6 +17,9 @@ the web back to 3-D, which is MOND's external-field effect. Still put in by hand
 Fluid-tube network that thickens with flow (fungus/slime mould; Coalesce, Oct 2026): Family 1, NEW mechanism (adaptive growth,
 not static slack). Tubes thickening as sqrt(flux) and saturating give the MOND field equation (AQUAL), the a0 switch radius
 and v^4 ~ M automatically; 3-D lattice test passes (slope 1.01, isotropic to 5-10%). Put in: exponent 1/2 and a0. `network/`
+Same-fashion geometry comparison (network/README.md): static links give Newton in every geometry. With the flow rule:
+mosaic and fungal pass (tie), cubic imprints its axes (~20%, excluded), spider web never Newtonian and centred (excluded).
+Earlier mosaic failures were the slack rule's, not the geometry's.
 Planks made of fluid with dead space between: the same tubes. (Earlier '10-um channels as light's grid' was a different claim.)
 
 ## Family 2. Relativistic base

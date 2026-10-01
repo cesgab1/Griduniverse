@@ -1,0 +1,4 @@
+cubic   cubic-pattern amplitude +1.954 (radial units) | off-centre mass: outer slope -0.84
+mosaic  cubic-pattern amplitude -0.047 (radial units) | off-centre mass: outer slope -0.87
+web     cubic-pattern amplitude +0.000 (radial units) | off-centre mass: outer slope -0.59
+fungal  cubic-pattern amplitude -0.002 (radial units) | off-centre mass: outer slope -0.83

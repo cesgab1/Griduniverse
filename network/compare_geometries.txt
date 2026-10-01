@@ -1,0 +1,12 @@
+cubic/static/seed0       inner slope -2.41 | outer slope -2.05 (per M: -2.05 -2.05 -2.05 -2.05) | TF slope 2.00 | anisotropy  0.26 | settled True
+cubic/adaptive/seed0     inner slope -1.88 | outer slope -1.08 (per M: -1.08 -1.08 -1.08 -1.08) | TF slope 1.00 | anisotropy  0.42 | settled True
+mosaic/static/seed0      inner slope -2.42 | outer slope -1.92 (per M: -1.92 -1.92 -1.92 -1.92) | TF slope 2.00 | anisotropy  0.37 | settled True
+mosaic/static/seed1      inner slope -2.08 | outer slope -2.10 (per M: -2.10 -2.10 -2.10 -2.10) | TF slope 2.00 | anisotropy  0.33 | settled True
+mosaic/adaptive/seed0    inner slope -1.43 | outer slope -0.95 (per M: -0.95 -0.95 -0.95 -0.95) | TF slope 1.00 | anisotropy  0.33 | settled True
+mosaic/adaptive/seed1    inner slope -1.21 | outer slope -1.05 (per M: -1.05 -1.05 -1.06 -1.06) | TF slope 1.00 | anisotropy  0.32 | settled True
+web/static/seed0         inner slope -0.17 | outer slope  0.30 (per M:  0.30  0.30  0.30  0.30) | TF slope 2.00 | anisotropy  0.00 | settled True
+web/adaptive/seed0       inner slope -0.17 | outer slope  0.30 (per M:  0.30  0.30  0.30  0.30) | TF slope 1.00 | anisotropy  0.00 | settled True
+fungal/static/seed0      inner slope -2.82 | outer slope -1.68 (per M: -1.68 -1.68 -1.68 -1.68) | TF slope 2.00 | anisotropy  0.57 | settled True
+fungal/static/seed1      inner slope -2.69 | outer slope -1.78 (per M: -1.78 -1.78 -1.78 -1.78) | TF slope 2.00 | anisotropy  0.63 | settled True
+fungal/adaptive/seed0    inner slope -2.50 | outer slope -0.83 (per M: -0.81 -0.81 -0.82 -0.88) | TF slope 1.00 | anisotropy  0.51 | settled True
+fungal/adaptive/seed1    inner slope -2.37 | outer slope -0.91 (per M: -0.88 -0.88 -0.89 -0.98) | TF slope 1.02 | anisotropy  0.54 | settled True
