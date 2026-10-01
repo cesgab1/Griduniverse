@@ -1,0 +1,26 @@
+LCDM (Lambda): age today 13.78 Gyr; growth 99% frozen at 46 Gyr
+   t = 1e+11 yr: size x 1.57e+02, CMB 1.7e-02 K, horizon temperature 2.2e-30 K
+   t = 1e+12 yr: size x 5.88e+24, CMB 4.6e-25 K, horizon temperature 2.2e-30 K
+   t = 1e+14 yr: size x inf, CMB 0.0e+00 K, horizon temperature 2.2e-30 K
+   t = 1e+20 yr: size x inf, CMB 0.0e+00 K, horizon temperature 2.2e-30 K
+   t = 1e+40 yr: size x inf, CMB 0.0e+00 K, horizon temperature 2.2e-30 K
+grid law beta = 0.5: age today 13.70 Gyr; growth 99% frozen at 60 Gyr; late-time a ~ t^5.00
+   t = 1e+11 yr: size x 3.63e+01, CMB 7.5e-02 K, horizon temperature 1.1e-30 K
+   t = 1e+12 yr: size x 3.49e+05, CMB 7.8e-06 K, horizon temperature 1.8e-31 K
+   t = 1e+14 yr: size x 2.49e+15, CMB 1.1e-15 K, horizon temperature 1.9e-33 K
+   t = 1e+20 yr: size x 2.48e+45, CMB 1.1e-45 K, horizon temperature 1.9e-39 K
+   t = 1e+40 yr: size x 2.48e+145, CMB 1.1e-145 K, horizon temperature 1.9e-59 K
+beta = 0.85 (fit +1 sigma): age today 13.66 Gyr; growth 99% frozen at 70 Gyr; late-time a ~ t^3.35
+   t = 1e+11 yr: size x 2.44e+01, CMB 1.1e-01 K, horizon temperature 9.1e-31 K
+   t = 1e+12 yr: size x 1.93e+04, CMB 1.4e-04 K, horizon temperature 1.2e-31 K
+   t = 1e+14 yr: size x 8.60e+10, CMB 3.2e-11 K, horizon temperature 1.3e-33 K
+   t = 1e+20 yr: size x 1.12e+31, CMB 2.4e-31 K, horizon temperature 1.3e-39 K
+   t = 1e+40 yr: size x 1.28e+98, CMB 2.1e-98 K, horizon temperature 1.3e-59 K
+beta = 0.41 (fit -1 sigma): age today 13.72 Gyr; growth 99% frozen at 57 Gyr; late-time a ~ t^5.88
+   t = 1e+11 yr: size x 4.18e+01, CMB 6.5e-02 K, horizon temperature 1.2e-30 K
+   t = 1e+12 yr: size x 1.34e+06, CMB 2.0e-06 K, horizon temperature 2.1e-31 K
+   t = 1e+14 yr: size x 4.71e+17, CMB 5.8e-18 K, horizon temperature 2.3e-33 K
+   t = 1e+20 yr: size x 8.73e+52, CMB 3.1e-53 K, horizon temperature 2.3e-39 K
+   t = 1e+40 yr: size x 3.18e+170, CMB 8.6e-171 K, horizon temperature 2.3e-59 K
+closed universe Omega_k = -0.01: keeps expanding to size x 4.9e+08 (t = 4.5e+12 yr) -- no turnaround
+closed universe Omega_k = -0.05: keeps expanding to size x 4.9e+08 (t = 4.4e+12 yr) -- no turnaround
