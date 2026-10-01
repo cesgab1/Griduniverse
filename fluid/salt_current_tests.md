@@ -64,3 +64,21 @@ B. 'Shaken ocean': grid vibrations heat the dark fluid LATE, galaxies/groups los
      and sigma8 drops ~18% (excluded). Needs a proper heated-halo equilibrium calculation (next).
    - Predictions if it survives: galaxy lensing at lens redshift z > ~0.7 shows full dark halos (KiDS z ~ 0.2-0.4 shows none);
      groups at z > 0.7 hold the full cosmic share; disks expand as their halos leave (size growth since z ~ 0.7).
+
+## Heated-halo equilibrium (heated_halo.*) -- the 'centres bound 2.5x deeper' worry
+Heated fluid settles isothermally, rho_f = rho_bg exp(DeltaPhi/sigma_h^2), in the MOND well of the observed baryons plus the fluid's
+own (Newtonian) gravity; MOND's log well is cut off by the external field g_e = 0.01-0.05 a0. (Same profile for a collisionless
+gas with an isotropic speed spread, so it does not require the fluid to collide -- the Bullet Cluster needs that.)
+- Galaxies: a Milky-Way-like galaxy keeps essentially nothing. Fluid/baryons < 0.01 inside 30 kpc and 0.01-0.05 inside 300 kpc for
+  sigma_h >= 400 km/s. The surroundings are so dilute that even the deeper centre holds a negligible amount. Worry resolved.
+- Groups/clusters: once the well is deep compared with sigma_h, no equilibrium exists -- the fluid stays a bound, self-gravitating
+  halo, i.e. the system keeps its full share (it can't gather more than its supply).
+- Averaged over surroundings (g_e 0.01-0.05 a0, 1-3x mean density), fraction of cosmic share kept:
+  | sigma_h | 1e12 | 1e13 | 1e13.5 | 1e14 | 1e14.5 | 1e15 | chi2 measured | chi2 20% bias |
+  |   400   | 0.00 | 0.62 | 1.00 | 1.00 | 1.00 | 1.00 | 54 | 6.1 |
+  |   450   | 0.00 | 0.48 | 0.94 | 1.00 | 1.00 | 1.00 | 46 | 5.7 |
+  |   500   | 0.00 | 0.35 | 0.81 | 1.00 | 1.00 | 1.00 | 37 | 8.1 |
+  Best: sigma_h ~ 450 km/s with hydrostatic bias; almost all the remaining misfit is the 1e15 point (needs 0.65, gets 1).
+  Without the bias, clusters keep too much (data say 0.4-0.7 of the share).
+- Cost at 450 km/s: sigma8 x 0.925 (-7.5%) -- about the size of the weak-lensing S8 deficit relative to Planck (not fitted to it).
+- Still not derived: sigma_h itself (needs the coupling between grid vibrations and the fluid); the fluid's gravity was taken unboosted.
