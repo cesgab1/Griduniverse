@@ -92,13 +92,13 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 
 ### Overall lessons
-0. Check time dependence: a threshold that works today can be very different when structures actually formed (DBI phase change).
 1. Check the hard tests first: Solar System, gravitational-wave speed, lensing, stability. We spent weeks on AeST before finding it fails the Solar System.
 2. Collective behaviour beats intuition about single parts: a single loose link isn't a network of loose links.
 3. Derived numbers are often conditional: a₀ = cH₀/6 holds only for heavier stellar mass-to-light ratios.
 4. The literature often already has the failure (superfluid lensing); search before building.
 5. Independent checks matter: both AeST results were re-derived by a separate reviewer before being recorded.
 6. Keep failures: most of the progress came from understanding why something failed.
+7. Check time dependence: a threshold that works today can be very different when structures actually formed (DBI phase change).
 
 ## Contents
 
