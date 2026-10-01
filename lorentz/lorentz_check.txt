@@ -1,0 +1,16 @@
+(1) quadratic photon-speed bound -> grid spacing seen by light must be < 5.7e-28 m  (Planck length 1.6e-35 m: allowed by 7.5 orders)
+    Planck length                                    -> E_QG2 = 4.2e+19 GeV  (allowed)
+    superfluid channel spacing (BFK fit, ~10 micron) -> E_QG2 = 6.8e-11 GeV  (EXCLUDED by 22 orders)
+    -> the 10-micron fluid channels cannot be what light travels through: light must see a Planck-fine grid, the fluid must be dark.
+
+(2) naive AeST preferred-frame parameter alpha1 = -4 K_B  (bound |alpha1| < 1e-4):
+    K_B = 0.5      alpha1 = -2.0e+00  fails
+    K_B = 0.05     alpha1 = -2.0e-01  fails
+    K_B = 0.001    alpha1 = -4.0e-03  fails
+    K_B = 2.5e-05  alpha1 = -1.0e-04  fails
+
+(3) Can AeST's cosmology live with a small vector coupling K_B?  (CLASS, upgraded-AeST best fit, only K_B changed; kb_direct.py, kb_prec.py)
+    K_B = 0.5 -> 0.2: CMB TT changes < 0.02%  (insensitive)
+    K_B = 0.1: default precision shows 74% artefact; high precision -> 0.016% at l=1000 (max 2%) -> numerical, not physical
+    K_B <= 0.07: blows up at both precisions, result depends on precision -> our solver is too stiff there (vector equation ~ 1/K_B).
+    Not yet decidable whether AeST cosmology survives K_B ~ 1e-5; needs the vector equation reformulated for small K_B.
