@@ -67,7 +67,6 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
 | Khronon paper's DBI setting (λ_D ≈ 1) | not ΛCDM-like in our solver (σ₈ 0.22); needs λ_D ≈ 10⁷–10¹²; to be cross-checked with the authors' code if available |
 | Partially locked fluid (drag toward the grid frame) for the cluster shortfall | best of three avenues: 1 number, right group-to-cluster rise (χ² 24.9; 6.8 with 20% hydrostatic bias); overshoots at 1e15, and the drag strength would damp cosmological growth unless it acts only inside collapsing halos (`fluid/three_avenues.*`) |
-| 'Shaken ocean': grid vibrations heat the fluid after acceleration begins (z = 0.65, derived from the DE law), galaxies/groups lose halos, clusters keep them | heated-halo equilibrium: galaxies (even centres) cleared, groups half, clusters full; σ_h ≈ 450 km/s gives χ² 5.7 (with 20% hydrostatic bias; 46 without), σ₈ −7.5% (≈ the S8 deficit); energy 1e-5 of the DE release; σ_h not derived, 1e15 clusters keep too much. Tesla valve alone only adds trapping (`fluid/valve_vibration.*`, `fluid/heated_halo.*`) |
 | Hubble tension | treated as a calibration issue (working assumption); FRB H₀ undecided |
 
 ### Failed (and kept on record)
@@ -97,6 +96,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | 'Current': fluid streams past galaxies and pools at cluster nodes | gravity-driven streams trap fluid in every halo (turnaround argument); a frame-locked fluid gets the dividing mass right (~5e12 Msun, no free numbers) but traps 96% of the cosmic share in 1e13 groups (data: ~0) and 100% in clusters (data: 40–70%), and couldn't cluster for the CMB | `fluid/salt_current_tests.md` |
 | Hot dark component for the cluster shortfall | at most 6% of the cosmic share can be hot (Planck+BAO); clusters need 38–71% | `fluid/three_avenues.*` |
 | Missing ordinary matter in clusters | would need 2–3× the cosmic baryon ratio, hidden from every census; implausible, not strictly excluded | `fluid/three_avenues.*` |
+| 'Shaken ocean': grid vibrations heat the fluid after acceleration starts (z = 0.65, derived from the DE law); galaxies lose halos, clusters keep them | promising on clusters (χ² 5.7 with hydrostatic bias, galaxies fully cleared, σ₈ −7.5%) but predicts galaxy lensing at fixed stellar mass halving between z ≈ 0.9 and 0.4; COSMOS and CFHTLenS see no drop (halos, if anything, heavier today). Heating early enough (z ≳ 1.2) costs σ₈ 12–20% | `fluid/valve_vibration.*`, `fluid/heated_halo.*`, `fluid/lensing_z_test.*`. Lesson: whatever keeps fluid out of galaxies must be in place by z ≈ 1, yet the fluid must stay cold at z 2–5 |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 

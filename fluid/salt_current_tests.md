@@ -82,3 +82,14 @@ gas with an isotropic speed spread, so it does not require the fluid to collide 
   Without the bias, clusters keep too much (data say 0.4-0.7 of the share).
 - Cost at 450 km/s: sigma8 x 0.925 (-7.5%) -- about the size of the weak-lensing S8 deficit relative to Planck (not fitted to it).
 - Still not derived: sigma_h itself (needs the coupling between grid vibrations and the fluid); the fluid's gravity was taken unboosted.
+
+## Lensing across redshift (lensing_z_test.*) -- the shaken ocean FAILS
+Prediction: at fixed stellar mass, galaxy lensing (DeltaSigma at 50-300 kpc) at z ~ 0.37 (after heating) should be
+0.37-0.59 of its value at z ~ 0.88 (before heating) -- roughly a factor 2 drop (Milky-Way-mass: 0.45-0.59).
+Data: Leauthaud+2012 (COSMOS, z 0.2-1; arXiv:1104.0928): pivot Mh/M* constant (~27), low-mass scaling 'does not evolve
+significantly'. Hudson+2015 (CFHTLenS, z 0.2-0.8; arXiv:1310.6784): peak M*/Mh falls 4.5% -> 3.4% toward today, i.e. halos
+get relatively heavier, not lighter (blue galaxies constant). No factor-2 drop: excluded.
+Escape route: finish the heating before z ~ 1 (start z >~ 1.2-1.5). Then the derived timing (z = 0.65) is lost, and the cost
+grows: sigma8 / unheated at sigma_h = 450 km/s = 0.92 (from z 0.65), 0.88 (1.0), 0.83 (1.5), 0.80 (2.0) -- excluded.
+General lesson: whatever keeps dark fluid out of galaxies must already be in place by z ~ 1 (lensing looks the same at
+z 0.3 and 0.9), while the fluid must still be cold and clumpy at z 2-5 (Lyman-alpha) and keep growing (sigma8).

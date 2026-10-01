@@ -1,0 +1,7 @@
+R in kpc; DeltaSigma ratio after/before heating (fixed stellar mass)
+  M* = 1.0e+10 (Mh before = 6.1e+11): R=  23: 0.37  R=  53: 0.37  R= 123: 0.45  R= 285: 0.54  R= 658: 0.73
+  M* = 4.5e+10 (Mh before = 1.2e+12): R=  23: 0.47  R=  53: 0.45  R= 123: 0.51  R= 285: 0.59  R= 658: 0.74
+  M* = 1.5e+11 (Mh before = 1.4e+13): R=  23: 0.36  R=  53: 0.28  R= 123: 0.27  R= 285: 0.30  R= 658: 0.35
+
+What the data allow: inferred halo mass at fixed M* changes by <~0.1 dex (Leauthaud) or rises ~0.1 dex toward today (Hudson);
+DeltaSigma at fixed R scales roughly as Mh^0.6-0.8, so an after/before ratio below ~0.75 is excluded at fixed M*.
