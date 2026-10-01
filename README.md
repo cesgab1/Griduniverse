@@ -91,6 +91,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Rate-dependent stiffness (viscoelastic fluid) keeping it out of galaxies | galaxy and cluster collapse times differ only 1.5× (0.84–0.94 vs 1.17–1.30 Gyr); best case still gives halos to 15–25% of galaxies | `fluid/state_change_tests.md` |
 | Any single switch (rate, speed, stress, mass, potential depth) | galaxies sit in the middle of every axis: some structures that must clump lie below them and some above | `fluid/trigger_axes.*` |
 | 'Ocean' hybrid: MOND from baryons + unboosted cosmic-ratio fluid halo (5.4 × baryons) | clusters: works (0.7–1.4 of measured vs 0.3–0.4), but that is LCDM-like. Galaxies: only survives SPARC if a ~150 kpc core switches the halo off; KiDS gain not robust (independent review); deriving the core from fluid pressure (n = 1 polytrope, radius π/μ) leaves 38% of the Lyman-α power (needs ~98%) | `fluid/hybrid_ocean.md` |
+| 'Salt': fluid shares the gas's fate (5.4 × retained baryons, spread like hot gas) | galaxies and groups need no extra mass under MOND once hot gas is included (KiDS χ² 103 vs 343 with fluid; SPARC 4568 vs 13464); clusters need ~2–4 × baryons, not 5.4 | `fluid/salt_current_tests.md`. What data say: extra mass only in systems ≳ 1e14 Msun |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 

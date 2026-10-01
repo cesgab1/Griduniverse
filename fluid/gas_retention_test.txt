@@ -1,0 +1,13 @@
+A. Groups and clusters at R500: predicted dynamical mass / observed M500
+   M500 = 1e13.0: f_gas 0.026, f_* 0.070, baryon fraction 0.097 (cosmic 0.157) | MOND boost 10.28 | predicted/observed: MOND alone 0.99, MOND + 5.4x retained baryons 1.52
+   M500 = 1e13.5: f_gas 0.041, f_* 0.042, baryon fraction 0.083 (cosmic 0.157) | MOND boost 9.21 | predicted/observed: MOND alone 0.76, MOND + 5.4x retained baryons 1.21
+   M500 = 1e14.0: f_gas 0.064, f_* 0.025, baryon fraction 0.089 (cosmic 0.157) | MOND boost 7.44 | predicted/observed: MOND alone 0.66, MOND + 5.4x retained baryons 1.15
+   M500 = 1e14.5: f_gas 0.101, f_* 0.015, baryon fraction 0.116 (cosmic 0.157) | MOND boost 5.54 | predicted/observed: MOND alone 0.64, MOND + 5.4x retained baryons 1.27
+   M500 = 1e15.0: f_gas 0.158, f_* 0.009, baryon fraction 0.167 (cosmic 0.157) | MOND boost 3.98 | predicted/observed: MOND alone 0.66, MOND + 5.4x retained baryons 1.57
+
+B. KiDS isolated galaxies (chi2: full | with 0.1 dex floor | reliable g_bar>1e-13 only, with floor)
+   MOND (stars+cold)           :    202.1 |    68.2 |   33.6   (60 / 60 / 28 pts)
+   MOND (+hot gas)             :    103.4 |    51.9 |   30.5   (60 / 60 / 28 pts)
+   MOND(+hot) + fluid 5.4x     :    342.9 |   146.3 |  119.4   (60 / 60 / 28 pts)
+
+C. SPARC (2788 pts): chi2 MOND alone 4568 | MOND(+hot gas) + 5.4x fluid spread like hot gas 13464 | median fluid/MOND pull 0.21
