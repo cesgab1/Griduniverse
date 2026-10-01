@@ -81,3 +81,15 @@ the khronon's Hamilton-Jacobi flow with K(Q) and J(Y)).
    If re-melting happens, it is a sharp prediction: galaxies carried dark-matter halos until z ~ 0.5 and lost them since, while
    groups and clusters kept theirs. Galaxy-galaxy lensing vs redshift and high-z rotation curves can test it.
    Status: downgraded from 'plausible' to 'plausible only with re-melting (unproven)'.
+
+10. Re-melting test with KiDS-1000 lensing (remelt_kids_test.*) -> FAILS.
+   At the KiDS lens epoch (z ~ 0.25) v_crit = 359 km/s. A captured halo deepens its own well: abundance-matched halos of the two
+   massive bins have depths 461 and 649 km/s, so they are predicted to still be there (and to stay until v_crit exceeds their own
+   depth, i.e. essentially until today). With those halos plus MOND (what Khronon gives), the predicted pull is ~5x the measured one:
+   chi2 10,715 and 32,553 (15 points each) vs 46 and 61 for MOND alone. Over all four bins: MOND-only 202, MOND+halo 50,514
+   (crude LCDM reference: 720; not a fair LCDM test: point-mass baryons, no two-halo term).
+   Lesson: halos are self-sustaining, since a captured halo keeps the well deep enough to hold itself. With cosmology-allowed parameters
+   (v_crit today <~ 700 km/s) massive galaxies would keep halos to the present, contradicting both KiDS and SPARC.
+   Consequence: the DBI phase change cannot make galaxies halo-free. More generally, any relativistic-MOND theory whose dark-matter-like
+   cosmological fluid is cold when galaxies form (AeST, Khronon) must explain why that fluid does not build galaxy halos, which
+   (with MOND acting on top) KiDS excludes by a wide margin. This is now the central open problem for this class of theories.

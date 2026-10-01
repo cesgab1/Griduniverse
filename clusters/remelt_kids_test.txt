@@ -1,0 +1,12 @@
+lens redshift ~0.25: v_crit = 359 km/s (z=0.1: 524, z=0.4: 256)
+
+bin 1: log M* 10.0, halo M200 3.2e+11 Msun, halo well depth 258 km/s -> predicted re-melted
+        chi2 (15 pts): A MOND-only    43.8 | B MOND+halo   2794.8 | C LCDM   100.6 | median g_obs/model: A 1.14  B 0.20  C 1.82
+bin 2: log M* 10.45, halo M200 7.6e+11 Msun, halo well depth 340 km/s -> predicted re-melted
+        chi2 (15 pts): A MOND-only    51.6 | B MOND+halo   4451.8 | C LCDM   147.8 | median g_obs/model: A 1.19  B 0.25  C 2.34
+bin 3: log M* 10.7, halo M200 2.0e+12 Msun, halo well depth 461 km/s -> predicted kept (well deeper than v_crit)
+        chi2 (15 pts): A MOND-only    46.0 | B MOND+halo  10715.0 | C LCDM   132.1 | median g_obs/model: A 1.25  B 0.20  C 1.26
+bin 4: log M* 10.9, halo M200 6.0e+12 Msun, halo well depth 649 km/s -> predicted kept (well deeper than v_crit)
+        chi2 (15 pts): A MOND-only    60.8 | B MOND+halo  32552.7 | C LCDM   339.3 | median g_obs/model: A 1.24  B 0.15  C 0.73
+
+Total chi2: A 202.1 | B 50514.3 | C 719.8

@@ -62,7 +62,6 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Energy exchange between dark energy and the fluid | no-exchange fits better on Khronon; theory doesn't yet say which |
 | Electron energy → dark energy (switch at z ≈ 100–200) | consistent; predicts a 21-cm step at 7–15 MHz |
 | Cassini quadrupole vs rotation curves | sharp switch passes Cassini but fits galaxies worse; shared by every MOND theory (literature 8.7σ, 1.9σ without bulges) |
-| Clusters: DBI phase change | today the DBI fluid collapses only in wells deeper than ≈ 500–700 km/s (galaxies smooth, groups/clusters dark-matter-like), confirmed in a time-dependent shell run. But the threshold was 10–90 km/s when galaxies formed (z ≈ 1–3), so galaxies first capture halos; MOND-only galaxies today need those halos to 're-melt' after z ≈ 0.5 (unproven). Also at the Lyman-α limit with two chosen parameters (`clusters/README.md` §7–9) |
 | Origin of a₀ | Verlinde-type argument gives cH₀/6; not derived in the fluid picture |
 | Black holes as Planck stars (no singularity; bounce/leak) | consistent with the grid; no observable consequence for astrophysical holes for >1e26 yr |
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
@@ -88,6 +87,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Khronon mass term (μ) supplying cluster mass | enough mass for cluster cores (1/μ ≈ 1 Mpc) multiplies isolated-galaxy lensing at 0.3–1 Mpc by 5–500×; for 1/μ ≲ 0.5 Mpc no static solution exists | `clusters/khronon_mass_term.*` |
 | Dark fluid clumping only in clusters (Jeans/crossover length 1–4 Mpc) | removes 15–60% of small-scale power at z ≈ 3; Lyman-α forest allows ~2% | `clusters/condensate_jeans.*` (also: the AeST paper's fluid setting used in our fits is Lyman-α-excluded; with a safe setting the dark-energy result still holds, −6.7 / −3.8) |
 | Fluid pressure (power law in density) keeping it out of galaxy halos but not clusters | capped by the early universe: largest Jeans mass at halo density 3e5 Msun (need >1e12). A saturating DBI pressure escapes this (see Plausible) | `clusters/jeans_window.*` |
+| DBI phase change: galaxies halo-free, clusters dark-matter-like | works today (static and time-dependent), but galaxies form when the threshold was 10–90 km/s, capture halos, and those halos are self-sustaining; at KiDS lens redshifts MOND + retained halo gives χ² 50,514 vs 202 for MOND alone | `clusters/README.md` §7–10. General lesson: a cold cosmological dark fluid in AeST/Khronon-type theories must not build galaxy halos, and nothing found so far prevents it |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 
