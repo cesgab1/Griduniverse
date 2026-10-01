@@ -70,6 +70,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Fate of the universe (`future/`) | grid law: a ~ t⁵, accelerates forever, never shrinks (the tension diverges as expansion slows; holds even if closed); cools toward absolute zero with no floor (Λ: floor 2.2e-30 K). Not testable now; it follows from the fitted law |
 | The fluid IS the MOND halo (original ocean picture) | budgets pass: galaxies can gather enough by z ≈ 0.9; total MOND halo mass of the universe ≈ 0.3–1.5 × the CMB fluid (external field 0.01–0.05 a₀). Needs a conversion + saturation mechanism; clusters still 35% short (`fluid/fluid_is_halo.*`) |
 | Khronon one-fluid dynamics (`khronon_dynamics/`) | the theory already makes the MOND halo out of the conserved fluid (paper eqs 3.13, 3.16), and the equilibrium is stable (excess pushed out). With no self-gravity at galaxy scales infall gathers ≲ 4 × baryons, so MOND only inside ~4 MOND radii (7–20× short at 300 kpc). Needs CDM-like self-gravity on ≳ Mpc scales. Earlier hybrid/DBI collapse runs double-counted |
+| Fungus-type fluid-tube network (tubes thicken with flow) | gives MOND's field equation, the a₀ switch radius and Tully–Fisher (lattice slope 1.01) from one growth rule; put in: sqrt exponent and a₀; open: fluid in tubes = MOND halo?, growth time (`network/`) |
 | Hubble tension | treated as a calibration issue (working assumption); FRB H₀ undecided |
 
 ### Failed (and kept on record)
