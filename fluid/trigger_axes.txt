@@ -1,0 +1,13 @@
+                                           rate 1/Gyr   speed km/s       stress    mass Msun   depth km/s
+CMB-era perturbations (must clump)           1.22e+03     1.00e+01     1.00e+11     1.00e+15     9.50e+02
+Lyman-alpha structures z~3 (clump)           3.15e-01     1.00e+02     1.92e+06     1.00e+10     1.00e+02
+large-scale structure today (clump)          6.94e-02     3.00e+02     9.00e+04     1.00e+15     9.50e+02
+clusters at formation (clump)                7.69e-01     1.00e+03     9.90e+08     1.00e+15     2.00e+03
+GALAXY halos at formation (stay out)         1.11e+00     2.00e+02     8.18e+07     1.00e+12     5.00e+02
+
+Is the galaxy case at an extreme (needed for a single threshold)?
+   rate 1/Gyr  : NO              below galaxies: Lyman-alpha structures z~3, large-scale structure today, clusters at formation | above: CMB-era perturbations
+   speed km/s  : NO              below galaxies: CMB-era perturbations, Lyman-alpha structures z~3 | above: large-scale structure today, clusters at formation
+   stress      : NO              below galaxies: Lyman-alpha structures z~3, large-scale structure today | above: CMB-era perturbations, clusters at formation
+   mass Msun   : NO              below galaxies: Lyman-alpha structures z~3 | above: CMB-era perturbations, large-scale structure today, clusters at formation
+   depth km/s  : NO              below galaxies: Lyman-alpha structures z~3 | above: CMB-era perturbations, large-scale structure today, clusters at formation

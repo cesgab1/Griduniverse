@@ -88,6 +88,8 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Dark fluid clumping only in clusters (Jeans/crossover length 1–4 Mpc) | removes 15–60% of small-scale power at z ≈ 3; Lyman-α forest allows ~2% | `clusters/condensate_jeans.*` (also: the AeST paper's fluid setting used in our fits is Lyman-α-excluded; with a safe setting the dark-energy result still holds, −6.7 / −3.8) |
 | Fluid pressure (power law in density) keeping it out of galaxy halos but not clusters | capped by the early universe: largest Jeans mass at halo density 3e5 Msun (need >1e12). A saturating DBI pressure escapes this (see Plausible) | `clusters/jeans_window.*` |
 | DBI phase change: galaxies halo-free, clusters dark-matter-like | works today (static and time-dependent), but galaxies form when the threshold was 10–90 km/s, capture halos, and those halos are self-sustaining; at KiDS lens redshifts MOND + retained halo gives χ² 50,514 vs 202 for MOND alone | `clusters/README.md` §7–10. General lesson: a cold cosmological dark fluid in AeST/Khronon-type theories must not build galaxy halos, and nothing found so far prevents it |
+| Rate-dependent stiffness (viscoelastic fluid) keeping it out of galaxies | galaxy and cluster collapse times differ only 1.5× (0.84–0.94 vs 1.17–1.30 Gyr); best case still gives halos to 15–25% of galaxies | `fluid/state_change_tests.md` |
+| Any single switch (rate, speed, stress, mass, potential depth) | galaxies sit in the middle of every axis: some structures that must clump lie below them and some above | `fluid/trigger_axes.*` |
 | Raw "everpresent Λ" random walk | BAO + SN Δχ² ≥ +1100 | the √N idea works smoothed (β = ½), not literally |
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 
@@ -99,6 +101,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 5. Independent checks matter: both AeST results were re-derived by a separate reviewer before being recorded.
 6. Keep failures: most of the progress came from understanding why something failed.
 7. Check time dependence: a threshold that works today can be very different when structures actually formed (DBI phase change).
+8. Galaxies are 'in the middle' on every simple physical axis, so no single switch can treat them differently from both smaller/earlier and larger/later structures.
 
 ## Contents
 

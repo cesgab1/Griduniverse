@@ -1,0 +1,19 @@
+  the requested tolerance from being achieved.  The error may be 
+  underestimated.
+  return 1 - quad(f, ylo, ylo + 12, limit=200)[0]
+median formation redshift and collapse time:
+   dwarf-ish galaxy       M=1e+11: z_f median 1.11, t_ff 0.84 Gyr
+   Milky-Way-mass galaxy  M=1e+12: z_f median 0.93, t_ff 0.94 Gyr
+   massive galaxy         M=3e+12: z_f median 0.83, t_ff 0.99 Gyr
+   group                  M=1e+13: z_f median 0.74, t_ff 1.05 Gyr
+   cluster                M=1e+14: z_f median 0.55, t_ff 1.17 Gyr
+   massive cluster        M=1e+15: z_f median 0.38, t_ff 1.30 Gyr
+
+fraction CAPTURING the fluid (t_ff > tau, i.e. formed later than z where t_ff = tau):
+tau (Gyr) dwarf-ish gala Milky-Way-mass massive galaxy          group        cluster massive cluste   z where 1/H = tau (elastic before)
+      0.4           0.98           1.00           1.00           1.00           1.00           1.00   z > 8.0
+      0.6           0.80           0.91           0.95           0.98           1.00           1.00   z > 8.0
+      0.8           0.55           0.68           0.75           0.83           0.96           1.00   z > 8.0
+      1.0           0.32           0.42           0.48           0.57           0.77           0.95   z > 7.7
+      1.2           0.15           0.21           0.25           0.30           0.46           0.71   z > 6.7
+      1.5           0.02           0.02           0.03           0.03           0.05           0.09   z > 5.7
