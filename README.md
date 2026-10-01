@@ -62,7 +62,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Energy exchange between dark energy and the fluid | no-exchange fits better on Khronon; theory doesn't yet say which |
 | Electron energy → dark energy (switch at z ≈ 100–200) | consistent; predicts a 21-cm step at 7–15 MHz |
 | Cassini quadrupole vs rotation curves | sharp switch passes Cassini but fits galaxies worse; shared by every MOND theory (literature 8.7σ, 1.9σ without bulges) |
-| Clusters: DBI phase change | Khronon's DBI fluid turns into collapsing dust only in wells deeper than v_crit ≈ 500–700 km/s: galaxies stay halo-free (MOND), groups and clusters gain dark-matter-like mass. Fits σ₈ and galaxy lensing, but sits at the Lyman-α limit; two chosen parameters; runaway not yet simulated (`clusters/README.md` §7) |
+| Clusters: DBI phase change | today the DBI fluid collapses only in wells deeper than ≈ 500–700 km/s (galaxies smooth, groups/clusters dark-matter-like), confirmed in a time-dependent shell run. But the threshold was 10–90 km/s when galaxies formed (z ≈ 1–3), so galaxies first capture halos; MOND-only galaxies today need those halos to 're-melt' after z ≈ 0.5 (unproven). Also at the Lyman-α limit with two chosen parameters (`clusters/README.md` §7–9) |
 | Origin of a₀ | Verlinde-type argument gives cH₀/6; not derived in the fluid picture |
 | Black holes as Planck stars (no singularity; bounce/leak) | consistent with the grid; no observable consequence for astrophysical holes for >1e26 yr |
 | Supermassive black-hole seeds from fluid collapse | hypothesis only (`black_holes/`) |
@@ -92,6 +92,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Wang–Unruh hidden vacuum energy | needs a cutoff tuned inside an exponential; predicts w = −1 | moving fine-tuning around is not a derivation |
 
 ### Overall lessons
+0. Check time dependence: a threshold that works today can be very different when structures actually formed (DBI phase change).
 1. Check the hard tests first: Solar System, gravitational-wave speed, lensing, stability. We spent weeks on AeST before finding it fails the Solar System.
 2. Collective behaviour beats intuition about single parts: a single loose link isn't a network of loose links.
 3. Derived numbers are often conditional: a₀ = cH₀/6 holds only for heavier stellar mass-to-light ratios.

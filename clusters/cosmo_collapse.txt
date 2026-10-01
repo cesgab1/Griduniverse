@@ -1,0 +1,5 @@
+1/mu = 300.0 Mpc, lambda_D = 9.2e+06
+   galaxy           M = 1e+12 Msun (z_c 2.0): baryon r90 =       2 kpc | dark mass inside / cosmic share =  2.63 (of which converted dust  2.63) | fraction of all simulated fluid converted 0.12
+   group            M = 1e+13 Msun (z_c 1.0): baryon r90 =      13 kpc | dark mass inside / cosmic share =  1.36 (of which converted dust  1.36) | fraction of all simulated fluid converted 0.06
+   cluster          M = 1e+14 Msun (z_c 0.6): baryon r90 =       8 kpc | dark mass inside / cosmic share =  0.83 (of which converted dust  0.83) | fraction of all simulated fluid converted 0.04
+   massive cluster  M = 1e+15 Msun (z_c 0.3): baryon r90 =    3337 kpc | dark mass inside / cosmic share =  0.11 (of which converted dust  0.11) | fraction of all simulated fluid converted 0.03

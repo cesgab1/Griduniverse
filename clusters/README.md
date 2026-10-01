@@ -68,3 +68,16 @@ the khronon's Hamilton-Jacobi flow with K(Q) and J(Y)).
    Limits of this test: baryons are a fixed, already-formed well; the fluid reservoir is today's mean density within 3 Mpc
    (~4e12 Msun), far less than a cluster gathers from its ~10 Mpc formation region, so cluster masses can't be read off yet; the
    run stops at the runaway. Needed next: cosmological spherical collapse (expanding background, baryons and fluid together).
+
+9. Epoch problem (vcrit_vs_z.*, cosmo_collapse.*)
+   The critical depth is not fixed: the background fluid was denser in the past, i.e. closer to the DBI limit, so
+   v_crit(z) (km/s), 1/mu = 300 Mpc / lambda_D 9.2e6:  z=0: 694 | 0.5: 208 | 1: 88 | 2: 26 | 3: 11 | 6: 2.
+   Galaxy halos assemble at z ~ 1-3, when v_crit was 10-90 km/s: the fluid then falls into every galaxy as pressureless dust, like
+   cold dark matter. The cosmological shell run (exploratory; purely radial orbits, so baryon radii are unphysical) agrees: galaxy-mass
+   objects end up holding dark mass at or above the cosmic share.
+   The mechanism can only give MOND-only galaxies today if halos captured early "re-melt": as v_crit rises after z ~ 0.5, a halo
+   whose well is shallower than v_crit loses pressure balance and should expand back out. Whether that happens is a field-theory
+   question (the fluid has formed caustics by then) that a shell code with permanent conversion cannot answer.
+   If re-melting happens, it is a sharp prediction: galaxies carried dark-matter halos until z ~ 0.5 and lost them since, while
+   groups and clusters kept theirs. Galaxy-galaxy lensing vs redshift and high-z rotation curves can test it.
+   Status: downgraded from 'plausible' to 'plausible only with re-melting (unproven)'.
