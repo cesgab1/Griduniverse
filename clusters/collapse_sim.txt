@@ -1,0 +1,14 @@
+
+1/mu = 300.0 Mpc, lambda_D = 9.2e+06: static critical depth v_crit = 694 km/s
+   Milky-Way-like galaxy     : settled                      at t = 10.00 Gyr | central fluid density 1.34 x mean (inner 10 shells 1.19)
+   massive spiral            : collapse (runaway density)   at t =  1.27 Gyr | central fluid density 2.89 x mean (inner 10 shells 1.59)
+   galaxy group              : collapse (runaway density)   at t =  0.08 Gyr | central fluid density 1 x mean (inner 10 shells 1)
+   cluster 1e14 Msun gas     : collapse (runaway density)   at t =  0.15 Gyr | central fluid density 1 x mean (inner 10 shells 1)
+   massive cluster 3e14 gas  : collapse (runaway density)   at t =  0.10 Gyr | central fluid density 1 x mean (inner 10 shells 1)
+
+1/mu = 22.3 Mpc, lambda_D = 1.0e+10: static critical depth v_crit = 514 km/s
+   Milky-Way-like galaxy     : collapse (runaway density)   at t =  1.88 Gyr | central fluid density 3.51 x mean (inner 10 shells 1.83)
+   massive spiral            : collapse (runaway density)   at t =  0.12 Gyr | central fluid density 1 x mean (inner 10 shells 1)
+   galaxy group              : collapse (runaway density)   at t =  0.06 Gyr | central fluid density 1 x mean (inner 10 shells 1)
+   cluster 1e14 Msun gas     : collapse (runaway density)   at t =  0.11 Gyr | central fluid density 1 x mean (inner 10 shells 1)
+   massive cluster 3e14 gas  : collapse (runaway density)   at t =  0.08 Gyr | central fluid density 1 x mean (inner 10 shells 1)

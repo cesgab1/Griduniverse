@@ -56,3 +56,15 @@ the khronon's Hamilton-Jacobi flow with K(Q) and J(Y)).
    (3 Mpc here; MOND potentials grow logarithmically); the runaway past x_lim is inferred, not simulated; two free parameters (mu,
    lambda_D) are chosen, not derived. It is the first mechanism in this project that gives "smooth in galaxies, dark matter in
    clusters" from one fluid, and it refines lesson 5: density-only power laws fail, but a saturating (DBI) pressure can work.
+
+8. Time-dependent check (collapse_sim.*): dark fluid as Lagrangian shells with the DBI pressure, in static MOND wells of baryons,
+   starting at the cosmic mean density at rest, 10 Gyr.
+   | well | 1/mu = 300 Mpc, lambda_D 9.2e6 (v_crit 694) | 1/mu = 22.3 Mpc, lambda_D 1e10 (v_crit 514) |
+   |---|---|---|
+   | Milky-Way-like galaxy (~500 km/s deep) | settles smooth, centre 1.3x mean (no halo) | runaway after 1.9 Gyr |
+   | massive spiral (~670) | runaway after 1.3 Gyr | runaway after 0.1 Gyr |
+   | group, clusters (1200-2800) | runaway within 0.1-0.15 Gyr | runaway within 0.1 Gyr |
+   The dynamics follow the static critical depth: the phase change is real in time evolution, not just a static argument.
+   Limits of this test: baryons are a fixed, already-formed well; the fluid reservoir is today's mean density within 3 Mpc
+   (~4e12 Msun), far less than a cluster gathers from its ~10 Mpc formation region, so cluster masses can't be read off yet; the
+   run stops at the runaway. Needed next: cosmological spherical collapse (expanding background, baryons and fluid together).
