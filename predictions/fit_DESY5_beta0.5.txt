@@ -1,0 +1,8 @@
+data: 13 BAO points, 1820 supernovae, 3 CMB priors
+LCDM   chi2 =   1649.70  (BAO  12.18, SN  1635.06, CMB  2.46)  params [0.3017 0.6841 0.0225]
+LAW    chi2 =   1642.38  (BAO   9.54, SN  1630.10, CMB  2.75)  params [0.3098 0.6748 0.0225]
+w0wa   chi2 =   1639.36  (BAO   9.33, SN  1629.50, CMB  0.53)  params [ 0.3124  0.6746  0.0225 -0.8238 -0.6168]
+LAW   vs LCDM:  delta chi2 =   -7.31   delta AIC =   -7.31   delta BIC =   -7.31
+w0wa  vs LCDM:  delta chi2 =  -10.33   delta AIC =   -6.33   delta BIC =    4.70
+LAW vs w0wa: delta chi2 = 3.02 with 2 fewer parameters;  delta AIC = -0.98,  delta BIC = -12.01
+BETA = 0.5

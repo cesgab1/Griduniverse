@@ -31,5 +31,7 @@ Y, _, _ = binary_chaos(T=60, x0=(0, 1.05 + 1e-6, 0), v0=(1.0, 0, 0.05)); grow = 
 ax.set_title("(c) Irregular orbit near two masses", color=TXT, fontsize=12.5, fontweight="bold", loc="left")
 ax.text(-1.25, -1.8, f"two masses circle each other (grey); a light body is\ntugged by both and never repeats. Shift its start by\none part in a million and the gap grows ~{grow:,.0f}-fold.", fontsize=9.5, color=TXT, va="bottom")
 fig.text(0.005, 0.985, "Figure 11. Three kinds of orbit in the pulled grid (computed; seen from above)", fontsize=13.5, fontweight="bold", color=TXT, va="top")
+fig.text(0.01, -0.02, r"Equations:  $\ddot{\mathbf{x}} = -\nabla\phi$.   (a) $\phi = -GM/r$: $r = a(1-e^2)/(1+e\cos\theta)$, $T^2 = 4\pi^2 a^3/GM$.   "
+         r"(b) $M(r) = M + M_h r^3/(r^2+r_c^2)^{3/2}$, $\ddot{\mathbf{x}} = -G M(r)\,\hat r/r^2$.   (c) $\phi = -\sum_k G m_k/|\mathbf{x}-\mathbf{x}_k(t)|$; gap $\delta(t)\approx\delta_0 e^{\lambda t}$.", fontsize=10.5, color=TXT)
 for ext in ("png", "pdf"): fig.savefig(os.path.join(HERE, f"fig11_orbits.{ext}"), dpi=160, facecolor="black", bbox_inches="tight")
 print("growth", grow)

@@ -1,12 +1,14 @@
 """
 The grid dark-energy law's own signature, compared with the newest published constraints (Oct 2026).
-Law: rho_DE ~ adot^(-1/2)  ->  d ln rho_DE / d ln a = (rho_m/2 + rho_r - rho_DE)/rho_tot,   w = -1 - (1/3) d ln rho_DE/d ln a.
+Law: rho_DE ~ adot^(-BETA), BETA = 1/2  ->  d ln rho_DE / d ln a = BETA q, q = (rho_m/2 + rho_r - rho_DE)/rho_tot (deceleration),
+     w = -1 - (1/3) d ln rho_DE/d ln a.  (An earlier version of this file used BETA = 1 by mistake.)
 Signature: w < -1 (phantom) while the expansion decelerates, w > -1 once it accelerates; the crossing is EXACTLY at the
 deceleration->acceleration moment. No free dark-energy parameter.
 Outputs: w(z), crossing redshift, the CPL (w0, wa) that best mimics it over 0 < z < 2.5, and the growth of structure
 (sigma8 / S8 change vs LCDM with the same early universe).
 """
-import numpy as np
+import numpy as np, os
+BETA = float(os.environ.get('BETA', 0.5))
 from scipy.integrate import solve_ivp
 from scipy.optimize import least_squares
 Or = 9.1e-5
@@ -14,11 +16,11 @@ def law(Om):
     OL = 1 - Om - Or
     def rhs(lna, y):
         a = np.exp(lna); r = np.exp(y[0]); rm, rr = Om*a**-3, Or*a**-4
-        return [(rm/2 + rr - r)/(rm + rr + r)]
+        return [BETA*(rm/2 + rr - r)/(rm + rr + r)]
     lna = np.linspace(0, -np.log(31), 3001)
     s = solve_ivp(rhs, [0, lna[-1]], [np.log(OL)], t_eval=lna, rtol=1e-10, atol=1e-12)
     a = np.exp(lna); rde = np.exp(s.y[0]); rm, rr = Om*a**-3, Or*a**-4
-    q = (rm/2 + rr - rde)/(rm + rr + rde); w = -1 - q/3
+    q = (rm/2 + rr - rde)/(rm + rr + rde); w = -1 - BETA*q/3
     return a[::-1], rde[::-1], w[::-1], (rm + rr + rde)[::-1]
 def growth(a, E2, Om):
     # linear growth D(a): D'' + (3/a + dlnE/da) D' = 1.5 Om a^-5 /E^2 D

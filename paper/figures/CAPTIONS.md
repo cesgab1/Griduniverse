@@ -100,10 +100,10 @@ toy shows the mechanism, not the factor of two; the ray tracing in (b) includes 
 universe is stretching (ρ_DE ∝ ȧ^-1/2), so it is not constant (dashed line: Einstein's cosmological constant Λ). It
 grew while the expansion was slowing down, peaked when the expansion began to speed up, and fades as it speeds up
 further. (b) Its fingerprint in the equation of state w: w < -1 in the past, w > -1 today, crossing -1 exactly when
-acceleration begins (z = 0.73 for Ω_m = 0.31). DESI's two-number form approximates this curve as (w0, wa) = (-0.80, -0.49).
+acceleration begins (z = 0.68 for Ω_m = 0.31). DESI's two-number form approximates this curve as (w0, wa) = (-0.90, -0.25).
 (c) Where three combinations of real data put the best-fitting free (w0, wa) (our refits: DESI DR2 BAO + Planck + each
 supernova sample). The grid law, which has no dark-energy parameter to adjust, sits among them. It beats Λ in all three
-combinations (Δχ² -2.7, -5.1, -10.0).
+combinations (Δχ² -5.5, -7.3, -6.8).
 
 **Analogy: a shear-thinning fluid, like ketchup or paint.** Ketchup resists when you tilt the bottle gently and gives
 way when you shake it hard: its resistance drops as the rate of stirring goes up. The grid's tension behaves the same way
@@ -229,3 +229,21 @@ bumpers: tiny differences in where it starts decide where it ends up.
 
 **Where it stops working.** Real planetary ellipses also creep round very slowly (Mercury's turns by 43 arcseconds per
 century, a general-relativity effect). It is far too small to see at this scale and is not drawn.
+
+## Figure 12. The grid's elasticity and its limits (equations E6)
+**Caption.** (a) Link stiffness is set by Newton's G: the tension scale of one link is c⁴/G = 1.2×10⁴⁴ N, and Einstein's
+'stiffness of space' is c⁴/8πG. Lunar laser ranging limits any drift to less than 0.3% over the age of the universe;
+nucleosynthesis limits it to about 10% even in the first minutes. (b) The cosmic tension (dark energy) under the
+Tension-Rate Law: 0.22 × today's when the CMB was released, a MAXIMUM of 1.074 × today's at the Turnover Point (z = 0.68),
+falling toward zero in the far future. (c) The squeeze limit: the Density cap, 2.1×10⁹⁶ kg/m³, about 10⁷⁸ times denser
+than an atomic nucleus; at the cap a collapse rebounds. Assumed, not measured. (d) The stretch limit: a cell must stay
+between the Planck length and 5.7×10⁻²⁸ m. The universe has stretched about 5×10³¹ times since the Planck era, so a cell
+that merely stretched would now be about 1 mm across. The grid must therefore add new cells as space expands. This is a
+requirement the model must meet, not yet a result.
+
+**Analogy.** A trampoline: its springs have a fixed stiffness (G); the whole mat can be under more or less tension (dark
+energy); you can only press it down so far before it bottoms out (the Density cap); and you cannot stretch one spring
+forever, so a growing trampoline must add springs (new cells).
+
+**Where it stops working.** A trampoline sits in space; the grid is space. Its 'tension' is energy per volume, which in
+Einstein's theory pushes outward rather than pulling inward (see the discussion of dark energy in Figure 4).

@@ -1,20 +1,24 @@
 # What the grid predicts that standard cosmology does not (checked Oct 2026)
-1. Dark-energy law rho_DE ~ adot^-1/2 (law_signature.*, fit_*.txt)
+1. Dark-energy law rho_DE ~ adot^-1/2 (law_signature.*, fit_*_beta0.5.txt)
+CORRECTION (2 Oct 2026): the first version of this section used d ln rho_DE/d ln a = q, which is rho_DE ~ adot^-1 (beta = 1),
+not the law (beta = 1/2). The CAMB/CLASS pipelines behind the main README always used beta = 1/2; only fit_law.py,
+law_signature.py and Figure 4 had the error. Fixed; the beta = 1 numbers are kept in fit_*_beta1.txt for the record.
 - Shape, no free number: w < -1 while the expansion slows, w > -1 once it speeds up; the crossing is EXACTLY at the start of
-  acceleration (z = 0.70-0.76 for Om 0.32-0.30). Early on w -> -1 - 1/6 = -1.167 (matter era); today w0 = -0.82.
-  w(z), Om 0.31: z 0: -0.82 | 0.3: -0.90 | 0.5: -0.95 | 1: -1.05 | 2: -1.13 | 3: -1.15.
-- Mimicked by DESI's two-number form as (w0, wa) = (-0.80, -0.49).
-- Refit to DESI DR2 BAO + Planck distance priors + each supernova set (our reproductions of the free (w0, wa) fit):
+  acceleration (z = 0.66-0.72 for Om 0.32-0.30). Early on w -> -1 - 1/12 = -1.083 (matter era); today w0 = -0.91.
+  w(z), Om 0.31: z 0: -0.91 | 0.3: -0.95 | 0.5: -0.98 | 1: -1.03 | 2: -1.06 | 3: -1.08.
+- Mimicked by DESI's two-number form as (w0, wa) = (-0.90, -0.25): between Lambda and the free fits below.
+- Refit to DESI DR2 BAO + Planck distance priors + each supernova set (beta = 1/2):
 | supernovae | free (w0, wa) best fit | law vs LCDM dchi2 | law vs free (w0, wa): dchi2 / dAIC / dBIC |
 |---|---|---|---|
-| Pantheon+ | -0.86, -0.50 | -2.7 | +4.4 / +0.4 / -10.3 |
-| DES-Dovekie | -0.82, -0.62 | -5.1 | +5.2 / +1.2 / -9.8 |
-| Union3 | -0.69, -0.96 | -10.0 | +3.2 / -0.8 / -4.1 |
-  The law sits where the data put dynamical dark energy, with no dark-energy parameters; by information criteria it ties
-  (AIC) or beats (BIC) the two-parameter fit. Growth: sigma8 1.4% below LCDM with the same early universe (Om 0.31).
+| Pantheon+ | -0.86, -0.50 | -5.5 | +1.7 / -2.4 / -13.1 |
+| DES-Dovekie | -0.82, -0.62 | -7.3 | +3.0 / -1.0 / -12.0 |
+| Union3 | -0.69, -0.96 | -6.8 | +6.4 / +2.4 / -0.9 |
+  With no dark-energy parameter, the law beats LCDM by 5.5-7.3 in chi2 and beats the two-parameter fit by information
+  criteria in 2 of 3 sets (AIC) and all 3 (BIC). (For comparison beta = 1 gave -2.7 / -5.1 / -10.0.) Growth: sigma8 0.6%
+  below LCDM with the same early universe.
 - New since our fits: DES Y6 (Jan 2026, arXiv:2601.14559): 3x2pt S8 = 0.789 +/- 0.012, 2.6 sigma below the CMB in LCDM;
-  joint wCDM w = -0.981 +/- 0.022 (constant w only, not a test of the crossing). The law's 1.4% lower sigma8 goes the right
-  way but covers about a third of that gap. No public DES Y6 likelihood used here.
+  joint wCDM w = -0.981 +/- 0.022 (constant w only, not a test of the crossing). The law's 0.6% lower sigma8 goes the right
+  way but covers only a small part of that gap. No public DES Y6 likelihood used here.
 - Decisive future test: the crossing redshift equals the acceleration onset. DESI DR3 / Euclid can measure w(z) in bins at
   z 0.3-1.2; a crossing well away from z ~ 0.7 (e.g. at 0.4) would rule the law out.
 2. 21-cm step from the electron switch (step21.*)

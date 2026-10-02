@@ -97,5 +97,7 @@ ax.set_xlabel("size of one cell (metres)")
 ax.set_title("(c) How big can a cell be?", loc="left", fontsize=12, fontweight="bold", color=TXT, pad=14)
 fig.text(0.005, 0.975, "Figure 10. The grid's building block: a random cell, its links, and the size it must have",
          fontsize=13, fontweight="bold", color=TXT, va="top")
-for ext in ("png", "pdf"): fig.savefig(os.path.join(HERE, f"fig10_grid_cell.{ext}"), dpi=170, facecolor=BG)
+fig.text(0.005, -0.15, r"Equations:  tension link weight $w_{ij} = A_{ij}/d_{ij}$ (wall area / link length);   field on the grid $\sum_j w_{ij}(\phi_j - \phi_i) = 4\pi G\, m_i$", fontsize=10, color=TXT)
+fig.text(0.005, -0.21, r"MAX cell size $\ell_{max} = \sqrt{12}\,\hbar c/E_{QG,2} = 5.7\times10^{-28}$ m  ($E_{QG,2} > 1.2\times10^{12}$ GeV, GRB 221009A);   MIN $\ell_P = \sqrt{\hbar G/c^3} = 1.6\times10^{-35}$ m", fontsize=10, color=TXT)
+for ext in ("png", "pdf"): fig.savefig(os.path.join(HERE, f"fig10_grid_cell.{ext}"), dpi=170, facecolor=BG, bbox_inches="tight")
 print(f"cells {len(vols)}, spread {vols.std():.3f}, faces mean {faces.mean():.2f}, this cell {len(ridges)}")

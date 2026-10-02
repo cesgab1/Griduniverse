@@ -159,13 +159,13 @@ def fig3():
 def fig4():
     Om, Or = 0.31, 9.1e-5
     def rhs(lna, y):
-        a = np.exp(lna); r = np.exp(y[0]); rm, rr = Om*a**-3, Or*a**-4; return [(rm/2 + rr - r)/(rm + rr + r)]
+        a = np.exp(lna); r = np.exp(y[0]); rm, rr = Om*a**-3, Or*a**-4; return [0.5*(rm/2 + rr - r)/(rm + rr + r)]   # BETA = 1/2
     lna = np.linspace(np.log(4), -np.log(31), 4000)
     # integrate backward from today and forward to a = 4
     sb = solve_ivp(rhs, [0, lna[-1]], [np.log(1 - Om - Or)], t_eval=lna[lna <= 0][::-1][::-1], rtol=1e-10)
     sf = solve_ivp(rhs, [0, lna[0]], [np.log(1 - Om - Or)], t_eval=np.sort(lna[lna > 0]), rtol=1e-10)
     L = np.r_[sf.t, sb.t]; R = np.r_[sf.y[0], sb.y[0]]; o = np.argsort(L); L, R = L[o], np.exp(R[o]); a = np.exp(L); z = 1/a - 1
-    rm = Om*a**-3; q = (rm/2 + Or*a**-4 - R)/(rm + Or*a**-4 + R); w = -1 - q/3
+    rm = Om*a**-3; q = (rm/2 + Or*a**-4 - R)/(rm + Or*a**-4 + R); w = -1 - 0.5*q/3
     zc = z[np.argmin(np.abs(w + 1))]
     fig, axs = plt.subplots(1, 3, figsize=(11.5, 3.7), gridspec_kw=dict(width_ratios=[1, 1, 0.95]))
     ax = axs[0]; m = (z < 6) & (z > -0.75)
@@ -174,23 +174,23 @@ def fig4():
     ax.axvline(1, color=GRID, lw=1); ax.set_xscale("log"); ax.invert_xaxis()
     ax.set_xlabel("1 + redshift  (past ←  → future)"); ax.set_ylabel("dark-energy density / today")
     ax.legend(frameon=False, fontsize=8, loc="lower left"); ax.set_title("(a) Tension vs stretch rate", loc="left")
-    ax.text(1.02, 1.12, "today", fontsize=8, color=MUTED); tag(ax, "computed (no free dark-energy number)")
+    ax.text(1.02, 1.04, "today", fontsize=8, color=MUTED); tag(ax, "computed (no free dark-energy number)")
     ax = axs[1]; m = (z < 3) & (z >= 0)
-    ax.axvspan(zc, 3, color="#f3f2ee"); ax.text(1.9, -0.79, "expansion slowing", fontsize=8, color=INK2, ha="center")
-    ax.text(zc/2, -0.79, "speeding\nup", fontsize=8, color=INK2, ha="center")
+    ax.axvspan(zc, 3, color="#f3f2ee"); ax.text(1.9, -0.875, "expansion slowing", fontsize=8, color=INK2, ha="center")
+    ax.text(zc/2, -0.88, "speeding\nup", fontsize=8, color=INK2, ha="center")
     ax.plot(z[m], w[m], color=BLUE, label="grid law (computed)"); ax.axhline(-1, color=INK2, ls="--", lw=1.4, label="Λ: w = -1")
-    ax.plot(z[m], -0.80 - 0.49*(z[m]/(1 + z[m])), ":", color=ORANGE, lw=1.8, label="its 2-number mimic (w0,wa) = (-0.80,-0.49)")
+    ax.plot(z[m], -0.90 - 0.245*(z[m]/(1 + z[m])), ":", color=ORANGE, lw=1.8, label="its 2-number mimic (w0,wa) = (-0.90,-0.25)")
     ax.plot([zc], [-1], "o", color=ORANGE, ms=7, mec="white")
-    ax.annotate(f"crossing at z = {zc:.2f}:\nexactly when the\nacceleration begins", xy=(zc, -1), xytext=(1.0, -0.86), fontsize=8, color=INK,
+    ax.annotate(f"crossing at z = {zc:.2f}:\nexactly when the\nacceleration begins", xy=(zc, -1), xytext=(1.0, -0.935), fontsize=8, color=INK,
                 arrowprops=dict(arrowstyle="-", color=MUTED))
-    ax.set_xlabel("redshift z"); ax.set_ylabel("equation of state w"); ax.set_ylim(-1.22, -0.75)
+    ax.set_xlabel("redshift z"); ax.set_ylabel("equation of state w"); ax.set_ylim(-1.12, -0.86)
     ax.legend(frameon=False, fontsize=7.5, loc="lower right"); ax.set_title("(b) Its fingerprint", loc="left")
     tag(ax, "computed; testable with DESI DR3 / Euclid")
     ax = axs[2]
     sets = [("Pantheon+", -0.856, -0.497), ("DES-Dovekie", -0.824, -0.617), ("Union3", -0.690, -0.965)]
     for (lab, w0, wa), col in zip(sets, (VIOLET, AQUA, RED)):
         ax.plot(w0, wa, "s", color=col, ms=8, mec="white", label=f"best free fit, DESI DR2 + CMB + {lab}")
-    ax.plot(-0.80, -0.49, "*", color=BLUE, ms=15, mec="white", label="grid law (no free number)")
+    ax.plot(-0.90, -0.245, "*", color=BLUE, ms=15, mec="white", label="grid law (no free number)")
     ax.plot(-1, 0, "x", color=INK2, ms=9, mew=2, label="Λ")
     ax.set_xlabel("w0 (today)"); ax.set_ylabel("wa (change with time)"); ax.set_xlim(-1.1, -0.6); ax.set_ylim(-1.2, 0.15)
     ax.legend(frameon=False, fontsize=7, loc="lower left"); ax.set_title("(c) Where the data put it", loc="left")
@@ -250,7 +250,7 @@ def fig6():
           (4.0, "Dark ages\n(z ~ 100-200)", "electron relaxes; its energy\nbecomes grid tension (dark energy)", "prediction: 21-cm step ≤ 0.7 mK", ORANGE),
           (5.4, "Galaxies form", "fluid pools around them\n(cold dark matter)", "tested: CMB, lensing, clusters pass", AQUA),
           (6.8, "Acceleration\nbegins (z = 0.7)", "tension starts to 'give':\nw crosses -1 right here", "prediction: DESI DR3 / Euclid", ORANGE),
-          (8.2, "Today", "dark energy fading slowly\n(w0 ≈ -0.82)", "tested: beats Λ, Δχ² -3 to -10", AQUA),
+          (8.2, "Today", "dark energy fading slowly\n(w0 ≈ -0.91)", "tested: beats Λ, Δχ² -5.5 to -7.3", AQUA),
           (9.6, "Far future", "expansion keeps speeding up\n(a ~ t^5): never re-collapses", "consequence", MUTED)]
     ax.plot([-0.6, 10.2], [0, 0], color=INK2, lw=2); ax.annotate("", xy=(10.4, 0), xytext=(10.1, 0), arrowprops=dict(arrowstyle="->", color=INK2, lw=2))
     for i, (x, t, d, s, col) in enumerate(ev):

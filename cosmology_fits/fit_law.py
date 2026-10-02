@@ -3,7 +3,7 @@ Direct fit to public data: DESI DR2 BAO + Pantheon+ supernovae + Planck 2018 CMB
 Models
   LCDM : constant dark energy                                   params  Om, h, wb
   w0wa : DESI's two-parameter dark energy (CPL)                 params  Om, h, wb, w0, wa
-  LAW  : d ln rho_DE / d ln a = q   (w = -1 - q/3), no free DE parameter   params  Om, h, wb
+  LAW  : d ln rho_DE / d ln a = BETA q   (w = -1 - BETA q/3), rho_DE ~ adot^-BETA, BETA = 1/2 (env BETA); no free DE parameter   params  Om, h, wb
 Data
   DESI DR2 BAO: CobayaSampler/bao_data desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb (13 points + covariance)
   Pantheon+: PantheonPlusSH0ES/DataRelease, zHD > 0.01, STAT+SYS covariance, absolute magnitude marginalised
@@ -17,6 +17,7 @@ W_GAMMA = 2.469e-5
 W_R = W_GAMMA * (1 + 0.2271 * 3.046)
 import os
 W_NU = float(os.environ.get("MNU", 0.06)) / 93.14
+BETA = float(os.environ.get("BETA", 0.5))   # rho_DE ~ adot^-BETA  <=>  d ln rho_DE/d ln a = BETA q  (the law: BETA = 1/2)
 LA_CAL = 301.471 / 302.379   # fitting-formula r_s vs full Boltzmann code, from the Planck 2018 best-fit LCDM check
 
 # ---------------- data ----------------
@@ -64,7 +65,7 @@ def E_of_z(model, Om, h, extra):
     # LAW: integrate d ln rho / d ln a = q backwards; dark energy is negligible above z ~ 20
     def rhs(lna, y):
         a = np.exp(lna); rde = np.exp(y[0]); rm, rr = Om * a**-3, Or * a**-4
-        return [(rm / 2 + rr - rde) / (rm + rr + rde)]
+        return [BETA * (rm / 2 + rr - rde) / (rm + rr + rde)]
     zi = ZG[ZG <= 30]
     sol = solve_ivp(rhs, [0, -np.log(31)], [np.log(OL)], t_eval=-np.log(1 + zi), rtol=1e-8, atol=1e-10)
     rde = np.zeros_like(ZG); rde[:len(zi)] = np.exp(sol.y[0])
@@ -138,4 +139,4 @@ for m_ in ["LAW", "w0wa"]:
     print(f"{m_:5s} vs LCDM:  delta chi2 = {R['chi2'] - L['chi2']:7.2f}   delta AIC = {R['AIC'] - L['AIC']:7.2f}   delta BIC = {R['BIC'] - L['BIC']:7.2f}")
 R, W = results["LAW"], results["w0wa"]
 print(f"LAW vs w0wa: delta chi2 = {R['chi2'] - W['chi2']:.2f} with 2 fewer parameters;  delta AIC = {R['AIC'] - W['AIC']:.2f},  delta BIC = {R['BIC'] - W['BIC']:.2f}")
-json.dump(results, open(f"/tmp/claude-0/-home-claude/631bebbd-9799-5238-817c-c2760930ea03/scratchpad/fit_results_{SNSET}.json", "w"), indent=1)
+print(f"BETA = {BETA}")

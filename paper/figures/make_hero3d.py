@@ -108,6 +108,7 @@ def render(labels):
         lab((0.98, -0.8), "layers below the mass:\npulled UP toward it")
         lab((-1.58, -0.9), "gold: an elliptical orbit (tilted); it closes on itself\npale blue: light bending toward the mass;\ndotted = straight lines", GOLD)
         lab((-1.58, -0.62), "green: an irregular orbit inside the fluid pool;\nit never closes, tracing a rosette", ROS)
+        ax.text(0, -1.105, r"$\nabla^2\phi = 4\pi G\rho$,  draw-in $\mathbf{g} = -\nabla\phi = -GM\hat r/r^2$;   orbit $\ddot{\mathbf{x}} = \mathbf{g}$;   light $n = 1 - 2\phi/c^2$, bend $\alpha = 4GM/bc^2$;   tick rate $d\tau/dt \approx 1 + \phi/c^2$", color="#dfe9ff", fontsize=11, ha="center", zorder=20)
         lab((-1.58, 0.5), "violet: the fluid between the\nlayers (dark matter); it fills\nevery gap and pools around\nthe mass", "#c8b5ff")
     return fig
 for lab, name in ((False, "fig0_grid3d"), (True, "fig0_grid3d_labelled")):

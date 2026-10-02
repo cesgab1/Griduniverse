@@ -32,11 +32,20 @@ no separate test), **OPEN** (not yet settled between the authors).
 | **Planck star** | The dense core inside a black hole, held at the density cap | Rovelli-Vidotto Planck star | consistent; no observable effect for >1e26 yr |
 | **Two-layer electron** | The electron as a pattern whose two handed halves sit on two layers; its mass is the leak between them | Kaplan's domain-wall fermion | BORROWED construction, computed on the grid (exactly one electron; no fake copies) |
 
+## 2b. Elasticity of the grid (Fig. 12; equations E6)
+
+| Name | Plain meaning | Value / limit | Status |
+|---|---|---|---|
+| **Link stiffness** | How hard a tension link resists being pulled; it sets the strength of gravity | link tension scale c⁴/G = 1.2×10⁴⁴ N; may drift by less than 0.3% over the age of the universe (lunar laser ranging) | BORROWED scale (G measured); constancy tested |
+| **Cosmic tension range** | How the grid tension (dark energy) has varied | MAX 1.074 × today's at the Turnover Point; 0.22 × at the CMB; falls toward 0 in the far future | NEW (follows from Claim 1) |
+| **Squeeze limit** | The most the grid can be compressed (the Density cap) | 2.1×10⁹⁶ kg/m³ (0.41 Planck density) | BORROWED from LQC, not measured |
+| **Stretch limit** | How far one cell can be stretched while staying in its size window | at most 3.5×10⁷ times; the universe has stretched 5.2×10³¹ times since the Planck era, so the grid must ADD cells as space expands | **OPEN** requirement |
+
 ## 3. What we claim that is new (the paper is built on these)
 
 | Name | The claim | Its signature (how to catch it) | Status |
 |---|---|---|---|
-| **Claim 1: the Tension-Rate Law** | The grid tension (dark energy) goes as one over the square root of the stretch rate: ρ_DE ∝ ȧ^(−1/2). No adjustable dark-energy number | **The Turnover Point**: dark energy's equation of state crosses w = −1 exactly when the expansion starts to accelerate (z ≈ 0.7); before it, w < −1; after it, w > −1; today w0 ≈ −0.82 | beats Λ with all three supernova sets (Δχ² −2.7, −5.1, −10.0); in DESI DR2's preferred region; decisive test: DESI DR3 / Euclid binned w(z) |
+| **Claim 1: the Tension-Rate Law** | The grid tension (dark energy) goes as one over the square root of the stretch rate: ρ_DE ∝ ȧ^(−1/2). No adjustable dark-energy number | **The Turnover Point**: dark energy's equation of state crosses w = −1 exactly when the expansion starts to accelerate (z ≈ 0.7); before it, w < −1; after it, w > −1; today w0 ≈ −0.91 | beats Λ with all three supernova sets (Δχ² −5.5, −7.3, −6.8); in DESI DR2's preferred region; decisive test: DESI DR3 / Euclid binned w(z) |
 | **Claim 2: the Electron-Tension Transfer** | The electron was 0.4-1.1% heavier when the CMB was released; it relaxed to today's mass around z ≈ 100-200, and the energy it gave up became the grid tension | (a) **Early-electron shift** in the CMB; (b) **Transfer Step**: a sub-mK jump in the dark-ages 21-cm signal at 7-14 MHz | (a) data favour 1.0099 ± 0.0049 (2σ; Planck + ACT + SPT-3G + DESI + DES); decisive: SPT-3G full survey, Simons Observatory. (b) too faint for planned instruments |
 
 ## 4. What we reproduce but do not claim as new
