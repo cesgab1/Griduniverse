@@ -54,40 +54,28 @@ def ray(p0, v0, k=0.045, T=2.6):
     s = solve_ivp(f, [0, T], np.r_[p0, v0], max_step=0.004, rtol=1e-9); X = s.y[:3].T
     return X[np.all(np.abs(X[:, :2]) <= 1.0, axis=1)]
 
-
-# ---- true 3-D random network (no planes, no preferred direction) ----
-P3 = np.random.default_rng(9).uniform(-1.15, 1.15, (340, 3)); V3 = Voronoi(P3); NET = []
-for rv in V3.ridge_vertices:
-    if -1 in rv: continue
-    poly = V3.vertices[rv]
-    if np.any(np.abs(poly) > 1.0): continue
-    for i in range(len(poly)):
-        a, b = poly[i], poly[(i + 1) % len(poly)]; NET.append((tuple(np.round(a, 9)), tuple(np.round(b, 9))))
-NET = np.array(list({tuple(sorted(e)) for e in NET}))          # unique edges
-def net_segments():
-    segs = []
-    for a, b in NET:
-        t = np.linspace(0, 1, 6)[:, None]; pts = a + (b - a)*t; q = pull(pts)
-        segs += [np.array([q[i], q[i + 1]]) for i in range(5)]
-    return np.array(segs)
-
 def render(labels):
     fig = plt.figure(figsize=(12, 9), facecolor="black"); ax = fig.add_axes([0, 0, 1, 1]); ax.set_facecolor("black")
     ax.set_xlim(-1.62, 1.62); ax.set_ylim(-1.12, 1.12); ax.axis("off")
-    # fluid: a round cloud pooled around the mass (dark matter halo), drawn faint
-    n = 5000; u = rng.uniform(0, 1, n); r = 0.2*(u/(1 - u + 0.02))**0.8; r = r[(r < 1.1) & (r > 0.05)]
-    v = rng.normal(size=(len(r), 3)); v /= np.linalg.norm(v, axis=1, keepdims=True); F = v*r[:, None]
-    F = F[np.all(np.abs(F) <= [1, 1, 0.95], axis=1)]; F2, _ = proj(F)
-    ax.scatter(*F2.T, s=24, color=FLU, alpha=0.03, lw=0, zorder=1); ax.scatter(*F2.T, s=2.5, color=FLU, alpha=0.35, lw=0, zorder=1)
-    # the grid: a random 3-D network (cell edges), every part drawn in toward the mass
-    segs = net_segments(); glow_lines(ax, segs, GRID, width=0.55, zo=3, alpha=0.85)
-    nodes = np.unique(segs.reshape(-1, 3), axis=0); n2, _ = proj(nodes[::3])
-    ax.scatter(*n2.T, s=2.5, color="#d5e8ff", alpha=0.45, lw=0, zorder=4)
-    box = np.array([[x, y, z] for x in (-1, 1) for y in (-1, 1) for z in (-1, 1)])
-    for i in range(8):
-        for j in range(i + 1, 8):
-            if np.sum(box[i] != box[j]) == 1:
-                b2, _ = proj(np.array([box[i], box[j]])); ax.plot(*b2.T, color=GRID, lw=0.8, alpha=0.3, zorder=2)
+    # fluid between the layers: a thin 'ocean' filling every gap, thicker where it has pooled around the mass
+    for z_lo, z_hi in zip(PLANES[:-1], PLANES[1:]):
+        nb = 1400; xy = rng.uniform(-1, 1, (nb, 2)); zb = rng.uniform(z_lo + 0.04, z_hi - 0.04, nb)
+        base = pull(np.c_[xy, zb])
+        n = 1700; u = rng.uniform(0, 1, n); r = 0.16*(u/(1 - u + 0.02))**0.8; r = r[(r < 1.2) & (r > 0.06)]
+        ph = rng.uniform(0, 2*np.pi, len(r)); zp = rng.uniform(z_lo + 0.04, z_hi - 0.04, len(r))
+        d3 = np.sqrt(r**2 + zp**2); keep = rng.uniform(0, 1, len(r)) < np.exp(-d3/0.45)
+        pool = pull(np.c_[r*np.cos(ph), r*np.sin(ph), zp][keep])
+        for pts, al in ((base, 0.22), (pool, 0.42)):
+            pts = pts[np.all(np.abs(pts[:, :2]) <= 1, axis=1)]; F2, _ = proj(pts)
+            ax.scatter(*F2.T, s=22, color=FLU, alpha=0.025, lw=0, zorder=1); ax.scatter(*F2.T, s=2.3, color=FLU, alpha=al, lw=0, zorder=1)
+    # planes of the grid, back-to-front
+    for z0 in PLANES:
+        segs = plane_segments(z0); w = 1.0 if z0 == 0 else 0.7
+        glow_lines(ax, segs, GRID, width=0.75*w, zo=3, alpha=1.0 if z0 == 0 else 0.8 - 0.35*abs(z0))
+        nodes = proj(pull(np.c_[np.array([a for a, b in E]), np.full(len(E), z0)]))[0]
+        ax.scatter(*nodes.T, s=3.5, color="#d5e8ff", alpha=0.5, lw=0, zorder=4)
+        fr = np.array([[-1, -1, z0], [1, -1, z0], [1, 1, z0], [-1, 1, z0], [-1, -1, z0]]); f2, _ = proj(fr)
+        ax.plot(*f2.T, color=GRID, lw=0.8, alpha=0.35, zorder=2)
     # geodesic 1: circular orbit in the central plane
     th = np.linspace(0, 2*np.pi, 400); R = 0.5; O = np.c_[R*np.cos(th), R*np.sin(th), 0*th]
     O2, d = proj(O); front = d < 0
@@ -110,12 +98,12 @@ def render(labels):
     if labels:
         def lab(xy, txt, col="#dfe9ff", ha="left"):
             ax.text(*xy, txt, color=col, fontsize=11.5, ha=ha, va="center", zorder=20, bbox=dict(fc="black", ec="none", alpha=0.75, pad=3))
-        lab((-1.58, 1.04), "one moment of space, in 3-D:\na random network with no up, down or sideways")
-        lab((0.98, 0.8), "above the mass the grid\nis drawn DOWN toward it")
-        lab((0.98, 0.02), "level with the mass it is\ndrawn INWARD sideways")
-        lab((0.98, -0.8), "below the mass it is\ndrawn UP toward it")
+        lab((-1.58, 1.04), "layers of the mosaic grid,\nwith the fluid between them")
+        lab((0.98, 0.8), "layers above the mass:\npulled DOWN toward it")
+        lab((0.98, 0.02), "layer level with the mass:\npulled INWARD sideways")
+        lab((0.98, -0.8), "layers below the mass:\npulled UP toward it")
         lab((-1.58, -0.98), "gold: a circular orbit (straightest path\nin the drawn-in grid)\npale blue: light bending toward the mass;\ndotted = straight lines", GOLD)
-        lab((-1.58, 0.5), "violet haze: the fluid\n(dark matter) pooled around\nthe mass", "#c8b5ff")
+        lab((-1.58, 0.5), "violet: the fluid between the\nlayers (dark matter); it fills\nevery gap and pools around\nthe mass", "#c8b5ff")
     return fig
 for lab, name in ((False, "fig0_grid3d"), (True, "fig0_grid3d_labelled")):
     f = render(lab); f.savefig(os.path.join(HERE, name + ".png"), dpi=170, facecolor="black"); plt.close(f); print("wrote", name)

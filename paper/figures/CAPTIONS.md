@@ -7,14 +7,19 @@ breaks, so a reader or auditor can see what the picture claims and what it does 
 
 ---
 
-## Figure 0 (overview / cover). One moment of space in 3-D, drawn in toward a mass from every side
-**Caption.** The grid at one moment, shown in full 3-D: the edges of a random network of cells (Figure 10) filling a
-cube. The network has no planes, columns or preferred direction; up, down and sideways are all alike. A mass draws the
-grid in toward itself from every direction: above the mass the network is drawn down, below it drawn up, level with it
-drawn inward sideways, and less and less with distance (softened inverse-square, the shape computed in Figure 2). The
-fluid (dark matter, violet haze) pools around the mass in a round cloud. Gold: a circular orbit, the straightest path
-available in the drawn-in grid. Pale blue: light passing above and below the mass bends toward it. Dotted lines show
-where it would go without the mass. Bending is computed by 3-D ray tracing and exaggerated.
+## Figure 0 (overview / cover). Layers of the mosaic grid, the fluid between them, and a mass pulling on them
+**Caption.** Seven layers of the mosaic grid (random cells joined by links that carry tension), with the fluid between
+them (dark matter, violet), which fills every gap and has pooled around the mass. The mass pulls on the grid from every
+side: the layer level with it is pulled inward sideways, the layers above are pulled down toward it, and the layers
+below are pulled up toward it. The pull weakens with distance (softened inverse square, the shape computed in Figure 2).
+The pattern is the same above and below because gravity pulls equally in all directions; the grid itself is random, not
+symmetric. Gold: a circular orbit, the straightest path available in the pulled grid. Pale blue: light passing above and
+below the mass bends toward it. Dotted lines show where it would go without the mass. Bending is computed by 3-D ray
+tracing and exaggerated.
+
+**Open point for the text.** In the relativistic version (Khronon) the layers are read as successive moments of time;
+the figure draws them stacked in space to show how the pull acts above, beside and below a mass. Which reading the paper
+uses is to be settled between the authors.
 
 **Why not the rubber sheet.** The usual stretched-blanket picture shows space dipping *downward*. That needs an extra
 direction for the dip and uses 'downhill' (gravity) to explain gravity. In 3-D there is no 'down': every part of the grid
