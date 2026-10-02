@@ -75,5 +75,7 @@ Cosmic version: a standing vibration of the grid would gather matter on its node
 matter. Data: the CMB and galaxy surveys look like a Gaussian random field with one known preferred scale (BAO, already
 explained by early-universe sound waves); old claims of 128 Mpc periodicity were not confirmed. So any such pattern must be
 weak, or random-phase across many frequencies (which looks like ordinary initial fluctuations).
+Checked (grid_patterns/): oscillation searches in BOSS + Planck limit any regular pattern to < 2-3% of the matter power on
+2-22 Mpc/h scales (A_lin < 0.022-0.031, no detection).
 Possible use: inside a galaxy, a vibrating grid plus a fluid that loses energy on each 'bounce' would settle fluid where the
 grid is quiet. That is a candidate form for the dissipation channel, only if the energy loss itself is supplied.
