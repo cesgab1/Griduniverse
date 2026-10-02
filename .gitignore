@@ -1,3 +1,4 @@
 khronon_dynamics/*.npy
 khronon_dynamics/*.npz
 khronon_dynamics/khronon.pid
+__pycache__/
