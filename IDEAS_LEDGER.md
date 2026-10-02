@@ -75,6 +75,13 @@ running of +0.21 to +0.23, ~30 sigma from Planck. FAILS. Bounce + inflation: sur
 Primordial black holes: not predicted either way (needs large early fluctuations; our early universe is the CMB-fitted one).
 If Planck stars are real, primordial holes ending today weigh ~1e23 kg (asteroid mass), not ~1e11 kg (black_holes/).
 
+## Family 7. Fluid in contact with visible matter (energy exchange; contact/)
+Purpose: make halos track the baryons (the open R2/R3 issue without MOND). Literature: Famaey-Khoury-Penco 2018 (needs
+sigma = C a0/(n_DM v^2)). Needs ~0.3-18 cm^2/g in galaxies; same law at recombination is 6-110x over Planck's DM-baryon bound
+-> must switch on after recombination; strong coupling in the IGM at z = 3 and near-strong at z = 100 -> Lyman-alpha
+temperature and 21-cm are the tests. NOT the same as Family 4's drag/currents (fluid moved by the grid) or the hot-halo
+X-ray budget (that was heat dumped into halo gas).
+
 ## Chladni picture (Coalesce, Oct 2026): sand on a vibrating plate collects at the still lines (nodes)
 Physics of the real effect: grains are kicked where the plate moves and come to rest where it doesn't, because every bounce
 loses energy (inelastic). Without that energy loss there is no pattern. So it needs the same missing ingredient as the

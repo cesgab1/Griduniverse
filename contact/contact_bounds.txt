@@ -1,0 +1,14 @@
+(1) galaxies (where halos must settle): needed sigma/m
+   C=0.062 disc outskirts rho 0.01 Msun/pc^3, v 100 km/s  sigma/m =   11.08 cm^2/g
+   C=0.062 inner disc rho 0.1, v 200                      sigma/m =    0.28 cm^2/g
+   C=0.100 disc outskirts rho 0.01 Msun/pc^3, v 100 km/s  sigma/m =   17.73 cm^2/g
+   C=0.100 inner disc rho 0.1, v 200                      sigma/m =    0.44 cm^2/g
+(2) same law at recombination (z = 1100), relative DM-baryon speed 8.6 km/s (thermal) to 30 km/s (streaming):
+   C=0.062 v= 8.6 km/s: sigma/m = 3.40e-01 cm^2/g =   69.3 x the Planck bound
+   C=0.062 v=30.0 km/s: sigma/m = 2.79e-02 cm^2/g =    5.7 x the Planck bound
+   C=0.100 v= 8.6 km/s: sigma/m = 5.43e-01 cm^2/g =  110.9 x the Planck bound
+   C=0.100 v=30.0 km/s: sigma/m = 4.46e-02 cm^2/g =    9.1 x the Planck bound
+(3) exchange rate in intergalactic gas vs the expansion rate (Gamma/H):
+   z=    3, v 20.0 km/s: Gamma/H =      7.17
+   z=  100, v  2.0 km/s: Gamma/H =     0.575
+   z= 1100, v  8.6 km/s: Gamma/H =   0.00371
