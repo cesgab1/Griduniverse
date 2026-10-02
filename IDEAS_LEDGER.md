@@ -96,3 +96,9 @@ the outer halo needs supply from structure that clumped earlier. Checked (khrono
 handles (fluid law K(Q): deep wells look like an earlier universe; MOND function J(Y): low acceleration = calm) make the
 diffuse forest calm before galaxies. A third handle (e.g. shell crossing) would still give an accretion shock at the calm
 boundary. Only dissipation into a dark sink remains.
+
+## Re-assessment without MOND (no_mond/README.md)
+Rule: keep only data-required tests. Best fit without MOND: ocean = cold dark matter + grid DE law + grid picture. Salt and
+'current' still fail without MOND; most fluid-steering ideas were moot (existed only to serve MOND). Requirement R1 (rotation
+curves from visible matter): halos fit shapes (cored best, BIC), but zero-parameter MOND is 2.6x better than zero-parameter
+abundance-matched halos. Must be earned by galaxy-formation physics. Next: R2 Tully-Fisher, R3 one acceleration scale.

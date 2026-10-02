@@ -1,0 +1,7 @@
+171 SPARC galaxies, 3375 points (5% error floor)
+  MOND (0 free)                              chi2     23252  chi2/pt   6.89  BIC     23252
+  MOND, disk M/L free (1/galaxy)             chi2      8935  chi2/pt   2.65  BIC      9403
+  CDM-like halo, abundance matched (0 free)  chi2     59469  chi2/pt  17.62  BIC     59469
+  NFW, mass free (1/galaxy)                  chi2     10260  chi2/pt   3.04  BIC     10728
+  cored halo (2/galaxy)                      chi2      3897  chi2/pt   1.15  BIC      4833
+  salt rule without MOND (0 free)            chi2     75526  chi2/pt  22.38
