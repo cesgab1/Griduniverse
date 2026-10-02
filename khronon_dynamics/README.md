@@ -145,7 +145,7 @@ Gate: free. The fluid couples to the Xi field with strength ~[k^2/(k^2 + mu_eff^
 in the MOND era. Any channel that works through Xi switches on exactly when needed.
 Channel: radiation of Xi waves by the halo's moving mass would remove the random motions in 0.3 Gyr only if those waves
 travel at ~190 km/s. Gravitationally coupled aether/khronon modes slower than cosmic rays are excluded by the absence of
-vacuum Cherenkov losses (Elliott, Moore & Stoica 2005), so the modes must travel at ~c. At c the dissipation time is ~1e21 Gyr.
+vacuum Cherenkov losses (Elliott, Moore & Stoica 2005), so the modes must travel at ~c. At c the dissipation time is ~3e15 Gyr.
 FAILS. No grid-level dissipation channel found. The requirement (lose random motions in <~1 Gyr, MOND era only) stays open,
 and it is now the sharpest single thing a completion of the theory must supply.
 Redshift test (data, no new fit): if MOND switches on only at z <~ 0.5-0.7, galaxies at z ~ 1-2 are CDM-like and the baryonic

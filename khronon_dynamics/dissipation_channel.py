@@ -18,4 +18,4 @@ print(f"wave speed needed for tau = {tau} Gyr: c_k ~ {ck/kms:.0f} km/s")
 for c in (ck, 3e3*kms, 3e5*kms):
     P_ratio = (G*M**2*sig**6/(c**5*R**2))/(M*sig**2/(2*tau))
     print(f"   c_k = {c/kms:9.0f} km/s: radiated / needed = {P_ratio:.1e}  (dissipation time {tau/P_ratio:.1e} Gyr)")
-print("Cherenkov limit: gravitationally coupled khronon/aether modes must travel at ~c, so the channel gives a dissipation time ~1e21 Gyr.")
+print("Cherenkov limit: gravitationally coupled khronon/aether modes must travel at ~c, so the channel gives a dissipation time ~3e15 Gyr.")

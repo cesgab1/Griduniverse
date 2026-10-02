@@ -2,4 +2,4 @@ wave speed needed for tau = 0.3 Gyr: c_k ~ 184 km/s
    c_k =       184 km/s: radiated / needed = 1.0e+00  (dissipation time 3.0e-01 Gyr)
    c_k =      3000 km/s: radiated / needed = 8.7e-07  (dissipation time 3.5e+05 Gyr)
    c_k =    300000 km/s: radiated / needed = 8.7e-17  (dissipation time 3.5e+15 Gyr)
-Cherenkov limit: gravitationally coupled khronon/aether modes must travel at ~c, so the channel gives a dissipation time ~1e21 Gyr.
+Cherenkov limit: gravitationally coupled khronon/aether modes must travel at ~c, so the channel gives a dissipation time ~3e15 Gyr.
