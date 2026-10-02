@@ -24,6 +24,11 @@ Fluid = contents of the thickened tubes (as the MOND halo): NO (general no-go: t
 density ~ g/r is not; mosaic test mismatch >= 0.33 in ln). The network models the force law only.
 Planks made of fluid with dead space between: the same tubes. (Earlier '10-um channels as light's grid' was a different claim.)
 
+Revisit without MOND (no_mond/README.md section 4): electron twins (doublers) on the mosaic pass, never MOND-dependent (Wilson /
+overlap leave exactly one electron); a light twin fermion as ALL dark matter must be >= 200 eV (Pauli, SPARC) and > ~5.7 keV
+(Lyman-alpha) -> cold-DM-like, merges with the best fit. Fluid in channels between the layers with its own pressure law fails
+without MOND (core-size slope -0.53 vs 0 or +0.5; Jeans length 7 Mpc at recombination); with pressure off it is just CDM.
+
 ## Family 2. Relativistic base
 AeST: closed (fails Solar System by 1e3-1e4; early instability). Khronon: passes (current base). `lorentz/`, `aest_upgrade/`.
 

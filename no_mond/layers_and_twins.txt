@@ -1,0 +1,22 @@
+(2) FLUID BETWEEN THE LAYERS, no MOND: SPARC cored-halo fits (Newtonian)
+    110 galaxies with a well-measured core (of 143)
+    core radius 3.7 kpc median, spread x2.2 (0.5-95%: 1.1-15.6 kpc)
+    slope d ln r_core / d ln rho_core = -0.53 +/- 0.04   (Donato+2009 surface-density law: -1)
+    channel gas law predicts:  Gamma=2 -> 0  (12 sigma off);  Gamma=3 -> +0.5  (24 sigma off)
+    rho_core x r_core = 199 Msun/pc^2 (spread x2.1) -- the observed near-constant combination
+    rho_core x r_core^2 (Gamma=3 constant would be rho/r^2) spread x12.5; fixed r_core (Gamma=2) spread x2.2
+
+    Early universe (pressure law fixed by the median core; Jeans length must stay < ~0.1 Mpc comoving for Lyman-alpha):
+      Gamma=2, z=    0: sound speed     0.0498 km/s (1.7e-07 c), comoving Jeans length   0.00678 Mpc
+      Gamma=2, z=   10: sound speed       1.82 km/s (6.1e-06 c), comoving Jeans length    0.0746 Mpc
+      Gamma=2, z=  100: sound speed       50.5 km/s (1.7e-04 c), comoving Jeans length     0.685 Mpc
+      Gamma=2, z= 1100: sound speed   1.82e+03 km/s (6.1e-03 c), comoving Jeans length      7.46 Mpc
+      Gamma=3, z=    0: sound speed    6.6e-05 km/s (2.2e-10 c), comoving Jeans length  8.99e-06 Mpc
+      Gamma=3, z=   10: sound speed     0.0878 km/s (2.9e-07 c), comoving Jeans length   0.00361 Mpc
+      Gamma=3, z=  100: sound speed         68 km/s (2.3e-04 c), comoving Jeans length     0.921 Mpc
+      Gamma=3, z= 1100: sound speed   8.81e+04 km/s (2.9e-01 c), comoving Jeans length       361 Mpc
+
+(1b) ELECTRON-LIKE TWIN FERMION as all the dark matter (no MOND): Pauli limit from SPARC cores
+    minimum mass: median 52 eV, max 197 eV (densest dwarf cores)
+    vs the 2 eV twin of the earlier cluster test: 2 eV cannot hold galaxy halos (Pauli), and CMB allows omega_f < ~0.002 at 2 eV
+    heavier twins: Lyman-alpha warm-DM bound m > ~5.7 keV (thermal relic, Irsic+2024) -> then it behaves as cold DM

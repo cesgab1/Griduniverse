@@ -6,7 +6,7 @@ Spin-1/2 on the random grid, part 2.
      checks: species count, Ginsparg-Wilson relation  g5 D + D g5 = (1/m0) D g5 D,  low spectrum vs continuum
 """
 import numpy as np, json
-exec(open("/tmp/claude-0/-home-claude/631bebbd-9799-5238-817c-c2760930ea03/scratchpad/fermions_on_grid.py").read().split("L = 36")[0])
+exec(open("fermions_on_grid.py").read().split("L = 36")[0])
 from scipy.linalg import eig, eigh
 sz = np.diag([1., -1.]).astype(complex)
 
@@ -50,4 +50,4 @@ for name, grid in [("square", square_grid), ("random", random_grid)]:
     results[name] = dict(counts=res, gw=float(gw), gap=float(gap), low=lowo.tolist())
 kc = np.sort(np.linalg.norm(2*np.pi/L*np.array([(a, b) for a in range(-3, 4) for b in range(-3, 4)]), axis=1))
 print("continuum lowest |k| (x2 spin):", np.round(np.repeat(kc[:6], 2), 3))
-json.dump(results, open("/tmp/claude-0/-home-claude/631bebbd-9799-5238-817c-c2760930ea03/scratchpad/fermion_fix_results.json", "w"), indent=1)
+json.dump(results, open("fermion_fix_results.json", "w"), indent=1)

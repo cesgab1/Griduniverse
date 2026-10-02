@@ -1,0 +1,19 @@
+
+square lattice  (1296 points)
+  modes with |energy| < 0.3:   72.0   continuum (one fermion)   18   ->  4.00 species
+  modes with |energy| < 0.5:  212.0   continuum (one fermion)   50   ->  4.24 species
+  modes with |energy| < 0.7:  456.0   continuum (one fermion)   98   ->  4.65 species
+  median spread of low modes: 0.68 of the box
+  lowest |energies|: [0.    0.    0.    0.    0.    0.    0.    0.    0.174 0.174 0.174 0.174
+ 0.174 0.174 0.174 0.174]
+
+random grid  (1253 points)
+  modes with |energy| < 0.3:  330.7   continuum (one fermion)   18   ->  18.37 species
+  modes with |energy| < 0.5:  577.3   continuum (one fermion)   50   ->  11.55 species
+  modes with |energy| < 0.7:  864.0   continuum (one fermion)   98   ->  8.82 species
+  median spread of low modes: 0.49 of the box
+  lowest |energies|: [0.    0.    0.    0.    0.    0.    0.005 0.005 0.005 0.005 0.01  0.01
+ 0.01  0.01  0.014 0.014]
+
+continuum lowest |k| (each x2 for spin): [0.    0.    0.175 0.175 0.175 0.175 0.175 0.175 0.175 0.175 0.247 0.247
+ 0.247 0.247 0.247 0.247]

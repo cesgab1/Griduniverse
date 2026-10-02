@@ -48,3 +48,18 @@ halo doesn't is PREDICTIVITY: with no free numbers, MOND is 2.6x better. That is
 model must earn through galaxy-formation physics (feedback making halos track baryons). That is the standard LCDM position:
 plausible, debated, not a refutation.
 Next (one at a time): R2 Tully-Fisher slope and scatter (T2); R3 the single acceleration scale (T3).
+
+## 4. Revisit: the mosaic with 'electron twins', and fluid/gas between the grid layers (layers_and_twins.*)
+Question: did these fail only because of MOND?
+| idea | earlier verdict and why | without MOND |
+|---|---|---|
+| Electron twins = the fake copies a grid gives every electron (doublers) | never judged on MOND. Re-run (`grid_models/fermions_*.txt`): on the mosaic the plain operator gives 8-13 copies (square grid 4); the grid's own Wilson term leaves exactly 1; the overlap operator gives exactly 1 with exact handedness symmetry (residual 1e-13) | PASSES (unchanged). The removed copies get grid-scale mass: no relic, and as copies of the electron they would be charged, so not dark matter |
+| Two-layer electron (each wall carries one handed half; mass = leak between layers) | never judged on MOND | PASSES (unchanged) |
+| Mosaic as the gravity grid | 'snaps all at once, no square-root law': a MOND criterion | moot; static links on the mosaic give plain Newton (`network/README.md`), which is all that is needed now |
+| Light electron-like twin (2 eV) as the cluster's extra mass | failed: the amount needed for the MOND cluster shortfall is 20-30x what the CMB allows | as ALL the dark matter: Pauli limit from SPARC cores needs >= 200 eV (median galaxy 52 eV); Lyman-alpha needs > ~5.7 keV. A heavy twin is then cold-dark-matter-like and merges with the best fit; its galaxy/cluster split (the reason it was liked) was a MOND-era virtue and is gone. Mass not derived |
+| Squeezed layers (a0 grows with depth) | failed against SPARC/KiDS: a MOND criterion | moot |
+| Fluid in channels between the layers (exact 1-D gas law, P ~ rho^2 dense, rho^3 dilute) | failed as a MOND superfluid (its push bypasses lensing; a0 not derived): MOND criteria | re-tested with its own pressure law, no MOND: FAILS on two MOND-free facts. (i) A single pressure law fixes how core size goes with core density: slope 0 (rho^2) or +0.5 (rho^3); SPARC Newtonian cored-halo fits (110 galaxies) give -0.53 +/- 0.04 (12 and 24 sigma off). (ii) A pressure strong enough to make the ~3.7 kpc cores gives a Jeans length of 7 Mpc at recombination and 0.7 Mpc at z = 100 (must be < ~0.1 Mpc): CMB and Lyman-alpha excluded. With the pressure turned down it is plain cold dark matter living between the layers = the best fit again |
+Reading: none of the two pictures was killed by MOND alone in a way that now revives them. The electron-twin work never depended on
+MOND and still passes (it is particle physics, not the dark sector). The layer fluid fails on its own pressure law, so 'between the
+layers' survives only as a picture of WHERE cold dark matter sits, not as new physics. The best fit stays: ocean = cold dark
+matter + grid dark-energy law + grid picture.

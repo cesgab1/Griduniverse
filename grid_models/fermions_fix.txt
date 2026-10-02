@@ -1,0 +1,9 @@
+square  naive   : |E|<0.3:   72 vs  18 (4.00 species)   |E|<0.5:  168 vs  42 (4.00 species)   |E|<0.7:  296 vs  74 (4.00 species)
+square  Wilson  : |E|<0.3:   18 vs  18 (1.00 species)   |E|<0.5:   42 vs  42 (1.00 species)   |E|<0.7:   74 vs  74 (1.00 species)
+square  overlap : |E|<0.3:   10 vs  18 (0.56 species)   |E|<0.5:   42 vs  42 (1.00 species)   |E|<0.7:   74 vs  74 (1.00 species)
+square  overlap: Ginsparg-Wilson residual 3.1e-15; smallest |H_W| eigenvalue (spectral gap) 1.000; lowest |E| [0.    0.    0.21  0.21  0.21  0.21  0.21  0.21  0.21  0.21  0.301 0.301]
+random  naive   : |E|<0.3:  234 vs  18 (13.00 species)   |E|<0.5:  398 vs  42 (9.48 species)   |E|<0.7:  602 vs  74 (8.14 species)
+random  Wilson  : |E|<0.3:   18 vs  18 (1.00 species)   |E|<0.5:   42 vs  42 (1.00 species)   |E|<0.7:   74 vs  74 (1.00 species)
+random  overlap : |E|<0.3:   18 vs  18 (1.00 species)   |E|<0.5:   42 vs  42 (1.00 species)   |E|<0.7:   74 vs  74 (1.00 species)
+random  overlap: Ginsparg-Wilson residual 1.4e-13; smallest |H_W| eigenvalue (spectral gap) 0.134; lowest |E| [0.    0.    0.21  0.21  0.21  0.21  0.21  0.21  0.21  0.21  0.297 0.297]
+continuum lowest |k| (x2 spin): [0.    0.    0.209 0.209 0.209 0.209 0.209 0.209 0.209 0.209 0.296 0.296]
