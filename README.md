@@ -115,6 +115,8 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 5. Independent checks matter: both AeST results were re-derived by a separate reviewer before being recorded.
 6. Keep failures: most of the progress came from understanding why something failed.
 7. Check time dependence: a threshold that works today can be very different when structures actually formed (DBI phase change).
+10. Look for the structural reason before the next variant: in Khronon both regime handles (density and acceleration)
+   order the switch the same way, which closed a whole class of 'gentle infall' ideas at once.
 9. Pick the diagnostic that can fail: 'net force / gravity is small' was automatic in the MOND regime; the independent review
    caught it. Compare with the part that isn't cancelled (the baryons' pull) or with enclosed mass.
 8. Galaxies are 'in the middle' on every simple physical axis, so no single switch can treat them differently from both smaller/earlier and larger/later structures.

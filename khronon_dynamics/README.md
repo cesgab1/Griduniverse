@@ -154,3 +154,20 @@ KMOS3D (Ubler+2017) finds a negative BTFR zero-point change from z = 0 to 0.9 an
 (0.6 < z < 2.5) find slope 3.2 +/- 0.3 and a 'subtle deviation' from local (local slope ~3.85 +/- 0.09). Mild support for
 'not MOND at z ~ 1-2', which our epoch result predicts. These measurements use velocities at ~2-3 disk scale lengths with
 pressure corrections, so systematics are large; it is a pointer, not a confirmation.
+
+## 11. Can deep wells go calm first ('never falls in fast')? Structural answer: not in Khronon-type theories
+Needed: galaxy-size wells in the calm (MOND) regime by z ~ 1.5-3, so fluid seeps in instead of falling in, while the diffuse
+Lyman-alpha medium (z 2-5) stays clumpy (dust-like). Khronon has two handles that set the regime, and both order it the wrong way:
+1. Fluid law K(Q) (density/depth handle). In a well the fluid state is x = x_bg(t) + |phi|/c^2 (Bernoulli). The background moves
+   from the dust side (early, dense) to the calm side (late), so a deep well looks like an EARLIER universe and goes calm LAST.
+   This holds for any K(Q) with one state variable, not just DBI. With our DBI parameters the well depth that can be calm is
+   ~(30 km/s)^2 at z = 1.8, (90)^2 at z = 1, (210)^2 at z = 0.5. So forest-scale wells go calm at z ~ 2 and galaxies at z ~ 0.5.
+2. MOND function J(Y) (acceleration handle). Low acceleration means MOND-calm; high acceleration means Newtonian, where the
+   K term dominates (dust-like). The diffuse forest has far lower accelerations than galaxy wells, so again it goes calm first.
+So the diffuse medium is always calmer than the galaxies inside it. The fluid around a forming galaxy is dust-like and falls
+in at free-fall speed, and its kinetic energy (~8e52 J per Milky-Way halo) must be removed. 'Never falls in fast' would need a
+third handle that singles out galaxy surroundings: e.g. shell crossing (the fluid's single-stream description breaks at
+caustics, which happen only in collapsed objects). Even then infalling fluid meets the calm region at free-fall speed (an
+accretion shock), so the energy problem returns at the boundary.
+Conclusion: within this family the only route left is dissipation, with the energy kept dark (sections 9-10 and the ledger:
+electrons/X-ray/511 keV channels are excluded by 300-1e6x).

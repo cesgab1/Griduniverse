@@ -92,5 +92,7 @@ in 10 Gyr = 2.5e42 erg/s (comparable to or above the galaxy's whole starlight).
 Never fall in fast: the cleanest route (nothing to dissipate). Requires the MOND regime (fluid self-gravity off, gentle seepage)
 to be on while galaxies assemble (z ~ 1-3). Two conflicts: Lyman-alpha (z 2-5) needs the fluid clumpy at ~1 Mpc, and with
 the DBI law shallow structures switch first (wrong order). And gentle seepage alone gathers <~4 x baryons (1-D result), so
-the outer halo needs supply from structure that clumped earlier. Open: a fluid law where galaxy-scale wells switch to the
-MOND regime at z ~ 1.5-3 while the forest-scale field stays clumpy.
+the outer halo needs supply from structure that clumped earlier. Checked (khronon_dynamics section 11): IMPOSSIBLE in Khronon-type theories. Both
+handles (fluid law K(Q): deep wells look like an earlier universe; MOND function J(Y): low acceleration = calm) make the
+diffuse forest calm before galaxies. A third handle (e.g. shell crossing) would still give an accretion shock at the calm
+boundary. Only dissipation into a dark sink remains.
