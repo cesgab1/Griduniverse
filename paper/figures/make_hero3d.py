@@ -16,7 +16,7 @@ from matplotlib.collections import LineCollection
 from scipy.spatial import Voronoi
 from scipy.integrate import solve_ivp
 HERE = os.path.dirname(os.path.abspath(__file__)); rng = np.random.default_rng(5)
-GRID, GOLD, LIGHT, FLU = "#58aaff", "#ffc94d", "#c4f1ff", "#9b6bff"
+GRID, GOLD, LIGHT, FLU, ROS = "#58aaff", "#ffc94d", "#c4f1ff", "#9b6bff", "#4dffc8"
 PLANES = [-0.84, -0.56, -0.28, 0.0, 0.28, 0.56, 0.84]; C, EPS = 0.05, 0.33
 AZ, EL = np.radians(30), np.radians(13)
 
@@ -76,14 +76,18 @@ def render(labels):
         ax.scatter(*nodes.T, s=3.5, color="#d5e8ff", alpha=0.5, lw=0, zorder=4)
         fr = np.array([[-1, -1, z0], [1, -1, z0], [1, 1, z0], [-1, 1, z0], [-1, -1, z0]]); f2, _ = proj(fr)
         ax.plot(*f2.T, color=GRID, lw=0.8, alpha=0.35, zorder=2)
-    # geodesic 1: circular orbit in the central plane
-    th = np.linspace(0, 2*np.pi, 400); R = 0.5; O = np.c_[R*np.cos(th), R*np.sin(th), 0*th]
-    O2, d = proj(O); front = d < 0
-    for msk, al, zo in ((~front, 0.35, 5), (front, 1.0, 12)):
-        X = np.where(msk, O2[:, 0], np.nan); Y = np.where(msk, O2[:, 1], np.nan)
-        for k, a in ((9, .04), (5, .1), (2.4, .28), (1.2, 1)): ax.plot(X, Y, color=GOLD, lw=1.6*k, alpha=a*al, zorder=zo)
-    b2, _ = proj(np.array([[R*np.cos(-0.6), R*np.sin(-0.6), 0]]))
-    for s, a in ((420, .07), (140, .3), (40, 1)): ax.scatter(*b2.T, s=s, color=GOLD if s > 40 else "#fff3c4", alpha=a, lw=0, zorder=13)
+    # geodesic 1: orbits (computed, orbits.py): a tilted ellipse around the mass, and an irregular rosette inside the fluid pool
+    from orbits import kepler_ellipse, rosette
+    def path3d(P, col, lw=1.5):
+        P2, d = proj(P); front = d < 0
+        for msk, al, zo in ((~front, 0.35, 5), (front, 1.0, 12)):
+            X = np.where(msk, P2[:, 0], np.nan); Y = np.where(msk, P2[:, 1], np.nan)
+            for k, a in ((9, .035), (5, .09), (2.4, .25), (1.0, 1)): ax.plot(X, Y, color=col, lw=lw*k, alpha=a*al, zorder=zo)
+        return P2
+    RO = rosette(T=8.0); path3d(RO, ROS, lw=1.0)
+    EL_ = kepler_ellipse(); E2 = path3d(EL_, GOLD, lw=1.6)
+    j = len(EL_)//7; bx = E2[j:j+1]
+    for s_, a in ((420, .07), (140, .3), (40, 1)): ax.scatter(*bx.T, s=s_, color=GOLD if s_ > 40 else "#fff3c4", alpha=a, lw=0, zorder=13)
     # geodesic 2: light rays above and below the mass (and one in the plane), bending toward it
     for (y0, z0) in ((0.0, 0.42), (0.0, -0.42)):
         X = ray(np.array([-1.0, y0, z0]), np.array([1.0, 0, 0]), k=0.022); st = np.c_[np.linspace(-1, 1, 60), np.full(60, y0), np.full(60, z0)]
@@ -102,7 +106,8 @@ def render(labels):
         lab((0.98, 0.8), "layers above the mass:\npulled DOWN toward it")
         lab((0.98, 0.02), "layer level with the mass:\npulled INWARD sideways")
         lab((0.98, -0.8), "layers below the mass:\npulled UP toward it")
-        lab((-1.58, -0.98), "gold: a circular orbit (straightest path\nin the drawn-in grid)\npale blue: light bending toward the mass;\ndotted = straight lines", GOLD)
+        lab((-1.58, -0.9), "gold: an elliptical orbit (tilted); it closes on itself\npale blue: light bending toward the mass;\ndotted = straight lines", GOLD)
+        lab((-1.58, -0.62), "green: an irregular orbit inside the fluid pool;\nit never closes, tracing a rosette", ROS)
         lab((-1.58, 0.5), "violet: the fluid between the\nlayers (dark matter); it fills\nevery gap and pools around\nthe mass", "#c8b5ff")
     return fig
 for lab, name in ((False, "fig0_grid3d"), (True, "fig0_grid3d_labelled")):

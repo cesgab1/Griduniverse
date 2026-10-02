@@ -13,7 +13,7 @@ them (dark matter, violet), which fills every gap and has pooled around the mass
 side: the layer level with it is pulled inward sideways, the layers above are pulled down toward it, and the layers
 below are pulled up toward it. The pull weakens with distance (softened inverse square, the shape computed in Figure 2).
 The pattern is the same above and below because gravity pulls equally in all directions; the grid itself is random, not
-symmetric. Gold: a circular orbit, the straightest path available in the pulled grid. Pale blue: light passing above and
+symmetric. Gold: an elliptical orbit, tilted out of the layers; it closes on itself. Green: an irregular orbit inside the fluid pool; it never closes and traces a rosette (Figure 11). Both are computed. Pale blue: light passing above and
 below the mass bends toward it. Dotted lines show where it would go without the mass. Bending is computed by 3-D ray
 tracing and exaggerated.
 
@@ -212,3 +212,20 @@ every experiment.
 **Where it stops working.** A sponge's cells are made of material in empty space; the grid's cells *are* space, with
 nothing around or between them. The minimum size is a property of the model, not a measurement. The maximum is a firm
 observational limit.
+
+## Figure 11. Three kinds of orbit in the pulled grid
+**Caption.** All three are computed (Newtonian limit of the model, `orbits.py`) and seen from above.
+(a) Around a lone mass the orbit is an ellipse with the mass at one focus. Five laps are drawn and land exactly on top of
+one another; the body speeds up near the mass and slows far from it (Kepler's laws). (b) Inside a pool of fluid (dark
+matter) the pull on the body depends on how much fluid lies inside its path. That grows as the body dips inward, so each
+lap swings round a little further than the last. The orbit never closes and gradually fills a ring, tracing a rosette.
+Stars in galaxies move like this. (c) Near two masses that circle each other, a light body is tugged by both and its path
+never repeats. Shifting its starting point by one part in a million makes the two paths drift about 1,600 times further
+apart within the time shown; this sensitivity is what makes the orbit irregular rather than merely complicated.
+
+**Analogies.** (a) A marble rolling round the inside of a smooth bowl, on a slant: it traces the same oval every lap.
+(b) A Spirograph: the same loop, drawn again slightly rotated each turn, builds a flower. (c) A pinball between two moving
+bumpers: tiny differences in where it starts decide where it ends up.
+
+**Where it stops working.** Real planetary ellipses also creep round very slowly (Mercury's turns by 43 arcseconds per
+century, a general-relativity effect). It is far too small to see at this scale and is not drawn.
