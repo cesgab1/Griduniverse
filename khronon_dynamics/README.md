@@ -139,3 +139,18 @@ Reading:
   (e.g. into grid vibrations), about M sigma^2 ~ 1e52-1e53 J per galaxy.
 Status: PLAUSIBLE, with a specific requirement. A UV completion of the khronon fluid must dissipate random motions on
 <~ 0.3-1 Gyr in the MOND regime but not in the dust regime. Nothing derives that yet.
+
+## 10. Looking for the dissipation channel, and the redshift test (dissipation_channel.*)
+Gate: free. The fluid couples to the Xi field with strength ~[k^2/(k^2 + mu_eff^2)]^2, which vanishes in the DBI dust era and is ~1
+in the MOND era. Any channel that works through Xi switches on exactly when needed.
+Channel: radiation of Xi waves by the halo's moving mass would remove the random motions in 0.3 Gyr only if those waves
+travel at ~190 km/s. Gravitationally coupled aether/khronon modes slower than cosmic rays are excluded by the absence of
+vacuum Cherenkov losses (Elliott, Moore & Stoica 2005), so the modes must travel at ~c. At c the dissipation time is ~1e21 Gyr.
+FAILS. No grid-level dissipation channel found. The requirement (lose random motions in <~1 Gyr, MOND era only) stays open,
+and it is now the sharpest single thing a completion of the theory must supply.
+Redshift test (data, no new fit): if MOND switches on only at z <~ 0.5-0.7, galaxies at z ~ 1-2 are CDM-like and the baryonic
+Tully-Fisher relation should differ from today's. MOND-at-all-times predicts no change (v^4 = G M a0). Observed:
+KMOS3D (Ubler+2017) finds a negative BTFR zero-point change from z = 0 to 0.9 and a positive one from 0.9 to 2.3. Sharma+2024
+(0.6 < z < 2.5) find slope 3.2 +/- 0.3 and a 'subtle deviation' from local (local slope ~3.85 +/- 0.09). Mild support for
+'not MOND at z ~ 1-2', which our epoch result predicts. These measurements use velocities at ~2-3 disk scale lengths with
+pressure corrections, so systematics are large; it is a pointer, not a confirmation.

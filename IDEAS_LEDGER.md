@@ -51,7 +51,9 @@ and capture it, and lensing shows no halos at z 0.3-0.9.
   equilibrium, between the external-field and isolated targets; late run (z 0.3 -> 0): once MOND switches on, the halo's random motions unbind it (fluid inside 300 kpc -> ~0.4 of
   the MOND need; external field no help). FAILS without dissipation. With dissipation of random motions (cooling time
   0.3 Gyr, picked) the fluid at 100-300 kpc settles to the MOND amount (+-6%); needs dissipation only in the MOND regime
-  (not in the dust era), inner region over-collects. `khronon_dynamics/` sections 8-9
+  (not in the dust era), inner region over-collects. Grid channel searched: the gate is free (Xi coupling vanishes
+  in the dust era), but khronon-wave radiation needs ~190 km/s waves, excluded by cosmic-ray Cherenkov limits. Open.
+  High-z BTFR (KMOS3D, Sharma+24) mildly favours 'no MOND at z~1-2'. `khronon_dynamics/` sections 8-10
 
 ## Family 5. Black holes
 Planck stars: consistent, no observable effect for >1e26 yr. Ended holes can't make voids or fix H0: closed.
