@@ -69,9 +69,7 @@ for s, a in ((600, .06), (220, .2), (60, 1)): ax.scatter(*o2.T, s=s, color="#fff
 ax.set_xlim(-1.4, 1.4); ax.set_ylim(-1.3, 1.25); ax.set_aspect("equal")
 ax.text(-1.37, 1.22, "(a) One cell of the grid (a real random cell)", fontsize=12, fontweight="bold", va="top")
 ax.text(-1.37, 1.08, f"{len(ridges)} faces; average over all cells {faces.mean():.1f} (a cube has 6)", fontsize=9, color=MUT, va="top")
-ax.text(-1.37, -1.27, "white: the cell's node   blue: its faces (walls shared with neighbours)\n"
-        "gold: its links, one through each face to a neighbouring node.\n"
-        "Tension is carried along the links; each link's strength is set by\nthe area of the face it passes through.", fontsize=9, color=TXT, va="top")
+ax.text(-1.37, -1.27, "GRID CELL (Planck cell). White: its NODE. Blue: its WALLS, each shared with one\nneighbouring cell. Gold: its TENSION LINKS, one through each wall to the\nneighbouring node; a link's strength is set by its wall's area.", fontsize=9, color=TXT, va="top")
 # (b) size spread
 ax = fig.add_axes([0.42, 0.14, 0.25, 0.66]); ax.set_facecolor(BG)
 ax.hist(vols, bins=40, range=(0, 2.6), color=GRID, alpha=0.85, edgecolor=BG)
