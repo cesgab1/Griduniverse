@@ -52,3 +52,11 @@ and capture it, and lensing shows no halos at z 0.3-0.9.
 
 ## Family 5. Black holes
 Planck stars: consistent, no observable effect for >1e26 yr. Ended holes can't make voids or fix H0: closed.
+
+## Family 6. Origin: Big Bang singularity vs grid bounce (bounce/)
+Grid density cap -> bounce (LQC-like) instead of a singularity: consistent, not testable alone. Our DE law forbids turnaround,
+so at most one bounce from an always-contracting branch.
+Bounce INSTEAD of inflation (matter/LambdaCDM bounce, with Lambda or our DE law in the contracting branch): n_s = 0.965 forces a
+running of +0.21 to +0.23, ~30 sigma from Planck. FAILS. Bounce + inflation: survives, but needs an inflaton (new ingredient).
+Primordial black holes: not predicted either way (needs large early fluctuations; our early universe is the CMB-fitted one).
+If Planck stars are real, primordial holes ending today weigh ~1e23 kg (asteroid mass), not ~1e11 kg (black_holes/).

@@ -21,7 +21,8 @@ from numpy.fft import rfftn, irfftn, fftfreq, rfftfreq
 kv = 1.0227; G = 4.30e-6*kv**2; cl = 2.998e5*kv; a0 = 1.2e-10*3.086e19/1e6*kv**2
 h = 0.68; H0 = 0.1*h*kv; Om, Ob, OL = 0.31, 0.049, 0.69; Oc = Om - Ob
 rhoc = 3*H0**2/(8*np.pi*G); rho_f = Oc*rhoc                                   # comoving mean fluid density
-MU = 1/3.0e5; LAM = 9.2e6                                                     # DBI: 1/mu = 300 Mpc, lambda_D
+MU = 1/3.0e5; LAM = 9.2e6
+GEXT = float(os.environ.get('GEXT', '0'))                                   # external field in units of a0 (MOND function only)                                                     # DBI: 1/mu = 300 Mpc, lambda_D
 nu = lambda y: 1/(1 - np.exp(-np.sqrt(np.maximum(y, 1e-14))))
 _ys = np.logspace(-12, 8, 6000); _xs = _ys*nu(_ys); _fs = 1/nu(_ys)
 def fmond(x): return np.interp(x, _xs, _fs, left=_fs[0], right=1.0)
@@ -94,7 +95,8 @@ def solve_y(B, a, drho_com, ds0, tol=5e-2, newton=6, cgmax=200):
     dr = np.maximum(drho_com, -0.95*rho_f)          # caller passes the (one-cell smoothed) density used for gravity too
     rhs0 = 4*np.pi*G/cl**2*dr/a**3
     def wfun(y):
-        gy = B.grad(y); gm = cl**2*np.sqrt(gy[0]**2 + gy[1]**2 + gy[2]**2)/a; return np.maximum(1 - fmond(gm/a0), 1e-6)
+        gy = B.grad(y); gx0 = cl**2*gy[0]/a + GEXT*a0                          # optional uniform external field (x direction)
+        gm = np.sqrt(gx0**2 + (cl**2*gy[1]/a)**2 + (cl**2*gy[2]/a)**2); return np.maximum(1 - fmond(gm/a0), 1e-6)
     cold = False
     loc = np.clip(rhs0/MU**2, -s1*(1 - 1e-12), 1e6*s1)                         # local (dust-like) solution
     if not np.any(ds) and MU**2/yp0*a**2 > 0.3*(np.pi/B.dx)**2:                  # cold start (early): local solution everywhere
@@ -207,7 +209,9 @@ def run(mode, L=6000.0, Ng=128, Np=64, zi=30.0, Mb=1e11, eps_b=10.0, nsteps=600,
                 log.append(dict(z=zm, excess=exc, res=info.get("res"), wall=time.time() - t0))
                 print(f"[{mode}] z={zm}: " + " ".join(f"{R}:{v:.2e}" for R, v in exc.items()) + f" | Xi res {info.get('res')} | {time.time()-t0:.0f}s", flush=True)
         if os.environ.get("STOPZ") and z <= float(os.environ["STOPZ"]):
-            np.save(f"{out}_{mode}_pos_z{os.environ['STOPZ']}.npy", pos); print("stopped", flush=True); return log
+            np.savez(f"{out}_{mode}_state_z{os.environ['STOPZ']}.npz", pos=pos, u=u, k=k + 1, ds=st['ds'],
+                     marks=np.array(marks, dtype=object), log=np.array(log, dtype=object))
+            print("stopped", flush=True); return log
         if k % 25 == 0 and k > k0:
             np.savez(ck, pos=pos, u=u, k=k + 1, ds=st['ds'], marks=np.array(marks, dtype=object), log=np.array(log, dtype=object))
         if k % 10 == 0:
@@ -219,4 +223,4 @@ def run(mode, L=6000.0, Ng=128, Np=64, zi=30.0, Mb=1e11, eps_b=10.0, nsteps=600,
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "cdm"
     kw = dict(nsteps=int(os.environ.get("NSTEPS", 600)), Ng=int(os.environ.get("NG", 128)), Np=int(os.environ.get("NP", 64)))
-    run(mode, **kw)
+    run(mode, out=os.environ.get("OUT", "pm3d"), **kw)

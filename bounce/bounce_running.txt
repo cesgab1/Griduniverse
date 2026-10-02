@@ -1,0 +1,2 @@
+lambda : n_s = 0.9650 at exit when w_eff = -0.0029 (DE fraction 0.0029); running alpha_s = +0.213 -> 32 sigma from Planck 2018
+grid   : n_s = 0.9651 at exit when w_eff = -0.0029 (DE fraction 0.0029); running alpha_s = +0.230 -> 35 sigma from Planck 2018
