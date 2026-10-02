@@ -1,0 +1,8 @@
+ z_s   delta   step at (MHz)   T_b there (mK)   jump in T_b (mK)   frequency shift of the feature (kHz)
+  100  0.004      14.06          -39.89            -0.024                 113
+  100  0.011      14.06          -39.89            -0.055                 309
+  150  0.004       9.41          -37.39            +0.246                  75
+  150  0.011       9.41          -37.39            +0.675                 207
+  200  0.004       7.07          -28.83            +0.270                  57
+  200  0.011       7.07          -28.83            +0.733                 155
+dark-ages trough for reference: min T_b = -41.2 mK at z ~ 115
