@@ -48,7 +48,9 @@ and capture it, and lensing shows no halos at z 0.3-0.9.
   at 100-300 kpc the fluid is short of MOND; with realistic peak surroundings + external field (0.025-0.05 a0) the gap is
   ~1.2-2.5x (worst at ~100 kpc). 3-D run with the DBI fluid law (no hand-picked schedule): halos are dust-like (CDM) until
   z ~ 0.5-0.7 (DBI well-depth cap ~ a^6), confirmed; at z = 0 the CDM-built halo is 1.5-2.5x short of the isolated MOND
-  equilibrium, between the external-field and isolated targets; relaxation after z ~ 0.7 not yet simulated (solver). `khronon_dynamics/`
+  equilibrium, between the external-field and isolated targets; late run (z 0.3 -> 0): once MOND switches on, the halo's random motions unbind it (fluid inside 300 kpc -> ~0.4 of
+  the MOND need; external field no help). FAILS: nothing turns a dust-built moving halo into a static MOND halo.
+  `khronon_dynamics/`
 
 ## Family 5. Black holes
 Planck stars: consistent, no observable effect for >1e26 yr. Ended holes can't make voids or fix H0: closed.

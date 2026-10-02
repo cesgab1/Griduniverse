@@ -1,0 +1,7 @@
+GEXT = 0.0 a0 | solver res 6.9e-05 | halo centre offset [-23.  23.  23.]
+  r (kpc) | fluid excess (Msun) | g_b    g_fl   Xi push | net/g_b  (0 = MOND equilibrium; 1 = fluid feels full baryon pull)
+     150  |     2.17e+11       |  19.85  37.29  37.66 |   0.98
+     200  |     3.04e+11       |  10.72  31.98  32.25 |   0.97
+     300  |     5.52e+11       |   5.04  26.75  26.94 |   0.96
+     500  |     1.23e+12       |   1.81  21.92  22.05 |   0.93
+     800  |     2.49e+12       |   0.70  17.26  17.33 |   0.90

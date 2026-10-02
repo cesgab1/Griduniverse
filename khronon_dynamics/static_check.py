@@ -27,7 +27,7 @@ g = P.nu((gN + gNe)/P.a0)*(gN + gNe) - P.nu(gNe/P.a0)*gNe; Mph = g*rr**2/P.G - M
 rho_ph = np.gradient(Mph, rr)/(4*np.pi*rr**2)
 drho = np.interp(r, rr, rho_ph); drho -= drho.mean()                       # fluid excess = phantom (zero-mean in the box)
 drho = P.smooth(B, drho); rho_b = P.smooth(B, rho_b)
-y, ds, info = P.solve_y(B, a, drho, np.zeros((N,)*3), tol=1e-4, newton=12, cgmax=80)
+y, ds, info = P.solve_y(B, a, drho, np.zeros((N,)*3), tol=1e-4, newton=20, cgmax=300)
 phi = B.poisson(4*np.pi*P.G*(drho + rho_b - rho_b.mean())/a)
 gphi = B.grad(phi); gy = B.grad(y)
 grav = np.sqrt(sum(g_**2 for g_ in gphi)); net = np.sqrt(sum((-gphi[i] - P.cl**2*gy[i])**2 for i in range(3)))

@@ -95,3 +95,27 @@ box or explicit external field, and a zoom for < 100 kpc.
 Testable consequence if this picture holds: galaxy rotation curves and lensing at z >~ 1 should look CDM-like (cuspy inner
 halos), with MOND-like behaviour appearing only at z <~ 0.5. Massive z ~ 2 disks with falling rotation curves (Genzel+2017)
 are a first check.
+
+## 8. The late universe: does the CDM-built halo turn into a MOND halo? (late_runs_results.txt, endstate_check.py)
+Solver rewritten as a convex energy minimisation with a barrier at the DBI limit and a per-cell fraction-to-boundary step.
+It converges in 1-3 Newton steps (residual ~1e-4) from z ~ 0.3 on. It still stalls around z ~ 0.7-2, where halo cells sit at
+the DBI limit. Since the fluid is dust-like there anyway (section 7), the CDM run is used up to z = 0.3 and Khronon from there.
+Results at z = 0 (fluid excess around the 1e11 Msun galaxy):
+| | 100 kpc | 300 kpc | 1 Mpc |
+|---|---|---|---|
+| CDM at z = 0.3 (start) | 6.8e11 | 1.80e12 | 2.93e12 |
+| CDM at z = 0 | 6.3e11 | 1.82e12 | 3.12e12 |
+| Khronon z = 0.3 -> 0, no external field | 1.5e11 | 5.4e11 | 2.92e12 |
+| Khronon, external field 0.025 a0 | 1.5e11 | 5.4e11 | 2.92e12 |
+| MOND needs (external field 0.025 a0 / isolated) | 6.8e11 / 8.7e11 | 1.4e12 / 2.7e12 | 1.9e12 / 9.2e12 |
+Once the fluid is in the MOND regime its self-gravity is cancelled, so the halo, which has the random (virial) motions it
+gathered as dust, is held only by the baryons' Newtonian pull. It unbinds: within ~3 Gyr the fluid inside 300 kpc drops to
+~30% of its CDM value and ~40% of what MOND needs. The material moves to 300 kpc - 1 Mpc. The force balance at z = 0 confirms
+it is far from the MOND equilibrium: net inward force / baryon pull = 0.9-0.98 (0 at equilibrium). The external field makes
+almost no difference. Galaxies would end up with neither CDM halos nor MOND halos (rotation curves near baryons-only at
+100-300 kpc), so this FAILS.
+Caveat that matters: Khronon's fluid is a single-stream, irrotational flow. Random (multi-stream) motions are outside the
+theory, which forms caustics there; the particles here are the standard CDM-style stand-in. The real problem is therefore
+deeper: no mechanism in Khronon turns a dust-assembled, moving halo into the static MOND configuration (the kinetic energy
+has nowhere to go). Any fix needs either dissipation in the fluid or MOND active before halos assemble (which the
+cosmology-passing DBI setting forbids, section 7).

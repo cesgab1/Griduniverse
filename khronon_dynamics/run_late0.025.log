@@ -1,0 +1,13 @@
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:159: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  delta = delta + irfftn(dk, s=(Np, Np, Np))
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:64: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  fk = rfftn(src); fk /= -s.K2; fk[0, 0, 0] = 0; return irfftn(fk, s=src.shape)
+resumed at step 462
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:81: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  fk = rfftn(f); k2 = B.KX**2 + B.KY**2 + B.KZ**2; return irfftn(fk*np.exp(-0.5*k2*(sig_cells*B.dx)**2), s=f.shape)
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:126: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  Pre = lambda r: Sc*irfftn(rfftn(Sc*r)*Pk, s=r.shape)
+[khronon] step 470/500 z=0.22 res=4.097094268020551e-05 92s
+[khronon] step 480/500 z=0.14 res=0.0003693762211738981 173s
+[khronon] step 490/500 z=0.06 res=0.00014786465797042504 248s
+[khronon] z=0.0: 30:4.13e+10 50:7.97e+10 100:1.50e+11 200:2.98e+11 300:5.38e+11 500:1.21e+12 1000:2.92e+12 | Xi res 8.867254174801953e-05 | 314s

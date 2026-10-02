@@ -79,70 +79,66 @@ def y_of_ds(s1, ds):
     return y, A2**-1.5
 def smooth(B, f, sig_cells=1.0):
     fk = rfftn(f); k2 = B.KX**2 + B.KY**2 + B.KZ**2; return irfftn(fk*np.exp(-0.5*k2*(sig_cells*B.dx)**2), s=f.shape)
-def solve_y(B, a, drho_com, ds0, tol=5e-2, newton=6, cgmax=200):
-    """Unknown: ds = dust-density perturbation in K units ((1/2)[K_Q(x) - K_Q(x_bg)] = mu^2 ds exactly; DBI: any ds > -s is
-    allowed, so the limit can never be crossed). Equation (comoving gradients):
-       -(1/a^2) div(w grad y(ds)) + mu^2 ds = (4 pi G/c^2) drho_com / a^3.
-    Newton step for v = dy with the SPD operator -(1/a^2) div(w grad v) + D v, D = mu^2/y'; ds += v/y' with backtracking.
-    The source density is smoothed over one cell and floored at 5% of the mean (Xi is a continuum field; empty CIC cells are
-    shot noise). D varies by up to ~1e8 between voids and halos (dense cells are deep in the dust-like regime), so the CG
-    preconditioner is a diagonally rescaled FFT solve; in the Jacobian D is capped at 1e2 x the grid-scale Laplacian
-    (cells beyond that are dust-like and their Xi force is negligible; the residual still uses the exact law)."""
-    s1 = bg_state(a); ds = ds0.copy()
-    _, yp0 = y_of_ds(s1, 0.0)
+def solve_y(B, a, drho_com, y0, tol=1e-3, newton=12, cgmax=200):
+    """Solve  -(1/a^2) div(w grad y) + mu^2 ds(y) = (4 pi G/c^2) drho_com / a^3   for y = x - x_bg (DBI: x < x_lim).
+    Written as the minimum of a convex energy (w frozen per Picard step):
+        E[y] = sum_faces w (dy)^2 / (2 a^2 dx^2) + sum_cells [mu^2 Phi(y) - rhs y],   Phi' = ds(y), Phi'' = 1/y'(y) > 0,
+    with a barrier at the DBI limit (B2 = 1 - lam x^2 > 0). Newton steps (SPD Hessian, preconditioned CG) with a line search
+    on E: guaranteed descent and no crossing of the limit. All DBI algebra is cancellation-free (B2 = Bb - lam y (2 x_bg + y)).
+    Returns y, ds(y) and info. (Replaces the earlier ds-variable Newton, which stalled at late times; y0 is the warm start.)"""
+    s1 = bg_state(a); _, yp0 = y_of_ds(s1, 0.0)
     if MU**2/yp0*a**2 > 10*(np.pi/B.dx)**2 or (1/a - 1) > float(os.environ.get("XI_ON_Z", "1e9")):
-        return np.zeros_like(ds0), np.zeros_like(ds0), {"res": 0.0, "it": -1, "skipped": True}
-    dr = np.maximum(drho_com, -0.95*rho_f)          # caller passes the (one-cell smoothed) density used for gravity too
-    rhs0 = 4*np.pi*G/cl**2*dr/a**3
+        return np.zeros_like(y0), np.zeros_like(y0), {"res": 0.0, "it": -1, "skipped": True}
+    dr = np.maximum(drho_com, -0.95*rho_f)
+    rhs = 4*np.pi*G/cl**2*dr/a**3
+    xb = s1/np.sqrt(1 + LAM*s1**2); Bb = 1/(1 + LAM*s1**2); sBb = np.sqrt(Bb)
+    def B2(y): return Bb - LAM*y*(2*xb + y)
+    def ds_of(y):
+        b2 = B2(y); S = np.sqrt(b2) + sBb
+        # (xb+y)/sqrt(B2) - xb/sqrt(Bb), cancellation-free
+        return (y*sBb + xb*(sBb - np.sqrt(b2)))/(np.sqrt(b2)*sBb)
+    def Phi(y):
+        b2 = B2(y); S = np.sqrt(b2) + sBb
+        return y**2*(xb*LAM*(2*xb + y)/S + sBb)/(S*sBb)
     def wfun(y):
-        gy = B.grad(y); gx0 = cl**2*gy[0]/a + GEXT*a0                          # optional uniform external field (x direction)
+        gy = B.grad(y); gx0 = cl**2*gy[0]/a + GEXT*a0
         gm = np.sqrt(gx0**2 + (cl**2*gy[1]/a)**2 + (cl**2*gy[2]/a)**2); return np.maximum(1 - fmond(gm/a0), 1e-6)
-    cold = False
-    loc = np.clip(rhs0/MU**2, -s1*(1 - 1e-12), 1e6*s1)                         # local (dust-like) solution
-    if not np.any(ds) and MU**2/yp0*a**2 > 0.3*(np.pi/B.dx)**2:                  # cold start (early): local solution everywhere
-        ds = loc; newton, cgmax = 12, 80; cold = True                            # (validated on a z = 6.9 CDM snapshot)
-    else:                                                                        # warm start, but reset dust-like cells to the
-        _, ypp = y_of_ds(s1, np.clip(ds, -s1*(1 - 1e-12), 1e6*s1))              # local solution if they were dust-like at the
-        ds = np.where(MU**2/ypp > 1e2*(np.pi/B.dx)**2/a**2, loc, ds)             # previous step (their ds tracks a^-3)
-    scale = np.sqrt(np.mean(rhs0**2)) + 1e-300; info = {}
-    Dlap = (np.pi/B.dx)**2/a**2; Dcap = 1e2*Dlap
-    stiff_era = MU**2/yp0*a**2 >= (np.pi/B.dx)**2
-    nls = 12
-    if stiff_era: newton, cgmax, nls = min(newton, 2), min(cgmax, 30), 3   # Xi force <~ 50% at grid scale here: modest accuracy is enough
+    def energy(y, w):
+        if np.any(B2(y) <= 0): return np.inf
+        e = 0.0
+        for ax in range(3):
+            wf = 0.5*(w + np.roll(w, -1, ax)); e += np.sum(wf*(np.roll(y, -1, ax) - y)**2)/(2*a**2*B.dx**2)
+        return e + np.sum(MU**2*Phi(y) - rhs*y)
+    y = y0.copy()
+    if np.any(B2(y) <= 0): y = np.zeros_like(y0)
+    if not np.any(y) and MU**2/yp0*a**2 > 0.3*(np.pi/B.dx)**2:                  # cold start in the stiff era: local solution
+        loc = np.clip(rhs/MU**2, -s1*(1 - 1e-12), 1e6*s1); y, _ = y_of_ds(s1, loc); y = np.where(B2(y) > 0, y, 0.0)
+    scale = np.sqrt(np.mean(rhs**2)) + 1e-300; info = {}
     for it in range(newton):
-        y, yp = y_of_ds(s1, ds); w = wfun(y)
-        R = -B.divwgrad(w, y)/a**2 + MU**2*ds - rhs0
+        w = wfun(y)
+        R = -B.divwgrad(w, y)/a**2 + MU**2*ds_of(y) - rhs
         rn = np.sqrt(np.mean(R**2))/scale; info["res"] = float(rn); info["it"] = it
         if rn < tol: break
-        Dt = MU**2/yp; stiff = Dt > Dcap; D = np.minimum(Dt, Dcap)
+        b2 = B2(y); D = MU**2*b2**-1.5
         Aop = lambda v: -B.divwgrad(w, v)/a**2 + D*v
-        if False:                                                              # plain FFT preconditioner: fails once structure forms (tested)
-            Pk = 1/(B.K2/a**2 + MU**2/yp0); Pk[0, 0, 0] = yp0/MU**2
-            Pre = lambda r: irfftn(rfftn(r)*Pk, s=r.shape)
-        else:                                                                  # stiff era: diagonally rescaled FFT
-            diag = D + 6*w/(a**2*B.dx**2); Dm = np.exp(np.mean(np.log(D)))
-            Pk = 1/(B.K2/a**2 + Dm); Sc = np.sqrt((6/(a**2*B.dx**2) + Dm)/diag)
-            Pre = lambda r: Sc*irfftn(rfftn(Sc*r)*Pk, s=r.shape)
+        diag = D + 6*w/(a**2*B.dx**2); Dm = np.exp(np.mean(np.log(D)))
+        Pk = 1/(B.K2/a**2 + Dm); Sc = np.sqrt((6/(a**2*B.dx**2) + Dm)/diag)
+        Pre = lambda r: Sc*irfftn(rfftn(Sc*r)*Pk, s=r.shape)
         v = np.zeros_like(y); r = -R.copy(); z = Pre(r); p = z.copy(); rz = np.vdot(r, z); r0 = np.sqrt(np.vdot(r, r))
         for k in range(cgmax):
             Ap = Aop(p); al = rz/np.vdot(p, Ap); v += al*p; r -= al*Ap
-            if np.sqrt(np.vdot(r, r)) < 1e-5*r0: break
+            if np.sqrt(np.vdot(r, r)) < 1e-4*r0: break
             z = Pre(r); rzn = np.vdot(r, z); p = z + (rzn/rz)*p; rz = rzn
-        alpha = 1.0
-        for _ls in range(nls):
-            # non-stiff cells: Newton update mapped to ds; stiff (dust-like) cells: exact local solve given the neighbours
-            dst = ds + alpha*v/yp
-            yt, _ = y_of_ds(s1, np.clip(dst, -s1*(1 - 1e-12), 1e6*s1))
-            Lt = -B.divwgrad(wfun(yt), yt)/a**2
-            loc = (rhs0 - Lt)/MU**2
-            dst = np.where(stiff, ds + alpha*(loc - ds), dst)
-            dst = np.clip(dst, -s1*(1 - 1e-12), 1e6*s1)
-            yt, _ = y_of_ds(s1, dst); Rt = -B.divwgrad(wfun(yt), yt)/a**2 + MU**2*dst - rhs0
-            if np.sqrt(np.mean(Rt**2))/scale < rn: break
+        # fraction-to-boundary: no cell may move more than 90% of the way to the DBI limit in one step
+        ylim = (Bb/LAM)/(xb + np.sqrt(xb**2 + Bb/LAM))
+        v = np.where(v > 0, np.minimum(v, 0.9*(ylim - y)), v)
+        E0 = energy(y, w); alpha = 1.0
+        for _ls in range(30):
+            Et = energy(y + alpha*v, w)
+            if Et < E0: break
             alpha *= 0.5
-        ds = dst; info["alpha"] = alpha; info["cg"] = k; info["stiff_frac"] = float(stiff.mean())
-    y, _ = y_of_ds(s1, ds)
-    return y, ds, info
+        y = y + alpha*v; info["alpha"] = alpha; info["cg"] = k
+    return y, ds_of(y), info
 
 def initial_conditions(L, Np, zi, seed=1, Mhalo=1.5e12, zc=1.0, rand=True):
     import peak_env as PE
@@ -181,7 +177,7 @@ def run(mode, L=6000.0, Ng=128, Np=64, zi=30.0, Mb=1e11, eps_b=10.0, nsteps=600,
         gphi = B.grad(phi); F = [-g for g in gphi]                           # du/dt = -grad_c phi
         info = {}
         if mode == "khronon":
-            y, st['ds'], info = solve_y(B, a, drho, st['ds'])
+            y, _dsv, info = solve_y(B, a, drho, st['ds']); st['ds'] = y          # st['ds'] holds the warm-start y
             gy = B.grad(y); F = [F[i] - cl**2*gy[i] for i in range(3)]        # du/dt += -c^2 grad_c y
         acc = np.stack([B.interp(F[i], pos) for i in range(3)], 1)
         d = pos - c0; d -= L*np.round(d/L); rp = a*d                          # baryons: physical Plummer force, times a

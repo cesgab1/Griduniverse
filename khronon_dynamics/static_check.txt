@@ -1,4 +1,4 @@
-solver residual 9.9e-06, Newton iterations 4
+solver residual 5.2e-05, Newton iterations 3
   r (kpc) | net force on fluid / gravity | gravity / MOND prediction
      100  |      0.074                  |    0.609
      150  |      0.062                  |    0.801

@@ -1,0 +1,52 @@
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:163: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  delta = delta + irfftn(dk, s=(Np, Np, Np))
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:64: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  fk = rfftn(src); fk /= -s.K2; fk[0, 0, 0] = 0; return irfftn(fk, s=src.shape)
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:81: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  fk = rfftn(f); k2 = B.KX**2 + B.KY**2 + B.KZ**2; return irfftn(fk*np.exp(-0.5*k2*(sig_cells*B.dx)**2), s=f.shape)
+[cdm] step 0/500 z=29.79 res=None 8s
+[cdm] step 10/500 z=27.74 res=None 50s
+[cdm] step 20/500 z=25.84 res=None 93s
+[cdm] step 30/500 z=24.06 res=None 135s
+[cdm] step 40/500 z=22.39 res=None 178s
+[cdm] step 50/500 z=20.84 res=None 222s
+[cdm] step 60/500 z=19.39 res=None 266s
+[cdm] step 70/500 z=18.04 res=None 311s
+[cdm] step 80/500 z=16.77 res=None 358s
+[cdm] step 90/500 z=15.59 res=None 402s
+[cdm] step 100/500 z=14.49 res=None 447s
+[cdm] step 110/500 z=13.46 res=None 489s
+[cdm] step 120/500 z=12.50 res=None 531s
+[cdm] step 130/500 z=11.61 res=None 572s
+[cdm] step 140/500 z=10.77 res=None 613s
+[cdm] step 150/500 z=9.99 res=None 655s
+[cdm] step 160/500 z=9.26 res=None 697s
+[cdm] step 170/500 z=8.58 res=None 739s
+[cdm] step 180/500 z=7.94 res=None 780s
+[cdm] step 190/500 z=7.35 res=None 822s
+[cdm] step 200/500 z=6.80 res=None 863s
+[cdm] step 210/500 z=6.28 res=None 904s
+[cdm] step 220/500 z=5.79 res=None 946s
+[cdm] step 230/500 z=5.34 res=None 988s
+[cdm] step 240/500 z=4.92 res=None 1029s
+[cdm] step 250/500 z=4.53 res=None 1070s
+[cdm] step 260/500 z=4.16 res=None 1111s
+[cdm] step 270/500 z=3.82 res=None 1151s
+[cdm] step 280/500 z=3.50 res=None 1193s
+[cdm] step 290/500 z=3.20 res=None 1235s
+[cdm] step 300/500 z=2.92 res=None 1278s
+[cdm] step 310/500 z=2.66 res=None 1320s
+[cdm] step 320/500 z=2.42 res=None 1364s
+[cdm] step 330/500 z=2.19 res=None 1406s
+[cdm] z=2.0: 30:4.58e+10 50:1.07e+11 100:4.15e+11 200:9.23e+11 300:1.21e+12 500:1.56e+12 1000:1.40e+12 | Xi res None | 1448s
+[cdm] step 340/500 z=1.98 res=None 1448s
+[cdm] step 350/500 z=1.78 res=None 1489s
+[cdm] step 360/500 z=1.60 res=None 1531s
+[cdm] step 370/500 z=1.43 res=None 1574s
+[cdm] step 380/500 z=1.26 res=None 1617s
+[cdm] step 390/500 z=1.11 res=None 1660s
+[cdm] step 400/500 z=0.97 res=None 1704s
+[cdm] z=0.9: 30:1.71e+11 50:3.51e+11 100:7.92e+11 200:1.27e+12 300:1.49e+12 500:1.91e+12 1000:2.50e+12 | Xi res None | 1729s
+[cdm] step 410/500 z=0.84 res=None 1746s
+[cdm] step 420/500 z=0.72 res=None 1789s
+stopped
