@@ -7,22 +7,28 @@ breaks, so a reader or auditor can see what the picture claims and what it does 
 
 ---
 
-## Figure 0 (overview / cover). The grid in space-time
-**Caption.** Three layers of the grid, each the whole of space at one moment, stacked in time (upward). Each layer is a
-random mosaic of cells and links. A mass dimples every layer it exists in, so its history (its *worldline*, white) runs
-straight up through the stack. The fluid between the layers (dark matter; blue to violet) pools around the mass. Gold: the
-path through space-time of a body orbiting the mass. Seen one layer at a time it goes round in a circle; seen across
-time it is a helix wound around the mass's worldline. In the bent grid that helix is the straightest possible path (a
-geodesic): no force pushes the body sideways. Pale blue: light rays crossing one layer bend toward the mass. Dotted lines
-show where they would go without it. The bending is computed by ray tracing and exaggerated for visibility.
+## Figure 0 (overview / cover). One moment of space in 3-D, drawn in toward a mass from every side
+**Caption.** The grid at one moment, shown in full 3-D as three planes of random mosaic. The planes are only a way to draw
+3-D space, like the floors of a building; they are not time. A mass draws the grid in toward itself from every direction.
+The plane through its centre is pinched inward sideways, the plane above sags down toward it, and the plane below bulges
+up toward it. The draw-in weakens with distance, with the softened inverse-square shape computed for the random net in
+Figure 2. The fluid (dark matter, violet haze) pools around the mass in a round cloud. Gold: a circular orbit, the
+straightest path available in the drawn-in grid. Pale blue: light passing above and below the mass bends toward it.
+Dotted lines show where it would go without the mass. Bending is computed by 3-D ray tracing and exaggerated.
 
-**Analogy: a spiral staircase.** Someone walking up a spiral staircase never steps sideways off the stairs; the staircase
-itself turns. An orbit is the same: the planet walks 'straight up' through time, and the bent grid makes 'straight' wind
-around the Sun. Gravity is not a rope from the Sun to the planet; it is the shape of the staircase.
+**Why not the rubber sheet.** The usual stretched-blanket picture shows space dipping *downward*. That needs an extra
+direction for the dip and uses 'downhill' (gravity) to explain gravity. In 3-D there is no 'down': every part of the grid
+is drawn toward the mass, from above, below and the sides alike. The draw-in is the drawing's way of showing where the grid
+ticks slower (Figure 3). That slowing is what bends paths, not a slope.
 
-**Where it stops working.** The dimple, the orbit and the light bending are drawn hugely exaggerated, and only three
-layers are shown where real moments are continuous. In the drawing the dimple goes 'downward'; in the model it means the
-grid ticks slower there (Figure 3), not a dip into an extra dimension. Clean version: `fig0_hero.png`.
+**Analogy: a sponge squeezed toward a point inside it.** Push a pin into the middle of a block of sponge and pull it
+inward: the sponge around it is drawn in from all sides. Layers above move down, layers below move up, the layer at the
+pin's height moves sideways, and the effect fades with distance. Anything sliding through the sponge gets steered toward
+the pin. That steering is gravity.
+
+**Where it stops working.** A real sponge is pulled by the pin; in the model nothing pulls the grid with a rope. The
+draw-in is how the grid's tension settles around the mass, and its observable effect is the slower ticking. Everything is
+hugely exaggerated. Clean version: `fig0_grid3d.png`.
 
 ## Figure 1. Anatomy of the grid
 **Caption.** Space is modelled as a stack of layers. Each layer is the whole of space at one moment: a random mosaic of
