@@ -79,3 +79,18 @@ Checked (grid_patterns/): oscillation searches in BOSS + Planck limit any regula
 2-22 Mpc/h scales (A_lin < 0.022-0.031, no detection).
 Possible use: inside a galaxy, a vibrating grid plus a fluid that loses energy on each 'bounce' would settle fluid where the
 grid is quiet. That is a candidate form for the dissipation channel, only if the energy loss itself is supplied.
+
+## Where does the sloshing energy go? / never fall in fast (Coalesce, Oct 2026)
+Budget: a Milky-Way halo's fluid sloshing energy ~ M sigma^2 ~ 1e12 Msun x (200 km/s)^2 = 8e52 J; released in 1 Gyr = 2.5e43 erg/s,
+in 10 Gyr = 2.5e42 erg/s (comparable to or above the galaxy's whole starlight).
+- As NEW free electrons: forbidden alone (charge conservation). As e+e- pairs: 1.5e49 pairs/s vs the Milky Way's 511 keV
+  annihilation line ~5e43 /s, so 1e5-1e6 too many. As electron+proton (new hydrogen): 4.5e5 Msun per Gyr per galaxy (needs
+  baryon creation; not excluded by this estimate alone, but a new law).
+- As HEAT in existing free electrons (hot halo gas): the halo would shine in X-rays at 2.5e42-2.5e43 erg/s vs the observed
+  Milky-Way hot-halo ~1e39-1e40 erg/s, i.e. 300-25000x too bright. Excluded.
+-> the energy must stay dark (grid / dark sector), or there must be no sloshing to begin with.
+Never fall in fast: the cleanest route (nothing to dissipate). Requires the MOND regime (fluid self-gravity off, gentle seepage)
+to be on while galaxies assemble (z ~ 1-3). Two conflicts: Lyman-alpha (z 2-5) needs the fluid clumpy at ~1 Mpc, and with
+the DBI law shallow structures switch first (wrong order). And gentle seepage alone gathers <~4 x baryons (1-D result), so
+the outer halo needs supply from structure that clumped earlier. Open: a fluid law where galaxy-scale wells switch to the
+MOND regime at z ~ 1.5-3 while the forest-scale field stays clumpy.
