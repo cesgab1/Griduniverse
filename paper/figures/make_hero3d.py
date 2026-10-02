@@ -54,6 +54,23 @@ def ray(p0, v0, k=0.045, T=2.6):
     s = solve_ivp(f, [0, T], np.r_[p0, v0], max_step=0.004, rtol=1e-9); X = s.y[:3].T
     return X[np.all(np.abs(X[:, :2]) <= 1.0, axis=1)]
 
+
+# ---- true 3-D random network (no planes, no preferred direction) ----
+P3 = np.random.default_rng(9).uniform(-1.15, 1.15, (340, 3)); V3 = Voronoi(P3); NET = []
+for rv in V3.ridge_vertices:
+    if -1 in rv: continue
+    poly = V3.vertices[rv]
+    if np.any(np.abs(poly) > 1.0): continue
+    for i in range(len(poly)):
+        a, b = poly[i], poly[(i + 1) % len(poly)]; NET.append((tuple(np.round(a, 9)), tuple(np.round(b, 9))))
+NET = np.array(list({tuple(sorted(e)) for e in NET}))          # unique edges
+def net_segments():
+    segs = []
+    for a, b in NET:
+        t = np.linspace(0, 1, 6)[:, None]; pts = a + (b - a)*t; q = pull(pts)
+        segs += [np.array([q[i], q[i + 1]]) for i in range(5)]
+    return np.array(segs)
+
 def render(labels):
     fig = plt.figure(figsize=(12, 9), facecolor="black"); ax = fig.add_axes([0, 0, 1, 1]); ax.set_facecolor("black")
     ax.set_xlim(-1.62, 1.62); ax.set_ylim(-1.12, 1.12); ax.axis("off")
@@ -62,18 +79,15 @@ def render(labels):
     v = rng.normal(size=(len(r), 3)); v /= np.linalg.norm(v, axis=1, keepdims=True); F = v*r[:, None]
     F = F[np.all(np.abs(F) <= [1, 1, 0.95], axis=1)]; F2, _ = proj(F)
     ax.scatter(*F2.T, s=24, color=FLU, alpha=0.03, lw=0, zorder=1); ax.scatter(*F2.T, s=2.5, color=FLU, alpha=0.35, lw=0, zorder=1)
-    # planes of the grid, back-to-front
-    for z0 in PLANES:
-        segs = plane_segments(z0); w = 1.0 if z0 == 0 else 0.7
-        glow_lines(ax, segs, GRID, width=0.75*w, zo=3, alpha=1.0 if z0 == 0 else 0.8 - 0.35*abs(z0))
-        nodes = proj(pull(np.c_[np.array([a for a, b in E]), np.full(len(E), z0)]))[0]
-        ax.scatter(*nodes.T, s=3.5, color="#d5e8ff", alpha=0.5, lw=0, zorder=4)
-        fr = np.array([[-1, -1, z0], [1, -1, z0], [1, 1, z0], [-1, 1, z0], [-1, -1, z0]]); f2, _ = proj(fr)
-        ax.plot(*f2.T, color=GRID, lw=0.8, alpha=0.35, zorder=2)
-    # vertical links between planes (sparse), also drawn in toward the mass
-    for (x, y) in rng.uniform(-0.9, 0.9, (26, 2)):
-        zz = np.linspace(PLANES[0], PLANES[-1], 40); pts = pull(np.c_[np.full(40, x), np.full(40, y), zz])
-        glow_lines(ax, np.array([pts[i:i + 2] for i in range(39)]), GRID, width=0.45, zo=2, alpha=0.45)
+    # the grid: a random 3-D network (cell edges), every part drawn in toward the mass
+    segs = net_segments(); glow_lines(ax, segs, GRID, width=0.55, zo=3, alpha=0.85)
+    nodes = np.unique(segs.reshape(-1, 3), axis=0); n2, _ = proj(nodes[::3])
+    ax.scatter(*n2.T, s=2.5, color="#d5e8ff", alpha=0.45, lw=0, zorder=4)
+    box = np.array([[x, y, z] for x in (-1, 1) for y in (-1, 1) for z in (-1, 1)])
+    for i in range(8):
+        for j in range(i + 1, 8):
+            if np.sum(box[i] != box[j]) == 1:
+                b2, _ = proj(np.array([box[i], box[j]])); ax.plot(*b2.T, color=GRID, lw=0.8, alpha=0.3, zorder=2)
     # geodesic 1: circular orbit in the central plane
     th = np.linspace(0, 2*np.pi, 400); R = 0.5; O = np.c_[R*np.cos(th), R*np.sin(th), 0*th]
     O2, d = proj(O); front = d < 0
@@ -96,10 +110,10 @@ def render(labels):
     if labels:
         def lab(xy, txt, col="#dfe9ff", ha="left"):
             ax.text(*xy, txt, color=col, fontsize=11.5, ha=ha, va="center", zorder=20, bbox=dict(fc="black", ec="none", alpha=0.75, pad=3))
-        lab((-1.58, 1.04), "one moment of space, in 3-D\n(planes = floors of a building, not time)")
-        lab((0.98, 0.8), "planes above the mass\nsag DOWN toward it")
-        lab((0.98, 0.02), "plane through the mass:\npinched INWARD sideways")
-        lab((0.98, -0.8), "planes below the mass\nbulge UP toward it")
+        lab((-1.58, 1.04), "one moment of space, in 3-D:\na random network with no up, down or sideways")
+        lab((0.98, 0.8), "above the mass the grid\nis drawn DOWN toward it")
+        lab((0.98, 0.02), "level with the mass it is\ndrawn INWARD sideways")
+        lab((0.98, -0.8), "below the mass it is\ndrawn UP toward it")
         lab((-1.58, -0.98), "gold: a circular orbit (straightest path\nin the drawn-in grid)\npale blue: light bending toward the mass;\ndotted = straight lines", GOLD)
         lab((-1.58, 0.5), "violet haze: the fluid\n(dark matter) pooled around\nthe mass", "#c8b5ff")
     return fig

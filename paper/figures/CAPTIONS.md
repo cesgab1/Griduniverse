@@ -8,13 +8,13 @@ breaks, so a reader or auditor can see what the picture claims and what it does 
 ---
 
 ## Figure 0 (overview / cover). One moment of space in 3-D, drawn in toward a mass from every side
-**Caption.** The grid at one moment, shown in full 3-D as seven planes of random mosaic. The planes are only a way to draw
-3-D space, like the floors of a building; they are not time. A mass draws the grid in toward itself from every direction.
-The plane through its centre is pinched inward sideways, the planes above sag down toward it, and the planes below bulge
-up toward it, less and less with distance. The draw-in weakens with distance, with the softened inverse-square shape computed for the random net in
-Figure 2. The fluid (dark matter, violet haze) pools around the mass in a round cloud. Gold: a circular orbit, the
-straightest path available in the drawn-in grid. Pale blue: light passing above and below the mass bends toward it.
-Dotted lines show where it would go without the mass. Bending is computed by 3-D ray tracing and exaggerated.
+**Caption.** The grid at one moment, shown in full 3-D: the edges of a random network of cells (Figure 10) filling a
+cube. The network has no planes, columns or preferred direction; up, down and sideways are all alike. A mass draws the
+grid in toward itself from every direction: above the mass the network is drawn down, below it drawn up, level with it
+drawn inward sideways, and less and less with distance (softened inverse-square, the shape computed in Figure 2). The
+fluid (dark matter, violet haze) pools around the mass in a round cloud. Gold: a circular orbit, the straightest path
+available in the drawn-in grid. Pale blue: light passing above and below the mass bends toward it. Dotted lines show
+where it would go without the mass. Bending is computed by 3-D ray tracing and exaggerated.
 
 **Why not the rubber sheet.** The usual stretched-blanket picture shows space dipping *downward*. That needs an extra
 direction for the dip and uses 'downhill' (gravity) to explain gravity. In 3-D there is no 'down': every part of the grid
