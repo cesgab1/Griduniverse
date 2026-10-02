@@ -1,0 +1,37 @@
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:161: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  delta = delta + irfftn(dk, s=(Np, Np, Np))
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:63: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  fk = rfftn(src); fk /= -s.K2; fk[0, 0, 0] = 0; return irfftn(fk, s=src.shape)
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:80: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  fk = rfftn(f); k2 = B.KX**2 + B.KY**2 + B.KZ**2; return irfftn(fk*np.exp(-0.5*k2*(sig_cells*B.dx)**2), s=f.shape)
+[khronon] step 0/500 z=29.79 res=0.0 8s
+[khronon] step 10/500 z=27.74 res=0.0 50s
+[khronon] step 20/500 z=25.84 res=0.0 91s
+[khronon] step 30/500 z=24.06 res=0.0 135s
+[khronon] step 40/500 z=22.39 res=0.0 178s
+[khronon] step 50/500 z=20.84 res=0.0 220s
+[khronon] step 60/500 z=19.39 res=0.0 262s
+[khronon] step 70/500 z=18.04 res=0.0 303s
+[khronon] step 80/500 z=16.77 res=0.0 345s
+[khronon] step 90/500 z=15.59 res=0.0 386s
+[khronon] step 100/500 z=14.49 res=0.0 428s
+[khronon] step 110/500 z=13.46 res=0.0 470s
+[khronon] step 120/500 z=12.50 res=0.0 511s
+[khronon] step 130/500 z=11.61 res=0.0 552s
+[khronon] step 140/500 z=10.77 res=0.0 592s
+[khronon] step 150/500 z=9.99 res=0.0 634s
+[khronon] step 160/500 z=9.26 res=0.0 675s
+[khronon] step 170/500 z=8.58 res=0.0 717s
+[khronon] step 180/500 z=7.94 res=0.0 759s
+[khronon] step 190/500 z=7.35 res=0.0 802s
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:123: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  Pre = lambda r: Sc*irfftn(rfftn(Sc*r)*Pk, s=r.shape)
+[khronon] step 200/500 z=6.80 res=0.01253265671383073 885s
+[khronon] step 210/500 z=6.28 res=0.012523503254320802 1002s
+[khronon] step 220/500 z=5.79 res=0.013063076291524778 1135s
+[khronon] step 230/500 z=5.34 res=0.013835358279870733 1272s
+[khronon] step 240/500 z=4.92 res=0.014373592141390919 1403s
+[khronon] step 250/500 z=4.53 res=0.014951660980046369 1588s
+/home/claude/griduniverse/khronon_dynamics/pm3d.py:119: DeprecationWarning: `axes` should not be `None` if `s` is not `None` (Deprecated in NumPy 2.0). In a future version of NumPy, this will raise an error and `s[i]` will correspond to the size along the transformed axis specified by `axes[i]`. To retain current behaviour, pass a sequence [0, ..., k-1] to `axes` for an array of dimension k.
+  Pre = lambda r: irfftn(rfftn(r)*Pk, s=r.shape)
+[khronon] step 260/500 z=4.16 res=0.08651714701165811 2347s

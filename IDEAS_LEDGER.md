@@ -46,7 +46,9 @@ and capture it, and lensing shows no halos at z 0.3-0.9.
   self-gravity on >~ Mpc scales (crossover 1/mu). Earlier hybrid/DBI collapse runs double-counted (fluid + MOND). Crossover window (one-fluid): linear OK (Lya 0.995, sigma8
   unchanged); a crossover growing from 0.1 Mpc (z=3) to >= 1 Mpc today expels the excess at ~30 kpc (galaxy ~ MOND amount), but
   at 100-300 kpc the fluid is short of MOND; with realistic peak surroundings + external field (0.025-0.05 a0) the gap is
-  ~1.2-2.5x (worst at ~100 kpc), within what a 1-D model can resolve. Needs 3-D. `khronon_dynamics/`
+  ~1.2-2.5x (worst at ~100 kpc). 3-D run with the DBI fluid law (no hand-picked schedule): halos are dust-like (CDM) until
+  z ~ 0.5-0.7 (DBI well-depth cap ~ a^6), confirmed; at z = 0 the CDM-built halo is 1.5-2.5x short of the isolated MOND
+  equilibrium, between the external-field and isolated targets; relaxation after z ~ 0.7 not yet simulated (solver). `khronon_dynamics/`
 
 ## Family 5. Black holes
 Planck stars: consistent, no observable effect for >1e26 yr. Ended holes can't make voids or fix H0: closed.
