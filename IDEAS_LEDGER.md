@@ -81,6 +81,8 @@ sigma = C a0/(n_DM v^2)). Needs ~0.3-18 cm^2/g in galaxies; same law at recombin
 -> must switch on after recombination; strong coupling in the IGM at z = 3 and near-strong at z = 100 -> Lyman-alpha
 temperature and 21-cm are the tests. NOT the same as Family 4's drag/currents (fluid moved by the grid) or the hot-halo
 X-ray budget (that was heat dumped into halo gas).
+CLOSED (early_tests.*): 21-cm fine for heavy DM, but Lyman-alpha gas locked to the fluid 25-43x too fast (no pressure smoothing),
+CMB 6-110x, and in galaxies the contact drags disc gas to a stop in 0.3-0.55 Gyr. A momentum sink in the grid is worse.
 
 ## Chladni picture (Coalesce, Oct 2026): sand on a vibrating plate collects at the still lines (nodes)
 Physics of the real effect: grains are kicked where the plate moves and come to rest where it doesn't, because every bounce

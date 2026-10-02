@@ -1,0 +1,14 @@
+(A) 21-cm (z ~ 17): maximum fractional cooling of the gas by the cold fluid, and rate vs expansion at z = 100
+   m =     1 GeV: max gas cooling  83.3%;  gas heating-rate/H at z=100:  5.674
+   m =    10 GeV: max gas cooling  33.2%;  gas heating-rate/H at z=100:  0.567
+   m =   100 GeV: max gas cooling   4.7%;  gas heating-rate/H at z=100:  0.057
+   m =  1000 GeV: max gas cooling   0.5%;  gas heating-rate/H at z=100:  0.006
+(B) Lyman-alpha filtering (most generous v = gas sound speed):
+   z = 2: drag time   50.8 Myr, sound crossing of the filtering scale   2177 Myr -> gas locked  42.9x faster than pressure can act; drag/expansion    95
+   z = 3: drag time   55.0 Myr, sound crossing of the filtering scale   1507 Myr -> gas locked  27.4x faster than pressure can act; drag/expansion    58
+   z = 5: drag time   46.6 Myr, sound crossing of the filtering scale   1187 Myr -> gas locked  25.5x faster than pressure can act; drag/expansion    38
+(C) inside a galaxy: a scattering contact also drags.  Rotating disc gas (v_rot) moving through a non-rotating halo (spread s):
+    drag rate on the gas = rho_DM (sigma/m) v_rel = C a0 v_rot / s^2
+   v_rot 100 km/s, halo spread 80 km/s: gas spin-down time  0.27 Gyr (discs are ~10 Gyr old)
+   v_rot 200 km/s, halo spread 150 km/s: gas spin-down time  0.48 Gyr (discs are ~10 Gyr old)
+   v_rot 250 km/s, halo spread 180 km/s: gas spin-down time  0.55 Gyr (discs are ~10 Gyr old)
