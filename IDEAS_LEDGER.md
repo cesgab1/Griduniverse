@@ -65,3 +65,15 @@ Bounce INSTEAD of inflation (matter/LambdaCDM bounce, with Lambda or our DE law 
 running of +0.21 to +0.23, ~30 sigma from Planck. FAILS. Bounce + inflation: survives, but needs an inflaton (new ingredient).
 Primordial black holes: not predicted either way (needs large early fluctuations; our early universe is the CMB-fitted one).
 If Planck stars are real, primordial holes ending today weigh ~1e23 kg (asteroid mass), not ~1e11 kg (black_holes/).
+
+## Chladni picture (Coalesce, Oct 2026): sand on a vibrating plate collects at the still lines (nodes)
+Physics of the real effect: grains are kicked where the plate moves and come to rest where it doesn't, because every bounce
+loses energy (inelastic). Without that energy loss there is no pattern. So it needs the same missing ingredient as the
+dissipation requirement (khronon_dynamics section 9); it doesn't supply it. Fine powder goes the other way (to the moving
+regions, carried by air currents).
+Cosmic version: a standing vibration of the grid would gather matter on its nodes, i.e. a preferred spacing/lattice in
+matter. Data: the CMB and galaxy surveys look like a Gaussian random field with one known preferred scale (BAO, already
+explained by early-universe sound waves); old claims of 128 Mpc periodicity were not confirmed. So any such pattern must be
+weak, or random-phase across many frequencies (which looks like ordinary initial fluctuations).
+Possible use: inside a galaxy, a vibrating grid plus a fluid that loses energy on each 'bounce' would settle fluid where the
+grid is quiet. That is a candidate form for the dissipation channel, only if the energy loss itself is supplied.
