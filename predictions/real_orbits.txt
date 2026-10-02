@@ -1,0 +1,7 @@
+(1) nu Octantis: planet inside a tight binary
+   RETROGRADE: distance from star A 0.91-1.68 AU over 300 yr (~104 binary orbits); STAYS BOUND
+   PROGRADE  : distance from star A 1.00-764.14 AU over 300 yr (~104 binary orbits); LOST after 1.4 yr
+
+(2) Pluto and Neptune
+   real (Neptune 90 deg ahead when Pluto is at perihelion): closest Pluto-Neptune approach over 50,000 yr = 18.5 AU; Pluto's distance from Sun 29.6-49.3 AU
+   unprotected (Neptune at Pluto's perihelion): closest Pluto-Neptune approach over 50,000 yr = 0.4 AU; Pluto's distance from Sun 29.6-48.8 AU
