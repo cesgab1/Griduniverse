@@ -47,7 +47,23 @@ Reading: rotation-curve SHAPES are fit fine by dark halos given freedom (cored h
 halo doesn't is PREDICTIVITY: with no free numbers, MOND is 2.6x better. That is a real fact (T1/T3) that the 'ocean = CDM'
 model must earn through galaxy-formation physics (feedback making halos track baryons). That is the standard LCDM position:
 plausible, debated, not a refutation.
-Next (one at a time): R2 Tully-Fisher slope and scatter (T2); R3 the single acceleration scale (T3).
+R2 (T2) Baryonic Tully-Fisher (btfr_without_mond.*): same SPARC galaxies and baryons for every model; bisector slope of
+log M_b vs log v_flat; scatter in log v. Clean sample = outer curve flat within 5%, outer errors < 5% (66 galaxies):
+| | slope | scatter (dex in v) |
+|---|---|---|
+| observed (includes measurement errors) | 3.59 +/- 0.14 | 0.064 |
+| MOND, fixed M/L, 0 free | 3.70 | 0.020 |
+| CDM halos by abundance matching, no scatter | 2.69 | 0.067 |
+| same + realistic halo-mass and concentration scatter | 2.65 +/- 0.07 | 0.087 |
+Looser cut (150 galaxies): observed 3.33 / 0.091, CDM 3.05 / 0.085 (2 sigma); stricter (38): 3.54 / 0.060 vs 2.58 / 0.091 (5.5 sigma).
+Reading: 'ocean = CDM' with halos placed by abundance matching FAILS T2 on two counts. The slope is too shallow (~2.6 vs ~3.6,
+~6 sigma on clean data), and its built-in scatter ALONE (0.09 dex) exceeds the observed total, measurement errors included (0.06).
+MOND gets both with nothing tuned. This is the known LCDM Tully-Fisher problem; the LCDM answer is that galaxy formation
+(feedback, which galaxies live in which halos, halo response to baryons) tightens and steepens the relation, and some
+hydrodynamic simulations (e.g. NIHAO, APOSTLE) claim to reproduce it. So the best-fit model passes T2 only if that galaxy-formation
+physics is right; it is not something our model derives. Counted as: PASS CONDITIONAL (borrowed from LCDM galaxy formation), and
+the strongest MOND-type fact our model does not explain on its own.
+Next: R3 the single acceleration scale (T3).
 
 ## 4. Revisit: the mosaic with 'electron twins', and fluid/gas between the grid layers (layers_and_twins.*)
 Question: did these fail only because of MOND?

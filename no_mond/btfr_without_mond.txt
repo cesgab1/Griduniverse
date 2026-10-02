@@ -1,0 +1,30 @@
+cuts: flat within 10%, mean outer error < 100%
+R2 baryonic Tully-Fisher, 150 SPARC galaxies with flat outer curves (same galaxies, same baryons for every model; bisector slope of log M_b vs log v)
+  observed                          slope  3.33   scatter 0.091 dex in v (includes measurement errors)
+  MOND, fixed M/L (0 free)          slope  3.70   scatter 0.023
+  CDM halos, abundance matched, no scatter        slope  3.09   scatter 0.070
+  CDM halos + SHMR & concentration scatter        slope  3.05 +/- 0.06   scatter 0.085 +/- 0.005
+  typical measurement error in log v_flat: 0.012 dex (v only; distance and M/L errors add to M_b)
+  literature: Lelli+2016/2019 slope 3.85 +/- 0.09, intrinsic scatter ~0.025 dex in v (0.10 dex in M)
+  observed slope bootstrap error: +/- 0.12  -> CDM-halo slope is 2.1 sigma below
+
+cuts: flat within 5%, mean outer error < 5%
+R2 baryonic Tully-Fisher, 66 SPARC galaxies with flat outer curves (same galaxies, same baryons for every model; bisector slope of log M_b vs log v)
+  observed                          slope  3.59   scatter 0.064 dex in v (includes measurement errors)
+  MOND, fixed M/L (0 free)          slope  3.70   scatter 0.020
+  CDM halos, abundance matched, no scatter        slope  2.69   scatter 0.067
+  CDM halos + SHMR & concentration scatter        slope  2.65 +/- 0.07   scatter 0.087 +/- 0.007
+  typical measurement error in log v_flat: 0.008 dex (v only; distance and M/L errors add to M_b)
+  literature: Lelli+2016/2019 slope 3.85 +/- 0.09, intrinsic scatter ~0.025 dex in v (0.10 dex in M)
+  observed slope bootstrap error: +/- 0.14  -> CDM-halo slope is 6.1 sigma below
+
+cuts: flat within 3%, mean outer error < 4%
+R2 baryonic Tully-Fisher, 38 SPARC galaxies with flat outer curves (same galaxies, same baryons for every model; bisector slope of log M_b vs log v)
+  observed                          slope  3.54   scatter 0.060 dex in v (includes measurement errors)
+  MOND, fixed M/L (0 free)          slope  3.72   scatter 0.016
+  CDM halos, abundance matched, no scatter        slope  2.62   scatter 0.067
+  CDM halos + SHMR & concentration scatter        slope  2.58 +/- 0.08   scatter 0.091 +/- 0.009
+  typical measurement error in log v_flat: 0.006 dex (v only; distance and M/L errors add to M_b)
+  literature: Lelli+2016/2019 slope 3.85 +/- 0.09, intrinsic scatter ~0.025 dex in v (0.10 dex in M)
+  observed slope bootstrap error: +/- 0.15  -> CDM-halo slope is 5.5 sigma below
+
