@@ -63,7 +63,25 @@ MOND gets both with nothing tuned. This is the known LCDM Tully-Fisher problem; 
 hydrodynamic simulations (e.g. NIHAO, APOSTLE) claim to reproduce it. So the best-fit model passes T2 only if that galaxy-formation
 physics is right; it is not something our model derives. Counted as: PASS CONDITIONAL (borrowed from LCDM galaxy formation), and
 the strongest MOND-type fact our model does not explain on its own.
-Next: R3 the single acceleration scale (T3).
+R3 (T3) One acceleration scale (a0_without_mond.*): fit the RAR curve to each galaxy (165 SPARC galaxies, fixed M/L) for the
+data and for the CDM model at the same radii (noise-free, realistic halo scatter):
+| | median a0 (m/s^2) | spread between galaxies | small / middle / large galaxies |
+|---|---|---|---|
+| observed | 0.98e-10 | 0.33 dex (incl. errors, distances, M/L) | 0.93 / 1.02 / 1.05 e-10 |
+| CDM halos, abundance matched | 1.60e-10 | 0.23 dex (intrinsic only) | 1.71 / 1.27 / 2.01 e-10 |
+Reading: CDM halos DO produce a characteristic acceleration of the right size (an a0 emerges from the halo/baryon scales,
+as Navarro+2017 argued), and its spread is not distinguishable from the data's (the data spread is dominated by errors).
+But it comes out 1.6x too high and not flat with galaxy size (big galaxies 2x: too much dark matter in their inner parts).
+Verdict: PARTIAL PASS: the scale's existence is explained; its exact value and constancy are not (same galaxy-formation
+caveat as R2).
+
+## 5. Summary of the MOND-inferred requirements for the best fit (ocean = CDM + grid dark-energy law)
+- R1 rotation-curve shapes: pass with free halo parameters; zero-parameter predictivity 2.6x worse than MOND.
+- R2 Tully-Fisher: fails as placed by abundance matching (slope 2.65 vs 3.59, scatter too large); conditional on feedback.
+- R3 one acceleration scale: exists at the right order (1.6x high), drifts with size; conditional on feedback.
+The common thread: galaxies are TIGHTER and more regular than halos placed by abundance matching. That is the single
+open issue for the best fit, and it is the same issue standard LCDM has. Everything MOND-free (CMB, BAO, clusters, Bullet,
+lensing vs z, Solar System) is passed.
 
 ## 4. Revisit: the mosaic with 'electron twins', and fluid/gas between the grid layers (layers_and_twins.*)
 Question: did these fail only because of MOND?
