@@ -1,0 +1,26 @@
+{
+ "chi2": 2601.8279,
+ "parts": {
+  "chi2__BAO": 13.532632,
+  "chi2__CMB": 632.73452,
+  "chi2__SN": 1634.6843,
+  "chi2__planck_2018_lowl.TT": 22.421,
+  "chi2__planck_2018_lowl.EE_sroll2": 390.17312,
+  "chi2__act_dr6_cmbonly.PlanckActCut": 220.1404,
+  "chi2__act_dr6_cmbonly": 158.89834,
+  "chi2__candl_like": 161.97812,
+  "chi2__bao.desi_dr2": 13.532632,
+  "chi2__sn.desdovekie": 1634.6843
+ },
+ "params": {
+  "H0": 68.605648,
+  "ns": 0.97099322,
+  "ombh2": 0.022565602,
+  "omch2": 0.11948992,
+  "tau": 0.05789406,
+  "A_act": 1.0012264,
+  "Tcal": 0.99866374,
+  "Ecal": 1.0071537
+ },
+ "minutes": 9.230492838223775
+}

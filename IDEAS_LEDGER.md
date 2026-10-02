@@ -39,7 +39,8 @@ AeST: closed (fails Solar System by 1e3-1e4; early instability). Khronon: passes
 ## Family 3. Dark-energy law rho_DE ~ adot^-1/2
 Passes (beats Lambda, Delta chi2 -7). Consequences: fate (`future/`), z = 0.65 release. Signature (predictions/): phantom
 crossing exactly at acceleration onset (z ~ 0.7), mimics (w0, wa) = (-0.80, -0.49), in DESI DR2's preferred region; ties w0wa by
-AIC, beats it by BIC. 21-cm step <= 0.7 mK (not near-term). Next decisive: binned w(z) crossing (DESI DR3/Euclid), SPT-3G m_e. Hubble tension: not fixed by late physics.
+AIC, beats it by BIC. 21-cm step <= 0.7 mK (not near-term). Next decisive: binned w(z) crossing (DESI DR3/Euclid). Early electron with SPT-3G D1 added (SPA+DESI+DES):
+m_e = 1.0099 +/- 0.0049 (prediction 0.4-1.1% survives, 2 sigma, not decisive). Hubble tension: not fixed by late physics.
 
 ## Family 4. The CMB needs a cold dark component; galaxies must not end up with it; clusters need some
 The core open problem. Root cause found every time: the fluid is cold and clumpy early (CMB, Lyman-alpha), galaxies form early

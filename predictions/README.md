@@ -23,5 +23,18 @@
   it nearly vanishes. Feature shift 60-310 kHz.
 - Reach: LuSEE-Night (lunar far side, launch planned 2026) is a pathfinder aiming at the dark-ages signal itself; a sub-mK
   step needs a future far-side array. Distinct prediction, not near-term.
-3. Early electron 0.4-1.1% heavier (at recombination): SPT-3G full-depth + Planck forecast ~3x tighter H0 in varying-m_e models
-  (arXiv:2510.24669). The nearest decisive test; needs the SPT-3G likelihood (not installed here).
+3. Early electron 0.4-1.1% heavier (at recombination), tested with SPT-3G D1 (spa/, cosmology_fits/run_spa.py)
+- Data: 'SPA' = Planck (low-l + cut high-l) + ACT DR6 + SPT-3G D1 T&E (SPTlite, candl 2.2, official spt_candl_data)
+  + DESI DR2 BAO + DES-Dovekie SN. Electron mass at recombination fixed at 1.000/1.004/1.008/1.012/1.016, everything else
+  re-minimised (2-3 starts per point; minimiser noise ~1-2 in chi2).
+| m_e / today | best chi2 - LCDM | H0 |
+|---|---|---|
+| 1.000 | 0 | 68.2 |
+| 1.004 | -2.0 | 68.6 |
+| 1.008 | -3.8 | 69.3 |
+| 1.012 | -3.8 | 69.8 |
+| 1.016 | -2.2 | 70.4 |
+  Parabola: m_e = 1.0099 +/- 0.0049 (2.0 sigma from today's value), Delta chi2 -3.8. Before SPT (P-ACT): 1.0078 +/- 0.0044.
+- Reading: the prediction (0.4-1.1%) SURVIVES and the centre sits inside it; adding SPT-3G D1 (4% of the sky) moves the
+  centre up slightly but does not tighten it. Not decisive: LCDM is 2 sigma away. Decisive: SPT-3G full depth (~25% of sky)
+  and Simons Observatory. H0 rises to ~69.5: eases but does not solve the Hubble tension (SH0ES 73).
