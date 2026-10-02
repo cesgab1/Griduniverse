@@ -119,3 +119,23 @@ theory, which forms caustics there; the particles here are the standard CDM-styl
 deeper: no mechanism in Khronon turns a dust-assembled, moving halo into the static MOND configuration (the kinetic energy
 has nowhere to go). Any fix needs either dissipation in the fluid or MOND active before halos assemble (which the
 cosmology-passing DBI setting forbids, section 7).
+
+## 9. Can dissipation turn the moving halo into the static MOND halo? (dissipation_results.txt; TAU option in pm3d.py)
+Test: from z = 0.3, in the MOND regime, the fluid's random motions relax toward the local mean flow on a time TAU, as if the
+energy were radiated away (a 'cooling' fluid). External field 0.025 a0. Fluid excess at z = 0 / 1-D MOND target:
+| | 30 kpc* | 100 kpc | 200 kpc | 300 kpc | 500 kpc | 1 Mpc |
+|---|---|---|---|---|---|---|
+| no dissipation | 0.2 | 0.22 | 0.26 | 0.38 | 0.72 | 1.5 |
+| TAU = 1 Gyr | 1.1 | 0.61 | 0.59 | 0.72 | 1.18 | 1.6 |
+| TAU = 0.3 Gyr | 2.5 | 0.98 | 0.95 | 1.06 | 1.3 | 1.6 |
+(*30 kpc is below the grid resolution.) Force balance (net inward / baryon pull; 0 = equilibrium) at 150-800 kpc:
+0.87-0.95 without dissipation, 0.31-0.84 (TAU = 1 Gyr), 0.27-0.66 (TAU = 0.3 Gyr). Moving toward the MOND state, not there yet.
+Reading:
+- With fast dissipation (0.3 Gyr) the fluid at 100-300 kpc settles to the MOND amount (within ~5% of the 1-D external-field target).
+  The kinetic-energy problem of section 8 is the right diagnosis, and removing that energy is a cure in principle.
+- Costs: (1) the cooling time is a picked number; (2) the inner region over-collects (2.5x at 30 kpc, unresolved), as cooling
+  flows do; (3) the dissipation must act only in the MOND regime. Acting during the dust-like era (z >~ 0.7) it would make
+  dissipative dark matter (dark disks, cored or collapsed halos), which is constrained. (4) The energy must go somewhere dark
+  (e.g. into grid vibrations), about M sigma^2 ~ 1e52-1e53 J per galaxy.
+Status: PLAUSIBLE, with a specific requirement. A UV completion of the khronon fluid must dissipate random motions on
+<~ 0.3-1 Gyr in the MOND regime but not in the dust regime. Nothing derives that yet.

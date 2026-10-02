@@ -22,6 +22,7 @@ kv = 1.0227; G = 4.30e-6*kv**2; cl = 2.998e5*kv; a0 = 1.2e-10*3.086e19/1e6*kv**2
 h = 0.68; H0 = 0.1*h*kv; Om, Ob, OL = 0.31, 0.049, 0.69; Oc = Om - Ob
 rhoc = 3*H0**2/(8*np.pi*G); rho_f = Oc*rhoc                                   # comoving mean fluid density
 MU = 1/3.0e5; LAM = 9.2e6
+TAU = float(os.environ.get('TAU', '0'))                                      # optional dissipation time (Gyr), 0 = off
 GEXT = float(os.environ.get('GEXT', '0'))                                   # external field in units of a0 (MOND function only)                                                     # DBI: 1/mu = 300 Mpc, lambda_D
 nu = lambda y: 1/(1 - np.exp(-np.sqrt(np.maximum(y, 1e-14))))
 _ys = np.logspace(-12, 8, 6000); _xs = _ys*nu(_ys); _fs = 1/nu(_ys)
@@ -196,6 +197,12 @@ def run(mode, L=6000.0, Ng=128, Np=64, zi=30.0, Mb=1e11, eps_b=10.0, nsteps=600,
         pos = (pos + u/am**2*(dt1 + dt2)) % L
         acc, y, info = accel(pos, a2, y)
         u += acc*dt2
+        if TAU > 0 and mode == "khronon" and info and not info.get("skipped", False):
+            # optional dissipation test: random (multi-stream) motions relax toward the local mean flow on a time TAU (Gyr),
+            # as if the fluid could radiate the energy away ('cooling'); coherent flow is untouched
+            mom = [B.cic(pos, m*u[:, i]) for i in range(3)]; rho_ = B.cic(pos, m) + 1e-30
+            um = np.stack([B.interp(smooth(B, mom[i])/smooth(B, rho_), pos) for i in range(3)], 1)
+            u = um + (u - um)*np.exp(-(dt1 + dt2)/TAU)
         z = 1/a2 - 1
         for zm in marks:
             if marks[zm] is None and z <= zm + 1e-9:

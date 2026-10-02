@@ -70,6 +70,7 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 | Fate of the universe (`future/`) | grid law: a ~ t⁵, accelerates forever, never shrinks (the tension diverges as expansion slows; holds even if closed); cools toward absolute zero with no floor (Λ: floor 2.2e-30 K). Not testable now; it follows from the fitted law |
 | The fluid IS the MOND halo (original ocean picture) | budgets pass: galaxies can gather enough by z ≈ 0.9; total MOND halo mass of the universe ≈ 0.3–1.5 × the CMB fluid (external field 0.01–0.05 a₀). Needs a conversion + saturation mechanism; clusters still 35% short (`fluid/fluid_is_halo.*`) |
 | Grid geometry, same-fashion test (cubic, mosaic, spider web, fungal; static vs flow-thickening links) | static links give Newton in all; the flow rule gives MOND (1/r, Newton inside, Tully–Fisher slope 1) in mosaic, fungal and cubic; cubic imprints its axes (~20%) and the web is never Newtonian and needs one centre (both excluded); mosaic and fungal tie. Rule put in: sqrt exponent and a₀ (`network/`) |
+| Dissipative khronon fluid (random motions radiated away in the MOND regime) | with a 0.3 Gyr cooling time the 3-D halo settles to the MOND amount at 100–300 kpc (±6%); needs dissipation only in the MOND regime, picked cooling time, inner over-collection (`khronon_dynamics/` §9) |
 | Hubble tension | treated as a calibration issue (working assumption); FRB H₀ undecided |
 
 ### Failed (and kept on record)
