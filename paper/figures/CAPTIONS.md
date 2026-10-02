@@ -7,6 +7,23 @@ breaks, so a reader or auditor can see what the picture claims and what it does 
 
 ---
 
+## Figure 0 (overview / cover). The grid in space-time
+**Caption.** Three layers of the grid, each the whole of space at one moment, stacked in time (upward). Each layer is a
+random mosaic of cells and links. A mass dimples every layer it exists in, so its history (its *worldline*, white) runs
+straight up through the stack. The fluid between the layers (dark matter; blue to violet) pools around the mass. Gold: the
+path through space-time of a body orbiting the mass. Seen one layer at a time it goes round in a circle; seen across
+time it is a helix wound around the mass's worldline. In the bent grid that helix is the straightest possible path (a
+geodesic): no force pushes the body sideways. Pale blue: light rays crossing one layer bend toward the mass. Dotted lines
+show where they would go without it. The bending is computed by ray tracing and exaggerated for visibility.
+
+**Analogy: a spiral staircase.** Someone walking up a spiral staircase never steps sideways off the stairs; the staircase
+itself turns. An orbit is the same: the planet walks 'straight up' through time, and the bent grid makes 'straight' wind
+around the Sun. Gravity is not a rope from the Sun to the planet; it is the shape of the staircase.
+
+**Where it stops working.** The dimple, the orbit and the light bending are drawn hugely exaggerated, and only three
+layers are shown where real moments are continuous. In the drawing the dimple goes 'downward'; in the model it means the
+grid ticks slower there (Figure 3), not a dip into an extra dimension. Clean version: `fig0_hero.png`.
+
 ## Figure 1. Anatomy of the grid
 **Caption.** Space is modelled as a stack of layers. Each layer is the whole of space at one moment: a random mosaic of
 cells joined by links that carry tension. Moments follow one another layer by layer. A fluid (the 'ocean') fills the
