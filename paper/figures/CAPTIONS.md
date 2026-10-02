@@ -8,10 +8,10 @@ breaks, so a reader or auditor can see what the picture claims and what it does 
 ---
 
 ## Figure 0 (overview / cover). One moment of space in 3-D, drawn in toward a mass from every side
-**Caption.** The grid at one moment, shown in full 3-D as three planes of random mosaic. The planes are only a way to draw
+**Caption.** The grid at one moment, shown in full 3-D as seven planes of random mosaic. The planes are only a way to draw
 3-D space, like the floors of a building; they are not time. A mass draws the grid in toward itself from every direction.
-The plane through its centre is pinched inward sideways, the plane above sags down toward it, and the plane below bulges
-up toward it. The draw-in weakens with distance, with the softened inverse-square shape computed for the random net in
+The plane through its centre is pinched inward sideways, the planes above sag down toward it, and the planes below bulge
+up toward it, less and less with distance. The draw-in weakens with distance, with the softened inverse-square shape computed for the random net in
 Figure 2. The fluid (dark matter, violet haze) pools around the mass in a round cloud. Gold: a circular orbit, the
 straightest path available in the drawn-in grid. Pale blue: light passing above and below the mass bends toward it.
 Dotted lines show where it would go without the mass. Bending is computed by 3-D ray tracing and exaggerated.
@@ -184,3 +184,26 @@ overall tension: the dark energy of Figure 4.
 
 **Where it stops working.** A 2σ preference is a hint, not a detection. The decisive tests are the full SPT-3G survey
 and the Simons Observatory, which should measure this at about the 0.2% level.
+
+## Figure 10. The grid's building block: one cell, its links, and how big it may be
+**Caption.** (a) A real cell from a random 3-D mosaic (computed). It is a many-sided polyhedron: this one has 17 faces, and
+the average over all cells is 15.5 (a cube has 6). Each face is a wall shared with one neighbour. Through each face runs
+one link (gold) from this cell's node (white) to the neighbour's node. Tension is carried along the links, and each link's
+strength is set by the area of the face it crosses; this is the same rule used in our network calculations. (b) Cells are
+not all the same size. Over 4,096 computed cells the volume spreads by ±43% around the average, and 98% lie between 0.26
+and 2.2 times the average. Only the average size matters for physics, and this randomness is what keeps every direction
+equal (a grid of identical cubes imprints its axes, about 20%). (c) The size window for a cell. MAX: below 5.7e-28 m.
+This is measured: light from distant gamma-ray bursts (LHAASO, GRB 221009A) shows no sign of a grid, while a coarser grid
+would make different colours arrive at different times. MIN: the Planck length, 1.6e-35 m. This is not measured; it is
+where the model's density cap sits (the cap that turns a collapse into a bounce, ~0.4 of the Planck density), and below
+it distances lose their meaning in any quantum theory of gravity. The window spans 7.5 powers of ten.
+
+**Analogy: a sponge seen up close.** From across a room a sponge looks smooth; up close it is a tangle of cells of every
+size and shape, joined wall to wall. No two cells are alike, yet a block of sponge squeezes the same way in every
+direction because the cells are random. Space in the model is the same. Even the finest probe we have, the LHC, sees down
+to only about 1e-19 m, and the cells are at least 100 million times smaller than that, so space looks perfectly smooth to
+every experiment.
+
+**Where it stops working.** A sponge's cells are made of material in empty space; the grid's cells *are* space, with
+nothing around or between them. The minimum size is a property of the model, not a measurement. The maximum is a firm
+observational limit.

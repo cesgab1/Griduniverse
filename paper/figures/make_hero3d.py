@@ -17,7 +17,7 @@ from scipy.spatial import Voronoi
 from scipy.integrate import solve_ivp
 HERE = os.path.dirname(os.path.abspath(__file__)); rng = np.random.default_rng(5)
 GRID, GOLD, LIGHT, FLU = "#58aaff", "#ffc94d", "#c4f1ff", "#9b6bff"
-PLANES = [-0.55, 0.0, 0.55]; C, EPS = 0.05, 0.33
+PLANES = [-0.84, -0.56, -0.28, 0.0, 0.28, 0.56, 0.84]; C, EPS = 0.05, 0.33
 AZ, EL = np.radians(30), np.radians(13)
 
 def pull(p):
@@ -56,7 +56,7 @@ def ray(p0, v0, k=0.045, T=2.6):
 
 def render(labels):
     fig = plt.figure(figsize=(12, 9), facecolor="black"); ax = fig.add_axes([0, 0, 1, 1]); ax.set_facecolor("black")
-    ax.set_xlim(-1.62, 1.62); ax.set_ylim(-0.95, 0.95); ax.axis("off")
+    ax.set_xlim(-1.62, 1.62); ax.set_ylim(-1.12, 1.12); ax.axis("off")
     # fluid: a round cloud pooled around the mass (dark matter halo), drawn faint
     n = 5000; u = rng.uniform(0, 1, n); r = 0.2*(u/(1 - u + 0.02))**0.8; r = r[(r < 1.1) & (r > 0.05)]
     v = rng.normal(size=(len(r), 3)); v /= np.linalg.norm(v, axis=1, keepdims=True); F = v*r[:, None]
@@ -64,8 +64,8 @@ def render(labels):
     ax.scatter(*F2.T, s=24, color=FLU, alpha=0.03, lw=0, zorder=1); ax.scatter(*F2.T, s=2.5, color=FLU, alpha=0.35, lw=0, zorder=1)
     # planes of the grid, back-to-front
     for z0 in PLANES:
-        segs = plane_segments(z0); w = 1.0 if z0 == 0 else 0.75
-        glow_lines(ax, segs, GRID, width=0.75*w, zo=3, alpha=1.0 if z0 == 0 else 0.8)
+        segs = plane_segments(z0); w = 1.0 if z0 == 0 else 0.7
+        glow_lines(ax, segs, GRID, width=0.75*w, zo=3, alpha=1.0 if z0 == 0 else 0.8 - 0.35*abs(z0))
         nodes = proj(pull(np.c_[np.array([a for a, b in E]), np.full(len(E), z0)]))[0]
         ax.scatter(*nodes.T, s=3.5, color="#d5e8ff", alpha=0.5, lw=0, zorder=4)
         fr = np.array([[-1, -1, z0], [1, -1, z0], [1, 1, z0], [-1, 1, z0], [-1, -1, z0]]); f2, _ = proj(fr)
@@ -83,7 +83,7 @@ def render(labels):
     b2, _ = proj(np.array([[R*np.cos(-0.6), R*np.sin(-0.6), 0]]))
     for s, a in ((420, .07), (140, .3), (40, 1)): ax.scatter(*b2.T, s=s, color=GOLD if s > 40 else "#fff3c4", alpha=a, lw=0, zorder=13)
     # geodesic 2: light rays above and below the mass (and one in the plane), bending toward it
-    for (y0, z0) in ((0.0, 0.27), (0.0, -0.27)):
+    for (y0, z0) in ((0.0, 0.42), (0.0, -0.42)):
         X = ray(np.array([-1.0, y0, z0]), np.array([1.0, 0, 0]), k=0.022); st = np.c_[np.linspace(-1, 1, 60), np.full(60, y0), np.full(60, z0)]
         s2, _ = proj(st); ax.plot(*s2.T, ":", color=LIGHT, lw=1.0, alpha=0.5, zorder=9)
         X2, _ = proj(X)
@@ -96,11 +96,11 @@ def render(labels):
     if labels:
         def lab(xy, txt, col="#dfe9ff", ha="left"):
             ax.text(*xy, txt, color=col, fontsize=11.5, ha=ha, va="center", zorder=20, bbox=dict(fc="black", ec="none", alpha=0.75, pad=3))
-        lab((-1.58, 0.86), "one moment of space, in 3-D\n(planes = floors of a building, not time)")
-        lab((0.98, 0.62), "plane above the mass\nsags DOWN toward it")
+        lab((-1.58, 1.04), "one moment of space, in 3-D\n(planes = floors of a building, not time)")
+        lab((0.98, 0.8), "planes above the mass\nsag DOWN toward it")
         lab((0.98, 0.02), "plane through the mass:\npinched INWARD sideways")
-        lab((0.98, -0.58), "plane below the mass\nbulges UP toward it")
-        lab((-1.58, -0.8), "gold: a circular orbit (straightest path\nin the drawn-in grid)\npale blue: light bending toward the mass;\ndotted = straight lines", GOLD)
+        lab((0.98, -0.8), "planes below the mass\nbulge UP toward it")
+        lab((-1.58, -0.98), "gold: a circular orbit (straightest path\nin the drawn-in grid)\npale blue: light bending toward the mass;\ndotted = straight lines", GOLD)
         lab((-1.58, 0.5), "violet haze: the fluid\n(dark matter) pooled around\nthe mass", "#c8b5ff")
     return fig
 for lab, name in ((False, "fig0_grid3d"), (True, "fig0_grid3d_labelled")):
