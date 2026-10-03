@@ -274,3 +274,7 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
 - It. 8: proper large-angle CMB (late ISW, l = 2-30) bound on the layer stack: N_eff >= 1.7e9 - 4.8e9 (2 sigma; two
   super-horizon treatments). Window 2e9-5e9 <~ N <~ 1.2e15 OPEN. Lump signature concentrated at l = 2-3 (steep fall);
   the real quadrupole is low, so no hint. Not yet included: matter response, lensing / galaxy clustering (may tighten).
+- It. 9 + CORRECTION: iteration 8 had a time-weighting bug (sqrt(dt) for dt) overstating the bound ~100x; found by
+  independent code, machinery validated on LCDM late ISW (D_2 = 74 muK^2). Corrected CMB bound N_eff >= 1.1e7 - 3.2e7
+  (incl. matter response, +10%). Window ~1e7 <~ N <~ 1.2e15. Galaxy clustering: induced power <= 7e-3 of LCDM at the
+  largest scales: no tightening.

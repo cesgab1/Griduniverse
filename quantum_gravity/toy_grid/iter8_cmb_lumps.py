@@ -11,6 +11,8 @@ CMB imprint: late ISW, Theta = 2 ∫ dt dPhi/dt along the line of sight = -2 ∫
   C_l = (2/pi) ∫ k^2 dk  4 ∫∫ dt dt' J(t) J(t') A(t) A(t') P(k; t, t') e^{-lambda |t - t'|}
 Real sky: Planck-like LCDM spectrum from CAMB; cosmic variance sigma_l = C_l sqrt(2/(2l+1)) for l = 2..30.
 Bound: added power must not exceed chi^2 = 4 (about 2 sigma) summed over l = 2..30.
+BUG NOTE: the first version weighted the time integral with sqrt(dt) instead of dt and overstated the bound ~100x;
+ see iter8_cmb_lumps_BUGGY.txt. Corrected below; machinery validated on the LCDM late ISW (iter9_isw_check.py).
 """
 import numpy as np, camb
 from scipy.integrate import quad, cumulative_trapezoid
@@ -31,7 +33,8 @@ def Cl_extra(ell, Neff=1.0):
     ks = np.geomspace(0.05, 60, 220); tot = np.zeros_like(ks)
     for i, k in enumerate(ks):
         jl = spherical_jn(ell, k*chi); J = np.gradient(jl, t)          # d j_l(k chi(t))/dt
-        g = J*A_a/k**2*np.sqrt(dt)
+        w = J*dt; w[0] += spherical_jn(ell, k*chi[0])          # FIX (Oct 2026): weights dt (was sqrt(dt): bug) + early boundary term
+        g = w*A_a/k**2
         Lm = np.sqrt(np.outer(Lc, Lc)); lm = 0.5*(lam[:, None] + lam[None, :])
         P = 4*np.pi*Lm**3*(2/Neff)*F(np.clip(k*Lm, 1e-3, 1e3))
         Kt = np.exp(-lm*np.abs(t[:, None] - t[None, :]))

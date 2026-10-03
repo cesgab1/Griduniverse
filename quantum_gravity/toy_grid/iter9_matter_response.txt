@@ -1,0 +1,28 @@
+ITERATION 9: matter falls into the dark-energy lumps
+
+CMB (late ISW) one-layer chi2 = 3.30e+15   without matter response  ->  N_eff >= 2.9e+07
+CMB (late ISW) one-layer chi2 = 4.02e+15   WITH matter response  ->  N_eff >= 3.2e+07
+
+Induced matter power today at the CMB bound, vs LCDM linear P(k):
+  N_eff = 3e+07:
+     k =  0.001 h/Mpc:  extra/LCDM = 7.1e-03
+     k =  0.002 h/Mpc:  extra/LCDM = 1.1e-03
+     k =  0.003 h/Mpc:  extra/LCDM = 1.3e-04
+     k =  0.006 h/Mpc:  extra/LCDM = 1.1e-05
+     k =  0.010 h/Mpc:  extra/LCDM = 9.2e-07
+     k =  0.018 h/Mpc:  extra/LCDM = 8.6e-08
+     k =  0.032 h/Mpc:  extra/LCDM = 1.1e-08
+     k =  0.056 h/Mpc:  extra/LCDM = 1.9e-09
+     k =  0.100 h/Mpc:  extra/LCDM = 3.9e-10
+  N_eff = 1e+08:
+     k =  0.001 h/Mpc:  extra/LCDM = 2.1e-03
+     k =  0.002 h/Mpc:  extra/LCDM = 3.4e-04
+     k =  0.003 h/Mpc:  extra/LCDM = 3.8e-05
+     k =  0.006 h/Mpc:  extra/LCDM = 3.3e-06
+     k =  0.010 h/Mpc:  extra/LCDM = 2.7e-07
+     k =  0.018 h/Mpc:  extra/LCDM = 2.6e-08
+     k =  0.032 h/Mpc:  extra/LCDM = 3.4e-09
+     k =  0.056 h/Mpc:  extra/LCDM = 5.7e-10
+     k =  0.100 h/Mpc:  extra/LCDM = 1.2e-10
+Reading: if extra/LCDM << 1 on the largest surveyed scales (k ~ 0.002-0.02 h/Mpc, where survey errors are ~10-50%),
+galaxy clustering does not tighten the bound; the CMB large-angle sky stays the strongest test.

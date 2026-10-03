@@ -1,17 +1,17 @@
 VARIANT (super-horizon suppressed) ITERATION 8: large-angle CMB imprint of the leftover dark-energy lumps (late ISW)
 
  l    D_l real sky [muK^2]   D_l lumps for ONE layer [muK^2]
-  2        1021.7             1.286e+10
-  3         967.3             4.665e+09
-  4         915.7             2.010e+09
-  5         877.2             9.883e+08
-  6         851.0             5.365e+08
-  7         834.2             3.141e+08
-  8         824.2             1.950e+08
-  9         819.7             1.268e+08
+  2        1021.7             1.878e+12
+  3         967.3             7.911e+11
+  4         915.7             3.842e+11
+  5         877.2             2.082e+11
+  6         851.0             1.225e+11
+  7         834.2             7.678e+10
+  8         824.2             5.053e+10
+  9         819.7             3.458e+10
 
-one layer: added power exceeds cosmic variance by chi^2 = 5.11e+14 (l = 2-30)
--> independent layers needed: N_eff >= 1.1e+07   (2 sigma; added power ∝ 1/N_eff, chi^2 ∝ 1/N_eff^2)
+one layer: added power exceeds cosmic variance by chi^2 = 1.22e+19 (l = 2-30)
+-> independent layers needed: N_eff >= 1.7e+09   (2 sigma; added power ∝ 1/N_eff, chi^2 ∝ 1/N_eff^2)
    compare the rough estimate of iteration 6: 2.6e10.  With neighbour leakage r per gap, N = N_eff (1 + 2 r^2/(1 - r^2)).
    window from the species bound + gamma-ray-burst timing: N <~ 1.2e15  -> OPEN
 

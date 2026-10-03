@@ -244,6 +244,9 @@ All of these sit inside the species window (≤ ~10¹⁵), even with heavy leaka
 
 ## Iteration 8: leftover lumps vs the real large-angle CMB (iter8_cmb_lumps.py/.txt, _variant.txt)
 
+**[CORRECTED in iteration 9:** the time integral was weighted with √dt instead of dt, which overstated the bound about
+100×. Corrected numbers: N_eff ≥ 1.1×10⁷ – 2.9×10⁷. The numbers below are the buggy first version (iter8_*_BUGGY.txt).**]**
+
 **Method.**
 - Lumps are Gaussian (many layers), with spatial correlation ((1 − e^(−x))/x)² on the scale c/(3aH) and decorrelation
   rate 6H.
@@ -267,3 +270,28 @@ All of these sit inside the species window (≤ ~10¹⁵), even with heavy leaka
 - matter falling into the lumps;
 - CMB lensing and large-scale galaxy clustering from the lumps (could tighten the bound);
 - a proper relativistic treatment beyond the horizon (bracketed by the two variants).
+
+## Iteration 9: matter falls into the lumps; a bug found and fixed (iter9_matter_response.py, iter9_isw_check.py)
+
+**Bug.** Iteration 8's time integral used √dt weights instead of dt, overstating the bound about 100×.
+- Found because iteration 9's independent linear-algebra code disagreed with it.
+- The method is validated on ordinary ΛCDM: it gives a late-ISW D₂ = 74 μK², the right order for the known
+  ~10% contribution.
+- The validation also caught a dropped early boundary term, which matters for matter (whose potential is nonzero early)
+  but is small for the lumps. It is now included everywhere.
+
+**Corrected results.**
+- One layer adds D₂ ≈ 3.5×10¹⁰ μK², against 1022 observed. The power falls steeply with ℓ.
+- CMB bound (2σ, ℓ = 2–30): **N_eff ≥ 2.9×10⁷** (plain Poisson), **1.1×10⁷** (super-horizon suppressed), and
+  **3.2×10⁷** including matter falling into the lumps (+10% in χ²).
+- Iteration 6's rough 2.6×10¹⁰ was far too strict. The lumps decorrelate in about 1/(6H), so their ISW imprint largely
+  cancels along each line of sight.
+- **Window now about 10⁷ ≲ N ≲ 1.2×10¹⁵: open and wider.**
+
+**Galaxy clustering does not tighten it.** At N_eff = 3×10⁷ the induced matter power today is 7×10⁻³ of ΛCDM at
+k = 0.001 h/Mpc, 10⁻³ at 0.002, and < 10⁻⁵ above 0.006. That is far below survey errors (10–50% at those scales).
+The large-angle CMB stays the strongest test.
+
+**Lessons.**
+- Cross-checking with independent code caught a 100× error. Keep doing it.
+- The stack needs at least ~10 million layers (not billions). With gaps that leak, multiply by (1 + 2r²/(1 − r²)).
