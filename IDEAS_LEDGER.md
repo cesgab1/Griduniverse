@@ -249,3 +249,21 @@ Ideas:
   not synchronising (locked layers bring lumps back). Each layer needs its own relic jostlers (allowed if T_s <~ 4 mK
   at N = 1e10). Escape (c) short-wave jostling CLOSED: the 1/adot law needs horizon-scale noise. Open: what are the
   ~3e10 layers?
+
+## What are the ~3e10 independent layers? (Coalesce, Oct 2026), brainstorm
+Requirements (iteration 6): N >~ 3e10 nearly independent copies of the tension field (jostle correlation < 6e-6), each
+with its own cold relic jostlers; gravity and matter see their SUM.
+Candidates:
+ 1. SPECIES (favoured): N internal copies of the tension field per cell ('layers' = species, not places). Dvali's species
+    bound says gravity's true cutoff is M_P/sqrt(N), so the effective cell size is sqrt(N) l_P. With the GRB cell bound
+    (5.7e-28 m) this gives N <~ 1.2e15. Window: 3e10 <~ N <~ 1e15, i.e. cell 2.6e-30 to 5.7e-28 m, gravity cutoff
+    7.6e13 to 3.5e11 GeV. Bonus (BORROWED, Dvali): many species is one explanation of why gravity is weak. Prior art:
+    Dvali species bound; N-naturalness (Arkani-Hamed et al. 2016: N copies, each colder, Delta N_eff signature).
+ 2. HIDDEN-DIRECTION STACK: N nearly decoupled sheets along a 4th spatial direction (deconstruction / many-brane). Needs
+    inter-sheet coupling tiny (fits c < 6e-6) so their modes stay nearly massless; KK modes of a smooth extra
+    dimension do NOT work (massive). Equivalent to 1 seen from inside.
+ 3. NOT: time layers (already the memory), spatial patches (correlated over horizon/3), the 74 hierarchy layers (too few
+    unless each holds ~4e8 species).
+Tests: lower edge from large-angle CMB (residual dark-energy lumps ∝ 1/sqrt(N): a predicted ISW-like contribution just
+below current level if N is near 3e10); upper edge from Lorentz-violation timing (LHAASO/CTA: the cell bound tightening
+toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
