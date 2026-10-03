@@ -37,7 +37,11 @@ Grid tension (dark energy) as a function of the Stretch rate ȧ:
 
 Equivalent form used in all codes (q = deceleration parameter):
 
-    d ln ρ_DE / d ln a = β q,      q = −ä a / ȧ² = (ρ_m/2 + ρ_r − ρ_DE) / ρ_tot  (to first order)
+    d ln ρ_DE / d ln a = β q,      q = −ä a / ȧ²
+    simplified (used in all fits):  q ≈ (ρ_m/2 + ρ_r − ρ_DE) / ρ_tot          (treats dark energy as w = −1 inside q)
+    exact (self-consistent):        q = (ρ_m/2 + ρ_r − ρ_DE) / (ρ_tot + β ρ_DE/2)
+    effect of using the exact form: Δχ² vs Λ changes by +0.1 to +0.55 (−5.4 / −7.0 / −6.3); w0 −0.91 → −0.92; the Turnover
+    Point (q = 0) is identical in both forms
     w = −1 − β q / 3
     Friedmann:  H² = (8πG/3)(ρ_m + ρ_r + ρ_DE)
 

@@ -65,6 +65,7 @@ def E_of_z(model, Om, h, extra):
     # LAW: integrate d ln rho / d ln a = q backwards; dark energy is negligible above z ~ 20
     def rhs(lna, y):
         a = np.exp(lna); rde = np.exp(y[0]); rm, rr = Om * a**-3, Or * a**-4
+        if os.environ.get('EXACTQ'): return [BETA * (rm / 2 + rr - rde) / (rm + rr + rde + BETA * rde / 2)]   # self-consistent q (w of DE included)
         return [BETA * (rm / 2 + rr - rde) / (rm + rr + rde)]
     zi = ZG[ZG <= 30]
     sol = solve_ivp(rhs, [0, -np.log(31)], [np.log(OL)], t_eval=-np.log(1 + zi), rtol=1e-8, atol=1e-10)

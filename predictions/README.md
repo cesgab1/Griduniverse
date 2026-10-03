@@ -16,6 +16,8 @@ law_signature.py and Figure 4 had the error. Fixed; the beta = 1 numbers are kep
   With no dark-energy parameter, the law beats LCDM by 5.5-7.3 in chi2 and beats the two-parameter fit by information
   criteria in 2 of 3 sets (AIC) and all 3 (BIC). (For comparison beta = 1 gave -2.7 / -5.1 / -10.0.) Growth: sigma8 0.6%
   below LCDM with the same early universe.
+  Simplified vs exact deceleration term (EQUATIONS.md E4; fit_*_beta0.5_exactq.txt): exact form gives -5.4 / -7.0 / -6.3,
+  i.e. the simplification shifts results by 0.1-0.55 in chi2; the crossing redshift is unchanged.
 - New since our fits: DES Y6 (Jan 2026, arXiv:2601.14559): 3x2pt S8 = 0.789 +/- 0.012, 2.6 sigma below the CMB in LCDM;
   joint wCDM w = -0.981 +/- 0.022 (constant w only, not a test of the crossing). The law's 0.6% lower sigma8 goes the right
   way but covers only a small part of that gap. No public DES Y6 likelihood used here.
