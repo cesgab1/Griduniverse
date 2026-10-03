@@ -27,6 +27,7 @@ no separate test), **OPEN** (not yet settled between the authors).
 | **Tick rate** | How fast the grid's clock runs at a place; slower near mass. Paths bend toward slower ticking: that is falling | gravitational time dilation (GR); measured (Pound-Rebka, GPS) | BORROWED (Khronon reproduces GR, Solar System tests) |
 | **Grid tension** (or **cosmic tension**) | The overall stretch of the whole grid; it pushes space apart | dark energy | the IDENTIFICATION is ours; its behaviour is Claim 1 |
 | **Stretch rate** | How fast the grid is being stretched at a given time | the expansion rate ȧ (related to the Hubble rate) | standard |
+| **Grid speed limit** | The fastest anything can move: one cell per tick of the grid's clock. Light is a pure ripple of the grid and travels at it; matter is a pattern that must keep its own ticking, so it can only approach it | c = ℓ_P/t_P exactly; also c² = (link tension c⁴/G)/(mass per length c²/G), like a wave on a string | PICTURE (explains why c is universal, not its value in m/s; light shows no grid effect down to 5.7e-28 m) |
 | **Density cap** | The most the grid can be compressed: about 0.4 of the Planck density | loop-quantum-cosmology bounce density | BORROWED, consistent, not testable now |
 | **Bounce** | A collapse that hits the density cap and rebounds instead of forming a singularity | LQC bounce | PICTURE; a bounce alone FAILS (needs inflation, ~30σ) |
 | **Planck star** | The dense core inside a black hole, held at the density cap | Rovelli-Vidotto Planck star | consistent; no observable effect for >1e26 yr |
