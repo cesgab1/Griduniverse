@@ -1,0 +1,15 @@
+ITERATION 11: jostling through gravity (no free coupling)
+
+Delta N_eff 0.107, N = 1.0e+07 layers: Phi_H per layer ~ 1.3e-53;  predicted rho_DE / observed ~ 2e-99
+Delta N_eff 0.107, N = 1.2e+15 layers: Phi_H per layer ~ 1.1e-58;  predicted rho_DE / observed ~ 2e-101
+Delta N_eff 0.010, N = 1.0e+07 layers: Phi_H per layer ~ 2.9e-54;  predicted rho_DE / observed ~ 1e-100
+Delta N_eff 0.010, N = 1.2e+15 layers: Phi_H per layer ~ 2.6e-59;  predicted rho_DE / observed ~ 1e-102
+
+-> Gravity is so weak, and the glow so faint, that gravity-mediated jostling makes a dark energy ~1e99-1e102 times too
+   small even with the most generous response. Smaller scales are worse (Phi_L ∝ sqrt(L)).
+   Gravitational WAVES instead: the relic-wave background is capped (Omega_GW <~ 1e-6, nucleosynthesis), and jostling
+   by gravity's own strength still brings a factor (Phi)^2 of order 1e-100.
+Lesson: the gravity route is PREDICTIVE (no free knob) and its prediction is far too small. The size of dark energy
+cannot come from jostling by the grid's own faint vibrations through any channel tried (direct, electrons, gravity).
+The jostling picture explains SHAPE, memory and smoothness; the SIZE must come from elsewhere - e.g. a grid tension that
+is already large and only MODULATED by the jostling (the jostling sets how it changes, not how big it is).

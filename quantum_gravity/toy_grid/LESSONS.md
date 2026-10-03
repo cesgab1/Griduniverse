@@ -324,3 +324,29 @@ With that g the system is unstable within milliseconds.
 - **Open escapes (each a new assumption):**
   - a nonlinear link between the wobbles and the tension energy that is not a mass mixing;
   - the noise reaching the tension through gravity or the time stamp rather than through a direct coupling.
+
+## Iteration 11 (Coalesce: the jostling reaches the tension through gravity, like a stretched rubber sheet pulled down, up and sideways) (iter11_gravity_route.py/.txt)
+
+**Why this route is attractive.** Gravity's strength is known, so there is NO free knob and the height becomes a
+prediction.
+
+**Estimate.**
+- Thermal fluctuations of the layers' faint glow make potential ripples Φ, which dominate on the largest scales.
+- The tension feels Φ through the tick rate (time stamp). Jostling through expansion-rate ripples gives no random walk,
+  because they are a time derivative.
+- Most generous response: ρ_DE ~ ρ_crit ⟨Φ²⟩ N.
+
+**Result.** Φ per layer is about 10⁻⁵³ – 10⁻⁵⁹, so the predicted dark energy is 10⁻⁹⁹ – 10⁻¹⁰² of the observed value.
+Gravitational waves are capped (Ω_GW ≲ 10⁻⁶) and also fail.
+
+**Lessons.**
+- The gravity route is clean and predictive, and its prediction is about 100 orders of magnitude too small.
+- Across every channel tried (direct link, electrons, gravity), jostling by the grid's own faint vibrations cannot supply
+  the SIZE of dark energy.
+- **What the jostling DOES supply:** the shape (the 1/ȧ law), the memory (⅓ Hubble time, crossing at z ≈ 0.46) and the
+  smoothness (stacked layers).
+- **Resulting structure:**
+  - a large baseline grid tension whose size is set elsewhere (as unexplained as Λ in standard cosmology);
+  - MODULATED by the jostling, which sets how it changes, not how big it is.
+
+  That is the same logical status as Claim 1, which already has a free normalisation.

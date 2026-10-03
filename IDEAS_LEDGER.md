@@ -339,3 +339,7 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
   s = 1 (no leak) is fully consistent.
 - Where leaked heat would go: the gaps (the Ocean). The glow's energy is tiny (Delta N_eff < 0.1, ~1e-5 of matter), so
   warming of dark matter is negligible: no conflict with cold dark matter.
+- It. 11 (Coalesce: jostling via gravity, rubber sheet pulled in all directions): no free coupling (G known), so
+  predictive: Phi per layer 1e-53 to 1e-59 -> predicted dark energy 1e-99 to 1e-102 of observed. Gravity route closed
+  for the SIZE. Conclusion after it. 10-11: jostling explains shape/memory/smoothness, not size. Structure: large
+  baseline tension (size unexplained, like Lambda) MODULATED by jostling.
