@@ -343,3 +343,22 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
   predictive: Phi per layer 1e-53 to 1e-59 -> predicted dark energy 1e-99 to 1e-102 of observed. Gravity route closed
   for the SIZE. Conclusion after it. 10-11: jostling explains shape/memory/smoothness, not size. Structure: large
   baseline tension (size unexplained, like Lambda) MODULATED by jostling.
+
+## Coalesce (Oct 2026): ponder the bounce ('our universe the result of a bounce back') in light of toy iterations 1-11
+Known from before: the density cap gives a bounce (LQC, borrowed); a bounce ALONE fails (~30 sigma, needs inflation);
+bounce + inflation is allowed.
+1. The bounce as the 'tuning' of the baseline tension (the SIZE problem). Vacuum-like tension is NOT diluted by inflation
+   (relics are), so a baseline set at or before the bounce survives to today. Prior art addressing size this way:
+   Steinhardt & Turok 2006 (Science 312, 1180): in a cyclic universe the cosmological constant relaxes a little each
+   cycle, so most cycles have a tiny positive value; also 'relaxing the cosmological constant' (JHEP12(2016)022).
+   Tension with our law: with Claim 1 the far future is a ∝ t^5 (no recollapse), so OUR expansion never turns around;
+   the bounce would be a one-time past event (or our cycle the last), not an endless cycle. A ratchet over cycles would
+   need the law to change in late times. OPEN.
+2. The law at the bounce: rho ∝ |adot|^-1/2 spikes where adot = 0. The bounce is a natural RESET moment for the tension
+   (the counting breaks down there anyway) - a place where the baseline could be set.
+3. The layers' vibrations (Coalesce #1, 'started at the Big Bang'): in a bounce picture, the hot start IS the bounce
+   (compression heats); the glow is then rebuilt at reheating after inflation (iteration 4).
+4. A testable overlap: LQC bounce + inflation predicts SUPPRESSED power at the largest angles (Ashtekar, Agullo et al.;
+   linked to the low CMB quadrupole and power asymmetry). Our layer lumps ADD power at l = 2-3. Both act on the same
+   multipoles: a combined fit could constrain bounce and layer count together. Caution: two effects tuned to cancel
+   would be a fudge; only a joint, parameter-counted fit is meaningful.
