@@ -278,3 +278,20 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
   independent code, machinery validated on LCDM late ISW (D_2 = 74 muK^2). Corrected CMB bound N_eff >= 1.1e7 - 3.2e7
   (incl. matter response, +10%). Window ~1e7 <~ N <~ 1.2e15. Galaxy clustering: induced power <= 7e-3 of LCDM at the
   largest scales: no tightening.
+
+## Coalesce's answers (Oct 2026): (1) each layer vibrates on its own, vibration set at the Big Bang; (2) a layer is pinned
+## (pulled from many directions) but free in some
+(1) Self-vibrating layers, started hot: matches iteration 4's requirement (made at the hot start after inflation, then
+    self-thermalised). One ingredient instead of two: the tension (stretch) of a layer is jostled by the same layer's own
+    vibrations. Scaling check (Langevin + fluctuation-dissipation): if the layer's own vibrations damp the tension at a
+    rate Gamma ∝ T^n, the tension variance ∝ Gamma T/H ∝ T^(1+n)/H -> link-stretch exponent s = 1 + n.
+    Data (stretch_scan): s = 1 fits; s = 2 (n = 1: a scale-free self-interaction, Gamma ∝ T) costs +57/+53/+27 vs Lambda,
+    EXCLUDED; s = 0 (n = -1) +37/+30/+23, EXCLUDED. So the coupling between a layer's stretch and its own vibrations must
+    be 'Ohmic' (damping independent of temperature), like the linear coupling of iteration 2, and weak (Gamma << H;
+    otherwise the tension simply reaches equipartition and loses the 1/H). A Kirchhoff-type coupling (tension ∝ wobble
+    gradient squared, as in a drum skin) gives s = 5: EXCLUDED.
+(2) Pinned but free in some directions = massless wobbles along the free directions (protected by that freedom), massive
+    along pinned ones. Insight: the stretch must couple LINEARLY to a free-direction wobble, which slightly breaks the
+    freedom and gives the wobble a small mass. That breaking is controlled by the same tiny coupling that sets the
+    (small) height of dark energy: as the coupling -> 0 the freedom is restored ('technically natural'). Next calculation:
+    is the coupling required for the observed height small enough to keep the wobble lighter than ~1e-32 eV?
