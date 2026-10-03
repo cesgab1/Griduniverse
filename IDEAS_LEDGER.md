@@ -113,6 +113,11 @@ of energy, and of the wrong sign). Grid-specific twist: with global time stamps 
 travel would not create time-travel paradoxes, since stamps still only increase. Density cap limits how far cells can be
 crunched. Not testable; no claim.
 
+## Light slower when the grid was less stretched (Coalesce, Oct 2026): TESTED, mild support
+Grid speed limit c = cell/tick; early grid -> slower c -> larger alpha. SPA+DESI+DES: alpha_rec/alpha_0 = 1.0031 +/- 0.0013
+(dchi2 -5.2). Overlaps the early-electron signal (both set atomic energies). Must have frozen by z ~ 4 (quasars, clocks).
+`predictions/README.md` item 4.
+
 ## Chladni picture (Coalesce, Oct 2026): sand on a vibrating plate collects at the still lines (nodes)
 Physics of the real effect: grains are kicked where the plate moves and come to rest where it doesn't, because every bounce
 loses energy (inelastic). Without that energy loss there is no pattern. So it needs the same missing ingredient as the

@@ -44,3 +44,16 @@ law_signature.py and Figure 4 had the error. Fixed; the beta = 1 numbers are kep
 - Reading: the prediction (0.4-1.1%) SURVIVES and the centre sits inside it; adding SPT-3G D1 (4% of the sky) moves the
   centre up slightly but does not tighten it. Not decisive: LCDM is 2 sigma away. Decisive: SPT-3G full depth (~25% of sky)
   and Simons Observatory. H0 rises to ~69.5: eases but does not solve the Hubble tension (SH0ES 73).
+
+4. Slower light in the less-stretched early grid (Coalesce, 3 Oct 2026) -> the fine-structure constant alpha = e^2/(4 pi eps0 hbar c)
+   would be LARGER early (alpha ~ 1/c if only c changes). Same data as item 3 (Planck + ACT DR6 + SPT-3G D1 + DESI DR2 +
+   DES-Dovekie), alpha at recombination fixed at 0.992-1.008, everything else re-minimised (spa/spa_al*.json):
+| alpha_rec / alpha_0 | 0.992 | 0.996 | 1.000 | 1.004 | 1.008 |
+|---|---|---|---|---|---|
+| dchi2 | +65.4 | +25.3 | 0 | -5.4 | +8.7 |
+   Parabola: alpha_rec/alpha_0 = 1.0031 +/- 0.0013 (2.4 sigma), dchi2 -5.2  ->  light 0.31% +/- 0.13% slower at recombination
+   (if c is what changed). The data prefer the direction the idea predicts. alpha and the electron mass both set atomic
+   energies (~alpha^2 m_e), so this is partly the same signal as the early-electron shift (item 3), not independent evidence.
+   Late-time limits: quasar absorption lines |d alpha/alpha| < ~1e-6 at z ~ 1-4; atomic clocks < ~1e-17 per year today
+   -> any change must have finished long before z ~ 4 (as for the electron switch at z ~ 100-200), so cells cannot simply
+   stretch with the expansion (same conclusion as Fig. 12d).
