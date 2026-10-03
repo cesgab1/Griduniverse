@@ -25,7 +25,7 @@ physical link length ℓ ∝ a^s.
   (quintessence) cannot provide. BORROWED framework.
 - Perturbation treatment: checked in section 6 below. It does not matter.
 
-## 2. Audit of the microscopic counting: it decides whether cells are being added today (stretch_scan/)
+## 2. Audit of the microscopic counting: does the counted length stretch with space? (stretch_scan/)
 Each link is crossed about N = c/(2 H ℓ_phys) times per stretch time, and the net tension is ∝ √N.
 - Links stretch with space (ℓ_phys ∝ a, s = 1) → N ∝ 1/ȧ → ρ ∝ ȧ^(−1/2), which is Claim 1.
 - Cells added, link length fixed (s = 0) → N ∝ 1/H → ρ ∝ H^(−1/2), a different law that never crosses w = −1 at q = 0.
@@ -36,7 +36,7 @@ per link). If tension were energy per link, it would dilute (d ln ρ/d ln a = q/
 General law: d ln ρ_DE/d ln a = (q + 1 − s)/2. Fit to DESI DR2 BAO + Planck distance priors + each supernova set,
 with no dark-energy parameter at fixed s (stretch_scan/stretch_scan.txt):
 
-| supernovae | best s (simple q) | best s (exact q) | s = 0 (cells added now) excluded at |
+| supernovae | best s (simple q) | best s (exact q) | s = 0 (fixed length) excluded at |
 |---|---|---|---|
 | Pantheon+ | 0.91 ± 0.15 | 0.93 ± 0.16 | 6.0σ / 5.4σ |
 | DES-Dovekie | 0.94 ± 0.14 | 0.96 ± 0.15 | 6.7σ / 6.1σ |
