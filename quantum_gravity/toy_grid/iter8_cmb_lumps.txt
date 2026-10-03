@@ -1,0 +1,19 @@
+ITERATION 8: large-angle CMB imprint of the leftover dark-energy lumps (late ISW)
+
+ l    D_l real sky [muK^2]   D_l lumps for ONE layer [muK^2]
+  2        1021.7             5.778e+12
+  3         967.3             1.463e+12
+  4         915.7             5.775e+11
+  5         877.2             2.807e+11
+  6         851.0             1.546e+11
+  7         834.2             9.273e+10
+  8         824.2             5.914e+10
+  9         819.7             3.954e+10
+
+one layer: added power exceeds cosmic variance by chi^2 = 9.07e+19 (l = 2-30)
+-> independent layers needed: N_eff >= 4.8e+09   (2 sigma; added power ∝ 1/N_eff, chi^2 ∝ 1/N_eff^2)
+   compare the rough estimate of iteration 6: 2.6e10.  With neighbour leakage r per gap, N = N_eff (1 + 2 r^2/(1 - r^2)).
+   window from the species bound + gamma-ray-burst timing: N <~ 1.2e15  -> OPEN
+
+Signature if N_eff sits near the bound: extra large-angle power with a characteristic shape (shown above), on top of
+LCDM; note the real sky has LOW power at l = 2 (the quadrupole anomaly), so added power there is disfavoured, not favoured.

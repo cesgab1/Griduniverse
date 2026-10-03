@@ -271,3 +271,6 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
   across the stack only costs a factor (1 + 2 sum c_k^2): leakage 0.9 per gap -> 2.5e11 layers needed (still inside the
   species window <~1e15). The real requirement is NO jostle common to all layers (1% common part -> lumps 1.4e-2,
   excluded). Picture: cold Ocean in the gaps does not carry fast jostles.
+- It. 8: proper large-angle CMB (late ISW, l = 2-30) bound on the layer stack: N_eff >= 1.7e9 - 4.8e9 (2 sigma; two
+  super-horizon treatments). Window 2e9-5e9 <~ N <~ 1.2e15 OPEN. Lump signature concentrated at l = 2-3 (steep fall);
+  the real quadrupole is low, so no hint. Not yet included: matter response, lensing / galaxy clustering (may tighten).

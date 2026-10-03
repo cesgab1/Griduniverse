@@ -241,3 +241,29 @@ All of these sit inside the species window (≤ ~10¹⁵), even with heavy leaka
 - **Picture (no separate test):** the gaps hold the Ocean, which is cold and non-relativistic, so it would not carry fast
   jostles between layers. That is consistent, but only a picture.
 - **Gravity is common to all layers**, but it is a smooth drive (the expansion), not noise. That is allowed.
+
+## Iteration 8: leftover lumps vs the real large-angle CMB (iter8_cmb_lumps.py/.txt, _variant.txt)
+
+**Method.**
+- Lumps are Gaussian (many layers), with spatial correlation ((1 − e^(−x))/x)² on the scale c/(3aH) and decorrelation
+  rate 6H.
+- Their gravitational dip enters through comoving Poisson. Their CMB imprint is the late ISW effect, computed as a full
+  double time integral for ℓ = 2–30.
+- The added power is compared with a Planck-like ΛCDM sky at cosmic variance.
+
+**Result.**
+- One layer adds D₂ ~ 2–6×10¹² μK², against 1022 observed. The lump power falls steeply with ℓ (D₉ is about 2% of D₂), so
+  the quadrupole and octopole dominate.
+- 2σ bound: **N_eff ≥ 4.8×10⁹** with plain Poisson, or **≥ 1.7×10⁹** with the super-horizon suppression k²/(k² + 3a²H²).
+  This is consistent with iteration 6's rough 2.6×10¹⁰ (that was stricter by 5–15×).
+- With neighbour leakage r per gap, multiply by (1 + 2r²/(1 − r²)).
+
+**Window still OPEN:** about 2×10⁹ – 5×10⁹ ≲ N ≲ 1.2×10¹⁵ (species bound + gamma-ray-burst timing).
+
+**Signature if N is near the lower edge:** extra power concentrated in the lowest multipoles, ℓ = 2–3, falling steeply with
+ℓ. The real sky's quadrupole is LOW (the known anomaly), so this signature is disfavoured rather than hinted at.
+
+**Not included (caveats):**
+- matter falling into the lumps;
+- CMB lensing and large-scale galaxy clustering from the lumps (could tighten the bound);
+- a proper relativistic treatment beyond the horizon (bracketed by the two variants).
