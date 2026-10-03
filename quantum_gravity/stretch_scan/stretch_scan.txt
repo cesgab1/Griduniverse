@@ -1,0 +1,18 @@
+Link-stretch exponent s: physical link length ∝ a^s; law d ln rho_DE/d ln a = (q + 1 - s)/2
+s = 1: links stretch with space (Claim 1, rho ∝ adot^-1/2);  s = 0: cells added, fixed link length (rho ∝ H^-1/2)
+Fixes Oct 2026 (independent check): sound horizon now integrated from exactly z*, l_A recalibrated to CAMB; exact-q form now
+self-consistent for any s. Significance of s = 0 read directly from the scan values (not extrapolated).
+Data: DESI DR2 BAO + Planck 2018 distance priors + one supernova set. Delta chi2 relative to LCDM (same data). No free DE parameter at fixed s.
+
+DESY5     q-form exact : s=-0.5:+75.8  s=-0.25:+50.8  s=0:+30.1  s=0.25:+13.7  s=0.5:+1.9  s=0.75:-5.0  s=1:-6.9  s=1.25:-3.5  s=1.5:+5.6  s=1.75:+20.6  s=2:+42.0  s=2.5:+105.9
+           best s = 0.96 ± 0.15  (Delta chi2 vs LCDM at best -7.0);  s=1 is 0.3 sigma from best; s=0: sqrt(chi2(s=0)-min) = 6.1 sigma
+DESY5     q-form simple: s=-0.5:+93.2  s=-0.25:+62.4  s=0:+36.8  s=0.25:+16.9  s=0.5:+2.7  s=0.75:-5.5  s=1:-7.2  s=1.25:-2.3  s=1.5:+9.8  s=1.75:+29.3  s=2:+56.9  s=2.5:+138.8
+           best s = 0.94 ± 0.14  (Delta chi2 vs LCDM at best -7.5);  s=1 is 0.5 sigma from best; s=0: sqrt(chi2(s=0)-min) = 6.7 sigma
+PANTHEON  q-form exact : s=-0.5:+62.1  s=-0.25:+41.2  s=0:+24.0  s=0.25:+10.6  s=0.5:+1.1  s=0.75:-4.3  s=1:-5.3  s=1.25:-1.8  s=1.5:+6.6  s=1.75:+20.3  s=2:+39.5  s=2.5:+96.6
+           best s = 0.93 ± 0.16  (Delta chi2 vs LCDM at best -5.6);  s=1 is 0.5 sigma from best; s=0: sqrt(chi2(s=0)-min) = 5.4 sigma
+PANTHEON  q-form simple: s=-0.5:+76.5  s=-0.25:+50.8  s=0:+29.6  s=0.25:+13.2  s=0.5:+1.7  s=0.75:-4.6  s=1:-5.4  s=1.25:-0.5  s=1.5:+10.5  s=1.75:+28.1  s=2:+52.6  s=2.5:+125.3
+           best s = 0.91 ± 0.15  (Delta chi2 vs LCDM at best -5.8);  s=1 is 0.6 sigma from best; s=0: sqrt(chi2(s=0)-min) = 6.0 sigma
+UNION3    q-form exact : s=-0.5:+45.5  s=-0.25:+30.8  s=0:+18.4  s=0.25:+8.3  s=0.5:+0.7  s=0.75:-4.2  s=1:-6.3  s=1.25:-5.1  s=1.5:-0.5  s=1.75:+7.9  s=2:+20.5  s=2.5:+60.3
+           best s = 1.03 ± 0.20  (Delta chi2 vs LCDM at best -6.3);  s=1 is 0.1 sigma from best; s=0: sqrt(chi2(s=0)-min) = 5.0 sigma
+UNION3    q-form simple: s=-0.5:+55.2  s=-0.25:+37.5  s=0:+22.5  s=0.25:+10.3  s=0.5:+1.2  s=0.75:-4.6  s=1:-6.8  s=1.25:-5.1  s=1.5:+0.8  s=1.75:+11.4  s=2:+27.3  s=2.5:+77.5
+           best s = 1.01 ± 0.18  (Delta chi2 vs LCDM at best -6.8);  s=1 is 0.1 sigma from best; s=0: sqrt(chi2(s=0)-min) = 5.4 sigma

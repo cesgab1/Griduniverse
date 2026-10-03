@@ -103,7 +103,7 @@ further. (b) Its fingerprint in the equation of state w: w < -1 in the past, w >
 acceleration begins (z = 0.68 for Ω_m = 0.31). DESI's two-number form approximates this curve as (w0, wa) = (-0.90, -0.25).
 (c) Where three combinations of real data put the best-fitting free (w0, wa) (our refits: DESI DR2 BAO + Planck + each
 supernova sample). The grid law, which has no dark-energy parameter to adjust, sits among them. It beats Λ in all three
-combinations (Δχ² -5.5, -7.3, -6.8).
+combinations (Δχ² -5.4, -7.2, -6.8).
 
 **Analogy: a shear-thinning fluid, like ketchup or paint.** Ketchup resists when you tilt the bottle gently and gives
 way when you shake it hard: its resistance drops as the rate of stirring goes up. The grid's tension behaves the same way

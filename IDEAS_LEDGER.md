@@ -181,3 +181,15 @@ The grid's gravity is CLASSICAL (Khronon metric theory; the tension-link field e
   LENGTHS (deficit angles), not tensions; E1 is its Newtonian shadow. 4-D graviton: Rocek-Williams 1981 (BORROWED).
   Quantum version = Causal Dynamical Triangulations (random simplices + time slicing = our stamp) / Horava gravity
   (IR limit = khronometric). BORROWED. Possible new question: does CDT/Horava give the Tension-Rate Law?
+
+## Does CDT/Horava quantum gravity give the Tension-Rate Law? (Coalesce, Oct 2026): CALCULATED (quantum_gravity/law_from_grid.md)
+- Action: a preferred-slicing minisuperspace term P = -(2/3) C (H a^s)^(-1/2) reproduces the law exactly (sympy, Noether
+  identity holds); no extra degree of freedom (VCDM / extended-cuscuton class) so crossing w = -1 is ghost-free. But an
+  analytic low-energy expansion in H can never give H^(-1/2): standard CDT/Horava EFT does NOT produce it. Needs a
+  collective sqrt(N) effect + a physical link length.
+- Counting audit: law needs INTENSIVE (vacuum-like) tension, and links that stretch (s = 1) rather than cells being added
+  (s = 0 gives rho ∝ H^(-1/2)). Data fit of s (DESI DR2 + Planck priors + SN): s = 0.91-1.03 ± 0.15-0.20; s = 0 excluded
+  at 5.0-6.7 sigma. NEW grid statement: cells are not being added today; cell creation stopped at 5 < z_f < 3.5e7.
+- Size of dark energy NOT explained (kick per crossing 6e-154 Planck densities). Law must be cut off near the Bounce.
+- Independent check found 2 bugs (exact-q only valid at s=1; r_s integrated from grid point above z*): fixed, Claim 1
+  moves <= 0.1 (-5.4 / -7.2 / -6.8). Open: VCDM perturbations instead of PPF in the CAMB fits (expected small).

@@ -1,0 +1,5 @@
+1-2. rho_DE = H dP/dH - P = C/(A**(s/2)*sqrt(H))    (target C (H a^s)^(-1/2))
+1. constraint matches Friedmann with rho_DE above: True
+3. Bianchi/Noether identity  d(constraint)/dt - adot * (a-equation) = 0
+3. w_DE = -q/6 + s/6 - 7/6   -> s = 1: -q/6 - 1  (Claim 1: -1 - q/6)
+4. P = c_n H^n  ->  rho = H**n*c_n*(n - 1)  : powers n = 0, 2, 3, ... only (n = 1 is a total derivative)

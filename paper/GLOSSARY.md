@@ -46,7 +46,7 @@ no separate test), **OPEN** (not yet settled between the authors).
 
 | Name | The claim | Its signature (how to catch it) | Status |
 |---|---|---|---|
-| **Claim 1: the Tension-Rate Law** | The grid tension (dark energy) goes as one over the square root of the stretch rate: ρ_DE ∝ ȧ^(−1/2). No adjustable dark-energy number | **The Turnover Point**: dark energy's equation of state crosses w = −1 exactly when the expansion starts to accelerate (z ≈ 0.7); before it, w < −1; after it, w > −1; today w0 ≈ −0.91 | beats Λ with all three supernova sets (Δχ² −5.5, −7.3, −6.8); in DESI DR2's preferred region; decisive test: DESI DR3 / Euclid binned w(z) |
+| **Claim 1: the Tension-Rate Law** | The grid tension (dark energy) goes as one over the square root of the stretch rate: ρ_DE ∝ ȧ^(−1/2). No adjustable dark-energy number | **The Turnover Point**: dark energy's equation of state crosses w = −1 exactly when the expansion starts to accelerate (z ≈ 0.7); before it, w < −1; after it, w > −1; today w0 ≈ −0.91 | beats Λ with all three supernova sets (Δχ² −5.4, −7.2, −6.8); in DESI DR2's preferred region; decisive test: DESI DR3 / Euclid binned w(z) |
 | **Claim 2: the Electron-Tension Transfer** | The electron was 0.4-1.1% heavier when the CMB was released; it relaxed to today's mass around z ≈ 100-200, and the energy it gave up became the grid tension | (a) **Early-electron shift** in the CMB; (b) **Transfer Step**: a sub-mK jump in the dark-ages 21-cm signal at 7-14 MHz | (a) data favour 1.0099 ± 0.0049 (2σ; Planck + ACT + SPT-3G + DESI + DES); decisive: SPT-3G full survey, Simons Observatory. (b) too faint for planned instruments |
 
 ## 4. What we reproduce but do not claim as new

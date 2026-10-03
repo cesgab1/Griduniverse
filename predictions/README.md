@@ -10,14 +10,16 @@ law_signature.py and Figure 4 had the error. Fixed; the beta = 1 numbers are kep
 - Refit to DESI DR2 BAO + Planck distance priors + each supernova set (beta = 1/2):
 | supernovae | free (w0, wa) best fit | law vs LCDM dchi2 | law vs free (w0, wa): dchi2 / dAIC / dBIC |
 |---|---|---|---|
-| Pantheon+ | -0.86, -0.50 | -5.5 | +1.7 / -2.4 / -13.1 |
-| DES-Dovekie | -0.82, -0.62 | -7.3 | +3.0 / -1.0 / -12.0 |
+| Pantheon+ | -0.86, -0.50 | -5.4 | +1.7 / -2.3 / -13.1 |
+| DES-Dovekie | -0.82, -0.62 | -7.2 | +3.1 / -0.9 / -12.0 |
 | Union3 | -0.69, -0.96 | -6.8 | +6.4 / +2.4 / -0.9 |
-  With no dark-energy parameter, the law beats LCDM by 5.5-7.3 in chi2 and beats the two-parameter fit by information
+  With no dark-energy parameter, the law beats LCDM by 5.4-7.2 in chi2 and beats the two-parameter fit by information
   criteria in 2 of 3 sets (AIC) and all 3 (BIC). (For comparison beta = 1 gave -2.7 / -5.1 / -10.0.) Growth: sigma8 0.6%
   below LCDM with the same early universe.
-  Simplified vs exact deceleration term (EQUATIONS.md E4; fit_*_beta0.5_exactq.txt): exact form gives -5.4 / -7.0 / -6.3,
+  Simplified vs exact deceleration term (EQUATIONS.md E4; fit_*_beta0.5_exactq.txt): exact form gives -5.4 / -6.9 / -6.3,
   i.e. the simplification shifts results by 0.1-0.55 in chi2; the crossing redshift is unchanged.
+  Oct 2026 fix (independent check): the sound horizon was integrated from the first grid point above z* instead of z*;
+  fixed and l_A recalibrated to CAMB. Claim-1 numbers move by <= 0.1 (fit_*_rsfix.txt: -5.4 / -7.2 / -6.8; exact -5.4 / -6.9 / -6.3).
 - New since our fits: DES Y6 (Jan 2026, arXiv:2601.14559): 3x2pt S8 = 0.789 +/- 0.012, 2.6 sigma below the CMB in LCDM;
   joint wCDM w = -0.981 +/- 0.022 (constant w only, not a test of the crossing). The law's 0.6% lower sigma8 goes the right
   way but covers only a small part of that gap. No public DES Y6 likelihood used here.

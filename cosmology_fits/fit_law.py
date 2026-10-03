@@ -18,7 +18,8 @@ W_R = W_GAMMA * (1 + 0.2271 * 3.046)
 import os
 W_NU = float(os.environ.get("MNU", 0.06)) / 93.14
 BETA = float(os.environ.get("BETA", 0.5))   # rho_DE ~ adot^-BETA  <=>  d ln rho_DE/d ln a = BETA q  (the law: BETA = 1/2)
-LA_CAL = 301.471 / 302.379   # fitting-formula r_s vs full Boltzmann code, from the Planck 2018 best-fit LCDM check
+STRETCH = float(os.environ.get("STRETCH", 1.0))   # link stretch exponent s: physical link length ∝ a^s; law d ln rho/d ln a = BETA (q + 1 - s); s = 1 is Claim 1
+LA_CAL = float(os.environ.get("LA_CAL", 1.0))   # set below: CAMB l_A / this code's l_A at the Planck 2018 best-fit LCDM (recalibrated Oct 2026 after r_s fix)
 
 # ---------------- data ----------------
 BAO = "/home/claude/cobayasampler/bao_data/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_"
@@ -62,11 +63,11 @@ def E_of_z(model, Om, h, extra):
     if model == "w0wa":
         w0, wa = extra
         return np.sqrt(Om * zp**3 + Or * zp**4 + OL * zp**(3 * (1 + w0 + wa)) * np.exp(-3 * wa * ZG / zp))
-    # LAW: integrate d ln rho / d ln a = q backwards; dark energy is negligible above z ~ 20
+    # LAW: integrate d ln rho / d ln a = BETA (q + 1 - STRETCH) backwards; dark energy is negligible above z ~ 20
     def rhs(lna, y):
         a = np.exp(lna); rde = np.exp(y[0]); rm, rr = Om * a**-3, Or * a**-4
-        if os.environ.get('EXACTQ'): return [BETA * (rm / 2 + rr - rde) / (rm + rr + rde + BETA * rde / 2)]   # self-consistent q (w of DE included)
-        return [BETA * (rm / 2 + rr - rde) / (rm + rr + rde)]
+        if os.environ.get('EXACTQ'): return [BETA * ((rm / 2 + rr - rde - BETA * (1 - STRETCH) * rde / 2) / (rm + rr + rde + BETA * rde / 2) + 1 - STRETCH)]   # self-consistent q (w of DE included)
+        return [BETA * ((rm / 2 + rr - rde) / (rm + rr + rde) + 1 - STRETCH)]
     zi = ZG[ZG <= 30]
     sol = solve_ivp(rhs, [0, -np.log(31)], [np.log(OL)], t_eval=-np.log(1 + zi), rtol=1e-8, atol=1e-10)
     rde = np.zeros_like(ZG); rde[:len(zi)] = np.exp(sol.y[0])
@@ -90,9 +91,15 @@ def observables(model, p):
     Rb = 3 * wb / (4 * W_GAMMA) / (1 + ZG)
     cs_over_H = C_KMS / np.sqrt(3 * (1 + Rb)) / (H0 * E)
     sel = ZG >= zs
-    rs = np.trapezoid(cs_over_H[sel], ZG[sel]) + cs_over_H[sel][-1] * (1 + ZG[-1])       # tail: radiation era, c_s/H ~ (1+z)^-2
+    zz = np.r_[zs, ZG[sel]]; ff = np.r_[np.interp(zs, ZG, cs_over_H), cs_over_H[sel]]    # start exactly at z* (fixed Oct 2026: was first grid point above z*)
+    rs = np.trapezoid(ff, zz) + cs_over_H[sel][-1] * (1 + ZG[-1])       # tail: radiation era, c_s/H ~ (1+z)^-2
     R = np.sqrt(Om) * H0 * DM(zs) / C_KMS; lA = np.pi * DM(zs) / rs * LA_CAL   # calibrated once to Planck 2018 LCDM (same for all models)
     return dict(DM=DM, DH=DH, rd=rd, R=R, lA=lA, wb=wb)
+
+if "LA_CAL" not in os.environ:   # calibrate l_A once: CAMB (Planck 2018 best fit H0 67.36, ombh2 0.02237, omch2 0.1200, mnu 0.06) gives 301.7286
+    _Om = (0.02237 + 0.1200 + W_NU * 0.6736**2) / 0.6736**2
+    LA_CAL = 301.7286 / observables("LCDM", [_Om, 0.6736, 0.02237])["lA"]
+print(f"l_A calibration factor {LA_CAL:.5f}")
 
 def chi2(model, p, parts=False):
     Om, h, wb = p[:3]
@@ -126,14 +133,18 @@ def best(model, starts):
 
 Ndata = len(bao) + len(z_sn) + 3
 results = {}
+ONLY = os.environ.get("ONLY")
 for model, starts in [("LCDM", [[0.31, 0.68, 0.0224], [0.30, 0.69, 0.0223]]),
                       ("LAW", [[0.31, 0.68, 0.0224], [0.30, 0.67, 0.0223]]),
                       ("w0wa", [[0.31, 0.68, 0.0224, -0.8, -0.6], [0.32, 0.66, 0.0224, -0.7, -1.0], [0.30, 0.69, 0.0224, -0.95, -0.1]])]:
+    if ONLY and model not in ONLY.split(","): continue
     r = best(model, starts)
     tot, cb, cs, cc = chi2(model, r.x, parts=True); k = len(r.x) + 1   # +1 for the SN absolute magnitude
     results[model] = dict(params=[float(x) for x in r.x], chi2=float(tot), bao=float(cb), sn=float(cs), cmb=float(cc),
                           k=k, AIC=float(tot + 2 * k), BIC=float(tot + k * np.log(Ndata)))
     print(f"{model:5s}  chi2 = {tot:9.2f}  (BAO {cb:6.2f}, SN {cs:8.2f}, CMB {cc:5.2f})  params {np.round(r.x, 4)}")
+if ONLY:
+    print("ONLYRESULT", json.dumps(results)); sys.exit()
 L = results["LCDM"]
 for m_ in ["LAW", "w0wa"]:
     R = results[m_]

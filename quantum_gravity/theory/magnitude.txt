@@ -1,0 +1,8 @@
+rho_DE today = 5.91e-27 kg/m^3 = 1.1e-123 Planck densities
+link = Planck length               : exchanges per link per stretch time N = 4.2e+60; sqrt(N) = 2.1e+30; kick needed per exchange = 5.6e-154 Planck densities
+link = max allowed cell 5.7e-28 m  : exchanges per link per stretch time N = 1.2e+53; sqrt(N) = 3.5e+26; kick needed per exchange = 3.3e-150 Planck densities
+A natural kick would be ~1 Planck density (or ~1 cell energy); the counting therefore does NOT explain the size of dark energy.
+Breakdown: rho ∝ adot^-1/2 diverges where adot = 0 (the Bounce). There the stretch time 1/H is infinite and the counting
+(N crossings per stretch time) is meaningless: the law is a late-universe law; it must be cut off near the Bounce.
+Links stretching since z_f: allowed stretch per link <= 3.5e7, so z_f <= 3.5e7 if links began at the Planck length;
+dark energy only matters at z < ~5, so the s = 1 epoch needs z_f > ~5 only: no conflict with the cell-creation requirement.

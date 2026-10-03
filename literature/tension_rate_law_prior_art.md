@@ -10,3 +10,9 @@ Quick web search (not exhaustive). No exact match found. Closest relatives, all 
 - Parametric reconstructions of q(z) exist, but as fitting forms, not a dark-energy law tied to q.
 Status for the paper: claim as 'to our knowledge new'; cite Sorkin, running vacuum, holographic/Ricci DE as relatives;
 before submission run an ADS full-text search for '\dot{a}^{-1/2}', 'rho_DE propto q', 'phantom crossing at transition'.
+
+Additions (Oct 2026, quantum-gravity check, quantum_gravity/law_from_grid.md):
+- arXiv:2606.17951 (data-driven): w(a) = w0/sqrt(a), one parameter, crossing at z = w0^-2 - 1; NOT tied to q = 0. Relative.
+- Ghost-free home for phantom crossing with a preferred slicing: VCDM / type-II minimally modified gravity
+  (arXiv:2004.12549, 2011.04188; DR2 fits of parametrisations in VCDM: 2508.03784) and extended cuscuton (JCAP 12 (2018) 002).
+  Our law can be written in this class (P(K, link length) term); framework BORROWED.

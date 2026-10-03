@@ -40,14 +40,14 @@ Equivalent form used in all codes (q = deceleration parameter):
     d ln ρ_DE / d ln a = β q,      q = −ä a / ȧ²
     simplified (used in all fits):  q ≈ (ρ_m/2 + ρ_r − ρ_DE) / ρ_tot          (treats dark energy as w = −1 inside q)
     exact (self-consistent):        q = (ρ_m/2 + ρ_r − ρ_DE) / (ρ_tot + β ρ_DE/2)
-    effect of using the exact form: Δχ² vs Λ changes by +0.1 to +0.55 (−5.4 / −7.0 / −6.3); w0 −0.91 → −0.92; the Turnover
+    effect of using the exact form: Δχ² vs Λ changes by +0.1 to +0.55 (−5.4 / −6.9 / −6.3); w0 −0.91 → −0.92; the Turnover
     Point (q = 0) is identical in both forms
     w = −1 − β q / 3
     Friedmann:  H² = (8πG/3)(ρ_m + ρ_r + ρ_DE)
 
 Consequences (β = 1/2, Ω_m = 0.31): the Turnover Point, w = −1 exactly where q = 0 (z = 0.68); w0 = −0.91; matter era
 w → −1 − 1/12; ρ_DE peaks at 1.074 × today's at the Turnover Point; far future a ∝ t⁵. Two-number mimic (w0, wa) = (−0.90, −0.25).
-Data: beats Λ by Δχ² = 5.5 / 7.3 / 6.8 (DESI DR2 + Planck + Pantheon+ / DES-Dovekie / Union3); free fit β = 0.63 ± 0.22.
+Data: beats Λ by Δχ² = 5.4 / 7.2 / 6.8 (DESI DR2 + Planck + Pantheon+ / DES-Dovekie / Union3); free fit β = 0.63 ± 0.22.
 Microscopic motivation (beta_derivation.py): independent ± exchanges across each link, N ∝ 1/ȧ per stretch time, net
 tension ∝ √N ∝ ȧ^(−1/2). This is a motivation, not a derivation.
 

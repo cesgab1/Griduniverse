@@ -1,0 +1,9 @@
+data: 13 BAO points, 22 supernovae, 3 CMB priors
+l_A calibration factor 0.99780
+LCDM   chi2 =     42.77  (BAO  11.81, SN    28.39, CMB  2.58)  params [0.3014 0.6846 0.0225]
+LAW    chi2 =     35.97  (BAO   9.75, SN    23.78, CMB  2.44)  params [0.3106 0.6745 0.0225]
+w0wa   chi2 =     29.58  (BAO   7.79, SN    21.55, CMB  0.24)  params [ 0.3262  0.6612  0.0224 -0.6908 -0.9673]
+LAW   vs LCDM:  delta chi2 =   -6.80   delta AIC =   -6.80   delta BIC =   -6.80
+w0wa  vs LCDM:  delta chi2 =  -13.19   delta AIC =   -9.19   delta BIC =   -5.92
+LAW vs w0wa: delta chi2 = 6.39 with 2 fewer parameters;  delta AIC = 2.39,  delta BIC = -0.89
+BETA = 0.5

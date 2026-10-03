@@ -1,0 +1,16 @@
+Link-stretch exponent s: physical link length ∝ a^s; law d ln rho_DE/d ln a = (q + 1 - s)/2
+s = 1: links stretch with space (Claim 1, rho ∝ adot^-1/2);  s = 0: cells added, fixed link length (rho ∝ H^-1/2)
+Data: DESI DR2 BAO + Planck 2018 distance priors + one supernova set. Delta chi2 relative to LCDM (same data). No free DE parameter at fixed s.
+
+DESY5     q-form exact : s=-0.5:+95.1  s=-0.25:+64.0  s=0:+39.1  s=0.25:+20.3  s=0.5:+5.0  s=0.75:-4.2  s=1:-7.0  s=1.25:-3.0  s=1.5:+8.1  s=1.75:+26.8  s=2:+53.5  s=2.5:+133.6
+           best s = 0.97 ± 0.14  (Delta chi2 vs LCDM at best -7.1);  s=1 is 0.2 sigma from best, s=0 is 7.2 sigma
+DESY5     q-form simple: s=-0.5:+89.7  s=-0.25:+59.4  s=0:+35.6  s=0.25:+18.6  s=0.5:+2.9  s=0.75:-5.4  s=1:-7.3  s=1.25:-2.4  s=1.5:+9.6  s=1.75:+29.1  s=2:+56.7  s=2.5:+138.4
+           best s = 0.94 ± 0.14  (Delta chi2 vs LCDM at best -7.5);  s=1 is 0.4 sigma from best, s=0 is 6.9 sigma
+PANTHEON  q-form exact : s=-0.5:+78.2  s=-0.25:+52.4  s=0:+32.2  s=0.25:+16.0  s=0.5:+3.5  s=0.75:-3.7  s=1:-5.4  s=1.25:-1.3  s=1.5:+8.9  s=1.75:+25.7  s=2:+49.5  s=2.5:+120.8
+           best s = 0.94 ± 0.15  (Delta chi2 vs LCDM at best -5.6);  s=1 is 0.4 sigma from best, s=0 is 6.4 sigma
+PANTHEON  q-form simple: s=-0.5:+73.6  s=-0.25:+48.6  s=0:+29.3  s=0.25:+16.0  s=0.5:+1.9  s=0.75:-4.6  s=1:-5.5  s=1.25:-0.6  s=1.5:+10.3  s=1.75:+27.8  s=2:+52.4  s=2.5:+124.9
+           best s = 0.91 ± 0.15  (Delta chi2 vs LCDM at best -5.9);  s=1 is 0.6 sigma from best, s=0 is 6.2 sigma
+UNION3    q-form exact : s=-0.5:+55.5  s=-0.25:+38.5  s=0:+25.0  s=0.25:+12.3  s=0.5:+2.7  s=0.75:-3.6  s=1:-6.3  s=1.25:-5.1  s=1.5:+0.4  s=1.75:+10.6  s=2:+26.1  s=2.5:+75.3
+           best s = 1.04 ± 0.18  (Delta chi2 vs LCDM at best -6.3);  s=1 is 0.2 sigma from best, s=0 is 5.8 sigma
+UNION3    q-form simple: s=-0.5:+52.9  s=-0.25:+36.3  s=0:+23.0  s=0.25:+13.9  s=0.5:+1.4  s=0.75:-4.5  s=1:-6.8  s=1.25:-5.2  s=1.5:+0.6  s=1.75:+11.2  s=2:+27.0  s=2.5:+77.0
+           best s = 1.01 ± 0.18  (Delta chi2 vs LCDM at best -6.9);  s=1 is 0.1 sigma from best, s=0 is 5.7 sigma
