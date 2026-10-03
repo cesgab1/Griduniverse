@@ -106,6 +106,13 @@ hidden 'true simultaneity' that experiments must not detect: preferred-frame bou
 gravitational-wave speed = c to 1e-15; Khronon passes these. Inside black holes khronon theories have a 'universal horizon'.
 No new test beyond those; it would settle the OPEN 'time layer' meaning in favour of moments in time.
 
+## Crunching the grid ahead of a ship (warp; Coalesce, Oct 2026), brainstorm only
+= Alcubierre (1994) warp: contract space ahead, expand it behind. Needs negative energy (no known matter supplies it);
+cost set by the grid's stiffness c^4/G ~ 1e44 N (rough: shortening a 1 km region by 10% ~ 1e45 J, several Jupiter masses
+of energy, and of the wrong sign). Grid-specific twist: with global time stamps (Khronon foliation) faster-than-light
+travel would not create time-travel paradoxes, since stamps still only increase. Density cap limits how far cells can be
+crunched. Not testable; no claim.
+
 ## Chladni picture (Coalesce, Oct 2026): sand on a vibrating plate collects at the still lines (nodes)
 Physics of the real effect: grains are kicked where the plate moves and come to rest where it doesn't, because every bounce
 loses energy (inelastic). Without that energy loss there is no pattern. So it needs the same missing ingredient as the
