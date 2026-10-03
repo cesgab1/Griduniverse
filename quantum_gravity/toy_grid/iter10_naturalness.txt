@@ -1,0 +1,21 @@
+ITERATION 10: height vs featherweight (minimal linear-coupling model)
+
+observed dark energy rho = 2.54e-11 eV^4 = (2.24 meV)^4;  H0 = 1.44e-33 eV
+
+stability + featherweight: g <= (3 H0)^2 = 1.9e-65 eV^2
+N = 1.0e+07 layers: height needs g >= 3.7e-22 eV^2   -> too strong by 2e+43x
+N = 1.0e+10 layers: height needs g >= 2.8e-23 eV^2   -> too strong by 2e+42x
+N = 1.2e+15 layers: height needs g >= 3.5e-25 eV^2   -> too strong by 2e+40x
+
+-> In this minimal model the coupling needed for the height is ~1e40x too strong to keep the wobble light and the
+   system stable: 'technically natural' FAILS here. The height and featherweight problems do NOT merge this way.
+
+Other routes checked in the same model:
+  * coupling to a PINNED-direction wobble (heavy, m_h >> 3H): no zero-frequency noise -> no random walk (dead).
+  * derivative coupling (g dPhi/dt h): the push becomes dh/dt, whose zero-frequency noise vanishes (iteration 3) (dead).
+  * dark energy stored as potential energy of the wandering field instead of motion: smaller, not larger (m_Phi <~ H).
+  * a large 'stiffness' multiplying the motion energy (Z tau^2/2): rescaling Phi -> sqrt(Z) Phi gives the same physics
+    with g -> g/sqrt(Z); the requirement is identical (no escape).
+  * instability if g > m_Phi m_h: growth time ~ 1/sqrt(g) ~ milliseconds for the g needed (catastrophic).
+What could still work (OPEN, each a new assumption): a NONLINEAR link between the wobbles and the tension energy that
+  is not a mass mixing; or the noise reaching the tension through gravity/the time stamp instead of a direct coupling.

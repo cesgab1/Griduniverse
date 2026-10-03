@@ -295,3 +295,32 @@ The large-angle CMB stays the strongest test.
 **Lessons.**
 - Cross-checking with independent code caught a 100× error. Keep doing it.
 - The stack needs at least ~10 million layers (not billions). With gaps that leak, multiply by (1 + 2r²/(1 − r²)).
+
+## Iteration 10: can one small coupling explain both the height and the featherweight wobble? (iter10_naturalness.py/.txt)
+
+**Model.**
+- A stretch field Φ per layer, with tension τ = Φ̇ and energy ½τ².
+- A wobble h along a free direction, linked by L = gΦh. This is the only way to get the direct push τ̇ ∝ h that
+  iterations 2–4 need.
+- Height: ρ = N g² T_s/(24πH), with T_s capped by ΔN_eff.
+- Stability and featherweight: g ≤ m_Φ m_h ≤ (3H₀)² = 1.9×10⁻⁶⁵ eV².
+
+**Result.** The height needs g ≥ 3.5×10⁻²⁵ eV² even at the most favourable N = 1.2×10¹⁵: about **10⁴⁰ times too strong**.
+With that g the system is unstable within milliseconds.
+
+**Every route checked fails:**
+- coupling to a pinned (heavy) wobble: no zero-frequency noise;
+- derivative coupling: the push becomes ḣ, which has no zero-frequency noise;
+- potential instead of motion energy: smaller, not larger;
+- a large "stiffness": equivalent to rescaling, so no change.
+
+**Lessons.**
+- The hope that height and featherweight merge into one "technically natural" small number FAILS in the minimal model.
+  The stochastic-jostling mechanism, made fully quantitative, cannot give the observed height without wrecking the
+  wobble's lightness.
+- This is the hardest hit the microscopic toy has taken. The jostling picture explains the SHAPE of dark energy (the
+  1/ȧ law, the memory, the smoothing by layers), but not its SIZE.
+- Claim 1 itself is untouched: it is a law fitted to data, independent of this microscopic story.
+- **Open escapes (each a new assumption):**
+  - a nonlinear link between the wobbles and the tension energy that is not a mass mixing;
+  - the noise reaching the tension through gravity or the time stamp rather than through a direct coupling.

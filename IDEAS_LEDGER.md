@@ -295,3 +295,8 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
     freedom and gives the wobble a small mass. That breaking is controlled by the same tiny coupling that sets the
     (small) height of dark energy: as the coupling -> 0 the freedom is restored ('technically natural'). Next calculation:
     is the coupling required for the observed height small enough to keep the wobble lighter than ~1e-32 eV?
+- It. 10 (naturalness of Coalesce's pinned-but-free wobble): FAILS in the minimal model. Linear link L = g Phi h (the only
+  direct push) + canonical tension energy: height needs g >= 3.5e-25 eV^2 (best case N = 1.2e15) but stability/lightness
+  need g <= (3H0)^2 = 1.9e-65 eV^2: 1e40x conflict. Pinned wobble, derivative coupling, potential energy, stiffness
+  rescaling all fail too. The jostling picture explains the SHAPE (1/adot, memory, smoothing) not the SIZE. Claim 1
+  unaffected. Open: nonlinear non-mixing link; noise via gravity / time stamp.
