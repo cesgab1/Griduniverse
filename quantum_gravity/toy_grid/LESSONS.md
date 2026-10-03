@@ -100,7 +100,8 @@ fluctuations (EPJC 78, 5862).
 **Lessons.**
 - The "jostled by the CMB" idea from iteration 2 is dead. The jostlers must be a NEW relic: a scalar, massless and
   conformally coupled.
-- **First testable prediction of the quantum-grid toy:** extra radiation ΔN_eff ≈ 0.027–0.057. That is allowed today; the
+- **[Weakened in iteration 4: holds only if s shared a temperature with ordinary matter; in general 0 < ΔN_eff < 0.107.]**
+  **First testable prediction of the quantum-grid toy:** extra radiation ΔN_eff ≈ 0.027–0.057. That is allowed today; the
   upper half is within reach of Simons Observatory (σ ≈ 0.05) and CMB-S4-class surveys (σ ≈ 0.03). A firm ΔN_eff = 0
   (σ ~ 0.01, beyond planned surveys) would kill the thermal-jostling mechanism, unless the scalar was born colder than
   ordinary matter.
@@ -114,3 +115,48 @@ fluctuations (EPJC 78, 5862).
 - What sets the memory (≲ ½ Hubble time)?
 - Whether the energy is linear or quadratic in the tension (√N vs N).
 - How to estimate fifth-force limits on the scalar.
+
+## Iteration 4: what sets the memory, and what must the jostling relic be? (iter4_memory_and_source.py/.txt)
+
+**Results.**
+1. **The memory is derived, not chosen.** Treat the jostled tension as the VELOCITY of a grid field Φ, so that it is
+   jostled and also slowed by the expansion (Hubble friction).
+   - For a minimally coupled Φ, the friction rate is exactly 3H (checked numerically): κ = 3, memory ⅓ Hubble time.
+     That is inside the range iteration 1 found the data need (≲ ½).
+   - A conformally coupled Φ would give about 0.9H, which the data disfavour. (I had guessed 2H; the numerical check
+     corrected that.)
+2. **Fits with κ = 3** (no free dark-energy parameter), Δχ² vs Λ:
+
+   | energy | Pantheon+ | DES-Dovekie | Union3 |
+   |---|---|---|---|
+   | linear in tension (√N) | −4.9 | −6.0 | −5.0 |
+   | quadratic (N) | −7.1 | −9.2 | −8.5 |
+   | for scale: instant Claim 1 | −5.4 | −7.2 | −6.8 |
+   | for scale: w0wa (2 free parameters) | −7.1 | −10.3 | −13.2 |
+
+   Quadratic with κ = 3 crosses w = −1 at z = 0.46 (acceleration starts at 0.71); w0 = −0.90.
+   **Look-elsewhere caveat:** four discrete variants were tried (linear/quadratic × κ = 2 or 3), so the best one gets a
+   small selection bonus.
+3. **The relic needs a true thermal tail.** A relic made by decays without self-interaction gives no random walk
+   (its variance grows only as a log: 0.09 → 0.27 against 7.8 → 7957 for thermal). The relic must be self-thermalised:
+   a conformal s⁴ self-coupling will do.
+4. **Correction to iteration 3.** Inflation (which the model needs) dilutes any earlier relic, and a conformal field is
+   not produced by inflation. So s must come from reheating and thermalise itself.
+   - Its temperature is set by the inflaton's branching ratio, so the iteration-3 value ΔN_eff = 0.027–0.057 holds only
+     if s also shared a temperature with ordinary matter.
+   - That contact cannot have gone through the Higgs: a Higgs portal strong enough to thermalise s would give it a mass
+     ~10⁸⁷ times too large.
+   - **Weakened prediction:** 0 < ΔN_eff < 0.107. The amount is not fixed; it is absorbed into the (already free) size
+     of dark energy.
+5. **Fifth force.** A symmetry s → −s leaves no linear coupling to matter, so there is no long-range fifth force at tree
+   level.
+6. **Naturalness.** s must be lighter than about 10⁻³² eV, which is as unprotected as any quintessence field (an open
+   problem, not ours alone).
+
+**Picture after four iterations:**
+- A minimally coupled grid field Φ, whose velocity is the tension.
+- It is jostled by a self-thermalised dark radiation s (conformal, massless, with an s → −s symmetry, made at reheating).
+- It is damped by Hubble friction (κ = 3).
+- The dark energy is the tension energy (quadratic fits best).
+- This gives a zero-free-parameter dark energy with Δχ² −7.1 / −9.2 / −8.5 vs Λ, crossing w = −1 at z ≈ 0.46.
+- Open: the size of dark energy, the s coupling, and why Φ is minimally coupled and s conformally.

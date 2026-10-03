@@ -75,10 +75,10 @@ SN = os.environ.get("SNSET", "PANTHEON")
 res = {}
 L = g["best"]("LCDM", [[0.31, 0.68, 0.0224], [0.30, 0.69, 0.0223]]); res["LCDM"] = float(L.fun)
 for energy in ("lin", "quad"):
-    for kappa in (0.25, 0.5, 1.0, 2.0, 4.0, 16.0):
+    for kappa in [float(x) for x in os.environ.get("KAPPAS", "0.25,0.5,1,2,4,16").split(",")]:
         g["E_of_z"] = make_E(kappa, energy)
         r = g["best"]("MEM", [[0.31, 0.68, 0.0224]])
         res[f"{energy} kappa={kappa}"] = (float(r.fun), [float(x) for x in r.x])
         print(f"{SN} {energy:4s} kappa {kappa:5.2f}: dchi2 vs LCDM {r.fun - L.fun:+6.2f}  params {np.round(r.x, 4)}"); sys.stdout.flush()
-json.dump(res, open(os.path.join(HERE, f"iter1_fits_{SN}.json"), "w"), indent=1)
+json.dump(res, open(os.path.join(HERE, f"iter1_fits_{SN}{os.environ.get('TAG', '')}.json"), "w"), indent=1)
 open(os.path.join(HERE, "iter1_partA.txt"), "w").write("\n".join(out) + "\n")

@@ -216,3 +216,9 @@ The grid's gravity is CLASSICAL (Khronon metric theory; the tension-link field e
   quanta). Prediction: Delta N_eff ≈ 0.027-0.057 (decoupled above QCD; T today ~0.9 K); below-QCD decoupling (0.30) is
   excluded by N_eff = 2.990 ± 0.070 (dN < 0.107). Testable by SO / CMB-S4-class. New requirement: negligible coupling
   to ordinary matter (fifth force).
+- It. 4: memory DERIVED: tension = velocity of a minimally coupled grid field -> Hubble friction 3H (kappa = 3; conformal
+  would give ~0.9, disfavoured). Zero-parameter fits (kappa = 3): quadratic energy -7.1 / -9.2 / -8.5 vs Lambda
+  (Claim 1 -5.4/-7.2/-6.8; w0wa -7.1/-10.3/-13.2); crossing z 0.46, w0 -0.90. Look-elsewhere: 4 discrete variants tried.
+  Relic must be SELF-thermalised (decay-made relic gives no walk). Iteration-3 Delta N_eff 0.027-0.057 WEAKENED to
+  0 < dN < 0.107 (inflation + reheating set its temperature; Higgs-portal contact impossible with m_s < 1e-32 eV).
+  No tree-level fifth force with s -> -s symmetry. Naturalness of m_s open (as for quintessence).

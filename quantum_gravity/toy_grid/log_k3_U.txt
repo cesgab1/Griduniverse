@@ -1,0 +1,13 @@
+data: 13 BAO points, 22 supernovae, 3 CMB priors
+l_A calibration factor 0.99780
+ONLYRESULT {}
+ITERATION 1: grid tension with finite memory (kappa = memory rate / H)
+
+Part A: Monte Carlo of 5000 domains vs the one-variable equation (kappa = 1):
+  z =  30.00: Monte Carlo <tau^2> =    0.1612   equation    0.1613   ratio 0.999
+  z =  12.14: Monte Carlo <tau^2> =    0.2002   equation    0.2040   ratio 0.981
+  z =   4.57: Monte Carlo <tau^2> =    0.3031   equation    0.3047   ratio 0.995
+  z =   1.36: Monte Carlo <tau^2> =    0.4453   equation    0.4514   ratio 0.987
+  z =   0.00: Monte Carlo <tau^2> =    0.5292   equation    0.5291   ratio 1.000
+UNION3 lin  kappa  3.00: dchi2 vs LCDM  -5.01  params [0.3058 0.6806 0.0225]
+UNION3 quad kappa  3.00: dchi2 vs LCDM  -8.50  params [0.3099 0.6769 0.0225]

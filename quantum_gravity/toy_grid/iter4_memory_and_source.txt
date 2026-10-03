@@ -1,0 +1,34 @@
+ITERATION 4
+
+A. Hubble friction of a field velocity (no force), matter + Lambda background, from a = 0.1 to 1:
+   minimal coupling                : decay rate of Phi_dot / H, late times: 3.00
+   conformal coupling (xi = 1/6)   : decay rate of Phi_dot / H, late times: 0.91
+   -> the memory is NOT a free choice once the tension is a field velocity: kappa = 3 (minimal coupling); a conformally
+      coupled tension field would give ~0.9, which the data disfavour (iteration 1: memory ~1 Hubble time barely beats Lambda).
+
+   Fits with kappa = 3 (iter1_fits_*_k3.json), Delta chi2 vs Lambda, NO free dark-energy parameter:
+     PANTHEON : linear energy -4.9   quadratic energy -7.1
+     DESY5    : linear energy -6.0   quadratic energy -9.2
+     UNION3   : linear energy -5.0   quadratic energy -8.5
+     (instant Claim 1: -5.4 / -7.2 / -6.8; free w0wa with 2 parameters: -7.1 / -10.3 / -13.2)
+
+B. Does the relic need a thermal (Rayleigh-Jeans) low-k tail?  Var vs memory, Theta = 1, R = 1:
+   memory  1e+02:  thermal relic Var =  7.763e+00    decay-made relic (no self-interaction) Var = 9.217e-02
+   memory  1e+03:  thermal relic Var =  7.932e+01    decay-made relic (no self-interaction) Var = 1.501e-01
+   memory  1e+04:  thermal relic Var =  7.955e+02    decay-made relic (no self-interaction) Var = 2.084e-01
+   memory  1e+05:  thermal relic Var =  7.957e+03    decay-made relic (no self-interaction) Var = 2.667e-01
+   -> only a THERMAL relic (or one with a Rayleigh-Jeans tail, i.e. self-interacting) gives the random walk.
+
+C. Consequences for the relic scalar s:
+   * Inflation (required by the model) dilutes any earlier relic to nothing, and a conformal field is not made by
+     inflation itself. So s must be made at reheating (inflaton -> s) and THERMALISE itself (e.g. a lambda_s s^4 self-
+     coupling, which is conformal). Its temperature is then set by the inflaton's branching ratio, NOT by contact with
+     ordinary matter: iteration 3's 'Delta N_eff = 0.027-0.057' holds only if s also shared a temperature with ordinary
+     matter. In general 0 < Delta N_eff < 0.107, i.e. T_s/T_nu < 0.66. The amplitude change is absorbed in
+     the (already free) size of dark energy. PREDICTION WEAKENED: Delta N_eff > 0, size not fixed.
+   * Fifth force: with a symmetry s -> -s (and conformal coupling to curvature), s has no LINEAR coupling to matter, so
+     no long-range fifth force at tree level. Contact with ordinary matter via a Higgs portal lambda s^2|H|^2 would give s
+     a mass ~ sqrt(lambda) x 246 GeV; staying massless enough for horizon-scale noise (m_s << kappa H0 ~ 1e-32 eV) needs
+     lambda << 2e-87, far too weak ever to thermalise. So: NO Higgs-portal contact -> s is a separate
+     dark radiation, consistent with the general 0 < Delta N_eff < 0.107.
+   * Naturalness: a scalar lighter than 1e-32 eV is as unprotected as a quintessence field (same open problem).
