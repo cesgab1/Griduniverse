@@ -327,3 +327,15 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
   a frozen domain-wall network behaves this way). If the catch-and-release happens ON comoving sheets, the rate is
   right. Seed: are those sheets the grid's own walls? (Constraint to check: frozen walls must be light enough not to
   dominate, the Zel'dovich bound.)
+
+## Coalesce (Oct 2026): stretching cools, like a forged bar drawn out from end to end: more surface, so the void cools it
+## faster. Applied to the relic glow (#1), combined with the sheets (#2):
+- Unification: if the glow is each layer's OWN vibration (#1), and the layer is a sheet that stretches without
+  multiplying (#2), stretching cools the vibrations as T ∝ 1/a (wavelengths stretched) -> exactly the rate the data need
+  (s = 1). The 'cooling glow' and 'non-multiplying sheets' are the same object: vibrations of stretching sheets.
+- Forged-bar test (EXTRA cooling by leaking heat into the void/gaps): T ∝ a^-(1+eps) gives stretch exponent s = 1 + eps.
+  Data (joint beta-s scan): s = 0.72-1.06 (68%), best 0.82-0.86 -> eps <~ +0.06 (68%), <~ +0.2 (95%); leak rate
+  <~ 0.2 H. If anything the best fit has the glow cooling slightly SLOWER than 1/a (heat flowing in, not out), but
+  s = 1 (no leak) is fully consistent.
+- Where leaked heat would go: the gaps (the Ocean). The glow's energy is tiny (Delta N_eff < 0.1, ~1e-5 of matter), so
+  warming of dark matter is negligible: no conflict with cold dark matter.
