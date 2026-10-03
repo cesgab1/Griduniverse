@@ -1,0 +1,47 @@
+ITERATION 2: quantum origin of the kicks (massless quantum field, domain radius R = 1, memory rate gamma)
+
+Q1  VACUUM only: accumulated variance vs memory time 1/gamma
+   memory 1/gamma =    1e+01:  Var = 0.05165    exact e^(g^2R^2)E1(g^2R^2)/(8pi^2) = 0.05165
+   memory 1/gamma =    1e+02:  Var = 0.10935    exact e^(g^2R^2)E1(g^2R^2)/(8pi^2) = 0.10935
+   memory 1/gamma =    1e+03:  Var = 0.16767    exact e^(g^2R^2)E1(g^2R^2)/(8pi^2) = 0.16767
+   memory 1/gamma =    1e+04:  Var = 0.22599    exact e^(g^2R^2)E1(g^2R^2)/(8pi^2) = 0.22599
+   memory 1/gamma =    1e+05:  Var = 0.28432    exact e^(g^2R^2)E1(g^2R^2)/(8pi^2) = 0.28432
+   memory 1/gamma =    1e+06:  Var = 0.34264    exact e^(g^2R^2)E1(g^2R^2)/(8pi^2) = 0.34264
+   growth exponent d lnVar / d ln(memory): 0.326, 0.186, 0.130, 0.100, 0.081   (random walk would be 1)
+
+Q2  THERMAL background (thermal part only): Var vs memory, temperature and domain size
+   Theta 1e-02  memory  1e+03  R 0.5:  Var =  7.0486e-01   Theta/(4 pi gamma) =  7.9577e-01   ratio 0.8858
+   Theta 1e-02  memory  1e+03  R 1.0:  Var =  7.0485e-01   Theta/(4 pi gamma) =  7.9577e-01   ratio 0.8857
+   Theta 1e-02  memory  1e+03  R 4.0:  Var =  7.0474e-01   Theta/(4 pi gamma) =  7.9577e-01   ratio 0.8856
+   Theta 1e-02  memory  1e+04  R 0.5:  Var =  7.8091e+00   Theta/(4 pi gamma) =  7.9577e+00   ratio 0.9813
+   Theta 1e-02  memory  1e+04  R 1.0:  Var =  7.8091e+00   Theta/(4 pi gamma) =  7.9577e+00   ratio 0.9813
+   Theta 1e-02  memory  1e+04  R 4.0:  Var =  7.8090e+00   Theta/(4 pi gamma) =  7.9577e+00   ratio 0.9813
+   Theta 1e-02  memory  1e+05  R 0.5:  Var =  7.9371e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9974
+   Theta 1e-02  memory  1e+05  R 1.0:  Var =  7.9371e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9974
+   Theta 1e-02  memory  1e+05  R 4.0:  Var =  7.9370e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9974
+   Theta 1e-01  memory  1e+03  R 0.5:  Var =  7.8089e+00   Theta/(4 pi gamma) =  7.9577e+00   ratio 0.9813
+   Theta 1e-01  memory  1e+03  R 1.0:  Var =  7.8083e+00   Theta/(4 pi gamma) =  7.9577e+00   ratio 0.9812
+   Theta 1e-01  memory  1e+03  R 4.0:  Var =  7.7983e+00   Theta/(4 pi gamma) =  7.9577e+00   ratio 0.9800
+   Theta 1e-01  memory  1e+04  R 0.5:  Var =  7.9370e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9974
+   Theta 1e-01  memory  1e+04  R 1.0:  Var =  7.9370e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9974
+   Theta 1e-01  memory  1e+04  R 4.0:  Var =  7.9360e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9973
+   Theta 1e-01  memory  1e+05  R 0.5:  Var =  7.9551e+02   Theta/(4 pi gamma) =  7.9577e+02   ratio 0.9997
+   Theta 1e-01  memory  1e+05  R 1.0:  Var =  7.9551e+02   Theta/(4 pi gamma) =  7.9577e+02   ratio 0.9997
+   Theta 1e-01  memory  1e+05  R 4.0:  Var =  7.9550e+02   Theta/(4 pi gamma) =  7.9577e+02   ratio 0.9997
+   Theta 1e+00  memory  1e+03  R 0.5:  Var =  7.9355e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9972
+   Theta 1e+00  memory  1e+03  R 1.0:  Var =  7.9324e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9968
+   Theta 1e+00  memory  1e+03  R 4.0:  Var =  7.9088e+01   Theta/(4 pi gamma) =  7.9577e+01   ratio 0.9938
+   Theta 1e+00  memory  1e+04  R 0.5:  Var =  7.9549e+02   Theta/(4 pi gamma) =  7.9577e+02   ratio 0.9996
+   Theta 1e+00  memory  1e+04  R 1.0:  Var =  7.9546e+02   Theta/(4 pi gamma) =  7.9577e+02   ratio 0.9996
+   Theta 1e+00  memory  1e+04  R 4.0:  Var =  7.9523e+02   Theta/(4 pi gamma) =  7.9577e+02   ratio 0.9993
+   Theta 1e+00  memory  1e+05  R 0.5:  Var =  7.9574e+03   Theta/(4 pi gamma) =  7.9577e+03   ratio 1.0000
+   Theta 1e+00  memory  1e+05  R 1.0:  Var =  7.9574e+03   Theta/(4 pi gamma) =  7.9577e+03   ratio 1.0000
+   Theta 1e+00  memory  1e+05  R 4.0:  Var =  7.9571e+03   Theta/(4 pi gamma) =  7.9577e+03   ratio 0.9999
+   -> Var = Theta/(4 pi gamma) to the accuracy shown once memory >> R and >> 1/Theta: independent of domain size R
+
+Q3  Expanding universe (conformal field): Var = Theta_c/(4 pi kappa adot); kick rate in physical time = Theta(t)/(2 pi), Theta ∝ 1/a
+   = iteration 1's kick rate ∝ 1/a, now DERIVED; the 'comoving length' of law_from_grid.md section 7 is not needed:
+   the 1/a comes from the redshifting temperature of real relic quanta of a CONFORMAL field (photons; not gravitons).
+   CMB photons 2.725 K (kappa = 1, window R = Planck length): Theta/H0 = 1.6e+29 -> thermal Var/vacuum Var ≈ 3.7e+27
+Reading: the VACUUM alone gives only a logarithm (fluctuations of a massless field are anti-correlated in time: no
+random walk; would give a near-constant dark energy). REAL thermal quanta give an honest random walk whose size ∝ 1/adot.

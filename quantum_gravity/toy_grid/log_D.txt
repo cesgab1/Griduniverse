@@ -1,0 +1,23 @@
+data: 13 BAO points, 1820 supernovae, 3 CMB priors
+l_A calibration factor 0.99780
+ONLYRESULT {}
+ITERATION 1: grid tension with finite memory (kappa = memory rate / H)
+
+Part A: Monte Carlo of 5000 domains vs the one-variable equation (kappa = 1):
+  z =  30.00: Monte Carlo <tau^2> =    0.1612   equation    0.1613   ratio 0.999
+  z =  12.14: Monte Carlo <tau^2> =    0.2002   equation    0.2040   ratio 0.981
+  z =   4.57: Monte Carlo <tau^2> =    0.3031   equation    0.3047   ratio 0.995
+  z =   1.36: Monte Carlo <tau^2> =    0.4453   equation    0.4514   ratio 0.987
+  z =   0.00: Monte Carlo <tau^2> =    0.5292   equation    0.5291   ratio 1.000
+DESY5 lin  kappa  0.25: dchi2 vs LCDM  +5.60  params [0.2976 0.6916 0.0224]
+DESY5 lin  kappa  0.50: dchi2 vs LCDM  +2.69  params [0.299  0.6899 0.0225]
+DESY5 lin  kappa  1.00: dchi2 vs LCDM  -1.67  params [0.3015 0.6864 0.0225]
+DESY5 lin  kappa  2.00: dchi2 vs LCDM  -4.99  params [0.3044 0.6824 0.0225]
+DESY5 lin  kappa  4.00: dchi2 vs LCDM  -6.46  params [0.3066 0.6795 0.0225]
+DESY5 lin  kappa 16.00: dchi2 vs LCDM  -6.94  params [0.3084 0.677  0.0225]
+DESY5 quad kappa  0.25: dchi2 vs LCDM +16.43  params [0.2935 0.6988 0.0224]
+DESY5 quad kappa  0.50: dchi2 vs LCDM  +8.71  params [0.2961 0.6953 0.0224]
+DESY5 quad kappa  1.00: dchi2 vs LCDM  -2.00  params [0.3012 0.6882 0.0224]
+DESY5 quad kappa  2.00: dchi2 vs LCDM  -8.16  params [0.3069 0.6806 0.0225]
+DESY5 quad kappa  4.00: dchi2 vs LCDM  -9.24  params [0.3109 0.6752 0.0225]
+DESY5 quad kappa 16.00: dchi2 vs LCDM  -8.16  params [0.314  0.6711 0.0225]

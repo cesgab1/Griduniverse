@@ -201,3 +201,13 @@ The grid's gravity is CLASSICAL (Khronon metric theory; the tension-link field e
   (7) CORRECTION: Planck cells cannot stretch (G/c constancy: s_cell < 1e-3), so cells ARE added today. The counting length
   in Claim 1 must be a COMOVING length distinct from the cell (candidates: matter/Ocean separation, parent cells of the
   mosaic, comoving correlation length). Earlier line "cells are not being added today" is withdrawn.
+
+## Grid toy, iterations 1-2 (Coalesce, Oct 2026): quantum_gravity/toy_grid/LESSONS.md
+- It. 1 (memory): the grid tension may lag the stretch rate by its memory time 1/(kappa H). Data (DESI DR2 + Planck +
+  3 SN sets) need memory <~ 1/2 Hubble time; 1 Hubble time barely beats Lambda, 2+ is worse. Signature: w = -1 crossing
+  comes AFTER acceleration onset by an amount set by the memory (memory 1/4 -> z 0.49 vs q=0 at 0.68). Monte Carlo 5000
+  domains vs equation agree 1-2%.
+- It. 2 (quantum kicks): quantum VACUUM fluctuations give no random walk (log only -> Lambda-like). REAL thermal quanta of
+  a CONFORMAL field (CMB photons) give Var = Theta_c/(4 pi kappa adot) ∝ 1/adot: Claim 1's counting derived, no comoving
+  length needed (resolves law_from_grid section 7). Not valid for gravitons. Independent check PASS with caveats.
+  Next: coupling of grid tension to photons vs existing limits; what sets the memory.

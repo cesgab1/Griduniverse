@@ -1,0 +1,23 @@
+data: 13 BAO points, 1590 supernovae, 3 CMB priors
+l_A calibration factor 0.99780
+ONLYRESULT {}
+ITERATION 1: grid tension with finite memory (kappa = memory rate / H)
+
+Part A: Monte Carlo of 5000 domains vs the one-variable equation (kappa = 1):
+  z =  30.00: Monte Carlo <tau^2> =    0.1612   equation    0.1613   ratio 0.999
+  z =  12.14: Monte Carlo <tau^2> =    0.2002   equation    0.2040   ratio 0.981
+  z =   4.57: Monte Carlo <tau^2> =    0.3031   equation    0.3047   ratio 0.995
+  z =   1.36: Monte Carlo <tau^2> =    0.4453   equation    0.4514   ratio 0.987
+  z =   0.00: Monte Carlo <tau^2> =    0.5292   equation    0.5291   ratio 1.000
+PANTHEON lin  kappa  0.25: dchi2 vs LCDM  +4.14  params [0.2969 0.6922 0.0225]
+PANTHEON lin  kappa  0.50: dchi2 vs LCDM  +1.78  params [0.2983 0.6904 0.0225]
+PANTHEON lin  kappa  1.00: dchi2 vs LCDM  -1.63  params [0.301  0.6868 0.0225]
+PANTHEON lin  kappa  2.00: dchi2 vs LCDM  -4.13  params [0.3041 0.6827 0.0225]
+PANTHEON lin  kappa  4.00: dchi2 vs LCDM  -5.15  params [0.3064 0.6796 0.0225]
+PANTHEON lin  kappa 16.00: dchi2 vs LCDM  -5.40  params [0.3083 0.6771 0.0225]
+PANTHEON quad kappa  0.25: dchi2 vs LCDM +12.81  params [0.2924 0.6997 0.0224]
+PANTHEON quad kappa  0.50: dchi2 vs LCDM  +6.57  params [0.2952 0.696  0.0224]
+PANTHEON quad kappa  1.00: dchi2 vs LCDM  -1.87  params [0.3007 0.6886 0.0224]
+PANTHEON quad kappa  2.00: dchi2 vs LCDM  -6.46  params [0.3067 0.6807 0.0225]
+PANTHEON quad kappa  4.00: dchi2 vs LCDM  -7.05  params [0.3109 0.6753 0.0225]
+PANTHEON quad kappa 16.00: dchi2 vs LCDM  -5.96  params [0.314  0.6711 0.0225]
