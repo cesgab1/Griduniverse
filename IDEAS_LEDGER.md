@@ -300,3 +300,16 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
   need g <= (3H0)^2 = 1.9e-65 eV^2: 1e40x conflict. Pinned wobble, derivative coupling, potential energy, stiffness
   rescaling all fail too. The jostling picture explains the SHAPE (1/adot, memory, smoothing) not the SIZE. Claim 1
   unaffected. Open: nonlinear non-mixing link; noise via gravity / time stamp.
+
+## Coalesce (Oct 2026): drop the 'non-simple link' (agreed: it would need its own explanation). New idea: the jostling
+## comes from FREE ELECTRONS repelling each other near the layers, generating waves/vibrations. Checked (no new code):
+- Scaling: free electrons thin out with expansion, n_e ∝ a^-3. Shot/collision kick rates ∝ n_e v (IGM temperature roughly
+  constant after reionization; Coulomb rate ∝ n_e T^-3/2; Thomson ∝ n_e): all give link-stretch exponent s ≈ 3. Data:
+  s = 0.72-1.06; s = 2.5 already costs +77 to +139 vs Lambda (stretch_scan). EXCLUDED.
+- Electrons repel through electric fields = photons; iteration 3: EM fields cannot random-walk the tension (gauge: ∫E dt
+  is a boundary term). Only density-type couplings remain, which give the a^-3 scaling above.
+- Ionisation history: free-electron fraction drops ~5000x at recombination (z 1100) and returns at reionisation (z ~7):
+  the jostling would switch off and on, with a jump in dark energy at z ~7.
+- A light field coupled to electrons -> fifth force on electrons; equivalence-principle tests are extremely tight.
+- Positive link kept: Claim 2 already ties electrons to the grid tension, as a ONE-TIME energy transfer (z ~100-200),
+  not ongoing jostling.
