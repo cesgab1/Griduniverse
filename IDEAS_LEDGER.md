@@ -118,6 +118,13 @@ Grid speed limit c = cell/tick; early grid -> slower c -> larger alpha. SPA+DESI
 (dchi2 -5.2). Overlaps the early-electron signal (both set atomic energies). Must have frozen by z ~ 4 (quasars, clocks).
 `predictions/README.md` item 4.
 
+## Hierarchy of forces; universe as one wave function (Page-Wootters) (Coalesce, Oct 2026), brainstorm
+Hierarchy: gravity is weak because the grid is stiff (c^4/G); the real puzzle is why particles are so light vs the Planck
+mass. Two-layer electron gives m ~ (1-M)^W: m_e/M_Planck = 4.2e-23 = 2^-74.3 -> ~74 layers at halving per layer
+(Randall-Sundrum/domain-wall logic). Relocates the puzzle to a modest integer; not a derivation; untestable at the LHC.
+Page-Wootters: the khronon stamp is a ready-made global clock, which removes the 'problem of time' gap; remaining gaps:
+measurement/Born rule for one universe, initial state (past hypothesis), no complete quantum gravity, clock ambiguity.
+
 ## Chladni picture (Coalesce, Oct 2026): sand on a vibrating plate collects at the still lines (nodes)
 Physics of the real effect: grains are kicked where the plate moves and come to rest where it doesn't, because every bounce
 loses energy (inelastic). Without that energy loss there is no pattern. So it needs the same missing ingredient as the
