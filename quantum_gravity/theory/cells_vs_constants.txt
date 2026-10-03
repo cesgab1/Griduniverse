@@ -1,0 +1,6 @@
+cell-stretch exponent allowed by lunar laser ranging (G today):      s_cell < 1.6e-03
+cell-stretch exponent allowed by nucleosynthesis (G in the first minutes): s_cell < 2.4e-03
+cell-stretch exponent allowed by the CMB (c, via alpha, if c = cell/tick): s_cell < 8.1e-04
+dark-energy law fit (stretch_scan): s_DE = 0.91-1.03 ± 0.15-0.20
+=> the length that stretches in the dark-energy law is NOT the Planck cell (which must stay fixed to <1e-3 in exponent,
+   i.e. cells ARE being added). The counting must run over a COMOVING length, distinct from the cell size.

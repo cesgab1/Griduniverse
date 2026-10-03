@@ -1,0 +1,9 @@
+background: Claim 1 law (beta 1/2), H0 67.9, ombh2 0.02237, omch2 0.12
+sigma8: PPF 0.80777   no DE fluctuations 0.80704   (diff -0.090%)   LCDM same early universe 0.81274
+TT: cosmic-variance chi2 (PPF vs no-fluct) = 0.008   [low l 2-30 only: 0.002]   for scale: law vs LCDM = 375.9
+EE: cosmic-variance chi2 (PPF vs no-fluct) = 0.029   [low l 2-30 only: 0.000]   for scale: law vs LCDM = 1133.1
+lensing phi-phi: cosmic-variance chi2 (PPF vs no-fluct) = 3.646   law vs LCDM = 89.3
+largest TT difference PPF vs no-fluct (l <= 30): 1.918%
+lensing phi-phi difference over the measured range L 8-400 (Planck/ACT lensing): max 0.28%, mean -0.15%;  measured lensing amplitude precision ~2-2.5%
+Caveat: switching DE fluctuations off in CAMB's gauge is a proxy for VCDM (whose momentum constraint differs), not VCDM itself.
+Reading: chi2 << 1 means no experiment, even a perfect one, could tell the two treatments apart.

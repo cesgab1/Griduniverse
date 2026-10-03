@@ -189,7 +189,15 @@ The grid's gravity is CLASSICAL (Khronon metric theory; the tension-link field e
   collective sqrt(N) effect + a physical link length.
 - Counting audit: law needs INTENSIVE (vacuum-like) tension, and links that stretch (s = 1) rather than cells being added
   (s = 0 gives rho ∝ H^(-1/2)). Data fit of s (DESI DR2 + Planck priors + SN): s = 0.91-1.03 ± 0.15-0.20; s = 0 excluded
-  at 5.0-6.7 sigma. NEW grid statement: cells are not being added today; cell creation stopped at 5 < z_f < 3.5e7.
+  at 5.0-6.7 sigma. [WITHDRAWN, see follow-up (7): the stretching length is comoving, not the cell.]
 - Size of dark energy NOT explained (kick per crossing 6e-154 Planck densities). Law must be cut off near the Bounce.
 - Independent check found 2 bugs (exact-q only valid at s=1; r_s integrated from grid point above z*): fixed, Claim 1
   moves <= 0.1 (-5.4 / -7.2 / -6.8). Open: VCDM perturbations instead of PPF in the CAMB fits (expected small).
+- FOLLOW-UP (same day), quantum_gravity/law_from_grid.md sections 5-7:
+  (5) joint beta-s fit: s robust at 0.72-1.06 for any beta; beta weakly fixed (Pantheon+/DES allow 1/2 at 68%/95%,
+  Union3 prefers 1-3, Claim 1 point +6.6 there). 2-parameter family = w0wa fit quality.
+  (6) PPF vs no dark-energy fluctuations (VCDM proxy): CMB cosmic-variance chi2 0.008 (TT), 0.03 (EE), sigma8 0.09%,
+  lensing <= 0.28%: treatment irrelevant.
+  (7) CORRECTION: Planck cells cannot stretch (G/c constancy: s_cell < 1e-3), so cells ARE added today. The counting length
+  in Claim 1 must be a COMOVING length distinct from the cell (candidates: matter/Ocean separation, parent cells of the
+  mosaic, comoving correlation length). Earlier line "cells are not being added today" is withdrawn.
