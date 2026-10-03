@@ -1,0 +1,19 @@
+random 3-D Mosaic, 2744 cells, 11868 tension links; ground state of coupled oscillators
+
+ R     cells_in   wall_area_cut   links_cut    S
+ 1.6        24           26.8         87      1.63
+ 2.0        35           34.1        108      2.22
+ 2.4        64           45.4        162      2.79
+ 2.8        95           64.9        215      4.40
+ 3.2       143           92.1        294      6.09
+ 3.6       200          117.1        376      7.58
+ 4.0       278          143.0        470      9.15
+ 4.4       361          174.9        564     11.07
+ 4.8       480          202.1        701     12.28
+ 5.2       612          250.8        878     16.56
+ 5.6       754          306.1       1039     17.76
+S vs volume (cells inside) : slope 0.0224, R^2 = 0.9761
+S vs wall area cut         : slope 0.0603, R^2 = 0.9914
+S vs links cut             : slope 0.0174, R^2 = 0.9899
+S ~ R^2.00   (area law: 2, volume law: 3)
+entropy per unit wall area = 0.0603 (in cell units); Bekenstein-Hawking needs 1/(4 l_P^2) = 0.25 per Planck area
