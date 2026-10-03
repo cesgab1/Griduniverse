@@ -107,6 +107,9 @@ The dark-energy law needs s ≈ 1. Therefore:
 - **Consequence for the size problem (section 3):** with a comoving length L, N = c/(2ȧL). L is unknown, so the per-crossing
   kick needed is unknown too. The size problem is unchanged, only relabelled.
 
+**Update (grid toy, iteration 2):** a comoving length is not needed. Relic thermal quanta of a conformal field (e.g. CMB
+photons) jostle the tension with a variance ∝ Θ/H ∝ 1/ȧ, independent of domain size. See toy_grid/LESSONS.md.
+
 ## Verification
 An independent agent re-derived items 1 and 2 from scratch.
 - Its own Union3 fit agrees with ours to about 0.2 in Δχ².
