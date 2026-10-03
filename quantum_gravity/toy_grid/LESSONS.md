@@ -160,3 +160,26 @@ fluctuations (EPJC 78, 5862).
 - The dark energy is the tension energy (quadratic fits best).
 - This gives a zero-free-parameter dark energy with Δχ² −7.1 / −9.2 / −8.5 vs Λ, crossing w = −1 at z ≈ 0.46.
 - Open: the size of dark energy, the s coupling, and why Φ is minimally coupled and s conformally.
+
+## Iteration 5 (Coalesce's question): do the jostling's vibrations tell us the height? (iter5_vibrations.py/.txt)
+
+**Height: no.** The height is (coupling)² × (energy scale) × Θ/(κH). Both the coupling and Θ are free (0 < ΔN_eff < 0.107).
+The vibrations fix how the height changes over time, not its value.
+
+**Lumpiness: yes, and it is a problem.** The vibrations also make dark energy lumpy, and the lump-to-mean ratio does NOT
+depend on the coupling.
+- The tension's spatial correlation is C(d)/C(0) = (1 − e^(−d))/d, with d in units of c/(κH). That is a correlation
+  length of about a third of the Hubble length, roughly 1500 Mpc.
+- With quadratic energy, each such patch has δρ/ρ ~ √2.
+- Rough estimate: potential Φ ~ 0.16, so the large-angle CMB imprint would be ~0.16, against the ~10⁻⁵ observed: about
+  2×10⁴ times too strong.
+- This is an order-of-magnitude estimate, not a Boltzmann calculation. The margin is large.
+
+**Lesson.** The patch-by-patch stochastic picture (iterations 1–4) is in serious trouble as it stands. Escape routes:
+- (a) ~10⁸⁻⁹ independent jostled components, which shrink the lumps by 1/√N;
+- (b) jostling that acts on the universe as a whole: a global response, as in the VCDM embedding of Claim 1, which has
+  no dark-energy lumps;
+- (c) noise that is not dominated by long waves.
+
+Claim 1 itself (a law depending on the global expansion) is NOT affected; this hits only the microscopic toy.
+**Next:** decide between (a), (b) and (c), each with its own test.

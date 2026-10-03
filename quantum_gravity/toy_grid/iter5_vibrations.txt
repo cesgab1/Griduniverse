@@ -1,0 +1,18 @@
+Iteration 5 (question from Coalesce): what the vibrations of the jostling tell us
+
+Spatial correlation of the tension, distance in units of c/(memory rate):
+   d =   0.1:  C(d)/C(0) = 0.952    (1 - e^-d)/d = 0.952
+   d =   0.3:  C(d)/C(0) = 0.864    (1 - e^-d)/d = 0.864
+   d =   1.0:  C(d)/C(0) = 0.632    (1 - e^-d)/d = 0.632
+   d =   3.0:  C(d)/C(0) = 0.317    (1 - e^-d)/d = 0.317
+   d =  10.0:  C(d)/C(0) = 0.100    (1 - e^-d)/d = 0.100
+
+Correlation length: c/(kappa H0) = Hubble length / 3 ≈ 1467 Mpc today
+Lumps: delta rho_DE / rho_DE ~ sqrt(2) on that scale (quadratic energy; coupling-free)
+Potential of such lumps: Phi ~ (3/2) Omega_DE x sqrt(2) x (1/3)^2 ≈ 0.16
+Large-angle CMB temperature imprint ~ Phi ~ 1.6e-01; observed large-angle anisotropy ~ 1e-5
+-> the toy, as built, predicts dark-energy lumps ~2e+04 times too strong. Escape routes:
+   (a) N independent jostled components: lumps shrink by 1/sqrt(N); need N >~ (Phi/1e-5)^2 ≈ 3e+08
+   (b) the tension field responds only to the GLOBAL expansion (no local lumps), as in the VCDM embedding of Claim 1;
+       then the 'jostling' must act on the universe as a whole, not patch by patch
+   (c) the correlation length is much shorter than c/(kappa H) (needs noise not dominated by long waves)

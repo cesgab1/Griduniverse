@@ -238,3 +238,8 @@ Ideas:
     But conformal coupling breaks shift symmetry: tension with (a). Check.
  d. Decisive data: DESI DR3 binned w(z): the toy's crossing at z ~ 0.46 vs Claim 1's at 0.68 vs Lambda (none).
     Simons Observatory: N_eff > 0 and the early-electron shift (Claim 2).
+- It. 5 (Coalesce: 'do the vibrations tell the height?'): height NO (coupling and relic temperature free). But the
+  vibrations make dark energy LUMPY with a coupling-free ratio: correlation length ~ Hubble/3, delta rho/rho ~ 1.4 ->
+  large-angle CMB imprint ~0.16 vs 1e-5 observed (~2e4 too strong, order-of-magnitude estimate). The patch-by-patch toy
+  fails as built; Claim 1 itself (global law) unaffected. Escapes: (a) ~1e9 independent components, (b) global
+  response only (VCDM-like), (c) noise not dominated by long waves.
