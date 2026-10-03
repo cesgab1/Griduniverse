@@ -97,6 +97,15 @@ Le Sage 'pushing gravity' theories died on drag/heating, aberration (Laplace) an
 alpha1 < ~1e-5, alpha2 < ~1e-9 (pulsars, solar spin). Khronon passes because its slicing does not flow at 1PN.
 As a way to move the dark fluid: Family 4 (currents/infall), closed.
 
+## Time as a stamp on every layer and cell (Coalesce, Oct 2026), brainstorm, consistent with the base
+This is Khronon theory's own variable: a field tau(x) (the 'khronon') whose value is the time stamp; layers are the
+surfaces of equal stamp. Two quantities must be kept apart: the STAMP (a global label, same step between layers
+everywhere) and the TICK RATE (proper time per stamp step, the lapse N, slower near mass). Gravity = the tick rate varying
+across a layer. Consequences: stamps only increase along any path a body can take (no time loops); a global stamp means a
+hidden 'true simultaneity' that experiments must not detect: preferred-frame bounds alpha1 < ~1e-5, alpha2 < ~1e-9 and
+gravitational-wave speed = c to 1e-15; Khronon passes these. Inside black holes khronon theories have a 'universal horizon'.
+No new test beyond those; it would settle the OPEN 'time layer' meaning in favour of moments in time.
+
 ## Chladni picture (Coalesce, Oct 2026): sand on a vibrating plate collects at the still lines (nodes)
 Physics of the real effect: grains are kicked where the plate moves and come to rest where it doesn't, because every bounce
 loses energy (inelastic). Without that energy loss there is no pattern. So it needs the same missing ingredient as the
