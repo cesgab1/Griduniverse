@@ -1,0 +1,7 @@
+grid: jitter; complex-step derivative (exact to rounding); min/max dihedral 0.13/179.63 deg
+random 3-D grid: 216 nodes (170 interior), 1492 links (1360 interior), 1233 tetrahedra
+flat start: max |deficit| on interior links = 5.6e-12 (flat space = 0)
+Hessian symmetry check (should be ~0): 1.3e-11
+zero-cost directions found: 511;  expected from moving interior nodes: 3 x 170 = 510
+gauge test |H.J|/(|H||J|) = 2.9e-13   (random directions for comparison: 2.7e-02)
+other eigenvalues: 170 positive, 679 negative (3-D gravity has no waves: all others are non-zero)

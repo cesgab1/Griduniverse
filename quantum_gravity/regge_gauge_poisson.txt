@@ -1,0 +1,7 @@
+grid: poisson; complex-step derivative (exact to rounding); min/max dihedral 0.06/179.78 deg
+random 3-D grid: 160 nodes (125 interior), 1083 links (984 interior), 891 tetrahedra
+flat start: max |deficit| on interior links = 6.3e-13 (flat space = 0)
+Hessian symmetry check (should be ~0): 3.3e-11
+zero-cost directions found: 375;  expected from moving interior nodes: 3 x 125 = 375
+gauge test |H.J|/(|H||J|) = 2.5e-13   (random directions for comparison: 3.2e-02)
+other eigenvalues: 125 positive, 484 negative (3-D gravity has no waves: all others are non-zero)
