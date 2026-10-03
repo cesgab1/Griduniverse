@@ -1,0 +1,23 @@
+ITERATION 3: who jostles the grid tension?
+
+A. Thermal photons, tension driven by the electric field (Theta = 1, R = 1):
+   memory  1e+01:  photon E: Var = 1.8273e-02     scalar (iteration 2): Var = 6.6484e-01
+   memory  1e+02:  photon E: Var = 2.2188e-02     scalar (iteration 2): Var = 7.7630e+00
+   memory  1e+03:  photon E: Var = 2.2653e-02     scalar (iteration 2): Var = 7.9324e+01
+   memory  1e+04:  photon E: Var = 2.2700e-02     scalar (iteration 2): Var = 7.9546e+02
+   memory  1e+05:  photon E: Var = 2.2705e-02     scalar (iteration 2): Var = 7.9574e+03
+   -> photon case SATURATES (no random walk: ∫E dt = -ΔA); the scalar grows ∝ memory. Same holds for B (extra factor k).
+
+B. Photon energy-density coupling: Var ∝ Theta^5/(R^2 gamma) -> stretch exponent s = 5; data (stretch_scan) allow
+   s = 0.72-1.06; s = 1.75 already costs Delta chi2 >= +20 vs the best. EXCLUDED.
+
+C. A massless conformally coupled scalar relic ('grid radiation'): Delta N_eff if it last shared a temperature with ordinary
+   matter when the number of particle types was g*:
+   above the electroweak scale (all SM particles, g* = 106.75)             : Delta N_eff = 0.027
+   between electroweak and QCD (g* ~ 61.75)                                : Delta N_eff = 0.056
+   just below QCD (g* = 17.25)                                             : Delta N_eff = 0.304
+   never: born with the grid, same temperature as SM at the Planck era, SM-only: Delta N_eff = 0.027
+   Measured (BBN + Planck/ACT/SPT + DESI DR2, arXiv:2603.13226): N_eff = 2.990 ± 0.070, Delta N_eff < 0.107 (95%).
+   -> allowed only if the scalar decoupled ABOVE the QCD transition: prediction Delta N_eff ≈ 0.027-0.057
+      (smaller only if many unknown heavy particles existed). Its temperature today: (10.75/106.75)^(1/3) x 1.95 K = 0.90 K for the 106.75 case.
+   Reach: Simons Observatory sigma(N_eff) ~ 0.05, CMB-S4-class ~ 0.03: the upper half of the range is testable.

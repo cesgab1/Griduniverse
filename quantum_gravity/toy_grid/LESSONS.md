@@ -80,3 +80,37 @@ memory time ∝ 1/H scales as Θ/H ∝ 1/ȧ.
 Prior-art relatives, none the same: "Thermal dark energy" (Hardy & Parameswaran, PRD 101, 023503: a hidden-sector
 finite-temperature potential); spacetime-diffusion models (PRD 7whh-9j22); stochastic dark energy from inflationary
 fluctuations (EPJC 78, 5862).
+
+## Iteration 3: can CMB photons be the jostlers? (iter3_who_jostles.py/.txt)
+
+**Results.**
+1. **Photons cannot do it through a linear coupling.** Gauge invariance lets the tension feel only E or B, and ∫E dt = −ΔA
+   is a boundary term. The filtered variance SATURATES (2.27×10⁻² for memories 10³–10⁵) while the scalar's grows in
+   proportion to the memory. There is no random walk; B is worse (an extra factor k).
+2. **Photons through their energy density also fail.** By scaling (not computed in detail), the noise ∝ Θ⁵/R² gives a
+   stretch exponent s = 5. The data allow s = 0.72–1.06, so this is excluded.
+3. **What works is a massless, conformally coupled SCALAR relic** ("grid radiation"), presumably the quanta of the
+   tension links themselves. It must have a thermal population, and that population counts as extra radiation:
+   - Shared a temperature with ordinary matter above the electroweak scale (or born with the grid at the SM temperature):
+     ΔN_eff = 0.027, temperature today 0.90 K.
+   - Last in contact between the electroweak and QCD transitions: ΔN_eff ≈ 0.056.
+   - Last in contact below QCD: ΔN_eff = 0.30. EXCLUDED: measured ΔN_eff < 0.107 at 95% (N_eff = 2.990 ± 0.070,
+     arXiv:2603.13226).
+
+**Lessons.**
+- The "jostled by the CMB" idea from iteration 2 is dead. The jostlers must be a NEW relic: a scalar, massless and
+  conformally coupled.
+- **First testable prediction of the quantum-grid toy:** extra radiation ΔN_eff ≈ 0.027–0.057. That is allowed today; the
+  upper half is within reach of Simons Observatory (σ ≈ 0.05) and CMB-S4-class surveys (σ ≈ 0.03). A firm ΔN_eff = 0
+  (σ ~ 0.01, beyond planned surveys) would kill the thermal-jostling mechanism, unless the scalar was born colder than
+  ordinary matter.
+- **New requirements:**
+  - The scalar must barely couple to ordinary matter today: a massless scalar coupled to matter would give a fifth force
+    (equivalence-principle and Solar-System bounds).
+  - Conformal coupling (ξ = 1/6) is needed for its thermal spectrum to stay exact. Whether the grid produces that
+    coupling is an open question.
+
+**Next (iteration 4):**
+- What sets the memory (≲ ½ Hubble time)?
+- Whether the energy is linear or quadratic in the tension (√N vs N).
+- How to estimate fifth-force limits on the scalar.

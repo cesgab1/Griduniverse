@@ -211,3 +211,8 @@ The grid's gravity is CLASSICAL (Khronon metric theory; the tension-link field e
   a CONFORMAL field (CMB photons) give Var = Theta_c/(4 pi kappa adot) ∝ 1/adot: Claim 1's counting derived, no comoving
   length needed (resolves law_from_grid section 7). Not valid for gravitons. Independent check PASS with caveats.
   Next: coupling of grid tension to photons vs existing limits; what sets the memory.
+- It. 3 (who jostles): CMB photons CANNOT (gauge invariance: ∫E dt is a boundary term, variance saturates; energy-density
+  coupling gives s = 5, excluded). Needed: a massless conformally coupled SCALAR relic ('grid radiation', the links' own
+  quanta). Prediction: Delta N_eff ≈ 0.027-0.057 (decoupled above QCD; T today ~0.9 K); below-QCD decoupling (0.30) is
+  excluded by N_eff = 2.990 ± 0.070 (dN < 0.107). Testable by SO / CMB-S4-class. New requirement: negligible coupling
+  to ordinary matter (fifth force).
