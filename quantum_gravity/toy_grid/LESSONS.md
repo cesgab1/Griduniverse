@@ -218,3 +218,26 @@ The 1/ȧ law (x = 1) comes only from waves of about horizon size. A short correl
 - The layers must be stacked but not jostled together.
 - **New question:** what are these layers? Not the 74 of the hierarchy, and not time layers (the time accumulation is
   already the memory).
+
+## Iteration 7 (Coalesce: the gaps between layers are big enough that layers barely interfere with their neighbours) (iter7_gaps.py/.txt)
+
+**Result.** Iteration 6's requirement (c ≲ 6×10⁻⁶) assumed a jostle SHARED by all layers. With gaps, any correlation falls
+off with distance in the stack. Then lumps = √(2[1 + 2Σc_k²]/N): only the total leakage to neighbours counts, and it just
+reduces the effective number of independent layers. Monte Carlo agrees to ~1% (N = 1000–2000; leakage per gap r = 0–0.99).
+
+| leakage per gap r | cost factor on lumps | layers needed (imprint < 10⁻⁶) |
+|---|---|---|
+| 0 | 1 | 2.6×10¹⁰ |
+| 0.5 | 1.3 | 4.3×10¹⁰ |
+| 0.9 | 3.1 | 2.5×10¹¹ |
+| 0.99 | 10 | 2.6×10¹² |
+
+All of these sit inside the species window (≤ ~10¹⁵), even with heavy leakage.
+
+**Lessons.**
+- Coalesce's gaps rescue the picture. Neighbour interference is harmless; it only costs a modest factor.
+- **The real requirement is NO COMMON JOSTLE:** nothing that shakes all layers together (a single shared relic radiation,
+  or one long-range mode spanning the whole stack). Even a 1% common component leaves lumps of 1.4×10⁻², which is excluded.
+- **Picture (no separate test):** the gaps hold the Ocean, which is cold and non-relativistic, so it would not carry fast
+  jostles between layers. That is consistent, but only a picture.
+- **Gravity is common to all layers**, but it is a smooth drive (the expansion), not noise. That is allowed.

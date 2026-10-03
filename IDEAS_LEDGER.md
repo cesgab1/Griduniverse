@@ -267,3 +267,7 @@ Candidates:
 Tests: lower edge from large-angle CMB (residual dark-energy lumps ∝ 1/sqrt(N): a predicted ISW-like contribution just
 below current level if N is near 3e10); upper edge from Lorentz-violation timing (LHAASO/CTA: the cell bound tightening
 toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
+- It. 7 (Coalesce: gaps between layers limit interference to neighbours): RESCUES the stack. Correlation that falls off
+  across the stack only costs a factor (1 + 2 sum c_k^2): leakage 0.9 per gap -> 2.5e11 layers needed (still inside the
+  species window <~1e15). The real requirement is NO jostle common to all layers (1% common part -> lumps 1.4e-2,
+  excluded). Picture: cold Ocean in the gaps does not carry fast jostles.
