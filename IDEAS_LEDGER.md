@@ -222,3 +222,19 @@ The grid's gravity is CLASSICAL (Khronon metric theory; the tension-link field e
   Relic must be SELF-thermalised (decay-made relic gives no walk). Iteration-3 Delta N_eff 0.027-0.057 WEAKENED to
   0 < dN < 0.107 (inflation + reheating set its temperature; Higgs-portal contact impossible with m_s < 1e-32 eV).
   No tree-level fifth force with s -> -s symmetry. Naturalness of m_s open (as for quintessence).
+
+## Where next after toy iterations 1-4 (Coalesce, Oct 2026), brainstorm
+Open issues in plain terms:
+(1) HEIGHT: we explain the shape of the dark-energy curve, not its height. The coupling would need to be ~1e-150.
+(2) TWO INGREDIENTS: the grid field must be 'ordinary' (minimal) and the jostler 'light-like' (conformal), chosen to work.
+(3) FEATHERWEIGHT: the jostler must be lighter than 1e-32 eV, with nothing protecting it.
+(4) DATA: Claim 1 ~2.5 sigma, Claim 2 ~2 sigma; galaxy regularity (R2/R3) still open.
+Ideas:
+ a. ONE FIELD (Occam): can the grid field's own thermal quanta jostle its own long-wavelength motion via self-interaction?
+    If yes, (2) disappears. Testable in the toy (next iteration).
+ b. Height from counting cells (an amplitude ∝ 1/sqrt(number of cells in the horizon), Sorkin-like) - CAUTION numerology
+    risk; only pursue if it comes out of the toy's own equations, not by matching numbers.
+ c. Featherweight from a shift symmetry of the grid field (a field that only appears through differences is massless).
+    But conformal coupling breaks shift symmetry: tension with (a). Check.
+ d. Decisive data: DESI DR3 binned w(z): the toy's crossing at z ~ 0.46 vs Claim 1's at 0.68 vs Lambda (none).
+    Simons Observatory: N_eff > 0 and the early-electron shift (Claim 2).
