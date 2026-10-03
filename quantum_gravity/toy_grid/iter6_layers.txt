@@ -1,0 +1,30 @@
+ITERATION 6: stacked layers (Coalesce) and short-wave jostling
+
+A. Monte Carlo check of the lumpiness formula (200,000 patches):
+   N =     1, correlation  0.000: Monte Carlo 1.4144   formula 1.4142
+   N =    10, correlation  0.000: Monte Carlo 0.4482   formula 0.4472
+   N =   100, correlation  0.000: Monte Carlo 0.1414   formula 0.1414
+   N =   100, correlation  0.010: Monte Carlo 0.1421   formula 0.1421
+   N =  1000, correlation  0.001: Monte Carlo 0.0447   formula 0.0447
+
+   CMB imprint = 0.16 x lumpiness/sqrt(2). Requirement imprint < 1e-6:
+   N =    7e+01 independent layers: imprint 1.9e-02   too lumpy
+   N =    1e+04 independent layers: imprint 1.6e-03   too lumpy
+   N =    1e+08 independent layers: imprint 1.6e-05   too lumpy
+   N =    1e+10 independent layers: imprint 1.6e-06   too lumpy
+   N =    1e+12 independent layers: imprint 1.6e-07   OK
+   -> need N >~ 2.6e+10 layers, AND layer-to-layer correlation c <~ 6e-06 (else the shared part stays lumpy)
+   (74 = the layer count suggested earlier by the electron-mass hierarchy: far too few, if those are the same layers)
+
+B. Each layer with its own relic radiation: Delta N_eff = N (4/7)(T_s/T_nu)^4 < 0.107 ->
+   N = 1e+10: T_s/T_nu < 2.1e-03  (T_s < 4.1 mK): allowed; amplitude absorbed in the free height
+   N = 1e+12: T_s/T_nu < 6.6e-04  (T_s < 1.3 mK): allowed; amplitude absorbed in the free height
+
+C. Short-wave jostling: noise weight ∝ k^p, memory filter 1/(gamma^2 + k^2), cell cutoff exp(-k^2):
+   p = 0.0: Var ∝ gamma^-1.00 (law needs 1)   half-correlation length at gamma=1e-3:   1596.7  (c/gamma = 1000, cell = 1)
+   p = 0.5: Var ∝ gamma^-0.51 (law needs 1)   half-correlation length at gamma=1e-3:    528.8  (c/gamma = 1000, cell = 1)
+   p = 1.0: Var ∝ gamma^-0.13 (law needs 1)   half-correlation length at gamma=1e-3:     55.9  (c/gamma = 1000, cell = 1)
+   p = 1.5: Var ∝ gamma^-0.01 (law needs 1)   half-correlation length at gamma=1e-3:      7.0  (c/gamma = 1000, cell = 1)
+   p = 2.0: Var ∝ gamma^-0.00 (law needs 1)   half-correlation length at gamma=1e-3:      3.5  (c/gamma = 1000, cell = 1)
+   -> keeping the 1/adot law (exponent 1) forces a correlation length ~ c/gamma (horizon/3); short correlation
+      lengths lose the law (exponent -> 0: Lambda-like). Escape (c) is CLOSED.

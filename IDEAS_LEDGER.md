@@ -243,3 +243,9 @@ Ideas:
   large-angle CMB imprint ~0.16 vs 1e-5 observed (~2e4 too strong, order-of-magnitude estimate). The patch-by-patch toy
   fails as built; Claim 1 itself (global law) unaffected. Escapes: (a) ~1e9 independent components, (b) global
   response only (VCDM-like), (c) noise not dominated by long waves.
+- It. 6 (Coalesce: 'each layer has its own jostle; stacked they give a harmonious wave'; (a) segues to (b)): CONFIRMED as
+  the only surviving microscopic picture. Lumpiness of N stacked layers sqrt(2(1/N + c^2)); CMB needs N >~ 3e10
+  independent layers with layer-to-layer jostle correlation c <~ 6e-6; 74 layers far too few. 'Harmonious' = averaging,
+  not synchronising (locked layers bring lumps back). Each layer needs its own relic jostlers (allowed if T_s <~ 4 mK
+  at N = 1e10). Escape (c) short-wave jostling CLOSED: the 1/adot law needs horizon-scale noise. Open: what are the
+  ~3e10 layers?

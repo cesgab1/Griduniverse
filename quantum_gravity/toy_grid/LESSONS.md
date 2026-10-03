@@ -183,3 +183,38 @@ depend on the coupling.
 
 Claim 1 itself (a law depending on the global expansion) is NOT affected; this hits only the microscopic toy.
 **Next:** decide between (a), (b) and (c), each with its own test.
+
+## Iteration 6 (Coalesce's feedback: each layer has its own jostle; stacked they give a smoother, harmonious wave) (iter6_layers.py/.txt)
+
+**A. Stacked layers turn escape (a) into escape (b).**
+- Lumpiness of N stacked layers: δρ/ρ = √(2(1/N + c²(N−1)/N)), where c is the layer-to-layer correlation of the jostles.
+  Monte Carlo agrees to 4 digits. (My first formula had c instead of c²; the Monte Carlo caught it.)
+- As N grows, the stack's total becomes smooth and deterministic (law of large numbers), so the stack responds as one
+  whole. That is the global response of escape (b).
+- **Requirement:** CMB imprint < 10⁻⁶ needs N ≳ 3×10¹⁰ independent layers, AND correlation c ≲ 6×10⁻⁶.
+- 74 layers (the count hinted at by the electron-mass hierarchy) give an imprint of 0.02, far too lumpy, if those are the
+  same layers.
+- **Subtlety:** "harmonious" must mean averaging, not synchronising. Layers that lock in step (strongly coupled jostles)
+  bring the lumps straight back.
+
+**B. Each layer needs its own jostlers.** That means N relic species, with ΔN_eff = N (4/7)(T_s/T_ν)⁴ < 0.107. For N = 10¹⁰
+the relic must be colder than ~4 mK. That is allowed; the amplitude goes into the free height.
+
+**C. Escape (c), short-wave jostling, is CLOSED.** For noise weight ∝ kᵖ:
+
+| p | Var ∝ γ^−x | correlation length (c/γ = 1000) |
+|---|---|---|
+| 0 | x = 1.00 | 1597 |
+| 0.5 | x = 0.51 | 529 |
+| 1 | x = 0.13 | 56 |
+| 2 | x = 0.00 | 3.5 |
+
+The 1/ȧ law (x = 1) comes only from waves of about horizon size. A short correlation length destroys the law and leaves a
+Λ-like constant.
+
+**Lessons.**
+- The ONLY surviving microscopic picture is Coalesce's stack: a very large number (≳ 3×10¹⁰) of nearly independent
+  layers, each with its own relic jostlers, whose sum behaves as one smooth global tension.
+- The layers must be stacked but not jostled together.
+- **New question:** what are these layers? Not the 74 of the hierarchy, and not time layers (the time accumulation is
+  already the memory).
