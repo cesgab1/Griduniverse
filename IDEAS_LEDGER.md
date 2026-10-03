@@ -313,3 +313,17 @@ toward 2.6e-30 m would squeeze the window shut); Delta N_eff > 0 (small).
 - A light field coupled to electrons -> fifth force on electrons; equivalence-principle tests are extremely tight.
 - Positive link kept: Claim 2 already ties electrons to the grid tension, as a ONE-TIME energy transfer (z ~100-200),
   not ongoing jostling.
+
+## Coalesce (Oct 2026, 'way out there'): an atom type that constantly collects and releases free electrons. Checked:
+- GOOD part: catch-and-release events are discrete and independent = shot noise, exactly the sqrt(N) counting Claim 1
+  needs.
+- Problem: the rate. Events per volume = (number of atoms per volume) x (cycles per atom). Atoms thin out as a^-3
+  (s ≈ 3, excluded). Real case: intergalactic hydrogen is constantly photo-ionised and recombines; cycling per volume
+  = recombination rate ∝ n_e n_p ∝ a^-6 (s ≈ 6, excluded). Dark atoms (atomic dark matter, Kaplan et al. 2010;
+  Cyr-Racine & Sigurdson 2013) thin out the same way. Plus: electrons push through photons (iteration 3) and matter
+  coupling -> fifth force.
+- Insight: the data need events per volume ∝ 1/a. Only two kinds of source thin out that slowly: (i) the temperature of
+  a relic glow (iteration 2), (ii) something living on SHEETS that are not added as space grows (area per volume ∝ 1/a;
+  a frozen domain-wall network behaves this way). If the catch-and-release happens ON comoving sheets, the rate is
+  right. Seed: are those sheets the grid's own walls? (Constraint to check: frozen walls must be light enough not to
+  dominate, the Zel'dovich bound.)
