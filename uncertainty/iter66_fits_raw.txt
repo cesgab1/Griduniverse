@@ -1,0 +1,24 @@
+== PANTHEON U3_light_sqrt_eta
+LCDM   chi2 =   1420.15  (BAO  11.90, SN  1405.73, CMB  2.51)  params [0.3016 0.6845 0.0225]
+TAB    chi2 =   1430.93  (BAO  15.33, SN  1415.36, CMB  0.24)  params [0.2935 0.6973 0.0224]
+LAW    chi2 =   1414.71  (BAO   9.52, SN  1402.54, CMB  2.66)  params [0.31   0.6749 0.0225]
+== PANTHEON U4_clock_sqrt_t
+LCDM   chi2 =   1420.15  (BAO  11.90, SN  1405.73, CMB  2.51)  params [0.3016 0.6845 0.0225]
+TAB    chi2 =   1495.11  (BAO  33.65, SN  1458.53, CMB  2.94)  params [0.2779 0.7233 0.0222]
+LAW    chi2 =   1414.71  (BAO   9.52, SN  1402.54, CMB  2.66)  params [0.31   0.6749 0.0225]
+== DESDOVEKIE U3_light_sqrt_eta
+LCDM   chi2 =   1649.49  (BAO  12.19, SN  1634.97, CMB  2.33)  params [0.302  0.6841 0.0225]
+TAB    chi2 =   1663.31  (BAO  15.96, SN  1647.19, CMB  0.15)  params [0.2946 0.6964 0.0224]
+LAW    chi2 =   1642.27  (BAO   9.54, SN  1630.10, CMB  2.64)  params [0.3101 0.6748 0.0225]
+== DESDOVEKIE U4_clock_sqrt_t
+LCDM   chi2 =   1649.49  (BAO  12.19, SN  1634.97, CMB  2.33)  params [0.302  0.6841 0.0225]
+TAB    chi2 =   1740.18  (BAO  35.67, SN  1700.41, CMB  4.10)  params [0.2806 0.7208 0.0222]
+LAW    chi2 =   1642.27  (BAO   9.54, SN  1630.10, CMB  2.64)  params [0.3101 0.6748 0.0225]
+== UNION3 U3_light_sqrt_eta
+LCDM   chi2 =     42.77  (BAO  11.81, SN    28.39, CMB  2.58)  params [0.3014 0.6846 0.0225]
+TAB    chi2 =     50.76  (BAO  14.86, SN    35.55, CMB  0.35)  params [0.2925 0.6981 0.0224]
+LAW    chi2 =     35.97  (BAO   9.75, SN    23.78, CMB  2.44)  params [0.3106 0.6745 0.0225]
+== UNION3 U4_clock_sqrt_t
+LCDM   chi2 =     42.77  (BAO  11.81, SN    28.39, CMB  2.58)  params [0.3014 0.6846 0.0225]
+TAB    chi2 =     95.39  (BAO  32.17, SN    61.47, CMB  1.76)  params [0.2747 0.7263 0.0222]
+LAW    chi2 =     35.97  (BAO   9.75, SN    23.78, CMB  2.44)  params [0.3106 0.6745 0.0225]

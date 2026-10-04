@@ -202,3 +202,7 @@ Any form is unmeasurable (<= 5e-31 relative at the most curved tested places).
     open pop: e^2 / (4 pi eps0 (hbar/m_e c)) = alpha m_e c^2   ->   delta = alpha = 0.730%
     only point-like charges hold pops (size < hbar/mc): electrons yes; protons, nuclei no
     rho_DE(z_s) = alpha m_e c^2 n_e(z_s),  z_s ~ 116 (end of the gas's thermal tie to the light), then Claim 1
+
+## E24. Claim 1 as a tally (iteration 66)  [reading chosen by today's data; exponent assumed]
+    rho_DE ~ sqrt(N_across),  N_across = (comoving Hubble radius) / (original comoving cell) ~ 1/(aH)   ->  rho_DE ~ (aH)^(-1/2)
+    rival tallies sqrt(eta) and sqrt(t): Delta chi2 +8..+14 and +53..+91 vs Lambda (Claim 1: -5.4..-7.2)

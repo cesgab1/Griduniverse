@@ -887,3 +887,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - The quantum size route (it. 53, Sorkin) is an uncertainty relation: dark-energy stamp x 4-volume ~ hbar.
 - In GR the expansion rate K and the volume are a conjugate pair (York time): Claim 1 depends on K -> possible place where an
   uncertainty relation could set Claim 1's exponent. OPEN idea, not computed.
+
+## Iteration 66: which tally gives the 1/2 (Oct 2026) -- uncertainty/
+- Today's data: SPACE tally (Claim 1, cells across the comoving horizon) beats LIGHT tally (sqrt eta) by 16-21 and CLOCK tally
+  (sqrt t) by 60-98 in chi2. Claim 1's 1/2 = square root of a horizon-crossing cell tally (replaces 'jostling layers').
+- OPEN: why one-dimensional, why original comoving cells.
