@@ -539,3 +539,11 @@ copy' against the checklist and Delta N_eff before adopting (it is a new ingredi
   Parked, not adopted. Re-test only with the full sharing (charge neutrality + sphalerons) and the same pre-set window.
   Iteration 27 (full sharing: neutrality, lepton number, masses): needs m_b' 7.7-9.8 GeV, never in the pre-set 12.5-21 window.
   Fraternal twin Ocean CLOSED in this form. Do not re-propose without a new reason for lighter twin quarks plus a new prediction.
+
+## The book: time has a fixed total of pages x; 'page n of x' (Coalesce, Oct 2026) -- OPEN (borrowed: vacuum-energy sequestering)
+Size from the TOTAL length (fixed fee, not recomputed): rho_DE ~ rho_P/x^2 needs x ~ 3e61 Planck ticks = 52 Gyr total, 3.7x
+today's age (factor ~1-12x for an O(1) constant). 'Why now' becomes 'a random page of a finite book'. Kaloper & Padilla 2014:
+finite total lifetime required (recollapse). Conflicts with pre-registered P4 (coasting future): adopting it = new model.
+Sheets -> book length (iteration 28, book/): sheets = pages fails by >40 orders; sheets setting the tick (species bound) makes
+the book end 800x-1e7x too soon. Sheets are side by side, not pages; x is a separate number. NEXT: test the recollapse
+version's w(z) today (pre-register before fitting).

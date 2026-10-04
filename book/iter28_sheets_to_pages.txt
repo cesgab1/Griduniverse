@@ -1,0 +1,14 @@
+ITERATION 28: sheets -> book length
+
+pages read so far (Planck ticks): 8.08e+60; book length needed for the dark-energy size (rule 1/x^2): 3.02e+61
+  -> total lifetime 52 Gyr, i.e. 3.7 x today's age
+
+N = 1.0e+07:  M1 book lasts 5.4e-37 s (Planck ticks) or 1.7e-33 s (cell ticks);  M2 book lasts 1.63e-02 Gyr = 1.2e-03 x today's age
+N = 3.0e+10:  M1 book lasts 1.6e-33 s (Planck ticks) or 2.8e-28 s (cell ticks);  M2 book lasts 2.97e-04 Gyr = 2.2e-05 x today's age
+N = 1.2e+15:  M1 book lasts 6.5e-29 s (Planck ticks) or 2.2e-21 s (cell ticks);  M2 book lasts 1.49e-06 Gyr = 1.1e-07 x today's age
+
+Verdict: M1 fails by > 40 orders of magnitude (the book would have ended a fraction of a second after the start).
+M2 fails too: more sheets make the book SHORTER (lifetime ~ 1/sqrt(N)); even N = 1e7 ends ~800x too soon.
+Reading: the sheets exist side by side, all at once (they average the jostling NOW); they are not pages in sequence.
+The book's length is a separate number from the sheet count. A fixed total CELL count (space x layers x pages) is the
+grid version of sequestering's 'total spacetime volume', but it also needs the size of space beyond our horizon (unknown).
