@@ -972,3 +972,15 @@ To run pre-registered, with look-elsewhere stated.
 - Far future: rho x horizon^2 -> 0.1865 c^4/G for ANY C. Matching hbar c/(2 l^2 L^2) there gives l = 1.64 l_P (new candidate,
   between Planck 1 and black-hole 2). Today we sit at 0.58 of that attractor value.
 - Split of roles: the smallest length sets the SIZE scale; C sets WHEN dark energy takes over (z ~ 0.68) -> C is the 'why now' number.
+
+## Iteration 72 (Oct 4 2026): reverse calculation from today's measured dark energy -- light_cone_model/PREREG_72.md, iter72_reverse.*
+- Capital C renamed D0 ('dark-energy dial') to avoid confusion with c.
+- Fading history: dark energy overtakes matter at z = 0.32 (t = 10.0 Gyr); acceleration begins z = 0.67 (t = 7.5 Gyr). Age 13.74 Gyr.
+- R1 (matter hits the quantum ceiling): matter x event-horizon^2 at the crossing = 0.76 of the far-future value -> PASS by the
+  pre-set 30% rule, but weak (2 horizon choices, one of 5 tests, 24% off). Lambda gives 0.53 x, so it does distinguish the two.
+- R2: acceleration starts 3.9 Gyr after the star-formation peak; crossing 6.5 Gyr after (clue only).
+- R3: D0 = 3.13 x critical = 5e-123 Planck density, scale 3.28 meV; today's dark energy scale 2.24 meV equals our derived lightest
+  neutrino mass (2.24 meV) -- flagged as look-elsewhere / possibly circular, not counted.
+- R4: the empty light-cone state (aH = c) never happens; aH/c bottoms out at 18.5 at z = 0.67, exactly when acceleration starts.
+- R5 (information counts): FAIL by 1e18 and 1e33.
+- Correction: what_sets_C item 4 used the Lambda horizon; fading gives 0.86 of the far-future value today (horizon 6.24 Gpc).

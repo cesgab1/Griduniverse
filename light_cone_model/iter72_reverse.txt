@@ -1,0 +1,16 @@
+Iteration 72: reverse calculation from today's measured dark energy (D0 = old capital C). PREREG_72.md
+
+Fading (Claim 1): age today 13.74 Gyr | crossing z = 0.321 at t = 10.02 Gyr | acceleration begins z = 0.670 at t = 7.46 Gyr
+Constant (Lambda): age today 13.82 Gyr | crossing z = 0.300 at t = 10.27 Gyr | acceleration begins z = 0.637 at t = 7.68 Gyr
+
+R1 matter x horizon^2 at the crossing (far-future quantum value 0.1865 c^4/G):
+   Fading: event horizon 0.1418 (0.76 x) | Hubble radius 0.0596 (0.32 x)
+   Lambda: event horizon 0.0989 (0.53 x) | Hubble radius 0.0596 (0.32 x)
+   Verdict (event horizon, fading): PASS.
+R2 star-formation peak z = 1.86 at t = 3.52 Gyr; crossing - peak = 6.51 Gyr; acceleration start - peak = 3.94 Gyr (clue only)
+R3 D0 = 3.13 x critical density = 2.40e-09 J/m^3 = 5.18e-123 of the Planck density; energy scale D0^(1/4) = 3.28 meV (today's dark energy: 2.24 meV).
+   Look-elsewhere flag: compare to our derived lightest neutrino 2.24 meV only as a curiosity, not evidence.
+R4 aH/c over history: min 18.5 (at z = 0.67), today 20.9, far future 1.42e+15. Empty light-cone state (aH/c = 1) reached: NEVER.
+R5 horizon entropy at crossing 3.73e+122; CMB+neutrino entropy inside it 1.53e+89 (ratio 2.4e+33); black holes today 3e+104 (ratio 1.2e+18) -> FAIL
+Check Fading: dark energy x event horizon^2 today 0.1607 (0.86 of far-future), at crossing 0.1412; event horizon today 6.24 Gpc
+Check Lambda: dark energy x event horizon^2 today 0.1081 (0.58 of far-future), at crossing 0.0986; event horizon today 5.11 Gpc
