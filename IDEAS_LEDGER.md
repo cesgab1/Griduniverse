@@ -562,6 +562,9 @@ returns). Not new; recorded as the best size estimate so far, not a solution.
   Coalesce (Oct 2026): 'time need not last as long as the universe; nothing needs to be counting' (tally is physical, no
   observer; say 'tally/record', not 'count'). Combined with the cell tally: if the size is set by the FINAL tally of the
   visible region (fixed fee, recorded once), 1/sqrt(N) matches the measured size when the tally reaches 4.4x today's, i.e. time
-  stops ~6.5 Gyr from now (range ~0-20 Gyr for an O(1) rule constant 0.5-2). Space would remain, frozen; no crunch (consistent
-  with iteration 29). Untestable in advance in our model; 'why now' becomes typicality. Related literature: Bousso, Freivogel,
+  stops ~6.5 Gyr from now (range ~0.3-14 Gyr for an O(1) rule constant 0.5-2). No crunch (consistent with iteration 29).
+  CORRECTION (Coalesce clarified): time lasts exactly as long as the universe and does not need observers. So 'time stops,
+  space remains' is NOT the idea: if the book ends, the WHOLE grid stops (space and time together). If instead the universe
+  never ends (our coasting future), the final tally is infinite and this size route fails. In the grid, cells tick by
+  themselves, so there is always a clock (Penrose's 'no clocks, no time' does not apply here). Untestable in advance in our model; 'why now' becomes typicality. Related literature: Bousso, Freivogel,
   Leichenauer & Rosenhaus 2010 ('time will end', arXiv:1009.4698); Penrose (no clocks without mass in the far future).
