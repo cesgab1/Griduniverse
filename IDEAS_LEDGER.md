@@ -952,3 +952,9 @@ To run pre-registered, with look-elsewhere stated.
 ## Iteration 71: black-hole-like dark-energy horizon (Oct 4 2026) -- light_cone_model/
 - Derived holographic c_h = 0.715; size 0.57 x with today's horizon but not pinned self-consistently; shape EXCLUDED by today's data
   (+44 to +47 in chi2). Dark energy is not 'horizon-filling' like a black hole.
+
+## Thought experiment (Coalesce, Oct 4 2026): remove matter, keep only dark energy -- light_cone_model/only_dark_energy.txt
+- Constant dark energy alone = de Sitter: every moment identical (no clock, no 'now'), horizon 5.37 Gpc, glow 2e-30 K, maximum
+  information 3e122. Its size IS the statement 'the universe holds at most ~1e122 units of information'.
+- Fading (Claim 1) dark energy alone: a ~ t^5, history continues (a clock remains), horizon grows ~ t, rho x horizon^2 constant
+  (holographic-type, c_h = 1.25 emerges, not imposed) -> information capacity keeps growing; dark energy ~ 1/information.

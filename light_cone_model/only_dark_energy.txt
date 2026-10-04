@@ -1,0 +1,4 @@
+Only constant dark energy (today's density): horizon radius 5.37 Gpc (17.5 billion light years)
+  horizon temperature 2.2e-30 K; horizon entropy (information) pi R^2/l_P^2 = 3.3e+122
+Only Claim-1 (fading) dark energy: a ~ t^5, H = 5/t, event horizon = c t/4 grows -> rho_DE x horizon^2 = constant
+  i.e. holographic-type relation with coefficient c_h^2 = 25/16 (c_h = 1.25) emerges in the far future
