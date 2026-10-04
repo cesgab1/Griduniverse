@@ -474,3 +474,18 @@ tension with data (earlier test; literature); (2) its time dependence (variance 
   (Omega_DE = const x random); CMB (<~0.02 at recombination) + BBN (<~0.1) vs 0.69 today: 0 of 20000 histories pass.
   Lesson: size and shape are linked; the size must be accumulated/frozen, not recomputed each moment. Candidates: frozen
   at launch of the quiet grid (needs ~1e244 cells then; loses 'why now'), or a ratchet of flips that are never undone.
+
+## Coalesce (Oct 2026): stretchable things already have built-in tension (rubber wants to go back when pulled)
+- Matches established physics: dark energy IS a tension. In gravity, tension = NEGATIVE pressure, and negative pressure
+  makes expansion SPEED UP (pressure gravitates; for w = -1 the tension equals the energy density). The rubber
+  'wanting to go back' locally and the universe accelerating are the same property seen two ways.
+- Built-in = a MATERIAL property, set when the material formed (rubber's chemistry fixes its elasticity). This is the
+  'frozen' option that iteration 21 said is needed: the size should not be recomputed from the horizon each moment.
+- Grid version of rubber: as space stretches, the grid adds cells (new material) to relieve the strain. Dark energy =
+  the RESIDUAL strain left because relief lags behind stretching (stick-slip: a cell is added when local strain reaches a
+  threshold eps_c). Two cases to compute:
+   (a) relief tied to the Planck tick: residual strain ~ H t_P -> rho ~ rho_P (H t_P)^2 ~ H^2 M_P^2: right size but
+       TRACKS the critical density -> same failure as it. 21 (generic for any size tied to H).
+   (b) relief at a fixed material yield threshold eps_c: residual strain cycles 0..eps_c -> rho ~ stiffness eps_c^2/3,
+       CONSTANT in time (frozen, like rubber's yield point), shape from the jostling. Size needs eps_c ~ 3e-62: the open
+       question becomes 'why is the grid's yield threshold so small' - must be derived, not set.
