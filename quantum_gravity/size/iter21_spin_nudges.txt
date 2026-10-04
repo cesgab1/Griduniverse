@@ -1,0 +1,21 @@
+ITERATION 21: dark-energy size from random spin flips of grid cells, with the toy's memory
+
+A. nudges remembered now: N = 6.4e+241; leftover density (alpha = 1) = 6.4e-25 kg/m^3 = 75 x critical
+   (observed dark energy = 0.69 x critical): right order of magnitude - the size problem's 120 orders become a factor ~109
+
+B. but the size then TRACKS the critical density at every epoch: Omega_DE(t) = c_alpha * xi(t), xi random (memory kappa = 3)
+   c_alpha = 0.005: early limits pass  99.9%; today in 0.62-0.76:   0.000%; BOTH: 0.0000%
+   c_alpha = 0.010: early limits pass  63.1%; today in 0.62-0.76:   0.000%; BOTH: 0.0000%
+   c_alpha = 0.020: early limits pass   3.0%; today in 0.62-0.76:   0.000%; BOTH: 0.0000%
+   c_alpha = 0.050: early limits pass   0.0%; today in 0.62-0.76:   0.000%; BOTH: 0.0000%
+   c_alpha = 0.100: early limits pass   0.0%; today in 0.62-0.76:   0.000%; BOTH: 0.0000%
+   c_alpha = 0.300: early limits pass   0.0%; today in 0.62-0.76:   1.420%; BOTH: 0.0000%
+   c_alpha = 1.000: early limits pass   0.0%; today in 0.62-0.76:   4.640%; BOTH: 0.0000%
+
+C. recent history even in the passing cases: Omega_DE jumps every ~1/3 e-fold (memory), so w(z) is noisy, not the smooth
+   single crossing the data prefer (Claim 1 / toy fits); and half of all draws are NEGATIVE.
+
+Reading: the random spin flips give the right SIZE today, but a size that is recomputed from the remembered region at
+every epoch makes dark energy a constant FRACTION of the universe (plus noise). The CMB and nucleosynthesis need it
+negligible early, so today's 0.69 would be an extremely unlikely draw. The size and the shape are not independent:
+the size must be accumulated or frozen, not recomputed from the horizon each moment.

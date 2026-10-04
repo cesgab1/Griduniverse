@@ -469,3 +469,8 @@ tension with data (earlier test; literature); (2) its time dependence (variance 
   spin labels; areas come in units set by them): BORROWED. Count = Planck cells (~1e244) -> the right size. Bonus to
   explore: the electron is a pattern on the grid (two-layer electron), so its spin may be the grid's own spin
   showing through. OPEN.
+- It. 21 (spin-flip size + memory, quantum_gravity/size/README.md): SIZE right within ~100x (N = 6e241 remembered flips ->
+  75x critical vs 0.69x). HISTORY FAILS: a size recomputed from the remembered horizon tracks the critical density
+  (Omega_DE = const x random); CMB (<~0.02 at recombination) + BBN (<~0.1) vs 0.69 today: 0 of 20000 histories pass.
+  Lesson: size and shape are linked; the size must be accumulated/frozen, not recomputed each moment. Candidates: frozen
+  at launch of the quiet grid (needs ~1e244 cells then; loses 'why now'), or a ratchet of flips that are never undone.
