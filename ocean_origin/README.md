@@ -36,3 +36,12 @@ ACT DR6: N_eff = 2.86 +/- 0.13 (arXiv:2503.14454).
 - **C. Self-collisions:** sigma/m ~ 2e-6 to 1e-4 cm^2/g -> PASS (limit ~1 cm^2/g).
 - **Verdict:** a twin world with no light force passes the sky checklist and the radiation limit, but the weight does not come out
   naturally in our crude sharing. Not adopted; parked as the best-motivated Ocean candidate, pending the full sharing calculation.
+
+## Iteration 27: full sharing re-test of the twin weight (window fixed beforehand at 7043860)
+`iter27_full_sharing.py`: chemical equilibrium with electric neutrality, separate lepton number (L = 0, or the standard sphaleron
+leftover L = -(51/28) B), all masses (top, W, b, c, tau) and W bosons. Needed twin b' mass: 7.65-9.75 GeV (f/v = 1.8-2.3)
+across T_f = 7-100 GeV and both lepton choices; the crude estimate gave 8.4-9.5. The extra effects moved it AWAY from the
+window. **FAIL: never inside 12.5-21 GeV.**
+Verdict: the fraternal twin Ocean (dark matter = three-b' twin baryon, sharing through baryon-number crossing) is CLOSED in
+this form. What would still be open (each a new free choice, so an accommodation unless it brings a prediction): a twin with
+lighter twin quarks (non-mirror Yukawas), a different crossing charge, or binding effects. Not pursued.

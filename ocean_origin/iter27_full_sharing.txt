@@ -1,0 +1,21 @@
+ITERATION 27: full sharing (neutrality, lepton number, masses, W) -- re-test of the twin weight window 12.5-21 GeV
+
+   T_f [GeV]   L choice     needed m_b' [GeV]   m_DM [GeV]   (crude iteration-26 value)
+        5      L0                 nan            nan       
+        7      L0                 nan            nan       
+       10      L0                9.35           28.1       9.54
+       20      L0                8.50           25.5       8.62
+       30      L0                8.43           25.3       8.56
+       50      L0                8.64           25.9       8.84
+      100      L0                9.11           27.3       9.5
+
+        5      Lsph               nan            nan       
+        7      Lsph              9.75           29.3       
+       10      Lsph              8.21           24.6       9.54
+       20      Lsph              7.67           23.0       8.62
+       30      Lsph              7.65           22.9       8.56
+       50      Lsph              7.72           23.2       8.84
+      100      Lsph              7.91           23.7       9.5
+
+RESULT: NEVER inside the pre-set window 12.5-21 GeV
+range of needed m_b' over all choices: 7.65-9.75 GeV  ->  f/v = 1.83-2.33

@@ -537,3 +537,5 @@ copy' against the checklist and Delta N_eff before adopting (it is a new ingredi
   Iteration 26 result (ocean_origin/README.md): twin neutrino-only passes Delta N_eff (0.06-0.07 < 0.107); twin photon fails
   (0.13-0.16); self-collisions pass; weight consistency FAILS by 1.3-2.4x in the crude sharing (needs m_b' 8.6-9.5 vs 12.5-21 GeV).
   Parked, not adopted. Re-test only with the full sharing (charge neutrality + sphalerons) and the same pre-set window.
+  Iteration 27 (full sharing: neutrality, lepton number, masses): needs m_b' 7.7-9.8 GeV, never in the pre-set 12.5-21 window.
+  Fraternal twin Ocean CLOSED in this form. Do not re-propose without a new reason for lighter twin quarks plus a new prediction.
