@@ -892,3 +892,12 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - Today's data: SPACE tally (Claim 1, cells across the comoving horizon) beats LIGHT tally (sqrt eta) by 16-21 and CLOCK tally
   (sqrt t) by 60-98 in chi2. Claim 1's 1/2 = square root of a horizon-crossing cell tally (replaces 'jostling layers').
 - OPEN: why one-dimensional, why original comoving cells.
+
+## Idea (Coalesce, Oct 4 2026): why a line, not a volume
+- Time vertical, space horizontal. Tallying a VOLUME (space x time) would need time to be finished ('max time'), which makes no
+  sense if time is emergent and keeps going; the tally is the current row of space, renewed as time passes.
+- Fits: past/whole 4-volume tallies already fail (it. 36-37); the space tally across the horizon wins (it. 66).
+- Reconciliation needed: the TOTAL count of cells keeps growing, but the count IN VIEW across the horizon shrinks once expansion
+  accelerates (cells leave the horizon) -- dark energy follows the row in view, not the running total.
+- Testable: a line tally gives exponent 1/2; a slice-area tally 1; a slice-volume tally 3/2. Data: 0.63 +/- 0.22 (area and volume
+  disfavoured, volume strongly). DESI 2027 (+/- ~0.1) can confirm 'line'.
