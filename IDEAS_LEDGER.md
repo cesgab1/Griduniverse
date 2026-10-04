@@ -444,3 +444,7 @@ Lesson: the microscopic toy has become flexible (ingredients added after failure
   (P3) Delta N_eff > 0 (weak); (P4) coasting future (mild; f > 1).
 Rules adopted from now: (a) every new ingredient must come with a NEW prediction or be marked 'accommodation';
   (b) predictions written down BEFORE new data (pre-registration file); (c) keep counting free choices.
+
+## PRE-REGISTRATION frozen 2026-10-03 18:19 PDT, commit cb5154f: predictions/preregistration/ (PREREGISTRATION.md,
+## predictions.json, prediction_wz.png). P1 crossing z 0.68 (Claim 1) / 0.46 (memory kappa = 3) with binned w and kill
+## criteria; P2 m_e(rec)/m_e0 = 1.004-1.011; P3 0 < dN_eff < 0.107 (weak); P4 consequences. No re-tuning after new data.
