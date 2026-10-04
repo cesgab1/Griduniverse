@@ -1044,3 +1044,11 @@ To run pre-registered, with look-elsewhere stated.
   (~1e-13 s). Nearest real particle clocks: neutrinos (measured splittings 8.6 and 50 meV). Literature: mass-varying-neutrino
   dark energy (Fardon, Nelson & Weiner 2004) ties 'why now' to neutrinos turning slow. Not tested here; our 2.24 meV neutrino
   number is circular (derived from dark energy) and must not be used as evidence.
+
+## Iteration 77 (Oct 4 2026): neutrinos as dark energy's clock -- light_cone_model/PREREG_77.md, iter77_neutrino_clock.*
+- N1 MISS: measured-scale neutrinos slow down far too early (8.65 meV: 113-259 Myr; 50 meV: 8-18 Myr) vs onset 7.5 Gyr.
+- N2: only the unmeasured lightest neutrino could slow down 'now': m1 = 0.40-0.88 meV (a FIT). Testable side-effects: normal
+  ordering required (inverted gives ~102 meV vs bound 64 -> excluded); sum 59.2-59.7 meV vs 58.8 for m1 = 0 -> not measurable today.
+- N3 FAIL: 2.24 meV vs 8.65 (x3.9) and 50.1 (x22). N4: neutrinos are 0.14% of the total, 487 x below dark energy -> cannot BE it.
+- Verdict: the neutrino clock does not explain 'now' with measured numbers; it survives only as a fit of an unmeasured mass.
+  Future test: JUNO mass ordering (inverted would kill it). Next: stars/black holes (idea 3).

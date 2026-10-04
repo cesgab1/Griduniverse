@@ -1,0 +1,15 @@
+Iteration 77: neutrinos as dark energy's clock (measured inputs). PREREG_77.md
+
+N1 when the measured-scale neutrinos slow down (criterion 1 | criterion 2):
+   m2 >= 8.65 meV: z = 15.4 (t = 259 Myr) | z = 27.4 (t = 113 Myr)  vs onset 7.47 Gyr -> MISS
+   m3 >= 50.1 meV: z = 94.0 (t = 18 Myr) | z = 163.5 (t = 8 Myr)  vs onset 7.47 Gyr -> MISS
+
+N2 lightest neutrino mass needed to slow down 'now' (a FIT, not a prediction):
+   acceleration onset z=0.67, crit 1: m1 = 0.88 meV -> sum 59.7 meV (normal; bound 64.2 -> ok) | inverted 101.9 meV -> EXCLUDED
+   acceleration onset z=0.67, crit 2: m1 = 0.51 meV -> sum 59.3 meV (normal; bound 64.2 -> ok) | inverted 101.5 meV -> EXCLUDED
+   dark energy passes matter z=0.32, crit 1: m1 = 0.70 meV -> sum 59.5 meV (normal; bound 64.2 -> ok) | inverted 101.7 meV -> EXCLUDED
+   dark energy passes matter z=0.32, crit 2: m1 = 0.40 meV -> sum 59.2 meV (normal; bound 64.2 -> ok) | inverted 101.4 meV -> EXCLUDED
+   for comparison m1 = 0: sum 58.8 meV -> the 'now' prediction differs from zero by < 1 meV in the sum (unmeasurable today)
+
+N3 energy scales: dark energy 2.24 meV vs 8.65 meV (x3.9) and 50.1 meV (x22.4) -> FAIL
+N4 neutrino energy today (sum 59.5 meV): 0.14% of the total; dark energy is 487 x larger -> neutrinos cannot BE dark energy.
