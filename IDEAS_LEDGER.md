@@ -568,3 +568,9 @@ returns). Not new; recorded as the best size estimate so far, not a solution.
   never ends (our coasting future), the final tally is infinite and this size route fails. In the grid, cells tick by
   themselves, so there is always a clock (Penrose's 'no clocks, no time' does not apply here). Untestable in advance in our model; 'why now' becomes typicality. Related literature: Bousso, Freivogel,
   Leichenauer & Rosenhaus 2010 ('time will end', arXiv:1009.4698); Penrose (no clocks without mass in the far future).
+  Coalesce's fork (Oct 2026): Branch A, the Big Bang is the true beginning -> the universe (and time) also ends -> finite book,
+  size from the final tally, end ~0.3-14 Gyr from now (untestable). Branch B, something existed before the Big Bang -> other
+  big bangs could appear elsewhere -> no end -> size needs a memory mechanism. Caveats noted: a beginning does not imply an end
+  in physics (it is an assumption, labelled as such); the size match was USED to set the end date, so it is a fit, not support;
+  Branch A needs a second, independent number to count as supported. Coalesce's earlier 'smooth grid existed before the Big
+  Bang' (arrow-of-time discussion) belongs to Branch B -- the two views must be reconciled.
