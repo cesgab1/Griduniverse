@@ -1002,3 +1002,14 @@ To run pre-registered, with look-elsewhere stated.
 - Lesson: with the fading law, setting the dial at the Bang needs a share of 1e-140 put in by hand -- the old fine-tuning
   problem comes back. Either the law is different near the Bang (untested), or the dial is set LATE, by something with its own
   clock that switches on after the Bang (stars / black holes: idea 3).
+
+## Iteration 75 (Oct 4 2026): 'starts big at the Bang, fades fast, freezes' vs the early record -- PREREG_75.md, iter75_fade_freeze.*
+- Start: share 1/2 at the Planck time. n = 3 (matter-like): impossible. n = 4 (radiation-like): EXCLUDED (16% at 3 minutes vs 4%
+  limit; 4.5% at transparency vs 0.36%). n = 6 (kination, a field's pure motion energy): PASSES both limits easily.
+- n = 6 freezes at T = 52 MeV (constant endpoint) or 10 MeV (fading endpoint). The 52 MeV is x2.9 from QCD (150 MeV) -- inside the
+  x3 window, but disclosed in advance as seen before registering; counts for nothing (1-in-3 chance level).
+- Physics picture: a field rolls fast (energy drops as a^-6), then stops on a plateau; the plateau height becomes dark energy.
+  That height is a free number -> the dial is MOVED (to 'how high the plateau'), not explained.
+- Today's data cannot test the kination stage (it leaves dark energy far below the early limits); a boosted primordial
+  gravitational-wave background is the future test.
+- Bang question closed for now: the early record allows a big start only via the fastest possible fade, and the dial survives.

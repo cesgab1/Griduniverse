@@ -1,0 +1,10 @@
+Iteration 75: starts at share 1/2 at the Planck time, fades as a^-n, freezes into the late-time value. PREREG_75.md
+
+n = 3, A constant: never reaches the late-time value before today -> IMPOSSIBLE
+n = 3, B fading law: never reaches the late-time value before today -> IMPOSSIBLE
+n = 4, A constant: freezes at a = 7.14e-02 (T = 3.29e-12 GeV) | share at 3 min 1.6e-01 (limit 0.04), at transparency 4.5e-02 (limit 0.0036) -> EXCLUDED | near event: none
+n = 4, B fading law: freezes at a = 7.79e-02 (T = 3.02e-12 GeV) | share at 3 min 1.6e-01 (limit 0.04), at transparency 4.5e-02 (limit 0.0036) -> EXCLUDED | near event: none
+n = 6, A constant: freezes at a = 3.19e-12 (T = 5.25e-02 GeV) | share at 3 min 9.4e-31 (limit 0.04), at transparency 1.3e-09 (limit 0.0036) -> PASSES | near event: ['QCD']
+n = 6, B fading law: freezes at a = 1.70e-11 (T = 9.87e-03 GeV) | share at 3 min 5.6e-34 (limit 0.04), at transparency 2.8e-10 (limit 0.0036) -> PASSES | near event: none
+
+Event temperatures (GeV): Planck 1.22e+19, electroweak 1.60e+02, QCD 1.50e-01, e+e- annihilation 5.00e-04, first 3 minutes 7.00e-05, equality 7.98e-10, transparency 2.56e-10
