@@ -1,0 +1,10 @@
+ITERATION 40: black-hole entropy coefficient from the grid (induced gravity)
+
+entanglement per cell area, one field: s0 = 0.0603
+cell size from S = A/4: a = 0.491 x sqrt(N) x l_P   (factor 0.49: O(1) -> consistent; species-bound guess was 1)
+window: N = 2.9e+07 (smoothness) to 5.2e+15 (gamma-ray bursts) -> cell size 4.3e-32 to 5.7e-28 m
+gravity's true cutoff (energy where the grid shows): 3.5e+11 to 4.6e+15 GeV
+
+Reading: with gravity induced by the layers, Bekenstein-Hawking's 1/4 comes out automatically (borrowed theorem), and
+the grid's own entanglement fixes the previously unknown factor linking cell size to the number of layers (0.49).
+Not new physics by itself: it ties three of our numbers (layers, cell size, entropy) into one consistent relation.

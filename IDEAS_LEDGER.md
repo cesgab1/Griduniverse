@@ -711,3 +711,8 @@ Well-shaped cells: grid action -> Einstein action (ratio 1.12 at 384k cells, err
 grid: no convergence at 4k-64k cells (scatter ~1, sliver cells). Constraint: cells must be well-shaped (as in CDT) or gravity read
 off a coarse-grained grid. First run failed partly by design (bump too narrow); one revision bug (corner points) caught by the
 flat-space check and discarded.
+
+## QG: black-hole entropy 1/4 (iteration 40, quantum_gravity/entropy/) -- consistent, borrowed theorem
+With gravity induced by the N layers (Sakharov), entanglement entropy = A/(4G) automatically (Jacobson 1994; Susskind-Uglum
+1994) for scalar fields like our tension field. The grid's measured entanglement (s0 = 0.0603 per cell area) then fixes
+a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7-5.2e15, cell 4.3e-32 to 5.7e-28 m.
