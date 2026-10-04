@@ -513,3 +513,10 @@ tension with data (earlier test; literature); (2) its time dependence (variance 
   +45.5 / +41.5 (Claim 1: -5.4 / -7.2 / -6.8). Best c ~0.7 -> w0 ≈ -1.10 (phantom NOW, crossing the wrong way); BAO, SN
   and CMB all object. Horizon-based size: right magnitude, holographic SHAPE strongly excluded; supports Claim 1's
   crossing order. (First run had a z <= 30 truncation bug; fixed, no material change.)
+
+## Trampoline: Pools (halos) sag the sheets and add tension (Synthesis + Coalesce, Oct 2026) -- CLOSED for the size/history
+Motivated by the sky checklist (`quantum_gravity/size/ocean_sky_checklist.md`): DM is constant to a few % since the CMB, so DE
+cannot be drained from it; only its arrangement can matter. Pre-registered (commit 2abb7e2), then fitted: tension ~ pooled
+fraction gives Delta chi^2 +32 to +50; tension ~ sag energy +282 to +596. Bare size 4.6e-7 of the need. The local (galaxy)
+version is Family 1 (static links -> Newton). Lesson: the data read the expansion clock (peak at q = 0), not the structure
+clock. Do not re-propose clumping-driven dark energy without a reason it would peak at the onset of acceleration.

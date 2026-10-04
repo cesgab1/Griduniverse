@@ -1,0 +1,20 @@
+== PANTHEON T1_fcoll
+LCDM   chi2 =   1420.15  (BAO  11.90, SN  1405.73, CMB  2.51)  params [0.3016 0.6845 0.0225]
+TAB    chi2 =   1461.46  (BAO  25.90, SN  1433.00, CMB  2.56)  params [0.2855 0.7133 0.0222]
+== PANTHEON T2_sag
+LCDM   chi2 =   1420.15  (BAO  11.90, SN  1405.73, CMB  2.51)  params [0.3016 0.6845 0.0225]
+TAB    chi2 =   1933.25  (BAO 144.07, SN  1739.24, CMB 49.93)  params [0.4278 0.5609 0.0231]
+== DES T1_fcoll
+LCDM   chi2 =   1649.49  (BAO  12.19, SN  1634.97, CMB  2.33)  params [0.302  0.6841 0.0225]
+TAB    chi2 =   1699.90  (BAO  26.78, SN  1669.79, CMB  3.34)  params [0.2875 0.7116 0.0222]
+== DES T2_sag
+LCDM   chi2 =   1649.49  (BAO  12.19, SN  1634.97, CMB  2.33)  params [0.302  0.6841 0.0225]
+TAB    chi2 =   2245.47  (BAO 141.91, SN  2050.15, CMB 53.41)  params [0.4259 0.5615 0.0231]
+== UNION3 T1_fcoll
+LCDM   chi2 =     42.77  (BAO  11.81, SN    28.39, CMB  2.58)  params [0.3014 0.6846 0.0225]
+TAB    chi2 =     74.29  (BAO  25.42, SN    47.02, CMB  1.85)  params [0.2835 0.7151 0.0222]
+== UNION3 T2_sag
+LCDM   chi2 =     42.77  (BAO  11.81, SN    28.39, CMB  2.58)  params [0.3014 0.6846 0.0225]
+TAB    chi2 =    324.82  (BAO 147.70, SN   131.94, CMB 45.17)  params [0.4306 0.5599 0.0231]
+LCDM   chi2 =   1420.15  (BAO  11.90, SN  1405.73, CMB  2.51)  params [0.3016 0.6845 0.0225]
+TAB    chi2 =   1420.15  (BAO  11.90, SN  1405.73, CMB  2.51)  params [0.3016 0.6845 0.0225]

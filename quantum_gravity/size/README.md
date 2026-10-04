@@ -86,3 +86,22 @@ only the Ocean's ARRANGEMENT (pooling into halos) can change. Predicted historie
 - T2 (tension ~ total sag energy rho_m <|Phi|>): peaks at z ~ 2, fades since -> w0 = -0.19, crossing z ~ 2.0. Far too fast.
 - Expectation written now: both worse than Lambda; T2 badly. Bare size: sag = 4.6e-7 of the need (amplifier ~2e6, not derived).
 - The galaxy-scale (local) version of the trampoline is Family 1 (static links -> plain Newton); not re-run.
+
+### Iteration 24 results (part 2, after the commit 2abb7e2 above)
+Fit to DESI DR2 BAO + Planck distance priors + each supernova set; fixed shape, no dark-energy parameter
+(`iter24_part2_fits.txt`; new `TAB` option in fit_law.py, validated: a flat shape reproduces Lambda to 0.00).
+
+| | Pantheon+ | DES-Dovekie | Union3 |
+|---|---|---|---|
+| T1 (fraction in Pools) | +41.3 | +50.4 | +31.5 |
+| T2 (sag energy) | +513 | +596 | +282 |
+
+(Delta chi^2 vs Lambda; Claim 1 is -5.4 / -7.2 / -6.8.) Both excluded, as pre-registered. Bare size: 4.6e-7 of the need.
+
+**Lesson (the useful part).** Any tension set by clumping follows the STRUCTURE clock. Clumping only grows (T1: dark energy
+always rising, w < -1, the opposite of the hint), or its energy peaks at z ~ 2 and drains as matter thins (T2). The data want
+dark energy that peaked near z ~ 0.5-0.7 and is fading: Claim 1's peak sits exactly at the onset of acceleration (q = 0).
+So the clock the data read is the EXPANSION clock (adot), not the structure clock. Dark matter enters only through its
+thinning (it sets when q crosses 0), not through its pooling. A size mechanism must be tied to the expansion rate, yet not
+track H^2 (iteration 21). Mixing T1 and T2 to place a peak at z ~ 0.6 would be an accommodation (new free weight, no new
+prediction), so it was not done.

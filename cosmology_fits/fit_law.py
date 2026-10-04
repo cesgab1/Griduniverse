@@ -63,6 +63,10 @@ def E_of_z(model, Om, h, extra):
     if model == "w0wa":
         w0, wa = extra
         return np.sqrt(Om * zp**3 + Or * zp**4 + OL * zp**(3 * (1 + w0 + wa)) * np.exp(-3 * wa * ZG / zp))
+    if model == "TAB":   # fixed, pre-computed dark-energy shape rho_DE(z)/rho_DE(0) from file TABFILE (no DE parameter)
+        tz, ts = np.loadtxt(os.environ["TABFILE"], unpack=True)
+        sh = np.interp(ZG, tz, ts, right=ts[-1])
+        return np.sqrt(Om * zp**3 + Or * zp**4 + OL * sh)
     # LAW: integrate d ln rho / d ln a = BETA (q + 1 - STRETCH) backwards; dark energy is negligible above z ~ 20
     def rhs(lna, y):
         a = np.exp(lna); rde = np.exp(y[0]); rm, rr = Om * a**-3, Or * a**-4
@@ -135,6 +139,7 @@ Ndata = len(bao) + len(z_sn) + 3
 results = {}
 ONLY = os.environ.get("ONLY")
 for model, starts in [("LCDM", [[0.31, 0.68, 0.0224], [0.30, 0.69, 0.0223]]),
+                      ("TAB", [[0.31, 0.68, 0.0224], [0.30, 0.67, 0.0223]]),
                       ("LAW", [[0.31, 0.68, 0.0224], [0.30, 0.67, 0.0223]]),
                       ("w0wa", [[0.31, 0.68, 0.0224, -0.8, -0.6], [0.32, 0.66, 0.0224, -0.7, -1.0], [0.30, 0.69, 0.0224, -0.95, -0.1]])]:
     if ONLY and model not in ONLY.split(","): continue
