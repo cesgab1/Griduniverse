@@ -1,0 +1,16 @@
+ITERATION 68: vacuum-energy route to the size -- every convention (expectations pre-registered)
+
+4-volumes: past light cone 4.36e+103 m^4, visible-region cylinder 1.32e+106 m^4 (ratio 303.2)
+
+ cell length            4-volume         factor   rho_DE / measured
+ Planck            past light cone      0.5       17.439
+ Planck            past light cone      1.0       34.878
+ Planck            visible cylinder     0.5        1.001
+ Planck            visible cylinder     1.0        2.003
+ reduced Planck    past light cone      0.5        0.694
+ reduced Planck    past light cone      1.0        1.388
+ reduced Planck    visible cylinder     0.5        0.040
+ reduced Planck    visible cylinder     1.0        0.080
+
+spread: 0.040 - 34.88 x measured (2.9 orders of magnitude)
+Each value would TRACK the total density if re-set continuously (excluded); it can only be today's size if frozen.

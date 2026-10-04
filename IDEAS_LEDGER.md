@@ -921,3 +921,7 @@ To run pre-registered, with look-elsewhere stated.
 ## Iteration 67: neutrino mass from dark energy (Oct 2026) -- neutrinos/
 - m_lightest = (rho_DE)^(1/4) = 2.24 meV -> sum 61.3 meV: passes (58.7-64.2) but weakly (66% of a broad prior passes; normal
   ordering is required by DESI anyway). Consistent, not evidence; no inference yet.
+
+## Iteration 68: vacuum-energy route to the size (Oct 2026) -- vacuum/
+- Explains 'tiny, not 10^120'; size within 0.04-35 x measured across 8 conventions (two near 1: 1.00 and 0.69; ~20% chance).
+  Not a prediction. Needs: cell size, which 4-volume, why the stamp freezes.
