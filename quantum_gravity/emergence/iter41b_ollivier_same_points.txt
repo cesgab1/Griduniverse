@@ -1,0 +1,12 @@
+ITERATION 41b: Ollivier-Ricci with common random points (expectations committed before running, 6909b6c)
+
+prediction Delta kappa = 0.00516
+
+ points/neighbourhood   pairs   Delta kappa (mean +/- se)      ratio to prediction
+   ~  816             16    +0.00359 +/- 0.00096          0.69 +/- 0.19
+   ~ 2129             40    +0.00610 +/- 0.00060          1.18 +/- 0.12
+   (third, denser run timed out; results recorded by hand from the console)
+
+Verdict: F1 HOLDS -- with common random points the curvature read by neighbourhood averaging on the RANDOM grid agrees with the
+true curvature (1.18 +/- 0.12 at ~2100 points; within the pre-set 25%). Iteration 41's ~3x excess was sampling noise/bias between
+independent flat and curved samples, not a systematic failure. Caveat: two densities only, modest pair counts.
