@@ -1,0 +1,12 @@
+ITERATION 57: delta = alpha (0.730%) against things we already know (expectations pre-registered)
+
+K1 GD133: local version predicts Delta mu/mu = -7.3e-03; measured -2.7e-05 +/- 4.7e-05 -> off by 155 sigma
+K1 G29-38: local version predicts Delta mu/mu = -7.3e-03; measured -5.8e-05 +/- 3.8e-05 -> off by 190 sigma
+   -> LOCAL version EXCLUDED; mechanism must be global (cosmic photon bath / cosmic frame) and one-way.
+
+K2 CMB+BAO+SN at m_e = 1.0073: Delta chi2 vs LCDM = -3.5 (best possible -3.8); H0 = 69.2 km/s/Mpc (SH0ES 73: tension eased, not solved)
+K3 BBN (PRIMAT): predicted m_e = 0.5147 MeV vs 0.51 +/- 0.007 -> +0.7 sigma
+K3 BBN (NACRE II): predicted m_e = 0.5147 MeV vs 0.504 +/- 0.007 -> +1.5 sigma
+
+K4a field energy outside the pop size: alpha/2 = 0.365% -> outside the 0.40-0.90% window: NOT the mechanism as stated
+K4b frame lock: right structure (global, one-way, ends when the cosmic photon fluid lets go), no numerical factor: OPEN

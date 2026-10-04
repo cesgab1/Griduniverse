@@ -832,3 +832,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - 14 pre-declared countable numbers: one hit, alpha = 0.73% (not blind; lead only). 1/N (layers) merely consistent at N = 163.
 - If delta = alpha: payday z = 116, 21-cm step 12.1 MHz, CMB 0.5 sigma; zero free choices for delta IF a mechanism is found.
 - OPEN: mechanism for 'extra mass = alpha x m_e while hit by light, released when hits stop'.
+
+## Iteration 57: delta = alpha vs known facts (Oct 2026) -- pops/
+- Passes CMB+BAO+SN (Delta chi2 -3.5, H0 69.2) and BBN (0.7-1.5 sigma). Local version excluded by white dwarfs (>150 sigma):
+  mechanism must be global and one-way. 'Field energy outside pop size' gives alpha/2 (miss). 'Frame lock' = right structure,
+  no factor. Lead, not result.
