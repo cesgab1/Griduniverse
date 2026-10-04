@@ -587,3 +587,12 @@ changed). This is 'relational time' (Barbour, 'The End of Time'; York time = mea
 K = 3H our preferred slicing uses; cosmologists already use the size of the universe as a clock). In our grid, cells are being
 added, so the total cell count is a built-in clock that nobody has to read. Possible link to the book: the page number = total
 cell count. Untested; no new prediction yet (relational-time models usually reproduce the same physics).
+
+## Random cell addition driven by electrons popping in and out (Coalesce, Oct 2026) -- CLOSED (both readings)
+Real free electrons: 99.98% were captured into atoms at recombination (z ~ 1100) and freed again at reionization (z ~ 7); the
+expansion shows no stutter at either, and their density dilutes as a^-3 while the needed addition per volume tracks 3H -> no.
+Virtual electron pairs (vacuum fluctuations, real: Lamb shift, Casimir): their total energy (m_e/M_P)^4 = 3e-90 is 3e33x too big
+(the electron version of the cosmological-constant problem); the random leftover of pair events in our horizon history is 9e43x
+too small; one pair would have to add ~1e29 cells; and their rate is the same at all times, so they act like a constant, not
+the past history. The same leftover counted over PLANCK cells gives 6.9e-123 (6x measured; 2x with the whole visible past).
+Lesson: if growth is random, the randomness lives at the cell level, not at the electron level.
