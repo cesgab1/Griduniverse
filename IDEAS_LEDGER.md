@@ -551,3 +551,11 @@ version's w(z) today (pre-register before fitting).
   (analytic + numeric): no turnaround, coasting forever (same as the toy, iteration 14). Our mechanism FORBIDS a crunch, so a
   finite book could only end by the grid stopping, with no precursor. Book PARKED: untestable within this model; P4 unchanged.
   Reopen only if data show dark energy heading below zero (which would also contradict Claim 1).
+
+## Count every cell of the visible universe, whole past (Coalesce: 'what we can see is all there is', Oct 2026)
+Proper 4-volume of today's visible region (comoving radius 46.5 Gly) over the whole past = 1.9e245 Planck cells; the counting
+rule rho_DE ~ 1/sqrt(N) gives 2.3e-123 vs measured 1.1e-123 (factor 2.1). This is Sorkin's everpresent-Lambda estimate (predicted
+before 1998). Counting each of N layers separately ruins it (2e3-2e7 too small), so if counting is right the layers must be
+species inside one cell (ledger candidate 1), not separate places. SAME CATCH as iteration 21: the visible region grows, so the
+count grows and the size tracks the horizon (fails the early-universe history) unless the count is fixed once ('why today'
+returns). Not new; recorded as the best size estimate so far, not a solution.
