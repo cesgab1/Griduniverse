@@ -872,3 +872,7 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - NOT solid: payday convention (k = 0.5-2) spans 0.54-2.76 x measured; Claim 1 exponent spans 1.04-2.34. Rule followed: the
   today's-data (H0 / late switch) test was NOT run. Electron route = dark energy to within ~x2 from first principles.
 - Next: derive a convention-free payday law; DESI 2027 to fix the exponent.
+
+## Iteration 64: threshold-free size (Oct 2026) -- electron_pays/
+- Real calculation (gas-temperature hold, gradual one-way release): 26 x measured (beta 1/2); 20-66 x (measured beta);
+  second measure 9 x. The near-match 1.2 x was an artefact of a sharp payday. 'All electrons pay alpha' FAILS.
