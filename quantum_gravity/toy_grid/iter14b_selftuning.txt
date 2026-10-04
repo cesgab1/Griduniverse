@@ -1,0 +1,22 @@
+ITERATION 14b: self-tuning of a negative baseline by the jostled tension (kappa = 3, quadratic)
+
+baseline     -0.34: t =    1 Hubble times: a =     2.25, H/H0 = 6.633e-01, a*H = 1.489, A/(6 a |base|) = 1.349e+00
+baseline     -0.34: t =   10 Hubble times: a =    25.44, H/H0 = 1.160e-01, a*H = 2.949, A/(6 a |base|) = 1.191e-01
+baseline     -0.34: t =  100 Hubble times: a =   297.42, H/H0 = 1.018e-02, a*H = 3.029, A/(6 a |base|) = 1.018e-02
+baseline     -0.34: t =  400 Hubble times: a =  1206.12, H/H0 = 2.511e-03, a*H = 3.029, A/(6 a |base|) = 2.511e-03
+
+baseline    -10.00: t =    1 Hubble times: a =     2.04, H/H0 = 5.164e-01, a*H = 1.052, A/(6 a |base|) = 5.247e-01
+baseline    -10.00: t =   10 Hubble times: a =    11.63, H/H0 = 9.187e-02, a*H = 1.068, A/(6 a |base|) = 9.192e-02
+baseline    -10.00: t =  100 Hubble times: a =   107.83, H/H0 = 9.913e-03, a*H = 1.069, A/(6 a |base|) = 9.913e-03
+baseline    -10.00: t =  400 Hubble times: a =   428.53, H/H0 = 2.495e-03, a*H = 1.069, A/(6 a |base|) = 2.495e-03
+
+baseline  -1000.00: t =    1 Hubble times: a =     2.00, H/H0 = 5.002e-01, a*H = 1.001, A/(6 a |base|) = 5.002e-01
+baseline  -1000.00: t =   10 Hubble times: a =    11.01, H/H0 = 9.092e-02, a*H = 1.001, A/(6 a |base|) = 9.092e-02
+baseline  -1000.00: t =  100 Hubble times: a =   101.07, H/H0 = 9.902e-03, a*H = 1.001, A/(6 a |base|) = 9.901e-03
+baseline  -1000.00: t =  400 Hubble times: a =   401.28, H/H0 = 2.431e-03, a*H = 0.975, A/(6 a |base|) = 2.494e-03
+
+-> Whatever the size of the negative baseline, the expansion never turns around: the jostled energy ∝ 1/H grows as H
+   falls and cancels the baseline, leaving H -> 0 with a H -> constant (coasting). The universe does NOT recollapse:
+   no future bounce from this route. But it is a SELF-TUNING behaviour (cf. 'self-tuning' / 'well-tempered' dark-
+   energy literature, e.g. Charmousis et al. 2012 'Fab Four'; Appleby & Linder 2018). Caveat: it only cancels a
+   NEGATIVE baseline (the jostled energy is positive) and here the size of A was chosen to match today's H0.

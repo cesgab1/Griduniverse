@@ -362,3 +362,8 @@ bounce + inflation is allowed.
    linked to the low CMB quadrupole and power asymmetry). Our layer lumps ADD power at l = 2-3. Both act on the same
    multipoles: a combined fit could constrain bounce and layer count together. Caution: two effects tuned to cancel
    would be a fudge; only a joint, parameter-counted fit is meaningful.
+- Its. 12-15 (bounce/baseline/future/self-tuning, cross-applied): real Planck low-l likelihood: bounce suppression
+  only dchi2 -1.4 (not evidence); layer bound N_eff >= 2.9e7 (matches it. 9). Jostled fraction f: data want f >= 1,
+  mildly f > 1 (negative baseline) -> 'large positive baseline' (it. 11) disfavoured. Negative baseline never
+  recollapses: jostled energy ∝ 1/H self-tunes it away -> coasting future, bounce must be one-time (no cycle). Self-
+  tuning + stability bound: H would be >= 1e26x too large -> size problem moved, not solved.

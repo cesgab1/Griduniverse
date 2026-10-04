@@ -1,0 +1,9 @@
+ITERATION 15: self-tuning vs stability (eV units)
+
+baseline as small as observed dark energy       : stable self-tuning needs H >= 1.0e-06 eV  = 7e+26 x today's H0
+baseline ~ (1 meV)^4                            : stable self-tuning needs H >= 3.5e-07 eV  = 2e+26 x today's H0
+baseline ~ (1 TeV)^4 (particle-physics vacuum)  : stable self-tuning needs H >= 3.5e+13 eV  = 2e+46 x today's H0
+
+-> With a stable coupling, self-tuning would hold the expansion rate at >= 1e26-1e46 times today's value: it cannot produce
+   our small H. The self-tuning attractor is real in the toy, but it does not solve the size problem; it moves it.
+   (Without the stability bound it would 'work' for any baseline, which is why the bound matters.)

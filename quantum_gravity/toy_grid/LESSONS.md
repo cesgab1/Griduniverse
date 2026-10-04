@@ -350,3 +350,48 @@ Gravitational waves are capped (Ω_GW ≲ 10⁻⁶) and also fail.
   - MODULATED by the jostling, which sets how it changes, not how big it is.
 
   That is the same logical status as Claim 1, which already has a free normalisation.
+
+## Iterations 12–15 (bounce, baseline, future, self-tuning): each applied to the others
+
+**12: bounce vs layers, with the REAL Planck low-ℓ TT likelihood** (iter12_bounce_vs_layers.txt)
+- A bounce-before-inflation suppression of large-angle power improves the fit by only Δχ² = −1.4 (k_c = 3×10⁻⁴/Mpc),
+  for one extra parameter (AIC +0.6). The low quadrupole is NOT evidence for a bounce.
+- Layer lumps alone: N_eff ≥ 2.9×10⁷ (2σ, real likelihood). This matches iteration 9's independent estimate (3.2×10⁷),
+  a good cross-check of the corrected method.
+- With the bounce suppression in place, the bound is 3.1×10⁷. The bounce does not loosen it.
+
+**13: how much of dark energy is jostled?** (iter13_baseline_fraction.txt) ρ_DE = OL[(1 − f) + f × toy(a)], with κ = 3
+and quadratic energy. Δχ² vs Λ:
+
+| f | 0.25 | 0.5 | 0.75 | 1 | 1.25 | 1.5 | 2 | 3 |
+|---|---|---|---|---|---|---|---|---|
+| Pantheon+ | −2.8 | −4.8 | −6.2 | −7.1 | −7.4 | −7.3 | −5.7 | +1.6 |
+| DES-Dovekie | −3.3 | −5.9 | −7.9 | −9.2 | −9.9 | −10.2 | −9.5 | −3.7 |
+| Union3 | −2.7 | −4.9 | −6.9 | −8.5 | −9.8 | −10.9 | −12.2 | −12.2 |
+
+- The data want ALL of dark energy to be the jostled kind, f ≥ 1. They mildly prefer f > 1, i.e. a slightly NEGATIVE
+  baseline (improvement over f = 1 of 0.3 / 1.0 / 3.7 for one parameter).
+- **Applied to iteration 11:** "large positive baseline + small modulation" is DISFAVOURED (f = 0.25 loses most of the
+  gain). The size cannot be parked in a positive constant.
+
+**14: does a negative baseline make the universe turn around (future bounce, cycle)?** (iter14_future.txt,
+iter14b_selftuning.txt)
+- No, for any f up to 3 and even for a baseline 1000× today's dark energy.
+- The jostled energy ∝ 1/H grows as the expansion slows and cancels the baseline. The universe settles into steady
+  coasting (aH → constant, H → A/(6a|L|)).
+- So the toy SELF-TUNES a negative baseline away and never recollapses.
+- **Applied to the bounce:** our bounce must be a one-time past event, not a cycle. Steinhardt–Turok-style relaxation
+  over cycles is not available in this toy.
+
+**15: does self-tuning solve the size problem once iteration 10's stability bound is applied?**
+(iter15_selftune_vs_stability.txt)
+- No. With a stable coupling, self-tuning would pin the expansion rate at ≥ 10²⁶ – 10⁴⁶ times today's.
+- The attractor is real, but it moves the size problem instead of solving it.
+
+**Combined lessons.**
+- The jostling picture stands for the SHAPE: data prefer the jostled part to be all of dark energy, with memory κ = 3
+  from Hubble friction and stacked layers (N_eff ≥ 3×10⁷ from real Planck data).
+- The SIZE is unexplained by every route tried: direct, electrons, gravity, a positive baseline, self-tuning.
+- The bounce is allowed but not favoured by the large-angle sky, and in this toy it can only be a one-time past event.
+- A mild new hint (negative baseline, f > 1, up to ~1.9σ in Union3) predicts the universe ends up COASTING rather than
+  accelerating forever.
