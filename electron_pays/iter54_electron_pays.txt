@@ -1,0 +1,15 @@
+ITERATION 54: does the electron's handover pay for dark energy? (expectations pre-registered)
+
+electrons today 2.207e-07/cm^3; dark energy today 3279 eV/cm^3; measured delta = 0.0099 +/- 0.0049
+
+ switch criterion                       z_s    delta needed (Claim 1)   (pure Lambda)   z-score   21-cm step
+ Compton heating rate = expansion rate    124      0.60%                   1.51%       +0.8     11.4 MHz
+ gas 10% colder than CMB                  243      0.07%                   0.20%       +1.9      5.8 MHz
+ halfway to free cooling (slope 1.5)      138      0.41%                   1.08%       +1.2     10.2 MHz
+ gas 50% colder than CMB                   75      2.98%                   6.64%       -4.1     18.7 MHz
+
+E2 after reionisation: max Compton/H for z < 15 = 1.954 (at z = 7.2); at z = 0.89: 0.049; at z = 0: 0.007
+   smooth reversible switch (extra mass ~ delta x min(1, Compton/H)): Delta mu/mu at z = 0.89 ~ 4.8e-04 vs bound 3.6e-7 -> EXCLUDED
+   threshold (Compton/H must exceed 1) or one-way handover: no re-coupling, methanol bound safe.
+
+E3 energy released at z = 124: 2181 eV/cm^3 = 3.4e-05 of the CMB energy (FIRAS 6e-5) -- into gas it would heat it to ~1e7 K and re-ionise everything (optical depth ~4 vs 0.054): it must go to the grid.

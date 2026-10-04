@@ -806,3 +806,10 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
   loses its layer-jostling motivation.
 - Testable: wrap-around space just beyond 27.5 Gpc (CMB repeated patterns); no energy-dependent photon delays (null).
 - Free choices 3 (c_rule, independent layers, whole-book stamp): partly accommodation. SM count ~118 fits only for c_rule >~ 1.7.
+
+## Iteration 54: non-quantum size of dark energy -- the electron pays (Oct 2026) -- electron_pays/
+- Switch at 'Compton rate = expansion rate' (z 124) predicts delta = 0.60%; measured 0.99 +/- 0.49% (0.8 sigma). Look-elsewhere:
+  4 criteria tried (one 4.1 sigma off).
+- SURPRISE: reionisation re-couples gas to the CMB (Compton/H up to 1.95 at z ~ 7) -> any reversible switch excluded; handover
+  must be one-way.
+- FORK: electron route vs cell-tally route (iteration 53). Tests: delta to ~0.25% precision; 21-cm step 11.4 MHz; CMB topology.

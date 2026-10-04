@@ -187,3 +187,8 @@ Any form is unmeasurable (<= 5e-31 relative at the most curved tested places).
     rho_DE = c_rule sqrt(N) hbar c / (a^2 sqrt(V_book)),   a = 0.49 sqrt(N) l_P   ->   rho_DE = c_rule (4.15/sqrt(N)) rho_P / sqrt(N4_book)
     whole book: S x T = 4.0 c_rule^2 x 17.2 / N ;  space >= CMB topology floor (S >= 1.70)  ->  N <= 41 c_rule^2
     consequences: cells 1-6 l_P, cutoff ~1e19 GeV (no photon delays); finite flat wrap-around space just beyond 27.5 Gpc; time ends
+
+## E21. Size of dark energy, non-quantum route: the electron pays (iteration 54)  [NEW; 2 free choices: criterion, one-way]
+    rho_DE(z_s) = delta m_e c^2 n_e(z_s),  z_s: Compton heating rate = expansion rate (z_s = 124, CAMB)
+    -> delta predicted 0.60% (Claim 1) vs measured 0.99 +/- 0.49%;  handover must be one-way (reionisation re-couples the gas)
+    fork with E20: electron route (delta = 0.6%, 21-cm step 11.4 MHz) vs cell-tally route (finite wrap-around space)
