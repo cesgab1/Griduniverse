@@ -461,3 +461,11 @@ cf. it. 13's mild preference for f > 1).
 Problems to test before believing: (1) the simplest everpresent-Lambda history fluctuates and tracks H^2 and was in
 tension with data (earlier test; literature); (2) its time dependence (variance ∝ H^2) differs from our law's shape
 (∝ (aH)^-1/2 or 1/(aH)); a combined model must fit DESI+SN+CMB; (3) the factor 12-110 must come out, not be tuned.
+- Terminology: 'votes' -> RANDOM NUDGES (fluctuations); no choice or intelligence implied (Coalesce, Oct 2026).
+- Coalesce: the binary nudge could be SPIN (two-valued, known physics, no new bias). Check: electron spins are too few:
+  ~1e80 electrons -> leftover 1/sqrt = 1e-40 (photons ~1e89 -> 1e-45), not the ~1e-122 needed; electrons also dilute as
+  a^-3 (s ~ 3, excluded) and spin-gravity couplings are tightly tested. Refined version that keeps the idea: give every
+  grid LINK/CELL its own two-valued spin-like state. That is exactly loop quantum gravity's spin networks (links carry
+  spin labels; areas come in units set by them): BORROWED. Count = Planck cells (~1e244) -> the right size. Bonus to
+  explore: the electron is a pattern on the grid (two-layer electron), so its spin may be the grid's own spin
+  showing through. OPEN.
