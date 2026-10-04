@@ -854,3 +854,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 ## Iteration 61: first-minutes interactions (Oct 2026) -- first_minutes/
 - Light scatters off electrons through open pairs; r_e / pop size = alpha exactly -> alpha, electron-only rule and timing from ONE
   process. Zero-parameter dark energy: 1.24 x measured (payday z = 124); exact match needs z = 116. Positrons gone by ~1 hour.
+
+## Iteration 62: wrap-around cube vs Planck SMICA (Oct 2026) -- topology/
+- First run's method check FAILED (coarse orientations) -> recorded revision with exact rotations (3000 orientations).
+- 20 Gpc cube ruled out by our pipeline; 30-35 Gpc cubes indistinguishable from infinite space with this data/method;
+  40-60 Gpc nothing preferred. Look-elsewhere p = 0.52. Book route: NOT tested by this map (beyond the last-scattering sphere).

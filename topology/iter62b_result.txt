@@ -1,0 +1,19 @@
+ITERATION 62b: wrap-around cube vs Planck SMICA (revision: exact rotations, 3000 orientations per L)
+
+pixels 580 (Nside 8, 20 deg, TMASK > 0.9); amplitude for sims 0.83; Delta chi2 = torus(best orientation) - infinite
+
+ L [Gpc]   DATA     null: median  5th pct   | cube sims (median): L=20    L=30    L=35
+  20.00    -4.01      -2.11   -13.92    |             -26.61   -4.94   -2.95
+  25.00   -12.20      -9.10   -15.87    |             -12.06  -10.93   -9.49
+  27.74    -6.93     -10.68   -15.79    |             -13.98  -12.04  -10.64
+  30.00    -8.98      -8.59   -11.36    |             -10.40   -8.67   -8.24
+  35.00    -2.73      -2.81    -4.36    |              -2.94   -2.54   -2.76
+  40.00    -0.43      -1.25    -2.37    |              -0.90   -1.04   -1.25
+  50.00    +0.38      -0.45    -1.17    |              -0.13   -0.29   -0.42
+  60.00    +0.52      -0.24    -0.75    |              +0.05   -0.14   -0.21
+
+chance of a null sky looking at least as cube-like as the data: 20: 0.40  25: 0.20  28: 0.92  30: 0.36  35: 0.58  40: 0.98  50: 0.98  60: 0.98
+look-elsewhere over all L (data's most cube-like L relative to null median): p = 0.52
+L=20: cube20 sims at their true L: range -52.4..-17.3; fraction as NON-cube-like as data (-4.0): 0.00
+L=30: cube30 sims at their true L: range -11.9..-6.6; fraction as NON-cube-like as data (-9.0): 0.60
+L=35: cube35 sims at their true L: range -3.6..-1.7; fraction as NON-cube-like as data (-2.7): 0.40

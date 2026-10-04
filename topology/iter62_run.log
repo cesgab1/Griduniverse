@@ -1,0 +1,22 @@
+L = 20.00 Gpc done (5 s)
+L = 25.00 Gpc done (13 s)
+L = 27.74 Gpc done (24 s)
+L = 30.00 Gpc done (37 s)
+L = 35.00 Gpc done (57 s)
+L = 40.00 Gpc done (86 s)
+L = 50.00 Gpc done (141 s)
+L = 60.00 Gpc done (233 s)
+ITERATION 62: wrap-around cube vs Planck SMICA, largest scales (expectations pre-registered)
+
+pixels used 580 of 768 (Nside 8, 20 deg smoothing, TMASK > 0.9); fitted amplitude (infinite) 0.83
+
+ L [Gpc]   data Delta chi2 (torus - infinite, best of 48 orientations)   null sims: median / 95%   L=20 sims: median
+  20.00        +21.47                                          +11.72 /   +2.30            +12.23
+  25.00         +7.53                                           -1.62 /   -9.17             -2.34
+  27.74         +1.08                                           -1.10 /   -7.11             -5.51
+  30.00         -4.18                                           -4.86 /   -7.79             -5.43
+  35.00         -1.48                                           -2.13 /   -3.27             -2.05
+  40.00         -0.17                                           -1.02 /   -1.86             -0.93
+  50.00         +0.43                                           -0.37 /   -1.07             -0.31
+  60.00         +0.55                                           -0.18 /   -0.68             -0.21
+(negative = torus preferred; '95%' column is the 5th percentile of the null sims, i.e. how negative chance alone gets)
