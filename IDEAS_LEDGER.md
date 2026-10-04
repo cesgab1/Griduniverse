@@ -367,3 +367,26 @@ bounce + inflation is allowed.
   mildly f > 1 (negative baseline) -> 'large positive baseline' (it. 11) disfavoured. Negative baseline never
   recollapses: jostled energy ∝ 1/H self-tunes it away -> coasting future, bounce must be one-time (no cycle). Self-
   tuning + stability bound: H would be >= 1e26x too large -> size problem moved, not solved.
+
+## DROPPED for now (Coalesce, Oct 2026): the bounce. Reason: no improvement (real Planck low-l: dchi2 -1.4, AIC +0.6;
+## one-time only in the toy). Can be revived if a later result needs it.
+
+## Penrose: gravitational entropy and the Weyl curvature hypothesis (WCH) (Coalesce, Oct 2026), discussion seeds
+WCH: the universe began with zero Weyl (tidal) curvature = perfectly smooth = minimal GRAVITATIONAL entropy; clumping
+under gravity raises gravitational entropy (black holes maximal) and gives the arrow of time. Seeds for the grid:
+ 1. Grid reading of Weyl: Ricci = how much cells are squeezed overall (matter); Weyl = how cells are DISTORTED in shape
+    (stretched one way, squeezed another) = deficit-angle pattern beyond uniform squeezing (Regge picture,
+    quantum_gravity/regge_gauge.py). WCH = 'the mosaic started with no shape distortion'. Gravitational entropy ~
+    variety of cell-shape distortions.
+ 2. Arrow of time from cell creation: cells are ADDED as space grows (constants test, law_from_grid sect. 7); the number of
+    grid configurations grows -> entropy capacity grows in the direction cells are added. 'Time runs forward because the
+    grid grows.' The time stamp (Khronon) gives a preferred slicing but no direction; WCH + cell creation supply it.
+ 3. Our jostling is DISSIPATIVE only in expansion: Hubble friction (-3H) damps the tension's motion -> irreversible ->
+    arrow aligned with expansion. In contraction the same term AMPLIFIES (anti-friction): the dark-energy mechanism is
+    intrinsically time-asymmetric. (Consistent with dropping the bounce.)
+ 4. Testable coincidence to check (not assume): gravitational clumping (Weyl growth) slows when acceleration starts.
+    Claim 1 crosses w = -1 at q = 0 (z 0.68), the toy at z 0.46. Compute the history of gravitational-entropy production
+    (linear growth + halo formation, e.g. Clifton-Ellis-Tavakol 2013 gravitational-entropy measure) and see where it
+    peaks/turns. If dark energy's turnover tracks gravitational-entropy production, that is a physical link (caution:
+    must be computed, not matched).
+ 5. Penrose's conformal cyclic cosmology (CCC) is cyclic -> set aside with the bounce.
