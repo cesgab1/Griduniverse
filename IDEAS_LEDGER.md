@@ -676,8 +676,8 @@ Coincidence noted (not used): 2.2 meV is near the neutrino mass scale.
 ## Link tolerance: stretch to a limit -> elasticity gives (slack); break -> leak (Coalesce, Oct 2026) -- Family: iteration 22
 Readings: (1) BREAK = a new cell is inserted: a natural answer to 'why cells are added' (expansion stretches links to tolerance,
 they break, a cell fills in); cell size stays fixed on average (consistent with constant G, c). (2) Stored strain just below
-tolerance acts like a constant energy (fixed fee): stiffness x strain^2 = dark energy needs a tolerance strain of 1.1e-61, which
-equals cell size / horizon size today (1.2e-61): the 'why now' coincidence again (same as iteration 22's threshold). (3) A
+tolerance acts like a constant energy (fixed fee): stiffness x strain^2 = dark energy needs a tolerance strain of 3.4e-62, about
+0.3x cell size / horizon size today (1.2e-61): the 'why now' coincidence again (same as iteration 22's threshold). (3) A
 tolerance that depends on how fast links are pulled (strain rate ~ H) gives rho ~ H^-1/2, the s = 0 law, excluded at 5-6 sigma
 (stretch_scan). (4) LEAK: energy leaking from the tension into dark matter or radiation is limited by DM constancy (few %) and
 Delta N_eff < 0.107. Reading (1) kept as a picture; (2)-(3) do not set the size.
