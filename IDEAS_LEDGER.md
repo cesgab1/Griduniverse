@@ -917,3 +917,7 @@ Candidate questions (dark-energy energy scale 2.24 meV, length ~88 micrometres):
 - does uniform vacuum energy gravitate? (unimodular stamp: no, only the tally fluctuation; equivalence-principle tests: bound
   vacuum energy inside matter does gravitate -- MICROSCOPE 1e-15).
 To run pre-registered, with look-elsewhere stated.
+
+## Iteration 67: neutrino mass from dark energy (Oct 2026) -- neutrinos/
+- m_lightest = (rho_DE)^(1/4) = 2.24 meV -> sum 61.3 meV: passes (58.7-64.2) but weakly (66% of a broad prior passes; normal
+  ordering is required by DESI anyway). Consistent, not evidence; no inference yet.

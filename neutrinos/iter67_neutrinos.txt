@@ -1,0 +1,8 @@
+ITERATION 67: dark energy sets the lightest neutrino mass? (expectations pre-registered)
+
+rule: m c^2 = (rho_DE (hbar c)^3)^(1/4) = 2.24 meV   (h-version would be 8.9 meV)
+normal  : masses 2.2, 8.9, 50.1 meV; sum 61.3 meV (oscillation minimum 58.7); DESI+CMB bound 64.2 -> PASS
+inverted: masses 49.4, 50.1, 2.2 meV; sum 101.8 meV (oscillation minimum 99.5); DESI+CMB bound 64.2 -> EXCLUDED
+today's data allow (normal ordering) any lightest mass below 4.3 meV
+h-version (not registered): sum 72.1 meV -> EXCLUDED
+look-elsewhere: of a log-uniform prior on the lightest mass from 0.1 to 30 meV, 66% passes today's bound -> passing is weak evidence
