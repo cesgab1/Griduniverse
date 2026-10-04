@@ -630,3 +630,10 @@ The size remains unexplained; the cell tally only says the counting rule's coeff
 Measured dark energy -> total tally of all space x all time. Closed sphere excluded (needs Omega_k <= -0.04..-0.10; data +0.002).
 Flat wrap-around space allowed only in a narrow window: cubic torus side 27.5-38 Gpc (rule constant 1; up to ~60 for 2), just above
 the CMB circle-search limit; time then ends within ~0-11 Gyr. Testable half: deeper CMB topology searches (COMPACT).
+
+## Project the expansion forward, read dark energy at the end, validate with an independent equation (Coalesce, Oct 2026)
+Claim 1 forward (Pantheon+ fit): no end. a ~ t^5 at late times, acceleration forever, dark energy fades slowly (0.80 of today's at
+25 Gyr, 0.43 at 62 Gyr, 0.17 at 140 Gyr, 0.03 at 460 Gyr; ~ t^-2) but never runs out. 'How long' = forever in our model; an end
+needs Branch A with an external rule (circular for the size). Validation chain that DOES exist: the same equation run backward
+-> pre-registered binned w(z) (DESI DR3); and redshift drift (Sandage-Loeb, an equation taking H(z) as input): Claim 1 minus
+LCDM = -0.5 to -0.7 cm/s over 20 years at z = 0.5-4 (LCDM drift +5.3 to -10.1 cm/s) -- below expected ELT precision (~cm/s).
