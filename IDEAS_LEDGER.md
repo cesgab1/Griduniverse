@@ -661,3 +661,6 @@ far below the ~10% errors. Method is right; precision must improve ~10x to see o
   How much is left (direct_check/how_much_left.py): today 5.5-6.2e-27 kg/m^3 (~3.3-3.7 hydrogen-atom masses per m^3) across
   readings. Left at 25 / 40 / 60 Gyr: Lambda 1 / 1 / 1; Claim 1 0.81 / 0.61 / 0.44; w0wa formula (if extrapolated) 0.33-0.53 /
   0.07-0.15 / 0.01-0.04. Future part is projection only; w0wa is not a law.
+  Wobble check (direct_check/tracer_split.py): leftover from LRG bins (z 0.51, 0.71) = 0.382 +/- 0.026 vs other tracers 0.297 +/-
+  0.029: a 2.3 sigma step exactly where DESI switches galaxy type (z ~ 0.9). Claim 1 predicts only a ~1% difference, so even if
+  real, the step is ~25x bigger than our model's peak; most likely a fluctuation or tracer effect. Not claimed as support.

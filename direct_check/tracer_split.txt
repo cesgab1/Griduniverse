@@ -1,0 +1,5 @@
+LRG bins (z 0.51, 0.71): leftover 0.382 +/- 0.026
+other tracers (z 0.93-2.33): leftover 0.297 +/- 0.029
+difference +0.085 +/- 0.037  (2.3 sigma)
+The step sits exactly where the galaxy type changes (LRG -> LRG+ELG at z ~ 0.9), and also near where Claim 1 puts the
+dark-energy peak (z ~ 0.68) and the start of acceleration. Data alone cannot separate 'tracer effect' from 'physics'.
