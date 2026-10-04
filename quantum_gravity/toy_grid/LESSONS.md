@@ -395,3 +395,12 @@ iter14b_selftuning.txt)
 - The bounce is allowed but not favoured by the large-angle sky, and in this toy it can only be a one-time past event.
 - A mild new hint (negative baseline, f > 1, up to ~1.9σ in Union3) predicts the universe ends up COASTING rather than
   accelerating forever.
+
+## CORRECTION / clarification (from iteration 20, arrow_of_time/iter20_quiet_grid.txt)
+- The toy's tension motion energy (½τ²) is physically a STIFF fluid (w = +1) fed by the glow.
+- Taken literally, it decelerates, and its energy cannot exceed the glow's (< 1.3×10⁻⁶ of critical density).
+- The dark-energy fits of iterations 1–15 are valid only in the VCDM-type reading. There, the jostled variance sets the
+  SHAPE of a vacuum-like tension, and the energy goes through the gravity sector (no extra degree of freedom, Bianchi
+  identity satisfied, law_from_grid sect. 1).
+- In that reading the SIZE is a free normalisation, which is consistent with the size failures of iterations 10, 11 and 13
+  (they used the literal reading).

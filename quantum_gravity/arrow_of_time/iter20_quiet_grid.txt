@@ -1,0 +1,21 @@
+ITERATION 20: the quiet (static) grid before the Big Bang
+
+A. Energy budget of the jostled motion energy:
+   glow energy (max allowed) = 1.3e-06 of critical density; dark energy needs 0.69 -> 5e+05x more
+   stiff motion energy: rho + 3p = 4 rho > 0 -> decelerates. => only the VCDM reading (shape from jostling, energy via
+   the gravity sector, vacuum-like) is consistent. Applies retroactively to iterations 1-15: their fits are valid in this reading.
+
+B. Quiet closed grid, exactly static at t = 0 (a = 1, H = 0); dark-energy part grows as the memory is infinite:
+   A =  0.10, expanding   branch: leaves stasis (1% size change) after t =   0.29; reaches a = 5.00 at t = 26.4
+   A =  0.10, contracting branch: leaves stasis (1% size change) after t =   0.09; reaches a = 0.05 at t = 0.7
+   A =  0.01, expanding   branch: leaves stasis (1% size change) after t =   2.49; reaches a = 5.00 at t = 248.3
+   A =  0.01, contracting branch: leaves stasis (1% size change) after t =   0.13; reaches a = 0.05 at t = 0.8
+
+   -> A perfectly quiet grid CANNOT stay quiet: with no expansion there is no friction, so the jostled tension builds up
+      without limit and the grid must start to move (a self-starting 'Big Bang'). Weaker jostling (smaller A) only
+      delays it. The toy does not pick the direction: the expanding branch stays smooth (iterations 17-19), the
+      contracting branch amplifies tension and tidal chaos. Our smooth universe is the expanding branch.
+      Caveat: a static closed universe of matter + vacuum energy is already unstable classically (Einstein static
+      universe); the new point is that even a STABILISED quiet grid could not stay quiet once jostled.
+
+C. Large-angle imprint: allowed, not favoured (iteration 12: Delta chi2 = -1.4).

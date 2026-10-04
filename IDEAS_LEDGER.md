@@ -418,3 +418,9 @@ under gravity raises gravitational entropy (black holes maximal) and gives the a
   iteration 12 found no preference, dchi2 -1.4); the static phase must be STABLE (the classical Einstein static universe
   is not; some quantum-gravity versions are). Candidate calculation: is a static stretched grid stable in our toy (does
   the jostled tension destabilise it, given it grows when H -> 0, iteration 14)?
+- It. 20 (Coalesce's quiet pre-existing grid): (A) CORRECTION: the toy's tension motion energy is a stiff fluid fed by the
+  glow (decelerating, energy-limited to < 1.3e-6 of critical) -> the dark-energy fits are valid only in the VCDM reading
+  (jostling sets the SHAPE of a vacuum-like tension, energy via the gravity sector, SIZE free) - explains its. 10/11/13 in
+  one line. (B) a quiet grid cannot stay quiet: no expansion = no friction = unbounded tension build-up -> self-starting
+  Big Bang; direction not chosen by the toy; expanding branch smooth, contracting branch chaotic (it. 19). (C) large-angle
+  imprint allowed, not favoured (it. 12).

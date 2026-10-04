@@ -42,3 +42,25 @@ for ΛCDM.
 - 16 closes the timing idea.
 - **Arrow-of-time picture:** smooth start (no coherent link distortion) → clumping builds coherent distortion
   (gravitational entropy) → expansion makes the tension's memory dissipative → horizon entropy rises without limit.
+
+**20. The quiet grid before the Big Bang (Coalesce).** (iter20)
+
+*A. Consistency correction (applies to toy iterations 1–15).*
+- The toy tension's motion energy is a STIFF fluid fed by the glow. Stiff energy decelerates, and the glow can supply at
+  most 1.3×10⁻⁶ of critical density (dark energy needs 5×10⁵ times more).
+- So the toy is a valid dark-energy model only in the VCDM-type reading (law_from_grid sect. 1): the jostling statistics set
+  the SHAPE of a vacuum-like tension whose energy is carried by the gravity sector (no extra degree of freedom), not drawn
+  from the glow.
+- That is why the SIZE is free: it explains iterations 10, 11 and 13 in one line. The data fits of 1–15 stand in this reading.
+
+*B. A quiet grid cannot stay quiet.*
+- With no expansion there is no friction (memory 1/(3H) → ∞), so the jostled tension builds up without limit and the
+  grid is forced to move: a self-starting Big Bang.
+- Weaker jostling only delays it (leaving stasis at t = 0.29 vs 2.5 for A = 0.1 vs 0.01).
+- The toy does not choose the direction. The expanding branch stays smooth; the contracting branch amplifies tension and
+  tidal chaos (iteration 19). Our smooth universe is the expanding branch.
+- Caveat: the classical Einstein static universe is already unstable. The new point is that even a stabilised quiet grid
+  would not stay quiet once jostled.
+
+*C. Large-angle imprint of a quiet phase:* the same power-suppression test as iteration 12. Allowed, not favoured
+(Δχ² = −1.4).
