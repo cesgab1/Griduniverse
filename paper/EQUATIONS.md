@@ -158,3 +158,9 @@ curvature-squared <~ 2e-61 relative (L ~ 10 km), random noise ~ 3e-39 or smaller
 Together with E15 (spatial part): the averaged random grid gives the full ADM action
     S = (1/16 pi G) INT dt d^3x N sqrt(g) [ K_ij K^ij - lambda K^2 + R + eps^2 (curvature^2) ]  (+ Claim 1 term, matter)
 which is Einstein's gravity for lambda = 1 (Horava-type for lambda != 1; lambda is a parameter of the base, not derived here).
+
+## E17. Two sectors (quantum_gravity/lambda/two_sector.md)  [STRUCTURE; leakage factor c not computed]
+    Gravity: N layers on a grid random in space AND time -> frame-free -> lambda = 1; small-scale dimension -> 2 (causal-set result).
+    One frame-dependent field (tension/slicing): carries Claim 1, the 'now' (constant-K slices) and the z = 3 watermark.
+    Leakage into gravity ~ c/N.  Graviton speed (GW170817, 1e-15) -> N >~ c x 1e15; for c = 1: N ~ 1e15 - 5e15,
+    cell 2.5 - 5.7 e-28 m (at today's gamma-ray-burst limit).

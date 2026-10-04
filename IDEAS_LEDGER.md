@@ -757,3 +757,9 @@ lambda on a spacetime-random vs space-random grid.
   (diamond counts identical at rapidity 0/1/2); ticked grid carries a frame. Adopted (Coalesce: time is its own dimension): cells
   random through spacetime; the 'now' set by the universe's contents (constant-K slicing) and entering only via dark energy ->
   lambda = 1 by symmetry. Cost: re-derive the z = 3 small-scale results on a spacetime-random grid.
+
+## Two sectors (quantum_gravity/lambda/two_sector.md) -- structure adopted, leakage factor open
+Frame-free gravity from N layers on a spacetime-random grid (lambda = 1; small-scale dimension 2, causal-set result) + ONE frame-
+dependent field (tension/slicing: Claim 1, the 'now', z = 3 watermark; a frame-free grid alone cannot print the watermark --
+Amelino-Camelia et al. 2013). Leakage ~ c/N: graviton-speed bound gives N >~ c x 1e15 -> for c = 1 the layers sit at the TOP of the
+window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: compute c; check electron-sector leakage (Claim 2).

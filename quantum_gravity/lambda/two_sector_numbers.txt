@@ -1,0 +1,8 @@
+Two-sector estimate: one frame-dependent field among N frame-free layers; leakage into gravity ~ c/N (c ~ 1, rough)
+  lambda - 1 (G_cosmo/G_N, our N_eff estimate)    : bound 2e-02 -> needs N >~ 5.9e+01 (c = 1)   inside window
+  alpha (pulsars / solar-system preferred frame)  : bound 1e-07 -> needs N >~ 1.0e+07 (c = 1)   inside window
+  beta' (graviton speed, GW170817)                : bound 1e-15 -> needs N >~ 1.0e+15 (c = 1)   inside window
+
+The graviton-speed bound is the sharp one: N >~ 1e+15 (c = 1), i.e. the TOP of the allowed window (2.9e+07 - 5.2e+15).
+cell size then 2.5e-28 - 5.7e-28 m (window top: gamma-ray-burst limit 5.7e-28 m)
+for c = 0.1: N >~ 1e14 -> cell >= 7.9e-29 m;  for c = 0.01: N >~ 1e13 -> cell >= 2.5e-29 m
