@@ -36,7 +36,7 @@ def mean_kappa(rho, A, eps, rng, npairs=120):
         cj = np.array(tree.query_ball_point(X[j], eps*1.05)); nb_y = cj[(plen(X[j][None], X[cj], A) <= eps) & (cj != j)]
         if len(nb_x) < 5 or len(nb_y) < 5: continue
         C = plen(X[nb_x][:, None, :], X[nb_y][None, :, :], A)
-        W = ot.emd2(np.full(len(nb_x), 1/len(nb_x)), np.full(len(nb_y), 1/len(nb_y)), C)
+        W = ot.emd2(np.full(len(nb_x), 1/len(nb_x)), np.full(len(nb_y), 1/len(nb_y)), C, numItermax=5000000)
         ks.append(1 - W/delta)
         if len(ks) >= npairs: break
     return np.mean(ks), np.std(ks)/np.sqrt(len(ks)), len(ks), len(nb_x)

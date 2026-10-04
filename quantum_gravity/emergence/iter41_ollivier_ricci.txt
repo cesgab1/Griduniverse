@@ -1,0 +1,16 @@
+ITERATION 41: Ollivier-Ricci curvature on the RANDOM grid (expectations committed before running)
+
+R(0) = 31.61;  prediction Delta kappa = eps^2 R/30 = 0.00516  (eps = 0.07)
+
+ points/neighbourhood   kappa curved          kappa flat            Delta kappa (curved - flat)   ratio to prediction
+   ~  294            +0.02884+/-0.01099   -0.06584+/-0.02225   +0.09467 +/- 0.02482           18.34 +/- 4.81
+   ~  916            +0.05329+/-0.00410   -0.01298+/-0.00315   +0.06627 +/- 0.00517           12.83 +/- 1.00
+   ~ 2159            +0.01032+/-0.00136   -0.00858+/-0.00167   +0.01890 +/- 0.00215           3.66 +/- 0.42
+   ~ 3706            +0.00459+/-0.00307   -0.01106+/-0.00341   +0.01564 +/- 0.00459           3.03 +/- 0.89   (24 pairs)
+
+Versus expectations (committed at d5523a0): ratio to prediction 18.3 -> 12.8 -> 3.7 -> 3.0 (+/- 0.9) as neighbourhoods grow from
+~300 to ~3700 points. Sign right; the flat-grid bias shrinks (-0.066 -> -0.009); trend toward the prediction. But O1 (within 25% at
+the densest run) is NOT met, and the written kill line ('off by > 50% at the densest run') is crossed at the densities I could
+compute (a denser run, ~4000-6000 points per neighbourhood, timed out). Verdict: FAILS the pre-set criterion at reachable sizes;
+trend favourable -> inconclusive, not a success. Compared with Regge on the same kind of random grid (no trend at all, scatter ~1),
+the averaging definition behaves much better, which partly supports the idea that tidy cells are a Regge-specific requirement.

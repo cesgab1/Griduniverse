@@ -722,3 +722,6 @@ a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7
   PRR 3, 013211, 2021) and the causal-set Benincasa-Dowker action (averages over many points; converges in the mean with a
   smearing scale). Revised constraint: either tidy cells + Regge, or random cells + a smeared/nonlocal curvature definition.
   NEXT: test Ollivier-Ricci on our random grid against the known curvature.
+  Iteration 41 (emergence/): Ollivier-Ricci on the random grid: ratio to the predicted curvature 18 -> 13 -> 3.7 -> 3.0 +/- 0.9 for
+  neighbourhoods of 300 -> 3700 points; right sign, clear trend, but the pre-set criterion (within 25%) is not met and the kill
+  line (>50% off) is crossed at reachable sizes. Inconclusive; far better than Regge on random grids (no trend).
