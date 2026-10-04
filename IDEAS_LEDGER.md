@@ -494,3 +494,13 @@ tension with data (earlier test; literature); (2) its time dependence (variance 
   stretch per row of ~1.2e61 cells = 1.4x today's Hubble length: either tracks the horizon (it. 21 failure) or matches today
   by coincidence. Data: = Lambda (loses Claim 1's gain); as positive baseline disfavoured (it. 13). Pattern across 21-22:
   natural size mechanisms either track the horizon or need a 'why now' coincidence.
+
+## Coalesce (Oct 2026): it is common sense that the size is tied to our horizon - we cannot see past it in any direction.
+- Agreed in substance: everything we can measure lies inside our horizon, so a dark-energy size set by the horizon is
+  natural. Correction of picture: the Big Bang has no location (it happened everywhere); our horizon is a sphere around
+  US, set by how far light has travelled.
+- Prior art taking exactly this view: holographic dark energy (Cohen, Kaplan & Nelson 1999: vacuum energy limited by the
+  horizon size, rho <~ M_P^2/L^2 -> right size). Using the PAST/Hubble horizon fails (it tracks matter, iteration 21's
+  failure); Li 2004 uses the FUTURE event horizon (how far we will EVER see): accelerates, w ≈ -1, and can cross -1 -
+  but for c < 1 it crosses from w > -1 (past) to w < -1 (future): the OPPOSITE order to Claim 1 and to DESI's
+  preference. Test to run: fit Li's model (1 parameter c) to the same data and compare with Claim 1.
