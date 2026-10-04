@@ -94,3 +94,24 @@ Pools (halos) fitted per galaxy: cored profile ρ = ρ₀ r₀³ / ((r + r₀)(r
 
     H = sin k σ_x + sin k_s σ_y + (M(s) − 2 + cos k + cos k_s) σ_z,   M(s) = +M inside the slab, −M outside
     light mass ∝ (1 − M)^W  (halves per layer at M = 1/2; W = layers between the two halves)
+
+## E9. Memory version of Claim 1 (toy grid; pre-registered as the second P1 curve)  [NEW, memory DERIVED]
+Jostled tension tau (velocity of a minimally coupled grid field) with Hubble friction kappa = 3 and thermal kicks:
+    dX/d ln a = -2 kappa X + 1/(a H),    rho_DE = A X,   kappa = 3 (derived),  A fixed by today's dark energy
+Crosses w = -1 at z = 0.46; w0 = -0.90.
+
+## E10. Size of dark energy: the conserved stamp  [CANDIDATE, not established]
+Promote Claim 1's coefficient C to a conserved quantity (unimodular-type Lagrange multiplier tau):
+    S  ⊃  -∫ dt C(t) [ N a^3 (a H t_P)^(-1/2) - d tau/dt ]   ->   dC/dt = 0   (no jostling can change it)
+Its value is fixed only by a cell count:  rho_DE ~ rho_P / sqrt(N4),  N4 = number of Planck 4-cells counted.
+    past light cone  -> tracks the horizon: EXCLUDED (CMB; low-z leftover test, iteration 37)
+    whole history    -> fixed fee, right size if N_total ~ 4.4 x the visible past: requires a finite universe (Branch A),
+                        testable half = flat wrap-around space, cube side 27.5-38 Gpc (iterations 32, 38)
+
+## E11. Primordial ripples ('watermark') from the grid's smallest-scale scaling  [BORROWED form, one FITTED number]
+    omega^2 = p^(2z) / M^(2z-2),  z = 3 - eta   ->   n_s - 1 = -2 eta / (1 - eta),   eta = 0.013-0.017 (fitted; layers give
+    the right order c/(16 pi^2), coefficient and sign not computed)
+
+## E12. Grid growth  [PICTURE, tested]
+Links stretch with expansion (strain += d ln a), break at a tolerance, a new cell is inserted: explains cell addition and the
+sqrt(N) fluctuations; does NOT set the memory or the size (iteration 34).
