@@ -763,3 +763,13 @@ Frame-free gravity from N layers on a spacetime-random grid (lambda = 1; small-s
 dependent field (tension/slicing: Claim 1, the 'now', z = 3 watermark; a frame-free grid alone cannot print the watermark --
 Amelino-Camelia et al. 2013). Leakage ~ c/N: graviton-speed bound gives N >~ c x 1e15 -> for c = 1 the layers sit at the TOP of the
 window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: compute c; check electron-sector leakage (Claim 2).
+
+## Outside check: a Gemini reading of our equations (Oct 2026) -- answers/gemini_check.py
+- CONFIRMED: Claim 1 algebra (w = -1 - q/6; matter era -1.083; crossing z = 0.66; future attractor a ~ t^5, w -> -0.867); the
+  action's variation; memory version (crossing z = 0.45, matter era ~ -7/6); n_s = 0.9737 <-> eta = 0.013 (fitted, accommodation).
+- CORRECTED: (1) de Sitter (w -> -5/6) is never reached under Claim 1. (2) (aH)_rec/(aH)_0 = 21, not 33 (Omega_m omitted);
+  rho_DE(rec)/rho_DE(0) = 0.22, not 0.17. (3) m_e +1% gives r_d ~ 145.6, not 143-144, and H0 ~ 69.5, not 71-73: tension NOT
+  solved. (4) rho_P/sqrt(N4) 'without fine-tuning': automatic (equals ~1/(G t^2) at every epoch), not a derivation. (5) lambda
+  in our model is the K^2 weight (= 1 by symmetry), not a screening length, quartic coupling or exponent (exponent is 1/2).
+  (6) Gemini's m_e mechanism (a field gradient holding m_e at 1.01) is not in our model; Claim 2 remains unexplained.
+- NEW (answered): memory version's far future: a ~ t^3, w -> -7/9, aHX -> 3/16 (checked numerically).
