@@ -1,0 +1,10 @@
+What sets C (fading dark energy, H^2 = (8 pi G/3) rho_m + c^2/a^2 + C (aH/c)^(-1/2), a = curvature radius)
+
+1. Today aH/c = 1/sqrt(Omega_k) = 20.9 -> C = rho_DE0 x 4.57 = 3.13 x critical density today.
+   Meaning: C is the dark-energy density the equation would have in the EMPTY light-cone state (aH = c, Special Relativity).
+2. The fading law itself has no built-in scale (a pure power): its SHAPE cannot fix C.
+3. Far future (only fading dark energy): rho x horizon^2 = 0.1865 c^4/G for ANY C. Matching the quantum rule
+   rho = hbar c/(2 l^2 L^2) there fixes the smallest length: l^2 = 2.68 l_P^2 (l = 1.64 l_P) -- between Planck (1)
+   and the black-hole value (2) -- a derived candidate, independent of C.
+4. Today rho x horizon^2 = 0.1081 c^4/G = 0.58 of the far-future value: we are part-way to the attractor.
+   So C does not set the size scale; it sets WHEN dark energy takes over (acceleration began z ~ 0.68): C is the 'why now' number.
