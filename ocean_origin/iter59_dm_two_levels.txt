@@ -1,0 +1,17 @@
+ITERATION 59: Ocean particle mass from grid quantities (window 8.5-13 GeV; expectations pre-registered)
+
+ m_p x 2^1 (layers)               1.877 GeV   
+ m_p x 2^2 (layers)               3.753 GeV   
+ m_p x 2^3 (layers)               7.506 GeV   
+ m_p x 2^4 (layers)              15.012 GeV   
+ m_p x 2^5 (layers)              30.025 GeV   
+ m_p / sqrt(alpha)               10.984 GeV   HIT
+ m_p / alpha                    128.577 GeV   
+ m_e / alpha^2                    9.596 GeV   HIT
+ m_e / alpha^3                 1314.995 GeV   
+ m_e / alpha^4                180201.637 GeV   
+ 5.36 m_p (equal numbers)         5.033 GeV   
+
+GR level: only 'cold and collisionless' -- passed (iteration 25 checklist). No number to compare.
+
+look-elsewhere: chance per candidate ~0.037; expected hits 0.41; P(>=2 hits by chance) = 0.06

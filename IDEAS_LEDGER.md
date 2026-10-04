@@ -841,3 +841,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 ## Iteration 58: open-pop mechanism (Oct 2026) -- pops/
 - Pair at the electron's pop size has Coulomb energy alpha m_e c^2 exactly -> 'each locked electron holds one pop open'.
 - Proton version excluded by 4e12 -> lock must be electron-mediated (rule, not yet derived). Lead strengthened, not proven.
+
+## Iteration 59: dark-matter particle mass, two-level rule (Oct 2026) -- ocean_origin/
+- GR twin: cold + collisionless only. QG: 2 hits of 11 (m_e/alpha^2 = 9.60 GeV, m_p/sqrt(alpha) = 10.98 GeV); 6% by chance -> leads only.
+## Matched-circles CMB test: BLOCKED here (Planck archives IRSA/PLA refused by the network policy; healpy not installed).
+  Needs the Planck SMICA map attached, or the domains allowed by an admin.

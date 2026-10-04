@@ -45,3 +45,11 @@ window. **FAIL: never inside 12.5-21 GeV.**
 Verdict: the fraternal twin Ocean (dark matter = three-b' twin baryon, sharing through baryon-number crossing) is CLOSED in
 this form. What would still be open (each a new free choice, so an accommodation unless it brings a prediction): a twin with
 lighter twin quarks (non-mirror Yukawas), a different crossing charge, or binding effects. Not pursued.
+
+## Iteration 59: two-level rule for the Ocean particle mass (pre-registered: PREREG_59.md)
+- GR level: gravity sees only density -> its twin is 'cold and collisionless' (passed). No number to compare.
+- QG level, 11 pre-declared grid quantities vs 8.5-13 GeV: two hits -- m_e/alpha^2 = 9.60 GeV (blind: I had misjudged it as MeV
+  before computing) and m_p/sqrt(alpha) = 10.98 GeV (not blind). Layer doubling 2^k misses (7.5 / 15 GeV).
+- Look-elsewhere: ~6% chance of >= 2 hits by luck. NOT significant. Recorded as two leads; m_e/alpha^2 sits at the top of the
+  simplest-content range (8.6-9.5 GeV) and echoes the electron's pop ladder (alpha m_e = what each electron pays dark energy).
+- Learned: the dark-matter mass is invisible to GR; only the quantum side can fix it, and right now nothing derives it.
