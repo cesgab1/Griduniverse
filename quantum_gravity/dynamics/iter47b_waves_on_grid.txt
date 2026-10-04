@@ -1,0 +1,18 @@
+ITERATION 47b: gravitational ripples on a random grid (expectations pre-registered)
+
+64000 random points, box 40, averaging width 1.0, ~180 neighbours per point
+
+x          wavelength  20.0: speed 0.9885  predicted 0.9885  ratio 1.0000   (light = 1)
+y          wavelength  20.0: speed 0.9885  predicted 0.9885  ratio 1.0000   (light = 1)
+z          wavelength  20.0: speed 0.9882  predicted 0.9885  ratio 0.9997   (light = 1)
+face diag  wavelength  14.1: speed 0.9772  predicted 0.9773  ratio 0.9999   (light = 1)
+body diag  wavelength  11.5: speed 0.9659  predicted 0.9662  ratio 0.9997   (light = 1)
+x long     wavelength  40.0: speed 0.9970  predicted 0.9971  ratio 0.9999   (light = 1)
+spread over the five directions at wavelength 20 / 14 / 11.5: 0.03% (max-min of ratio)
+
+travelling packet (wavelength 10): coherent-wave speed 0.8328; same launch in the continuum 0.853 (group speed 0.8691); ratio 0.9763
+energy still in the coherent wave after t = 16: 0.711 of the total (the rest scattered into jitter by the random grid)
+real grid: cell 5.7e-28 m, wave 3e+06 m -> speed shift ~ 1.8e-67 (GW170817 bound 1e-15)
+real grid: cell 5.7e-28 m, wave 3e+03 m -> speed shift ~ 1.8e-61 (GW170817 bound 1e-15)
+real grid: cell 2.5e-29 m, wave 3e+06 m -> speed shift ~ 3.4e-70 (GW170817 bound 1e-15)
+real grid: cell 2.5e-29 m, wave 3e+03 m -> speed shift ~ 3.4e-64 (GW170817 bound 1e-15)

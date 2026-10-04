@@ -1,0 +1,7 @@
+ITERATION 47a: history from making the grid action stationary (expectations pre-registered)
+
+grid reader: K = 3.000000000000 x rate (exact 3), K_ijK^ij - K^2 = -6.000000000000 x rate^2 (exact -6)
+
+steps   250: max |H/H_Friedmann - 1| = 1.43e-09; crossing z = 0.665; w0 = -0.9283; time since z=1100 = 0.9456/H0; unimposed a-equation residual (median) = 1.10e-04
+steps   500: max |H/H_Friedmann - 1| = 1.88e-09; crossing z = 0.665; w0 = -0.9266; time since z=1100 = 0.9456/H0; unimposed a-equation residual (median) = 2.75e-05
+steps  1000: max |H/H_Friedmann - 1| = 2.67e-09; crossing z = 0.665; w0 = -0.9258; time since z=1100 = 0.9456/H0; unimposed a-equation residual (median) = 6.86e-06
