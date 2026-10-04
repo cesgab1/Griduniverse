@@ -646,3 +646,9 @@ slicing: K = 3H uniform on each slice) makes dark energy uniform -> PASS. This f
 global expansion, never local motions. (2) Maximum turnaround radius R = (3GM/(Lambda c^2))^(1/3) (Pavlidou & Tomaras 2014):
 Local Group 1.4 Mpc, Virgo ~11.5 Mpc; Claim 1 vs LCDM differ by 1.4% -- far below measurement errors; consistent, not
 discriminating. (3) ISW, growth, lensing, redshift drift: already in our fits/predictions or too small to separate.
+
+## Voids: compare void sizes to read dark energy (Coalesce, Oct 2026; iteration 33, voids/) -- real method, weak for us
+Void cosmology is established (BOSS DR12 void size function: w = -1.1 +/- 0.2; Euclid voids alone: w ~10%, FoM 17). Claim 1 vs
+Lambda (same matter and early ripples): growth differs by <= 0.5% (lower after z ~ 1, a hair higher before); realistic void counts
+amplify this 4-14x -> -1% to -3% fewer large voids at z = 0.5, +0.1-0.3% at z = 1. Distinctive sign change, but below void-only
+precision. Useful only in combination. (A textbook-threshold first try gave spurious 5-40% ratios from an extreme tail; rejected.)

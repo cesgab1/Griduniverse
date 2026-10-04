@@ -1,0 +1,14 @@
+ITERATION 33: voids as a dark-energy probe -- Claim 1 vs Lambda (same matter, same early ripples)
+
+growth of structure, Claim 1 / Lambda: z=0: 0.9950  z=0.3: 0.9964  z=0.5: 0.9978  z=0.7: 0.9990  z=1.0: 1.0001  z=1.5: 1.0009  z=2.0: 1.0010
+
+ R [Mpc/h]   amplification   void-count difference z=0.5   z=1.0
+     20           4.5             -0.98%                    +0.10%
+     30           8.6             -1.88%                    +0.19%
+     40          14.4             -3.15%                    +0.32%
+
+Measured/forecast precision: BOSS DR12 void size function w = -1.1 +/- 0.2; Euclid voids alone: w to ~10%,
+FoM(w0,wa) = 17. Claim 1 changes void counts by ~0.5-3% (fewer large voids below z ~ 1, a hair more above): the
+pattern (sign change near z ~ 1) is distinctive but below foreseeable void-only precision; useful only combined.
+Note: a first version used the textbook threshold 2.71, which puts these voids in an extreme tail (densities ~1e-19 to
+1e-87) and gave spurious 5-40% ratios; rejected.
