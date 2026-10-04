@@ -489,3 +489,8 @@ tension with data (earlier test; literature); (2) its time dependence (variance 
    (b) relief at a fixed material yield threshold eps_c: residual strain cycles 0..eps_c -> rho ~ stiffness eps_c^2/3,
        CONSTANT in time (frozen, like rubber's yield point), shape from the jostling. Size needs eps_c ~ 3e-62: the open
        question becomes 'why is the grid's yield threshold so small' - must be derived, not set.
+- It. 22 (Coalesce's built-in tension, stick-slip): prompt relief -> leftover strain CONSTANT (frozen size, behaves as
+  Lambda); short relief delay -> w > -1 always (no crossing); long delay -> runaway. Size needs eps_c = 8e-62 = one cell of
+  stretch per row of ~1.2e61 cells = 1.4x today's Hubble length: either tracks the horizon (it. 21 failure) or matches today
+  by coincidence. Data: = Lambda (loses Claim 1's gain); as positive baseline disfavoured (it. 13). Pattern across 21-22:
+  natural size mechanisms either track the horizon or need a 'why now' coincidence.

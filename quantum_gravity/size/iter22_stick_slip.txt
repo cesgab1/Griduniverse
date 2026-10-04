@@ -1,0 +1,24 @@
+ITERATION 22: stick-slip grid (built-in tension with a yield threshold)
+
+A/B. relief delay tau =  0e+00 (Hubble times): <eps^2>/(eps_c^2/3) at z = 29 / 3 / 1 / 0 = 0.985 / 0.999 / 0.998 / 1.001
+A/B. relief delay tau =  2e-06 (Hubble times): <eps^2>/(eps_c^2/3) at z = 29 / 3 / 1 / 0 = 1.524 / 1.002 / 1.003 / 1.002
+A/B. relief delay tau =  5e-06 (Hubble times): <eps^2>/(eps_c^2/3) at z = 29 / 3 / 1 / 0 = 2.946 / 1.012 / 1.009 / 0.997
+A/B. relief delay tau =  1e-03 (Hubble times): <eps^2>/(eps_c^2/3) at z = 29 / 3 / 1 / 0 = 244.500 / 10504557.018 / 16039188.898 / 18209396.934
+   -> prompt relief: the leftover strain is CONSTANT (frozen size, exactly like a cosmological constant, w = -1).
+   -> short delay (tau << eps_c/H, here eps_c/H ~ 1e-5 early): overshoot ∝ H tau that SHRINKS as the expansion slows
+      (larger early, smaller late): w > -1 at all times, never crossing.
+   -> long delay (tau > eps_c/H): relief cannot keep up, strain piles up without limit (runaway) - not a viable grid.
+
+C. size needs eps_c = 8.3e-62. If one new cell relieves strain along a whole row of N cells, eps_c = 1/N:
+   N = 1.2e+61 cells = a row 1.9e+26 m long; today's Hubble length = 1.4e+26 m (ratio 1.4)
+   -> the threshold is 'one cell of stretch per horizon-long row'. If that row follows the CURRENT horizon, the size tracks
+      H^2 (iteration 21's failure); if it was fixed once, its length must equal today's horizon by coincidence ('why now').
+
+D. Data: prompt stick-slip = a pure cosmological constant -> Delta chi2 = 0 vs Lambda by construction, i.e. it LOSES Claim 1's
+   advantage (-5.4 / -7.2 / -6.8). As a positive baseline under the jostled toy it is disfavoured (iteration 13: data want the
+   jostled fraction f >= 1, baseline <= 0). With a relief delay it is w > -1 throughout (thawing-like), against the crossing
+   the data prefer.
+
+Lesson: built-in tension with a yield threshold gives a FROZEN size naturally (Coalesce's point is right), but its natural
+behaviour is a pure constant; it does not carry Claim 1's shape, and the threshold's smallness is the old problem in a new
+form ('one cell of stretch per horizon-long row').

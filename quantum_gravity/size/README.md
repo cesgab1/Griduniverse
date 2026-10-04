@@ -28,3 +28,30 @@ recomputed from the horizon each moment.
 - **Only flips that are never undone count** (a ratchet). This needs a rule for which flips persist.
 
 Each must be computed, not tuned, under the self-audit rules.
+
+**Iteration 22: built-in tension with a yield threshold (stick-slip; Coalesce's rubber)** (iter22_stick_slip.py/.txt)
+
+**Setup.** Each cell's strain grows at the stretch rate. At the threshold ε_c a new cell is added and the strain drops by
+ε_c. Simulated over a matter → Λ history with 20,000 cells.
+
+**Results.**
+- **Prompt relief:** the leftover strain stays CONSTANT (⟨ε²⟩/(ε_c²/3) = 0.985 / 0.999 / 0.998 / 1.001 at
+  z = 29 / 3 / 1 / 0). A frozen size comes naturally, and it behaves exactly like a cosmological constant (w = −1).
+- **Short relief delay:** an overshoot that is bigger early (1.5–2.9× at z = 29) and fades as the expansion slows. So
+  w > −1 always and never crosses −1, against the data's preferred crossing.
+- **Long delay:** relief cannot keep up and strain piles up without limit (runaway). Not a viable grid.
+- **Size:** needs ε_c = 8×10⁻⁶², i.e. one cell of stretch per row of 1.2×10⁶¹ cells (1.9×10²⁶ m), which is 1.4× today's
+  Hubble length.
+  - If that row follows the current horizon, the size tracks H² (iteration 21's failure).
+  - If it was fixed once, its length equals today's horizon by coincidence ("why now").
+
+**Data.**
+- Prompt stick-slip = Λ, so it loses Claim 1's Δχ² gain (−5.4 / −7.2 / −6.8).
+- As a positive baseline under the jostled toy it is disfavoured (iteration 13).
+
+**Lesson.**
+- Built-in tension does give a FROZEN size, which fixes iteration 21's history problem. Coalesce's point holds.
+- But its natural behaviour is a pure constant. It does not carry Claim 1's shape, and the small threshold is the old
+  size problem in a new form.
+- Across 21 and 22: every natural size mechanism ties the size to the horizon (right size now, wrong history) or freezes
+  it at a value that must match today's horizon by coincidence.
