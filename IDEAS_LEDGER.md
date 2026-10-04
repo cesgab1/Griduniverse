@@ -574,3 +574,7 @@ returns). Not new; recorded as the best size estimate so far, not a solution.
   in physics (it is an assumption, labelled as such); the size match was USED to set the end date, so it is a fit, not support;
   Branch A needs a second, independent number to count as supported. Coalesce's earlier 'smooth grid existed before the Big
   Bang' (arrow-of-time discussion) belongs to Branch B -- the two views must be reconciled.
+
+## Watermark (primordial ripples) from the grid (iteration 30, arrow_of_time/) -- OPEN as an option, borrowed (Mukohyama 2009)
+Cell jitter: n_s = 4, excluded. Horava z = 3: n_s = 1, excluded at 8.7 sigma. z = 3 - eta with eta = 0.013-0.017 fits (one number
+for one number); predicts zero running (data consistent). Amplitude not predicted. Needs a derivation of eta to count.
