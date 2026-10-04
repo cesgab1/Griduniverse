@@ -1,0 +1,12 @@
+ITERATION 16: when is gravitational entropy produced fastest?  (peak redshift of each production rate)
+
+M1 Weyl/Ricci (linear): P ∝ Om(a) D(a): P peaks at z = 0.79; production dP/dt peaks at z = 29.00, turns negative at z = 0.79
+M2 halo collapse, M = 1e+12 Msun: dF/dt peaks at z = 1.39
+M2 halo collapse, M = 1e+14 Msun: dF/dt peaks at z = 0.00
+M3 black-hole entropy: accretion (SFR) peaks at z = 1.86; entropy production rho_BH x rate peaks at z = 1.19
+M4 horizon entropy 1/H^2: production peaks at z = 0.65 (still rising today: False)
+
+Reference: acceleration onset (q = 0, Claim 1 crossing) z = 0.68; toy (memory kappa = 3) crossing z = 0.46.
+VERDICT: the measures disagree (peaks from z ~ 0 to 1.4). The only ones near q = 0 (M1 turnover 0.79, M4 0.65) are
+driven by the expansion history itself (M4: d(1/H^2)/dt = 2(1+q)/H is a function of q), so the match is circular,
+not independent evidence. NO physical link between dark energy's turnover and gravitational-entropy production found.

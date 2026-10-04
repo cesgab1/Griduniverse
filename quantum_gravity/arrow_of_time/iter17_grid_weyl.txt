@@ -1,0 +1,12 @@
+ITERATION 17: coherent distortion (Weyl-like) vs random irregularity on a random 3-D mosaic (4096 cells)
+
+no strain: single-cell (xx - yy) spread 0.197; patch spread: ~8 cells 0.0844, ~64 cells 0.0299, ~512 cells 0.0093
+strain e = 0.02: (A) cells stretched: mean shift +0.0250   (B) cells rebuilt: mean shift +0.0004   -> retained fraction 0.01
+strain e = 0.05: (A) cells stretched: mean shift +0.0625   (B) cells rebuilt: mean shift -0.0037   -> retained fraction -0.06
+strain e = 0.10: (A) cells stretched: mean shift +0.1245   (B) cells rebuilt: mean shift -0.0161   -> retained fraction -0.13
+
+-> Random irregularity averages away over patches (about 1/sqrt(n)): it is not Weyl curvature, so a random mosaic is
+   compatible with Penrose's 'no Weyl at the start'. A coherent strain survives averaging (A).
+-> When cells are REBUILT by the mosaic rule (B), most of the distortion is erased from the shapes: tidal distortion
+   cannot be stored in cell shapes of a grid that renews its cells; it must live in the LINK LENGTHS (curvature as
+   deficit angles, quantum_gravity/regge_gauge.py). Gravitational entropy = coherent link-length distortion.

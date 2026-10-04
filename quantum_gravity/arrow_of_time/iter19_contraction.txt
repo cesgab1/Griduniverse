@@ -1,0 +1,13 @@
+ITERATION 19: the jostled tension in a CONTRACTING universe
+
+   a        tension energy (rel.)   matter a^-3   radiation a^-4   shear/Weyl a^-6
+     1e+00        1.000e+00          1.0e+00       1.0e+00         1.0e+00
+     1e-01        1.923e+06          1.0e+03       1.0e+04         1.0e+06
+     1e-02        1.923e+12          1.0e+06       1.0e+08         1.0e+12
+     1e-03        1.923e+18          1.0e+09       1.0e+12         1.0e+18
+
+-> in contraction the tension energy grows as a^-6.0: anti-friction turns the memory into AMPLIFICATION, like
+   stiff matter (w = +1). It grows exactly as fast as anisotropic shear (a^-6), so it cannot smooth a collapse
+   (ekpyrotic smoothing needs faster growth, w >> 1). The mechanism is intrinsically time-asymmetric: it calms
+   the tension only while space expands. A collapse would end with high Weyl curvature, unlike our smooth start:
+   Penrose's asymmetry between Big Bang and Big Crunch, here built into the dark-energy mechanism.

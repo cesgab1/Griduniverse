@@ -1,0 +1,10 @@
+ITERATION 18: horizon entropy (S ∝ 1/H^2) and the generalised second law
+
+Claim 1 (instant law), a = 0.03-100       : dH/dt > 0 anywhere? no;  H(a_end)/H0 = 0.277 at a = 100
+   (Claim 1 is phantom, w < -1, for a < 0.59; total rho + p min = 0.013 > 0)
+toy (kappa 3, quadratic), f = 1.0         : dH/dt > 0 anywhere? no;  H(a_end)/H0 = 0.195 at a = 100
+toy (kappa 3, quadratic), f = 1.5         : dH/dt > 0 anywhere? no;  H(a_end)/H0 = 0.029 at a = 100
+LCDM                                      : dH/dt > 0 anywhere? no;  H(a_end)/H0 = 0.831 at a = 100
+
+Reading: 'no' everywhere = horizon entropy never decreases: the arrow of time (second law) is respected in all our
+histories, despite Claim 1's phantom phase (matter keeps the total rho + p positive).

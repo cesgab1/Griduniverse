@@ -390,3 +390,10 @@ under gravity raises gravitational entropy (black holes maximal) and gives the a
     peaks/turns. If dark energy's turnover tracks gravitational-entropy production, that is a physical link (caution:
     must be computed, not matched).
  5. Penrose's conformal cyclic cosmology (CCC) is cyclic -> set aside with the bounce.
+- Its. 16-19 (Penrose/WCH, quantum_gravity/arrow_of_time/README.md): (16) gravitational-entropy production peaks scatter
+  z ~ 0-1.4; horizon-entropy match is circular -> NO link to dark energy's turnover (idea dropped). (17) random mosaic
+  irregularity averages away (not Weyl) -> compatible with smooth start; rebuilt cells erase shape distortion -> Weyl and
+  gravitational entropy live in LINK LENGTHS (consistent with Regge gauge result). (18) generalised second law holds for
+  Claim 1 and the toy; unlike LCDM (finite de Sitter ceiling) our horizon entropy grows forever. (19) in contraction the
+  tension grows as a^-6 (stiff, same as shear): mechanism intrinsically time-asymmetric; Penrose's Bang/Crunch asymmetry
+  built in; supports dropping the bounce.
