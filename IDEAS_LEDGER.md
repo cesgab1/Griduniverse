@@ -965,3 +965,10 @@ To run pre-registered, with look-elsewhere stated.
 - Open (Light-Cone Model curvature): matter thins out and the universe tends to a = c t -- the empty light cone of Special Relativity.
 - Closed: re-collapses -- the only matter-only way to end time (book closes), but data say flat/slightly open.
 - Matter is the 'fixed total supply' picture (density ~ 1/volume); dark energy is not.
+
+## What sets the starting strength C? (Oct 4 2026) -- light_cone_model/what_sets_C.py / .txt
+- C = 3.13 x today's critical density = the dark-energy density the one equation would have in the EMPTY light-cone (SR) state.
+- The fading law is a pure power (no built-in scale): its shape alone cannot fix C.
+- Far future: rho x horizon^2 -> 0.1865 c^4/G for ANY C. Matching hbar c/(2 l^2 L^2) there gives l = 1.64 l_P (new candidate,
+  between Planck 1 and black-hole 2). Today we sit at 0.58 of that attractor value.
+- Split of roles: the smallest length sets the SIZE scale; C sets WHEN dark energy takes over (z ~ 0.68) -> C is the 'why now' number.

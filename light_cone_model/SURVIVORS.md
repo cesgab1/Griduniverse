@@ -46,3 +46,8 @@ must be frozen, not re-set, to avoid tracking).
   'never above -1' was wrong: it starts above -1 and dives below.)
 Lesson: dark energy shares horizon thermodynamics with black holes, but its size is NOT set like a black hole's (energy filling
 its own horizon). Remaining non-grid size route: 0.35 - 4.4 x (iteration 70), still unpinned.
+
+## What sets C (what_sets_C.txt)
+- Survives as a derived candidate: smallest length l = 1.64 l_P from far-future consistency of fading dark energy (independent of C).
+  Not yet tested against anything independent -- must be checked (e.g. against black-hole entropy, which wants 2 l_P) before use.
+- C is NOT a size number; it is the timing ('why now') number. Remaining open input: one number, C (equivalently z_cross ~ 0.68).
