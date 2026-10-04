@@ -1020,3 +1020,14 @@ To run pre-registered, with look-elsewhere stated.
   90% at 18.8 Gyr, 99% at 37 Gyr: a slow, gradual handover. The dial's own clock: 1/sqrt(8 pi G D0/3) = 8.2 Gyr.
 - Real universe: acceleration starts at 7.5 Gyr -- close to the matter-free 50% point (7.8 Gyr). Not yet known whether that is
   generic; check by varying the amount of matter with the dial fixed.
+
+## Iteration 76 (Oct 4 2026): dark-energy-free universe + variance -> 'why now' = 'why this size' -- PREREG_76.md, iter76_variance.*
+- Dark-energy-free (same matter + open curvature): decelerates forever; the empty light cone takes over only at 22,000 Gyr
+  (50%). Matter has no clock: rho_m = 1/(6 pi G t^2) to 0.5% at 1 and 13.8 Gyr whatever the amount of matter.
+- Variance: matter x 1/4 ... x 4 (16-fold) moves acceleration onset only 6.70 - 8.31 Gyr (-10% / +11%); dial x 1/2, x 2 moves it
+  x1.38 / x0.73 (close to D0^-1/2). All expectations met.
+- Result: 'now' (acceleration onset, 7.47 Gyr) = 0.91 x the dial's own clock 1/sqrt(8 pi G D0/3) = 8.2 Gyr. Matter only adds the
+  early braking. 'Why now' and 'why this size' are ONE question.
+- Honest note: standard cosmology already has this (t_Lambda ~ 1/sqrt(G Lambda)); our model reproduces it with a weak matter
+  dependence. The remaining coincidence, in its standard form: why is the dial's clock (8 Gyr) close to the lifetime of stars
+  (when observers exist)? Stellar lifetimes are set by hbar, G, particle masses, alpha -- a genuine absolute clock.

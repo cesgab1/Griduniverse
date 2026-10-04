@@ -51,3 +51,8 @@ its own horizon). Remaining non-grid size route: 0.35 - 4.4 x (iteration 70), st
 - Survives as a derived candidate: smallest length l = 1.64 l_P from far-future consistency of fading dark energy (independent of C).
   Not yet tested against anything independent -- must be checked (e.g. against black-hole entropy, which wants 2 l_P) before use.
 - C is NOT a size number; it is the timing ('why now') number. Remaining open input: one number, C (equivalently z_cross ~ 0.68).
+
+## Why now (iterations 72-76)
+- Excluded as explanations of timing: cosmic ratios (73), natural setting at the Bang (74), 'big start, fast fade' (75, dial survives).
+- Established (76): acceleration onset = 0.91 x 1/sqrt(8 pi G D0/3), nearly independent of the amount of matter. 'Why now' = 'why
+  this size'. Remaining coincidence: dial clock (8 Gyr) vs stellar lifetimes.

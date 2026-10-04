@@ -1,0 +1,21 @@
+Iteration 76: dark-energy-free universe and variance test. PREREG_76.md
+
+A. Dark-energy-free (same matter, radiation, curvature):
+   at t = 13.8 Gyr: size = 0.86 x today's, curvature share 0.0063, decelerating (q = 0.50)
+   empty light cone (curvature) reaches 10% at t = 983 Gyr (size 15 x today's)
+   empty light cone (curvature) reaches 50% at t = 21912 Gyr (size 136 x today's)
+   empty light cone (curvature) reaches 90% at t = 315291 Gyr (size 1223 x today's)
+   ever accelerates? NO
+   matter density at 1 Gyr: 7.93e-25 kg/m^3 vs 1/(6 pi G t^2) = 7.98e-25 (ratio 0.994)
+   matter density at 13.8 Gyr: 4.17e-27 kg/m^3 vs 1/(6 pi G t^2) = 4.19e-27 (ratio 0.995)
+
+B. Variance (full model):
+   matter x 0.25: acceleration starts  6.70 Gyr (0.897x) | dark energy passes matter  8.99 Gyr (0.895x)
+   matter x 0.5 : acceleration starts  7.07 Gyr (0.947x) | dark energy passes matter  9.51 Gyr (0.947x)
+   matter x 1   : acceleration starts  7.47 Gyr (1.000x) | dark energy passes matter 10.04 Gyr (1.000x)
+   matter x 2   : acceleration starts  7.88 Gyr (1.055x) | dark energy passes matter 10.60 Gyr (1.055x)
+   matter x 4   : acceleration starts  8.31 Gyr (1.113x) | dark energy passes matter 11.18 Gyr (1.113x)
+   dial   x 0.5 : acceleration starts 10.28 Gyr (1.377x; D0^-1/2 would be 1.414x) | passes matter 13.83 Gyr
+   dial   x 2   : acceleration starts  5.42 Gyr (0.726x; D0^-1/2 would be 0.707x) | passes matter  7.29 Gyr
+
+C. Dial clock 1/sqrt(8 pi G D0/3) = 8.20 Gyr; acceleration starts at 7.47 Gyr = 0.910 x dial clock.
