@@ -105,3 +105,13 @@ So the clock the data read is the EXPANSION clock (adot), not the structure cloc
 thinning (it sets when q crosses 0), not through its pooling. A size mechanism must be tied to the expansion rate, yet not
 track H^2 (iteration 21). Mixing T1 and T2 to place a peak at z ~ 0.6 would be an accommodation (new free weight, no new
 prediction), so it was not done.
+
+## Iteration 31: 'time adds it' -- a bucket fed by the same kicks as the jostled tension (pre-registered at 6d85cfd)
+No new parameter: the sponge forgets (Hubble friction, kappa = 3), the bucket keeps every kick (X_B = conformal time).
+- Bucket/sponge today = 18 (expected ~19). Dark energy becomes phantom at all z: w0 = -1.09, w(1) = -1.15, w(2) = -1.17.
+- Fits (Delta chi2 vs Lambda), bucket on: **+27.8 / +34.6 / +20.3** (Pantheon+ / DES-Dovekie / Union3). Control (bucket off)
+  reproduces the toy exactly: -7.09 / -9.17 / -8.50.
+- Sign: quadratic energy makes the bucket positive, so the slightly negative accumulated part the data like is unreachable.
+- EXCLUDED, as pre-registered (E1-E3 all held). Lesson: kicks that are never forgotten pile up and take over; the data want the
+  jostled tension to forget. A remembered SIZE would need a different channel from the kicks that make the SHAPE (e.g. a
+  quantity that enters linearly with a random sign, frozen once), not the same kicks kept longer.

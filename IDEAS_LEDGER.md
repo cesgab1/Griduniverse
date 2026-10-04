@@ -605,3 +605,6 @@ time (derived: Hubble friction). (3) A separate accumulated constant plus the sh
 constant part must be small; only a slightly NEGATIVE one is liked (an accumulated random sum can have either sign -- noted).
 Lesson: the shape needs forgetting, the size needs remembering; one process cannot do both. Two-part idea still needs a size
 for the jostled part.
+  Iteration 31 (quantum_gravity/size/): bucket fed by the same kicks, no new parameter: 18x the sponge, phantom at all z,
+  Delta chi2 +28 / +35 / +20 vs Lambda -> EXCLUDED (pre-registered). A remembered size needs a separate channel, not the same
+  kicks kept longer.
