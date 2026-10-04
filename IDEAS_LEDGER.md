@@ -525,3 +525,12 @@ clock. Do not re-propose clumping-driven dark energy without a reason it would p
 Shared leftover charge until crossing shut at T_f > ~7 GeV -> Ocean particle ~8.5-13 GeV (simplest content); no annihilation
 signal; nucleon cross-section <~1e-49 cm^2 (below the neutrino fog). Pre-registered at bda169c; consistent with LZ/XENONnT nulls
 (weak test). Trades 5.36 for a mass; would become an explanation only if the grid fixes m ~ 10 m_p. `ocean_origin/`
+
+## Anglerfish: the Ocean grows heavy by eating free electrons (Coalesce, Oct 2026) -- CLOSED (budget)
+All electrons weigh 4.8e-4 of ordinary matter; the Ocean is 5.36x ordinary matter -> eating every electron supplies 1/11,000
+of its mass. Also the sky: electrons are not missing (CMB recombination, charge neutrality), and Bullet-Cluster gas (full of
+free electrons) is not touched by dark matter. The KEPT kernel: 'heavier because built from the same kind of pieces, bundled'.
+Literature version: twin (mirror) sector -- a copy of the strong force in the gaps makes twin baryons ~5 Lambda'_QCD, mass
+2.5-100 GeV, ratio ~5 without tuning the mass to the proton (Garcia Garcia, Lasenby & March-Russell, PRL 115, 121801, 2015;
+Farina 1506.03520). It predicts dark radiation Delta N_eff ~0.075-0.16 (our P3 window: < 0.107). NEXT: test 'gaps hold a twin
+copy' against the checklist and Delta N_eff before adopting (it is a new ingredient; must bring predictions).
