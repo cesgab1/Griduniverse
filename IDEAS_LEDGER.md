@@ -658,3 +658,6 @@ Friedmann leftover from real DESI DR2 expansion rates + Planck r_d and omega_m: 
 0.038 (0.71), 0.300 +/- 0.032 (0.93), 0.279 +/- 0.067 (1.32), then large errors. One constant fits (chi2 5.4/5 dof; best 0.345 +/-
 0.020 vs Planck-Lambda 0.311, ~1.7 sigma). Claim 1 (no fitting) fits equally (chi2 5.4/6). Its predicted peak is only ~1% high,
 far below the ~10% errors. Method is right; precision must improve ~10x to see our shape this way.
+  How much is left (direct_check/how_much_left.py): today 5.5-6.2e-27 kg/m^3 (~3.3-3.7 hydrogen-atom masses per m^3) across
+  readings. Left at 25 / 40 / 60 Gyr: Lambda 1 / 1 / 1; Claim 1 0.81 / 0.61 / 0.44; w0wa formula (if extrapolated) 0.33-0.53 /
+  0.07-0.15 / 0.01-0.04. Future part is projection only; w0wa is not a law.

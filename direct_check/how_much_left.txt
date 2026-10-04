@@ -1,0 +1,11 @@
+How much dark energy: today, and later (concentration relative to today)
+
+Lambda (Pantheon+)     today 6.15e-27 kg/m^3 (~3.7 H-atom masses/m^3); left at 25 Gyr: 1.00  40 Gyr: 1.00  60 Gyr: 1.00  (t0 = 13.7 Gyr)
+Claim 1 (Pantheon+)    today 5.90e-27 kg/m^3 (~3.5 H-atom masses/m^3); left at 25 Gyr: 0.81  40 Gyr: 0.61  60 Gyr: 0.44  (t0 = 13.8 Gyr)
+w0wa Pantheon+         today 5.92e-27 kg/m^3 (~3.5 H-atom masses/m^3); left at 25 Gyr: 0.53  40 Gyr: 0.15  60 Gyr: 0.04  (t0 = 13.7 Gyr)
+w0wa DES-Dovekie       today 5.88e-27 kg/m^3 (~3.5 H-atom masses/m^3); left at 25 Gyr: 0.47  40 Gyr: 0.12  60 Gyr: 0.03  (t0 = 13.7 Gyr)
+w0wa Union3            today 5.53e-27 kg/m^3 (~3.3 H-atom masses/m^3); left at 25 Gyr: 0.33  40 Gyr: 0.07  60 Gyr: 0.01  (t0 = 13.7 Gyr)
+
+Reading: today's concentration: 5.5-6.2e-27 kg/m^3 across readings (each reading individually ~2-3%).
+What is LEFT later depends on the reading: Lambda keeps all of it; Claim 1 fades gently; the w0wa formula, if trusted
+beyond the data, fades fast. Only the fitted past is measured; the future part is a projection.
