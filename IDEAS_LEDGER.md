@@ -827,3 +827,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
   adding cells (E6); the stamp is a tally of pops (iterations 53, 55). Open question it may answer: why the ELECTRON holds the
   dark-energy stamp and pays at decoupling (iteration 55 hole). Candidate: the electron is the lightest charged particle, so
   its pops (virtual electron-positron pairs) are the largest and most common charged ones. Status: OPEN, to brainstorm.
+
+## Iteration 56: pops vs the electron's 0.6% (Oct 2026) -- pops/
+- 14 pre-declared countable numbers: one hit, alpha = 0.73% (not blind; lead only). 1/N (layers) merely consistent at N = 163.
+- If delta = alpha: payday z = 116, 21-cm step 12.1 MHz, CMB 0.5 sigma; zero free choices for delta IF a mechanism is found.
+- OPEN: mechanism for 'extra mass = alpha x m_e while hit by light, released when hits stop'.
