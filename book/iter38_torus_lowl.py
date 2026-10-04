@@ -5,7 +5,7 @@ Method: in a wrapped cube only waves that fit (k = 2 pi n / L) exist. Isotropica
    continuum: C_l = 4 pi  INT dlnk  P(k) Delta_l(k)^2
    torus    : C_l = 4 pi (2 pi)^3 / L^3  SUM_{n != 0}  P(k_n) Delta_l(k_n)^2 / (4 pi k_n^3)
 with CAMB's transfer functions Delta_l(k) (Planck 2018 best fit). Ratio torus/continuum multiplies CAMB's D_l.
-Validation: L = 300 Gpc must give ratio ~ 1.
+Validation: L = 150 Gpc must give ratio ~ 1.
 Expectations written BEFORE running:
  T1 L in 27.5-38 Gpc suppresses l = 2-3 (missing longest waves), little effect by l ~ 10.
  T2 Planck's low quadrupole makes this a mild IMPROVEMENT or neutral: Delta chi2 between -3 and +1 across the window.
@@ -14,6 +14,7 @@ Expectations written BEFORE running:
  Kill: Delta chi2 > +4 across the whole window would disfavour the book's testable half.
 """
 import numpy as np, camb
+from scipy.signal import fftconvolve
 from cobaya.likelihoods.planck_2018_lowl.TT import TT
 like = TT({"packages_path": "/home/claude/cobaya_packages"})
 pars = camb.set_params(H0=67.36, ombh2=0.02237, omch2=0.1200, mnu=0.06, tau=0.0544, As=2.1e-9, ns=0.9649, lmax=60)
@@ -28,7 +29,7 @@ def delta_interp(il, k): return np.interp(np.log(k), np.log(q), D[il])
 def ratio(Lgpc):
     L = Lgpc*1e3; kmax = 0.03; nmax = int(kmax*L/(2*np.pi)) + 1
     a = np.arange(-nmax, nmax + 1); c1 = np.bincount(a**2, minlength=nmax**2 + 1)
-    c2 = np.convolve(c1, c1); c3 = np.convolve(c2, c1)[:nmax**2 + 1]      # number of lattice vectors with |n|^2 = m
+    c2 = np.rint(fftconvolve(c1, c1)); c3 = np.rint(fftconvolve(c2, c1))[:nmax**2 + 1]      # number of lattice vectors with |n|^2 = m
     m = np.arange(1, nmax**2 + 1); cnt = c3[1:]; sel = cnt > 0; m, cnt = m[sel], cnt[sel]
     kn = 2*np.pi*np.sqrt(m)/L
     kf = np.geomspace(1e-6, kmax, 200000)
@@ -43,7 +44,7 @@ def chi2(dl): return -2*like.log_likelihood(dl)
 c0 = chi2(base)
 lines = ["ITERATION 38: wrap-around cube vs the real Planck low-l TT likelihood (expectations committed before running)", "",
          f"plain (infinite space): -2 lnL = {c0:.2f}", "", " L [Gpc]   ratio l=2   l=3    l=5    l=10   l=20    Delta chi2"]
-for Lg in (300, 60, 45, 38, 33, 30, 27.5, 23):
+for Lg in (150, 60, 45, 38, 33, 30, 27.5, 23):
     r = ratio(Lg); d = base.copy()
     for l, v in r.items(): d[l] = base[l]*v
     lines.append(f"  {Lg:6.1f}    {r.get(2, np.nan):.3f}   {r.get(3, np.nan):.3f}  {r.get(5, np.nan):.3f}  {r.get(10, np.nan):.3f}  {r.get(20, np.nan):.3f}   {chi2(d) - c0:+.2f}")

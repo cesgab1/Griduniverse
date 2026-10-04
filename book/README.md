@@ -13,3 +13,7 @@ Data: Omega_k = 0.0023 +/- 0.0011 (DESI DR2 + CMB, arXiv:2505.00659); cubic 3-to
 - Status: the inversion makes a real, checkable claim: space is finite, flat and wraps around on a scale just beyond what CMB
   searches have reached, AND time ends within roughly 0-11 Gyr. The first half is testable (deeper CMB topology searches); the
   second is not. The unknown O(1) rule constant is the main weakness.
+
+## Iteration 38: wrap-around cube vs the real Planck large-angle likelihood (pre-registered at 9a4e22d)
+Cube side 27.5-38 Gpc: quadrupole 3-14% lower, Delta chi2 = -0.6 to -0.1 vs infinite space -> allowed, neutral to slightly
+favoured; not decisive. The book's testable half survives; its real test is a search for repeated patterns just beyond 27.5 Gpc.

@@ -703,3 +703,5 @@ Weinberg 1998. Not adopted; it is selection, not a mechanism.
   Iteration 37 (direct_check/iter37_both_options.*): both size options vs the direct leftover. Tracking (option 1) EXCLUDED by
   low-z data alone (chi2 154/5; 37/3 without red-galaxy bins). Fixed stamp (option 2) fits (5.4/5; 0.14/3). The 'rise toward
   today' (p = -0.72, ~1.9 sigma) disappears without the red-galaxy bins (p = -0.10 +/- 0.8) -> not robust; no revision.
+  Iteration 38 (book/): wrap-around cube with side 27.5-38 Gpc vs real Planck low-l TT: Delta chi2 -0.6 to -0.1 (quadrupole 3-14%
+  lower) -> allowed, not decisive. Testable half survives; decisive test = repeated-pattern / anisotropy searches (COMPACT).

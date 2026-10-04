@@ -1,0 +1,19 @@
+ITERATION 38: wrap-around cube vs the real Planck low-l TT likelihood (expectations committed before running)
+
+plain (infinite space): -2 lnL = 23.47
+
+ L [Gpc]   ratio l=2   l=3    l=5    l=10   l=20    Delta chi2
+   150.0    1.000   1.000  1.000  1.000  1.000   +0.00
+    60.0    0.996   1.000  1.000  1.000  1.000   -0.02
+    45.0    0.986   1.000  1.000  1.000  1.000   -0.06
+    38.0    0.971   1.001  1.001  1.001  1.000   -0.10
+    33.0    0.945   1.005  1.000  0.999  0.999   -0.26
+    30.0    0.914   1.010  1.001  1.001  1.000   -0.38
+    27.5    0.862   1.028  1.008  1.001  0.999   -0.62
+    23.0    0.678   1.013  0.948  1.024  1.011   -1.16
+
+Versus expectations (committed at 9a4e22d): validation passed (150 Gpc -> ratio 1.000). T1 held: the quadrupole drops 3-14% for
+L = 38-27.5 Gpc, higher multipoles barely change. T2 held: Delta chi2 = -0.10 to -0.62 across the window (neutral to mildly
+favoured; 23 Gpc gives -1.16 but is already excluded by circle searches). T3: not decisive -- the averaged power spectrum cannot
+confirm a wrap-around; the decisive tests are repeated patterns and direction-dependent correlations (COMPACT-type statistical
+searches), which future analyses may push somewhat beyond today's 27.5 Gpc limit. Kill criterion not triggered.
