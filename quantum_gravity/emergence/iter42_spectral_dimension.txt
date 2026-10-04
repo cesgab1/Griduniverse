@@ -1,0 +1,38 @@
+ITERATION 42: spectral dimension of our random grid (expectations committed before running)
+
+grid: 5000 random points, periodic box, links within 1.6 spacings; Weyl-law exponent of the spectrum = 1.57 (3-D: 1.50)
+
+plain z = 1:
+    diffusion scale sigma = 300.000 (~17.32 spacings): d_s = 1.00
+    diffusion scale sigma =  30.000 (~ 5.48 spacings): d_s = 1.83
+    diffusion scale sigma =   3.000 (~ 1.73 spacings): d_s = 4.16
+    diffusion scale sigma =   0.300 (~ 0.55 spacings): d_s = 3.59
+    diffusion scale sigma =   0.030 (~ 0.17 spacings): d_s = 1.46
+    diffusion scale sigma =   0.003 (~ 0.05 spacings): d_s = 1.05
+    min / max d_s for sigma 0.01-1: 1.17 / 4.14
+z = 3 switching on at ~3 spacings (M = 2):
+    diffusion scale sigma = 300.000 (~17.32 spacings): d_s = 1.00
+    diffusion scale sigma =  30.000 (~ 5.48 spacings): d_s = 1.83
+    diffusion scale sigma =   3.000 (~ 1.73 spacings): d_s = 3.94
+    diffusion scale sigma =   0.300 (~ 0.55 spacings): d_s = 2.85
+    diffusion scale sigma =   0.030 (~ 0.17 spacings): d_s = 2.08
+    diffusion scale sigma =   0.003 (~ 0.05 spacings): d_s = 1.28
+    min / max d_s for sigma 0.01-1: 1.62 / 3.37
+z = 3 switching on at ~6 spacings (M = 1):
+    diffusion scale sigma = 300.000 (~17.32 spacings): d_s = 1.00
+    diffusion scale sigma =  30.000 (~ 5.48 spacings): d_s = 1.77
+    diffusion scale sigma =   3.000 (~ 1.73 spacings): d_s = 3.35
+    diffusion scale sigma =   0.300 (~ 0.55 spacings): d_s = 2.37
+    diffusion scale sigma =   0.030 (~ 0.17 spacings): d_s = 2.13
+    diffusion scale sigma =   0.003 (~ 0.05 spacings): d_s = 2.00
+    min / max d_s for sigma 0.01-1: 2.13 / 2.77
+
+Versus expectations (committed at 40a3b56):
+ - Spectrum check: Weyl exponent 1.57 vs 1.50 for 3-D: the random grid behaves as 3-D space at the spectral level.
+ - Large sigma (>~ 30) falls to 1 only because the periodic box is small (~17 spacings): finite-size effect, not physics.
+ - D1 HOLDS: plain grid peaks at d_s ~ 4.1 and then falls through 2 only via single-cell discreteness -- no plateau near 2.
+ - D2 PARTLY: with z = 3 switching on at ~6 spacings, d_s = 2.37 -> 2.13 -> 2.00 for sigma 0.3 -> 0.003 (a plateau at ~2, within
+   0.25 below sigma ~ 0.03); with the switch at ~3 spacings it blurs into discreteness (2.85 -> 2.08 -> 1.28), no clean plateau.
+ - Reading: our random grid carries Horava/CDT-style reduction to ~2 dimensions ONLY if the z = 3 rule switches on several
+   (>~ 6) cell spacings above the cell scale -- the same ~6-8 cells found for the curvature-averaging neighbourhood (E13/E14).
+   The reduction itself is an input (z = 3, borrowed); the coincidence of the two switch-over scales is a consistency check.

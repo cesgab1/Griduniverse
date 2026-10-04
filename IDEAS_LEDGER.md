@@ -730,3 +730,6 @@ a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7
   neighbourhood-averaged curvature works on the random Mosaic.
   Coalesce's framing adopted (E14): tidy cells are what GR sees at the averaged level; the quantum level is random. Switch-over
   at the neighbourhood scale eps (~6-8 cells). Matches CDT/Horava 'dimensional reduction' (effective dimension ~2 at small scales).
+  Iteration 42 (emergence/): spectral dimension on the random grid. Plain: ~4 then discreteness, no plateau at 2. With z = 3
+  switching on at ~6 spacings: plateau d_s ~ 2.0-2.4 (as CDT/Horava). Requires the switch >~ 6 cells above the cell scale -- the
+  same scale as the curvature-averaging neighbourhood. Consistent two-level picture; reduction itself is borrowed (z = 3).
