@@ -28,3 +28,18 @@ P2 dark energy = constant, or follows the cosmic 'now' (Claim 1: Delta chi2 -5.4
 - Dark energy's SIZE: still a free number in this picture.
 - Finite or infinite: L3 gives open curvature; finiteness would be an extra assumption (compact open space) -- not added.
 - Near the event the real universe is hot and dense, not empty: L1 is the causal skeleton, GR supplies the content.
+
+## One equation (Oct 4 2026)
+General form (one action covers SR, GR and the cosmic 'now'):
+    S = INTEGRAL d^4x sqrt(-g) [ R/(16 pi G) + f(K, tau) ] + S_matter
+    tau = proper time since the first event; u = the flow orthogonal to the equal-tau 'now' surfaces; K = div u (their expansion rate)
+    gravity off (R = 0, flat metric) -> Special Relativity; f = constant -> GR with a cosmological constant; f(K) -> dark energy
+    following the cosmic 'now' (Claim 1).
+For the universe as a whole it becomes ONE line:
+    H^2 = (8 pi G / 3) rho_matter+radiation  +  c^2 / a^2  +  C (a H / c)^(-1/2)
+    a = the PHYSICAL curvature radius of the 'now' surface (open shape, L3); H = expansion rate.
+Checks:
+ - nothing in the universe (rho = 0, C = 0): H = c/a -> a = c t: the empty, expanding light cone of Special Relativity (Milne) --
+   SR is literally the empty limit of this equation.
+ - no curvature term and C -> constant: GR's standard cosmology (Lambda-CDM).
+ - Claim 1's 'a' is now a physical length (curvature radius), not a convention: today a H0/c = 1/sqrt(Omega_k) ~ 21.
