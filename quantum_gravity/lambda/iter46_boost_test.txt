@@ -1,0 +1,6 @@
+ITERATION 46: does the grid have a preferred 'now'? (expectations committed before running)
+
+random in space AND time               boost rapidity 1.0: median gap 0.0205 -> 0.0196, KS p = 2.41e-03
+random in space AND time               boost rapidity 2.0: median gap 0.0205 -> 0.0179, KS p = 3.48e-14
+random in space, synchronised ticks    boost rapidity 1.0: median gap 0.0255 -> 0.0244, KS p = 2.63e-02
+random in space, synchronised ticks    boost rapidity 2.0: median gap 0.0255 -> 0.0214, KS p = 1.03e-24
