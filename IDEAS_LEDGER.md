@@ -733,3 +733,5 @@ a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7
   Iteration 42 (emergence/): spectral dimension on the random grid. Plain: ~4 then discreteness, no plateau at 2. With z = 3
   switching on at ~6 spacings: plateau d_s ~ 2.0-2.4 (as CDT/Horava). Requires the switch >~ 6 cells above the cell scale -- the
   same scale as the curvature-averaging neighbourhood. Consistent two-level picture; reduction itself is borrowed (z = 3).
+  Iteration 44 (emergence/): tension field + thermal relic on the random grid: memory 0.96 x 1/(3H), region averaging slope -0.90
+  -> the shape ingredients (memory, sqrt(N)) hold on the Mosaic itself. Size (coupling) still by hand.

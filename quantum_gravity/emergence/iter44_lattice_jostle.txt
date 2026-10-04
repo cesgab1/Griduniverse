@@ -1,0 +1,17 @@
+ITERATION 44: tension field jostled by a thermal relic, both living on the random grid (expectations committed first)
+
+memory of the uniform tension: 32.0 time units; Hubble-friction expectation 1/(3H) = 33.3  (ratio 0.96)
+ region size (cells)   variance of region-averaged tension (uniform part removed)
+       5.5            1.837e+03
+      15.4            7.271e+02
+      36.4            3.415e+02
+      67.7            1.974e+02
+     114.0            1.230e+02
+     179.8            8.100e+01
+slope over the larger regions: -0.90 (expected -1.0: independent cells -> sqrt(N) averaging)
+
+Versus expectations (committed at 35b0dc7): M HOLDS (0.96 x 1/(3H), within 15%); V HOLDS (slope -0.90, within -1.0 +/- 0.15).
+Reading: on the random grid itself, a tension field jostled by a thermal relic forgets in 1/(3H) (Hubble friction) and averages
+like sqrt(N) over regions -- the two ingredients of the dark-energy law's shape, now from fields living on the Mosaic rather than
+a continuum toy. Caveats: constant H and a non-expanding lattice (slow-expansion approximation); the coupling g (hence the SIZE)
+is still put in by hand.

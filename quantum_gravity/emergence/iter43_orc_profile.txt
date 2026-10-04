@@ -1,0 +1,1 @@
+ITERATION 43 (pre-registered at 6ebca53); density 1.2e6, 30 pairs per shell
