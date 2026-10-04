@@ -938,5 +938,5 @@ To run pre-registered, with look-elsewhere stated.
 
 ## Iteration 69 + GR track (Oct 2026) -- gr_track/
 - GR-allowed (non-crossing) dark energy: -2.0/-3.2/-2.6 vs Lambda with 2 extra numbers; Claim 1 -5.4/-7.2/-6.8 with none.
-- GR + hbar gives NO size (free constant; vacuum 10^34-10^121 too big; unimodular removes it but leaves the value free).
+- GR + hbar gives NO size (free constant; vacuum 2e31-6e120 too big; unimodular removes it but leaves the value free).
   Discreteness (the grid) is the only added ingredient that yields a size. GR and grid agree on Einstein eqs, BH entropy, growth.
