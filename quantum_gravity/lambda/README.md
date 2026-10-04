@@ -34,7 +34,7 @@ lambda != 1 makes gravity for the cosmic expansion differ from gravity for plane
    lambda = 1 at long distances (but with loss of control as it gets there); not established in 3+1-D.
 
 ## Verdict
-lambda = 1 is NOT explained by the grid as built (naive estimate -0.5). The cleanest fix is route 1: make the grid random in
+lambda = 1 is NOT explained by a grid with a built-in now (preferred-frame cutoff -> lambda != 1 generically). The cleanest fix is route 1: make the grid random in
 spacetime (statistically Lorentz invariant) and let the preferred slicing live only in the dark-energy sector (route 2). That
 keeps Claim 1 and gives lambda = 1, at the price of re-deriving the small-scale (z = 3) results. Proposed next test: compute
 lambda induced by a field on a spacetime-random grid vs a space-random grid with a preferred time step.
