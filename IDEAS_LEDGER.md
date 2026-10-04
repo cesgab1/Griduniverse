@@ -448,3 +448,16 @@ Rules adopted from now: (a) every new ingredient must come with a NEW prediction
 ## PRE-REGISTRATION frozen 2026-10-03 18:19 PDT, commit cb5154f: predictions/preregistration/ (PREREGISTRATION.md,
 ## predictions.json, prediction_wz.png). P1 crossing z 0.68 (Claim 1) / 0.46 (memory kappa = 3) with binned w and kill
 ## criteria; P2 m_e(rec)/m_e0 = 1.004-1.011; P3 0 < dN_eff < 0.107 (weak); P4 consequences. No re-tuning after new data.
+
+## Back to the stuck point: the SIZE of dark energy - intuitive candidate (Oct 2026), brainstorm + magnitude check
+'Votes that nearly cancel': every grid cell in our causal past contributes a random +/- to the grid tension; the net is
+the leftover imbalance, ~ 1/sqrt(number of cells). Planck 4-cells in one Hubble 4-volume: 5.2e243 -> 1/sqrt = 1.4e-122
+(Planck units); observed rho_DE = 1.1e-123: within a factor ~12 (votes over one Hubble time) or ~110 (votes within the
+toy's memory, 1/3 Hubble time) - versus the usual 120 orders of magnitude. This is Sorkin's 'everpresent Lambda'
+(causal sets), which PREDICTED Lambda ~ 1e-120 before its 1998 discovery: BORROWED, but the grid gives it a home
+(cells exist and are added; Coalesce's 'averaging, not marching in step', it. 6-7).
+Also explains 'why now' (dark energy ~ critical density at every epoch) and allows a NEGATIVE value (random sign;
+cf. it. 13's mild preference for f > 1).
+Problems to test before believing: (1) the simplest everpresent-Lambda history fluctuates and tracks H^2 and was in
+tension with data (earlier test; literature); (2) its time dependence (variance ∝ H^2) differs from our law's shape
+(∝ (aH)^-1/2 or 1/(aH)); a combined model must fit DESI+SN+CMB; (3) the factor 12-110 must come out, not be tuned.
