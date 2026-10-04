@@ -716,3 +716,9 @@ flat-space check and discarded.
 With gravity induced by the N layers (Sakharov), entanglement entropy = A/(4G) automatically (Jacobson 1994; Susskind-Uglum
 1994) for scalar fields like our tension field. The grid's measured entanglement (s0 = 0.0603 per cell area) then fixes
 a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7-5.2e15, cell 4.3e-32 to 5.7e-28 m.
+  Coalesce (Oct 2026): maybe tidy cells are needed only because of HOW curvature is defined. Agreed in principle: the
+  tidy-cell requirement belongs to Regge's definition (deficit angles on single links). Definitions built for randomness are
+  known to converge on random grids: Ollivier-Ricci curvature (optimal transport between neighbourhoods; van der Hoorn et al.,
+  PRR 3, 013211, 2021) and the causal-set Benincasa-Dowker action (averages over many points; converges in the mean with a
+  smearing scale). Revised constraint: either tidy cells + Regge, or random cells + a smeared/nonlocal curvature definition.
+  NEXT: test Ollivier-Ricci on our random grid against the known curvature.
