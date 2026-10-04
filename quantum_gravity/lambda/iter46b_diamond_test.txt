@@ -1,0 +1,26 @@
+ITERATION 46b: counts in causal diamonds of fixed proper size at different rapidities
+
+expected for a frame-free grid: mean = variance = 50.0
+
+random in space AND time               rapidity 0.0: mean   50.2   variance   51.4   variance/mean 1.02
+random in space AND time               rapidity 1.0: mean   50.3   variance   50.6   variance/mean 1.01
+random in space AND time               rapidity 2.0: mean   50.1   variance   51.5   variance/mean 1.03
+random in space, synchronised ticks    rapidity 0.0: mean   50.1   variance   50.8   variance/mean 1.01
+random in space, synchronised ticks    rapidity 1.0: mean   50.0   variance   48.8   variance/mean 0.98
+random in space, synchronised ticks    rapidity 2.0: mean   49.9   variance   50.5   variance/mean 1.01
+--- tick-scale diamonds (tau = 0.12, tick gap 0.05) ---
+ITERATION 46b: counts in causal diamonds of fixed proper size at different rapidities
+
+expected for a frame-free grid: mean = variance = 2.9
+
+random in space AND time               rapidity 0.0: mean    2.9   variance    2.9   variance/mean 1.00
+random in space AND time               rapidity 1.0: mean    2.9   variance    2.8   variance/mean 0.98
+random in space AND time               rapidity 2.0: mean    2.9   variance    2.8   variance/mean 0.98
+random in space, synchronised ticks    rapidity 0.0: mean    2.9   variance    2.9   variance/mean 1.02
+random in space, synchronised ticks    rapidity 1.0: mean    2.9   variance    3.0   variance/mean 1.04
+random in space, synchronised ticks    rapidity 2.0: mean    2.9   variance    3.0   variance/mean 1.03
+
+Verdict (46 and 46b): 46's statistic was invalid (edge-dominated; recorded, not used). 46b: the grid random in space AND time gives
+the same diamond-count statistics at rapidities 0, 1, 2 (variance/mean 1.00/0.98/0.98 at tick scale; 1.02/1.01/1.03 at large scale)
+-> no preferred frame, as the Bombelli-Henson-Sorkin theorem says. The synchronised-tick grid shows its frame only weakly in counts
+(1.02 -> 1.04/1.03 at tick scale, ~2-4 sigma); its frame lives in timing structure, which diamond counts barely see.

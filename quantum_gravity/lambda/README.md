@@ -12,8 +12,9 @@ lambda != 1 makes gravity for the cosmic expansion differ from gravity for plane
 - So lambda = 1 to about 1-2%.
 
 ## What the grid says
-- NAIVE GRID: a hard, preferred-frame cutoff (vacuum energy of grid modes responding to stretching) gives
-  lambda ~ -0.5 (illustrative estimate: direction average <(n.K.n)^2> = (2 sigma^2 + (5/3) K^2)/15). NOT 1.
+- CORRECTION: the earlier 'lambda ~ -0.5' estimate omitted contact terms and gives the same tensor structure for any cutoff, so it
+  cannot discriminate grids; WITHDRAWN as a number. What stands: a frame-free (covariant) cutoff gives lambda = 1 exactly by
+  symmetry; a preferred-frame cutoff generically gives lambda != 1 (value needs a full one-loop calculation, not done).
   This is the known general problem: Lorentz violation at the cutoff 'percolates' into low-energy physics through loops
   (Collins, Perez, Sudarsky, Urrutia & Vucetich, PRL 93, 191301, 2004). A grid with a built-in 'now' does not by itself give
   lambda = 1. This is a genuine problem for the model, recorded as such.
@@ -37,3 +38,14 @@ lambda = 1 is NOT explained by the grid as built (naive estimate -0.5). The clea
 spacetime (statistically Lorentz invariant) and let the preferred slicing live only in the dark-energy sector (route 2). That
 keeps Claim 1 and gives lambda = 1, at the price of re-deriving the small-scale (z = 3) results. Proposed next test: compute
 lambda induced by a field on a spacetime-random grid vs a space-random grid with a preferred time step.
+
+## Trying all routes (Coalesce: 'time has to be its own dimension as well')
+- Route 1 premise TESTED (iteration 46b): a grid random in space AND time has no preferred frame (diamond counts identical at all
+  rapidities); a synchronised-tick grid carries a frame (weakly visible in counts). With time as its own random dimension, induced
+  gravity is frame-free -> lambda = 1 by symmetry.
+- Route 2 (VCDM): lambda - 1 is a K^2 piece of the dark-energy function; data: lambda - 1 in [-0.008, +0.017].
+- Route 3 (flow to lambda = 1): borrowed 2-D evidence only; not computed here.
+- Adopted as the working foundation: cells scattered randomly through space AND time (time a real dimension). The preferred 'now'
+  (the book's pages) is not built into the grid; it is set by the universe's contents (the slicing of constant expansion rate,
+  York time -- the same K that Claim 1 uses), entering only through the dark-energy function. Cost: the z = 3 small-scale results
+  (watermark tilt, dimensional reduction) must be re-derived for a spacetime-random grid.

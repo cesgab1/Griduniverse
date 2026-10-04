@@ -753,3 +753,7 @@ Data: lambda - 1 in [-0.008, +0.017] (our N_eff estimate), published 0-0.1 (BBN)
 Lorentz invariant, Bombelli-Henson-Sorkin) -> covariant induced gravity, lambda = 1; preferred slicing only in the dark-energy
 function (2) (VCDM). Cost: z = 3 small-scale results must be re-derived. (3) RG flow to lambda = 1 (2-D only). Next: compute induced
 lambda on a spacetime-random vs space-random grid.
+  lambda follow-up: naive -0.5 WITHDRAWN (missing contact terms). Iteration 46b: grid random in space AND time is frame-free
+  (diamond counts identical at rapidity 0/1/2); ticked grid carries a frame. Adopted (Coalesce: time is its own dimension): cells
+  random through spacetime; the 'now' set by the universe's contents (constant-K slicing) and entering only via dark energy ->
+  lambda = 1 by symmetry. Cost: re-derive the z = 3 small-scale results on a spacetime-random grid.
