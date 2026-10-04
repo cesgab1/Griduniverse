@@ -1,0 +1,13 @@
+ITERATION 35: watermark tilt from stacked layers (order-of-magnitude only)
+
+natural size eta ~ c/(16 pi^2) = c x 0.0063
+ c      eta       n_s if the shift lowers z (red)    n_s if it raises z (blue)
+ 0.5   0.0032        0.9936                            1.0063
+ 1.0   0.0063        0.9873                            1.0126
+ 2.0   0.0127        0.9743                            1.0250
+ 3.0   0.0190        0.9613                            1.0373
+
+needed: eta = 0.013 (ACT) - 0.017 (Planck), red direction (z just below 3).
+Reading: the natural one-loop size from layers saturating the species bound (0.003-0.019) brackets what is needed, so the
+idea is not off by orders of magnitude. But the coefficient AND the sign are uncomputed here; matching n_s would mean
+choosing c ~ 1.7-2.2 and the red sign by hand -> no prediction yet (accommodation). Needs the real loop calculation.

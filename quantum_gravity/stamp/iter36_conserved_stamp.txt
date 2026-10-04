@@ -1,0 +1,11 @@
+ITERATION 36: conserved stamp in the action (unimodular-type) -- consequences
+
+S1: dC/dt = 0 exactly; C is an integration constant (any value) -> no size from the classical action.
+S2: hbar-uncertainty with W = 4-volume: rho ~ 1/N4 = 5.3e-246 (measured 1.1e-123): ~1e122 x too small.
+S3: cell discreteness (Poisson): rho ~ 1/sqrt(N4) = 2.3e-123 for the visible past (2x measured) -- the same
+    automatic match; weight w cancels, so the stamp route reduces exactly to the cell tally / book.
+
+Reading: building the stamp into the action WORKS mathematically (C becomes conserved, so jostling cannot erase it: Coalesce's
+shaking point is built in) and it is ghost-free (no new propagating field). But it moves the size into the choice of
+which 4-volume fixes the stamp: past (fails history), whole finite history (Branch A book, untestable end; testable half =
+small flat wrap-around universe). The three QG routes converge on the same fork.

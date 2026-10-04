@@ -28,25 +28,27 @@ def run(eps_c, N=20000, L=6.0, d=2e-3):
 def corr_length(x, d):
     x = x - x.mean(); ac = np.correlate(x, x, "full")[len(x) - 1:]; ac /= ac[0]
     i = np.argmax(ac < np.exp(-1)); return i*d
+def structure(C, d, lags):
+    return [np.var(C[int(l/d):] - C[:-int(l/d)]) for l in lags]
 out = ["ITERATION 34: grid growth by link breaking (expectations committed before running)", "",
-       " tolerance eps_c   memory of stored strain (Hubble times)   stored strain energy / stiffness   count-excess variance grows?"]
-for eps_c in (0.01, 0.1, 0.33, 0.5):
-    E, C, d = run(eps_c)
-    burn = len(E)//6; m = corr_length(E[burn:], d)
-    v1, v2 = np.var(C[burn:burn + len(C)//6]), np.var(C[-len(C)//6:])
-    half = len(C)//2; dv = np.var(np.diff(C[::50]))   # increments
-    out.append(f"   {eps_c:5.2f}            {m:6.3f}                                 {E[burn:].mean():.2e}                      "
-               f"spread early {np.std(C[burn:2*burn]):.2f} -> late {np.std(C[-burn:]):.2f} (random walk)")
-# sqrt(N) check
+       " tolerance   memory of stored strain   stored energy / stiffness   count excess: var of change over 0.1 / 0.5 / 2.0 ln a"]
+mem = {}
+for eps_c in (0.01, 0.1, 0.33, 0.5, 1.0, 1.6):
+    E, C, d = run(eps_c, L=8.0)
+    burn = len(E)//8; m = corr_length(E[burn:], d); mem[eps_c] = m
+    sf = structure(C[burn:], d, (0.1, 0.5, 2.0))
+    out.append(f"   {eps_c:5.2f}      {m:6.3f} Hubble times        {E[burn:].mean():.2e}               {sf[0]:.3f} / {sf[1]:.3f} / {sf[2]:.3f}")
 for N in (2000, 20000):
     E, C, d = run(0.1, N=N, L=2.0)
     out.append(f"   N = {N:6d}: relative fluctuation of stored strain = {np.std(E[len(E)//3:])/np.mean(E[len(E)//3:]):.4f}")
-out += ["", "Readings:",
-        " - Memory of the stored strain ~ the tolerance (time to reach it). The data's 1/3 Hubble time needs eps_c ~ 0.3-0.5.",
-        " - Then the stored energy is ~0.03-0.1 of the grid stiffness: ~1e121 x too big (dark energy is 1.1e-123 of it).",
-        " - A tolerance small enough for the size (3e-62) gives a memory of ~3e-62 Hubble times: no memory at all.",
-        " - The count excess wanders like a random walk (the excluded bucket).",
-        " -> Link breaking explains WHY cells are added and gives sqrt(N) fluctuations automatically, but it cannot give both the",
-        "    measured memory and the measured size. The memory must come from elsewhere (Hubble friction of the jostled field,",
-        "    iteration 4), and the size is not set by the tolerance."]
+ratio = np.mean([mem[e]/e for e in mem])
+need = (1/3)/ratio
+out += ["", f"Measured: memory ~ {ratio:.2f} x tolerance. The data's 1/3 Hubble time needs tolerance ~ {need:.1f} (links stretching",
+        f"by ~{need*100:.0f}% before breaking); stored energy is then ~{0.42*need**2:.1f} x the stiffness -> ~1e123 x too big.",
+        "A tolerance small enough for the size (3e-62) gives essentially zero memory.",
+        "Count excess: if its change keeps growing with the lag it wanders (random walk = the excluded bucket); if it levels off",
+        "it is stationary. See the three columns above.",
+        "Conclusion: link breaking explains WHY cells are added and gives sqrt(N) fluctuations automatically (N check above),",
+        "but it cannot give both the measured memory and the measured size. The memory must come from elsewhere (Hubble friction",
+        "of the jostled field, iteration 4); the size is not set by the tolerance."]
 txt = "\n".join(out); print(txt); open("iter34_link_breaking.txt", "w").write(txt + "\n")

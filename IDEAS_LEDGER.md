@@ -690,3 +690,13 @@ in a 'Goldilocks' window: big enough to matter now, small enough for galaxies. T
 (many regions with different random stamps; observers arise only where galaxies form) = Coalesce's Branch B (other big bangs
 elsewhere) + a random per-region stamp. Borrowed: Weinberg 1987 (predicted a small non-zero value before 1998), Martel, Shapiro &
 Weinberg 1998. Not adopted; it is selection, not a mechanism.
+
+## Quantum-gravity steps run proactively (Oct 2026)
+- Iteration 34 (growth/): link breaking: explains cell addition and sqrt(N); cannot give the 1/3-Hubble memory (needs links to
+  stretch ~165%, storing ~Planck energy) or the size. Memory stays with Hubble friction.
+- Iteration 35 (arrow_of_time/): watermark eta from layers saturating the species bound: natural size c/(16 pi^2) = 0.003-0.019
+  brackets the needed 0.013-0.017, but coefficient and sign are uncomputed -> consistent in size, not a prediction.
+- Iteration 36 (stamp/): conserved stamp built into the action (unimodular-type, ghost-free): C is exactly conserved (shaking
+  cannot erase it), but the classical action allows any value; hbar uncertainty gives 1e-246 (far too small); cell discreteness
+  gives 1/sqrt(N4) = the cell tally. All three QG routes converge on the same fork: past tally (fails history) or whole finite
+  history (Branch A book; testable half = small flat wrap-around universe).
