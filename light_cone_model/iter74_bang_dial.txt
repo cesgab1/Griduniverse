@@ -1,0 +1,11 @@
+Iteration 74: dark energy's share at the Bang's clock moments (fading law extrapolated back). PREREG_74.md
+
+Planck time                 a = 6.39e-33  share = 3.32e-140  rho_DE = 1.17e-138 Planck density  | T1 miss | T2 miss (share x 3.3e122 = 1.1e-17)
+electroweak 160 GeV         a = 5.85e-16  share = 5.63e-64  rho_DE = 3.39e-130 Planck density  | T1 miss | T2 miss (share x 3.3e122 = 1.9e+59)
+QCD 0.15 GeV                a = 1.12e-12  share = 1.58e-49  rho_DE = 1.28e-128 Planck density  | T1 miss | T2 miss (share x 3.3e122 = 5.2e+73)
+first 3 minutes 0.07 MeV    a = 3.36e-09  share = 5.58e-34  rho_DE = 6.71e-127 Planck density  | T1 miss | T2 miss (share x 3.3e122 = 1.8e+89)
+matter-radiation equality   a = 2.94e-04  share = 4.11e-12  rho_DE = 1.67e-124 Planck density  | T1 miss | T2 miss (share x 3.3e122 = 1.4e+111)
+transparency z=1090         a = 9.17e-04  share = 2.77e-10  rho_DE = 2.46e-124 Planck density  | T1 miss | T2 miss (share x 3.3e122 = 9.2e+112)
+
+Today: share 0.685, rho_DE = 1.13e-123 Planck density. Early growth law check: share ~ a^4.5 in radiation era.
+Hits: none

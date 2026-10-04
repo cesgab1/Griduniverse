@@ -993,3 +993,12 @@ To run pre-registered, with look-elsewhere stated.
 - General lesson: NO combination of cosmic densities and horizons can explain 'why now'. The timing needs an absolute clock
   from outside cosmology: atoms/stars/black holes (hbar, G, particle masses) -- idea 3 -- or observers (idea 5).
 - Data fit for idea 2 cancelled (nothing to fit).
+
+## Iteration 74 (Oct 4 2026): is the dial set at the Big Bang? -- light_cone_model/PREREG_74.md, iter74_bang_dial.*
+- Fading law run back to the Bang (extrapolation flagged). Dark energy's share of the total: 3e-140 (Planck time), 6e-64
+  (electroweak), 2e-49 (QCD), 6e-34 (first 3 minutes), 4e-12 (equality), 3e-10 (transparency), 0.685 today.
+- 12 pre-registered comparisons (order-one share; holographic 1/3.3e122): NO hits. Closest: holographic at Planck time, off by 1e17.
+- Its absolute density barely moves: 1e-138 -> 1e-123 Planck density over all of history, while everything else drops by ~1e123.
+- Lesson: with the fading law, setting the dial at the Bang needs a share of 1e-140 put in by hand -- the old fine-tuning
+  problem comes back. Either the law is different near the Bang (untested), or the dial is set LATE, by something with its own
+  clock that switches on after the Bang (stars / black holes: idea 3).
