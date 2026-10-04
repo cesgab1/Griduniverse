@@ -1,0 +1,36 @@
+ITERATION 25: sheet <-> gap crossing (asymmetric dark matter reading), predictions before checking detector limits
+
+observed omega_c/omega_b = 5.364
+
+   T_f [GeV]   gap content          Ocean mass m [GeV]   coupling G [GeV^-2]   sigma_nucleon [cm^2]
+        0.2    Dirac fermion, q=1          nan             1.16e-08                 nan
+        0.5    Dirac fermion, q=1          nan             2.92e-09                 nan
+        1.0    Dirac fermion, q=1          nan             1.09e-09                 nan
+        2.0    Dirac fermion, q=1          nan             3.85e-10                 nan
+        5.0    Dirac fermion, q=1          nan             1.01e-10                 nan
+       10.0    Dirac fermion, q=1         9.54             3.55e-11             1.1e-49
+       30.0    Dirac fermion, q=1         8.56             6.84e-12             4.1e-51
+      100.0    Dirac fermion, q=1         9.50             1.19e-12             1.3e-52
+
+        0.2    Dirac fermion, q=1/3        nan             1.16e-08                 nan
+        0.5    Dirac fermion, q=1/3        nan             2.92e-09                 nan
+        1.0    Dirac fermion, q=1/3        nan             1.09e-09                 nan
+        2.0    Dirac fermion, q=1/3        nan             3.85e-10                 nan
+        5.0    Dirac fermion, q=1/3        nan             1.01e-10                 nan
+       10.0    Dirac fermion, q=1/3        nan             3.55e-11                 nan
+       30.0    Dirac fermion, q=1/3        nan             6.84e-12                 nan
+      100.0    Dirac fermion, q=1/3      98.62             1.19e-12             1.5e-52
+
+SIMPLEST CONTENT (q = 1): Ocean particle mass 8.6-9.5 GeV (~9-10 proton masses).
+Crossing must shut ABOVE T_f ~ 7.2 GeV; below that the Ocean particle is too heavy/slow to hold enough charge and
+the ratio 5.36 cannot be reached for ANY mass (q = 1/3 content needs T_f > ~100 GeV and m ~ 100 GeV).
+
+PRE-REGISTERED CLAIMS (written from the numbers above, BEFORE looking up detector limits):
+ P25a: the Ocean is made of particles of ~8.5-13 GeV (simplest content; 12.6 GeV at the threshold T_f = 7.3); q = 1/3 content: ~100 GeV.
+ P25b: no annihilation signal from galaxy centres (no anti-Ocean survives).
+ P25c: contact coupling -> nucleon cross-section <= ~1e-49 cm^2 (order of magnitude): far below the neutrino
+       floor, so underground detectors should see NOTHING from the Ocean. (Weak test: only a detection would hurt.)
+ Kill: a dark-matter detection at a clearly different mass (e.g. 1 TeV, or a keV line as all of DM) or above the
+       P25c strength at ~9 GeV with contact coupling; a convincing Galactic-centre annihilation signal.
+ Not an explanation of 5.36: it is traded for the mass (~9 GeV). It would be explained only if the grid fixed the
+       Ocean particle's mass at ~9-10 proton masses.
