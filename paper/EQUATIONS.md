@@ -115,3 +115,24 @@ Its value is fixed only by a cell count:  rho_DE ~ rho_P / sqrt(N4),  N4 = numbe
 ## E12. Grid growth  [PICTURE, tested]
 Links stretch with expansion (strain += d ln a), break at a tolerance, a new cell is inserted: explains cell addition and the
 sqrt(N) fluctuations; does NOT set the memory or the size (iteration 34).
+
+## E13. Gravity on the random Mosaic: curvature read by neighbourhood averaging  [BORROWED definition; tested on our grid]
+On each time slice (preferred slicing), curvature at grid point x is read from how its neighbourhood moves onto a neighbour's:
+    kappa_eps(x, y) = 1 - W(m_x, m_y) / d(x, y)          (Ollivier-Ricci; m_x = uniform over the points within distance eps of x,
+                                                           W = cheapest transport cost between the two neighbourhoods,
+                                                           costs = link lengths)
+    R_eps(x) = (2 n (n + 2) / eps^2) < kappa_eps(x, y) >_y   ->   n = 3:  R_eps(x) = (30 / eps^2) < kappa_eps(x, y) >_y
+Grid gravity action (ADM form, preferred slicing; Claim 1 term as in E4):
+    S = (1/16 pi G) SUM_t dt SUM_x V_x N [ K_ij K^ij - lambda K^2 + R_eps(x) ]  +  S_Claim1  +  S_matter
+    V_x = proper volume per point (1/density for a sprinkling uniform in proper volume)
+Scale window:  cell spacing a  <<  eps  <<  curvature radius;  at least ~1000-2000 points per neighbourhood (eps >~ 6-8 a).
+WHY (iterations 39, 41, 41b):
+  - A random grid has 'sliver' cells. Regge's definition reads curvature from the angles around ONE link, so a sliver gives a
+    wildly wrong angle and these errors never average away: the Regge action on random grids did not converge (39).
+  - Reading curvature from how whole NEIGHBOURHOODS spread or crowd averages over thousands of points, so the randomness
+    cancels: on the random grid it gives the true curvature (1.18 +/- 0.12 at ~2100 points per neighbourhood, 41b).
+  - Same principle as the rest of the model: the layers average the jostling; the geometry is read by averaging too.
+  - Consequence: gravity has a built-in resolution eps (several cell spacings, i.e. ~1e-31 to 1e-27 m): below eps the grid has
+    no well-defined curvature. Far below any experiment; it is the grid's own 'pixel size' for gravity.
+Status: spatial curvature term TESTED on the random grid; the time-derivative part (K_ij) on a random grid NOT yet tested; the
+full Einstein-action convergence from R_eps NOT yet shown (only for tidy cells with Regge, E12/iteration 39b).
