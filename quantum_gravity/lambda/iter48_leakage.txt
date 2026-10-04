@@ -1,0 +1,26 @@
+ITERATION 48: leakage of the frame-dependent field into gravity (expectations pre-registered)
+
+L1 tree level: Claim 1 = function of K (a trace) and the slicing time -> VCDM class (BORROWED): gravitational-wave speed
+   exactly 1, G_eff = G below the horizon, static stars as in GR. Tree-level leakage c = 0.
+
+L2 numerical d2f/dK2 today = -0.11415; formula -Omega_DE/6 = -0.11415  -> Delta lambda = Omega_DE/6
+   Delta lambda along the history (horizon-scale perturbations only; no extra degree of freedom):
+     z =         0: Omega_DE = 6.849e-01, Delta lambda = 1.142e-01
+     z =       0.5: Omega_DE = 4.055e-01, Delta lambda = 6.758e-02
+     z =         1: Omega_DE = 2.225e-01, Delta lambda = 3.709e-02
+     z =         3: Omega_DE = 3.079e-02, Delta lambda = 5.132e-03
+     z =      1100: Omega_DE = 2.673e-10, Delta lambda = 4.455e-11
+     z =     4e+08: Omega_DE = 1.505e-34, Delta lambda = 2.508e-35
+   At nucleosynthesis it is ~1e-35: the BBN bound (|lambda-1| < 0.017) is untouched. Today 0.11, but only on horizon-sized
+   modes (momentum constraint), not in G for galaxies or the Solar System. To do: VCDM perturbations in a Boltzmann code.
+
+L3 N = 2.9e+07: cell 4.3e-32 m; ripple K at the cell scale ~ l_P/cell^2 = 8.9e+27 /m vs today's K = 2.2e-26 /m (ratio 4e+53)
+L3 N = 1.0e+15: cell 2.5e-28 m; ripple K at the cell scale ~ l_P/cell^2 = 2.6e+20 /m vs today's K = 2.2e-26 /m (ratio 1e+46)
+   K^(-1/2) is undefined where K fluctuates through zero -> Claim 1 must read K averaged over regions R with l_P/R^2 < K0:
+   R > sqrt(l_P/K0) = 2.7e-05 m (~0.03 mm; the familiar dark-energy length, geometric mean of Planck length and
+   Hubble radius -- a restatement of scales, not a new prediction).
+   Ripples shorter than R do not change the averaged K at linear order; their second-order effect averages incoherently.
+   -> loop leakage suppressed by powers of (cell/R) ~ 1e-23 or smaller: c ~ 0 for all practical purposes.
+
+Consequence: the graviton-speed bound no longer forces N to ~1e15. Allowed window returns to N = 2.9e7 .. 5.2e15,
+cell size 4.3e-32 .. 5.7e-28 m. The 'cells right at the gamma-ray-burst limit' near-prediction is LOST.

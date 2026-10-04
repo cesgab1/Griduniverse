@@ -164,3 +164,10 @@ which is Einstein's gravity for lambda = 1 (Horava-type for lambda != 1; lambda 
     One frame-dependent field (tension/slicing): carries Claim 1, the 'now' (constant-K slices) and the z = 3 watermark.
     Leakage into gravity ~ c/N.  Graviton speed (GW170817, 1e-15) -> N >~ c x 1e15; for c = 1: N ~ 1e15 - 5e15,
     cell 2.5 - 5.7 e-28 m (at today's gamma-ray-burst limit).
+
+## E18. The equations run on the grid (iterations 47-49)  [MEASURED / DERIVED / BORROWED as marked]
+    history: N_n found from dS_grid/dN_n = 0 -> H(z) = Friedmann + Claim 1 to 2e-9; acceleration equation holds unimposed (~step^2)  [MEASURED]
+    ripples: d2h_i/dt2 = (1/norm) SUM_j exp(-r_ij^2/2s^2)(h_j - h_i) on random points -> speed = continuum to 0.03%, isotropic;
+             coherent loss per distance ~ k^2.7 (real universe: ~1e-40 over 40 Mpc)                                            [MEASURED]
+    leakage: tree level 0 (VCDM class) ; Delta lambda = Omega_DE/6 on horizon scales only ; K in Claim 1 averaged over > 0.03 mm [BORROWED/DERIVED]
+    electron switch: m_e = 1 + delta/2 [1 + tanh((z - z_s)/dz)] requires z_s/dz >~ 5 (methanol, z = 0.89)                     [MEASURED bound]

@@ -1,0 +1,6 @@
+ITERATION 47c: scattering of waves by the random grid vs wavelength (expectations committed first)
+
+wavelength  7.0: coherent speed / continuum = 1.0229; coherent energy lost per unit distance = 0.0630
+wavelength 10.0: coherent speed / continuum = 0.9775; coherent energy lost per unit distance = 0.0252
+wavelength 14.0: coherent speed / continuum = 0.9789; coherent energy lost per unit distance = 0.0094
+loss-rate slope d ln(rate)/d ln k = 2.74

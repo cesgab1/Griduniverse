@@ -773,3 +773,12 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
   in our model is the K^2 weight (= 1 by symmetry), not a screening length, quartic coupling or exponent (exponent is 1/2).
   (6) Gemini's m_e mechanism (a field gradient holding m_e at 1.01) is not in our model; Claim 2 remains unexplained.
 - NEW (answered): memory version's far future: a ~ t^3, w -> -7/9, aHX -> 3/16 (checked numerically).
+
+## Iterations 47-49: equations on the grid, leakage, electron (Oct 2026) -- quantum_gravity/dynamics/README.md
+- 47a PASS: the computer, given only the grid action, finds the Friedmann + Claim 1 history (2e-9); acceleration equation automatic.
+- 47b/c: waves on a random grid travel at the right speed in every direction (0.03%); NEW: the random grid scatters waves
+  (loss ~ k^2.7); negligible for real gravitational waves. Packet-speed check met only at ~2%, not the pre-registered 1%.
+- 48: leakage c = 0 at tree level; needs Claim 1's K averaged over > 0.03 mm; horizon-scale Delta lambda = Omega_DE/6 (OPEN:
+  perturbation calculation). LOST: cell size no longer pinned to the gamma-ray-burst limit (window 4e-32 .. 5.7e-28 m).
+- 49: no Lorentz violation (scalar coupling); the dz = 30 switch shape FAILS the methanol z = 0.89 bound for z_s <= 150 -> sharper
+  switch required (z_s/dz >~ 5). Accommodation, CMB unaffected.

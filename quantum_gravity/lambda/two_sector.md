@@ -26,6 +26,7 @@ TOP of the window: N ~ 1e15 - 5e15, cell size 2.5e-28 - 5.7e-28 m, right at toda
 better burst timing. With c = 0.1 (0.01): N >~ 1e14 (1e13), cell >~ 8e-29 (2.5e-29) m.
 
 ## Open
-- c not computed (needs the one-loop leakage calculation).
+- c: computed in iteration 48 -> 0 at tree level, ~0 at loop level IF Claim 1 reads K averaged over > 0.03 mm. The table above
+  (c = 1) is superseded: the graviton-speed bound no longer pins N.
 - Claim 2 couples the electron to the tension: leakage of the frame into the electron sector must be checked against laboratory
-  Lorentz-invariance limits (very tight). Not done.
+  Lorentz-invariance limits (very tight). DONE in iteration 49: passes for a scalar coupling; the switch shape must be sharper.
