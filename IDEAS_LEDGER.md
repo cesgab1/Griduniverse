@@ -742,4 +742,4 @@ a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7
 ## QG: the averaged random-grid action becomes Einstein's (pen-and-paper, Oct 2026) -- DERIVED (spatial part)
 Ollivier expansion (borrowed) + six-direction averaging (trace gives R; +/- pairs cancel gradient terms) + total derivatives ->
 S = Einstein + eps^2 (a R^2 + b Ric^2) + ...; leading coefficient measured on our grid 0.99 +/- 0.08. Real-universe corrections
-<~ 2e-62 (curvature-squared) and ~1e-37 (noise per cm^3). Open: a, b; the time-stretching part on a random grid.
+<~ 2e-61 (curvature-squared) and <~ 3e-39 (noise per cm^3). Open: a, b; the time-stretching part on a random grid.

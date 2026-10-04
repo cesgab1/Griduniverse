@@ -37,8 +37,8 @@ measured/true = 0.99 +/- 0.08 (iteration 43), 1.04 +/- 0.09 (43b), 1.18 +/- 0.12
 ## Step 5: how big are the corrections in the real universe? (numbers)
 Neighbourhood eps = 6-8 cells; cell size a = 4e-32 to 5.7e-28 m (iteration 40) -> eps ~ 3e-31 to 4.6e-27 m.
 - Curvature-squared corrections, relative size (eps/L)^2. Most strongly curved place tested (black-hole horizons and neutron stars,
-  L ~ 10 km): (4.6e-27 m / 1e4 m)^2 ~ 2e-62 at most.
-- Random noise: points in 1 cm^3 ~ (0.01 m / a)^3 ~ 5e72 to 1.6e85 -> relative noise ~ 1e-37 to 1e-43.
+  L ~ 10 km): (4.6e-27 m / 1e4 m)^2 ~ 2e-61 at most.
+- Random noise: points in 1 cm^3 ~ (0.01 m / a)^3 ~ 5e75 to 1e88 -> relative noise ~ 3e-39 to 2e-45.
 Both are far beyond any measurement: in practice, the averaged random grid IS Einstein's gravity on every tested scale.
 
 ## Status and caveats
