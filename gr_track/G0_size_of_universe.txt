@@ -1,0 +1,14 @@
+GR track G0: the size of the universe according to GR + today's data
+
+age: 13.79 billion years
+observable universe (particle horizon): radius 14.1 Gpc = 46.1 billion light years (diameter 92)
+oldest light (last scattering): radius 13.86 Gpc
+region we can EVER reach from now (event horizon): 5.1 Gpc = 16.7 billion light years
+visible volume: 11857 Gpc^3
+
+whole universe (GR's equations allow three shapes; data decide between them via curvature Omega_k = 0.0023 +/- 0.0011):
+  2 sigma: closed shape EXCLUDED -> flat or open -> infinite, unless space wraps around (topology: GR is silent)
+  3 sigma: a closed (finite) universe is still allowed if its curvature radius > 141 Gpc -> total volume > 5.49e+07 Gpc^3 = 4633 x the visible volume
+
+where GR stops: (1) at time zero (the singularity -- infinite density, GR breaks down); (2) GR has no rule for the
+universe's global shape (topology) -- whether flat space goes on forever or wraps around is outside GR.
