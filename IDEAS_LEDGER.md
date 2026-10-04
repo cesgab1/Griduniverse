@@ -397,3 +397,24 @@ under gravity raises gravitational entropy (black holes maximal) and gives the a
   Claim 1 and the toy; unlike LCDM (finite de Sitter ceiling) our horizon entropy grows forever. (19) in contraction the
   tension grows as a^-6 (stiff, same as shear): mechanism intrinsically time-asymmetric; Penrose's Bang/Crunch asymmetry
   built in; supports dropping the bounce.
+
+## Coalesce (Oct 2026): a smooth start implies the grid EXISTED (smooth) before the Big Bang; the 'Big Bang' is when
+## distortion of the grid started.
+- Agrees with a real open problem: the smooth (low-entropy) start must be explained or assumed (the 'past hypothesis';
+  Penrose's objection that inflation itself needs special initial conditions).
+- Combined with iteration 19: the smooth state CANNOT have come from a collapse (contraction makes the tension and the
+  tidal chaos grow as a^-6). So if the grid existed before, it was QUIET/STATIC, not contracting. Consistent with
+  dropping the bounce.
+- Prior art matching this picture: (1) 'Emergent universe' (Ellis & Maartens 2004): the universe sits in a static state
+  in the infinite past, then starts expanding (and inflates); no singularity, no bounce. (2) 'Quantum graphity' /
+  geometrogenesis (Konopka, Markopoulou & Smolin 2006): space is a network that is disordered when hot and condenses
+  into a smooth, regular geometric phase as it cools; the 'Big Bang' is that phase transition. Both are BORROWED
+  frameworks close to 'a smooth grid existed, then began to stretch and distort'.
+- In our model: the time stamp can exist in the quiet phase (labels with nothing changing); the arrow of time starts
+  when stretching and distortion start (iterations 17-19).
+- Wording: 'Big Bang' (Hoyle's joke name) is not an explosion from a point but expansion everywhere; 'the moment the
+  grid started stretching' is a fair restatement.
+- Tests to consider: emergent/static-phase models leave a largest-scale imprint (power suppression, like a bounce;
+  iteration 12 found no preference, dchi2 -1.4); the static phase must be STABLE (the classical Einstein static universe
+  is not; some quantum-gravity versions are). Candidate calculation: is a static stretched grid stable in our toy (does
+  the jostled tension destabilise it, given it grows when H -> 0, iteration 14)?
