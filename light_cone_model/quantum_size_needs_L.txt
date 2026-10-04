@@ -1,0 +1,5 @@
+Quantum rule with a smallest length l: rho_DE = hbar c / (2 l^2 L^2)  (L^2 = sqrt of the 4-volume the quantum effect 'knows')
+  black-hole length 2 l_P : measured dark energy needs L = 1.70e+26 m = 5.50 Gpc
+  Einstein 8pi length     : measured dark energy needs L = 6.77e+25 m = 2.20 Gpc
+cosmic lengths today: Hubble radius 4.45 Gpc; event horizon 5.1 Gpc; particle horizon 14.1 Gpc; causal-diamond L = V4^(1/4) = 0.83 Gpc
+dark-energy length sqrt(l x L) = (hbar c/rho)^(1/4) = 88 micrometres
