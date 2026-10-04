@@ -1,0 +1,6 @@
+Iteration 73: matter x event-horizon^2 at the crossing, for different dial settings (Omega_DE today)
+
+fading, Omega_k = 0.0: 0.3: 0.759x (z_cross -0.25) | 0.5: 0.761x (z_cross 0.00) | 0.685: 0.760x (z_cross 0.32) | 0.8: 0.760x (z_cross 0.65) | 0.9: 0.759x (z_cross 1.23)
+fading, Omega_k = 0.0023: 0.3: 0.759x (z_cross -0.25) | 0.5: 0.759x (z_cross 0.00) | 0.685: 0.759x (z_cross 0.32) | 0.8: 0.759x (z_cross 0.65) | 0.9: 0.758x (z_cross 1.25)
+Lambda, Omega_k = 0.0: 0.3: 0.531x (z_cross -0.25) | 0.5: 0.531x (z_cross 0.00) | 0.685: 0.530x (z_cross 0.30) | 0.8: 0.531x (z_cross 0.59) | 0.9: 0.531x (z_cross 1.08)
+Lambda, Omega_k = 0.0023: 0.3: 0.529x (z_cross -0.25) | 0.5: 0.530x (z_cross 0.00) | 0.685: 0.530x (z_cross 0.30) | 0.8: 0.529x (z_cross 0.59) | 0.9: 0.528x (z_cross 1.10)

@@ -984,3 +984,12 @@ To run pre-registered, with look-elsewhere stated.
 - R4: the empty light-cone state (aH = c) never happens; aH/c bottoms out at 18.5 at z = 0.67, exactly when acceleration starts.
 - R5 (information counts): FAIL by 1e18 and 1e33.
 - Correction: what_sets_C item 4 used the Lambda horizon; fading gives 0.86 of the far-future value today (horizon 6.24 Gpc).
+
+## Iteration 73 (Oct 4 2026): idea 2 cannot set 'now' -- light_cone_model/PREREG_73.md, iter73_invariance.*
+- Matter x event-horizon^2 at the crossing = 0.759-0.761 x the ceiling for EVERY dial setting (crossing anywhere from the
+  future to z = 1.25); Lambda: 0.53 x for every setting. Expectation (invariance) confirmed.
+- Why: matter + fading dark energy have no built-in scale; the dial only slides the whole history in time. The 76% 'pass' of
+  iteration 72 carried no timing information. Same reason the fading shape couldn't fix D0.
+- General lesson: NO combination of cosmic densities and horizons can explain 'why now'. The timing needs an absolute clock
+  from outside cosmology: atoms/stars/black holes (hbar, G, particle masses) -- idea 3 -- or observers (idea 5).
+- Data fit for idea 2 cancelled (nothing to fit).
