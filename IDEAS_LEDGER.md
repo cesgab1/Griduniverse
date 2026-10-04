@@ -520,3 +520,8 @@ cannot be drained from it; only its arrangement can matter. Pre-registered (comm
 fraction gives Delta chi^2 +32 to +50; tension ~ sag energy +282 to +596. Bare size 4.6e-7 of the need. The local (galaxy)
 version is Family 1 (static links -> Newton). Lesson: the data read the expansion clock (peak at q = 0), not the structure
 clock. Do not re-propose clumping-driven dark energy without a reason it would peak at the onset of acceleration.
+
+## Sheet <-> gap crossing sets the dark/ordinary ratio (Coalesce question, Oct 2026) -- OPEN, borrowed (asymmetric DM)
+Shared leftover charge until crossing shut at T_f > ~7 GeV -> Ocean particle ~8.5-13 GeV (simplest content); no annihilation
+signal; nucleon cross-section <~1e-49 cm^2 (below the neutrino fog). Pre-registered at bda169c; consistent with LZ/XENONnT nulls
+(weak test). Trades 5.36 for a mass; would become an explanation only if the grid fixes m ~ 10 m_p. `ocean_origin/`
