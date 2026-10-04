@@ -1,0 +1,5 @@
+GR track G0c: Special Relativity and the two gaps
+
+Omega_k = 0.0012: curvature radius 128 Gpc; smallest FINITE open-curved space has volume 2.0e+06 Gpc^3 = 170 x visible; its shortest loop ~74 Gpc (matched circles need < 27.7 Gpc)
+Omega_k = 0.0023: curvature radius 93 Gpc; smallest FINITE open-curved space has volume 7.5e+05 Gpc^3 = 64 x visible; its shortest loop ~54 Gpc (matched circles need < 27.7 Gpc)
+Omega_k = 0.0034: curvature radius 76 Gpc; smallest FINITE open-curved space has volume 4.2e+05 Gpc^3 = 36 x visible; its shortest loop ~44 Gpc (matched circles need < 27.7 Gpc)

@@ -31,3 +31,18 @@ later growth spurt would wrap around today at 0.8 mm -- grossly excluded. A wrap
 Reading: the two gaps DO connect, but the link forces a choice -- (A) a quantum birth (compact shape favoured in the literature:
 Zel'dovich & Starobinsky 1984, Linde 2004) needs a huge early growth spurt our model does not have, or (B) time zero is a
 bounce from an earlier phase whose finite size (~1e90 cells) is inherited. Neither fixes the size from first principles yet.
+
+## G0c: Special Relativity's answer to the two gaps (Coalesce: 'SR', not a grid term) -- G0c_special_relativity.*
+- Time zero: in SR's picture of an expanding universe (the Milne picture: matter flying apart inside the future light cone of one
+  event), 'the Big Bang' is a single event -- the tip of a light cone -- not a place of infinite density. With matter, GR takes
+  over near it; SR supplies the causal structure.
+- 'Now': in that picture, 'the same moment everywhere' is the surface of equal proper time since that event -- a hyperboloid.
+  Those surfaces have the same expansion rate everywhere: exactly the constant-K slices our frame field uses for 'now'.
+- Shape: those equal-time surfaces are OPEN (negatively curved) and infinite -- inside a light cone that started at one event.
+  Data: Omega_k = +0.0023 +/- 0.0011 is on the open side (2 sigma).
+- Connection: open-curved space can still be FINITE (compact hyperbolic spaces). The grid (countable cells) needs finite; SR's
+  light cone gives open curvature -> finite open-curved space. For Omega_k = 0.0012-0.0034: curvature radius 76-128 Gpc;
+  the smallest such space (Weeks manifold, volume 0.94 R^3) is 36-170 x the visible volume; its shortest loop (~0.58 R,
+  approximate) is 44-74 Gpc -- beyond the reach of matched circles (27.7 Gpc).
+- Also from SR: a wrap-around (compact) space picks out one preferred rest frame (Barrow & Levin 2001) -- our model already has one
+  (the frame field / CMB frame). Testable today: Omega_k > 0 (DESI + CMB now 2 sigma; next releases tighten it).

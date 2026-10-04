@@ -940,3 +940,8 @@ To run pre-registered, with look-elsewhere stated.
 - GR-allowed (non-crossing) dark energy: -2.0/-3.2/-2.6 vs Lambda with 2 extra numbers; Claim 1 -5.4/-7.2/-6.8 with none.
 - GR + hbar gives NO size (free constant; vacuum 2e31-6e120 too big; unimodular removes it but leaves the value free).
   Discreteness (the grid) is the only added ingredient that yields a size. GR and grid agree on Einstein eqs, BH entropy, growth.
+
+## SR and the two gaps (Coalesce, Oct 4 2026) -- gr_track/G0c
+- SR (Milne picture): time zero = one event (light-cone tip); 'now' = equal-proper-time hyperboloids = our constant-K slices;
+  space open (negatively curved). Grid needs finite -> compact hyperbolic space: curvature radius 76-128 Gpc, volume >= 36-170 x
+  visible. Testable: Omega_k > 0 (now ~2 sigma). Compact space -> preferred frame (Barrow & Levin) = our frame field.
