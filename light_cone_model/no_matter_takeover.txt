@@ -1,0 +1,6 @@
+dark energy share 10% at t = 2.72 Gyr
+dark energy share 50% at t = 7.83 Gyr
+dark energy share 90% at t = 18.80 Gyr
+dark energy share 99% at t = 37.26 Gyr
+acceleration starts at t = 0.00 Gyr; share then 0.00
+1/sqrt(8piG D0/3) = 8.202775585885878 Gyr

@@ -1013,3 +1013,10 @@ To run pre-registered, with look-elsewhere stated.
 - Today's data cannot test the kination stage (it leaves dark energy far below the early limits); a boosted primordial
   gravitational-wave background is the future test.
 - Bang question closed for now: the early record allows a big start only via the fastest possible fade, and the dial survives.
+
+## Matter-free universe: how fast does dark energy take over? (Oct 4 2026) -- light_cone_model/no_matter_takeover.*
+- Only curvature (the empty light cone, a = c t) + fading dark energy with today's dial D0 = 3.13 x critical.
+- Accelerates from the very first moment (the empty cone coasts, so any dark energy tips it). Share 10% at 2.7 Gyr, 50% at 7.8 Gyr,
+  90% at 18.8 Gyr, 99% at 37 Gyr: a slow, gradual handover. The dial's own clock: 1/sqrt(8 pi G D0/3) = 8.2 Gyr.
+- Real universe: acceleration starts at 7.5 Gyr -- close to the matter-free 50% point (7.8 Gyr). Not yet known whether that is
+  generic; check by varying the amount of matter with the dial fixed.
