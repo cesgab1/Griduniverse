@@ -534,3 +534,6 @@ Literature version: twin (mirror) sector -- a copy of the strong force in the ga
 2.5-100 GeV, ratio ~5 without tuning the mass to the proton (Garcia Garcia, Lasenby & March-Russell, PRL 115, 121801, 2015;
 Farina 1506.03520). It predicts dark radiation Delta N_eff ~0.075-0.16 (our P3 window: < 0.107). NEXT: test 'gaps hold a twin
 copy' against the checklist and Delta N_eff before adopting (it is a new ingredient; must bring predictions).
+  Iteration 26 result (ocean_origin/README.md): twin neutrino-only passes Delta N_eff (0.06-0.07 < 0.107); twin photon fails
+  (0.13-0.16); self-collisions pass; weight consistency FAILS by 1.3-2.4x in the crude sharing (needs m_b' 8.6-9.5 vs 12.5-21 GeV).
+  Parked, not adopted. Re-test only with the full sharing (charge neutrality + sphalerons) and the same pre-set window.

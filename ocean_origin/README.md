@@ -22,3 +22,17 @@ Predictions are in `iter25_predictions.txt` and were committed BEFORE checking d
   ~10 proton masses. It is consistent with every sky row in `../quantum_gravity/size/ocean_sky_checklist.md`
   (heavy enough for Lyman-alpha; collisionless allowed).
 Sources: LBNL news 8 Dec 2025 (LZ results); Kaplan, Luty & Zurek 2009 (asymmetric DM).
+
+## Iteration 26: twin copy of matter in the gaps (checks committed at 7043860, then compared)
+Data: N_eff = 2.990 +/- 0.070, Delta N_eff < 0.107 (95%) from CMB + BAO + primordial abundances (arXiv:2603.13226);
+ACT DR6: N_eff = 2.86 +/- 0.13 (arXiv:2503.14454).
+- **A. Dark radiation:** twin neutrino only: Delta N_eff = 0.062-0.074 -> PASS (about 1.8 sigma above the measured central value).
+  With a twin photon (own light force): 0.133-0.159 -> FAIL. So: no twin light force, which also removes the dark-disk risk (D).
+  Shared budget: the jostling radiation (P3) now has at most ~0.03-0.045 left.
+- **B. Weight consistency:** the sharing of iteration 25 needs twin b' quarks of 8.6-9.5 GeV (dark matter particle ~26-29 GeV);
+  twin Higgs expects 12.5-21 GeV (f/v = 3-5). **FAIL by a factor 1.3-2.4** (it would need f/v ~ 2.1-2.3, below the usually
+  quoted f/v >~ 3). Caveat stated now: the sharing ignored charge neutrality and sphaleron effects, which are of this same size,
+  so a full calculation could move it either way. A re-test is allowed only with this SAME window (12.5-21 GeV) fixed in advance.
+- **C. Self-collisions:** sigma/m ~ 2e-6 to 1e-4 cm^2/g -> PASS (limit ~1 cm^2/g).
+- **Verdict:** a twin world with no light force passes the sky checklist and the radiation limit, but the weight does not come out
+  naturally in our crude sharing. Not adopted; parked as the best-motivated Ocean candidate, pending the full sharing calculation.
