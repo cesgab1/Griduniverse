@@ -197,3 +197,8 @@ Any form is unmeasurable (<= 5e-31 relative at the most curved tested places).
     QG (how much):  rho_DE = c_rule (4.15/sqrt N) rho_P / sqrt(N4_book)
     GR (who pays):  d(stamp)/dt = J >= 0 (one-way, a tally),  J = electron mass-energy released at z_s = 124  ->  delta = 0.60%
     GR twin of the tally: (1/4)<rho_m>_book = 0.18-0.41 rho_DE for books ending 0-5 Gyr from now (automatic, 'why now')
+
+## E23. Electron-pays mechanism (iterations 56-60)  [LEAD; exact identity + motivated rule]
+    open pop: e^2 / (4 pi eps0 (hbar/m_e c)) = alpha m_e c^2   ->   delta = alpha = 0.730%
+    only point-like charges hold pops (size < hbar/mc): electrons yes; protons, nuclei no
+    rho_DE(z_s) = alpha m_e c^2 n_e(z_s),  z_s ~ 116 (end of the gas's thermal tie to the light), then Claim 1

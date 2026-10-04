@@ -1,0 +1,10 @@
+ITERATION 60: who can hold a pop open? (size must be smaller than own pop size hbar/mc; expectations pre-registered)
+
+ electron           pop size 3.86e-13 m   own size 1.00e-18 m (upper limit (point-like))   size/pop = 2.6e-06   -> HOLDS a pop (pays)
+ proton             pop size 2.10e-16 m   own size 8.41e-16 m (charge radius)   size/pop = 4.0e+00   -> cannot (never pays)
+ helium-4 nucleus   pop size 5.29e-17 m   own size 1.68e-15 m (charge radius)   size/pop = 3.2e+01   -> cannot (never pays)
+ deuteron           pop size 1.05e-16 m   own size 2.13e-15 m (charge radius)   size/pop = 2.0e+01   -> cannot (never pays)
+
+Result: only electrons pay; protons and nuclei are larger than their own pop size. The iteration-58 rule follows from R1.
+Payday is collective (the gas's thermal tie to the light), so bound and free electrons pay together at z ~ 124.
+Neutral particles (neutrinos, dark matter) hold no Coulomb pop and never pay.

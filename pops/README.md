@@ -35,3 +35,21 @@ Status: alpha passes every known-fact check we can run; mechanism still OPEN. No
   (photons couple directly only to electrons; protons ride along through Coulomb forces). Stated as a rule; it would need to
   be derived to stop being a free choice.
 - Learned: the pop picture is sharp enough to be killed (protons nearly killed it); it survives with one rule.
+
+## Iteration 60: why only electrons (pre-registered: PREREG_60.md) -> as expected
+- Criterion R1: a particle can hold a pop open only if it is smaller than its own pop size (hbar/mc). Electron: size/pop < 3e-6
+  (holds). Proton 4, deuteron 20, helium-4 32 (cannot). So the 'protons do not pay' rule of iteration 58 follows from one
+  physical criterion. Honest status: R1 was proposed AFTER the proton problem appeared, so it is a motivated rule, not yet a
+  derivation; it is general (applies to every particle) rather than hand-picked.
+- Payday is collective: at z ~ 124 most electrons are inside atoms, but the gas as a whole is still tied to the light through
+  the few free electrons; when that tie ends, all electrons pay together. Matches the 'global' requirement.
+- Neutral particles never pay.
+
+## The electron-pays picture as it now stands (iterations 54-60)
+  QG: pops keep emergent space-time going; each point-like charged particle locked in the cosmic light fluid holds one pop open,
+      worth exactly alpha m c^2; closing it writes that energy into the grid's record (one-way tally).
+  GR: the stamp (dark energy) grows only by what matter hands over (Bianchi / unimodular); it happens once, at the end of the
+      gas's thermal tie to the light.
+  Numbers: delta = alpha = 0.730% (CMB 0.99 +/- 0.49%, 0.5 sigma; BBN 0.7-1.5 sigma); payday z ~ 116 for the measured dark
+      energy (decoupling definitions span 75-243); 21-cm step ~12 MHz; H0 69.2.
+  Still open: why the release happens exactly when the thermal tie ends (timing), and a derivation of R1 from the grid.

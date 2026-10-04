@@ -846,3 +846,7 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - GR twin: cold + collisionless only. QG: 2 hits of 11 (m_e/alpha^2 = 9.60 GeV, m_p/sqrt(alpha) = 10.98 GeV); 6% by chance -> leads only.
 ## Matched-circles CMB test: BLOCKED here (Planck archives IRSA/PLA refused by the network policy; healpy not installed).
   Needs the Planck SMICA map attached, or the domains allowed by an admin.
+
+## Iteration 60: why only electrons (Oct 2026) -- pops/
+- R1: only particles smaller than their own pop size hold pops -> electrons yes, protons/nuclei no (motivated rule, proposed after
+  the proton problem; general, not hand-picked). Payday collective. Open: timing of release; derive R1 from the grid.
