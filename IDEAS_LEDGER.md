@@ -652,3 +652,9 @@ Void cosmology is established (BOSS DR12 void size function: w = -1.1 +/- 0.2; E
 Lambda (same matter and early ripples): growth differs by <= 0.5% (lower after z ~ 1, a hair higher before); realistic void counts
 amplify this 4-14x -> -1% to -3% fewer large voids at z = 0.5, +0.1-0.3% at z = 1. Distinctive sign change, but below void-only
 precision. Useful only in combination. (A textbook-threshold first try gave spurious 5-40% ratios from an extreme tail; rejected.)
+
+## Direct leftover check (Coalesce: speed + mass at each moment -> is the push constant?) -- direct_check/leftover.py
+Friedmann leftover from real DESI DR2 expansion rates + Planck r_d and omega_m: omega_DE(z) = 0.378 +/- 0.034 (z 0.51), 0.388 +/-
+0.038 (0.71), 0.300 +/- 0.032 (0.93), 0.279 +/- 0.067 (1.32), then large errors. One constant fits (chi2 5.4/5 dof; best 0.345 +/-
+0.020 vs Planck-Lambda 0.311, ~1.7 sigma). Claim 1 (no fitting) fits equally (chi2 5.4/6). Its predicted peak is only ~1% high,
+far below the ~10% errors. Method is right; precision must improve ~10x to see our shape this way.

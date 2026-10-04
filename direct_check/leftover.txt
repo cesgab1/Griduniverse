@@ -1,0 +1,13 @@
+Direct check: dark energy left over at each moment = (expansion rate)^2 - matter - radiation  [omega units]
+
+  z      leftover (data)        Claim 1 prediction     constant (Lambda, Planck)
+ 0.51   +0.378 +/- 0.034       0.333                 0.311
+ 0.71   +0.388 +/- 0.038       0.334                 0.311
+ 0.93   +0.300 +/- 0.032       0.333                 0.311
+ 1.32   +0.279 +/- 0.067       0.327                 0.311
+ 1.48   +0.348 +/- 0.207       0.324                 0.311
+ 2.33   +0.292 +/- 0.138       0.307                 0.311
+
+best single constant: 0.345 +/- 0.020;  chi2 for 'constant' = 5.39 for 5 dof
+chi2 for the Claim 1 prediction (no fitting) = 5.43 for 6 points
+Caveat: assumes the standard early universe for r_d and omega_m (Claim 2's heavier electron would shift r_d by ~1%).
