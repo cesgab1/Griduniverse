@@ -664,3 +664,11 @@ far below the ~10% errors. Method is right; precision must improve ~10x to see o
   Wobble check (direct_check/tracer_split.py): leftover from LRG bins (z 0.51, 0.71) = 0.382 +/- 0.026 vs other tracers 0.297 +/-
   0.029: a 2.3 sigma step exactly where DESI switches galaxy type (z ~ 0.9). Claim 1 predicts only a ~1% difference, so even if
   real, the step is ~25x bigger than our model's peak; most likely a fluctuation or tracer effect. Not claimed as support.
+
+## Size as a BALANCE between the grid's tension/strength and slack (Coalesce, Oct 2026) -- discussed, related to iteration 22
+The grid's stiffness is Planck-scale (c^4/G; Planck density 5e96 kg/m^3); dark energy is 1e-123 of it, so a balance needs a tiny
+ratio from somewhere. Natural ways to write it: (stiffness) x (l_P/L)^2 with L ~ horizon (tracks the horizon: the percentage-tip
+failure; stick-slip threshold of iteration 22 came out as 'one cell per horizon-long row', same issue), or (stiffness) x (l_P/L)^4
+with L = 88 micrometres (energy 2.2 meV). The second predicts gravity changes below ~0.1 mm if the balance length is physical;
+Eot-Wash torsion balances see Newton's law hold to ~40-50 micrometres -> a simple 'slack length ~0.1 mm' is already squeezed.
+Coincidence noted (not used): 2.2 meV is near the neutrino mass scale.
