@@ -813,3 +813,9 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - SURPRISE: reionisation re-couples gas to the CMB (Compton/H up to 1.95 at z ~ 7) -> any reversible switch excluded; handover
   must be one-way.
 - FORK: electron route vs cell-tally route (iteration 53). Tests: delta to ~0.25% precision; 21-cm step 11.4 MHz; CMB topology.
+
+## Iteration 55: two-level rule (Coalesce) for dark energy's size (Oct 2026) -- two_levels/
+- Electron route has a QG twin (unimodular stamp grows by what matter loses; one-way = a tally cannot shrink -> free choice removed).
+- Tally route has a GR twin (whole-history average in a finite spacetime, sequestering): 0.18-0.41 x measured, automatic.
+- Unified: QG sets how much, GR says who pays (electrons at decoupling) -> delta = 0.60% predicted. Hole: why 0.6% / why at
+  Compton decoupling is not derived from the grid.

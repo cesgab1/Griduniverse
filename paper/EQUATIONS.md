@@ -192,3 +192,8 @@ Any form is unmeasurable (<= 5e-31 relative at the most curved tested places).
     rho_DE(z_s) = delta m_e c^2 n_e(z_s),  z_s: Compton heating rate = expansion rate (z_s = 124, CAMB)
     -> delta predicted 0.60% (Claim 1) vs measured 0.99 +/- 0.49%;  handover must be one-way (reionisation re-couples the gas)
     fork with E20: electron route (delta = 0.6%, 21-cm step 11.4 MHz) vs cell-tally route (finite wrap-around space)
+
+## E22. Two-level picture of dark energy's size (iteration 55)  [BORROWED structures: unimodular non-conservation, sequestering]
+    QG (how much):  rho_DE = c_rule (4.15/sqrt N) rho_P / sqrt(N4_book)
+    GR (who pays):  d(stamp)/dt = J >= 0 (one-way, a tally),  J = electron mass-energy released at z_s = 124  ->  delta = 0.60%
+    GR twin of the tally: (1/4)<rho_m>_book = 0.18-0.41 rho_DE for books ending 0-5 Gyr from now (automatic, 'why now')

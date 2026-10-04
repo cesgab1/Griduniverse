@@ -1,0 +1,14 @@
+ITERATION 55: two-level checks (expectations pre-registered)
+
+ T (book time tally / so far)   ends in [Gyr]   (1/4)<rho_m> / rho_DE(measured)
+     1.0                            0.0            0.408
+     1.5                            1.6            0.304
+     2.0                            2.9            0.246
+     3.0                            4.7            0.182
+     5.0                            7.2            0.124
+    10.0                           10.7            0.072
+   (space factor S cancels for a homogeneous universe; sign of the sequestered term not checked here)
+
+dark-energy share of the total at z =   124 (Claim 1): 4.3e-07  -> switching it off before z = 124 changes H by < 2e-07
+dark-energy share of the total at z =   300 (Claim 1): 2.3e-08  -> switching it off before z = 124 changes H by < 1e-08
+dark-energy share of the total at z =  1090 (Claim 1): 2.8e-10  -> switching it off before z = 124 changes H by < 1e-10
