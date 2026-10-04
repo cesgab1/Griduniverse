@@ -76,3 +76,13 @@ Fit to the same data as Claim 1, with one extra parameter c. Δχ² vs Λ:
 magnitude right but the history badly wrong (about 50 in χ² worse than Claim 1). The data strongly favour Claim 1's order:
 phantom in the past, w > −1 now. A horizon-based size would need a different shape mechanism (such as the grid's memory),
 not the holographic one.
+
+## Iteration 24: the trampoline (Pools sag the sheets), PRE-REGISTERED before fitting
+Motivation from the sky: dark matter is constant to a few % since the CMB, so dark energy cannot be drained from the Ocean;
+only the Ocean's ARRANGEMENT (pooling into halos) can change. Predicted histories (`iter24_trampoline.py`,
+`iter24_part1_predictions.txt`, `iter24_predictions.json`), written before any data comparison:
+- T1 (tension ~ fraction of Ocean in Pools, M_min 1e10): dark energy only GROWS -> w < -1 at all z, NO crossing,
+  w0 = -1.09, bins -1.14 ... -1.44. Wrong direction vs the DR2-era hint (w > -1 today).
+- T2 (tension ~ total sag energy rho_m <|Phi|>): peaks at z ~ 2, fades since -> w0 = -0.19, crossing z ~ 2.0. Far too fast.
+- Expectation written now: both worse than Lambda; T2 badly. Bare size: sag = 4.6e-7 of the need (amplifier ~2e6, not derived).
+- The galaxy-scale (local) version of the trampoline is Family 1 (static links -> plain Newton); not re-run.
