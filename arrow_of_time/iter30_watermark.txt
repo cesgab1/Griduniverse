@@ -1,0 +1,14 @@
+ITERATION 30: the grid's watermark -- tilt of the primordial ripples (criteria committed before the data lookup)
+
+W1 cell jitter (local, uncorrelated): P ~ k^3 -> n_s = 4 (no free choice).
+
+W2 Horava scaling, freeze-out tilt (numeric vs formula), radiation era:
+   z =  3.000: n_s - 1 = +0.0000 (numeric)   -0.0000 (formula)
+   z =  2.990: n_s - 1 = -0.0202 (numeric)   -0.0202 (formula)
+   z =  2.983: n_s - 1 = -0.0346 (numeric)   -0.0346 (formula)
+   z =  2.970: n_s - 1 = -0.0619 (numeric)   -0.0619 (formula)
+   z =  3.010: n_s - 1 = +0.0198 (numeric)   +0.0198 (formula)
+   matter era check (z = 2.983): n_s - 1 = -0.0172
+
+PRE-REGISTERED: W1 excluded; W2 with z = 3 exactly excluded if n_s < 1 at > 5 sigma; W2 with fitted eta must show
+|alpha_s| < 1e-3 (data must be consistent with zero running); amplitude not predicted.
