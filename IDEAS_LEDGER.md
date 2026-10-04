@@ -880,3 +880,10 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 ## Iteration 65: excess into light? (Oct 2026) -- electron_pays/
 - X-ray light (physical) EXCLUDED: extra optical depth ~6.5 vs 0.015 allowed (f_max ~5e-6). Soft light allowed by FIRAS but no
   mechanism. Neutrinos/gravitons/grid vibrations invisible. Electron route as size-setter: no testable surviving version.
+
+## Question (Coalesce, Oct 4 2026): where does the uncertainty principle / energy borrowing act in our model?
+- Pop size = hbar/(m c) IS the energy-time loan (a pair borrowing 2 m c^2 lasts ~hbar/(2 m c^2)); alpha m c^2 follows from it.
+- Loans must be repaid -> ordinary pops make no net payment: consistent with the electron-pays failure (it. 64-65).
+- The quantum size route (it. 53, Sorkin) is an uncertainty relation: dark-energy stamp x 4-volume ~ hbar.
+- In GR the expansion rate K and the volume are a conjugate pair (York time): Claim 1 depends on K -> possible place where an
+  uncertainty relation could set Claim 1's exponent. OPEN idea, not computed.
