@@ -1,0 +1,16 @@
+ITERATION 63: is the 24% excess solid? (decision rule pre-registered)
+
+baseline (standard electron, k = 1): payday z = 123.5, prediction/measured = 1.224
+U1 sensitivity: d ln(ratio) / d ln(1+z_s) = 3.26
+U2 criterion k = 0.5: payday z = 95.6, ratio = 0.54
+U2 criterion k = 1.0: payday z = 123.5, ratio = 1.22
+U2 criterion k = 2.0: payday z = 158.8, ratio = 2.76
+U3 heavier electron (1 + alpha) in recombination: payday z = 124.4, ratio = 1.25
+U4 Claim 1 exponent beta = 0.41: ratio = 1.04
+U4 Claim 1 exponent beta = 0.5: ratio = 1.22
+U4 Claim 1 exponent beta = 0.63: ratio = 1.56
+U4 Claim 1 exponent beta = 0.85: ratio = 2.34
+U5 omega_b h^2 +/- 0.0001: +0.004;  Y_p +/- 0.003: -0.002;  measured omega_DE +/- 2%: +/-0.02
+
+combined: the payday convention alone spans ratio 0.54 - 2.76; Claim 1 exponent (0.41-0.85) spans 1.04 - 2.34
+DECISION: the 24% is NOT solid -> do NOT run the today's-data test.

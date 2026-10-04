@@ -14,3 +14,16 @@ Results (iter54_electron_pays.txt):
                     once delta is given -- the question moves to 'why ~0.6%?'
     tally route:    finite wrap-around space just beyond 27.5 Gpc; delta unrelated to dark energy's size.
   A CMB measurement of delta about twice as precise as today's starts to separate 0.6% from 0.99%.
+
+## Iteration 63: is the 24% excess solid? (pre-registered: PREREG_63.md) -> NOT solid; today's-data test NOT run
+- Today's value scales as (1 + payday z)^3.26, so tiny timing changes matter a lot.
+- Payday convention 'Compton heating rate = k x expansion rate': k = 0.5 / 1 / 2 gives payday z = 96 / 124 / 159 and
+  prediction/measured = 0.54 / 1.22 / 2.76. The order-one convention alone spans a factor 5.
+- Claim 1 exponent 0.41 / 0.5 / 0.63 / 0.85 -> 1.04 / 1.22 / 1.56 / 2.34.
+- Heavier electron in recombination: 1.25 (small change). Baryon density, helium: < 0.5%.
+- DECISION (rule written beforehand): the 24% is NOT a solid number. The honest statement is: the electron route gets dark
+  energy's size right to within a factor ~2 from first principles -- remarkable for a quantity usually off by 10^120 --
+  but not to 24%. Following Coalesce's rule, the H0 / late-switch test was NOT run.
+- What must be derived to sharpen it: (1) the exact payday condition (a convention-free release law from the pop mechanism,
+  e.g. the chance an electron is still 'held' within one expansion time, Gamma/(Gamma + H), integrated over time -- no
+  threshold to choose); (2) Claim 1's exponent (DESI 2027 will measure it to roughly +/-0.1).

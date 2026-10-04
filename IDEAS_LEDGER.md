@@ -867,3 +867,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
   CMB-based fit gives 67.4: the disagreement is the Hubble tension itself. Reading to test: the extra ~20% of dark energy acts
   only late (after z ~ 0.8). Known risk: late-time-only fixes usually fail supernova + BAO shape tests. To run, pre-registered,
   in the full pipeline (Planck + ACT + SPT + DESI + supernovae + SH0ES).
+
+## Iteration 63: the 24% audit (Oct 2026) -- electron_pays/
+- NOT solid: payday convention (k = 0.5-2) spans 0.54-2.76 x measured; Claim 1 exponent spans 1.04-2.34. Rule followed: the
+  today's-data (H0 / late switch) test was NOT run. Electron route = dark energy to within ~x2 from first principles.
+- Next: derive a convention-free payday law; DESI 2027 to fix the exponent.
