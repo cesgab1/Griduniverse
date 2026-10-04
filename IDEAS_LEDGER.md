@@ -787,3 +787,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - CLOSED (passed as consistency check): the frame field's horizon-scale shift (Delta lambda = Omega_DE/6) changes growth by
   < 1e-5 on survey scales and a few % only near the horizon (cosmic-variance limited). Not a new prediction. One revision
   recorded (radiation inconsistency in the code check).
+
+## Iteration 51: sources of the watermark tilt eta (Oct 2026) -- arrow_of_time/
+- CLOSED: 'z = 3 phase ending' (crossover) -- forces running alpha_s ~ 8(n_s - 1) ~ -0.2 in a radiation era; 43 sigma excluded.
+- SURVIVES: constant anomalous exponent z = 3 - eta (eta = 0.013-0.018, radiation era), no running; frame-field d_s = 2.004-2.006.
+- OPEN: derive eta (loop calculation). Still accommodation.

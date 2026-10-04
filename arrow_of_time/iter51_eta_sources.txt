@@ -1,0 +1,15 @@
+ITERATION 51: sources of the watermark tilt (expectations pre-registered)
+
+constant z = 3 - 0.015: era epsilon = 2.0: n_s - 1 = -0.03046 (formula -0.03000); running = +0.0e+00
+constant z = 3 - 0.015: era epsilon = 1.5: n_s - 1 = -0.01515 (formula -0.01500); running = +0.0e+00
+constant z = 3 - 0.015: era epsilon = 0.5: n_s - 1 = -0.00302 (formula -0.00300); running = +0.0e+00
+
+crossover, epsilon = 2.0: where n_s = 0.9736, running alpha_s = -0.2160 (formula -0.2115); vs ACT 0.0062 +/- 0.0052: 43 sigma
+crossover, epsilon = 2.0: where n_s = 0.9662, running alpha_s = -0.2776 (formula -0.2703); vs ACT 0.0062 +/- 0.0052: 55 sigma
+crossover, epsilon = 1.5: where n_s = 0.9739, running alpha_s = -0.1068 (formula -0.1045); vs ACT 0.0062 +/- 0.0052: 22 sigma
+crossover, epsilon = 1.5: where n_s = 0.9652, running alpha_s = -0.1433 (formula -0.1392); vs ACT 0.0062 +/- 0.0052: 29 sigma
+crossover, epsilon = 0.5: where n_s = 0.9739, running alpha_s = -0.0217 (formula -0.0209); vs ACT 0.0062 +/- 0.0052: 5 sigma
+crossover, epsilon = 0.5: where n_s = 0.9650, running alpha_s = -0.0294 (formula -0.0280); vs ACT 0.0062 +/- 0.0052: 7 sigma
+
+ACT: radiation era needs eta = 0.0130, z = 2.9870, frame-field d_s = 1 + 3/z = 2.0044
+Planck: radiation era needs eta = 0.0175, z = 2.9825, frame-field d_s = 1 + 3/z = 2.0059

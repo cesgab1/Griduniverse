@@ -11,3 +11,15 @@ Data: n_s = 0.974 +/- 0.003 (ACT DR6 P-ACT-LB), Planck 2018 0.965 +/- 0.004; run
 - Verdict: the grid's preferred time slicing CAN print a nearly scale-invariant watermark without inflation (BORROWED), but
   only with a small fitted departure from z = 3. Not a success; it is a consistent option. A derivation of eta from the grid
   (e.g. an anomalous scaling from the layers) would turn it into a prediction.
+
+## Iteration 51: where could eta come from? (pre-registered: PREREG_51.md)  -> T1-T4 as expected
+- Frozen-ripple spectra computed numerically (iter51_eta_sources.*). Formulas confirmed within 1.5-4%.
+- Route 1, 'the z = 3 phase is ending' (crossover omega^2 = p^2 + p^6/M^4): the tilt comes with a large NEGATIVE running,
+  alpha_s = (4/3)[eps/(1 - eps/3)](n_s - 1): radiation era -0.22 (43 sigma from ACT's +0.006 +/- 0.005); even a nearly
+  inflating era (eps = 0.5) is 5 sigma off. EXCLUDED.
+- Route 2, a constant anomalous exponent z = 3 - eta: n_s - 1 = -(eta/3) eps/(1 - eps/3), no running. SURVIVES.
+  Radiation era: eta = 0.013 (ACT) - 0.018 (Planck); the frame field's small-scale spectral dimension must be 2.004-2.006,
+  not exactly 2. A frame-free causal-set grid reduces to exactly 2 (BORROWED) -> it cannot be the source (consistent with the
+  two-sector picture: the watermark belongs to the frame field).
+- eta NOT derived (needs a loop calculation in the frame field's z = 3 theory). Narrowing, not a prediction. The running
+  prediction (alpha_s ~ 0) is now a sharper test: a future |alpha_s| > ~0.01 would exclude route 2 as well.
