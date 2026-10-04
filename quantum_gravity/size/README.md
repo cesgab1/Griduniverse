@@ -55,3 +55,24 @@ Each must be computed, not tuned, under the self-audit rules.
   size problem in a new form.
 - Across 21 and 22: every natural size mechanism ties the size to the horizon (right size now, wrong history) or freezes
   it at a value that must match today's horizon by coincidence.
+
+**Iteration 23: size tied to the horizon (Coalesce), via holographic dark energy (Li 2004, future event horizon)**
+(iter23_holographic.py, iter23_raw.txt)
+
+Fit to the same data as Claim 1, with one extra parameter c. Δχ² vs Λ:
+
+| supernovae | holographic (1 extra parameter) | Claim 1 (0 extra) |
+|---|---|---|
+| Pantheon+ | +44.5 | −5.4 |
+| DES-Dovekie | +45.5 | −7.2 |
+| Union3 | +41.5 | −6.8 |
+
+- Best c = 0.69–0.73, which gives w today = −1.10 to −1.14: phantom NOW, and crossing the opposite way to the data.
+- All three datasets object (DES-Dovekie case vs Λ: BAO +16, supernovae +5, CMB +24).
+- A first run that switched dark energy off above z = 30 was buggy (iter23_raw_TRUNCATED_BUG.txt), because holographic dark
+  energy is not negligible early. The full-history rerun changes nothing material.
+
+**Lesson.** Tying the size to the future horizon, the most established version of Coalesce's idea, gets the order of
+magnitude right but the history badly wrong (about 50 in χ² worse than Claim 1). The data strongly favour Claim 1's order:
+phantom in the past, w > −1 now. A horizon-based size would need a different shape mechanism (such as the grid's memory),
+not the holographic one.

@@ -509,3 +509,7 @@ tension with data (earlier test; literature); (2) its time dependence (variance 
   'birthplace' is not excluded (e.g. bubble universes in eternal inflation, where each bubble has a centre in the larger
   space). Possible test if revived: a large-scale dipole or gradient at the edge of what we see (CMB large-angle
   anomalies) could hint at it.
+- It. 23 (horizon-tied size: Li 2004 holographic DE, future event horizon, 1 parameter c): Delta chi2 vs Lambda +44.5 /
+  +45.5 / +41.5 (Claim 1: -5.4 / -7.2 / -6.8). Best c ~0.7 -> w0 ≈ -1.10 (phantom NOW, crossing the wrong way); BAO, SN
+  and CMB all object. Horizon-based size: right magnitude, holographic SHAPE strongly excluded; supports Claim 1's
+  crossing order. (First run had a z <= 30 truncation bug; fixed, no material change.)
