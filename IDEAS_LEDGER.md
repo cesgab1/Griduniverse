@@ -837,3 +837,7 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - Passes CMB+BAO+SN (Delta chi2 -3.5, H0 69.2) and BBN (0.7-1.5 sigma). Local version excluded by white dwarfs (>150 sigma):
   mechanism must be global and one-way. 'Field energy outside pop size' gives alpha/2 (miss). 'Frame lock' = right structure,
   no factor. Lead, not result.
+
+## Iteration 58: open-pop mechanism (Oct 2026) -- pops/
+- Pair at the electron's pop size has Coulomb energy alpha m_e c^2 exactly -> 'each locked electron holds one pop open'.
+- Proton version excluded by 4e12 -> lock must be electron-mediated (rule, not yet derived). Lead strengthened, not proven.

@@ -1,0 +1,9 @@
+ITERATION 58: open-pop mechanism (expectations pre-registered)
+
+M1 Coulomb energy of a pair at the electron's pop size / (m_e c^2) = 0.007297353; alpha = 0.007297353 (exact identity)
+   single charge's field energy outside the pop size / (m_e c^2) = 0.003649 (alpha/2, iteration 57)
+M2 photon cloud: alpha/pi x log factors -- not exact (no single natural number): fails the 'exact' test
+
+Proton test: a proton loses its OWN thermal contact with light at z = 6.98e+04 (~160 years after the start)
+   if it paid alpha m_p c^2 then: 5.14e+14 eV/cm^3 vs the dark energy Claim 1 allows then 1.26e+02 -> 4.1e+12 x too much
+   -> protons must NOT pay: the lock must be electron-mediated (photons couple directly to electrons; protons only via Coulomb).

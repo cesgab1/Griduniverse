@@ -23,3 +23,15 @@ Results (iter56_pops.txt), hit window 0.40-0.90%:
   when the lock ends) has the right structure in BOTH languages -- GR: one-way energy transfer into the stamp at decoupling;
   QG: the frame field is the one frame-dependent sector, and the CMB rest frame is its 'now' -- but no derivation of the factor.
 Status: alpha passes every known-fact check we can run; mechanism still OPEN. Not promoted beyond 'lead'.
+
+## Iteration 58: a mechanism for exactly alpha (pre-registered: PREREG_58.md)
+- M1 'open pop' gives alpha EXACTLY: the Coulomb energy of an electron-positron pair held apart at the electron's pop size
+  (hbar/m_e c) is alpha m_e c^2 (an identity, not a fit). Story: while locked into the cosmic photon fluid, each electron
+  holds one pop open; when the lock ends the pop closes and its energy goes to the grid's record (one-way). Fits Coalesce's
+  'emergence needs pops' and both languages (GR: one-way transfer into the stamp; QG: pops feed the frame field / tally).
+- M2 (photon cloud): no exact number -> fails.
+- PROTON TEST (the new prediction M1 brings): if protons held pops too, they would pay alpha m_p c^2 at their own loss of thermal
+  contact (z ~ 7e4, ~160 years in): 4e12 x more dark energy than allowed. EXCLUDED -> the lock must be electron-mediated
+  (photons couple directly only to electrons; protons ride along through Coulomb forces). Stated as a rule; it would need to
+  be derived to stop being a free choice.
+- Learned: the pop picture is sharp enough to be killed (protons nearly killed it); it survives with one rule.
