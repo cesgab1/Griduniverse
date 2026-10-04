@@ -637,3 +637,12 @@ Claim 1 forward (Pantheon+ fit): no end. a ~ t^5 at late times, acceleration for
 needs Branch A with an external rule (circular for the size). Validation chain that DOES exist: the same equation run backward
 -> pre-registered binned w(z) (DESI DR3); and redshift drift (Sandage-Loeb, an equation taking H(z) as input): Claim 1 minus
 LCDM = -0.5 to -0.7 cm/s over 20 years at z = 0.5-4 (LCDM drift +5.3 to -10.1 cm/s) -- below expected ELT precision (~cm/s).
+
+## Published checks that take the dark-energy amount as INPUT (Coalesce asked, Oct 2026)
+(1) Local dark energy from Local Group dynamics (Chernin, Karachentsev et al., A&A 507, 1271, 2009): local density 0.8-3.7x the
+global value (20-30% accuracy). Bearing on our model: if the tension responded to LOCAL expansion (rho ~ adot^-1/2), it would
+blow up inside bound regions (adot = 0) -> far above 3.7x -> excluded. Our theoretical home (VCDM / constant-mean-curvature
+slicing: K = 3H uniform on each slice) makes dark energy uniform -> PASS. This fixes a reading: the law uses the slice's
+global expansion, never local motions. (2) Maximum turnaround radius R = (3GM/(Lambda c^2))^(1/3) (Pavlidou & Tomaras 2014):
+Local Group 1.4 Mpc, Virgo ~11.5 Mpc; Claim 1 vs LCDM differ by 1.4% -- far below measurement errors; consistent, not
+discriminating. (3) ISW, growth, lensing, redshift drift: already in our fits/predictions or too small to separate.
