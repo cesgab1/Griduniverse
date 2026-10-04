@@ -1,0 +1,14 @@
+GR track G0b: connecting the two gaps
+
+stretch since the Planck temperature: 5.2e+31
+a Planck-length cell from then is today 8.4e-04 m across
+  born as a wrap-around space 1e+00 Planck lengths across -> wraps today at 8.4e-04 m
+  born as a wrap-around space 1e+10 Planck lengths across -> wraps today at 8.4e+06 m
+  born as a wrap-around space 1e+20 Planck lengths across -> wraps today at 8.4e+16 m
+  wrap today  27.7 Gpc needs a starting size 1.6e-05 m = 1.0e+30 Planck lengths -> 1.1e+90 starting cells
+  wrap today  30.0 Gpc needs a starting size 1.8e-05 m = 1.1e+30 Planck lengths -> 1.3e+90 starting cells
+  wrap today  60.0 Gpc needs a starting size 3.6e-05 m = 2.2e+30 Planck lengths -> 1.1e+91 starting cells
+cells (stretched Planck cells) per CMB photon today: 4.1  (automatic: both scale with temperature^3)
+grid's maximum density with N =   4 layers: rho_P / 1  (cell 1.0 l_P)
+grid's maximum density with N =  41 layers: rho_P / 97  (cell 3.1 l_P)
+grid's maximum density with N = 163 layers: rho_P / 1541  (cell 6.3 l_P)

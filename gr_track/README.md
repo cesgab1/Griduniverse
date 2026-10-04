@@ -19,3 +19,15 @@ today's data mildly prefer (crossing) or cannot give a size at all; in both plac
   curvature radius > 141 Gpc (> ~4600 x the visible volume). Otherwise flat/open = infinite, UNLESS space wraps around.
 - Where GR stops: (1) time zero (singularity); (2) global shape/topology -- GR has no rule for whether flat space is infinite or
   wraps around. These are the only two places where something must be added.
+
+## G0b: do the grid's answers to the two gaps connect? (G0b_two_gaps.*)
+Gap 1 (time zero): the grid has a smallest cell, so density cannot go to infinity: maximum ~ one cell-quantum per cell =
+rho_P / (0.058 N^2) (rho_P for 4 layers, rho_P/97 for 41, rho_P/1541 for 163) -> a bounce or a first page instead of a singularity.
+Gap 2 (overall shape): a grid made of a countable set of cells is finite unless it had infinitely many from the start ->
+finite, and (data: flat) wrap-around.
+Connection test: space stretched 5.2e31 since the Planck temperature. A universe BORN small (quantum birth, Planck-sized) with no
+later growth spurt would wrap around today at 0.8 mm -- grossly excluded. A wrap of 27.7-60 Gpc needs a starting size of
+1e30-2e30 Planck lengths, i.e. 1e90-1e91 starting cells (about 4 per CMB photon -- automatic, both scale with temperature^3).
+Reading: the two gaps DO connect, but the link forces a choice -- (A) a quantum birth (compact shape favoured in the literature:
+Zel'dovich & Starobinsky 1984, Linde 2004) needs a huge early growth spurt our model does not have, or (B) time zero is a
+bounce from an earlier phase whose finite size (~1e90 cells) is inherited. Neither fixes the size from first principles yet.
