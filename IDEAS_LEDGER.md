@@ -424,3 +424,23 @@ under gravity raises gravitational entropy (black holes maximal) and gives the a
   one line. (B) a quiet grid cannot stay quiet: no expansion = no friction = unbounded tension build-up -> self-starting
   Big Bang; direction not chosen by the toy; expanding branch smooth, contracting branch chaotic (it. 19). (C) large-angle
   imprint allowed, not favoured (it. 12).
+
+## Self-audit (Coalesce, Oct 2026: 'if all iterations answer correctly, isn't that an issue?')
+Honest tally of the toy/quantum-grid work (iterations 1-20 + side checks):
+FAILED (idea dropped or picture broke): photons as jostlers (it. 3); single-layer lumps 2e4x too strong (it. 5);
+  short-wave jostling (it. 6); height/featherweight naturalness 1e40x (it. 10); gravity-mediated jostling 1e100x
+  (it. 11); free electrons (s ~ 3); catch-and-release atoms (s ~ 3-6); self-tuning vs stability (it. 15); entropy-timing
+  link (it. 16); bounce not favoured (it. 12) and no cycle (it. 14); literal (stiff) reading of the toy (it. 20).
+RESCUED by adding or re-reading something (ACCOMMODATIONS, not successes): lumps -> many layers (N >= 3e7) + gaps;
+  'jostlers' -> a new dark scalar; size -> declared a free normalisation; toy energy -> VCDM reading (it. 20);
+  conformal vs minimal coupling chosen to work.
+GENUINE RISKY PASSES (could have failed, did not): Claim 1 beats Lambda with zero parameters (3 SN sets); data measure
+  s ≈ 1 (could have been 0 or 3); memory kappa = 3 DERIVED from Hubble friction and inside the data window; layer bound
+  reproduced by two independent methods (3.2e7 vs 2.9e7); second law (weak test: nearly guaranteed).
+Lesson: the microscopic toy has become flexible (ingredients added after failures = epicycle risk). Its explanatory
+  value now rests on a few risky predictions only:
+  (P1) w = -1 crossing redshift: 0.68 (Claim 1) or 0.46 (memory kappa = 3), vs never (Lambda), DESI DR3 / Euclid;
+  (P2) Claim 2 early-electron shift (Simons Observatory, SPT-3G full);
+  (P3) Delta N_eff > 0 (weak); (P4) coasting future (mild; f > 1).
+Rules adopted from now: (a) every new ingredient must come with a NEW prediction or be marked 'accommodation';
+  (b) predictions written down BEFORE new data (pre-registration file); (c) keep counting free choices.
