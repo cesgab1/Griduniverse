@@ -504,3 +504,8 @@ tension with data (earlier test; literature); (2) its time dependence (variance 
   failure); Li 2004 uses the FUTURE event horizon (how far we will EVER see): accelerates, w ≈ -1, and can cross -1 -
   but for c < 1 it crosses from w > -1 (past) to w < -1 (future): the OPPOSITE order to Claim 1 and to DESI's
   preference. Test to run: fit Li's model (1 parameter c) to the same data and compare with Claim 1.
+- Coalesce's correction (kept in mind, parked): 'no location for the Big Bang' holds INSIDE our horizon (CMB looks the
+  same in every direction to 1e-5: no centre visible). Beyond the horizon we cannot know: a larger structure with a
+  'birthplace' is not excluded (e.g. bubble universes in eternal inflation, where each bubble has a centre in the larger
+  space). Possible test if revived: a large-scale dipole or gradient at the edge of what we see (CMB large-angle
+  anomalies) could hint at it.
