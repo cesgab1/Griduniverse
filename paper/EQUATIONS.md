@@ -136,3 +136,12 @@ WHY (iterations 39, 41, 41b):
     no well-defined curvature. Far below any experiment; it is the grid's own 'pixel size' for gravity.
 Status: spatial curvature term TESTED on the random grid; the time-derivative part (K_ij) on a random grid NOT yet tested; the
 full Einstein-action convergence from R_eps NOT yet shown (only for tidy cells with Regge, E12/iteration 39b).
+
+## E14. Two levels of the grid (Coalesce's framing: tidy for GR, different at the quantum level)
+    Level 1 (quantum): random Mosaic cells, spacing a = 0.49 sqrt(N) l_P (E/iteration 40); no curvature per cell.
+    Level 2 (classical): neighbourhoods of radius eps >~ 6-8 a (~1000-2000 cells), curvature R_eps (E13) -> Einstein gravity.
+    Switch-over scale eps: below it the grid looks different (random; effective dimension expected to fall towards ~2, as in CDT
+    and in Horava scaling with z ~ 3: d_s = 1 + 3/z); above it, smooth and 'tidy'.
+WHY: general relativity only ever sees averaged neighbourhoods, never single quantum cells. Tested: tidy cells give Einstein's
+action (39b); averaging random cells gives the right curvature (41b). Not yet shown: the full action built from averaged random
+cells, and the effective dimension of our own grid below eps.

@@ -728,3 +728,5 @@ a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7
   Iteration 41b: with common random points, Ollivier-Ricci on the RANDOM grid gives 1.18 +/- 0.12 x the true curvature (~2100
   points per neighbourhood) -> PASS. Coalesce's point confirmed: tidy cells are needed only for Regge's link-by-link definition;
   neighbourhood-averaged curvature works on the random Mosaic.
+  Coalesce's framing adopted (E14): tidy cells are what GR sees at the averaged level; the quantum level is random. Switch-over
+  at the neighbourhood scale eps (~6-8 cells). Matches CDT/Horava 'dimensional reduction' (effective dimension ~2 at small scales).
