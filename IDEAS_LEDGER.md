@@ -705,3 +705,9 @@ Weinberg 1998. Not adopted; it is selection, not a mechanism.
   today' (p = -0.72, ~1.9 sigma) disappears without the red-galaxy bins (p = -0.10 +/- 0.8) -> not robust; no revision.
   Iteration 38 (book/): wrap-around cube with side 27.5-38 Gpc vs real Planck low-l TT: Delta chi2 -0.6 to -0.1 (quadrupole 3-14%
   lower) -> allowed, not decisive. Testable half survives; decisive test = repeated-pattern / anisotropy searches (COMPACT).
+
+## QG: Einstein gravity from the grid at large scales (iteration 39/39b, quantum_gravity/emergence/)
+Well-shaped cells: grid action -> Einstein action (ratio 1.12 at 384k cells, error ~1/m, converging to 1). Fully random Delaunay
+grid: no convergence at 4k-64k cells (scatter ~1, sliver cells). Constraint: cells must be well-shaped (as in CDT) or gravity read
+off a coarse-grained grid. First run failed partly by design (bump too narrow); one revision bug (corner points) caught by the
+flat-space check and discarded.

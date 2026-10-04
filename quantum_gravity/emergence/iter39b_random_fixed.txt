@@ -1,0 +1,3 @@
+ random Delaunay (no corners)    4000     5.9877 +/- 1.9644
+ random Delaunay (no corners)   16000     0.1312 +/- 1.0805
+ random Delaunay (no corners)   64000     0.4090 +/- 0.9116

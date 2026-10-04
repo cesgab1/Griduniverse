@@ -1,0 +1,13 @@
+ITERATION 39: grid (Regge) action vs Einstein action for the same gentle curvature (expectations committed first)
+
+Einstein action S_E = 0.004072
+
+ grid        cells     ratio S_grid/S_E (mean over random grids)   scatter
+ random       1000         1.5701                                  0.5807
+ random       4000         4.7319                                  2.3364
+ random      16000         2.9820                                  1.1121
+ random      64000         6.7409                                  2.0554
+ jittered     1000         3.9455                                  4.4034
+ jittered     4000         4.6221                                  1.5075
+ jittered    16000         0.6795                                  1.2289
+ jittered    64000         0.3695                                  2.8234

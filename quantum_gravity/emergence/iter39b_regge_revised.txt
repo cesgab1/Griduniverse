@@ -1,0 +1,13 @@
+ITERATION 39b: revised Regge-to-Einstein test (wider bump, well-shaped grid added)
+
+S_E = 0.103160
+
+ grid                      cells      ratio S_grid/S_E
+ well-shaped (cube->6 tets)    3072     1.6777
+ well-shaped (cube->6 tets)   24576     1.3263
+ well-shaped (cube->6 tets)   82944     1.2112
+ well-shaped (cube->6 tets)  196608     1.1557
+ well-shaped (cube->6 tets)  384000     1.1232
+ random Delaunay              4000     214.7872 +/- 1.8873
+ random Delaunay             16000     215.5835 +/- 1.3676
+ random Delaunay             64000     216.3365 +/- 0.8839
