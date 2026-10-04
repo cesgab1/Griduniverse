@@ -1,0 +1,36 @@
+ITERATION 26: twin copy of matter in the gaps -- checks (criteria committed before the newest N_eff lookup)
+
+A. Dark radiation Delta N_eff (twin tau' heavy at T_dec; twin glueballs decay into OUR world, not twin radiation)
+   T_dec [GeV]   g_*s(ours)   T'/T today   neutrino-only   with twin photon
+        1.0       75.75       0.372        0.074          0.159
+        2.0       75.75       0.372        0.074          0.159
+        3.0       75.75       0.372        0.074          0.159
+        5.0       86.25       0.357        0.062          0.133
+       10.0       86.25       0.357        0.062          0.133
+   (T_dec below the QCD transition, ~0.15 GeV, would give 0.5-1: excluded outright; twin worlds need early decoupling)
+
+B. Twin b' mass needed for omega_c/omega_b = 5.36 (m_DM = 3 m_b'); twin Higgs expects 12.5-21 GeV
+   T_f [GeV]   needed m_b' [GeV]   m_DM [GeV]
+        1             nan               nan
+        2             nan               nan
+        3             nan               nan
+        5             nan               nan
+        7             nan               nan
+       10            9.54              28.6
+       20            8.62              25.9
+       30            8.56              25.7
+       50            8.84              26.5
+      100            9.50              28.5
+   -> never in the twin-Higgs window
+
+C. Self-collisions sigma/m (sigma ~ 4 pi / Lambda'^2)
+   m_DM   30 GeV, Lambda' 1 GeV: sigma/m = 9.1e-05 cm^2/g
+   m_DM   30 GeV, Lambda' 2 GeV: sigma/m = 2.3e-05 cm^2/g
+   m_DM   30 GeV, Lambda' 5 GeV: sigma/m = 3.7e-06 cm^2/g
+   m_DM   60 GeV, Lambda' 1 GeV: sigma/m = 4.6e-05 cm^2/g
+   m_DM   60 GeV, Lambda' 2 GeV: sigma/m = 1.1e-05 cm^2/g
+   m_DM   60 GeV, Lambda' 5 GeV: sigma/m = 1.8e-06 cm^2/g
+
+D. Twin photon version: twin baryons are charged -> twin atoms can cool -> dark disks (Gaia limits ~ few % of DM in a
+   thin disk). Flagged; the neutrino-only (no twin light force) version avoids it.
+
