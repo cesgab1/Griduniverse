@@ -958,3 +958,10 @@ To run pre-registered, with look-elsewhere stated.
   information 3e122. Its size IS the statement 'the universe holds at most ~1e122 units of information'.
 - Fading (Claim 1) dark energy alone: a ~ t^5, history continues (a clock remains), horizon grows ~ t, rho x horizon^2 constant
   (holographic-type, c_h = 1.25 emerges, not imposed) -> information capacity keeps growing; dark energy ~ 1/information.
+
+## Thought experiment (Coalesce, Oct 4 2026): only matter, no dark energy
+- Flat: decelerates forever (a ~ t^(2/3)), age 2/(3 H0) = 9.7 Gyr -- younger than the oldest stars (~12-13 Gyr) and no acceleration
+  (supernovae) -> not our universe. No event horizon: everything eventually comes into view; a clock always remains.
+- Open (Light-Cone Model curvature): matter thins out and the universe tends to a = c t -- the empty light cone of Special Relativity.
+- Closed: re-collapses -- the only matter-only way to end time (book closes), but data say flat/slightly open.
+- Matter is the 'fixed total supply' picture (density ~ 1/volume); dark energy is not.
