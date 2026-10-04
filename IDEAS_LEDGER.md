@@ -578,3 +578,12 @@ returns). Not new; recorded as the best size estimate so far, not a solution.
 ## Watermark (primordial ripples) from the grid (iteration 30, arrow_of_time/) -- OPEN as an option, borrowed (Mukohyama 2009)
 Cell jitter: n_s = 4, excluded. Horava z = 3: n_s = 1, excluded at 8.7 sigma. z = 3 - eta with eta = 0.013-0.017 fits (one number
 for one number); predicts zero running (data consistent). Amplitude not predicted. Needs a derivation of eta to count.
+
+## Time from position: 'horizontal and vertical cells give position; the combined position is time' (Coalesce, Oct 2026)
+Two readings. (1) Literal: time = a combination of one point's coordinates (e.g. a diagonal) -> FAILS: one diagonal direction
+would be special (space is the same in all directions to high precision) and walking backwards along it would be travel back in
+time. (2) Global: time = a property of the WHOLE arrangement of cells (total cell count / overall size / how the arrangement has
+changed). This is 'relational time' (Barbour, 'The End of Time'; York time = mean expansion of the slice, which is exactly the
+K = 3H our preferred slicing uses; cosmologists already use the size of the universe as a clock). In our grid, cells are being
+added, so the total cell count is a built-in clock that nobody has to read. Possible link to the book: the page number = total
+cell count. Untested; no new prediction yet (relational-time models usually reproduce the same physics).
