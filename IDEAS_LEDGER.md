@@ -948,3 +948,7 @@ To run pre-registered, with look-elsewhere stated.
 
 ## Iteration 70: smallest length (Oct 4 2026) -- light_cone_model/
 - Black-hole entropy -> l = 2 l_P -> dark energy 4.4 x; Einstein 8 pi -> 0.69 x (but 2 pi nats per element). Not pinned (0.35-4.4 x).
+
+## Iteration 71: black-hole-like dark-energy horizon (Oct 4 2026) -- light_cone_model/
+- Derived holographic c_h = 0.715; size 0.57 x with today's horizon but not pinned self-consistently; shape EXCLUDED by today's data
+  (+44 to +47 in chi2). Dark energy is not 'horizon-filling' like a black hole.

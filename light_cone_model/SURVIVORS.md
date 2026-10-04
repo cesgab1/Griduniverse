@@ -35,3 +35,14 @@ must be frozen, not re-set, to avoid tracking).
 - The two natural requirements disagree; GR + hbar do not pin the smallest length. Size from this route: 0.35 - 4.4 x measured.
 - Lesson: the route gets the size right to within a factor of a few (vs 10^120 naively) but is not a prediction yet. Next:
   'why now' brainstorm (Coalesce), then whether one principle can satisfy both black holes and dark energy.
+
+## Iteration 71: dark-energy horizon treated exactly like a black-hole horizon (PREREG_71.md; iter71_*.txt)
+- Rules (black-hole entropy length l = 2 l_P; the horizon's own 4-volume) turn the formula into holographic dark energy with a
+  DERIVED coefficient c_h = 0.715.
+- H1: with today's horizon (5.11 Gpc): 0.57 x measured. H2: but a self-consistent horizon-filling dark energy allows ANY present
+  share -> size not pinned.
+- H3 (today's data): its history is the reverse of Claim 1 (w -0.78 at z = 1, -1.10 today; dark energy grows like (1+z)^2 early,
+  upsetting the CMB distance). Delta chi2 vs Lambda: +46 / +47 / +44 (Pantheon+ / DES / Union3) -> EXCLUDED. (Expectation H3
+  'never above -1' was wrong: it starts above -1 and dives below.)
+Lesson: dark energy shares horizon thermodynamics with black holes, but its size is NOT set like a black hole's (energy filling
+its own horizon). Remaining non-grid size route: 0.35 - 4.4 x (iteration 70), still unpinned.

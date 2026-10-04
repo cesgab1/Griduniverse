@@ -1,0 +1,6 @@
+ITERATION 71: dark-energy horizon treated like a black-hole horizon (expectations pre-registered)
+
+coefficient k = 16.37; holographic c_h = 0.715 (derived)
+H1: with the LCDM event horizon R = 5.11 Gpc: rho_DE = 3.30e-27 kg/m^3 = 0.57 x measured
+H3 shape: w today = -1.105, at z = 1: -0.784 (never above -1: False)
+H2: self-consistent solutions exist for ANY starting share Omega_DE0 -> the size is not pinned by this route
