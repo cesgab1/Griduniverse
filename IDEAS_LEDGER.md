@@ -596,3 +596,12 @@ Virtual electron pairs (vacuum fluctuations, real: Lamb shift, Casimir): their t
 too small; one pair would have to add ~1e29 cells; and their rate is the same at all times, so they act like a constant, not
 the past history. The same leftover counted over PLANCK cells gives 6.9e-123 (6x measured; 2x with the whole visible past).
 Lesson: if growth is random, the randomness lives at the cell level, not at the electron level.
+
+## 'Time adds it': the random unevenness accumulates instead of being recomputed (Coalesce, Oct 2026) -- does not work alone
+(1) Accumulating the random +/- of every cell ever added: leftover ~ sqrt(N_added) spread over a volume ~ N -> density ~ a^-1.5,
+i.e. w = -1/2 (dilutes like thin matter): excluded by every w(z) measurement. (2) Accumulating the tension with long memory: the
+memory-length fits (toy LESSONS iteration 1) give Delta chi2 worse than Lambda for >= 2 Hubble times; the shape needs ~1/3 Hubble
+time (derived: Hubble friction). (3) A separate accumulated constant plus the short-memory jostle: iteration 13 says a POSITIVE
+constant part must be small; only a slightly NEGATIVE one is liked (an accumulated random sum can have either sign -- noted).
+Lesson: the shape needs forgetting, the size needs remembering; one process cannot do both. Two-part idea still needs a size
+for the jostled part.
