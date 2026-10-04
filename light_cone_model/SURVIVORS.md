@@ -28,3 +28,10 @@ iteration 68 (past light cone column): with the reduced Planck length (the one i
 1/2 -> 0.69 x measured; with factor 1 -> 1.39 x; with the plain Planck length -> 17 x / 35 x.
 Remaining choices: the length unit (Planck vs reduced Planck, a factor 8 pi) and 1/2 vs 1; and the 'why now' problem (the formula
 must be frozen, not re-set, to avoid tracking).
+
+## Iteration 70: which smallest length? (PREREG_70.md; results iter70_smallest_length.txt)
+- Black-hole entropy (Hawking, GR + hbar) singles out l = 2 l_P (1 unit of entropy per element): dark energy = 4.4 x measured.
+- Einstein's 8 pi coupling gives 0.69 x but would need 2 pi units of entropy per element for black holes.
+- The two natural requirements disagree; GR + hbar do not pin the smallest length. Size from this route: 0.35 - 4.4 x measured.
+- Lesson: the route gets the size right to within a factor of a few (vs 10^120 naively) but is not a prediction yet. Next:
+  'why now' brainstorm (Coalesce), then whether one principle can satisfy both black holes and dark energy.

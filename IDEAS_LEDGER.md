@@ -945,3 +945,6 @@ To run pre-registered, with look-elsewhere stated.
 - SR (Milne picture): time zero = one event (light-cone tip); 'now' = equal-proper-time hyperboloids = our constant-K slices;
   space open (negatively curved). Grid needs finite -> compact hyperbolic space: curvature radius 76-128 Gpc, volume >= 36-170 x
   visible. Testable: Omega_k > 0 (now ~2 sigma). Compact space -> preferred frame (Barrow & Levin) = our frame field.
+
+## Iteration 70: smallest length (Oct 4 2026) -- light_cone_model/
+- Black-hole entropy -> l = 2 l_P -> dark energy 4.4 x; Einstein 8 pi -> 0.69 x (but 2 pi nats per element). Not pinned (0.35-4.4 x).
