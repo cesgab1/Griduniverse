@@ -547,3 +547,7 @@ finite total lifetime required (recollapse). Conflicts with pre-registered P4 (c
 Sheets -> book length (iteration 28, book/): sheets = pages fails by >40 orders; sheets setting the tick (species bound) makes
 the book end 800x-1e7x too soon. Sheets are side by side, not pages; x is a separate number. NEXT: test the recollapse
 version's w(z) today (pre-register before fitting).
+  Iteration 29 (book/iter29_can_the_book_close.py): Claim 1 + any negative constant has exactly one positive H at every a
+  (analytic + numeric): no turnaround, coasting forever (same as the toy, iteration 14). Our mechanism FORBIDS a crunch, so a
+  finite book could only end by the grid stopping, with no precursor. Book PARKED: untestable within this model; P4 unchanged.
+  Reopen only if data show dark energy heading below zero (which would also contradict Claim 1).

@@ -1,0 +1,15 @@
+ITERATION 29: Claim 1 + negative constant (the book's 'binding') -- can expansion turn around?
+
+B =   0.00: a=1e+00: H=1.00e+00, aH=1.000; a=3e+00: H=6.99e-01, aH=2.096; a=1e+01: H=5.44e-01, aH=5.441; a=1e+02: H=3.43e-01, aH=34.318; a=1e+04: H=1.37e-01, aH=1366.208; a=1e+06: H=5.44e-02, aH=54389.708
+B =   0.10: a=1e+00: H=1.00e+00, aH=1.000; a=3e+00: H=6.81e-01, aH=2.044; a=1e+01: H=5.03e-01, aH=5.026; a=1e+02: H=2.44e-01, aH=24.446; a=1e+04: H=6.23e-03, aH=62.347; a=1e+06: H=6.24e-05, aH=62.396
+B =   0.69: a=1e+00: H=1.00e+00, aH=1.000; a=3e+00: H=5.95e-01, aH=1.785; a=1e+01: H=3.09e-01, aH=3.089; a=1e+02: H=3.98e-02, aH=3.981; a=1e+04: H=4.00e-04, aH=3.999; a=1e+06: H=4.00e-06, aH=3.999
+B =   3.00: a=1e+00: H=1.00e+00, aH=1.000; a=3e+00: H=4.47e-01, aH=1.340; a=1e+01: H=1.49e-01, aH=1.491; a=1e+02: H=1.51e-02, aH=1.513; a=1e+04: H=1.51e-04, aH=1.513; a=1e+06: H=1.51e-06, aH=1.513
+B = 100.00: a=1e+00: H=1.00e+00, aH=1.000; a=3e+00: H=3.37e-01, aH=1.012; a=1e+01: H=1.01e-01, aH=1.014; a=1e+02: H=1.01e-02, aH=1.014; a=1e+04: H=1.01e-04, aH=1.014; a=1e+06: H=1.01e-06, aH=1.014
+
+Result: H > 0 at every a for every B (no turnaround); with B > 0, aH -> constant (coasting forever).
+Together with iteration 14 (toy with memory, baselines up to -1000x): our dark-energy mechanism FORBIDS a crunch.
+Consequence for the book: if time has a finite total, the end cannot be a recollapse visible in advance. It would have to
+be the grid simply stopping (no precursor, nothing to measure today). The book's size rule then makes no testable
+prediction beyond the size itself -> PARKED as untestable within this model (not adopted; P4 stays as registered).
+What WOULD reopen it: data showing dark energy heading below zero (a crunch-type w(z), as in Andrei, Ijjas & Steinhardt,
+PNAS 119, e2200539119 (2022), arXiv:2201.07704), which would also contradict Claim 1 and the toy.
