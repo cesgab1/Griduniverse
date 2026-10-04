@@ -909,3 +909,11 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - The version that works: a fixed supply PER CELL, set at the start (the conserved stamp, E10), with the grid adding cells as
   space grows (E6) -> total grows with space, density stays ~constant; dark energy's SHARE of the universe grows because matter
   dilutes (0 early -> 68% today) -- that is the real 'percentage' effect. Claim 1's small rise/fall (~7%) rides on top (row in view).
+
+## Idea (Coalesce, Oct 4 2026): use dark energy's size as INPUT to quantum questions, test them, infer the why
+Candidate questions (dark-energy energy scale 2.24 meV, length ~88 micrometres):
+- neutrino masses (lightest = 2.24 meV -> sum 61 meV; DESI DR2 + CMB bound ~64 meV; oscillation minimum 58.8 meV);
+- sub-millimetre gravity (Eot-Wash: inverse-square law holds down to ~50 micrometres; our frame-field averaging scale 27 micrometres);
+- does uniform vacuum energy gravitate? (unimodular stamp: no, only the tally fluctuation; equivalence-principle tests: bound
+  vacuum energy inside matter does gravitate -- MICROSCOPE 1e-15).
+To run pre-registered, with look-elsewhere stated.
