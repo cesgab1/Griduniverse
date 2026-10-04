@@ -901,3 +901,11 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
   accelerates (cells leave the horizon) -- dark energy follows the row in view, not the running total.
 - Testable: a line tally gives exponent 1/2; a slice-area tally 1; a slice-volume tally 3/2. Data: 0.63 +/- 0.22 (area and volume
   disfavoured, volume strongly). DESI 2027 (+/- ~0.1) can confirm 'line'.
+
+## Idea (Coalesce, Oct 4 2026): fixed supply spread over more space
+- A FIXED TOTAL set at the start, spread over growing space, dilutes like matter (density ~ (1+z)^3): at z = 0.93 it would be
+  7.2 x today's, but DESI's direct leftover there is 0.300 +/- 0.032 vs ~0.31 today -> excluded (that version would also not
+  accelerate the expansion).
+- The version that works: a fixed supply PER CELL, set at the start (the conserved stamp, E10), with the grid adding cells as
+  space grows (E6) -> total grows with space, density stays ~constant; dark energy's SHARE of the universe grows because matter
+  dilutes (0 early -> 68% today) -- that is the real 'percentage' effect. Claim 1's small rise/fall (~7%) rides on top (row in view).
