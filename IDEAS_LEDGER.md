@@ -743,3 +743,6 @@ a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7
 Ollivier expansion (borrowed) + six-direction averaging (trace gives R; +/- pairs cancel gradient terms) + total derivatives ->
 S = Einstein + eps^2 (a R^2 + b Ric^2) + ...; leading coefficient measured on our grid 0.99 +/- 0.08. Real-universe corrections
 <~ 2e-61 (curvature-squared) and <~ 3e-39 (noise per cm^3). Open: a, b; the time-stretching part on a random grid.
+  Iteration 45 (emergence/): time part read from link-length changes on the random grid: uniform expansion exact (-6H^2),
+  gravitational-wave kinetic term 0.993 of exact. With E15: full ADM action from the averaged random grid; lambda = 1 for GR is a
+  parameter of the base (not derived).

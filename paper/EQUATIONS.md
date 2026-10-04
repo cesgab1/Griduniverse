@@ -151,3 +151,10 @@ cells, and the effective dimension of our own grid below eps.
 From: Ollivier's expansion (borrowed) + six-direction averaging (trace -> R, +/- pairs cancel gradient terms) + total derivatives
 integrate away. Leading coefficient measured on our grid (0.99 +/- 0.08 at the bump centre). Corrections in the real universe:
 curvature-squared <~ 2e-61 relative (L ~ 10 km), random noise ~ 3e-39 or smaller per cm^3. a, b not computed; time part not yet.
+
+## E16. Time part on the random grid (iteration 45)  [TESTED]
+    K_ij fitted per point from link-length changes between ticks:  d ln(l_e)/dt = n_e . K . n_e   (least squares over ~34 links)
+    kinetic density K_ij K^ij - lambda K^2;  uniform expansion -> -6 H^2 (exact); gravitational wave -> A^2 w^2/4 (0.993)
+Together with E15 (spatial part): the averaged random grid gives the full ADM action
+    S = (1/16 pi G) INT dt d^3x N sqrt(g) [ K_ij K^ij - lambda K^2 + R + eps^2 (curvature^2) ]  (+ Claim 1 term, matter)
+which is Einstein's gravity for lambda = 1 (Horava-type for lambda != 1; lambda is a parameter of the base, not derived here).

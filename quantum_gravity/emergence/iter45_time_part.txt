@@ -1,0 +1,15 @@
+ITERATION 45: time part (slice stretching K_ij) read from link-length changes on the random grid (expectations first)
+
+grid: 64000 random points, links within 2.0 spacings (~34 links per point), points fitted: 64000
+
+(H) uniform expansion H = 0.01: mean K = 0.030000 (exact 0.030000, ratio 1.0000);
+    K_ij K^ij - K^2 = -6.000e-04 (exact -6.000e-04, ratio 1.0000)
+(GW) wave A = 0.01, wavelength 20: mean K_ij K^ij = 2.450e-06 (exact 2.467e-06, ratio 0.9930);
+    mean K = -4.66e-08 (exact 0), mean K^2 = 9.60e-10 (vs K_ij K^ij 2.45e-06)
+
+Versus expectations (committed at cd48903): W1 HOLDS (K and -6H^2 recovered to 1.0000 -- exact for uniform stretching, as every
+link scales alike); W2 HOLDS (graviton kinetic term 0.993 of exact, mean K ~ 0); W3 HOLDS (K_ij K^ij and K^2 come out separately,
+so the combination K_ij K^ij - lambda K^2 is available for any lambda; GR needs lambda = 1, Horava allows lambda != 1).
+Reading: the time-stretching part of Einstein's action is read correctly from link-length changes between ticks on the random grid,
+by averaging over each point's ~34 links. Caveat: this checks that the grid READS the time part correctly from a given geometry;
+it does not by itself prove the grid's own dynamics choose lambda = 1 (that is a parameter of the Horava/Khronon base).
