@@ -700,3 +700,6 @@ Weinberg 1998. Not adopted; it is selection, not a mechanism.
   cannot erase it), but the classical action allows any value; hbar uncertainty gives 1e-246 (far too small); cell discreteness
   gives 1/sqrt(N4) = the cell tally. All three QG routes converge on the same fork: past tally (fails history) or whole finite
   history (Branch A book; testable half = small flat wrap-around universe).
+  Iteration 37 (direct_check/iter37_both_options.*): both size options vs the direct leftover. Tracking (option 1) EXCLUDED by
+  low-z data alone (chi2 154/5; 37/3 without red-galaxy bins). Fixed stamp (option 2) fits (5.4/5; 0.14/3). The 'rise toward
+  today' (p = -0.72, ~1.9 sigma) disappears without the red-galaxy bins (p = -0.10 +/- 0.8) -> not robust; no revision.

@@ -1,0 +1,19 @@
+ITERATION 37: both size options + free shape vs the direct leftover (expectations committed before running)
+
+--- all DESI bins (6 bins) ---
+  A tracking     chi2 = 153.57 for 5 dof  amplitude 0.031
+  B constant     chi2 =   5.39 for 5 dof  amplitude 0.345
+  P free shape   chi2 =   1.91 for 4 dof  p = -0.72 (68%: -1.14 to -0.33)
+  C1 Claim 1     chi2 =   5.43 for 6 dof
+
+--- without the red-galaxy bins (4 bins) ---
+  A tracking     chi2 =  37.14 for 3 dof  amplitude 0.022
+  B constant     chi2 =   0.14 for 3 dof  amplitude 0.297
+  P free shape   chi2 =   0.13 for 2 dof  p = -0.10 (68%: -1.00 to +0.59)
+  C1 Claim 1     chi2 =   1.49 for 4 dof
+
+Versus expectations (committed at 3ae7a61): X1 held -- tracking is excluded by the low-redshift data alone (chi2 154 for 5 dof;
+37 for 3 without the red-galaxy bins), independently of the CMB. X2 held -- constant and Claim 1 both fit. X3 held -- with all
+bins the free shape prefers 'higher recently' (p = -0.72, ~1.9 sigma, Delta chi2 3.5 for one extra parameter), driven by the two
+red-galaxy bins; without them p = -0.10 (-1.00 to +0.59), consistent with constant. Revision: none warranted; the apparent rise
+is not robust to the possible measurement 'event'. Without those bins the constant comes out 0.297 (Planck-Lambda 0.311).
