@@ -145,3 +145,9 @@ full Einstein-action convergence from R_eps NOT yet shown (only for tidy cells w
 WHY: general relativity only ever sees averaged neighbourhoods, never single quantum cells. Tested: tidy cells give Einstein's
 action (39b); averaging random cells gives the right curvature (41b). Not yet shown: the full action built from averaged random
 cells, and the effective dimension of our own grid below eps.
+
+## E15. The averaged action IS Einstein's (spatial part; pen-and-paper, quantum_gravity/emergence/averaged_action_derivation.md)
+    S_eps = (1/16 pi G) INT sqrt(g) [ R + eps^2 (a R^2 + b Ric_ij Ric^ij) + O(eps^3) ] + boundary terms
+From: Ollivier's expansion (borrowed) + six-direction averaging (trace -> R, +/- pairs cancel gradient terms) + total derivatives
+integrate away. Leading coefficient measured on our grid (0.99 +/- 0.08 at the bump centre). Corrections in the real universe:
+curvature-squared <~ 2e-62 relative (L ~ 10 km), random noise ~ 1e-37 or smaller per cm^3. a, b not computed; time part not yet.
