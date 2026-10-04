@@ -171,3 +171,8 @@ which is Einstein's gravity for lambda = 1 (Horava-type for lambda != 1; lambda 
              coherent loss per distance ~ k^2.7 (real universe: ~1e-40 over 40 Mpc)                                            [MEASURED]
     leakage: tree level 0 (VCDM class) ; Delta lambda = Omega_DE/6 on horizon scales only ; K in Claim 1 averaged over > 0.03 mm [BORROWED/DERIVED]
     electron switch: m_e = 1 + delta/2 [1 + tanh((z - z_s)/dz)] requires z_s/dz >~ 5 (methanol, z = 0.89)                     [MEASURED bound]
+
+## E19. Growth of structure with the frame field (iteration 50)  [BORROWED form (VCDM), MEASURED numbers]
+    Phi' + aH Phi = (3 a^2/2k^2) rho_m theta F(k),   F = [k^2 - 3 a^2 dH/dt]/[k^2 + (9/2) a^2 rho_m]
+    our model vs same history with ordinary gravity: < 1e-5 for k >= 0.01 h/Mpc; 1.2% at k = 3e-4; ISW -3.6% at k = 2e-4
+    -> unobservable (cosmic variance); background-only fits justified.

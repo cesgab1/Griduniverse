@@ -782,3 +782,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
   perturbation calculation). LOST: cell size no longer pinned to the gamma-ray-burst limit (window 4e-32 .. 5.7e-28 m).
 - 49: no Lorentz violation (scalar coupling); the dz = 30 switch shape FAILS the methanol z = 0.89 bound for z_s <= 150 -> sharper
   switch required (z_s/dz >~ 5). Accommodation, CMB unaffected.
+
+## Iteration 50: horizon-scale growth (Oct 2026) -- quantum_gravity/perturbations/
+- CLOSED (passed as consistency check): the frame field's horizon-scale shift (Delta lambda = Omega_DE/6) changes growth by
+  < 1e-5 on survey scales and a few % only near the horizon (cosmic-variance limited). Not a new prediction. One revision
+  recorded (radiation inconsistency in the code check).

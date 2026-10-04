@@ -1,0 +1,19 @@
+ITERATION 50: horizon-scale growth with the frame field (expectations pre-registered)
+
+P1 F on the LCDM background: max |F - 1| = 7.5e-02 (should be ~0; radiation term and finite differences)
+
+   k [h/Mpc]   A/B density today   A/B potential today   (A = our model, B = same background, ordinary constraint)
+       1e-04   0.388414            1.058098
+       2e-04   0.737919            1.055978
+       3e-04   0.884103            1.053458
+       5e-04   0.981421            1.049089
+       1e-03   1.024826            1.042481
+       3e-03   1.024349            1.026302
+       1e-02   1.005798            1.005969
+       3e-02   1.000761            1.000780
+       1e-01   1.000070            1.000072
+
+   for comparison, background effect alone (B vs LCDM): density ratio at k = 0.01: 0.9953, potential ratio 0.9953
+   potential decay z=10 -> 0 at k = 2e-04: A 0.2086  B 0.2171  LCDM 0.2133  (A/B - 1 = -0.039)
+   potential decay z=10 -> 0 at k = 1e-03: A 0.2158  B 0.2171  LCDM 0.2133  (A/B - 1 = -0.006)
+   potential decay z=10 -> 0 at k = 1e-02: A 0.2171  B 0.2171  LCDM 0.2133  (A/B - 1 = +0.000)
