@@ -617,3 +617,11 @@ a conserved quantity stamped once. Borrowed homes: unimodular gravity (Lambda is
 ('dark matter as integration constant', Mukohyama 2009). Constraint from iteration 13: a separate POSITIVE constant must be
 small, so the stamp should set the jostling's coupling strength A (how hard kicks count), not add a second term.
 Untested; value of the stamp still unexplained.
+
+## CORRECTION: the 'within 2x' of the visible-universe cell tally is AUTOMATIC, not a clue (checked Oct 2026)
+1/sqrt(N4) of the region visible at ANY epoch equals the total density at that epoch within a factor 1.4-5.6 (a = 0.001 to 1;
+analytic reason: N4 ~ (t/t_P)^4 and rho_total ~ 1/(G t^2), so 1/sqrt(N4) ~ rho_total in Planck units always). Today dark energy
+is 69% of the total, so the match is guaranteed. It restates the 'why now' coincidence; it does not derive the size.
+Using the edge of what we can EVER see (event horizon) = holographic dark energy (Li 2004): already excluded (iteration 23).
+Using the region seen at one special moment (e.g. onset of acceleration) is again automatic (dark energy ~ total density then).
+The size remains unexplained; the cell tally only says the counting rule's coefficient is O(1).
