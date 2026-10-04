@@ -559,3 +559,9 @@ before 1998). Counting each of N layers separately ruins it (2e3-2e7 too small),
 species inside one cell (ledger candidate 1), not separate places. SAME CATCH as iteration 21: the visible region grows, so the
 count grows and the size tracks the horizon (fails the early-universe history) unless the count is fixed once ('why today'
 returns). Not new; recorded as the best size estimate so far, not a solution.
+  Coalesce (Oct 2026): 'time need not last as long as the universe; nothing needs to be counting' (tally is physical, no
+  observer; say 'tally/record', not 'count'). Combined with the cell tally: if the size is set by the FINAL tally of the
+  visible region (fixed fee, recorded once), 1/sqrt(N) matches the measured size when the tally reaches 4.4x today's, i.e. time
+  stops ~6.5 Gyr from now (range ~0-20 Gyr for an O(1) rule constant 0.5-2). Space would remain, frozen; no crunch (consistent
+  with iteration 29). Untestable in advance in our model; 'why now' becomes typicality. Related literature: Bousso, Freivogel,
+  Leichenauer & Rosenhaus 2010 ('time will end', arXiv:1009.4698); Penrose (no clocks without mass in the far future).
