@@ -608,3 +608,12 @@ for the jostled part.
   Iteration 31 (quantum_gravity/size/): bucket fed by the same kicks, no new parameter: 18x the sponge, phantom at all z,
   Delta chi2 +28 / +35 / +20 vs Lambda -> EXCLUDED (pre-registered). A remembered size needs a separate channel, not the same
   kicks kept longer.
+
+## Shaking makes it forget (Coalesce, Oct 2026) -- agreed for the SHAPE; points to a CONSERVED stamp for the size
+Shaking scrambles arrangements and motions (non-conserved things) but cannot change conserved things (a shaken jar of marbles
+forgets the arrangement, never the NUMBER of marbles). So: shape = non-conserved jostled tension (forgets, kappa = 3); size =
+a conserved quantity stamped once. Borrowed homes: unimodular gravity (Lambda is an integration constant, conjugate to the
+4-volume, i.e. to 'cosmic time'; Henneaux-Teitelboim 1989; Sorkin's 1/sqrt(V) is its uncertainty) and projectable Horava gravity
+('dark matter as integration constant', Mukohyama 2009). Constraint from iteration 13: a separate POSITIVE constant must be
+small, so the stamp should set the jostling's coupling strength A (how hard kicks count), not add a second term.
+Untested; value of the stamp still unexplained.
