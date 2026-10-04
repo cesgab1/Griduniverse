@@ -850,3 +850,7 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 ## Iteration 60: why only electrons (Oct 2026) -- pops/
 - R1: only particles smaller than their own pop size hold pops -> electrons yes, protons/nuclei no (motivated rule, proposed after
   the proton problem; general, not hand-picked). Payday collective. Open: timing of release; derive R1 from the grid.
+
+## Iteration 61: first-minutes interactions (Oct 2026) -- first_minutes/
+- Light scatters off electrons through open pairs; r_e / pop size = alpha exactly -> alpha, electron-only rule and timing from ONE
+  process. Zero-parameter dark energy: 1.24 x measured (payday z = 124); exact match needs z = 116. Positrons gone by ~1 hour.

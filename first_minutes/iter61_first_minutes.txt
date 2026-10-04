@@ -1,0 +1,11 @@
+ITERATION 61: first-minutes interactions -> timing and size rule (expectations pre-registered)
+
+S1 classical radius r_e = 2.8179e-15 m, pop size = 3.8616e-13 m, ratio = 0.007297353 = alpha (0.007297353) exactly
+   Thomson cross-section 8 pi r_e^2 / 3 = 6.6525e-29 m^2 (textbook 6.6524e-29)
+
+S2 proton scattering strength vs electron: (m_e/m_p)^2 = 3.0e-07; proton size/pop = 4 (iteration 60): no pair picture
+   positrons fall below the leftover electrons at T = 20 keV, t ~ 55 minutes -> after that, only electrons hold pops
+
+S3 zero-parameter prediction (delta = alpha, payday at Compton heating = expansion, z = 124):
+   dark energy today = 4062 eV/cm^3 vs measured 3278 -> ratio 1.24; 21-cm step 11.4 MHz
+S4 nucleosynthesis with the heavier electron: 0.7-1.5 sigma (iteration 57).
