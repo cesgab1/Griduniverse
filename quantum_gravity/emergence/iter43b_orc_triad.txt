@@ -1,0 +1,5 @@
+ITERATION 43b (declared follow-up, same criteria as 43)
+r = 0.00: measured R =  +33.03 +/-  2.68   true R =  +31.61   (8 points x 6 directions)
+r = 0.20: measured R =  +22.03 +/-  6.95   true R =  +20.65   (8 points x 6 directions)
+r = 0.35: measured R =  +15.37 +/- 14.18   true R =   +5.35   (8 points x 6 directions)
+r = 0.50: measured R =  -35.40 +/-  8.85   true R =   -2.59   (8 points x 6 directions)
