@@ -1,0 +1,3 @@
+r = 0.50: measured R =   -0.44 +/-  2.69   true R =   -2.59   (8 points x 6 directions, local map)
+r = 0.35: measured R =   -2.45 +/-  3.19   true R =   +5.35   (8 points x 6 directions, local map)
+r = 0.00: measured R =  -18.02 +/-  2.39   true R =  +31.61   (8 points x 6 directions, local map)

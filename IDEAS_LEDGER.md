@@ -735,3 +735,6 @@ a = 0.49 sqrt(N) l_P (species-bound factor, previously unknown). Window: N 2.9e7
   same scale as the curvature-averaging neighbourhood. Consistent two-level picture; reduction itself is borrowed (z = 3).
   Iteration 44 (emergence/): tension field + thermal relic on the random grid: memory 0.96 x 1/(3H), region averaging slope -0.90
   -> the shape ingredients (memory, sqrt(N)) hold on the Mosaic itself. Size (coupling) still by hand.
+  Iterations 43-43c: curvature profile on the random grid by neighbourhood averaging. Centre and r = 0.2 match (global method),
+  the edge incl. its negative sign matches (local method); r = 0.35 unresolved; each comparison method biased in the other's
+  region (shear vs second-order density error) -- method issues, diagnosed. Full action not yet established.

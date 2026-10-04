@@ -1,0 +1,4 @@
+r = 0.00: measured R =  +31.22 +/-  2.48   true R =  +31.61   (pairs 30, ~1613 points/neighbourhood)
+r = 0.20: measured R =   +8.50 +/- 12.26   true R =  +20.65   (pairs 30, ~1711 points/neighbourhood)
+r = 0.35: measured R =   -4.95 +/- 14.25   true R =   +5.35   (pairs 30, ~1803 points/neighbourhood)
+r = 0.50: measured R =  -50.49 +/- 16.13   true R =   -2.59   (pairs 30, ~1759 points/neighbourhood)

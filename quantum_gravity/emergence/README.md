@@ -17,3 +17,18 @@ Curvature put on the grid only through link lengths; grid (Regge) action compare
   1.18 +/- 0.12 (~2100 points) -> within 25%: PASS. The excess in 41 was sampling noise.
 - Verdict: a random grid DOES give the right curvature when curvature is read by averaging over neighbourhoods. The tidy-cell
   requirement belongs to Regge's single-link definition. (Full Einstein action from this definition not yet built.)
+
+## Iterations 43/43b/43c: curvature PROFILE on the random grid (towards the full action) -- partly verified
+True R at r = 0 / 0.2 / 0.35 / 0.5: +31.6 / +20.7 / +5.4 / -2.6 (sign change at the edge).
+- 43 (global volume-matched common points, random directions): +31.2 +/- 2.5 / +8.5 +/- 12 / -5.0 +/- 14 / -50 +/- 16.
+- 43b (same, six directions per point): +33.0 +/- 2.7 / +22.0 +/- 7.0 / +15.4 +/- 14 / -35 +/- 9.
+- 43c (local isotropic rescale): r = 0.5: -0.4 +/- 2.7; r = 0.35: -2.5 +/- 3.2; r = 0: -18.0 +/- 2.4.
+Diagnosis (comparison METHOD, not the curvature definition):
+ * global matching shears the point pattern by ~40% far from the bump (all the extra volume pushes outer points inward), and
+   pairs picked in flat geometry then have very different proper separations -> biased at the edge;
+ * local rescaling leaves a density error of second order, the same order as the curvature signal, wherever phi is strongly
+   curved -> biased at the centre.
+Verified: centre and r = 0.2 (global method, where its shear is negligible) and the edge incl. its NEGATIVE sign (local method,
+where its density error is negligible). Not resolved: r = 0.35 (both methods' errors overlap). P1 met at 3 of 4 radii with a valid
+method each; P2 (full action) NOT established. Next: one comparison valid everywhere (pairs selected in each geometry, much larger
+statistics), or a perturbative calculation of the neighbourhood-averaged action.
