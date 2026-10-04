@@ -115,3 +115,23 @@ No new parameter: the sponge forgets (Hubble friction, kappa = 3), the bucket ke
 - EXCLUDED, as pre-registered (E1-E3 all held). Lesson: kicks that are never forgotten pile up and take over; the data want the
   jostled tension to forget. A remembered SIZE would need a different channel from the kicks that make the SHAPE (e.g. a
   quantity that enters linearly with a random sign, frozen once), not the same kicks kept longer.
+
+## Iteration 53: the size of dark energy from the QG piece (pre-registered: PREREG_53.md; results iter53_size_from_qg.txt)
+Chain: cells scattered randomly in space AND time -> the grid knows its 4-volume only to the Poisson spread of its tally ->
+the conserved stamp (dark energy's size, conjugate to 4-volume) carries that spread (Sorkin's argument, BORROWED core) ->
+with OUR cells (a = 0.49 sqrt(N) l_P, N layers inducing gravity) the size is
+    rho_DE = c_rule * sqrt(N) * hbar c / (a^2 sqrt(V_book)) = c_rule * (4.15/sqrt(N)) * rho_P / sqrt(N4_book)
+- B1 (argument): the old floor N >= 2.9e7 came from dark-energy lumps averaged over layers; one conserved stamp read on
+  constant-K slices is exactly uniform, so that floor no longer applies. COST: the 'sqrt of jostling layers' motivation for
+  Claim 1's exponent 1/2 goes with it.
+- B2: the visible past alone gives 2.0 x the measured size with Planck cells; with our cells the whole book must satisfy
+  S x T = 4.0 c_rule^2 x 17.2/N. Space already exceeds the CMB topology floor (S >= 1.70) -> N <= 41 (c_rule = 1) or
+  N <= 163 (c_rule = 2) for independent layers; a single shared grid needs N <= 6-13.
+- B3: cells within ~1-6 Planck lengths, gravity's true cutoff 2-12 x 10^18 GeV: NO grid-induced photon delays at any
+  foreseeable energy (null prediction; a detection would exclude this route). The earlier cell window 4e-32 .. 5.7e-28 m is
+  replaced by ~1.6e-35 .. 1e-34 m IF this route is right.
+- B4: Standard-Model count ~118 field components fits only with c_rule >~ 1.7 (comparison, not a fit). Free choices: c_rule,
+  independent layers, whole-book stamp (3 for 1 number) -> still partly accommodation.
+Verdict: the QG piece now produces the size as an expression in N and the size of the whole book. It ties three things together:
+dark energy's size, the number of layers (tens to ~160) and a finite, flat, wrap-around universe just beyond what CMB searches
+have reached (cube 30-95 Gpc, mostly 30-60). Testable halves: repeated CMB patterns just beyond 27.5 Gpc; no photon delays.

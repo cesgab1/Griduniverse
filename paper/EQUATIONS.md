@@ -182,3 +182,8 @@ which is Einstein's gravity for lambda = 1 (Horava-type for lambda != 1; lambda 
 The correction term eps^2 (a R^2 + b Ric^2) is an ASSUMED form: a direct measurement of a, b failed (numerics not converged),
 and Ollivier's theorem allows an eps^3 term in kappa (i.e. eps^1 in R_eps). Leading term (Einstein) confirmed to 0.6%.
 Any form is unmeasurable (<= 5e-31 relative at the most curved tested places).
+
+## E20. Size of dark energy from the QG piece (iteration 53)  [BORROWED core (Sorkin), DERIVED with our cells; 3 free choices]
+    rho_DE = c_rule sqrt(N) hbar c / (a^2 sqrt(V_book)),   a = 0.49 sqrt(N) l_P   ->   rho_DE = c_rule (4.15/sqrt(N)) rho_P / sqrt(N4_book)
+    whole book: S x T = 4.0 c_rule^2 x 17.2 / N ;  space >= CMB topology floor (S >= 1.70)  ->  N <= 41 c_rule^2
+    consequences: cells 1-6 l_P, cutoff ~1e19 GeV (no photon delays); finite flat wrap-around space just beyond 27.5 Gpc; time ends

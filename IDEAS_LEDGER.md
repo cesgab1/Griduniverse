@@ -797,3 +797,12 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - FAILED to determine a, b (discretisation-dominated; memory limit). Leading Einstein term confirmed (0.6%). The eps^2 R^2 form is
   now labelled an assumption (an eps^1 non-analytic piece is not excluded). Consequence unchanged: unmeasurable either way.
 - Possible future route: analytic higher-order expansion of W1 between small balls, or a smarter (symmetry-reduced) transport solver.
+
+## Iteration 53: size of dark energy from the QG piece (Oct 2026) -- quantum_gravity/size/PREREG_53.md
+- Coalesce: the answer must come out of the QG piece. Done: sprinkled cells -> Poisson spread of the 4-volume tally -> stamp size,
+  now with OUR cells (a = 0.49 sqrt(N) l_P). Result: rho_DE = c_rule (4.15/sqrt N) rho_P/sqrt(N4_book).
+- Ties dark energy's size to the number of layers: N <= 41 (c_rule 1) to 163 (c_rule 2); cells 1-6 Planck lengths; book finite.
+- Lifts the old N >= 2.9e7 floor (it was about dark-energy lumps; one uniform stamp has none). Cost: Claim 1's beta = 1/2
+  loses its layer-jostling motivation.
+- Testable: wrap-around space just beyond 27.5 Gpc (CMB repeated patterns); no energy-dependent photon delays (null).
+- Free choices 3 (c_rule, independent layers, whole-book stamp): partly accommodation. SM count ~118 fits only for c_rule >~ 1.7.
