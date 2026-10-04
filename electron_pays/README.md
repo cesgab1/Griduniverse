@@ -39,3 +39,14 @@ Conclusion: the 1.2 x of iterations 54-61 came from assuming a SHARP payday; wit
 (when there were many more electrons per volume) dominate and the electron route OVERSHOOTS by ~10-25 x. Equivalently the
 measured dark energy needs only ~3-11% of the electrons' alpha share to reach the grid. As it stands, 'all electrons pay alpha'
 FAILS the real calculation. Not tuned away; recorded as a failure of that version.
+
+## Iteration 65: can the excess go into light? (pre-registered: PREREG_65.md)
+- A closing pop is one quantum event -> its energy comes out as ~3.7 keV X-rays. These are absorbed by hydrogen 2-10 times per
+  expansion time at z = 140-380, heating and ionising the gas. With 89-96% of the payment as X-rays: extra CMB optical depth
+  ~6.4-6.6 vs Planck's allowance ~0.015 -> EXCLUDED; the largest allowed light share is ~5e-6. (Caveat: at z < ~60 the photons
+  escape more often, so the number is an overestimate there -- irrelevant at a margin of 400x.)
+- Soft microwave light (L2) would fit FIRAS (3.5e-5 vs ~6e-5) but needs ~1e5 photons per electron with no known mechanism.
+Lesson: the physically natural carrier (X-ray light) is ruled out; the allowed carriers (neutrinos, gravitons, grid vibrations,
+or soft light by an unknown process) are all invisible to today's data. Under Coalesce's rule (testable today), the
+'electron pays for dark energy' route has no surviving testable version. Status: the electron's extra weight (alpha) stands as
+a CMB/BBN-consistent lead; its role in setting dark energy's size is NOT supported.

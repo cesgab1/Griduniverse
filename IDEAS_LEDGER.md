@@ -876,3 +876,7 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 ## Iteration 64: threshold-free size (Oct 2026) -- electron_pays/
 - Real calculation (gas-temperature hold, gradual one-way release): 26 x measured (beta 1/2); 20-66 x (measured beta);
   second measure 9 x. The near-match 1.2 x was an artefact of a sharp payday. 'All electrons pay alpha' FAILS.
+
+## Iteration 65: excess into light? (Oct 2026) -- electron_pays/
+- X-ray light (physical) EXCLUDED: extra optical depth ~6.5 vs 0.015 allowed (f_max ~5e-6). Soft light allowed by FIRAS but no
+  mechanism. Neutrinos/gravitons/grid vibrations invisible. Electron route as size-setter: no testable surviving version.

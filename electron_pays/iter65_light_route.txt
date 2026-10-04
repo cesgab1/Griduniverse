@@ -1,0 +1,7 @@
+ITERATION 65: can the excess go into light? (expectations pre-registered)
+
+L1 X-ray route, light share 0.89: ionised fraction at z = 140: 0.23; extra optical depth = 6.38 (Planck allows ~0.015) -> EXCLUDED
+L1 X-ray route, light share 0.96: ionised fraction at z = 140: 0.24; extra optical depth = 6.63 (Planck allows ~0.015) -> EXCLUDED
+   largest light share allowed: f_max = 4.9e-06 (vs 0.89-0.96 needed)
+
+L2 soft light: total Delta rho/rho = 3.9e-05; with 89-96% as light 3.4e-05-3.7e-05 vs FIRAS ~6e-5 -> allowed, but needs ~1e+05 microwave photons per electron (no mechanism)
