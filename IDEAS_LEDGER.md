@@ -746,3 +746,10 @@ S = Einstein + eps^2 (a R^2 + b Ric^2) + ...; leading coefficient measured on ou
   Iteration 45 (emergence/): time part read from link-length changes on the random grid: uniform expansion exact (-6H^2),
   gravitational-wave kinetic term 0.993 of exact. With E15: full ADM action from the averaged random grid; lambda = 1 for GR is a
   parameter of the base (not derived).
+
+## Why lambda = 1? (quantum_gravity/lambda/) -- NOT explained by the grid as built; route proposed
+Data: lambda - 1 in [-0.008, +0.017] (our N_eff estimate), published 0-0.1 (BBN). Naive preferred-frame grid gives lambda ~ -0.5
+(non-covariant cutoff; 'Lorentz violation percolates', Collins et al. 2004). Routes: (1) grid random in SPACETIME (statistically
+Lorentz invariant, Bombelli-Henson-Sorkin) -> covariant induced gravity, lambda = 1; preferred slicing only in the dark-energy
+function (2) (VCDM). Cost: z = 3 small-scale results must be re-derived. (3) RG flow to lambda = 1 (2-D only). Next: compute induced
+lambda on a spacetime-random vs space-random grid.
