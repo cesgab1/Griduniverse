@@ -1,0 +1,9 @@
+Light-Cone Model -- deriving C from the equation's own quantities (today's data: Omega_k = 0.0023 +/- 0.0011, Omega_DE = 0.685)
+
+D1 C = curvature energy density: predicts Omega_DE = 0.0005 (measured 0.685); matching would need Omega_k = 0.739 (measured 0.0023 +/- 0.0011: 670 sigma away)
+D2 C = Planck density x (Planck length/curvature radius)^2: predicts Omega_DE = 0.0042 (measured 0.685); matching would need Omega_k = 0.135 (measured 0.0023 +/- 0.0011: 121 sigma away)
+D3 C tied to the age since the first event (C ~ c^2/(G (c tau)^2)): dark energy would follow the total density at all times
+   -> already excluded by today's data (iteration 37: chi2 154 for 5 points).
+
+Conclusion: c, G, curvature and age cannot produce the size; a further ingredient is needed (quantum + something countable,
+or particle physics). If one is found, C stops being free and the equation predicts Omega_DE from matter and curvature.
