@@ -1,0 +1,3 @@
+GR + hbar vacuum energy, Planck energy cutoff                    : 5.6e+120 x measured
+GR + hbar vacuum energy, electroweak / Higgs scale (~100 GeV)    : 2.5e+52 x measured
+GR + hbar vacuum energy, electron mass (electron pops only)      : 1.7e+31 x measured

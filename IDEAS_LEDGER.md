@@ -935,3 +935,8 @@ To run pre-registered, with look-elsewhere stated.
 - Today's-data tests that separate 'gravity changes' from 'energy': growth vs expansion (f sigma8, weak lensing S8),
   gravitational-wave vs light distances (standard sirens). Our model: G_eff = G below the horizon (it. 50), so it predicts NO
   growth anomaly beyond what the expansion history implies.
+
+## Iteration 69 + GR track (Oct 2026) -- gr_track/
+- GR-allowed (non-crossing) dark energy: -2.0/-3.2/-2.6 vs Lambda with 2 extra numbers; Claim 1 -5.4/-7.2/-6.8 with none.
+- GR + hbar gives NO size (free constant; vacuum 10^34-10^121 too big; unimodular removes it but leaves the value free).
+  Discreteness (the grid) is the only added ingredient that yields a size. GR and grid agree on Einstein eqs, BH entropy, growth.
