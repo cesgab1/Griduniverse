@@ -1031,3 +1031,16 @@ To run pre-registered, with look-elsewhere stated.
 - Honest note: standard cosmology already has this (t_Lambda ~ 1/sqrt(G Lambda)); our model reproduces it with a weak matter
   dependence. The remaining coincidence, in its standard form: why is the dial's clock (8 Gyr) close to the lifetime of stars
   (when observers exist)? Stellar lifetimes are set by hbar, G, particle masses, alpha -- a genuine absolute clock.
+
+## Discussion (Oct 4 2026): are we just switching the why-now question? + time at particle scales
+- Honest status: partly yes. Iterations 72-76 did not answer 'why now'; they showed it is NOT a separate question from 'why this
+  size' (two unknowns -> one) and excluded three routes. The coincidence 'dial clock ~ star lifetimes' is the original puzzle in
+  its standard form.
+- Particle-scale time (established facts): massless particles have no proper time (photons don't age); mass = a built-in clock
+  (Compton frequency mc^2/h, measured with atom interferometry, Lan et al. 2013); a massless universe has no clock or ruler
+  (conformal symmetry); clocks 'switch on' when the Higgs gives mass (electroweak era); weak force breaks time-reversal
+  (BaBar 2012); quantum gravity's basic equation has no time ('problem of time'; time from correlations, Page-Wootters).
+- Lead: dark energy's energy scale (~2 meV) is the geometric mean of the Planck clock and the dial clock -> a PARTICLE-sized clock
+  (~1e-13 s). Nearest real particle clocks: neutrinos (measured splittings 8.6 and 50 meV). Literature: mass-varying-neutrino
+  dark energy (Fardon, Nelson & Weiner 2004) ties 'why now' to neutrinos turning slow. Not tested here; our 2.24 meV neutrino
+  number is circular (derived from dark energy) and must not be used as evidence.
