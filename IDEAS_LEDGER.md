@@ -625,3 +625,8 @@ is 69% of the total, so the match is guaranteed. It restates the 'why now' coinc
 Using the edge of what we can EVER see (event horizon) = holographic dark energy (Li 2004): already excluded (iteration 23).
 Using the region seen at one special moment (e.g. onset of acceleration) is again automatic (dark energy ~ total density then).
 The size remains unexplained; the cell tally only says the counting rule's coefficient is O(1).
+
+## Whole-workbook inversion (Coalesce, Oct 2026; iteration 32, book/README.md) -- OPEN, one testable half
+Measured dark energy -> total tally of all space x all time. Closed sphere excluded (needs Omega_k <= -0.04..-0.10; data +0.002).
+Flat wrap-around space allowed only in a narrow window: cubic torus side 27.5-38 Gpc (rule constant 1; up to ~60 for 2), just above
+the CMB circle-search limit; time then ends within ~0-11 Gyr. Testable half: deeper CMB topology searches (COMPACT).
