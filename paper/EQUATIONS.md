@@ -109,9 +109,9 @@ Its value is fixed only by a cell count:  rho_DE ~ rho_P / sqrt(N4),  N4 = numbe
                         testable half = flat wrap-around space, cube side 27.5-38 Gpc (iterations 32, 38)
 
 ## E11. Primordial ripples ('watermark') from the grid's smallest-scale scaling  [BORROWED form, one FITTED number]
-    omega^2 = p^(2z) / M^(2z-2),  z = 3 - eta   ->   n_s - 1 = -2 eta / (1 - eta)
-    general era (iteration 51): n_s - 1 = -(eta/3) eps/(1 - eps/3), alpha_s = 0; crossover route EXCLUDED (alpha_s = 8(n_s-1)),   eta = 0.013-0.017 (fitted; layers give
+    omega^2 = p^(2z) / M^(2z-2),  z = 3 - eta   ->   n_s - 1 = -2 eta / (1 - eta),   eta = 0.013-0.017 (fitted; layers give
     the right order c/(16 pi^2), coefficient and sign not computed)
+    general era (iteration 51): n_s - 1 = -(eta/3) eps/(1 - eps/3), alpha_s = 0; crossover route EXCLUDED (alpha_s = 8(n_s - 1))
 
 ## E12. Grid growth  [PICTURE, tested]
 Links stretch with expansion (strain += d ln a), break at a tolerance, a new cell is inserted: explains cell addition and the
