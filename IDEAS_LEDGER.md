@@ -859,3 +859,11 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - First run's method check FAILED (coarse orientations) -> recorded revision with exact rotations (3000 orientations).
 - 20 Gpc cube ruled out by our pipeline; 30-35 Gpc cubes indistinguishable from infinite space with this data/method;
   40-60 Gpc nothing preferred. Look-elsewhere p = 0.52. Book route: NOT tested by this map (beyond the last-scattering sphere).
+
+## Idea (Coalesce, Oct 4 2026): the 24% must show up in TODAY's data
+- Zero-parameter electron payment gives dark energy omega_DE = 0.386 (physical units) vs the LCDM/CMB-inferred 0.311.
+- Where it could already be visible: (1) local expansion rate: with omega_m = 0.143 (CMB), H0 = 72.7 vs SH0ES 73.0 +/- 1.0;
+  (2) DESI's direct leftover at z ~ 0.5-0.7 (red galaxies): 0.382 +/- 0.026. But DESI at z > 0.9 gives 0.297 +/- 0.029 and the
+  CMB-based fit gives 67.4: the disagreement is the Hubble tension itself. Reading to test: the extra ~20% of dark energy acts
+  only late (after z ~ 0.8). Known risk: late-time-only fixes usually fail supernova + BAO shape tests. To run, pre-registered,
+  in the full pipeline (Planck + ACT + SPT + DESI + supernovae + SH0ES).
