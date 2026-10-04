@@ -819,3 +819,11 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - Tally route has a GR twin (whole-history average in a finite spacetime, sequestering): 0.18-0.41 x measured, automatic.
 - Unified: QG sets how much, GR says who pays (electrons at decoupling) -> delta = 0.60% predicted. Hole: why 0.6% / why at
   Compton decoupling is not derived from the grid.
+
+## Idea (Coalesce, Oct 4 2026): emergence needs pops
+- Whether or not the universe ends, space and time are EMERGENT; emergence needs things to pop in and out to work. Why it must
+  be so should come from the quantum side.
+- Links to existing pieces: cells scattered randomly in spacetime (iteration 46b) are themselves 'pops'; the grid must keep
+  adding cells (E6); the stamp is a tally of pops (iterations 53, 55). Open question it may answer: why the ELECTRON holds the
+  dark-energy stamp and pays at decoupling (iteration 55 hole). Candidate: the electron is the lightest charged particle, so
+  its pops (virtual electron-positron pairs) are the largest and most common charged ones. Status: OPEN, to brainstorm.
