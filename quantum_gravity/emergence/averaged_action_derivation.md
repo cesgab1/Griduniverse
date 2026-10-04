@@ -27,8 +27,9 @@ measured/true = 0.99 +/- 0.08 (iteration 43), 1.04 +/- 0.09 (43b), 1.18 +/- 0.12
 - Second-derivative terms are total derivatives (they integrate to boundary terms and vanish for a closed region or fields that
   fall off).
 - Result:   S_eps = (1/16 pi G) INTEGRAL sqrt(g) [ R + eps^2 ( a R^2 + b Ric_ij Ric^ij ) + O(eps^3) ]  + boundary terms
-  i.e. EINSTEIN'S action plus small curvature-squared corrections. The numbers a, b need a 4th-order expansion of the
-  transport cost (not done here). Curvature-squared corrections are the generic form expected in any quantum-gravity approach.
+  i.e. EINSTEIN'S action plus small corrections. The numbers a, b need a 4th-order expansion of the transport cost.
+  Iteration 52 tried to measure them by exact transport on S^3 and S^2 x line: NOT determined (discretisation dominates);
+  Ollivier's bound leaves even the form open (eps^2 curvature-squared, or a non-analytic eps^1 piece). ASSUMPTION, not derived. Curvature-squared corrections are the generic form expected in any quantum-gravity approach.
 
 ## Step 4: the randomness averages away (DERIVED + MEASURED)
 - Per-point scatter of R_eps at ~1600-1700 points per neighbourhood: about 24% of R (from 43/43b: +/-2.5 with 8-30 points).

@@ -1,0 +1,9 @@
+ITERATION 52b: convergence check (S3, R_eps at eps = 0.2 and 0.6; true R = 6)
+m=5:  R(0.2)=6.08990 R(0.6)=6.00682 ratio R(0.6)/R(0.2)-1 = -0.01364
+m=7:  R(0.2)=6.04122 R(0.6)=5.97846 ratio R(0.6)/R(0.2)-1 = -0.01039
+m=9:  R(0.2)=6.02262 R(0.6)=5.98849 ratio R(0.6)/R(0.2)-1 = -0.00567
+m=11: R(0.2)=6.01404 R(0.6)=6.00442 ratio R(0.6)/R(0.2)-1 = -0.00160
+m=13: R(0.2)=6.00784 R(0.6)=6.01717 ratio R(0.6)/R(0.2)-1 = +0.00155
+m=15: out of memory (8 GB)
+Reading: the leading term converges (R(0.2) -> 6), but the eps-dependence -- the very thing a and b measure -- drifts steadily
+with resolution and changes sign: it is dominated by discretisation. a and b are NOT determined by this method.

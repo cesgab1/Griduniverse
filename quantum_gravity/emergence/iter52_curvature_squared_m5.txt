@@ -1,0 +1,14 @@
+ITERATION 52: curvature-squared coefficients (expectations pre-registered); lattice m = 5 per ball radius
+
+C1 flat check: kappa = -2.22e-16
+eps 0.15: S3 kappa/eps^2 = 0.20312 (lead 0.2); S2xR sphere-axis 0.10161 (0.1), line-axis -0.00000 (0); R_eps: S3 6.09350 (R=6), S2xR 2.03227 (R=2)
+eps 0.20: S3 kappa/eps^2 = 0.20300 (lead 0.2); S2xR sphere-axis 0.10160 (0.1), line-axis -0.00000 (0); R_eps: S3 6.08990 (R=6), S2xR 2.03194 (R=2)
+eps 0.25: S3 kappa/eps^2 = 0.20284 (lead 0.2); S2xR sphere-axis 0.10158 (0.1), line-axis -0.00000 (0); R_eps: S3 6.08516 (R=6), S2xR 2.03151 (R=2)
+eps 0.30: S3 kappa/eps^2 = 0.20264 (lead 0.2); S2xR sphere-axis 0.10155 (0.1), line-axis -0.00000 (0); R_eps: S3 6.07920 (R=6), S2xR 2.03096 (R=2)
+eps 0.35: S3 kappa/eps^2 = 0.20240 (lead 0.2); S2xR sphere-axis 0.10151 (0.1), line-axis -0.00000 (0); R_eps: S3 6.07188 (R=6), S2xR 2.03029 (R=2)
+eps 0.40: S3 kappa/eps^2 = 0.20210 (lead 0.2); S2xR sphere-axis 0.10147 (0.1), line-axis -0.00000 (0); R_eps: S3 6.06305 (R=6), S2xR 2.02946 (R=2)
+eps 0.50: S3 kappa/eps^2 = 0.20133 (lead 0.2); S2xR sphere-axis 0.10136 (0.1), line-axis +0.00000 (0); R_eps: S3 6.03978 (R=6), S2xR 2.02722 (R=2)
+eps 0.60: S3 kappa/eps^2 = 0.20023 (lead 0.2); S2xR sphere-axis 0.10119 (0.1), line-axis +0.00000 (0); R_eps: S3 6.00682 (R=6), S2xR 2.02377 (R=2)
+fit f + eps^2 + eps^4: f(S3) = 1.01628, f(S2xR) = 1.01630; A(S3) = -0.1878, A(S2xR) = -0.0157  ->  a = -0.0078, b = +0.0078
+with eps^3 too: f(S3) = 1.01638, f(S2xR) = 1.01637; A(S3) = -0.2232, A(S2xR) = -0.0244  ->  a = -0.0064, b = +0.0006
+eps^3 coefficients when allowed: S3 +0.1267, S2xR +0.0314

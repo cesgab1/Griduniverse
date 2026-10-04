@@ -792,3 +792,8 @@ window (cell 2.5-5.7e-28 m, at the gamma-ray-burst limit: near-testable). Open: 
 - CLOSED: 'z = 3 phase ending' (crossover) -- forces running alpha_s ~ 8(n_s - 1) ~ -0.2 in a radiation era; 43 sigma excluded.
 - SURVIVES: constant anomalous exponent z = 3 - eta (eta = 0.013-0.018, radiation era), no running; frame-field d_s = 2.004-2.006.
 - OPEN: derive eta (loop calculation). Still accommodation.
+
+## Iteration 52: curvature-squared coefficients a, b (Oct 2026) -- quantum_gravity/emergence/PREREG_52.md
+- FAILED to determine a, b (discretisation-dominated; memory limit). Leading Einstein term confirmed (0.6%). The eps^2 R^2 form is
+  now labelled an assumption (an eps^1 non-analytic piece is not excluded). Consequence unchanged: unmeasurable either way.
+- Possible future route: analytic higher-order expansion of W1 between small balls, or a smarter (symmetry-reduced) transport solver.

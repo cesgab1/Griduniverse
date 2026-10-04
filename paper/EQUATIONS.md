@@ -177,3 +177,8 @@ which is Einstein's gravity for lambda = 1 (Horava-type for lambda != 1; lambda 
     Phi' + aH Phi = (3 a^2/2k^2) rho_m theta F(k),   F = [k^2 - 3 a^2 dH/dt]/[k^2 + (9/2) a^2 rho_m]
     our model vs same history with ordinary gravity: < 1e-5 for k >= 0.01 h/Mpc; 1.2% at k = 3e-4; ISW -3.6% at k = 2e-4
     -> unobservable (cosmic variance); background-only fits justified.
+
+## E15 status note (iteration 52)
+The correction term eps^2 (a R^2 + b Ric^2) is an ASSUMED form: a direct measurement of a, b failed (numerics not converged),
+and Ollivier's theorem allows an eps^3 term in kappa (i.e. eps^1 in R_eps). Leading term (Einstein) confirmed to 0.6%.
+Any form is unmeasurable (<= 5e-31 relative at the most curved tested places).

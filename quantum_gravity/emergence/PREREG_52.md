@@ -11,3 +11,12 @@ isometry, so flat space gives exactly 0). Expectations:
  C2 leading term: kappa/eps^2 -> Ric(v,v)/10 within 1% (Ollivier's theorem, already confirmed on the random grid at ~10%).
  C3 a and b come out as definite O(0.01-0.1) numbers with fit uncertainty < 20% (no prior value; sign not predicted).
  C4 consequence: real-universe corrections stay below |a|,|b| x 2e-61 (unmeasurable); the point is completeness of the equation.
+
+## Outcome (after running; see iter52_first_runs.txt, iter52_curvature_squared_m*.txt, iter52b_convergence.txt)
+- C1 PASS (flat kappa ~ 1e-16). C2 PASS after one recorded revision (hard-edged lattice balls had the wrong second moment;
+  fractional-volume cells + a free overall factor in the fit): leading term converges to Ric/10 (factor 1.016 -> 1.006 as m = 5 -> 9).
+- C3 FAIL: the eps-dependence that defines a and b drifts with resolution and changes sign (S3: -0.0136 ... +0.0016 between
+  eps = 0.2 and 0.6 for m = 5 ... 13); finer runs exceed memory. a and b are NOT determined. Ollivier's theorem only bounds
+  the next term as O(eps^3) for uniform balls, so even the FORM of the correction (curvature-squared at eps^2, or a
+  non-analytic eps^1 |Ric|^(3/2) piece) is open. E15's 'a R^2 + b Ric^2' is therefore an assumption, now labelled as such.
+- C4 unaffected: even an eps^1 correction would be ~ eps/L ~ 5e-31 at the most curved tested places; any form is unmeasurable.
