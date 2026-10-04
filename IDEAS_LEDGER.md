@@ -925,3 +925,13 @@ To run pre-registered, with look-elsewhere stated.
 ## Iteration 68: vacuum-energy route to the size (Oct 2026) -- vacuum/
 - Explains 'tiny, not 10^120'; size within 0.04-35 x measured across 8 conventions (two near 1: 1.00 and 0.69; ~20% chance).
   Not a prediction. Needs: cell size, which 4-volume, why the stamp freezes.
+
+## Question (Coalesce, Oct 4 2026): is dark energy an artefact of incomplete gravity on cosmic scales?
+- Our model already IS this kind of theory: Claim 1 is a term in gravity's own action (a function of the expansion rate K),
+  not a substance; only the frame field carries it (VCDM class). The 'size' is then the strength C of that gravity term.
+- Modified gravity relabels, not removes, the size question: any modification that accelerates today needs a scale ~ H0
+  (or the 2.24 meV / 88 micrometre scale). Known modified-gravity families: many killed by GW170817 (graviton speed); DGP
+  self-accelerating branch disfavoured; f(R) needs screening and still a chosen scale.
+- Today's-data tests that separate 'gravity changes' from 'energy': growth vs expansion (f sigma8, weak lensing S8),
+  gravitational-wave vs light distances (standard sirens). Our model: G_eff = G below the horizon (it. 50), so it predicts NO
+  growth anomaly beyond what the expansion history implies.
