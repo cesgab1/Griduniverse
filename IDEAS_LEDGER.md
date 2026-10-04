@@ -681,3 +681,12 @@ tolerance acts like a constant energy (fixed fee): stiffness x strain^2 = dark e
 tolerance that depends on how fast links are pulled (strain rate ~ H) gives rho ~ H^-1/2, the s = 0 law, excluded at 5-6 sigma
 (stretch_scan). (4) LEAK: energy leaking from the tension into dark matter or radiation is limited by DM constancy (few %) and
 Delta N_eff < 0.107. Reading (1) kept as a picture; (2)-(3) do not set the size.
+
+## Thresholds: how much dark energy it takes to affect matter vs the grid (Coalesce, Oct 2026)
+To make expansion speed up today: rho_DE > rho_m/2 = 1.3e-27 kg/m^3 (measured 5.9e-27 = 4.3x this). Effect on the grid tension:
+1.1e-123 of the stiffness (negligible; the grid does not notice). Upper window (Weinberg 1987): dark energy must not take over
+before galaxies assemble: rho_DE < ~rho_m(z_gal) = 7e-26 to 9e-25 (z 2-6); measured is 0.6-8% of that maximum. So the value sits
+in a 'Goldilocks' window: big enough to matter now, small enough for galaxies. This EXPLAINS the size only with selection
+(many regions with different random stamps; observers arise only where galaxies form) = Coalesce's Branch B (other big bangs
+elsewhere) + a random per-region stamp. Borrowed: Weinberg 1987 (predicted a small non-zero value before 1998), Martel, Shapiro &
+Weinberg 1998. Not adopted; it is selection, not a mechanism.
