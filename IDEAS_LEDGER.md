@@ -1052,3 +1052,9 @@ To run pre-registered, with look-elsewhere stated.
 - N3 FAIL: 2.24 meV vs 8.65 (x3.9) and 50.1 (x22). N4: neutrinos are 0.14% of the total, 487 x below dark energy -> cannot BE it.
 - Verdict: the neutrino clock does not explain 'now' with measured numbers; it survives only as a fit of an unmeasured mass.
   Future test: JUNO mass ordering (inverted would kill it). Next: stars/black holes (idea 3).
+
+## Iteration 78 (Oct 4 2026): stars / black holes as dark energy's clock -- stars_clock/
+- Measured star-formation history (Madau & Dickinson 2014), shape only. S1 (dark energy follows stellar mass): +60 / +72 / +49 vs
+  Lambda -> EXCLUDED. S2 (coupled black holes, Farrah et al. 2023): -2.2 / -1.9 / -2.3 -> Lambda-like, survives, not supported.
+- Claim 1 still better than S2 by 3-5. 'Why now' via black holes survives only in its 'mostly built by z ~ 2' form; contested
+  independently; amount untested.
