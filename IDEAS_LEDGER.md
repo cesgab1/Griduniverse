@@ -1451,3 +1451,8 @@ deterministic size rule over the whole horizon, not a per-direction random sum.
      same field giving MOND-like halos (clusters / Lyman-alpha problems).
 - Grain reading (untested): the snapshot ordering of grains = the cosmic clock that gives dark energy's 'now' response; the same
   clock could carry a dust-like 'leftover' acting as dark matter. Test available: fit a dark-matter <-> dark-energy coupling.
+
+## Iteration 90 (Oct 5 2026): dark matter <-> dark energy exchange -- dark_link/
+- No exchange detected: xi = +0.07..+0.09 +/- 0.07-0.09 (constant baseline), -0.06..0.00 +/- 0.08-0.11 (Claim 1). 95% |xi| < ~0.2-0.25.
+- With Claim 1 the data want no exchange at all (xi = 0 costs <= 0.4 in chi2). Predicted sign of mild preference was wrong.
+- A link, if any, is via the shared cosmic clock (preferred-time 'dark matter as integration constant'), not energy flow.

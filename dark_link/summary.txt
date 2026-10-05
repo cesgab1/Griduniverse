@@ -1,0 +1,6 @@
+DESDOVEKIE  base beta=0.0: xi best +0.091, 1sig 0.066, 95% range [-0.04,+0.22], chi2(xi=0)-min 1.86
+DESDOVEKIE  base beta=0.5: xi best -0.042, 1sig 0.084, 95% range [-0.21,+0.12], chi2(xi=0)-min 0.24
+PANTHEON    base beta=0.0: xi best +0.073, 1sig 0.072, 95% range [-0.07,+0.21], chi2(xi=0)-min 1.05
+PANTHEON    base beta=0.5: xi best -0.060, 1sig 0.090, 95% range [-0.24,+0.11], chi2(xi=0)-min 0.42
+UNION3      base beta=0.0: xi best +0.089, 1sig 0.085, 95% range [-0.09,+0.25], chi2(xi=0)-min 1.06
+UNION3      base beta=0.5: xi best +0.000, 1sig 0.106, 95% range [-0.21,+0.21], chi2(xi=0)-min 0.00
