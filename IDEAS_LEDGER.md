@@ -1141,3 +1141,9 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
   acceleration onset, fade), ~2-3 x larger swing.
 - QG target: the micro theory must make dark energy RESPOND to the cosmic now, more strongly than beta = 1/2 (response strength is a
   number a micro theory must output).
+
+## Iteration 83 (Oct 4 2026): response strength + anomaly review -- response/
+- beta = 0.58 +/- 0.25 (Pantheon+), 0.63 +/- 0.23 (DES), 1.19 +/- 0.38 (Union3); constant off by 2.4-3.2 sigma; Claim 1 (1/2) fits
+  two sets almost exactly. QG target number: beta ~ 0.6.
+- Anomalies: explains phantom crossing (by construction); worsens H0 (66-67 vs 68.5) and S8 (+2-4%); ages fine; neutrino mass not
+  testable here; no effect on JWST early galaxies.
