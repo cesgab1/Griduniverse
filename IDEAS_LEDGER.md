@@ -1134,3 +1134,10 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
 - Bridge candidate that keeps the light-cone idea: causal sets (space-time = random events linked ONLY by light-cone order;
   Sorkin's Lambda ~ 1/sqrt(N)). Our iter66 found the light (4-volume) tally worse than Claim 1 by 16-21. Reintroducing any
   discreteness is Coalesce's decision (grid was set aside on request).
+
+## Iteration 82 (Oct 4 2026): dark energy slice by slice -- slices/
+- Measured rho_DE/rho_DE(0): 1.07-1.15 (z 0.4), 1.13-1.20 (z 0.8), 0.71-0.77 (z 1.4), ~0.7 +/- 0.37 (z 2.5).
+- Constant pattern ~2 sigma off (chi2 10-11 / 4); Claim 1 consistent (4.7-7.0 / 4). Same SHAPE as Claim 1 (rise, peak at the
+  acceleration onset, fade), ~2-3 x larger swing.
+- QG target: the micro theory must make dark energy RESPOND to the cosmic now, more strongly than beta = 1/2 (response strength is a
+  number a micro theory must output).
