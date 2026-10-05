@@ -1384,3 +1384,11 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
 - Where the 9 meets the grains: a Planck-mass particle (size = Planck length) is also a black hole of radius 2 l_P; its horizon holds
   ~18 one-bit grains (18 bits) vs its 9.1-bit maximum as a particle. So at the Planck scale a particle is 'a handful of grains'
   (9-18) -- Coalesce's intuition holds THERE, and only there; ordinary particles are 1e22 x larger than a grain.
+
+## Question (Oct 4 2026, Coalesce): how can a Planck grain hold 1 bit while a whole electron holds at most 9.1?
+- Information costs ENERGY: writing one bit in a region of size R costs at least ~hbar c ln2 / (2 pi R) (Bekenstein). At the
+  electron's size that is 0.056 MeV per bit; the electron has 0.511 MeV -> 9.1 bits. Size sets the capacity, energy sets how much is
+  actually written.
+- The electron-size region's capacity (area law) is ~1.6e44 bits; filling it needs the energy of a black hole that size: 2.6e14 kg
+  (a mountain) vs the electron's 9.1e-31 kg. Only black holes fill all their grains.
+- Empty-space grains' bits are capacity, not content ('blank pages'); they show up as real entropy only at horizons.
