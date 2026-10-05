@@ -1274,3 +1274,12 @@ Not explained: block size / dark energy's absolute size (needs a tiny number: 1e
 black-hole entropy, singularities, the quantum of gravity, why the electron's mass would read the tension.
 Live tests: signature (flip at acceleration onset) currently ~2 sigma against in CPL (iteration 88); Omega_k > 0 at 1.7-2 sigma;
 beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CMB-S4.
+
+## Question (Oct 4 2026, Coalesce): future risk of the grid breaking? more matter -> more dark energy?
+- In the law, matter slows the stretching -> tension builds; as matter thins the stretching speeds up -> tension relaxes. So yes:
+  more matter (relative) -> more dark energy; less -> less (globally, via the expansion rate).
+- Future (beta = 1/2): tension 5.3e-10 Pa today -> 4.4e-10 (+10 Gyr), 2.2e-10 (+50), 1.2e-10 (+100), 1.2e-11 (+500); matter/dark
+  energy 0.45 -> 1e-5 (+100 Gyr). Stress FALLS while stretching continues -> no Big Rip, lowest-risk of the options
+  (constant: tension fixed forever; phantom: tension rises -> rip).
+- Blocks keep stretching (x52 in 100 Gyr) at falling tension: no yield point reached in this law. (Unrelated standard-physics
+  'break': Higgs vacuum metastability, lifetime far beyond the age of the universe.)
