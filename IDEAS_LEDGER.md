@@ -1408,3 +1408,14 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   density / (number of frames)^2. Known 'large-number' relation (equivalent to rho ~ H^2/G) -- suggestive, not a derivation.
 - Test of 'frames': a global frame rate would make light's speed depend on energy. Fermi GRB 090510 excludes linear effects up to
   ~1.2 x Planck energy -> frames must be random (Lorentz-friendly), not a global strobe; or the effect quadratic (weaker bounds).
+
+## Recap of the chain (Oct 4 2026, Coalesce) + a self-correction
+Chain: black-hole entropy needs Planck-size blocks (iter. 89) -> Planck grains + comoving patches -> crossing one grain = one Planck
+tick (c = grain/tick) -> one bit per grain (~1.67 l_P) -> particles max 9.1 bits -> information is spent energy -> snapshot picture
+(G = grain area, frames, dark energy ~ Planck density / frames^2, frames must be random per GRB 090510).
+What is NEW vs restated: restated = Planck-unit relations (c, G, frames, 1e-122); new = one grain counted two ways (area -> black
+holes, line -> dark energy), line preferred by data, randomness forced by GRB data, patches-vs-grains reading.
+SELF-CORRECTION: my 'dark energy = random imbalance of blank bits along a line' reading predicts DIFFERENT values along different
+lines of sight (independent random sums differ by ~100%) -> dark energy would depend on direction. The expansion is the same in all
+directions to about the percent level (supernova/BAO isotropy tests) -> that literal reading is excluded; the sqrt-N must be a
+deterministic size rule over the whole horizon, not a per-direction random sum.
