@@ -1712,3 +1712,10 @@ elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark ener
 - Flow version = Family 1 'fluid-tube network that thickens with flow' (network/): gave the MOND law and v^4 ~ M for galaxies
   (exponent and a0 put in by hand), so it inherits MOND's cluster failure (x5, iterations 94-96).
 - Matter does reach clusters along filaments (easiest channels), which changes the route, not the total pull. No new test.
+
+## Coalesce: 'a pull against our motion would slow us down, not just pull us together' + 'why treat gravity as different?'
+- Correct, and measured: we recede from Virgo ~185-250 km/s slower than pure expansion (1112 km/s at 16.5 Mpc) (Virgocentric
+  infall). Linear theory (all-matter universe) -> extra mass inside our distance ~7-10e14 Msun, matching Virgo's 6-7e14 from
+  speeds/infall; visible ~1e14. A fourth independent weighing (the slowdown itself), same x5-7 gap.
+- Gravity is NOT treated differently: the extra-mass reading uses the same Newton/Einstein gravity everywhere (it is just more
+  mass). The 'different gravity' reading (MOND) is the one that fails clusters.
