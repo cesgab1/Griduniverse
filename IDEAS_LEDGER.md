@@ -1823,3 +1823,14 @@ Expectation misses: near-shell dipole stronger than predicted (zCMB); middle she
 11 directions: alignment p = 2.6% (signs as published) / 8.2% (sign-free); common direction (l,b) ~ (260, +12); 6-8 of 11 within 45 deg;
 cold spot and parameter dipole far off. Mild, not blind, list-selection inflated -> not evidence for a centre. Expectation miss:
 sign-free alignment weaker than predicted. Revisit with Euclid / SKA / Rubin all-sky counts.
+
+## Hypothetical (Coalesce): assume a far-off centre toward (l,b) ~ (260, +12). What follows?
+- Model needed: dispersal with centre at distance D in that direction; fit D to (i) quasar/radio count excess, (ii) supernova far-shell
+  limit (< ~1.5%, iteration 103), (iii) CMB dipole aberration (Planck: our speed from aberration agrees with the dipole -> intrinsic part
+  small, from memory).
+- Signatures that would confirm it: lopsidedness GROWING with distance along that axis (local flows fade instead); dark-energy strength
+  differing between the hemisphere toward the axis and the one away (testable now with supernovae); motions of distant clusters (kSZ)
+  lining up with the axis; galaxy counts in Euclid/Rubin/SKA.
+- Consequences: dark-energy law becomes a local average with a direction dependence; missing pull unchanged (local); grid gets a
+  preferred LOCATION on top of its preferred time (stamp), and the stamp would vary with distance from the centre.
+- Immediate test proposed: hemisphere split of supernovae (toward vs away from the axis), dark-energy law fitted in each.
