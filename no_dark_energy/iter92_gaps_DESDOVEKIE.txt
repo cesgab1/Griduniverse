@@ -1,0 +1,28 @@
+Iteration 92 -- gaps of the dark-energy-free universe  (SNSET=DESDOVEKIE)
+
+(A) Supernova distance SHAPE alone (absolute magnitude marginalised; omega_b irrelevant)
+  LCDM  chi2_SN =  1631.42   Om = 0.330
+  LAW   chi2_SN =  1630.10   Om = 0.310
+  EdS   chi2_SN =  2558.48   Om = 1.000
+  OPEN  chi2_SN =  1675.33   Om = 0.050
+  LAW   minus LCDM: delta chi2_SN =    -1.33
+  EdS   minus LCDM: delta chi2_SN =  +927.06
+  OPEN  minus LCDM: delta chi2_SN =   +43.91
+
+(B) BAO + SN + CMB combined
+  LCDM  chi2 =   1649.49 (BAO    12.19, SN  1634.97, CMB     2.33)  Om=0.302 h=0.684 age=13.75 Gyr  growth D0=0.701
+  LAW   chi2 =   1642.27 (BAO     9.54, SN  1630.10, CMB     2.64)  Om=0.310 h=0.675 age=13.74 Gyr  growth D0=0.701
+  EdS   chi2 =   9720.46 (BAO  5393.49, SN  2558.71, CMB  1768.26)  Om=1.000 h=0.451 age=14.45 Gyr  growth D0=0.926
+  OPEN  chi2 =   7968.22 (BAO  2018.50, SN  2437.23, CMB  3512.49)  Om=0.906 h=0.521 age=12.77 Gyr  growth D0=0.886
+
+(C) Gap table (each model at its own best combined fit)
+  model d chi2 tot     d BAO      d SN     d CMB  age gap (sigma) sigma8 pred
+  LCDM        0.00      0.00      0.00      0.00            -0.90       0.811
+  LAW        -7.22     -2.65     -4.87      0.30            -0.89       0.811
+  EdS      8070.97   5381.30    923.74   1765.93            -2.31       1.071
+  OPEN     6318.73   2006.30    802.26   3510.16            +1.07       1.025
+  age gap = (13.3 Gyr oldest stars - model age)/0.5 Gyr; positive = universe younger than its stars
+  sigma8 pred = 0.811 x growth(model)/growth(LCDM), same early amplitude; transfer-shape change ignored
+
+(D) EdS age at h=0.674: 9.67 Gyr  (oldest stars 13.3 +/- 0.5)
+(D) EdS age at h=0.73: 8.93 Gyr  (oldest stars 13.3 +/- 0.5)

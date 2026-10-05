@@ -1617,3 +1617,9 @@ Checked with numbers -- excluded on four independent grounds:
 - For MOND: tight baryonic Tully-Fisher and radial-acceleration relations.
 - Dark energy: Lambda is allowed in Einstein's equation itself; many modified-gravity versions killed by GW170817 (gravity speed = light speed to ~1e-15).
 - Known coincidence (not ours, flagged as such): MOND scale a0 ~ 1.2e-10 m/s^2 ~ cH0/2pi ~ 1.05e-10. Unexplained. No test opened (goal-post rule).
+
+## Iteration 92 -- gaps of the dark-energy-free universe (no_dark_energy/)
+- Without dark energy, gaps move rather than close: age (7-9 sigma short at measured H0) <-> H0 (needs 45) <-> CMB (curvature).
+- Needs ~3x more matter than gravity finds; would over-grow structure ~30% (sigma8 1.07).
+- LAW closes all gaps (combined delta chi2 -5 to -7 vs LCDM, 3 SN sets). Local H0 gap still unclosed.
+- Expectation miss: OPEN universe vs Union3 SN only +12 (expected > 25).
