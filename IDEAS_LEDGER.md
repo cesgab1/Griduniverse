@@ -1666,3 +1666,12 @@ Side note: galaxy inclination errors may explain the low-a0 dwarf tail of iterat
 Timing argument: MW+M31 and Virgo infall both started moving apart with the expansion and were reversed by gravity (pulled
 together, not made together). Mass needed: MW+M31 x28 visible; Virgo x5.4 (same as Coma speeds). Third independent sight of the gap.
 Expectation miss: MW-M31 turnaround 8.5 Gyr (predicted 4-8).
+
+## Question (Coalesce): could the visible-mass or density measurement be off?
+- Stars: mass-per-light uncertain ~x2, but stars are ~15% of cluster ordinary matter -> at most +15%.
+- Gas: X-ray brightness ~ density^2, so clumping makes gas mass too HIGH, not low; SZ effect (~density, independent) agrees.
+- Hidden ordinary matter x5: total ordinary matter is fixed by Big Bang deuterium (D/H ~ omega_b^-1.6 -> 5x baryons = ~13x
+  less deuterium than measured) and by the CMB peak pattern; microlensing surveys limit dark compact objects. Clusters already
+  hold the cosmic share of ordinary matter. Excluded.
+- Gravity-side mass wrong: speeds, lensing, X-ray hydrostatic and trajectories (iteration 98) all agree within ~x1.3; one shared
+  error would have to be a change in gravity itself (the MOND route, which fails clusters).
