@@ -1,0 +1,11 @@
+1. Tension of space (dark energy's negative pressure, w = -1): 5.26e-10 Pa = 5.2e-15 atmospheres.
+2. A medium whose tension equals its energy density (x c^2) carries transverse waves at EXACTLY c (v^2 = tension/density),
+   the defining property of relativistic strings/membranes: w = -1 elastic blocks are automatically 'light-speed elastic'.
+3. z ~ 1 (decelerating, q ~ +0.2): w = -1.033, tension/energy = 1.033 -> naive wave speed 1.0165 c (+1.7%)
+3. today (q ~ -0.45): w = -0.925, tension/energy = 0.925 -> naive wave speed 0.9618 c (-3.8%)
+4. Gravitational waves: speed = c to 1e-15 (GW170817). A 2-4% change is excluded by ~1e13 -> gravitational waves CANNOT be
+   waves of the dark-energy medium. They must be ripples of the geometry itself (as in GR, iteration 48), and the blocks' own
+   waves must not propagate: the blocks behave like an INCOMPRESSIBLE, non-ringing elastic medium (no extra 'breathing' wave;
+   LIGO/Virgo polarisation tests so far consistent with GR's two polarisations only).
+5. Rate-dependence: rho ~ (stretching rate)^(-1/2): when stretching slows, tension builds; when it speeds up, tension relaxes ->
+   a self-regulating (thermostat-like) elastic medium; it drives a ~ t^5 in the far future instead of runaway or collapse.
