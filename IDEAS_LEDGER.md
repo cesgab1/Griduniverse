@@ -1229,3 +1229,12 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
   dimension < 30 micrometres; GW170817: gravitational waves weaken with distance exactly as in 3 space dimensions (no leakage over
   ~40 Mpc; Pardo et al. 2018); LHC: no micro black holes.
 - Our picture: gravity = geometry (incl. time warping), not on the tension grid; blocks don't converge at mass centres.
+
+## Thought experiment (Oct 4 2026, Coalesce): drop a galaxy into a dark-energy patch
+- Dark energy is uniform -- every galaxy already sits in it. Its push vs the Milky Way's pull at the Sun's orbit: 3.8e-6; at
+  Earth's orbit vs the Sun: 8e-23. Zero-gravity radius of the Milky Way (1.5e12 Msun): 1.3 Mpc -- inside it gravity wins,
+  outside dark energy wins (cf. Local Group 'zero-gravity surface', Chernin et al.).
+- To tear the Milky Way apart dark energy would need ~1400 x today's density (inner regions: far more). Fading dark energy never
+  gets there (no Big Rip); a phantom constant w < -1 forever would.
+- Model consistency point: Claim 1 reads the COSMIC expansion rate. Inside a galaxy the local expansion is zero, so a local
+  reading would make (aH)^(-1/2) blow up -- the law must use the cosmic (averaged) 'now', as iteration 48 required.
