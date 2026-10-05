@@ -1656,3 +1656,8 @@ term in the v^4 family without a reason clusters differ from dwarf spheroidals (
 - Pre-registered least squares: mass/depth/size slopes COMPATIBLE with x5.3 (EXPECTATION MISS; predicted ~0). Gas fraction and
   surface density excluded (30-64 sigma). Post-hoc: trend is only the smallest quarter of galaxies; upper 75% flat -> clusters x1.1.
 - Open, testable: well-depth law (EMOND-like) vs flat a0, decided by galaxy groups (x2-3 vs x1).
+
+## Iteration 97 -- viewing angle and combined galaxy spin in clusters (spin_angle/)
+Spin keeps orientation (gyroscope) but adds no pull: spin/orbital J 2e-3 aligned, 6e-5 random; spin mass 5e-7; frame-dragging
+1e-5 vs +400% needed. Viewing angle: x1.3-2 per cluster, averages out. Do not re-propose spin/angle as the cluster input.
+Side note: galaxy inclination errors may explain the low-a0 dwarf tail of iteration 96 (untested).
