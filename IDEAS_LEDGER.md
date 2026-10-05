@@ -1725,3 +1725,12 @@ elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark ener
 - Moving away while pulled = ball thrown upward: the Big Bang start (1112 km/s away from Virgo at our distance) beats Virgo's
   braking (185-250 km/s); inside ~7 Mpc the motion has already reversed. One force, two outcomes set by starting speed.
 - Consistency check passes: the SAME Virgo mass (6-9e14) explains both galaxies held inside and our slowed recession outside.
+
+## Idea (Coalesce): uneven expansion explains the whole thing (no extra mass)
+- Respectable for DARK ENERGY: backreaction / 'timescape' (Buchert; Wiltshire) -- uneven expansion averaged can mimic
+  acceleration; claimed competitive with Pantheon+ (Lane+2024, from memory). Testable with our pipeline (not run).
+- For the missing pull: bound systems (galaxies, clusters) do not expand; the expansion stretch at 1 Mpc in Coma is 1.0e-13 m/s^2
+  OUTWARD vs 2.6e-11 INWARD needed: local expansion would need to be ~16x average AND reversed (contracting). In Einstein's
+  equations a region contracts only if something gravitates (Raychaudhuri: density + shear), so it brings the mass back.
+  Lensing (Bullet Cluster) puts the pull with the galaxies; CMB peaks need the extra matter when expansion was smooth to 1e-5.
+- Verdict: plausible for dark energy, excluded for dark matter.
