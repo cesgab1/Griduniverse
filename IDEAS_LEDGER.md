@@ -1190,3 +1190,13 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
   or a photon near a nucleus; >= 1.022 MeV; seen directly at RHIC/STAR 2021, SLAC E144 1997).
 - Bending of space-time during pair creation: ~3.5e-45 (G m_e^2 / hbar c scale) -> flat to 45 decimal places; LIGO short by 3e23;
   smallest mass whose gravity was measured (90 mg) is 5e25 x heavier. The event is 1.5e-10 of a 2.5 mm cell, 2.4e22 Planck lengths.
+
+## Idea (Oct 4 2026, Coalesce): count free electrons along light paths to weigh what light passes through
+- Already done in practice (via the electrons' ELECTRIC effect on light, not their gravity):
+  * Fast radio bursts: delay by free electrons (dispersion measure) -> census of ordinary matter between galaxies (Macquart et al.
+    2020, Nature 581, 391: matches the Big-Bang amount; Connor et al. 2025 Nat. Astron.: most baryons in the cosmic web).
+  * CMB: scattering off free electrons since reionisation (Planck optical depth ~0.054).
+  * Light making matter in space: TeV gamma rays from distant galaxies turn into electron-positron pairs on starlight; the missing
+    gamma rays measure all starlight ever made (Fermi-LAT 2018, Science 362, 1031).
+  * Gravity of everything along the path: weak lensing distortions.
+- Model link: fading dark energy changes the FRB delay-vs-distance relation by < 1% -> needs thousands of localised FRBs (future).
