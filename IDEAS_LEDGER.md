@@ -1509,3 +1509,14 @@ Checked with numbers -- excluded on four independent grounds:
   cone (open, our curvature); NO horizon -- given time, everything comes into view; nothing is ever cut off.
 - Our universe started like the matter one and is ending like the dark-energy one (islands), the fading version making the island's
   wall grow but not fast enough to keep other galaxies.
+
+## Intuitive inferences from the two endings (Oct 5 2026)
+1. Matter = connection (gravity ties things, nothing is ever cut off); dark energy = separation (it draws walls and makes islands).
+2. Horizons -- and with them a cosmic temperature and an information limit per observer -- exist BECAUSE of dark energy; a
+   matter-only universe has none. Dark energy is what divides the universe into finite 'rooms'.
+3. Our history is a handover: a connection era (matter, slowing) -> a separation era (dark energy, speeding up), switching ~7.5 Gyr
+   ago -- the stress-relief flip.
+4. We live in a privileged window: far-future observers will see only their own merged galaxy -- no other galaxies, no expansion,
+   CMB stretched beyond detection (Krauss & Scherrer 2007, 'the return of a static universe').
+5. Fading vs constant: rooms whose walls keep moving out (fading) vs fixed rooms (constant); in both, the 'furniture' (other
+   galaxies) leaves faster than the walls move.
