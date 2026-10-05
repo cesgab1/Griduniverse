@@ -1818,3 +1818,8 @@ Middle/far shells: zero (far < ~1.5% at 95%), direction not consistent, not towa
 lopsidedness at all distances) not seen. Thinking note: in pure speed-sorted dispersal, every piece sees the same Hubble law, so
 position shows only through density/deceleration differences by direction.
 Expectation misses: near-shell dipole stronger than predicted (zCMB); middle shell too sparse for the predicted precision.
+
+## Iteration 104 -- do large-scale anomalies share a direction (far-off centre)? (anomaly_axis/)
+11 directions: alignment p = 2.6% (signs as published) / 8.2% (sign-free); common direction (l,b) ~ (260, +12); 6-8 of 11 within 45 deg;
+cold spot and parameter dipole far off. Mild, not blind, list-selection inflated -> not evidence for a centre. Expectation miss:
+sign-free alignment weaker than predicted. Revisit with Euclid / SKA / Rubin all-sky counts.

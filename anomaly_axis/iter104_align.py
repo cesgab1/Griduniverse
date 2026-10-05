@@ -26,9 +26,7 @@ for ver, mask in (("Version 1 (vectors as published, axes free)", axis), ("Versi
     for _ in range(20000):
         X = rng.normal(size=(len(E), 3)); X /= np.linalg.norm(X, axis=1)[:, None]; sims.append(stat(X, mask)[0])
     p = np.mean(np.array(sims) >= R)
-    c = SkyCoord(x=d[0], y=d[1], z=d[2], representation_type="cartesian", frame="galactic")
-    c.representation_type = "spherical"
-    lc, bc = c.spherical.lon.deg, c.spherical.lat.deg
+    lc, bc = np.degrees(np.arctan2(d[1], d[0])) % 360, np.degrees(np.arcsin(d[2]))
     ang = [np.degrees(np.arccos(min(1, abs(v @ d) if m_ else v @ d))) for v, m_ in zip(V, mask)]
     out.append(f"{ver}: R = {R:.3f}, chance p = {p:.4f}, common direction (l,b) = ({lc:.0f}, {bc:+.0f})")
     out.append("   angle of each to the common direction: " + ", ".join(f"{E[i][0]} {a:.0f}" for i, a in enumerate(ang)))

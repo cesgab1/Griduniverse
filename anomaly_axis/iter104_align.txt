@@ -1,0 +1,7 @@
+Version 1 (vectors as published, axes free): R = 0.581, chance p = 0.0261, common direction (l,b) = (265, +13)
+   angle of each to the common direction: CMB 36, RADIO 35, QSO 30, LOWL 55, HPA 47, PARITY 30, CLUSTER 31, BULK 18, SN 50, PARAM 143, COLD 84
+   within 45 deg: 6 of 11
+Version 2 (all sign-free): R = 0.735, chance p = 0.0819, common direction (l,b) = (257, +11)
+   angle of each to the common direction: CMB 37, RADIO 33, QSO 24, LOWL 54, HPA 39, PARITY 29, CLUSTER 35, BULK 26, SN 58, PARAM 28, COLD 79
+   within 45 deg: 8 of 11
+angles to the CMB dipole: CMB 0, RADIO 12, QSO 28, LOWL 21, HPA 71, PARITY 65, CLUSTER 65, BULK 45, SN 56, PARAM 128, COLD 115
