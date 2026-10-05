@@ -1542,3 +1542,10 @@ Checked with numbers -- excluded on four independent grounds:
   weak, at the wrong wavelength, and spread over the whole sky rather than on the supernova. Excluded.
 - The intuition survives in a different form: in our model the horizon glow COOLS as dark energy fades (consistent picture), and the
   universe's real cooling glow -- the CMB -- is measured to cool exactly as predicted (T = 2.725 K x (1+z), confirmed at high z).
+
+## Clarification (Oct 5 2026, Coalesce): does the horizon glow mean light CAN cross the wall?
+- No: the glow is produced AT the horizon (quantum effect, like Hawking radiation outside a black hole), it is purely thermal and
+  carries no information about what lies beyond. Coalesce is right that the wall is not perfectly dark (it glows, ~2e-30 K).
+- 'Unreachable' means: light emitted from beyond the wall FROM NOW ON never arrives; light those galaxies emitted long ago still
+  arrives -- we keep seeing them, frozen and redshifting, while contact is already lost.
+- The wall is observer-dependent (each observer has their own), not a physical barrier at a fixed place.
