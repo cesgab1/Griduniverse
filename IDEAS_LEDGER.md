@@ -1610,3 +1610,10 @@ Checked with numbers -- excluded on four independent grounds:
   - Energy flowing between dark matter and dark energy: none found, |xi| < ~0.2 (iteration 90, dark_link/).
 - Still allowed: dark energy as a bookkeeping effect of the existing grid (Claim 1 counts patches; no new substance). That is our current model.
 - No new number computed; no new test opened (goal-post rule).
+
+## Idea: "we don't know what gravity is, so we add stuff" (dark matter and dark energy as patches on gravity)
+- This is the modified-gravity position (MOND, Milgrom 1983; f(R) etc. for dark energy). Precedents both ways: Neptune (unseen mass, correct) vs Vulcan (unseen mass, wrong; GR fixed Mercury).
+- Against "no dark matter": Bullet Cluster mass/gas offset, CMB third peak, clusters still short of mass under MOND.
+- For MOND: tight baryonic Tully-Fisher and radial-acceleration relations.
+- Dark energy: Lambda is allowed in Einstein's equation itself; many modified-gravity versions killed by GW170817 (gravity speed = light speed to ~1e-15).
+- Known coincidence (not ours, flagged as such): MOND scale a0 ~ 1.2e-10 m/s^2 ~ cH0/2pi ~ 1.05e-10. Unexplained. No test opened (goal-post rule).
