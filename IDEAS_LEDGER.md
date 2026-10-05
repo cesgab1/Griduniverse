@@ -1638,3 +1638,9 @@ Family 1 / MOND family. v_tot^2 = v_ord^2 + v_rand^2, v^4 legs with a0. Galaxy l
 As written, k = random/ordered energy is self-inconsistent (k^2 = k) and undefined for Coma. Well-posed version (one kappa)
 needs ~5x larger kappa for Coma than for the Fornax dwarf: FAILS, same cluster gap as before. Do not re-propose a random-motion
 term in the v^4 family without a reason clusters differ from dwarf spheroidals (both are random-motion systems).
+
+## Question (Coalesce): would measuring Coma from closer/farther change the cluster gap?
+- Speeds (Doppler) do not depend on distance. Masses do: dynamical/lensing mass ~ d, star mass ~ d^2, X-ray gas mass ~ d^2.5.
+- So only a distance ERROR matters, not where we stand. To close the x5.3 kappa gap (iteration 94), Coma would have to be 1.9x
+  farther (~190 vs ~100 Mpc). Excluded: Coma distance known to ~5% by several methods. Zwicky's 1933 ratio was inflated because
+  his H0 (558) made distances ~8x too small. No test opened.
