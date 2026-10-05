@@ -1456,3 +1456,15 @@ deterministic size rule over the whole horizon, not a per-direction random sum.
 - No exchange detected: xi = +0.07..+0.09 +/- 0.07-0.09 (constant baseline), -0.06..0.00 +/- 0.08-0.11 (Claim 1). 95% |xi| < ~0.2-0.25.
 - With Claim 1 the data want no exchange at all (xi = 0 costs <= 0.4 in chi2). Predicted sign of mild preference was wrong.
 - A link, if any, is via the shared cosmic clock (preferred-time 'dark matter as integration constant'), not energy flow.
+
+## Question (Oct 5 2026, Coalesce): what do we know about antimatter? (+ correction: dark matter's structure is NOT known)
+- Dark matter: only its gravity is known (5.4x ordinary matter; cold, clumps, barely interacts); its particle identity is unknown.
+- Antimatter facts: predicted by Dirac 1928, positron found 1932; every particle has a partner with equal mass, opposite charge;
+  meeting = annihilation into light. Antihydrogen made and trapped at CERN; its 1S-2S line equals hydrogen's to ~2e-12 (ALPHA 2018);
+  antiproton charge/mass = proton's to 16 parts per trillion (BASE 2022); antihydrogen falls DOWN at ~normal g (ALPHA-g 2023).
+  Everyday: PET scans; bananas emit positrons (potassium-40).
+- The big puzzle: the universe kept ~1 extra matter particle per ~1.6 billion photons (baryon/photon 6.1e-10); known CP violation
+  (kaons 1964, B mesons, hints in neutrinos) is far too small to explain it. No antimatter galaxies seen (no annihilation glow).
+- Grain picture: antiparticles cross grains exactly like particles (CPT holds to ~1e-12 or better). Speculative link: making the
+  imbalance needs a broken time-symmetry; our model's cosmic clock gives a preferred time direction -- but CPT tests are extremely
+  tight, so any such effect must be tiny or confined to the early universe. Not tested.
