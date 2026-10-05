@@ -1583,3 +1583,13 @@ Checked with numbers -- excluded on four independent grounds:
    substance) -- same spirit as our 'fabric tension'. But it is NOT 'with or without': empty space only coasts; matter slows it;
    the measured past deceleration (before z ~ 0.7) shows the tendency was outweighed by matter until ~7.5 Gyr. 'Dark energy' is the
    name of that built-in tendency.
+
+## Idea revisited (Oct 5 2026, Coalesce): dark energy = sag/slack where the blocks' tensile strength is lower
+- As REGIONS ('sections'): not supported -- dark energy is the same in every direction and in voids vs crowded regions (percent level);
+  no patches have been seen.
+- As a material yield (tested before, iteration 22 stick-slip): prompt yielding at a fixed threshold -> constant dark energy (a cosmological
+  constant; needs threshold strain ~3e-62, the size problem again); delayed yielding -> always above -1, never the observed flip;
+  rate-dependent tolerance -> the fixed-size law, excluded 5-6 sigma.
+- Where 'slack' DOES fit: in time, globally. The measured history (iteration 82; Claim 1) has tension PEAKING ~7 Gyr ago and RELAXING since
+  (Claim 1 peak ~7% above today; slice data 13-20%). The universe is currently going slack -- but the remaining tension still pushes
+  (acceleration continues), and slack never reverses the push in this law.
