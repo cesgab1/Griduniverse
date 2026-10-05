@@ -1,0 +1,9 @@
+Iteration 85: block size from the tally rule rho = kappa (hbar c/l^4) sqrt(N), N = (c/H0)/l. PREREG_85.md
+
+kappa = 1.0: block size l = 1.99e-01 m (1.2e+34 Planck lengths); blocks across horizon N = 6.9e+26
+kappa = 0.5: block size l = 1.71e-01 m (1.1e+34 Planck lengths); blocks across horizon N = 8.0e+26
+kappa needed for l = window top 5.7e-28 m: 3.6e-120
+kappa needed for l = window bottom 4.3e-32 m: 1.0e-138
+kappa needed for l = Planck length: 3.9e-154
+
+Verdict: natural kappa gives centimetre-to-metre blocks (excluded); blocks inside the allowed window need kappa ~ 1e-120..1e-140.

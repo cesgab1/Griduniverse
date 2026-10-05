@@ -1159,3 +1159,11 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
   -> gravitational waves are NOT waves of the dark-energy medium; the blocks must be incompressible / non-ringing (consistent with
   iteration 48's VCDM class).
 - Behaviour: tension builds when stretching slows, relaxes when it speeds up (self-regulating).
+
+## Iteration 85 (Oct 4 2026): block size from the tally rule -- elastic_grid/PREREG_85.md, iter85_block_size.*
+- Rule rho = kappa (hbar c/l^4) sqrt(N) (only form whose time behaviour is right with stretching blocks and a constant prefactor).
+- kappa = 1 or 1/2 -> blocks 17-20 cm: EXCLUDED (window 4.3e-32 .. 5.7e-28 m) by ~27 orders.
+- Blocks inside the window need kappa = 3.6e-120 (top) .. 1e-138 (bottom); Planck-size blocks need 4e-154. The size problem returns
+  as a tiny prefactor. Expectations met.
+- Verdict: the elastic stretching-block tally explains the SHAPE (beta = 1/2, rise-and-fade, phantom crossing) but NOT the block size
+  or dark energy's size without a new tiny number. Consistent with iteration 80 (size observer-set). Block size remains unpinned.
