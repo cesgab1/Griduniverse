@@ -1377,3 +1377,10 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   below the Planck length.
 - Grain picture: its region spans ~2e44 grain-areas / ~3e66 grains, yet it carries ~1 bit -> matter is not built from the grains'
   bits (consistent with matter not living on the grid).
+
+## Idea (Oct 4 2026, Coalesce): if a particle holds max ~9 bits, is a Planck grain ~9x smaller than a particle?
+- Bekenstein maximum for ANY elementary particle or photon at its own quantum size is the same 2 pi/ln 2 = 9.1 bits (energy x size =
+  hbar c always) -> the 9 does not depend on size, so it can't set the grain size. Electron size / grain size = 1.4e22, not 9.
+- Where the 9 meets the grains: a Planck-mass particle (size = Planck length) is also a black hole of radius 2 l_P; its horizon holds
+  ~18 one-bit grains (18 bits) vs its 9.1-bit maximum as a particle. So at the Planck scale a particle is 'a handful of grains'
+  (9-18) -- Coalesce's intuition holds THERE, and only there; ordinary particles are 1e22 x larger than a grain.
