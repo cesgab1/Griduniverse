@@ -1650,3 +1650,9 @@ term in the v^4 family without a reason clusters differ from dwarf spheroidals (
 - Ursa Major members vs field: +0.106 +/- 0.047 dex (2.2 sigma, pre-registered; narrow miss of "within 2 sigma"); post-hoc
   clipped 1.2 sigma, sign opposite to MOND external-field effect; likely field distance errors. No environment effect established.
 - Milky Way: law gives 168-183 vs ~200 km/s (8-16% low; crude).
+
+## Iteration 96 -- missing measured input for galaxies + clusters (missing_input/)
+- a0_eff = a0 (X/Xref)^n with X = mass, well depth, size, gas fraction, surface density; SPARC slope vs cluster need (x5.3 / x17).
+- Pre-registered least squares: mass/depth/size slopes COMPATIBLE with x5.3 (EXPECTATION MISS; predicted ~0). Gas fraction and
+  surface density excluded (30-64 sigma). Post-hoc: trend is only the smallest quarter of galaxies; upper 75% flat -> clusters x1.1.
+- Open, testable: well-depth law (EMOND-like) vs flat a0, decided by galaxy groups (x2-3 vs x1).
