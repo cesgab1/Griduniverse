@@ -1058,3 +1058,14 @@ To run pre-registered, with look-elsewhere stated.
   Lambda -> EXCLUDED. S2 (coupled black holes, Farrah et al. 2023): -2.2 / -1.9 / -2.3 -> Lambda-like, survives, not supported.
 - Claim 1 still better than S2 by 3-5. 'Why now' via black holes survives only in its 'mostly built by z ~ 2' form; contested
   independently; amount untested.
+
+## Discussion (Oct 4 2026, Coalesce): why does a constant need a 'now'? how do we know it pushes?
+- Agreed: a true constant has no 'now'. The 'why now' puzzle is about MATTER thinning (by a^3) past a fixed level; with iteration 76
+  it reduces to the size question. Treat 'why now' as part of 'why this size' from here on (no separate hunt).
+- Push vs pull: what is measured is the expansion history (supernova distances, BAO ruler, CMB geometry) and slowed structure
+  growth; the switch from slowing to speeding up near z ~ 0.7 is seen directly. 'Repulsion' is the GR reading: gravity's source is
+  rho + 3p/c^2; for p = -rho c^2 it is -2 rho -> pushes. In the Light-Cone Model this follows from L5 (SR: vacuum energy looks the
+  same to every observer -> p = -rho) -- SR explains WHY it pushes.
+- 'Some other effect' alternatives: dimming by dust (excluded: no colour change, brightening seen beyond z ~ 1), we live in a giant
+  void (excluded by CMB/kSZ and BAO), gravity modified on large scales (alive; Claim 1 itself is of this type), backreaction /
+  'timescape' from lumpiness (minority view, contested; testable with our pipeline).
