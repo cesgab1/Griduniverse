@@ -1,0 +1,10 @@
+Iteration 80: dark energy's size from stellar physics (no cosmological data). PREREG_80.md
+
+1. fusion efficiency 0.0071; Sun's main-sequence lifetime = 10.5 Gyr
+   Eddington Sun with electron-scattering opacity only: L = 15.8 x real -> lifetime 0.67 Gyr (explains the old 670x: the particle-constant formula ignores atomic absorption, which dims real stars)
+2-3. predicted / measured dark energy:
+   star 0.8 M_sun (t_obs = 18.4 Gyr): L1 own clock 0.91x | L2 equals matter 0.31x | L3 acceleration begins 0.17x
+   star 1.0 M_sun (t_obs = 10.5 Gyr): L1 own clock 2.77x | L2 equals matter 0.96x | L3 acceleration begins 0.53x
+   star 1.2 M_sun (t_obs = 6.7 Gyr): L1 own clock 6.88x | L2 equals matter 2.38x | L3 acceleration begins 1.33x
+
+RESULT: predicted size = 0.17x to 6.88x measured (central Sun, link L2: 0.96x). Consistent (1 inside range). Observer argument, not a mechanism.

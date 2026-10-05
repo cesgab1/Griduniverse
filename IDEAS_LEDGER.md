@@ -1099,3 +1099,11 @@ Answer as of iteration 79 (honest bottom line):
   constants only). Same status as Weinberg's 1987 observer argument; no mechanism.
 - 'Why now' is part of this same number (iteration 76), not a separate goal.
 Rule from here: a new sub-question is opened ONLY if it produces a number that can be compared with the measured size.
+
+## Iteration 80 (Oct 4 2026): size from stellar physics, no cosmological data -- horizon_cost/PREREG_80.md, iter80_stellar_size.*
+- Sun's lifetime from fusion efficiency (0.0071) and its measured mass/luminosity: 10.5 Gyr. The old 670x is explained: an
+  electron-scattering-only Sun is 15.8x too bright (atomic absorption dims real stars).
+- Predicted dark energy = 0.17x - 6.9x measured across star masses 0.8-1.2 M_sun and three standard links; Sun + 'equals matter
+  when observers live' = 0.96x (not counted as a prediction: links estimated before registering).
+- FINAL ANSWER to the size question: dark energy's size follows, to within a factor of a few, from when Sun-like stars let
+  observers exist (lab + stellar physics only). Observer argument (Weinberg-type), not a mechanism. Size question CLOSED at this status.
