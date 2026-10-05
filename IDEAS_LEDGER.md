@@ -1107,3 +1107,8 @@ Rule from here: a new sub-question is opened ONLY if it produces a number that c
   when observers live' = 0.96x (not counted as a prediction: links estimated before registering).
 - FINAL ANSWER to the size question: dark energy's size follows, to within a factor of a few, from when Sun-like stars let
   observers exist (lab + stellar physics only). Observer argument (Weinberg-type), not a mechanism. Size question CLOSED at this status.
+
+## Iteration 81 (Oct 4 2026): open curvature (Light-Cone Model P1) -- light_cone_model/curvature/
+- Omega_k = +0.0021-0.0022 +/- 0.0013 with Claim 1 (1.7 sigma), +0.0025 +/- 0.0012 with constant (2.0-2.1 sigma), all three SN sets.
+- P1 PASSES its pre-set rule; not a detection. Claim 1 stays ahead of the constant with curvature free (-4.1 / -5.7 / -5.7).
+- Curvature radius implied: a0 = c/(H0 sqrt(Ok)) ~ 95 Gpc (76-128 Gpc range from G0c).
