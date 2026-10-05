@@ -1573,3 +1573,13 @@ Checked with numbers -- excluded on four independent grounds:
   electron tick, squared). Ratio gravity-waves / light-waves ~ 1e-43. Real but unmeasurable one by one.
 - Summed over the whole hot early universe, such gravitational 'whispers' would form a cosmic graviton background (~1 K if gravitons
   were once in equilibrium) -- predicted, far beyond today's detectors.
+
+## Idea (Oct 5 2026, Coalesce): dark energy = gravitational waves moving through space; space accelerates with or without dark energy
+1. Gravitational waves as dark energy -- excluded: (a) budget: all gravitational waves together are limited to ~1e-6 of the critical
+   density (early-universe radiation count / N_eff; direct: LIGO Omega_GW < ~2e-8 at ~25 Hz, pulsar-timing background ~1e-9);
+   dark energy is 0.685 -> short by >~1e5. (b) sign: waves carry POSITIVE pressure (w = 1/3, like light) -> they slow expansion.
+   (c) 'very long waves fake acceleration' (Kolb-Matarrese-Riotto 2005) was shown not to work (Hirata & Seljak 2005 and others).
+2. 'Space accelerates by itself': half right. Einstein's equations allow a built-in term of space itself (Lambda as geometry, not a
+   substance) -- same spirit as our 'fabric tension'. But it is NOT 'with or without': empty space only coasts; matter slows it;
+   the measured past deceleration (before z ~ 0.7) shows the tendency was outweighed by matter until ~7.5 Gyr. 'Dark energy' is the
+   name of that built-in tendency.
