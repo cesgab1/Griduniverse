@@ -1289,3 +1289,12 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
 - chi2 above best (Pantheon+ / DES / Union3): line +0.1/+0.3/+3.4; area +2.9/+2.5/+0.2; volume +13.4/+13.8/+0.7.
 - Line (1D) preferred by two sets; area (holographic-style) mildly disfavoured there (~1.6 sigma); volume excluded there (~3.7 sigma)
   but allowed by Union3. QG question with a number: why would the universe tally its blocks along a LINE?
+
+## Question (Oct 4 2026, Coalesce): smallest amount of time ('time = snapshot')
+- Planck time sqrt(hbar G/c^5) = 5.4e-44 s (theory). Shortest measured interval ~2.5e-19 s (247 zeptoseconds, 2020). Any fundamental
+  'tick' bounded below ~1e-33 s by atomic-clock analysis (2020); GRB photon timing tests time/space graininess near the Planck scale.
+- Counting along TIME, checked against existing results: ticks since the Bang (clock tally) EXCLUDED (iteration 66: +60..+98);
+  fixed-size ticks within one Hubble time = fixed-size-block law EXCLUDED (iteration 84, 5-7 sigma); STRETCHING ticks counted over the
+  current Hubble time = exactly our law (blocks stretch in time as in space). So a time-count works only with stretching ticks and
+  a 'current window' -- consistent, no new prediction.
+- If Planck-born and stretched, a tension-cell tick today ~8e-12 s (2.5 mm / c) -- felt only by the tension field.
