@@ -1069,3 +1069,12 @@ To run pre-registered, with look-elsewhere stated.
 - 'Some other effect' alternatives: dimming by dust (excluded: no colour change, brightening seen beyond z ~ 1), we live in a giant
   void (excluded by CMB/kSZ and BAO), gravity modified on large scales (alive; Claim 1 itself is of this type), backreaction /
   'timescape' from lumpiness (minority view, contested; testable with our pipeline).
+
+## Thought experiment (Oct 4 2026, Coalesce): a universe with neither mass nor dark energy
+- It is the empty light cone (Milne) = flat space-time of SR seen by observers fleeing one event. No gravity, coasting a = c t.
+- Without anything in it, 'expansion' is not a property of space: it is only how imaginary observers move. Expansion needs content.
+- No clocks (clocks need mass), no rulers, no event horizon -> no horizon glow, no information limit. The quantum rule
+  rho = hbar c/(2 l^2 L^2) with L -> infinity gives rho -> 0: consistent -- dark energy and horizons appear together.
+- Tension: quantum fields say empty space is never empty (vacuum fluctuations); a truly empty universe needs vacuum energy exactly
+  zero -- which is the cosmological-constant problem restated. D0 (defined at aH = c) is a reference value of a state that never occurs.
+- Speculative link (labelled): Penrose's conformal cyclic picture uses a massless, scale-free far future as the next Bang.
