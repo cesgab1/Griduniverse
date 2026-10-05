@@ -1702,6 +1702,6 @@ elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark ener
 - Real effect: relative to the average, an empty region acts like negative mass; voids push outward. Observed: Local Group
   pushed away from the 'Dipole Repeller' (Hoffman+2017) at ~ hundreds of km/s.
 - But a push from absence = the pull of everything else (same gravity, counted differently); it creates no extra total pull.
-- Size inside a cluster: a void (-80%) 20 Mpc away stretches a 1 Mpc cluster by ~1e-15 (ordinary matter) to ~6e-15 m/s^2 (all
-  matter) vs Coma's own 3e-11 -> ~1e-4 of it; and it moves the whole cluster rather than holding its galaxies in.
+- Size inside a cluster: a void (-80%) 20 Mpc away stretches a 1 Mpc cluster by ~3e-15 (ordinary matter) to ~2e-14 m/s^2 (all
+  matter) vs Coma's own 3e-11 -> ~1e-4 to 6e-4 of it; and it moves the whole cluster rather than holding its galaxies in.
 - Lensing: voids DE-magnify (seen, weak); cluster lensing is concentrated positive mass at the cluster. Excluded as the gap.
