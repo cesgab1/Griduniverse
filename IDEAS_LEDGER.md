@@ -1802,3 +1802,12 @@ explain why curvature peaks where the galaxies are, not where most visible mass 
   ~0.05 needed; measured ripples ~2e-5 (CMB scales) -> ~2500x too small. With measured ripples the collapse fraction is ~10^(-1e8).
 - Grid graininess (one bit per 1.67 l_P grain) at that horizon: N ~ 2e73 grains -> 1/sqrt(N) ~ 2e-37. Cannot seed them.
 - Coalesce: primordial black holes not required; recorded as possible but needing an unseen small-scale feature.
+
+## Idea (Coalesce): black holes could have smoothed the early universe (smoothness is a result, not a starting point)
+- Fingerprints it would leave: accretion heating -> extra ionization (Planck limits on accreting black holes); evaporating ones ->
+  energy injected at 1 s - 1e12 s, changing light-element amounts and the CMB's perfect heat spectrum (FIRAS: deviations < ~5e-5).
+- Only lumps above ~45% collapse; 5-40% lumps would remain and be seen on CMB/BAO scales. Black holes act locally.
+- Causality: CMB patches > ~2 deg apart never exchanged signals by 380,000 yr (horizon problem), yet match to 1e-5. A local smoother
+  (black holes, diffusion) cannot match regions it never reached. The large-scale smoothness must be built in or set before.
+- A REAL smoother exists on small scales: photon diffusion (Silk damping) erases lumps < ~few Mpc before 380,000 yr; its heat
+  is checked via the CMB spectrum. On asteroid-black-hole scales the record is essentially blank -> cannot exclude local smoothing there.
