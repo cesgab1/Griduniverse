@@ -1177,3 +1177,10 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
 - Same problem as before: a small number remains (2.9e-9 at best). Different clue: the grid's history shrinks the gap from 1e-120
   to 1e-9 and lands near the millimetre scale, where dark energy's own length (0.09 mm) and lab short-range gravity tests
   (Eot-Wash, to 0.052 mm) live. Flagged: 3 birth choices, several scales -> possible coincidence; not evidence.
+
+## Iteration 87 (Oct 4 2026): mm tension cells vs lab short-range gravity -- elastic_grid/PREREG_87.md, iter87_lab_gravity.*
+- Data: Eot-Wash (Lee et al. 2020): Newton holds 52 um - 3 mm; alpha = 1 Yukawa with range > 38.6 um excluded; no deviation.
+- V1 (tension field only on the grid, our picture): effect <= 3e-31 of gravity -> NULL prediction; consistent, NOT tested by this data.
+- V2 (gravity itself on the grid): 2.5 mm cells EXCLUDED (x66 too big). Gravity's cells <= 38.6 um -> Planck-sized birth at T <= 1.9e17 GeV.
+- Correction to my iteration-86 claim that lab tests could 'confirm or kill' the mm clue: they kill only the gravity-on-grid variant;
+  the two-sector variant is invisible to them.

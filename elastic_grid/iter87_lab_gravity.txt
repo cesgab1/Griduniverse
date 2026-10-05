@@ -1,0 +1,6 @@
+Iteration 87: millimetre tension cells vs short-range gravity (Eot-Wash 2020). PREREG_87.md
+
+V1 (a): cell-structure gravity / test-mass gravity <= rho_DE/rho_W = 3.0e-31; Eot-Wash sensitivity ~1e-2 of gravity near 52 um
+   -> undetectable by ~29 orders. (b) no extra force (tension field does not propagate). V1 prediction: NULL. Data: null -> consistent, not a test.
+V2: gravity on 2.5 mm cells would break Newton's law below ~2.5 mm; verified to 52 um -> EXCLUDED (x66 too big).
+   Gravity's cells must be <= 38.6 um -> if born Planck-sized, birth at a >= 4.2e-31, i.e. T <= 1.9e+17 GeV (Planck: 1.2e19).
