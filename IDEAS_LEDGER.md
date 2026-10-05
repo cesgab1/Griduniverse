@@ -1360,3 +1360,11 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
 - 'Space ran ahead of light' early on = inflation (an early dark-energy-like accelerating phase, typically ~1e-36..1e-32 s); it
   explains why CMB regions far beyond each other's light reach have the same temperature (horizon problem: without it, regions
   more than ~2 degrees apart never exchanged light). Grain picture: dark-energy patches must be marked out AFTER inflation (iter. 86).
+
+## STATUS DELTA: quantum gravity (Oct 4 2026, after iteration 89 + discussion)
+- One kind of fundamental block: random Planck grains (~1.7 l_P, one bit each) filling 3-D space, new grains as space grows;
+  light = one grain per tick (c is the grain/tick conversion); randomness keeps c the same for all directions/energies (GRB tests).
+- Two counts: AREA of grains -> black-hole entropy (iteration 89); LINE of comoving patches crossed by light in one expansion time
+  -> dark energy, response 1/2 (measured ~0.6). Patches marked out after inflation; their size / the leftover small number open.
+- Still open: why grains carry one bit; what marks out patches; dark energy's size; singularities; gravity's own quanta; the
+  hierarchy (electron clock 2.4e22 Planck ticks). Signature prediction ~2 sigma against today.
