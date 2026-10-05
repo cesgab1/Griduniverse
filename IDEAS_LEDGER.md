@@ -1495,3 +1495,9 @@ Checked with numbers -- excluded on four independent grounds:
   reachable after ~50 Gyr (0.02% constant, 0.4% fading) -> the Local Group ends up alone in both.
 - Synthesis: the wall's AREA count = the container's information capacity (black-hole rule); the LINE count across it = dark
   energy's response. The container is where both counts meet -- like a black hole turned inside out.
+
+## Practical tests of the container picture (Oct 5 2026) -- horizon_container/PRACTICAL_TESTS.md
+- Already passed: black-hole area law (LIGO GW150914, GW250114), analogue horizon glow (Steinhauer 2019), analogue expanding
+  universes (BEC 2018/2022), isotropy, random-grain photon timing, gravity-wave speed/polarisations.
+- Open: wall frozen vs growing (DESI DR3 / Euclid / Rubin), signature timing (~2 sigma tension), open curvature (~2 sigma).
+- Untestable: the cosmic wall's own glow and total bits.
