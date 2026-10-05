@@ -1155,7 +1155,7 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
 
 ## Elastic grid (Oct 4 2026, Coalesce: expansion -> tension -> elastic blocks; grid attributes only, NOT the book) -- elastic_grid/
 - Tension of space = 5.3e-10 Pa (5e-15 atm). For w = -1, tension = energy density -> transverse waves at exactly c (relativistic membrane).
-- Claim 1's small departures (tension/energy 0.94-1.02) would change such waves' speed by 2-4%: excluded by GW170817 (1e-15) by ~1e13
+- Claim 1's small departures (tension/energy 0.925-1.033) would change such waves' speed by 2-4%: excluded by GW170817 (1e-15) by ~1e13
   -> gravitational waves are NOT waves of the dark-energy medium; the blocks must be incompressible / non-ringing (consistent with
   iteration 48's VCDM class).
 - Behaviour: tension builds when stretching slows, relaxes when it speeds up (self-regulating).
