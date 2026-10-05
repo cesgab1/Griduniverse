@@ -1,0 +1,3 @@
+PANTHEON line (beta .5): +0.1 | area (beta 1): +2.9 | volume (beta 1.5): +13.4
+DESDOVEKIE line (beta .5): +0.3 | area (beta 1): +2.5 | volume (beta 1.5): +13.8
+UNION3 line (beta .5): +3.4 | area (beta 1): +0.2 | volume (beta 1.5): +0.7

@@ -1283,3 +1283,9 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   (constant: tension fixed forever; phantom: tension rises -> rip).
 - Blocks keep stretching (x52 in 100 Gyr) at falling tension: no yield point reached in this law. (Unrelated standard-physics
   'break': Higgs vacuum metastability, lifetime far beyond the age of the universe.)
+
+## Clue from existing fits (Oct 4 2026): which DIMENSION is the block tally? -- response/tally_dimension.txt
+- sqrt of a count of blocks across the horizon in d dimensions gives beta = d/2: line d=1 -> 1/2, area d=2 -> 1, volume d=3 -> 3/2.
+- chi2 above best (Pantheon+ / DES / Union3): line +0.1/+0.3/+3.4; area +2.9/+2.5/+0.2; volume +13.4/+13.8/+0.7.
+- Line (1D) preferred by two sets; area (holographic-style) mildly disfavoured there (~1.6 sigma); volume excluded there (~3.7 sigma)
+  but allowed by Union3. QG question with a number: why would the universe tally its blocks along a LINE?
