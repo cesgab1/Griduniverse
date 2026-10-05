@@ -1791,6 +1791,6 @@ explain why curvature peaks where the galaxies are, not where most visible mass 
   radiation, gamma-ray limits); heavier: microlensing (HSC, OGLE, EROS), LIGO merger rates, CMB accretion.
 - Caveats: never detected; forming enough needs early-universe ripples ~1e6x larger on tiny scales than measured on large scales
   (an assumption about the very early universe). Still has the galaxy-regularity issue of cold dark matter (Tully-Fisher, one a0).
-- Near the Sun (local missing-mass density 0.4 GeV/cm^3): one every ~2-25 AU depending on mass -- some inside the Solar System.
+- Near the Sun (local missing-mass density 0.4 GeV/cm^3): one every ~3.5 AU (1e17 g) to ~160 AU (1e22 g) -- some inside the Solar System; each smaller than an atom (1e17 g: ~1.5e-13 m).
 - Grid link to check: the grid's density cap (no singularity) changes how small black holes end (remnants instead of full evaporation)
   -> could shift the lower edge of the window. Candidate test.
