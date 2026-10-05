@@ -1427,3 +1427,9 @@ deterministic size rule over the whole horizon, not a per-direction random sum.
 - No cube shape needed: random grains have only an average volume; the horizon count only uses area per bit.
 - Upper limits: the gamma-ray 5.7e-28 m bound applies only to graininess light can feel (regular lattices); random grains evade it.
   So: minimum ~1.67 l_P (one bit), maximum not fixed by current data.
+
+## Question (Oct 5 2026, Coalesce): what is the 'empty space' between particles in an atom called?
+- Hydrogen: proton 0.84 fm, atom 5.3e-11 m (63,000 x bigger); the nucleus fills 4e-15 of the volume.
+- That space is the electron's ORBITAL ('electron cloud'): the electron is spread through it as a probability wave; plus the electric
+  field holding it; plus quantum-vacuum activity, measured (Lamb shift: hydrogen levels shifted ~1 GHz by vacuum fluctuations; Casimir force).
+- Grain picture: ~8e72 Planck grains in one hydrogen atom -- the 'stage'; the orbital is what plays on it.
