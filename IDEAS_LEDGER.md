@@ -1479,3 +1479,10 @@ Checked with numbers -- excluded on four independent grounds:
    (w < -1/3) and a density that stays nearly constant.
 4. Distribution: electrons are clumped in gas filaments (counted directly with fast radio bursts); dark energy is smooth and the
    same in voids and in every direction.
+
+## Thought experiment (Oct 5 2026, Coalesce): is dark energy a container with space inside it?
+- Remove everything but dark energy -> what remains is space-time with its own tension (de Sitter): yes, 'space-time and it'.
+- But not a box around space: dark energy is IN every piece of space equally (a property of the fabric -- its tautness), no walls.
+- Where it IS container-like: it gives every observer a horizon (5.4 Gpc for a constant; the fading version's horizon keeps growing).
+  Each observer lives inside their own 'bubble' whose wall is set by dark energy; remove dark energy too and the walls vanish
+  (empty light cone, no horizon -- earlier thought experiment). So: dark energy makes the container's WALLS, not its contents.
