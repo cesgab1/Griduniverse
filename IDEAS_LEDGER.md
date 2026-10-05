@@ -1342,3 +1342,12 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
 - Natural reading of the line: the number of patches a light signal crosses in ONE expansion time (comoving Hubble radius / patch
   size) -- a 1-D path through 3-D space. Differs from the excluded 'light since the start' tally (iteration 66) by using the current
   window only.
+
+## Question (Oct 4 2026, Coalesce): how long to cross one Planck length?
+- At light speed: exactly one Planck time (5.4e-44 s) -- by definition, l_P / t_P = c. Light = one grain per tick; nothing faster.
+- Slower things take more ticks per grain: glass light 1.5; electron in hydrogen 137 (= 1/alpha); Earth's orbit 1e4; walking 2e8.
+- Consequence: the line count (grains across the Hubble radius) and the time count (ticks in one expansion time) are the SAME number
+  (8.5e60) -- c ties space-grains to time-ticks. Light 'slowed' in glass is still one grain per tick between atoms; the delay comes
+  from interactions with electrons.
+- Caution: a rigid lattice would make c depend on direction/energy; GRB photon timing shows none near the Planck scale -> grains must
+  be random (Lorentz-friendly), not a regular grid.
