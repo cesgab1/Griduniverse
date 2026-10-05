@@ -1549,3 +1549,10 @@ Checked with numbers -- excluded on four independent grounds:
 - 'Unreachable' means: light emitted from beyond the wall FROM NOW ON never arrives; light those galaxies emitted long ago still
   arrives -- we keep seeing them, frozen and redshifting, while contact is already lost.
 - The wall is observer-dependent (each observer has their own), not a physical barrier at a fixed place.
+
+## Alignment (Oct 5 2026, Coalesce): does the EMPTY universe (no mass, no dark energy) glow?
+- Our earlier result: no -- the empty light cone has no horizon for observers moving with it, hence no glow and no information limit.
+- Glow appears exactly WHEN a horizon appears: dark-energy horizon (2e-30 K), black hole (solar mass: 6e-8 K), or an ACCELERATING
+  observer in empty space (Unruh effect: 4e-20 K at 1 g). Quantum vacuum activity is present everywhere but is not a glow for a
+  non-accelerating observer.
+- So the glow is the signature OF a wall, not evidence against one.
