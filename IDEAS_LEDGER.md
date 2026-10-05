@@ -1697,3 +1697,11 @@ neutron-star crust (stiffest known solid); nuclear matter; QCD flux tubes betwee
 magnetic field lines (tension B^2/mu0, Alfven waves; in Coma ~1% of gas pressure -> cannot hold clusters); superfluid vortex
 lattices (Tkachenko waves); spacetime itself in GR (stiffness c^4/8piG = 4.8e42 N; gravitational waves; Sakharov's 'metric
 elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark energy, not by these.
+
+## Idea (Coalesce): the missing pull is an ABSENCE (empty regions push matter toward clusters)
+- Real effect: relative to the average, an empty region acts like negative mass; voids push outward. Observed: Local Group
+  pushed away from the 'Dipole Repeller' (Hoffman+2017) at ~ hundreds of km/s.
+- But a push from absence = the pull of everything else (same gravity, counted differently); it creates no extra total pull.
+- Size inside a cluster: a void (-80%) 20 Mpc away stretches a 1 Mpc cluster by ~1e-15 (ordinary matter) to ~6e-15 m/s^2 (all
+  matter) vs Coma's own 3e-11 -> ~1e-4 of it; and it moves the whole cluster rather than holding its galaxies in.
+- Lensing: voids DE-magnify (seen, weak); cluster lensing is concentrated positive mass at the cluster. Excluded as the gap.
