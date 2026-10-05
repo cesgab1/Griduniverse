@@ -1690,3 +1690,10 @@ Expectation miss: MW-M31 turnaround 8.5 Gyr (predicted 4-8).
 - Lensing measures mass with no assumption about motion or balance; X-ray gas (sound-crossing ~1 Gyr) is in balance and gives the
   same mass. Trace-back (iteration 98) already used actual trajectories and still needed x5-28.
 - Ruled out as the explanation of the gap; it does add ~x1.3 uncertainty per cluster (merging clusters out of balance).
+
+## Question (Coalesce): what in known physics is elastic?
+Solids (atomic springs); rubber (ENTROPIC elasticity: pulls harder when hotter -- the respectable link between heat and pull);
+neutron-star crust (stiffest known solid); nuclear matter; QCD flux tubes between quarks (constant-tension strings, ~1.4e5 N);
+magnetic field lines (tension B^2/mu0, Alfven waves; in Coma ~1% of gas pressure -> cannot hold clusters); superfluid vortex
+lattices (Tkachenko waves); spacetime itself in GR (stiffness c^4/8piG = 4.8e42 N; gravitational waves; Sakharov's 'metric
+elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark energy, not by these.
