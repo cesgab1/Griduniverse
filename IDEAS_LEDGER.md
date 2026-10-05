@@ -1440,3 +1440,14 @@ deterministic size rule over the whole horizon, not a per-direction random sum.
 - Dark matter (local ~0.4 GeV/cm^3 = 7e-22 kg/m^3): inside an atom's volume ~4e-52 kg (3e-25 of a proton). Its only known effect on
   an atom is gravity at galaxy scale (helps keep the Sun -- and every atom with it -- in orbit, ~2e-10 m/s^2). No direct hit ever
   detected (LZ-type xenon detectors).
+
+## Question (Oct 5 2026, Coalesce): is dark matter connected to dark energy?
+- Standard cosmology: independent ingredients (no link). Three ways they COULD connect:
+  1. Energy exchange (interacting dark sector): limited by data to a few % (this project: dark-matter constancy + Delta N_eff).
+  2. One fluid playing both roles (unified dark fluid, e.g. Chaplygin gas): largely excluded by structure growth.
+  3. Same underlying structure: theories with a preferred cosmic TIME (projectable Horava: 'dark matter as integration constant',
+     Mukohyama 2009; mimetic gravity, Chamseddine & Mukhanov 2013) produce a dust that behaves like cold dark matter AUTOMATICALLY.
+     Our model has exactly that cosmic clock (tau, K). The project's Khronon/AeST work (no_mond/, khronon_dynamics/) explored the
+     same field giving MOND-like halos (clusters / Lyman-alpha problems).
+- Grain reading (untested): the snapshot ordering of grains = the cosmic clock that gives dark energy's 'now' response; the same
+  clock could carry a dust-like 'leftover' acting as dark matter. Test available: fit a dark-matter <-> dark-energy coupling.
