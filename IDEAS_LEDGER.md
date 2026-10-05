@@ -1675,3 +1675,11 @@ Expectation miss: MW-M31 turnaround 8.5 Gyr (predicted 4-8).
   hold the cosmic share of ordinary matter. Excluded.
 - Gravity-side mass wrong: speeds, lensing, X-ray hydrostatic and trajectories (iteration 98) all agree within ~x1.3; one shared
   error would have to be a change in gravity itself (the MOND route, which fails clusters).
+
+## Idea (Coalesce): heat seeks mass / extra pull is a heat-transfer effect
+- All energy gravitates (E = mc^2, and pressure counts): Coma's 8 keV gas adds 1.3e-5 of its mass as heat; need +400%.
+- Heat flows OUT of clusters (X-rays radiate away); radiation pressure pushes outward.
+- Decisive data: Bullet Cluster -- the heat is in the hot gas, the extra pull sits with the galaxies, offset from it.
+  Trend is backwards: cold dwarf galaxies (gas ~1e4 K, heat ~1e-9 of mass) show the LARGEST discrepancy.
+- Serious relative: entropic/emergent gravity (Verlinde 2016) = gravity as thermodynamics; already our Family 1 rule 5
+  (a0 = cH0/6); fits galaxy lensing roughly, reported to struggle in cluster cores (Ettori+2017, from memory). Excluded as heat.
