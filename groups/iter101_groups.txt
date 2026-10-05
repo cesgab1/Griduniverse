@@ -1,0 +1,6 @@
+SPARC median depth v^2 = 1.21e+04 (km/s)^2; 90th percentile 6.64e+04
+groups depth 2 sigma^2 (sigma 128) = 3.28e+04; clusters (sigma 1000) = 2.00e+06
+depth-law exponent needed for clusters x5.3: n = 0.327
+predicted group boost k = 1.38;  observed k = 0.72/(0.6-1.0) = 0.72-1.20
+predicted boost for the deepest 10% of SPARC galaxies: 1.74 (iteration 96 robust: ~1.0-1.1 above the lowest quarter)
+deepest 10% (N=17) vs median-depth (N=33): measured boost 1.16 [68%: 0.96-1.77]; depth law predicts 1.89

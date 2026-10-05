@@ -1762,3 +1762,9 @@ AB lesson: the POTENTIAL (how deep you sit), not only the force, can have physic
    (gravitomagnetism) -> ~(v/c)^2 ~ 1e-5. Excluded (iteration 97).
 4. Topology/holes (AB needs an excluded region): defects in the grid (cosmic-string-like) give lensing without pull. Does not help.
 5. Wave-like dark matter (ultralight, ~1e-22 eV; quantum phase across kpc): real candidate in the literature but it IS dark matter.
+
+## Iteration 101 -- depth law vs groups and deepest galaxies (groups/)
+Depth law (n = 0.33, tuned to clusters x5.3) predicts groups x1.38, deepest galaxies x1.89; measured ~0.7-1.2 and 1.16 [0.96-1.77].
+Mildly disfavoured (~1-1.5 sigma each), not excluded. Decider: hot-gas groups / poor clusters (sigma 300-600, predicted x2.5-4).
+Note: web-tool table transcription failed a spot check (fabricated-looking luminosity column) -> discarded; never use tool-transcribed
+tables without a recomputation check.
