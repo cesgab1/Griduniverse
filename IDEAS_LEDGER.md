@@ -1112,3 +1112,16 @@ Rule from here: a new sub-question is opened ONLY if it produces a number that c
 - Omega_k = +0.0021-0.0022 +/- 0.0013 with Claim 1 (1.7 sigma), +0.0025 +/- 0.0012 with constant (2.0-2.1 sigma), all three SN sets.
 - P1 PASSES its pre-set rule; not a detection. Claim 1 stays ahead of the constant with curvature free (-4.1 / -5.7 / -5.7).
 - Curvature radius implied: a0 = c/(H0 sqrt(Ok)) ~ 95 Gpc (76-128 Gpc range from G0c).
+
+## Exercise (Oct 4 2026, Coalesce): IF the data confirm the Light-Cone equation, what does it do for quantum problems?
+Strong implications (follow from the equation):
+- Vacuum-energy (1e120) problem: dark energy is not a constant vacuum energy -> zero-point energy must NOT gravitate (unimodular-type
+  gravity: vacuum energy drops out, the leftover is an integration constant + the fading term). Rules out 'fine cancellation' fixes.
+- Problem of time: the equation carries a physical cosmic clock (tau, the 'now' surfaces) -> quantum gravity gets a real time
+  variable (cf. Unruh 1989 unimodular time; khronometric / Horava-type theories). Implies a preferred frame at cosmic scale; lab
+  effects ~ hbar H0 = 1.4e-33 eV (unobservable). Must respect gravitational waves = light speed (GW170817, 1e-15): f(K) terms
+  only touch the scalar sector -> expected safe, NOT yet checked here.
+- De Sitter puzzles: fading -> horizon grows, its temperature (2e-30 K today) falls to zero, information capacity unbounded ->
+  no eternal fixed-temperature horizon -> Boltzmann-brain / recurrence problems of a constant Lambda disappear.
+Weak: smallest length 1.64 l_P from far-future consistency (conflicts with black-hole 2 l_P in our rule).
+None: particle masses / hierarchy, measurement problem, initial singularity content (L1 removes the 'point', not the hot dense state).
