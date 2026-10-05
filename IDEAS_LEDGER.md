@@ -1257,3 +1257,10 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
 - CPL posterior: flip at z_w = 0.38-0.46, acceleration onset z_q = 0.72-0.76; Delta = -0.28 to -0.35; P(Delta > 0) = 1-4.5%.
 - Full-likelihood cost of forcing coincidence (beta law vs CPL): 1.6-3.0 in chi2 for one fewer number (~1.3-1.7 sigma).
 - Verdict: not confirmed; mild tension (~2 sigma, shape-dependent). The model's sharpest prediction is now the one to watch.
+
+## Question (Oct 4 2026, Coalesce): where would the signature appear? (cf. Milky Way merger 'ripples')
+- Merger features are DARK MATTER / gravity: Gaia-Enceladus merger (Helmi et al. 2018), LMC's dark-matter wake in the halo
+  (Conroy et al. 2021). Dark energy cannot make local ripples (push 4e-6 of the Galaxy's pull; uniform).
+- The signature lives in TIME, i.e. at a DISTANCE shell: acceleration onset z ~ 0.72 (light travel 6.6 Gyr, comoving 2.65 Gpc);
+  CPL flip z ~ 0.38-0.46 (4.3-4.8 Gyr, ~1.5-1.8 Gpc). Decisive shell: z ~ 0.3-1.0 (3.5-8 Gyr), every direction.
+- Data covering it: DESI (LRG/ELG BAO z 0.4-1.1), Euclid, Rubin LSST supernovae (tens of thousands), future localised FRBs.
