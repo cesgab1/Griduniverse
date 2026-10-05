@@ -1088,3 +1088,14 @@ To run pre-registered, with look-elsewhere stated.
   depends on unknown O(1) stellar factors and on choosing a Sun-like star. Not a mechanism.
 - Net: the size of dark energy = (horizon in Planck lengths)^-2; the horizon size ~ when observers exist ~ star lifetimes. The open
   core is why dark energy stays CONSTANT at that level instead of tracking the horizon (tracking shapes are excluded: iteration 71).
+
+## GOAL-POST RESET (Oct 4 2026, Coalesce): stop reframing; answer the original question
+Original question: what is the SIZE of dark energy, derived rather than measured?
+Answer as of iteration 79 (honest bottom line):
+- NOT derived from first principles by this project.
+- Measured: 5.85e-27 kg/m^3 (0.685 x critical; energy scale 2.24 meV).
+- Explained: the 1e-122 ratio = (Planck length / horizon)^2 -- but the horizon is set by the contents (circular).
+- Best non-circular estimate: horizon = c x star lifetime -> 3.1x measured (Sun's lifetime; an observer choice) or 670x (particle
+  constants only). Same status as Weinberg's 1987 observer argument; no mechanism.
+- 'Why now' is part of this same number (iteration 76), not a separate goal.
+Rule from here: a new sub-question is opened ONLY if it produces a number that can be compared with the measured size.
