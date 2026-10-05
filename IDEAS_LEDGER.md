@@ -1556,3 +1556,12 @@ Checked with numbers -- excluded on four independent grounds:
   observer in empty space (Unruh effect: 4e-20 K at 1 g). Quantum vacuum activity is present everywhere but is not a glow for a
   non-accelerating observer.
 - So the glow is the signature OF a wall, not evidence against one.
+
+## Insight (Oct 5 2026, Coalesce): 'accelerating creates a wave'
+- Established physics agrees: accelerating charges radiate light (antennas, synchrotrons); accelerating masses radiate gravitational
+  waves (LIGO); a mirror accelerated near light speed makes light out of empty space (dynamical Casimir effect, observed 2011 in a
+  superconducting circuit, Wilson et al., Nature); an expanding/accelerating space creates particles (analogue BEC experiments).
+- The horizon picture and the wave picture are two descriptions of the same thing: for a uniformly accelerating observer the
+  Unruh glow and the radiation of accelerated charges match (Higuchi, Matsas & Sudarsky 1992).
+- Cosmic version: the horizon glow is the 'wave' made by the ACCELERATION of the expansion (T ~ H); fading dark energy -> less
+  acceleration -> weaker wave (cooling glow). Consistent with the stress-relief picture.
