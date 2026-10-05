@@ -1264,3 +1264,13 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
 - The signature lives in TIME, i.e. at a DISTANCE shell: acceleration onset z ~ 0.72 (light travel 6.6 Gyr, comoving 2.65 Gpc);
   CPL flip z ~ 0.38-0.46 (4.3-4.8 Gyr, ~1.5-1.8 Gpc). Decisive shell: z ~ 0.3-1.0 (3.5-8 Gyr), every direction.
 - Data covering it: DESI (LRG/ELG BAO z 0.4-1.1), Euclid, Rubin LSST supernovae (tens of thousands), future localised FRBs.
+
+## STATUS SNAPSHOT: quantum gravity (Oct 4 2026, after iteration 88)
+Micro picture (data-backed attributes): fixed number of elastic building blocks that stretch with space (s = 0.91-1.01; fixed-size /
+new-block version excluded 5.4-6.7 sigma); their tension = dark energy (5.3e-10 Pa); dark energy = sqrt-tally of blocks across the
+Hubble radius, response beta = 1/2 predicted, 0.58-0.63 measured (2 of 3 SN sets); blocks do not ring (GW at c); gravity and light
+do not live on the blocks; the law reads the cosmic average 'now'; blocks define the cosmic rest frame.
+Not explained: block size / dark energy's absolute size (needs a tiny number: 1e-120 for window-sized blocks, 3e-9 if Planck-born);
+black-hole entropy, singularities, the quantum of gravity, why the electron's mass would read the tension.
+Live tests: signature (flip at acceleration onset) currently ~2 sigma against in CPL (iteration 88); Omega_k > 0 at 1.7-2 sigma;
+beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CMB-S4.
