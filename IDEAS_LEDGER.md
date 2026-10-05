@@ -1351,3 +1351,12 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   from interactions with electrons.
 - Caution: a rigid lattice would make c depend on direction/energy; GRB photon timing shows none near the Planck scale -> grains must
   be random (Lorentz-friendly), not a regular grid.
+
+## Questions (Oct 4 2026, Coalesce): how long before light started? together or separately? link to speeding up?
+- Light in stages: before ~1e-12 s there is no separate photon (electroweak unified; ALL particles massless, everything moves one
+  grain per tick); photon distinct at ~1e-12 s (~2e31 Planck ticks); trapped in plasma until 380,000 yr (~2e56 ticks), then free (CMB).
+- Expansion is not a speed through space: light always does one grain per tick locally; expansion = more grains (or bigger patches)
+  between things. Early expansion DECELERATED; dark energy took over only at 7.5 Gyr.
+- 'Space ran ahead of light' early on = inflation (an early dark-energy-like accelerating phase, typically ~1e-36..1e-32 s); it
+  explains why CMB regions far beyond each other's light reach have the same temperature (horizon problem: without it, regions
+  more than ~2 degrees apart never exchanged light). Grain picture: dark-energy patches must be marked out AFTER inflation (iter. 86).
