@@ -1188,5 +1188,5 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
 ## Question (Oct 4 2026, Coalesce): what does space-time look like when light and an electron 'create mass'? -- particle_spacetime/
 - Correction: electron + photon only scatter (Compton); mass is CREATED when light turns into an electron-positron pair (two photons,
   or a photon near a nucleus; >= 1.022 MeV; seen directly at RHIC/STAR 2021, SLAC E144 1997).
-- Bending of space-time during pair creation: ~3.5e-45 (G m_e^2 / hbar c scale) -> flat to 45 decimal places; LIGO short by 1e24;
+- Bending of space-time during pair creation: ~3.5e-45 (G m_e^2 / hbar c scale) -> flat to 45 decimal places; LIGO short by 3e23;
   smallest mass whose gravity was measured (90 mg) is 5e25 x heavier. The event is 1.5e-10 of a 2.5 mm cell, 2.4e22 Planck lengths.
