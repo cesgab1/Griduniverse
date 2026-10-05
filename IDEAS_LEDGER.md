@@ -1782,3 +1782,15 @@ explain why curvature peaks where the galaxies are, not where most visible mass 
 - Any ordinary matter (any size, asteroids included) counts toward the Big-Bang deuterium total: making clusters' missing ~85%
   ordinary would need ~6x the measured ordinary matter. Microlensing also limits dark compact objects of planet-star mass.
   (Asteroid-mass window is open only for non-ordinary objects, e.g. primordial black holes -- which would be 'new stuff'.)
+
+## Idea (Coalesce): primordial black holes from the Big Bang as the missing pull
+- Known physics (gravity + black holes), no new particle; formed before the first minutes from radiation, so NOT counted in the
+  deuterium ordinary-matter budget. Collisionless -> would ride with the galaxies in the Bullet Cluster (tip at galaxies, iteration
+  102) and act as cold dark matter for the CMB and structure.
+- Open window for ALL of the missing mass: asteroid mass ~1e17-1e22 g (literature, from memory). Lighter: evaporate (Hawking
+  radiation, gamma-ray limits); heavier: microlensing (HSC, OGLE, EROS), LIGO merger rates, CMB accretion.
+- Caveats: never detected; forming enough needs early-universe ripples ~1e6x larger on tiny scales than measured on large scales
+  (an assumption about the very early universe). Still has the galaxy-regularity issue of cold dark matter (Tully-Fisher, one a0).
+- Near the Sun (local missing-mass density 0.4 GeV/cm^3): one every ~2-25 AU depending on mass -- some inside the Solar System.
+- Grid link to check: the grid's density cap (no singularity) changes how small black holes end (remnants instead of full evaporation)
+  -> could shift the lower edge of the window. Candidate test.
