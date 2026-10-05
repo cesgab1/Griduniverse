@@ -1125,3 +1125,12 @@ Strong implications (follow from the equation):
   no eternal fixed-temperature horizon -> Boltzmann-brain / recurrence problems of a constant Lambda disappear.
 Weak: smallest length 1.64 l_P from far-future consistency (conflicts with black-hole 2 l_P in our rule).
 None: particle masses / hierarchy, measurement problem, initial singularity content (L1 removes the 'point', not the hot dense state).
+
+## Course check (Oct 4 2026, Coalesce): 'I thought we were working towards quantum gravity'
+- Honest: the Light-Cone equation is CLASSICAL (GR + one term). It is the large-scale limit a quantum-gravity theory must reproduce
+  (like Kepler before Newton), not quantum gravity itself.
+- QG scorecard: vacuum energy (partial: must not gravitate), time (partial: cosmic clock), smallest length (unpinned: 1.64 vs 2 l_P),
+  black-hole microstates / singularities / quantum of gravity (not addressed).
+- Bridge candidate that keeps the light-cone idea: causal sets (space-time = random events linked ONLY by light-cone order;
+  Sorkin's Lambda ~ 1/sqrt(N)). Our iter66 found the light (4-volume) tally worse than Claim 1 by 16-21. Reintroducing any
+  discreteness is Coalesce's decision (grid was set aside on request).
