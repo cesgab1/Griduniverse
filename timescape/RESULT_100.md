@@ -12,7 +12,7 @@ Void fraction today (timescape) and matter share (LCDM, control), fitted in each
 (* = runs into the 0.99 edge of the allowed range; its error bar is cut off, so tensions involving it are overstated.)
 Largest era disagreement (raw): timescape 3.1 / 3.5 / 5.0 sigma; LCDM 1.4 / 0.9 / 2.3 sigma.
 Cleanest check (no edge effects, independent of supernovae): BAO early vs late eras -- timescape 2.8 sigma apart,
-LCDM 0.6 sigma apart.
+LCDM 0.5 sigma apart.
 
 Scorecard vs PREREG_100:
 - Control (LCDM agrees within 2 sigma): MET for Pantheon+ and Union3; MISSED for DES (2.3 sigma, driven by its low-z slice).
