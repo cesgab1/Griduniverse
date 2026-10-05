@@ -1468,3 +1468,14 @@ deterministic size rule over the whole horizon, not a per-direction random sum.
 - Grain picture: antiparticles cross grains exactly like particles (CPT holds to ~1e-12 or better). Speculative link: making the
   imbalance needs a broken time-symmetry; our model's cosmic clock gives a preferred time direction -- but CPT tests are extremely
   tight, so any such effect must be tiny or confined to the early universe. Not tested.
+
+## Idea (Oct 5 2026, Coalesce): is 'dark energy' pockets of free electrons repelling each other?
+Checked with numbers -- excluded on four independent grounds:
+1. Charge: electric repulsion beats gravity by 1.2e36 per particle pair, so only a net imbalance of ~1e-18 (one unbalanced
+   electron per 1e18) would be needed -- but the universe is neutral far better than that (published CMB/isotropy limits on net
+   charge per baryon ~1e-26 or smaller; also plasma screens any imbalance beyond ~50 km in intergalactic gas, Debye length).
+2. Budget: free electrons are ~2e-5 of the universe's energy; dark energy is 0.685 -> short by ~30,000x.
+3. Behaviour: electrons (charged or not) thin out as space grows and have POSITIVE pressure; acceleration needs negative pressure
+   (w < -1/3) and a density that stays nearly constant.
+4. Distribution: electrons are clumped in gas filaments (counted directly with fast radio bursts); dark energy is smooth and the
+   same in voids and in every direction.
