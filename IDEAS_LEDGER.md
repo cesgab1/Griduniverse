@@ -1389,6 +1389,6 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
 - Information costs ENERGY: writing one bit in a region of size R costs at least ~hbar c ln2 / (2 pi R) (Bekenstein). At the
   electron's size that is 0.056 MeV per bit; the electron has 0.511 MeV -> 9.1 bits. Size sets the capacity, energy sets how much is
   actually written.
-- The electron-size region's capacity (area law) is ~1.6e44 bits; filling it needs the energy of a black hole that size: 2.6e14 kg
+- The electron-size region's capacity (area law) is ~2.6e45 bits; filling it needs the energy of a black hole that size: 2.6e14 kg
   (a mountain) vs the electron's 9.1e-31 kg. Only black holes fill all their grains.
 - Empty-space grains' bits are capacity, not content ('blank pages'); they show up as real entropy only at horizons.
