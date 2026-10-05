@@ -1218,3 +1218,14 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
   of two masses (Bose et al.; Marletto & Vedral 2017); single-graviton detection schemes (Tobar et al. 2024).
 - Our picture: geometry (gravity) responds to energy; the quantum fingerprint at cosmic scale is the sqrt-N tally in the tension
   sector (beta ~ 1/2 measured as 0.6). So: quantum enters through the blocks' tally, not (yet) through gravity's own waves.
+
+## Idea (Oct 4 2026, Coalesce): gravity as a dimension, where the smallest (Planck) scale meets at the centre of any mass
+- Established version: for slow objects gravity is almost entirely the warping of the TIME dimension (clocks run slower deeper
+  down; things fall toward slower time). Earth's centre: pull is zero but time is slowest; uniform-Earth estimate 3.5e-10 slower
+  -> ~1.6 yr younger over 4.5 Gyr (realistic density ~2.5 yr, Uggerhoj et al. 2016).
+- Planck scale at the centre: curvature at Earth's centre ~1e-23 /m^2 (radius 3e11 m) -> 2e46 x above the Planck length. Planck
+  curvature is reached only inside black holes (and at the Big Bang) -- where quantum gravity must take over.
+- Extra-dimension versions (gravity leaking into a hidden dimension; explains its weakness): tested. Eot-Wash 2020: any large extra
+  dimension < 30 micrometres; GW170817: gravitational waves weaken with distance exactly as in 3 space dimensions (no leakage over
+  ~40 Mpc; Pardo et al. 2018); LHC: no micro black holes.
+- Our picture: gravity = geometry (incl. time warping), not on the tension grid; blocks don't converge at mass centres.
