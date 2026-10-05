@@ -1535,3 +1535,10 @@ Checked with numbers -- excluded on four independent grounds:
   (4) selection (only brighter far supernovae detected; corrected, imperfectly). (5) photon gain (exotic; CMB spectrum limits it).
 - (1)-(4) are all of the right size (few hundredths of a magnitude) -> cannot be separated with supernovae alone; BAO is the
   independent check.
+
+## Idea (Oct 5 2026, Coalesce): could the cooling horizon glow (from the dark-energy-only thought experiment) make supernovae brighter?
+- Glow today 2.2e-30 K (4e-30 K at z ~ 1): energy density ~1e-134 J/m^3; whole-sky flux ~1e-126 W/m^2; typical wavelength ~50 Gpc
+  (longer than the horizon itself). A z ~ 1 supernova delivers ~2e-18 W/m^2; the 4% excess is ~1e-19 W/m^2 -> the glow is ~1e107 x too
+  weak, at the wrong wavelength, and spread over the whole sky rather than on the supernova. Excluded.
+- The intuition survives in a different form: in our model the horizon glow COOLS as dark energy fades (consistent picture), and the
+  universe's real cooling glow -- the CMB -- is measured to cool exactly as predicted (T = 2.725 K x (1+z), confirmed at high z).
