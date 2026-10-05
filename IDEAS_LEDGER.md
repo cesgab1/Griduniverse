@@ -1368,3 +1368,12 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   -> dark energy, response 1/2 (measured ~0.6). Patches marked out after inflation; their size / the leftover small number open.
 - Still open: why grains carry one bit; what marks out patches; dark energy's size; singularities; gravity's own quanta; the
   hierarchy (electron clock 2.4e22 Planck ticks). Signature prediction ~2 sigma against today.
+
+## Question (Oct 4 2026, Coalesce): how many bits does a free electron have?
+- Internal information: its spin = one qubit (1 bit when read). Charge, mass etc. are fixed (no information). Where it is / how it
+  moves is extra, set by its situation, not by the electron itself.
+- Upper limit (Bekenstein bound, energy m_e c^2 in its Compton size 3.9e-13 m): 2 pi / ln 2 = 9.1 bits.
+- As a black hole of the same mass it would hold 3e-44 bits -> an electron is not a gravity object; its 'horizon' (1.4e-57 m) is far
+  below the Planck length.
+- Grain picture: its region spans ~2e44 grain-areas / ~3e66 grains, yet it carries ~1 bit -> matter is not built from the grains'
+  bits (consistent with matter not living on the grid).
