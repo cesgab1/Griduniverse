@@ -1398,3 +1398,13 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   spent enough to fill every grain on its surface.
 - Ties to dark energy (interpretation, no new prediction): the sqrt-N tally reads naturally as the net random imbalance of N blank
   grain-bits along the horizon line (random nudges -> sqrt(N)), i.e. dark energy = the leftover statistical 'charge' of unspent capacity.
+
+## Idea (Oct 4 2026, Coalesce): the Planck tick is a SNAPSHOT of space-time; space, time and c all tied to it
+- c = one grain per frame (l_P / t_P): not free -- the frame rate times the grain size.
+- Gravity's strength becomes the grain AREA: G = l_P^2 c^3 / hbar (black-hole entropy = area / 4 per grain-area) -> gravity is weak
+  because grains are small.
+- Limits: max frame rate 1.9e43 Hz; max energy per particle ~ Planck energy 1.2e19 GeV (highest cosmic ray 3.2e11 GeV, 4e7 below).
+- Frames since the Bang: 8.1e60; 1/N^2 = 1.5e-122 vs dark energy / Planck density 1.1e-123 (factor ~0.07): dark energy ~ Planck
+  density / (number of frames)^2. Known 'large-number' relation (equivalent to rho ~ H^2/G) -- suggestive, not a derivation.
+- Test of 'frames': a global frame rate would make light's speed depend on energy. Fermi GRB 090510 excludes linear effects up to
+  ~1.2 x Planck energy -> frames must be random (Lorentz-friendly), not a global strobe; or the effect quadratic (weaker bounds).
