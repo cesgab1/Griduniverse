@@ -1,0 +1,25 @@
+Iteration 102 -- Bullet Cluster, visible matter only
+positions (kpc from main BCG): main BCG (-0,0), main plasma (189,90), sub BCG (715,94), sub plasma (523,116)
+BCG-BCG 721 kpc; main BCG-plasma 47.4 arcsec
+gas fit: M 3.00e+14 a 668, M 2.65e+12 a 86  (pulls [0. 0. 0. 0.])
+star fit: M 4.10e+12 a 257, M 1.46e+12 a 124  (pulls [ 0. -0.  0.  0.])
+Sigma_crit = 2.84e+09 Msun/kpc^2 (z_s = 1)
+
+A. Newton/Einstein, visible matter:
+   main BCG     kappa_vis 0.068   measured 0.36 +/- 0.06
+   main plasma  kappa_vis 0.077   measured 0.05 +/- 0.06
+   sub BCG      kappa_vis 0.037   measured 0.20 +/- 0.05
+   sub plasma   kappa_vis 0.066   measured 0.02 +/- 0.06
+   TIP at (520,120) kpc: nearest marker sub plasma (5 kpc away)
+   kappa(main BCG) - kappa(main plasma): measured +0.31 +/- 0.085; visible -0.009 -> 3.8 sigma
+
+B. Galaxy rule (QUMOND, a0 = 1.2e-10), visible matter + its phantom curvature:
+   main BCG     kappa 0.178 (phantom part 0.110)   measured 0.36 +/- 0.06
+   main plasma  kappa 0.214 (phantom part 0.138)   measured 0.05 +/- 0.06
+   sub BCG      kappa 0.110 (phantom part 0.073)   measured 0.20 +/- 0.05
+   sub plasma   kappa 0.170 (phantom part 0.104)   measured 0.02 +/- 0.06
+   TIP at (200,80) kpc: nearest marker main plasma (15 kpc away)
+   kappa(main BCG) - kappa(main plasma): measured +0.31; galaxy rule -0.037 -> 4.1 sigma
+   kappa(sub BCG) - kappa(sub plasma): measured +0.18; Newton -0.030; galaxy rule -0.060
+Newton: main 3.8 sigma, sub 2.7 sigma, combined 4.6 sigma
+galaxy rule: main 4.1 sigma, sub 3.1 sigma, combined 5.1 sigma

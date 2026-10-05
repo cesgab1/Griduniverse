@@ -1768,3 +1768,8 @@ Depth law (n = 0.33, tuned to clusters x5.3) predicts groups x1.38, deepest gala
 Mildly disfavoured (~1-1.5 sigma each), not excluded. Decider: hot-gas groups / poor clusters (sigma 300-600, predicted x2.5-4).
 Note: web-tool table transcription failed a spot check (fabricated-looking luminosity column) -> discarded; never use tool-transcribed
 tables without a recomputation check.
+
+## Iteration 102 -- tip of the Bullet Cluster's curvature from visible matter (bullet_tip/)
+Visible matter puts the tip on the hot gas under Newton (bullet gas) AND under the galaxy rule (main gas); lensing puts it on the
+galaxies ~200 kpc away. Offset-free differences miss by 4.7 sigma (Newton) and 5.2 sigma (galaxy rule). Any 'no new stuff' idea must
+explain why curvature peaks where the galaxies are, not where most visible mass is.
