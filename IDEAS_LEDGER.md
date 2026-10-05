@@ -1520,3 +1520,8 @@ Checked with numbers -- excluded on four independent grounds:
    CMB stretched beyond detection (Krauss & Scherrer 2007, 'the return of a static universe').
 5. Fading vs constant: rooms whose walls keep moving out (fading) vs fixed rooms (constant); in both, the 'furniture' (other
    galaxies) leaves faster than the walls move.
+
+## Iteration 91 (Oct 5 2026): extra light fading and the Hubble tension -- light_fading/
+- eps (extra dimming) = 0.00 +/- 0.013-0.021 with Claim 1; -0.03..-0.05 +/- 0.013-0.021 with constant DE (slight brightening, the same
+  signal fading dark energy absorbs). H0 stays 67.5-68.6 -> fading light cannot explain the Hubble tension (local 73).
+- Photons are not lost on the way at the ~2-4% level (distance duality holds); CMB black-body spectrum also limits photon loss.
