@@ -1486,3 +1486,12 @@ Checked with numbers -- excluded on four independent grounds:
 - Where it IS container-like: it gives every observer a horizon (5.4 Gpc for a constant; the fading version's horizon keeps growing).
   Each observer lives inside their own 'bubble' whose wall is set by dark energy; remove dark energy too and the walls vanish
   (empty light cone, no horizon -- earlier thought experiment). So: dark energy makes the container's WALLS, not its contents.
+
+## The horizon as dark energy's container (Oct 5 2026) -- horizon_container/container.*
+- Today: wall radius 5.10 Gpc (constant) / 6.22 Gpc (fading); only 4.6% / 8.5% of the volume we can SEE is still REACHABLE by a
+  signal sent now. Wall holds 4.3e122 / 6.4e122 bits (one per grain-area), glows at ~2e-30 K.
+- Future: constant -> wall frozen at 5.36 Gpc, 4.7e122 bits, fixed glow; fading -> wall keeps growing (10 Gpc at +50 Gyr, 22 Gpc at
+  +200 Gyr), capacity grows (8e123 at +200 Gyr), glow cools. Either way galaxies leave: <1% of today's reachable galaxies remain
+  reachable after ~50 Gyr (0.02% constant, 0.4% fading) -> the Local Group ends up alone in both.
+- Synthesis: the wall's AREA count = the container's information capacity (black-hole rule); the LINE count across it = dark
+  energy's response. The container is where both counts meet -- like a black hole turned inside out.

@@ -1,0 +1,12 @@
+The cosmic horizon as a container (constant vs fading dark energy)
+
+constant: wall (event horizon) today 5.10 Gpc; observable universe 14.2 Gpc; still-reachable share of what we see 4.6%; wall holds 4.3e+122 bits, glows at 2.3e-30 K
+   +10 Gyr: wall radius 5.31 Gpc, share of today.s reachable galaxies still reachable 17.30%, bits 4.7e+122, glow 2.2e-30 K
+   +50 Gyr: wall radius 5.36 Gpc, share of today.s reachable galaxies still reachable 0.02%, bits 4.7e+122, glow 2.2e-30 K
+   +100 Gyr: wall radius 5.36 Gpc, share of today.s reachable galaxies still reachable 0.00%, bits 4.7e+122, glow 2.2e-30 K
+   +200 Gyr: wall radius 5.36 Gpc, share of today.s reachable galaxies still reachable 0.00%, bits 4.7e+122, glow 2.2e-30 K
+fading: wall (event horizon) today 6.22 Gpc; observable universe 14.2 Gpc; still-reachable share of what we see 8.5%; wall holds 6.4e+122 bits, glows at 1.9e-30 K
+   +10 Gyr: wall radius 7.22 Gpc, share of today.s reachable galaxies still reachable 25.56%, bits 8.6e+122, glow 1.6e-30 K
+   +50 Gyr: wall radius 10.37 Gpc, share of today.s reachable galaxies still reachable 0.38%, bits 1.8e+123, glow 1.1e-30 K
+   +100 Gyr: wall radius 14.20 Gpc, share of today.s reachable galaxies still reachable 0.01%, bits 3.3e+123, glow 8.3e-31 K
+   +200 Gyr: wall radius 21.87 Gpc, share of today.s reachable galaxies still reachable 0.00%, bits 7.9e+123, glow 5.4e-31 K
