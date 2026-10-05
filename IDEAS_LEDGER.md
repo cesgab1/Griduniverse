@@ -1789,8 +1789,16 @@ explain why curvature peaks where the galaxies are, not where most visible mass 
   102) and act as cold dark matter for the CMB and structure.
 - Open window for ALL of the missing mass: asteroid mass ~1e17-1e22 g (literature, from memory). Lighter: evaporate (Hawking
   radiation, gamma-ray limits); heavier: microlensing (HSC, OGLE, EROS), LIGO merger rates, CMB accretion.
-- Caveats: never detected; forming enough needs early-universe ripples ~1e6x larger on tiny scales than measured on large scales
+- Caveats: never detected; forming enough needs early-universe ripples ~2500x larger in amplitude (~1e6-1e7x in power) on tiny scales than measured on large scales
   (an assumption about the very early universe). Still has the galaxy-regularity issue of cold dark matter (Tully-Fisher, one a0).
 - Near the Sun (local missing-mass density 0.4 GeV/cm^3): one every ~3.5 AU (1e17 g) to ~160 AU (1e22 g) -- some inside the Solar System; each smaller than an atom (1e17 g: ~1.5e-13 m).
 - Grid link to check: the grid's density cap (no singularity) changes how small black holes end (remnants instead of full evaporation)
   -> could shift the lower edge of the window. Candidate test.
+
+## Question (Coalesce): could sheer density/pressure in the Big Bang make many small black holes? (estimate, not pre-registered)
+- No, not by density alone: everything was equally dense and flying apart (no direction to fall); radiation pressure resists.
+  Collapse needs a patch ~45% denser than its surroundings (threshold ~0.45).
+- To make all the missing mass (1e17-1e22 g, forming at 1e-22 to 1e-17 s), a fraction ~1e-17 to 4e-15 must collapse -> ripples
+  ~0.05 needed; measured ripples ~2e-5 (CMB scales) -> ~2500x too small. With measured ripples the collapse fraction is ~10^(-1e8).
+- Grid graininess (one bit per 1.67 l_P grain) at that horizon: N ~ 2e73 grains -> 1/sqrt(N) ~ 2e-37. Cannot seed them.
+- Coalesce: primordial black holes not required; recorded as possible but needing an unseen small-scale feature.
