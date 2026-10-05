@@ -1743,3 +1743,11 @@ Our law best on all combinations (-4.9 to -6.4 vs LCDM). Expectation misses: sma
 Timescape's void fraction differs between eras (BAO-only, early vs late: 2.8 sigma vs LCDM 0.5; raw max 3.1-5.0 sigma incl. SN, inflated by
 range-edge hits); LCDM's Om stays consistent (0.5 sigma BAO; 0.9-2.3 sigma overall, DES control a mild miss). The SN-BAO mismatch is
 an era effect, and it argues against timescape's built-in timeline.
+
+## Queued (Coalesce): Aharonov-Bohm effect -- after the missing-pull brainstorm
+- AB effect: a charged particle's quantum phase shifts from the electromagnetic POTENTIAL even where the force is zero
+  (Aharonov & Bohm 1959; Tonomura 1986 confirmed). Gravitational version measured with atom interferometers
+  (Overstreet et al., Science 2022, from memory): phase shift from a mass's potential with negligible force.
+- Relevance: (a) quantum-gravity track -- gravity acting on quantum phase is one of the few lab handles on gravity + quantum;
+  (b) missing pull -- AB shifts phases, not classical orbits, so by itself it adds no force to galaxies; a link would need a
+  mechanism turning a potential/phase effect into motion. Needs a number before it becomes a test (goal-post rule).
