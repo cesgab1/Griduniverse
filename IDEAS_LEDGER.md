@@ -1565,3 +1565,11 @@ Checked with numbers -- excluded on four independent grounds:
   Unruh glow and the radiation of accelerated charges match (Higuchi, Matsas & Sudarsky 1992).
 - Cosmic version: the horizon glow is the 'wave' made by the ACCELERATION of the expansion (T ~ H); fading dark energy -> less
   acceleration -> weaker wave (cooling glow). Consistent with the stress-relief picture.
+
+## Insight (Oct 5 2026, Coalesce): every accelerating particle, and mass creation itself, makes (tiny) waves
+- Agreed by established physics. Charged particles: light (bremsstrahlung, synchrotron) at strength ~ alpha = 1/137 -- measured
+  daily in detectors; a freshly created electron-positron pair radiates light as it flies apart (seen in particle detectors).
+- Gravitational waves from the same events: strength ~ G m_e^2/(hbar c) = 1.75e-45 -- the same tiny number as before (Planck tick /
+  electron tick, squared). Ratio gravity-waves / light-waves ~ 1e-43. Real but unmeasurable one by one.
+- Summed over the whole hot early universe, such gravitational 'whispers' would form a cosmic graviton background (~1 K if gravitons
+  were once in equilibrium) -- predicted, far beyond today's detectors.
