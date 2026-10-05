@@ -1433,3 +1433,10 @@ deterministic size rule over the whole horizon, not a per-direction random sum.
 - That space is the electron's ORBITAL ('electron cloud'): the electron is spread through it as a probability wave; plus the electric
   field holding it; plus quantum-vacuum activity, measured (Lamb shift: hydrogen levels shifted ~1 GHz by vacuum fluctuations; Casimir force).
 - Grain picture: ~8e72 Planck grains in one hydrogen atom -- the 'stage'; the orbital is what plays on it.
+
+## Question (Oct 5 2026, Coalesce): force of dark energy / dark matter on a single atom
+- Dark energy across a hydrogen atom: push 1.7e-46 m/s^2 vs the electric pull on the electron 9e22 m/s^2 -> 2e-69. Dark energy
+  contained in the atom: 3e-40 J vs binding 13.6 eV (2e-18 J) -> 1.5e-22. Atoms do not expand.
+- Dark matter (local ~0.4 GeV/cm^3 = 7e-22 kg/m^3): inside an atom's volume ~4e-52 kg (3e-25 of a proton). Its only known effect on
+  an atom is gravity at galaxy scale (helps keep the Sun -- and every atom with it -- in orbit, ~2e-10 m/s^2). No direct hit ever
+  detected (LZ-type xenon detectors).
