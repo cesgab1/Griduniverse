@@ -1298,3 +1298,13 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   current Hubble time = exactly our law (blocks stretch in time as in space). So a time-count works only with stretching ticks and
   a 'current window' -- consistent, no new prediction.
 - If Planck-born and stretched, a tension-cell tick today ~8e-12 s (2.5 mm / c) -- felt only by the tension field.
+
+## Question (Oct 4 2026, Coalesce): how long does it take a photon and a free electron to interact?
+- A free electron cannot swallow a photon (energy + momentum can't both balance); it scatters it (Compton) or absorbs it only near
+  a nucleus/atom.
+- Basic clock of the electron-light interaction: Compton time hbar/(m_e c^2) = 1.3e-21 s (set by the electron's mass).
+  Measured: light crossing H2 takes 247 zeptoseconds (2020); photo-emission from atoms takes tens of attoseconds (attosecond physics,
+  Nobel 2023); visible-light period ~2e-15 s.
+- Link to gravity: Compton time = 2.4e22 Planck ticks; (Planck tick / Compton time)^2 = 1.75e-45 = G m_e^2/(hbar c) -- the same tiny
+  number as the space-time bending of pair creation. Gravity is weak at particle scale because the electron's clock is 2.4e22 x
+  slower than the Planck clock.
