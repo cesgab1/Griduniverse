@@ -1,0 +1,8 @@
+Iteration 105 -- z > 0.05, axis (l,b)=(260,+12), 1500 random axes
+PART A (no dark energy, no dark matter; ordinary matter only):
+  toward: N=271, bare-universe penalty vs best LCDM = 12.6 (0.047 per SN)
+  away:   N=785, bare-universe penalty vs best LCDM = 21.4 (0.027 per SN)
+  difference per SN +0.019; random axes give |diff| this large in 75.1% of cases (spread 0.042)
+PART B (dark energy, LCDM): matter share toward 0.295 +/- 0.030, away 0.360 +/- 0.025
+  -> dark-energy share toward 0.705, away 0.640; difference -0.065 +/- 0.039 (-1.7 sigma); random axes give |diff| this large in 3.7% of cases
+PART B (our law): matter share toward 0.270 +/- 0.033, away 0.345 +/- 0.027; difference -0.075; random axes give |diff| this large in 3.5% of cases

@@ -1834,3 +1834,9 @@ sign-free alignment weaker than predicted. Revisit with Euclid / SKA / Rubin all
 - Consequences: dark-energy law becomes a local average with a direction dependence; missing pull unchanged (local); grid gets a
   preferred LOCATION on top of its preferred time (stamp), and the stamp would vary with distance from the centre.
 - Immediate test proposed: hemisphere split of supernovae (toward vs away from the axis), dark-energy law fitted in each.
+
+## Iteration 105 -- hemispheres toward/away from (260, +12) (hemispheres/)
+A (no dark energy, no dark matter): fails in both halves, nothing direction-specific (p 62-75%).
+B (dark energy): dark-energy share 0.705 toward vs 0.640 away (law: 0.730 vs 0.655); random-axis p = 3.5-3.7% at z > 0.05 (main),
+12-13% at z > 0.01. Expectation MISSED (predicted p > 0.05): a ~2 sigma hint of direction-dependent speed-up toward the anomaly axis.
+Caveat: survey mix differs by hemisphere. Next: survey composition, Union3/DES by direction, DESI BAO by direction.

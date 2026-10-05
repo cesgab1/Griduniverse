@@ -19,6 +19,13 @@ def dm_bare():
     Ob, Ok = 0.049, 0.951; E = np.sqrt(Ob*(1+zg)**3 + Ok*(1+zg)**2); chi = cumulative_trapezoid(1/E, zg, initial=0)
     return np.sinh(np.sqrt(Ok)*chi)/np.sqrt(Ok)
 OMS = np.linspace(0.05, 0.8, 151); DMF = {round(o, 4): dm_flat(o) for o in OMS}; DMB = dm_bare()
+_src = open(os.path.join(here, "../cosmology_fits/fit_law.py")).read().split("# ---------------- expansion histories ----------------")[1].split("def observables")[0]
+W_R = 2.469e-5*(1 + 0.2271*3.046); BETA = 0.5; STRETCH = 1.0
+from scipy.integrate import solve_ivp
+exec(_src)
+def dm_law(Om):
+    E = E_of_z("LAW", Om, 0.68, []); chi = cumulative_trapezoid(1/E, ZG, initial=0); return np.interp(zg, ZG, chi)
+DML = {round(o, 4): dm_law(o) for o in OMS}
 def c2_of(D, sel, Ci):
     r = mb[sel] - 5*np.log10((1 + zh[sel])*np.interp(z[sel], zg, D)); B = (Ci @ r).sum(); return r @ Ci @ r - B**2/Ci.sum()
 def hemi(sel):
@@ -26,17 +33,19 @@ def hemi(sel):
     cs = np.array([c2_of(DMF[round(o, 4)], sel, Ci) for o in OMS]); i = np.argmin(cs)
     ok = OMS[cs <= cs[i] + 1]; om, err = OMS[i], (ok.max() - ok.min())/2
     cb = c2_of(DMB, sel, Ci)
-    return dict(n=sel.sum(), om=om, err=max(err, 0.005), pen=(cb - cs[i])/sel.sum(), dpen=cb - cs[i])
+    cl = np.array([c2_of(DML[round(o, 4)], sel, Ci) for o in OMS]); j = np.argmin(cl); okl = OMS[cl <= cl[j] + 1]
+    return dict(n=sel.sum(), om=om, err=max(err, 0.005), pen=(cb - cs[i])/sel.sum(), dpen=cb - cs[i],
+                oml=OMS[j], errl=max((okl.max() - okl.min())/2, 0.005))
 def uv(l, b): l, b = np.radians(l), np.radians(b); return np.array([np.cos(b)*np.cos(l), np.cos(b)*np.sin(l), np.sin(b)])
 def stats(ax):
     t = nh @ ax > 0; T, A = hemi(t), hemi(~t)
-    return T, A, T["pen"] - A["pen"], T["om"] - A["om"], np.hypot(T["err"], A["err"])
-T, A, SA, SB, eB = stats(uv(260, 12))
-rng = np.random.default_rng(11); RA_, RB_ = [], []
+    return T, A, T["pen"] - A["pen"], T["om"] - A["om"], np.hypot(T["err"], A["err"]), T["oml"] - A["oml"]
+T, A, SA, SB, eB, SL = stats(uv(260, 12))
+rng = np.random.default_rng(11); RA_, RB_, RL_ = [], [], []
 for _ in range(NAX):
-    v = rng.normal(size=3); v /= np.linalg.norm(v); _, _, sa, sb, _ = stats(v); RA_.append(sa); RB_.append(sb)
+    v = rng.normal(size=3); v /= np.linalg.norm(v); _, _, sa, sb, _, sl = stats(v); RA_.append(sa); RB_.append(sb); RL_.append(sl)
 RA_, RB_ = np.array(RA_), np.array(RB_)
-pA = np.mean(np.abs(RA_) >= abs(SA)); pB = np.mean(np.abs(RB_) >= abs(SB))
+pA = np.mean(np.abs(RA_) >= abs(SA)); pB = np.mean(np.abs(RB_) >= abs(SB)); pL = np.mean(np.abs(np.array(RL_)) >= abs(SL))
 out = [f"Iteration 105 -- z > {ZCUT}, axis (l,b)=(260,+12), {NAX} random axes",
        f"PART A (no dark energy, no dark matter; ordinary matter only):",
        f"  toward: N={T['n']}, bare-universe penalty vs best LCDM = {T['dpen']:.1f} ({T['pen']:.3f} per SN)",
@@ -44,5 +53,7 @@ out = [f"Iteration 105 -- z > {ZCUT}, axis (l,b)=(260,+12), {NAX} random axes",
        f"  difference per SN {SA:+.3f}; random axes give |diff| this large in {pA:.1%} of cases (spread {RA_.std():.3f})",
        f"PART B (dark energy, LCDM): matter share toward {T['om']:.3f} +/- {T['err']:.3f}, away {A['om']:.3f} +/- {A['err']:.3f}",
        f"  -> dark-energy share toward {1-T['om']:.3f}, away {1-A['om']:.3f}; difference {SB:+.3f} +/- {eB:.3f} ({SB/eB:+.1f} sigma);"
-       f" random axes give |diff| this large in {pB:.1%} of cases"]
+       f" random axes give |diff| this large in {pB:.1%} of cases",
+       f"PART B (our law): matter share toward {T['oml']:.3f} +/- {T['errl']:.3f}, away {A['oml']:.3f} +/- {A['errl']:.3f};"
+       f" difference {SL:+.3f}; random axes give |diff| this large in {pL:.1%} of cases"]
 txt = "\n".join(out); print(txt); open(os.path.join(here, f"iter105_z{ZCUT}.txt"), "w").write(txt + "\n")
