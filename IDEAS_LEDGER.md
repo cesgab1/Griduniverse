@@ -1661,3 +1661,8 @@ term in the v^4 family without a reason clusters differ from dwarf spheroidals (
 Spin keeps orientation (gyroscope) but adds no pull: spin/orbital J 2e-3 aligned, 6e-5 random; spin mass 5e-7; frame-dragging
 1e-5 vs +400% needed. Viewing angle: x1.3-2 per cluster, averages out. Do not re-propose spin/angle as the cluster input.
 Side note: galaxy inclination errors may explain the low-a0 dwarf tail of iteration 96 (untested).
+
+## Iteration 98 -- trace back: made together or pulled together? (trace_back/)
+Timing argument: MW+M31 and Virgo infall both started moving apart with the expansion and were reversed by gravity (pulled
+together, not made together). Mass needed: MW+M31 x28 visible; Virgo x5.4 (same as Coma speeds). Third independent sight of the gap.
+Expectation miss: MW-M31 turnaround 8.5 Gyr (predicted 4-8).

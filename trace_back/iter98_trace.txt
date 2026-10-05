@@ -1,0 +1,4 @@
+Milky Way + Andromeda: started together moving apart, max separation 1037 kpc at 8.5 Gyr, now falling in
+   mass needed 4.20e+12 Msun vs visible ~1.5e11 -> x28
+Virgo: galaxies at 7.2 Mpc are turning around today (eta = pi); everything inside has already started falling in
+   mass needed 5.37e+14 Msun (no Lambda; Kashibadze+2020 with Lambda: 7.4e14) vs visible ~1e14 -> x5.4
