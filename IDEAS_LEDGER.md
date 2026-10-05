@@ -1325,3 +1325,12 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   Planck-size, frame-free grains of geometry (area count -> black holes) and stretching tension cells (line count -> dark energy).
   Consistent with the two-sector picture and the tally-dimension clue.
 - Curiosity flagged in advance, not evidence: one-bit grain 1.665 l_P vs far-future value 1.637 l_P (3% in l^2).
+
+## Question (Oct 4 2026, Coalesce): couldn't our building blocks be Planck size?
+- Stretching tension cells can't be Planck size TODAY unless born very late: they were smaller in the past (fixed number, stretching),
+  and nothing is smaller than Planck. Born Planck-size at z = 3 -> 6.5e-35 m today; at recombination -> 1.8e-32 m; at the Planck time
+  -> 2.5 mm. (Late birth makes the size problem worse: kappa ~1e-150.)
+- Cleaner reading (one kind of block): the FUNDAMENTAL grains are Planck size and fixed (new grains as space grows, Lorentz-friendly,
+  carry black-hole area entropy); the dark-energy tally counts COMOVING PATCHES fixed at birth (each patch = many grains; Planck-time
+  patches are 2.5 mm today and hold ~4e96 grains). Iteration 84 constrains what is TALLIED (comoving), not the grains. Consistent with
+  iterations 84 and 89; an interpretation, no new prediction; the patch-size / kappa problem remains.
