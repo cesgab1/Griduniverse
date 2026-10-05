@@ -1751,3 +1751,14 @@ an era effect, and it argues against timescape's built-in timeline.
 - Relevance: (a) quantum-gravity track -- gravity acting on quantum phase is one of the few lab handles on gravity + quantum;
   (b) missing pull -- AB shifts phases, not classical orbits, so by itself it adds no force to galaxies; a link would need a
   mechanism turning a potential/phase effect into motion. Needs a number before it becomes a test (goal-post rule).
+
+## Brainstorm: what the Aharonov-Bohm effect suggests for the missing pull (Coalesce, Oct 5 2026)
+AB lesson: the POTENTIAL (how deep you sit), not only the force, can have physical effects; gravitationally, depth = clock rate.
+1. Depth-dependent gravity (EMOND-like: a0 grows with potential depth). Depth Phi/c^2: galaxy (150 km/s) 2.5e-7, cluster
+   (1400 km/s) 2.2e-5 (~90x deeper). Iteration 96: pre-registered fit compatible with x5.3; post-hoc says flat above dwarfs.
+   Direction matches the dwarf tail (shallow -> smaller a0). DECIDER: galaxy groups (depth in between) -- x2-3 vs x1. Top candidate.
+2. Grid clocks: deeper wells tick slower (stamp picture); if the grid's response is set by local tick rate, (1) follows. Same test.
+3. Enclosed-flux version (AB phase = flux through the loop): for an orbit, the 'flux' would be the galaxy's spin
+   (gravitomagnetism) -> ~(v/c)^2 ~ 1e-5. Excluded (iteration 97).
+4. Topology/holes (AB needs an excluded region): defects in the grid (cosmic-string-like) give lensing without pull. Does not help.
+5. Wave-like dark matter (ultralight, ~1e-22 eV; quantum phase across kpc): real candidate in the literature but it IS dark matter.
