@@ -1,0 +1,7 @@
+Solar-mass black hole: horizon radius 2.95 km, area 1.10e+08 m^2, entropy 1.05e+77 (k_B)
+
+B1 Planck-born stretched tension block 2.5 mm: one bit per block -> 1.2e+13; short by x9e+63
+B1 tension block at window top 5.7e-28 m: one bit per block -> 2.3e+62; short by x4e+14
+B2 required block size for one bit per block: l = 1.665 l_P = 2.69e-35 m
+B2 required block size for one nat per block: l = 2.000 l_P = 3.23e-35 m
+Curiosity (not evidence): far-future value 1.637 l_P vs one-bit 1.665 l_P (l^2: 2.68 vs 2.77, 3% apart)

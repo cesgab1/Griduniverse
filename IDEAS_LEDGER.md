@@ -1317,3 +1317,11 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   (3) black holes / early universe.
 - Supports the two-sector picture (particles too out of step with the blocks to feel them). Does not explain the size of the
   mismatch itself (m_Planck/m_e = 2.4e22: the hierarchy problem, open everywhere).
+
+## Iteration 89 (Oct 4 2026): building blocks vs black-hole entropy -- black_hole_blocks/
+- Solar-mass black hole: S = 1.05e77. Stretching tension blocks carry 1.2e13 (2.5 mm) or 2.3e62 (window top): short by 9e63 / 4e14.
+  -> the tension grid is NOT what black-hole entropy counts (expected).
+- Black-hole entropy needs NON-stretching grains of 1.67 l_P (one bit each) or 2 l_P (one nat). -> TWO kinds of building blocks:
+  Planck-size, frame-free grains of geometry (area count -> black holes) and stretching tension cells (line count -> dark energy).
+  Consistent with the two-sector picture and the tally-dimension clue.
+- Curiosity flagged in advance, not evidence: one-bit grain 1.665 l_P vs far-future value 1.637 l_P (3% in l^2).
