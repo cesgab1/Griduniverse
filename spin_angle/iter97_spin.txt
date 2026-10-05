@@ -1,0 +1,4 @@
+spin/orbital angular momentum: aligned 2.0e-03, random 6.3e-05
+spin energy as extra mass (v_rot/c)^2 = 4.5e-07;  frame-dragging ~ (sigma/c)^2 = 1.1e-05
+needed extra: x5 in mass = +400% -> spin effects short by a factor 4e+05 or more
+viewing angle: anisotropy beta = 0.5 vs 0 changes the virial mass estimate by up to ~x1.3-2 for one cluster; averages to ~x1
