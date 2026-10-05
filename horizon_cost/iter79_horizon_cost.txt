@@ -1,0 +1,12 @@
+Iteration 79: what does a horizon cost? PREREG_79.md
+
+measured dark energy 5.85e-27 kg/m^3
+Step 1:
+  event horizon 6.24 Gpc: H1 0.74x | H2 1.16x | H3 1.8e-125x  (glow T = 1.9e-30 K)
+  Hubble radius 4.45 Gpc: H1 1.46x | H2 2.28x | H3 7.2e-125x  (glow T = 2.7e-30 K)
+  Circularity: Einstein's equation gives total density x (Hubble radius)^2 = 3c^2/(8 pi G) exactly, for any contents; H1 with the Hubble radius = total density = 1/0.685 = 1.46 x dark energy. The horizon is set BY the contents.
+Step 2 (outside clock: stars):
+  particle constants (Carr-Rees): t = 0.68 Gyr -> rho = 3.93e-24 kg/m^3 = 672.65 x measured
+  Sun's measured main-sequence life 10 Gyr: t = 10.00 Gyr -> rho = 1.80e-26 kg/m^3 = 3.07 x measured
+  dial clock 8.2 Gyr (reference): t = 8.20 Gyr -> rho = 2.67e-26 kg/m^3 = 4.57 x measured
+  For scale: the naive quantum estimate (Planck density) is 8.8e+122 x measured.

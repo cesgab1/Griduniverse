@@ -1078,3 +1078,13 @@ To run pre-registered, with look-elsewhere stated.
 - Tension: quantum fields say empty space is never empty (vacuum fluctuations); a truly empty universe needs vacuum energy exactly
   zero -- which is the cosmological-constant problem restated. D0 (defined at aH = c) is a reference value of a state that never occurs.
 - Speculative link (labelled): Penrose's conformal cyclic picture uses a massless, scale-free far future as the next Bang.
+
+## Iteration 79 (Oct 4 2026): what does a horizon cost? -- horizon_cost/PREREG_79.md, iter79_horizon_cost.*
+- Step 1: black-hole cost 0.74x (event horizon) / 1.46x (Hubble radius); quantum rule (l = 1.64 l_P) 1.16x / 2.28x; horizon glow
+  ~1e-125x (fails utterly). But the 'hits' are CIRCULAR: Einstein's equation fixes total density x (Hubble radius)^2 for any
+  contents; the horizon is set by the contents. Horizon rules explain the 1e-122 ratio as (Planck length / horizon)^2, nothing more.
+- Step 2 (outside clock): star lifetime from particle constants alone (Carr-Rees) 0.68 Gyr -> 670x measured (expected 50-300: worse);
+  Sun's measured 10 Gyr -> 3.1x (edge of expected 1-3). Dicke-type observer argument: shrinks the 1e123 mismatch to ~3-700 but
+  depends on unknown O(1) stellar factors and on choosing a Sun-like star. Not a mechanism.
+- Net: the size of dark energy = (horizon in Planck lengths)^-2; the horizon size ~ when observers exist ~ star lifetimes. The open
+  core is why dark energy stays CONSTANT at that level instead of tracking the horizon (tracking shapes are excluded: iteration 71).
