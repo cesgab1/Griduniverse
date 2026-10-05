@@ -1501,3 +1501,11 @@ Checked with numbers -- excluded on four independent grounds:
   universes (BEC 2018/2022), isotropy, random-grain photon timing, gravity-wave speed/polarisations.
 - Open: wall frozen vs growing (DESI DR3 / Euclid / Rubin), signature timing (~2 sigma tension), open curvature (~2 sigma).
 - Untestable: the cosmic wall's own glow and total bits.
+
+## Question (Oct 5 2026, Coalesce): do the only-dark-energy and only-matter universes end the same way?
+- Same: both expand forever and thin out into cold, dark emptiness (no crunch unless matter-only space is CLOSED -- excluded by data).
+- Different: dark energy -> SPEEDING UP, walls (horizons), every observer ends up alone on an island; constant: frozen wall, fixed
+  faint glow; fading: wall keeps growing, glow cools to 0. Matter only -> SLOWING forever (flat) or coasting into the empty light
+  cone (open, our curvature); NO horizon -- given time, everything comes into view; nothing is ever cut off.
+- Our universe started like the matter one and is ending like the dark-energy one (islands), the fading version making the island's
+  wall grow but not fast enough to keep other galaxies.
