@@ -1628,3 +1628,7 @@ Checked with numbers -- excluded on four independent grounds:
 - Non-dark grid lessons (cells widen, no fading, constant G) change NOTHING in the expansion: all our grid's cosmology runs through dark energy.
 - Bare universe gets atom count and age right; fails flatness (729 sigma), CMB spot size (~6x too small), BAO, SN shape (+10..+50), and grows lumps ~100x too little (no galaxies).
 - All six pre-registered expectations met.
+
+## Shelved: spreadsheet cells/rows analogy
+- User: it was a thought experiment prompted by dark matter/dark energy talk; holds no value at the moment. Do not build on it.
+- Unaffected: iteration 84's data result (fixed-size blocks excluded at 5.4-6.7 sigma) and iterations 92-93, none of which used the analogy.
