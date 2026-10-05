@@ -1,0 +1,14 @@
+A. Virgo cluster (sigma 638 km/s)
+   M_b 1.65e+13 Msun -> kappa 0.630  (= 16.1x Fornax dwarf 0.039; Coma 0.21-0.42)
+   M_b 1.00e+14 Msun -> kappa 0.104  (= 2.7x Fornax dwarf 0.039; Coma 0.21-0.42)
+   Virgo's pull at the Milky Way: 3.6e-13 m/s^2 = 0.0030 a0
+
+B. SPARC: residual r = log10(v_flat^4 / G M_b a0)  (0 = exactly on the galaxy law)
+   Ursa Major cluster members: N=27  mean +0.012  scatter 0.153 dex
+   field / other galaxies:     N=123  mean -0.094  scatter 0.406 dex
+   difference +0.106 +/- 0.047 dex  (+2.2 sigma);  in speed: +6.3%
+
+C. Milky Way (field galaxy)
+   M_b 5e+10 -> v_flat predicted 168 km/s   (observed ~200 at 25 kpc, Eilers+2019)
+   M_b 6e+10 -> v_flat predicted 176 km/s   (observed ~200 at 25 kpc, Eilers+2019)
+   M_b 7e+10 -> v_flat predicted 183 km/s   (observed ~200 at 25 kpc, Eilers+2019)

@@ -1,0 +1,2 @@
+POST-HOC: medians  UMa +0.009  field -0.058  diff +0.067 dex
+POST-HOC: 3-sigma clipped  UMa N=27 +0.012  field N=118 -0.039 (scatter 0.309)  diff +0.051 +/- 0.041 (+1.2 sigma)

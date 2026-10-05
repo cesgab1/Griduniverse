@@ -1644,3 +1644,9 @@ term in the v^4 family without a reason clusters differ from dwarf spheroidals (
 - So only a distance ERROR matters, not where we stand. To close the x5.3 kappa gap (iteration 94), Coma would have to be 1.9x
   farther (~190 vs ~100 Mpc). Excluded: Coma distance known to ~5% by several methods. Zwicky's 1933 ratio was inflated because
   his H0 (558) made distances ~8x too small. No test opened.
+
+## Iteration 95 -- cluster environment: Milky Way + Virgo, SPARC Ursa Major members (environment/)
+- Virgo needs kappa x2.7-16 of the dwarf value (same cluster gap as Coma). Virgo's pull on us: 0.003 a0 (negligible).
+- Ursa Major members vs field: +0.106 +/- 0.047 dex (2.2 sigma, pre-registered; narrow miss of "within 2 sigma"); post-hoc
+  clipped 1.2 sigma, sign opposite to MOND external-field effect; likely field distance errors. No environment effect established.
+- Milky Way: law gives 168-183 vs ~200 km/s (8-16% low; crude).
