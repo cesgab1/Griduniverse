@@ -1,0 +1,6 @@
+Pair threshold energy 1.022 MeV, region ~ reduced Compton wavelength 3.86e-13 m
+Space-time bending at the region's edge (G M / r c^2): 3.5e-45
+Electron: gravity radius 2Gm/c^2 = 1.4e-57 m vs its quantum size 3.9e-13 m -> ratio 3.5e-45
+Gravity vs electric force between two electrons: 2.4e-43
+Best detectors: LIGO strain ~1e-21 -> short by x3e+23; smallest mass whose gravity was measured ~9e-5 kg (90 mg) -> x5e+25 heavier
+Grid: region = 1.5e-10 of a 2.5 mm cell; = 2.4e+22 Planck lengths across
