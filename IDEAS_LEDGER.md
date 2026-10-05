@@ -1246,3 +1246,9 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
 - LOCAL version (stronger push where mass concentrates) = excluded: dark energy following stellar mass +49..+72 in chi2 (iteration 78);
   no extra push in the Solar System (Cassini gamma - 1 ~ 2e-5; lunar laser ranging), cluster lensing masses agree with gas/dynamics.
 - So: stress relief happens for the universe as a whole (cosmic average), not region by region.
+
+## Predictions registered (Oct 4 2026) -- predictions/stress_relief_predictions.*
+- Signature (any beta): w crosses -1 at EXACTLY the redshift where acceleration begins, and dark energy peaks there (z ~ 0.67-0.71).
+- beta 0.35 / 0.5 / 0.85: w today -0.94 / -0.91 / -0.85; peak +5 / +7 / +13% above today; w(z=1) -1.02 / -1.03 / -1.04.
+- Open curvature +0.002; no Big Rip; GW at c with two polarisations (passed); no extra push near masses.
+- Redshift drift (ELT, 20 yr): Claim 1 vs constant differ by ~0.3 cm/s at z = 1 -- too small for the planned precision (honest null).

@@ -1,0 +1,13 @@
+Predictions of the stress-relief (Claim 1) law, registered 2026-10-04 before DESI DR3 / Euclid / ELT results.
+
+beta = 0.35: w today -0.938; w = -1 crossing at z = 0.669; acceleration starts (q = 0) at z = 0.669; dark-energy peak 5.0% above today at z = 0.67; w(z=1) = -1.019
+beta = 0.5: w today -0.911; w = -1 crossing at z = 0.681; acceleration starts (q = 0) at z = 0.681; dark-energy peak 7.3% above today at z = 0.68; w(z=1) = -1.026
+beta = 0.85: w today -0.849; w = -1 crossing at z = 0.712; acceleration starts (q = 0) at z = 0.712; dark-energy peak 13.4% above today at z = 0.71; w(z=1) = -1.041
+redshift drift over 20 yr at z = 1: Claim 1 4.23 cm/s, constant 4.49 cm/s
+redshift drift over 20 yr at z = 2: Claim 1 -0.22 cm/s, constant -0.21 cm/s
+redshift drift over 20 yr at z = 3: Claim 1 -5.54 cm/s, constant -5.59 cm/s
+redshift drift over 20 yr at z = 4: Claim 1 -10.66 cm/s, constant -10.70 cm/s
+
+Fixed features (any beta > 0): (1) dark energy's w crosses -1 at EXACTLY the redshift where acceleration begins (w = -1 - beta q/3);
+(1b) dark energy PEAKS at that same redshift; (2) no Big Rip, no crunch (beta = 1/2: far future a ~ t^5); (3) open curvature Omega_k ~ +0.002 (P1);
+(4) gravitational waves at c with only GR's two polarisations (passed); (5) dark energy uniform -- no extra push near masses.
