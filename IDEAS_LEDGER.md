@@ -1167,3 +1167,13 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
   as a tiny prefactor. Expectations met.
 - Verdict: the elastic stretching-block tally explains the SHAPE (beta = 1/2, rise-and-fade, phantom crossing) but NOT the block size
   or dark energy's size without a new tiny number. Consistent with iteration 80 (size observer-set). Block size remains unpinned.
+
+## Iteration 86 (Oct 4 2026): grid with everything learned -- cell HISTORY clue -- elastic_grid/PREREG_86.md, iter86_grid_history.*
+- Planck-sized cells born at the Planck time, only stretched: 2.5 mm today; kappa needed 2.9e-9 (vs 1e-120 for window-sized cells);
+  28.7 x dark energy's own length (0.088 mm). Born at reheating (1e15 GeV): 0.2 micrometres, kappa 1e-27. Born at electroweak:
+  2.8e-20 m, kappa 1e-85. (My expectation for electroweak was backwards: later birth = less stretch = smaller.)
+- All are excluded if LIGHT sees the cells (x5e7 to x4e24 over the photon limit) -> light must not see the grid (two-sector).
+- With inflation before birth: 3e23 m -> Planck birth requires no inflation before it.
+- Same problem as before: a small number remains (2.9e-9 at best). Different clue: the grid's history shrinks the gap from 1e-120
+  to 1e-9 and lands near the millimetre scale, where dark energy's own length (0.09 mm) and lab short-range gravity tests
+  (Eot-Wash, to 0.052 mm) live. Flagged: 3 birth choices, several scales -> possible coincidence; not evidence.

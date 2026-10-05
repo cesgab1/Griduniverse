@@ -1,0 +1,7 @@
+Iteration 86: Planck-sized cells born at a moment, stretched to today. PREREG_86.md
+
+dark energy's own length (hbar c/rho)^(1/4) = 0.088 mm; averaging scale (iteration 48) 0.03 mm; Eot-Wash tested to 0.052 mm
+born at Planck time: stretch x1.57e+32 -> cell today 2.53e-03 m | kappa needed 2.9e-09 | vs DE length x28.7 | vs photon limit x4e+24
+born at reheating 1e15 GeV: stretch x1.28e+28 -> cell today 2.07e-07 m | kappa needed 1.2e-27 | vs DE length x0.0 | vs photon limit x4e+20
+born at electroweak 160 GeV: stretch x1.71e+15 -> cell today 2.76e-20 m | kappa needed 1.4e-85 | vs DE length x0.0 | vs photon limit x5e+07
+with 60 e-folds of inflation before a Planck birth: x1.1e+26 more -> 2.9e+23 m
