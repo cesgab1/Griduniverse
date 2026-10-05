@@ -1683,3 +1683,10 @@ Expectation miss: MW-M31 turnaround 8.5 Gyr (predicted 4-8).
   Trend is backwards: cold dwarf galaxies (gas ~1e4 K, heat ~1e-9 of mass) show the LARGEST discrepancy.
 - Serious relative: entropic/emergent gravity (Verlinde 2016) = gravity as thermodynamics; already our Family 1 rule 5
   (a0 = cH0/6); fits galaxy lensing roughly, reported to struggle in cluster cores (Ettori+2017, from memory). Excluded as heat.
+
+## Question (Coalesce): have we ruled out trajectory (galaxies just passing through, not held)?
+- Unbound clusters would disperse in a crossing time (1 Mpc / 1000 km/s = 0.98 Gyr); after 10 Gyr spread over ~10 Mpc. Clusters are
+  compact and common at all ages -> they are held.
+- Lensing measures mass with no assumption about motion or balance; X-ray gas (sound-crossing ~1 Gyr) is in balance and gives the
+  same mass. Trace-back (iteration 98) already used actual trajectories and still needed x5-28.
+- Ruled out as the explanation of the gap; it does add ~x1.3 uncertainty per cluster (merging clusters out of balance).
