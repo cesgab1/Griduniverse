@@ -1738,3 +1738,8 @@ elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark ener
 ## Iteration 99 -- uneven expansion (timescape) as dark energy (timescape/)
 SN alone ~ tie with LCDM (+5.1/-1.4/+2.0); BAO shape +4.6; combined +29/+2.5/+32 vs LCDM (SN want void fraction ~0.8, BAO 0.69).
 Our law best on all combinations (-4.9 to -6.4 vs LCDM). Expectation misses: small (BAO better than predicted; Union3 combined tie).
+
+## Iteration 100 -- does the 'when' matter? era-by-era fits (timescape/)
+Timescape's void fraction differs between eras (BAO-only, early vs late: 2.8 sigma; raw max 3.1-5.0 sigma incl. SN, inflated by
+range-edge hits); LCDM's Om stays consistent (0.6 sigma BAO; 0.9-2.3 sigma overall, DES control a mild miss). The SN-BAO mismatch is
+an era effect, and it argues against timescape's built-in timeline.

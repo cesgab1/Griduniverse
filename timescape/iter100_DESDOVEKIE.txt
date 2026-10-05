@@ -1,0 +1,15 @@
+Iteration 100 -- SNSET=DESDOVEKIE   (best value [68% range])
+ timescape: f_v0 per era
+   SN z 0.0-0.2 (N=245)         0.539 [0.399-0.736]
+   SN z 0.2-0.5 (N=713)         0.990 [0.862-0.990] (hits range edge)
+   SN z 0.5-max (N=862)         0.713 [0.649-0.782]
+   BAO z < 1                    0.736 [0.715-0.758]
+   BAO z > 1                    0.664 [0.649-0.677]
+   largest disagreement between eras: 5.0 sigma (SN z 0.2-0.5 (N=713) vs BAO z > 1)
+ LCDM: Om per era
+   SN z 0.0-0.2 (N=245)         0.589 [0.465-0.720]
+   SN z 0.2-0.5 (N=713)         0.273 [0.224-0.327]
+   SN z 0.5-max (N=862)         0.330 [0.285-0.384]
+   BAO z < 1                    0.309 [0.294-0.325]
+   BAO z > 1                    0.296 [0.278-0.314]
+   largest disagreement between eras: 2.3 sigma (SN z 0.0-0.2 (N=245) vs SN z 0.2-0.5 (N=713))

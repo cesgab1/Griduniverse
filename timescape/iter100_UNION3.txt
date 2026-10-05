@@ -1,0 +1,15 @@
+Iteration 100 -- SNSET=UNION3   (best value [68% range])
+ timescape: f_v0 per era
+   SN z 0.0-0.2 (N=3 bins)      0.800 [0.518-0.990] (hits range edge)
+   SN z 0.2-0.5 (N=6 bins)      0.990 [0.803-0.990] (hits range edge)
+   SN z 0.5-max (N=13 bins)     0.681 [0.611-0.753]
+   BAO z < 1                    0.736 [0.715-0.758]
+   BAO z > 1                    0.664 [0.649-0.677]
+   largest disagreement between eras: 3.5 sigma (SN z 0.2-0.5 (N=6 bins) vs BAO z > 1)
+ LCDM: Om per era
+   SN z 0.0-0.2 (N=3 bins)      0.434 [0.278-0.603]
+   SN z 0.2-0.5 (N=6 bins)      0.316 [0.267-0.370]
+   SN z 0.5-max (N=13 bins)     0.357 [0.298-0.427]
+   BAO z < 1                    0.309 [0.294-0.325]
+   BAO z > 1                    0.296 [0.278-0.314]
+   largest disagreement between eras: 0.9 sigma (SN z 0.5-max (N=13 bins) vs BAO z > 1)

@@ -4,8 +4,11 @@ from scipy.optimize import minimize_scalar
 here = os.path.dirname(os.path.abspath(__file__))
 exec(open(os.path.join(here, "iter99_timescape.py")).read().split("# self-check")[0])
 full_icov, Z, M, ZH = sn_icov.copy(), z_sn.copy(), mb.copy(), zhel.copy()
+_cov = np.linalg.inv(full_icov); _cache = {}
 def sn_slice(DM, m):
-    ic = np.linalg.inv(np.linalg.inv(full_icov)[np.ix_(m, m)])
+    k = m.tobytes()
+    if k not in _cache: _cache[k] = np.linalg.inv(_cov[np.ix_(m, m)])
+    ic = _cache[k]
     r = M[m] - 5*np.log10((1 + ZH[m])*np.interp(Z[m], zgrid, DM)); B = (ic @ r).sum()
     return r @ ic @ r - B**2/ic.sum()
 bao_all = bao.copy(); icov_all = np.linalg.inv(bao_icov)
