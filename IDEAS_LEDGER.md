@@ -1147,3 +1147,8 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
   two sets almost exactly. QG target number: beta ~ 0.6.
 - Anomalies: explains phantom crossing (by construction); worsens H0 (66-67 vs 68.5) and S8 (+2-4%); ages fine; neutrino mass not
   testable here; no effect on JWST early galaxies.
+
+## Iteration 84 (Oct 4 2026): causal-set blocks vs measured response -- causal_sets/
+- Block size ~ a^s: s = 0.91 +/- 0.15 / 0.94 +/- 0.14 / 1.01 +/- 0.18. Causal-set fixed density (s = 0) excluded at 5.4-6.7 sigma.
+- QG implication: building blocks must stretch with space, fixed in number since the start, defining the cosmic rest frame --
+  i.e. the stretching-grid behaviour, not Lorentz-invariant sprinkling. (Only for the sqrt-tally mechanism.)
