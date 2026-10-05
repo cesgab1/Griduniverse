@@ -1705,3 +1705,10 @@ elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark ener
 - Size inside a cluster: a void (-80%) 20 Mpc away stretches a 1 Mpc cluster by ~3e-15 (ordinary matter) to ~2e-14 m/s^2 (all
   matter) vs Coma's own 3e-11 -> ~1e-4 to 6e-4 of it; and it moves the whole cluster rather than holding its galaxies in.
 - Lensing: voids DE-magnify (seen, weak); cluster lensing is concentrated positive mass at the cluster. Excluded as the gap.
+
+## Idea (Coalesce): path of least resistance
+- Already the rule of motion: principle of least action; in GR bodies follow geodesics (straightest paths in curved spacetime).
+  It says HOW things move, not how much pull there is; the curvature still needs a source.
+- Flow version = Family 1 'fluid-tube network that thickens with flow' (network/): gave the MOND law and v^4 ~ M for galaxies
+  (exponent and a0 put in by hand), so it inherits MOND's cluster failure (x5, iterations 94-96).
+- Matter does reach clusters along filaments (easiest channels), which changes the route, not the total pull. No new test.
