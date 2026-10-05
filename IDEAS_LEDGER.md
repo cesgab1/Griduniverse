@@ -1773,3 +1773,12 @@ tables without a recomputation check.
 Visible matter puts the tip on the hot gas under Newton (bullet gas) AND under the galaxy rule (main gas); lensing puts it on the
 galaxies ~200 kpc away. Offset-free differences miss by 4.6 sigma (Newton) and 5.1 sigma (galaxy rule). Any 'no new stuff' idea must
 explain why curvature peaks where the galaxies are, not where most visible mass is.
+
+## Question (Coalesce): are asteroid belts and other unseen ordinary masses accounted for?
+- Star masses come from starlight x stellar mass-to-light from star models, which already include dim stars and dead stars
+  (white dwarfs, neutron stars). Planets ~0.13% of a star; asteroid belts ~1e-9; dust ~1% of gas; central black holes ~0.1-0.2% of
+  bulges; stars between galaxies (intracluster light, 10-30% of starlight) are measured and counted in modern work.
+- Bullet: extra mass needed at the main galaxies ~2.7e13 Msun in 100 kpc = x50 their stars, x5 the gas there.
+- Any ordinary matter (any size, asteroids included) counts toward the Big-Bang deuterium total: making clusters' missing ~85%
+  ordinary would need ~6x the measured ordinary matter. Microlensing also limits dark compact objects of planet-star mass.
+  (Asteroid-mass window is open only for non-ordinary objects, e.g. primordial black holes -- which would be 'new stuff'.)
