@@ -1601,3 +1601,12 @@ Checked with numbers -- excluded on four independent grounds:
 - Do you FEEL it? Widening elsewhere: no -- a value riding in its cell is in free fall (accelerometer reads 0); you SEE the others'
   recession speed grow (redshift drift). Only the stretching of your OWN cell is felt, as a tiny tidal push: 3e-36 m/s^2 across a
   person, 2e-29 across Earth, 2e-23 across the Solar System, 2e-15 across a galaxy -- always overwhelmed by the forces holding things together.
+
+## Idea: dark energy as an EFFECT of something being added to space (not a substance)
+- User framing: dark energy is the visible effect of something added to space (dark matter or other), not a feature/force of its own.
+- Prior art: steady-state "creation field" (Hoyle) and matter-creation cosmologies (Prigogine; Lima et al. "CCDM"): continuously creating particles acts like negative pressure and can mimic acceleration.
+- Already tested in this repo:
+  - Adding new cells/blocks (inserting columns): excluded at 5-7 sigma (iteration 84, causal_sets/).
+  - Energy flowing between dark matter and dark energy: none found, |xi| < ~0.2 (iteration 90, dark_link/).
+- Still allowed: dark energy as a bookkeeping effect of the existing grid (Claim 1 counts patches; no new substance). That is our current model.
+- No new number computed; no new test opened (goal-post rule).
