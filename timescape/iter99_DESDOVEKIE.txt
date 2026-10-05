@@ -1,0 +1,6 @@
+Iteration 99 -- SNSET=DESDOVEKIE
+  timescape SN only: chi2   1633.39 (param 0.853) | BAO shape: chi2  14.86 (param 0.685) | SN+BAO: chi2   1676.93 (param 0.697)
+  LCDM      SN only: chi2   1631.42 (param 0.330) | BAO shape: chi2  10.28 (param 0.297) | SN+BAO: chi2   1645.33 (param 0.306)
+  LAW       SN only: chi2   1630.10 (param 0.310) | BAO shape: chi2   8.76 (param 0.306) | SN+BAO: chi2   1638.89 (param 0.307)
+  timescape minus LCDM: SN   +1.97   BAO   +4.58   SN+BAO  +31.60
+  LAW       minus LCDM: SN   -1.33   BAO   -1.53   SN+BAO   -6.44

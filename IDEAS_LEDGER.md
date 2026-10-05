@@ -1734,3 +1734,7 @@ elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark ener
   equations a region contracts only if something gravitates (Raychaudhuri: density + shear), so it brings the mass back.
   Lensing (Bullet Cluster) puts the pull with the galaxies; CMB peaks need the extra matter when expansion was smooth to 1e-5.
 - Verdict: plausible for dark energy, excluded for dark matter.
+
+## Iteration 99 -- uneven expansion (timescape) as dark energy (timescape/)
+SN alone ~ tie with LCDM (+5.1/-1.4/+2.0); BAO shape +4.6; combined +29/+2.5/+32 vs LCDM (SN want void fraction ~0.8, BAO 0.69).
+Our law best on all combinations (-4.9 to -6.4 vs LCDM). Expectation misses: small (BAO better than predicted; Union3 combined tie).

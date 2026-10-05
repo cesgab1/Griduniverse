@@ -1,0 +1,6 @@
+Iteration 99 -- SNSET=UNION3
+  timescape SN only: chi2     22.54 (param 0.770) | BAO shape: chi2  14.86 (param 0.685) | SN+BAO: chi2     41.33 (param 0.688)
+  LCDM      SN only: chi2     23.96 (param 0.356) | BAO shape: chi2  10.28 (param 0.297) | SN+BAO: chi2     38.85 (param 0.303)
+  LAW       SN only: chi2     22.78 (param 0.340) | BAO shape: chi2   8.76 (param 0.306) | SN+BAO: chi2     32.77 (param 0.309)
+  timescape minus LCDM: SN   -1.42   BAO   +4.58   SN+BAO   +2.47
+  LAW       minus LCDM: SN   -1.18   BAO   -1.53   SN+BAO   -6.08

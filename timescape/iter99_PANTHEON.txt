@@ -1,0 +1,6 @@
+Iteration 99 -- SNSET=PANTHEON
+  timescape SN only: chi2   1408.05 (param 0.856) | BAO shape: chi2  14.86 (param 0.685) | SN+BAO: chi2   1445.11 (param 0.694)
+  LCDM      SN only: chi2   1402.92 (param 0.331) | BAO shape: chi2  10.28 (param 0.297) | SN+BAO: chi2   1416.18 (param 0.304)
+  LAW       SN only: chi2   1402.53 (param 0.308) | BAO shape: chi2   8.76 (param 0.306) | SN+BAO: chi2   1411.29 (param 0.306)
+  timescape minus LCDM: SN   +5.13   BAO   +4.58   SN+BAO  +28.92
+  LAW       minus LCDM: SN   -0.39   BAO   -1.53   SN+BAO   -4.89
