@@ -1334,3 +1334,11 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
   carry black-hole area entropy); the dark-energy tally counts COMOVING PATCHES fixed at birth (each patch = many grains; Planck-time
   patches are 2.5 mm today and hold ~4e96 grains). Iteration 84 constrains what is TALLIED (comoving), not the grains. Consistent with
   iterations 84 and 89; an interpretation, no new prediction; the patch-size / kappa problem remains.
+
+## Question (Oct 4 2026, Coalesce): 3 dimensions or a line?
+- The grains fill 3-D space (plus time). Different questions count them in different dimensions: black-hole entropy counts grains on
+  the 2-D horizon surface; dark energy counts patches along a 1-D line (preferred ~1.6 sigma over area in 2 of 3 SN sets; volume
+  disfavoured ~3.7 sigma there; Union3 allows all).
+- Natural reading of the line: the number of patches a light signal crosses in ONE expansion time (comoving Hubble radius / patch
+  size) -- a 1-D path through 3-D space. Differs from the excluded 'light since the start' tally (iteration 66) by using the current
+  window only.
