@@ -1308,3 +1308,12 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
 - Link to gravity: Compton time = 2.4e22 Planck ticks; (Planck tick / Compton time)^2 = 1.75e-45 = G m_e^2/(hbar c) -- the same tiny
   number as the space-time bending of pair creation. Gravity is weak at particle scale because the electron's clock is 2.4e22 x
   slower than the Planck clock.
+
+## What the clock mismatch means for quantum gravity (Oct 4 2026)
+- Strength of quantum-gravity effects in a process ~ (Planck tick / process tick)^2: electron 1.75e-45, proton ~6e-39. They become
+  order one only when the process clock nears the Planck tick (~1e19 GeV): black holes, the Big Bang.
+- Only three ways to see quantum gravity: (1) reach Planck energies (impossible in labs), (2) accumulate over huge numbers --
+  cosmic distances (our sqrt-N tally across ~1e60 Planck lengths is exactly this) or many particles (entanglement experiments),
+  (3) black holes / early universe.
+- Supports the two-sector picture (particles too out of step with the blocks to feel them). Does not explain the size of the
+  mismatch itself (m_Planck/m_e = 2.4e22: the hierarchy problem, open everywhere).
