@@ -1525,3 +1525,13 @@ Checked with numbers -- excluded on four independent grounds:
 - eps (extra dimming) = 0.00 +/- 0.013-0.021 with Claim 1; -0.03..-0.05 +/- 0.013-0.021 with constant DE (slight brightening, the same
   signal fading dark energy absorbs). H0 stays 67.5-68.6 -> fading light cannot explain the Hubble tension (local 73).
 - Photons are not lost on the way at the ~2-4% level (distance duality holds); CMB black-body spectrum also limits photon loss.
+
+## Question (Oct 5 2026, Coalesce): what makes distant supernovae look slightly brighter (vs constant dark energy)?
+- Size of the effect: eps -0.026..-0.046 = 0.04-0.07 magnitudes brighter at z ~ 1 (2-3% in distance).
+- Candidates: (1) the expansion history really differs (fading dark energy -> distant objects truly a bit closer): removes it fully
+  (eps ~ 0 with Claim 1); supported because DESI BAO + CMB WITHOUT supernovae also prefer evolving dark energy (~3 sigma).
+  (2) supernova evolution (younger progenitors / host galaxies at high z; claimed strong age bias, Son et al. 2025, disputed).
+  (3) calibration between different telescopes/surveys (0.02-0.05 mag is typical).
+  (4) selection (only brighter far supernovae detected; corrected, imperfectly). (5) photon gain (exotic; CMB spectrum limits it).
+- (1)-(4) are all of the right size (few hundredths of a magnitude) -> cannot be separated with supernovae alone; BAO is the
+  independent check.
