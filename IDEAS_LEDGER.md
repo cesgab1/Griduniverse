@@ -1392,3 +1392,9 @@ beta ~ 0.6 vs constant at 2.4-3.2 sigma. Deciders: DESI DR3 / Euclid / Rubin, CM
 - The electron-size region's capacity (area law) is ~2.6e45 bits; filling it needs the energy of a black hole that size: 2.6e14 kg
   (a mountain) vs the electron's 9.1e-31 kg. Only black holes fill all their grains.
 - Empty-space grains' bits are capacity, not content ('blank pages'); they show up as real entropy only at horizons.
+
+## Framing (Oct 4 2026, Coalesce): information is SPENT energy
+- Writing a bit spends energy (Bekenstein cost per bit; Landauer cost to erase). Grains = capacity; energy = budget; a black hole has
+  spent enough to fill every grain on its surface.
+- Ties to dark energy (interpretation, no new prediction): the sqrt-N tally reads naturally as the net random imbalance of N blank
+  grain-bits along the horizon line (random nudges -> sqrt(N)), i.e. dark energy = the leftover statistical 'charge' of unspent capacity.
