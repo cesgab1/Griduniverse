@@ -1419,3 +1419,11 @@ SELF-CORRECTION: my 'dark energy = random imbalance of blank bits along a line' 
 lines of sight (independent random sums differ by ~100%) -> dark energy would depend on direction. The expansion is the same in all
 directions to about the percent level (supernova/BAO isotropy tests) -> that literal reading is excluded; the sqrt-N must be a
 deterministic size rule over the whole horizon, not a per-direction random sum.
+
+## Question (Oct 4 2026, Coalesce): must a block be exactly 1 Planck length on each side, or can it be bigger?
+- What black holes fix is the INFORMATION DENSITY: one bit per 4 ln2 l_P^2 = 2.77 Planck areas -- not the grain size.
+- Bits per grain = (l / l_P)^2 / 2.77: 1.67 l_P -> 1 bit (the minimum: smaller would need < 1 bit); 2 l_P -> 1.4; 10 l_P -> 36;
+  1000 l_P -> 3.6e5; 5.7e-28 m -> 4e14. Bigger grains are allowed if each holds more bits.
+- No cube shape needed: random grains have only an average volume; the horizon count only uses area per bit.
+- Upper limits: the gamma-ray 5.7e-28 m bound applies only to graininess light can feel (regular lattices); random grains evade it.
+  So: minimum ~1.67 l_P (one bit), maximum not fixed by current data.
