@@ -1238,3 +1238,11 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
   gets there (no Big Rip); a phantom constant w < -1 forever would.
 - Model consistency point: Claim 1 reads the COSMIC expansion rate. Inside a galaxy the local expansion is zero, so a local
   reading would make (aH)^(-1/2) blow up -- the law must use the cosmic (averaged) 'now', as iteration 48 required.
+
+## Idea (Oct 4 2026, Coalesce): dark energy as the universe's stress relief -- pushes masses apart where tension is extreme
+- GLOBAL version = what the data already measure: matter's pull slows the stretching -> tension builds -> dark energy rises -> pushes
+  -> stretching speeds up -> tension relaxes -> dark energy fades. This is Claim 1 (beta = 1/2; measured 0.58-0.63), the
+  rise-peak-fade slices (iteration 82) and the phantom crossing. Supported at ~2-3 sigma.
+- LOCAL version (stronger push where mass concentrates) = excluded: dark energy following stellar mass +49..+72 in chi2 (iteration 78);
+  no extra push in the Solar System (Cassini gamma - 1 ~ 2e-5; lunar laser ranging), cluster lensing masses agree with gas/dynamics.
+- So: stress relief happens for the universe as a whole (cosmic average), not region by region.
