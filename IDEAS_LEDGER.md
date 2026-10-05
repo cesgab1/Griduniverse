@@ -1632,3 +1632,9 @@ Checked with numbers -- excluded on four independent grounds:
 ## Shelved: spreadsheet cells/rows analogy
 - User: it was a thought experiment prompted by dark matter/dark energy talk; holds no value at the moment. Do not build on it.
 - Unaffected: iteration 84's data result (fixed-size blocks excluded at 5.4-6.7 sigma) and iterations 92-93, none of which used the analogy.
+
+## Iteration 94 -- one law for galaxies and clusters (Coalesce, voice session) -- unified_law/
+Family 1 / MOND family. v_tot^2 = v_ord^2 + v_rand^2, v^4 legs with a0. Galaxy leg passes (148 km/s NGC 3198).
+As written, k = random/ordered energy is self-inconsistent (k^2 = k) and undefined for Coma. Well-posed version (one kappa)
+needs ~5x larger kappa for Coma than for the Fornax dwarf: FAILS, same cluster gap as before. Do not re-propose a random-motion
+term in the v^4 family without a reason clusters differ from dwarf spheroidals (both are random-motion systems).

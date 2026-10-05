@@ -1,0 +1,14 @@
+C3 NGC 3198: v_ord = (G M a0)^1/4 = 147.9 km/s (observed ~150)
+C1 NGC 3198: k = (10/150)^2 = 0.0044 -> formula gives v_rand = k^1/4 v_ord = 38.2 km/s, but the input random motion was 10 km/s
+   v_tot = 152.7 km/s.  Self-consistency needs k^2 = k (k = 0 or 1). Coma: v_ord = 0 -> k infinite (undefined).
+
+C2 one kappa for all random-motion systems: kappa = sigma^4 / (G M_b a0)   [MOND isothermal theory: 4/81 = 0.049]
+  Fornax dSph sigma   11.7 km/s  M_b 2.0e+07 Msun  -> kappa = 0.059
+  Fornax dSph sigma   11.7 km/s  M_b 3.0e+07 Msun  -> kappa = 0.039
+  Fornax dSph sigma   11.7 km/s  M_b 4.0e+07 Msun  -> kappa = 0.029
+  Coma        sigma 1000.0 km/s  M_b 3.0e+14 Msun  -> kappa = 0.209
+  Coma        sigma 1000.0 km/s  M_b 1.5e+14 Msun  -> kappa = 0.419
+  Coma        sigma 1000.0 km/s  M_b 2.0e+13 Msun  -> kappa = 3.139
+
+Coma needs kappa 5.3x Fornax's (central values).
+Equivalently: with Fornax's kappa, Coma's mass from its speeds = 1.60e+15 Msun vs visible 3e14 -> gap x5.3
