@@ -1200,3 +1200,13 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
     gamma rays measure all starlight ever made (Fermi-LAT 2018, Science 362, 1031).
   * Gravity of everything along the path: weak lensing distortions.
 - Model link: fading dark energy changes the FRB delay-vs-distance relation by < 1% -> needs thousands of localised FRBs (future).
+
+## Question (Oct 4 2026, Coalesce): what happens to the building block(s) at the point where matter is created?
+- Standard physics: gravity responds to ENERGY; the photons' energy already bent space-time before the pair existed. Creation
+  converts motion-energy into rest-energy at the same total -> no new gravity appears; only its spread changes (light at c ->
+  slower particles).
+- Elastic-grid picture (two-sector, measured attributes): no new block is made (s ~ 1), the block's tension is not drained
+  (no leakage, iteration 48), the event fits inside one block (1.5e-10 of a 2.5 mm cell) -> the block is unchanged.
+- Only possible contact: Claim 2 / iteration 49 -- the electron's mass may be READ from the local tension (scalar coupling). Then the
+  block sets the 'price' (2 m_e c^2 = 1.022 MeV today; ~0.7% higher before z ~ 100 if Claim 2 holds) but is not changed by paying it
+  (the tension does not propagate, so no ripple spreads).
