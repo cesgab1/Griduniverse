@@ -1771,5 +1771,5 @@ tables without a recomputation check.
 
 ## Iteration 102 -- tip of the Bullet Cluster's curvature from visible matter (bullet_tip/)
 Visible matter puts the tip on the hot gas under Newton (bullet gas) AND under the galaxy rule (main gas); lensing puts it on the
-galaxies ~200 kpc away. Offset-free differences miss by 4.7 sigma (Newton) and 5.2 sigma (galaxy rule). Any 'no new stuff' idea must
+galaxies ~200 kpc away. Offset-free differences miss by 4.6 sigma (Newton) and 5.1 sigma (galaxy rule). Any 'no new stuff' idea must
 explain why curvature peaks where the galaxies are, not where most visible mass is.
