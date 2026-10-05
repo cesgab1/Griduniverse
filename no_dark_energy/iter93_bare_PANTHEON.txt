@@ -1,0 +1,29 @@
+Iteration 93 -- bare universe (atoms + light + neutrinos; nothing dark)   SNSET=PANTHEON
+
+LCDM reference (Planck 2018 params, not refitted): BAO chi2 31.4, SN chi2 1403.8, l_A pull +3.0 sigma, age 13.81 Gyr
+
+== BARE-OPEN ==
+  best combined h = 0.300: Om = 0.2560, Omega_k = 0.7435, omega_b = 0.0224
+  BAO chi2    27859.0  (LCDM 31.4)  -> delta +27827.6
+  SN  chi2     1454.1  at SN-only best h=1.000  -> delta vs LCDM(Planck) +50.3
+  CMB acoustic angle l_A = 1049.8 vs 301.46 +/- 0.09  -> +8361 sigma
+  sound horizon r_d = 201.6 Mpc (LCDM 147.1)
+  at h=0.674: age 13.53 Gyr (stars 13.3+/-0.5 -> -0.5 sigma), Omega_k 0.949, omega_b 0.022
+  at h=0.73: age 12.59 Gyr (stars 13.3+/-0.5 -> +1.4 sigma), Omega_k 0.957, omega_b 0.022
+  flatness: Omega_k 0.949 vs measured 0.002 +/- 0.0013 -> 729 sigma
+  atoms: omega_b 0.0224 vs BBN 0.0222 +/- 0.0005 -> 0 sigma
+  growth of lumps since recombination (z=1078): x78;  seeds ~1e-5..1e-4 -> today 7.8e-04..7.8e-03 (needed ~1)
+
+== BARE-FLAT ==
+  best combined h = 0.389: Om = 0.9997, Omega_k = 0.0000, omega_b = 0.1507
+  BAO chi2   114787.0  (LCDM 31.4)  -> delta +114755.6
+  SN  chi2     2101.1  at SN-only best h=1.000  -> delta vs LCDM(Planck) +697.3
+  CMB acoustic angle l_A = 450.4 vs 301.46 +/- 0.09  -> +1664 sigma
+  sound horizon r_d = 97.8 Mpc (LCDM 147.1)
+  at h=0.674: age 9.67 Gyr (stars 13.3+/-0.5 -> +7.3 sigma), Omega_k 0.000, omega_b 0.454
+  at h=0.73: age 8.93 Gyr (stars 13.3+/-0.5 -> +8.7 sigma), Omega_k 0.000, omega_b 0.532
+  flatness: Omega_k 0.000 vs measured 0.002 +/- 0.0013 -> -2 sigma
+  atoms: omega_b 0.4536 vs BBN 0.0222 +/- 0.0005 -> 863 sigma
+  growth of lumps since recombination (z=1054): x1017;  seeds ~1e-5..1e-4 -> today 1.0e-02..1.0e-01 (needed ~1)
+
+(LCDM: dark-matter lumps grow x767 after recombination, and had a head start before it)

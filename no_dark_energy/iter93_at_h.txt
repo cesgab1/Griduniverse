@@ -1,0 +1,4 @@
+BARE-OPEN h=0.674: BAO chi2   11727.4 (13 points), r_d 201.4 Mpc, l_A 1880.8 (+17647 sigma)
+BARE-OPEN h=0.73: BAO chi2   16061.0 (13 points), r_d 201.4 Mpc, l_A 1976.2 (+18712 sigma)
+BARE-FLAT h=0.674: BAO chi2  161627.3 (13 points), r_d 51.7 Mpc, l_A 487.5 (+2078 sigma)
+BARE-FLAT h=0.73: BAO chi2  175211.4 (13 points), r_d 46.7 Mpc, l_A 498.9 (+2206 sigma)

@@ -1623,3 +1623,8 @@ Checked with numbers -- excluded on four independent grounds:
 - Needs ~3x more matter than gravity finds; would over-grow structure ~30% (sigma8 1.07).
 - LAW closes all gaps (combined delta chi2 -5 to -7 vs LCDM, 3 SN sets). Local H0 gap still unclosed.
 - Expectation miss: OPEN universe vs Union3 SN only +12 (expected > 25).
+
+## Iteration 93 -- bare universe: atoms + light + neutrinos, nothing dark (no_dark_energy/RESULT_93.md)
+- Non-dark grid lessons (cells widen, no fading, constant G) change NOTHING in the expansion: all our grid's cosmology runs through dark energy.
+- Bare universe gets atom count and age right; fails flatness (729 sigma), CMB spot size (~6x too small), BAO, SN shape (+10..+50), and grows lumps ~100x too little (no galaxies).
+- All six pre-registered expectations met.
