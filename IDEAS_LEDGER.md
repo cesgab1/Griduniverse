@@ -1210,3 +1210,11 @@ None: particle masses / hierarchy, measurement problem, initial singularity cont
 - Only possible contact: Claim 2 / iteration 49 -- the electron's mass may be READ from the local tension (scalar coupling). Then the
   block sets the 'price' (2 m_e c^2 = 1.022 MeV today; ~0.7% higher before z ~ 100 if Claim 2 holds) but is not changed by paying it
   (the tension does not propagate, so no ripple spreads).
+
+## Remark (Oct 4 2026, Coalesce): 'so gravity is already quantum in a sense'
+- Established: gravity acts on quantum matter (neutron interference COW 1975; neutrons in quantised bounce levels, Nesvizhevsky 2002)
+  and responds to quantum energy (pair creation conserves the energy gravity sees).
+- Not established: gravity ITSELF quantum (space-time in superposition, gravitons). Proposed tests: gravity-induced entanglement
+  of two masses (Bose et al.; Marletto & Vedral 2017); single-graviton detection schemes (Tobar et al. 2024).
+- Our picture: geometry (gravity) responds to energy; the quantum fingerprint at cosmic scale is the sqrt-N tally in the tension
+  sector (beta ~ 1/2 measured as 0.6). So: quantum enters through the blocks' tally, not (yet) through gravity's own waves.
