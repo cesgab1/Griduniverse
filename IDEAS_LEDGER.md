@@ -1811,3 +1811,10 @@ explain why curvature peaks where the galaxies are, not where most visible mass 
   (black holes, diffusion) cannot match regions it never reached. The large-scale smoothness must be built in or set before.
 - A REAL smoother exists on small scales: photon diffusion (Silk damping) erases lumps < ~few Mpc before 380,000 yr; its heat
   is checked via the CMB spectrum. On asteroid-black-hole scales the record is essentially blank -> cannot exclude local smoothing there.
+
+## Iteration 103 -- off-centre in a dispersal? supernova direction test (off_centre/)
+Near shell (z < 0.05): 4.0% +/- 0.7% toward the Great Attractor/Shapley region (zCMB), 1.7% after flow correction -- a local pull.
+Middle/far shells: zero (far < ~1.5% at 95%), direction not consistent, not toward CMB or quasar dipoles. Off-centre (same-direction
+lopsidedness at all distances) not seen. Thinking note: in pure speed-sorted dispersal, every piece sees the same Hubble law, so
+position shows only through density/deceleration differences by direction.
+Expectation misses: near-shell dipole stronger than predicted (zCMB); middle shell too sparse for the predicted precision.
