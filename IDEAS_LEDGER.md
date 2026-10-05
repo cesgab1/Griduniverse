@@ -1719,3 +1719,9 @@ elasticity'). Our grid's tension (elastic_grid/, 5.3e-10 Pa) is set by dark ener
   speeds/infall; visible ~1e14. A fourth independent weighing (the slowdown itself), same x5-7 gap.
 - Gravity is NOT treated differently: the extra-mass reading uses the same Newton/Einstein gravity everywhere (it is just more
   mass). The 'different gravity' reading (MOND) is the one that fails clusters.
+
+## Coalesce: 'if the extra pull is everywhere, why only clusters, and why are we moving away? contradiction?'
+- Not only clusters: galaxies (largest in small dwarfs), MW+M31 (x28), CMB, structure growth all show it.
+- Moving away while pulled = ball thrown upward: the Big Bang start (1112 km/s away from Virgo at our distance) beats Virgo's
+  braking (185-250 km/s); inside ~7 Mpc the motion has already reversed. One force, two outcomes set by starting speed.
+- Consistency check passes: the SAME Virgo mass (6-9e14) explains both galaxies held inside and our slowed recession outside.
