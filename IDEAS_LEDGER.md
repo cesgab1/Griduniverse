@@ -1593,3 +1593,11 @@ Checked with numbers -- excluded on four independent grounds:
 - Where 'slack' DOES fit: in time, globally. The measured history (iteration 82; Claim 1) has tension PEAKING ~7 Gyr ago and RELAXING since
   (Claim 1 peak ~7% above today; slice data 13-20%). The universe is currently going slack -- but the remaining tension still pushes
   (acceleration continues), and slack never reverses the push in this law.
+
+## Thought experiment (Oct 5 2026, Coalesce): you are a value in a spreadsheet cell; columns/rows behind you are widened
+- Maps exactly onto cosmology: cells = comoving positions; widening = expansion. Every cell sees all others moving away, no centre.
+- WIDENING existing columns (cells stretch, same count) = our measured law (s ~ 1); INSERTING new columns (new cells) = the
+  fixed-size / causal-set version, excluded at 5-7 sigma (iteration 84). The spreadsheet picks the right one.
+- Do you FEEL it? Widening elsewhere: no -- a value riding in its cell is in free fall (accelerometer reads 0); you SEE the others'
+  recession speed grow (redshift drift). Only the stretching of your OWN cell is felt, as a tiny tidal push: 3e-36 m/s^2 across a
+  person, 2e-29 across Earth, 2e-23 across the Solar System, 2e-15 across a galaxy -- always overwhelmed by the forces holding things together.
