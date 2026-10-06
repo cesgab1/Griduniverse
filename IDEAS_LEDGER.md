@@ -2152,3 +2152,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   mass-to-light reported at 0.2/0.5/0.8; (2) galaxies' own measured boost curve instead of an assumed formula;
   (3) clusters point by point, no conclusion on a mass-defined boundary; (4) 'only-ever-expanding universes had a
   beginning; a bounce is not excluded' instead of Hawking-Penrose. Cross-checks: free-bin dark energy, lensing masses.
+
+- STUCK ITEMS WORKED (conventions/STUCK_ITEMS.md): S1 nearby dark energy above -1 robust in 8/8 edge choices (our law's
+  -0.94); z~1 dip is an edge artefact. S2 law's edge over LCDM survives any host-galaxy step (-5.2 to -5.5). S3 published
+  hot-gas bias (0.76-0.95) makes cluster shortfall larger (inner x2.7-3.4). S4 72 collisions (Harvey+2015): unseen mass
+  sits with stars (5.8 +/- 8.2 kpc), 7.6 sigma -> Bullet is a population. S5 Starobinsky R^2 1.7-3.0 sigma low vs latest
+  n_s (0.975); fine with Planck alone. S6 short-range G, fluid, Planck scale: notes only.

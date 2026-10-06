@@ -1,0 +1,3 @@
+Starobinsky N=50: n_s 0.9600, r 0.0048 | Planck 0.9649+/-0.0042 -> -1.2 sigma | ACT-combined 0.975+/-0.005 -> -3.0 sigma | r limit ~0.036-0.038: OK
+Starobinsky N=55: n_s 0.9636, r 0.0040 | Planck 0.9649+/-0.0042 -> -0.3 sigma | ACT-combined 0.975+/-0.005 -> -2.3 sigma | r limit ~0.036-0.038: OK
+Starobinsky N=60: n_s 0.9667, r 0.0033 | Planck 0.9649+/-0.0042 -> +0.4 sigma | ACT-combined 0.975+/-0.005 -> -1.7 sigma | r limit ~0.036-0.038: OK

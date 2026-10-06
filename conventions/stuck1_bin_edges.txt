@@ -1,0 +1,40 @@
+SNSET=PANTHEON edges [0.0, 0.3, 0.7, 1.2]: chi2 1406.12; w = [-0.97 -0.77 -1.57 -1.07]
+   bin 0.0-0.3: w -0.97; forcing -1 costs 0.6 -> 0.8 sigma
+   bin 0.3-0.7: w -0.77; forcing -1 costs 5.0 -> 2.2 sigma
+   bin 0.7-1.2: w -1.57; forcing -1 costs 6.1 -> 2.5 sigma
+   bin 1.2-inf: w -1.07; forcing -1 costs 0.1 -> 0.3 sigma
+SNSET=PANTHEON edges [0.0, 0.4, 0.8, 1.5]: chi2 1408.76; w = [-0.94 -0.84 -1.58 -1.01]
+   bin 0.0-0.4: w -0.94; forcing -1 costs 2.0 -> 1.4 sigma
+   bin 0.4-0.8: w -0.84; forcing -1 costs 1.5 -> 1.2 sigma
+   bin 0.8-1.5: w -1.58; forcing -1 costs 4.6 -> 2.1 sigma
+   bin 1.5-inf: w -1.01; forcing -1 costs 0.0 -> 0.0 sigma
+SNSET=PANTHEON edges [0.0, 0.4, 0.9, 1.3]: chi2 1411.13; w = [-0.93 -0.97 -1.49 -1.19]
+   bin 0.0-0.4: w -0.93; forcing -1 costs 3.2 -> 1.8 sigma
+   bin 0.4-0.9: w -0.97; forcing -1 costs 0.1 -> 0.3 sigma
+   bin 0.9-1.3: w -1.49; forcing -1 costs 1.7 -> 1.3 sigma
+   bin 1.3-inf: w -1.19; forcing -1 costs 0.3 -> 0.5 sigma
+SNSET=PANTHEON edges [0.0, 0.5, 1.0, 2.0]: chi2 1411.03; w = [-0.92 -1.08 -1.27 -1.45]
+   bin 0.0-0.5: w -0.92; forcing -1 costs 5.2 -> 2.3 sigma
+   bin 0.5-1.0: w -1.08; forcing -1 costs 0.5 -> 0.7 sigma
+   bin 1.0-2.0: w -1.27; forcing -1 costs 0.6 -> 0.8 sigma
+   bin 2.0-inf: w -1.45; forcing -1 costs 0.2 -> 0.4 sigma
+SNSET=UNION3 edges [0.0, 0.3, 0.7, 1.2]: chi2 27.50; w = [-0.86 -0.86 -1.47 -1.12]
+   bin 0.0-0.3: w -0.86; forcing -1 costs 4.0 -> 2.0 sigma
+   bin 0.3-0.7: w -0.86; forcing -1 costs 1.6 -> 1.3 sigma
+   bin 0.7-1.2: w -1.47; forcing -1 costs 4.1 -> 2.0 sigma
+   bin 1.2-inf: w -1.12; forcing -1 costs 0.2 -> 0.4 sigma
+SNSET=UNION3 edges [0.0, 0.4, 0.8, 1.5]: chi2 29.08; w = [-0.87 -0.91 -1.51 -1.07]
+   bin 0.0-0.4: w -0.87; forcing -1 costs 5.0 -> 2.2 sigma
+   bin 0.4-0.8: w -0.91; forcing -1 costs 0.4 -> 0.6 sigma
+   bin 0.8-1.5: w -1.51; forcing -1 costs 3.6 -> 1.9 sigma
+   bin 1.5-inf: w -1.07; forcing -1 costs 0.0 -> 0.1 sigma
+SNSET=UNION3 edges [0.0, 0.4, 0.9, 1.3]: chi2 30.71; w = [-0.85 -1.02 -1.42 -1.22]
+   bin 0.0-0.4: w -0.85; forcing -1 costs 6.6 -> 2.6 sigma
+   bin 0.4-0.9: w -1.02; forcing -1 costs 0.1 -> 0.2 sigma
+   bin 0.9-1.3: w -1.42; forcing -1 costs 1.2 -> 1.1 sigma
+   bin 1.3-inf: w -1.22; forcing -1 costs 0.3 -> 0.6 sigma
+SNSET=UNION3 edges [0.0, 0.5, 1.0, 2.0]: chi2 30.47; w = [-0.85 -1.13 -1.25 -1.48]
+   bin 0.0-0.5: w -0.85; forcing -1 costs 8.4 -> 2.9 sigma
+   bin 0.5-1.0: w -1.13; forcing -1 costs 1.2 -> 1.1 sigma
+   bin 1.0-2.0: w -1.25; forcing -1 costs 0.5 -> 0.7 sigma
+   bin 2.0-inf: w -1.48; forcing -1 costs 0.2 -> 0.4 sigma

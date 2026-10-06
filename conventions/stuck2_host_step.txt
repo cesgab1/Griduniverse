@@ -1,0 +1,4 @@
+S2 -- host-galaxy step, Pantheon+ (1590 of 1590 supernovae have host masses)
+  published standardisation: law minus LCDM chi2 = -5.43
+  + free extra step: law minus LCDM chi2 = -5.22; fitted step -0.008 mag (LCDM fit)
+  + free step changing linearly with redshift (d0 + d1 z): law minus LCDM chi2 = -5.48; fitted step +0.004 mag, change per unit z -0.052 mag (LCDM fit)

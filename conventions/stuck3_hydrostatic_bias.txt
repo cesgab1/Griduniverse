@@ -1,0 +1,2 @@
+LoCuSS X-ray/lensing 0.95+/-0.05: true mass x1.05 -> cluster shortfall vs galaxies inner x2.74, outer x1.62 (was 2.60 / 1.54, D2 method)
+CCCP 0.76+/-0.08: true mass x1.32 -> cluster shortfall vs galaxies inner x3.42, outer x2.03 (was 2.60 / 1.54, D2 method)
