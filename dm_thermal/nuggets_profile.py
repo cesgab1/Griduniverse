@@ -12,8 +12,8 @@ for M in (1e7, 1e9, 1e11, 1e13, 1e15):
     size = f"{R*1e3:.1f} mm" if R < 0.01 else f"{R*100:.1f} cm"
     print(f"{M:10.0e} {size:>8s} {sig:29.1e} {n_halo:26.1e} {every:>12.0f} yr {KE/kt:>11.0f} kt {dep/kt:>21.2f} kt")
 print("""
-Bullet-Cluster limit on collisions: < ~1 cm^2/g -> nuggets are ~1e11-1e13 times below it: they pass through like cold dark matter.
+Bullet-Cluster limit on collisions: < ~1 cm^2/g -> nuggets are ~1e13-1e16 times below it: they pass through like cold dark matter.
 A galaxy holds 1e27-1e35 of them: smooth, so on cosmic and galaxy scales they act exactly like cold dark matter (same successes,
 same galaxy-regularity puzzle). Distinguishing signal is only local: a nugget crossing Earth is a hypersonic (250 km/s) line source
-depositing ~0.03-130 kt of energy along a 12,700 km track (entry and exit points), once per ~14 yr (1e7 kg) to ~1e9 yr (1e15 kg).
+depositing ~100 kt (1e7 kg) to ~2e7 kt (1e15 kg) along a 12,700 km track (entry and exit points), once per ~14 yr (1e7 kg) to ~1e9 yr (1e15 kg).
 """)

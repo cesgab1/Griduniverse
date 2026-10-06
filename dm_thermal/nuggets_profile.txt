@@ -5,8 +5,8 @@
      1e+13   1.8 cm                       1.0e-15                    2.0e+29     13936271 yr 74689292543 kt            1082113.39 kt
      1e+15   8.4 cm                       2.2e-16                    2.0e+27   1393627089 yr 7468929254302 kt           23313426.24 kt
 
-Bullet-Cluster limit on collisions: < ~1 cm^2/g -> nuggets are ~1e11-1e13 times below it: they pass through like cold dark matter.
+Bullet-Cluster limit on collisions: < ~1 cm^2/g -> nuggets are ~1e13-1e16 times below it: they pass through like cold dark matter.
 A galaxy holds 1e27-1e35 of them: smooth, so on cosmic and galaxy scales they act exactly like cold dark matter (same successes,
 same galaxy-regularity puzzle). Distinguishing signal is only local: a nugget crossing Earth is a hypersonic (250 km/s) line source
-depositing ~0.03-130 kt of energy along a 12,700 km track (entry and exit points), once per ~14 yr (1e7 kg) to ~1e9 yr (1e15 kg).
+depositing ~100 kt (1e7 kg) to ~2e7 kt (1e15 kg) along a 12,700 km track (entry and exit points), once per ~14 yr (1e7 kg) to ~1e9 yr (1e15 kg).
 
