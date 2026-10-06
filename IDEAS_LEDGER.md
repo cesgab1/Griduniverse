@@ -2069,3 +2069,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   method used the reverse form. FINDING: the direction of the Amati relation is a hidden free choice that flips results
   (best Om 0.07 vs 0.89; EdS and atoms-only universes swap between rejected and fine). GRBs say nothing reliable about
   no-dark-energy universes. Rule added: any GRB distance claim must be shown in both forms.
+
+- ITERATION 112 (quantum_inventory/): Coalesce: "break a cluster down to a quantum system and see if it adds up". Coma: 3.1e71
+  protons, 4.5e70 neutrons, 3.1e71 electrons + heat, light, CMB, magnetism, cosmic rays, neutrinos (Pauli-limited trapping),
+  black holes, vacuum energy -> 0.180 of the needed mass (short x5.6, robust to radius). Non-particle items total -0.75%
+  (vacuum energy subtracts). Naive quantum vacuum 3e120 x too much and repulsive. MISS logged: forgot vacuum term in the
+  "<1e-3" expectation. The books do not balance at the quantum level either -- fifth independent sight of the same gap.

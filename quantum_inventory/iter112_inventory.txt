@@ -1,0 +1,26 @@
+Iteration 112 -- Coma, broken down to its known quantum constituents
+
+Coma inside R = 2.5 Mpc -- needed mass 1.60e+15 Msun; particles: 3.12e+71 protons, 4.49e+70 neutrons, 3.12e+71 electrons
+
+  1a protons + neutrons + electrons, counted one by one          +3.006e+14 Msun  = +1.88e-01 of needed
+  1b  helium nuclear binding (mass lost when He formed)          -5.691e+11 Msun  = -3.56e-04 of needed
+  1c  of which quark rest masses (~1% of nucleons)               +3.004e+12 Msun  = +1.88e-03 of needed (not added)
+  2 heat of the hot gas (8.2 keV)                                +5.461e+09 Msun  = +3.41e-06 of needed
+  3 gravitational binding of visible matter                      -1.034e+09 Msun  = -6.46e-07 of needed
+  4a starlight inside the cluster now (L x R/c)                  +5.510e+06 Msun  = +3.44e-09 of needed
+  4b ALL starlight ever made there (L x 12 Gyr, upper bound)     +8.109e+09 Msun  = +5.07e-06 of needed
+  5 relic light (CMB) inside the volume                          +4.492e+08 Msun  = +2.81e-07 of needed
+  6 magnetic field (5 microgauss throughout)                     +1.070e+09 Msun  = +6.69e-07 of needed
+  7 cosmic rays (<= 10% of the heat)                             +5.461e+08 Msun  = +3.41e-07 of needed
+  8a relic neutrinos, masses 0 / 0.0086 / 0.050 eV               +1.462e+10 Msun  = +9.14e-06 of needed
+  8b relic neutrinos, extreme 3 x 0.1 eV (excluded by DESI)      +2.164e+11 Msun  = +1.35e-04 of needed (not added)
+  9 central black holes (0.2% of stars)                          +1.000e+11 Msun  = +6.25e-05 of needed
+  10 measured vacuum energy (dark energy): pulls as -2 x rho V   -1.159e+13 Msun  = -7.24e-03 of needed
+
+  TOTAL of all known constituents: 2.885e+14 Msun = 0.180 of the needed mass  -> short x5.55
+  everything beyond plain protons/neutrons/electrons: -1.20e+13 Msun = -7.5e-03 of needed
+  11 naive quantum vacuum energy (Planck cutoff) in the volume: 5.0e+135 Msun = 3e+120 x needed (and repulsive)
+
+[R = 2.0 Mpc] TOTAL of all known constituents: 2.942e+14 Msun = 0.184 of the needed mass  -> short x5.44
+
+[R = 3.0 Mpc] TOTAL of all known constituents: 2.801e+14 Msun = 0.175 of the needed mass  -> short x5.71
