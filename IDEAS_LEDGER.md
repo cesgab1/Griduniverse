@@ -2147,3 +2147,8 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   parameters), dip to ~-1.5 at z 0.8-1.5 (~2 sigma, 1 of 4 bins, not significant); w0-wa's straight line blends the two.
   D4 Coma lensing masses disagree x2.2 with each other -> stuck. D5 unimodular gravity removes the 1e120 problem and fits a
   grid naturally (fixed cells per volume). D6 singularity theorems need conditions dark energy breaks; a bounce is allowed.
+
+- DEFAULT METHODS ADOPTED (conventions/DEFAULT_METHODS.md, Coalesce approved): (1) gas-dominated galaxy points lead,
+  mass-to-light reported at 0.2/0.5/0.8; (2) galaxies' own measured boost curve instead of an assumed formula;
+  (3) clusters point by point, no conclusion on a mass-defined boundary; (4) 'only-ever-expanding universes had a
+  beginning; a bounce is not excluded' instead of Hawking-Penrose. Cross-checks: free-bin dark energy, lensing masses.

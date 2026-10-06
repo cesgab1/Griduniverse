@@ -160,3 +160,6 @@ Every test so far, grouped by verdict. "Ours" marks results that appear not to b
 - Planck stars are Rovelli & Vidotto (2014) and Haggard & Rovelli (2015).
 
 The grid-tension framing, the dark-energy law, and the tests here are this project's.
+
+## Default methods
+See conventions/DEFAULT_METHODS.md (adopted after the convention drills).
