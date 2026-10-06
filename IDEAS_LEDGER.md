@@ -2012,3 +2012,12 @@ solution, but (1) is a test of asteroid-mass primordial black holes and (2) bear
 - Data on shape: lensing shows cluster mass CONCENTRATED (peaked at central galaxies, Bullet tip on galaxies), not shallow/even.
 - Galaxy-rule (MOND) non-linearity is the real 'collective' option; already computed for the Bullet (iteration 102: still misses) and
   per-galaxy addition (galaxies_lensing/cluster_review: overshoots, combines non-linearly). Excluded.
+
+## Coalesce: gravity as LEVELLING an uneven universe -- mass fills/reduces dimples rather than making them
+- Literal reading (more mass -> shallower dimple -> weaker pull): contradicted everywhere more mass means more pull -- galaxy
+  Tully-Fisher v^4 ~ M (slope +3.6, iteration 101 data), cluster lensing mass rises with gas mass/temperature, Solar System.
+- Hybrid reading (space starts dimpled; matter collects in the dimples; the unfilled part of each dimple is the missing pull):
+  matches how structure grows from early ripples. But (i) a static dimple with nothing in it is, seen from outside, a mass (Einstein:
+  a well needs a source); (ii) Bullet: the dimples moved with the galaxies at ~4500 km/s, so they are MOBILE lumps of curvature that
+  carry energy -> they behave as cold dust. This is the grid 'clock dust' / mimetic idea in another picture: curvature not tied to
+  ordinary matter. Same open question: what sets its amount (5.4x).
