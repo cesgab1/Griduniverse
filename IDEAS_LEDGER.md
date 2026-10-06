@@ -2129,3 +2129,8 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   expected x5-20 -> MISS). Same-size scatter 0.04 dex: 4.9 sigma combined but 2.3 sigma within one sample and explainable
   by ~30% star-mass variation -> inconclusive. Visible fraction vs size slope 0.12-0.44 vs rule's 0.7-1 -> 2.6-8 sigma
   (depends on star fractions). One visible-pull rule cannot cover galaxies, groups and clusters.
+
+- ITERATION 119 (cluster_points/, Coalesce: 'measure each point independently, no convenient boundary'): 83 boundary-free
+  points from 64 systems. Measured/galaxy-rule: inner x2.4-3.0, outer x1.4-1.6; offset rises with visible pull (x1.4 ->
+  x2.7), opposite to the galaxy rule. All 3 expectations HIT. Conventions removed, conclusion unchanged and sharper:
+  clusters' extra pull is concentrated toward their centres, where a weak-pull rule gives least help.
