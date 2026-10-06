@@ -2123,3 +2123,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   ~2e-12 m/s^2. Coma x1.4 above trend; Bullet location and early universe not covered. Leg 2: split H_total (MOND with
   external field) vs H_self (source's own pull): H_self predicts x~7 for 1 mg lab masses and x~2600 faster gravitational
   entanglement in proposed quantum experiments -- a lab/quantum discriminator. Wide binaries (Gaia DR4) test H_total.
+
+- ITERATION 118 (cluster_pairs/, Coalesce: 'compare same-size clusters where gravity differs'): 31 clusters+groups
+  (Vikhlinin+2006, Sun+2009, checksummed). Boost x6.5-11.5. Visible-pull rule needs a = 2.7-3.5e-10 (x2-3 galaxies; I
+  expected x5-20 -> MISS). Same-size scatter 0.04 dex: 4.9 sigma combined but 2.3 sigma within one sample and explainable
+  by ~30% star-mass variation -> inconclusive. Visible fraction vs size slope 0.12-0.44 vs rule's 0.7-1 -> 2.6-8 sigma
+  (depends on star fractions). One visible-pull rule cannot cover galaxies, groups and clusters.

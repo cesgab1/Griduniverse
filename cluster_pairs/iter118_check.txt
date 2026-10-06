@@ -1,0 +1,2 @@
+Sun+2009 groups only (N=23): intrinsic scatter 0.036 dex, vs zero delta(-2lnL) 5.2 -> 2.3 sigma
+star-mass variation needed to produce it alone: visible-fraction scatter 8% -> stars (~26% of visible) would have to vary by ~32% group to group

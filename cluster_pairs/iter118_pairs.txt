@@ -1,0 +1,20 @@
+Iteration 118 -- 31 clusters and groups (Vikhlinin+2006, Sun+2009)
+
+[stars f* = 0.025 (M/1e14)^-0.37]
+  boost B = total / visible: median x8.9, range x6.5-x11.5
+  T1 best acceleration scale a = 2.71e-10 m/s^2 (1-sigma 2.6e-10-2.9e-10) vs galaxies 1.2e-10 -> x2; with galaxies' a the rule under-predicts total pull by x1.40 (median)
+  T2 same size: intrinsic scatter of log B beyond errors = 0.044 dex (x1.11); vs zero: delta(-2lnL) = 24.2 -> 4.9 sigma
+  T3 visible fraction vs size: slope 0.14 (rule predicts ~0.7-1)
+  bins of size (r500): 350-500 kpc: N 5, B x8.9 (6.5-10.0); 500-650 kpc: N 11, B x9.8 (8.0-11.5); 650-800 kpc: N 7, B x9.1 (7.4-10.1); 800-1200 kpc: N 3, B x7.4 (7.2-10.0); 1200-1500 kpc: N 5, B x7.7 (6.7-9.1)
+
+[stars f* = 0]
+  boost B = total / visible: median x11.4, range x7.2-x20.4
+  T1 best acceleration scale a = 3.52e-10 m/s^2 (1-sigma 3.3e-10-3.7e-10) vs galaxies 1.2e-10 -> x3; with galaxies' a the rule under-predicts total pull by x1.63 (median)
+  T2 same size: intrinsic scatter of log B beyond errors = 0.052 dex (x1.13); vs zero: delta(-2lnL) = 23.1 -> 4.8 sigma
+  T3 visible fraction vs size: slope 0.44 (rule predicts ~0.7-1)
+
+[stars f* = 0.02]
+  boost B = total / visible: median x9.3, range x6.3-x14.5
+  T1 best acceleration scale a = 2.82e-10 m/s^2 (1-sigma 2.7e-10-3.0e-10) vs galaxies 1.2e-10 -> x2; with galaxies' a the rule under-predicts total pull by x1.46 (median)
+  T2 same size: intrinsic scatter of log B beyond errors = 0.043 dex (x1.10); vs zero: delta(-2lnL) = 23.2 -> 4.8 sigma
+  T3 visible fraction vs size: slope 0.37 (rule predicts ~0.7-1)
