@@ -1906,3 +1906,10 @@ needs more: opposite to 'cooling causes it' (same as the depth law, iterations 9
 - Reading 2 'the grid keeps a dent where mass USED to be' (dent memory): Bullet Cluster lensing peaks sit at the galaxies' CURRENT
   positions ~200 kpc past the collision point, not along the path or at the stuck gas -> dents move with something now there. Excluded.
 - What survives is literally 'cold, dark mass that makes dents' = cold dark matter; open question is only what it is (not ordinary).
+
+## Coalesce: 'find when the thermal transfer happened -> what cold dark matter is' (dm_thermal/)
+Two classes: (A) once in heat contact (thermal relic): mass > ~10 MeV (BBN/N_eff, mem) -> contact ended before ~3 s; freeze-out times:
+1 GeV ~1e-4 s... 100 GeV ~1e-8 s, 10 TeV ~1e-12 s; abundance fixes <sigma v> ~ 3e-26 cm^3/s; must be cold by ~days (Lyman-alpha).
+(B) never in contact (axion-like, primordial black holes, or dust tied to the grid's clock -- 'dark matter as integration constant',
+Mukohyama 2009; mimetic gravity): no 'when'. Grid-native candidate = (B)-type clock dust: born with the cosmic clock, cold, collisionless
+(rides with Bullet galaxies). Not yet derived; its amount (5.4x ordinary matter) would be a second 'stamped' number like dark energy's size.

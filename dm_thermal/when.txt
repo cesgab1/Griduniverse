@@ -1,0 +1,14 @@
+event                                                                     temperature (MeV)   time after start
+thermal relic, mass 10 MeV: freezes out at T ~ m/20                                5.00e-01              3.0 s
+thermal relic, mass 1 GeV: freezes out at T ~ m/20                                 5.00e+01            3e-04 s
+thermal relic, mass 100 GeV: freezes out at T ~ m/20                               5.00e+03            9e-09 s
+thermal relic, mass 10 TeV: freezes out at T ~ m/20                                5.00e+05            9e-13 s
+latest it can become 'cold' (Lyman-alpha, mass > 5.7 keV, mem)                     1.90e-03           4.2 days
+matter overtakes radiation (structure starts growing)                              8.00e-07         ~50,000 yr
+
+Required by data (mem): if dark matter was EVER in heat contact (a thermal relic):
+  - it must be heavier than ~10 MeV (else it upsets Big Bang element-making / extra radiation) -> contact ended before ~3 s
+  - its amount (5.4x ordinary matter) fixes its annihilation strength <sigma v> ~ 3e-26 cm^3/s ('WIMP' case), any mass 10 MeV-100 TeV
+  - heat contact with ordinary matter/light must be tiny afterwards (CMB limits on dark-matter scattering)
+If it was NEVER in heat contact (axion-like field, primordial black holes, or a dust tied to the grid's clock): no 'when' exists;
+  its coldness is set at birth.
