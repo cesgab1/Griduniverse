@@ -1948,3 +1948,11 @@ as primordial black holes -- future microlensing/femtolensing and gravitational-
 CORRECTION (verified, MNRAS 537, 1056, 2025): viable quark-nugget window is 1e10 - 1e18 g = 1e7 - 1e15 kg (0.2 mm - 8 cm), after mica,
 seismic, compact-star runaway, femtolensing and microlensing limits; survival scenario gives baryon number ~1e35 (~2e8 kg) -- inside it.
 Conditional on unproven quark-matter physics. My from-memory band (1e4 - 2e19 kg) was too wide.
+
+## Quark nuggets, next step (dm_thermal/nuggets_profile.*)
+In the verified window (1e7-1e15 kg): collision area/mass 1e-13-1e-11 cm^2/g (Bullet limit ~1) -> behave exactly like cold dark matter
+on cosmic/galaxy scales (1e27-1e35 per galaxy); so same successes AND same galaxy-regularity puzzle. Unique signal is local: Earth
+crossings at 250 km/s depositing ~0.03-130 kt along a 12,700 km track, once per ~14 yr (1e7 kg) to ~1e9 yr (1e15 kg).
+Formation: Witten's mechanism needs a first-order quark-hadron transition; lattice QCD says crossover at zero density. Escape routes
+(MNRAS 2025 reappraisal): large lepton asymmetry pushing the early universe through the first-order region, percolation clustering,
+hadronic instability. The 5.4 ratio would need ~84% of all baryon number trapped (total asymmetry x6.4 the deuterium value): not derived.
