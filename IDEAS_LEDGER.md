@@ -1898,3 +1898,11 @@ Coma's extra pull = 1.3e15 Msun = 2.3e62 J. Heat in its gas now: short x2e5; X-r
 of the region that fell in: right size (0.4-1.3x) but circular (equality is defined by the dark-matter amount) and wrong timing (cooling/cooling_dm: dark matter already present at z = 1090).
 Shape: extra pull ~ sqrt(g_bar x scale) in both galaxies and clusters, scale x17 larger in clusters, which are ~44x HOTTER -> hotter
 needs more: opposite to 'cooling causes it' (same as the depth law, iterations 96/101).
+
+## Coalesce: 'the dent is made by the mass, not the heat; cooling does not remove the dent'
+- Agreed: heat adds ~1e-5 of a cluster's dent; a cooled object keeps its dent while its glow fades.
+- Reading 1 'dents from cooled ordinary matter that went dark' (dead stars, cold gas, planets): still ordinary matter -> deuterium cap
+  (x6 short) and microlensing limits (earlier entries). Excluded.
+- Reading 2 'the grid keeps a dent where mass USED to be' (dent memory): Bullet Cluster lensing peaks sit at the galaxies' CURRENT
+  positions ~200 kpc past the collision point, not along the path or at the stuck gas -> dents move with something now there. Excluded.
+- What survives is literally 'cold, dark mass that makes dents' = cold dark matter; open question is only what it is (not ordinary).
