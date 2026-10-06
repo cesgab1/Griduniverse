@@ -2095,3 +2095,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   where it was tau ago, tau 0-400 Myr, 3 gas-speed cases -> best 4.8 sigma, never better. A delay points the pull to past
   positions (behind the galaxies), never onto them. Lesson: to follow the galaxies the pull's source must carry momentum ->
   it behaves like matter. Milky Way lag tests (bar, LMC wake) not pursued since no tau fits the Bullet.
+
+- LIGHT AS THE MISSING PULL (Coalesce: annihilation turns matter into light, and light gravitates). Coma's missing 1.5e15 Msun
+  as light: light crosses 2.5 Mpc in 8.2 Myr, so it must be refilled at 1.0e48 W (2.7e21 Suns; 3e8 x Coma's starlight;
+  1e7 x the brightest quasar), annihilating 2.5e18 Msun over 13.8 Gyr (1e4 x Coma's visible mass). Excluded: we would see
+  it, and annihilation happens where gas meets gas (Bullet: wrong place). Lesson: pull that stays needs energy moving slower
+  than escape speed (~3000 km/s) -> massive, slow -> matter again.
