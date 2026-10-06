@@ -13,7 +13,7 @@ S4 non-round systems: 72 cluster collisions (Harvey+2015, Science): dark mass st
    stars, existence 7.6 sigma, self-interaction < 0.47 cm^2/g -> the Bullet is a population pattern, not one object
    (later reanalyses argue the cross-section limit is looser; memory -- the 'stays with stars' finding stands).
 S5 simplest Einstein action vs + R^2 (stuck5_starobinsky.txt): R^2 (Starobinsky) predicts n_s 0.960-0.967, r 0.003-0.005.
-   Planck alone: fine (-1.1 to +0.4 sigma). Planck+ACT+lensing+BAO+BK (n_s 0.975 +/- 0.005): 1.7-3.0 sigma low. Tiny r
+   Planck alone: fine (-1.2 to +0.4 sigma). Planck+ACT+lensing+BAO+BK (n_s 0.975 +/- 0.005): 1.7-3.0 sigma low. Tiny r
    is safe. -> the simplest addition to Einstein's action is under mild pressure; not decided.
 S6 status notes: gravity's 1/r^2 tested to ~50 micrometres (memory, Eot-Wash ~2020) -- nothing new testable here.
    Smooth-fluid matter: in collisions the right description is collisionless (S4 confirms the unseen mass behaves so).
