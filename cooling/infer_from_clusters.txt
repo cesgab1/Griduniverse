@@ -1,0 +1,7 @@
+Coma: extra pull equivalent to 1.3e+15 Msun = 2.3e+62 J
+  heat in Coma's hot gas now: 9.8e+56 J -> short x2e+05
+  X-ray cooling at today's rate for 13.8 Gyr: 3.5e+55 J -> short x7e+06
+  expansion cooling of that region's radiation since z = 1090: 9.1e+61 J -> ratio 0.39  (matches in size because matter-radiation equality is DEFINED by the dark matter amount: circular)
+  expansion cooling of that region's radiation since z = 3400: 2.8e+62 J -> ratio 1.23  (matches in size because matter-radiation equality is DEFINED by the dark matter amount: circular)
+inferred law in both: extra pull ~ sqrt(g_bar x scale); scale galaxies 1.2e-10, clusters 2.0e-09 (x17)
+  'temperature' of the systems: galaxy (150 km/s) 8e+05 K, cluster (1000 km/s) 4e+07 K (x44) -> the HOTTER system needs the LARGER scale: opposite to 'cooling makes the pull'
