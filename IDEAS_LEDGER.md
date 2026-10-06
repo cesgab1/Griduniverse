@@ -2036,3 +2036,8 @@ Survives (2)+(3) -> evidence against the theory; fades with better data -> measu
 Examples: our supernova hemisphere split (fluke: independent Union3 did not repeat it); early JWST 'too massive' galaxies of 2022-23
 (largely measurement: some masses revised down, some light from black holes -- mem); Hubble tension (survives many independent
 checks -> points at theory); cluster missing pull (survives 4+ independent methods -> real).
+Coalesce addendum: an 'anomaly' that recurs is not a fluke; and absence may only mean we have not looked. Agreed. Rule refined:
+judge POPULATIONS, not single objects -- define the surveyed volume, count everything found, compare with the expected count
+(handles both 'not looking' and the opposite bias: surveys that hunt for extremes over-select them, and early mass estimates
+tend to scatter UP -- Eddington bias). Early massive objects are already a population (several early protoclusters, many
+'too early/too massive' galaxies, 'little red dots'), so the JADES-ID1 tension should be tested as a population. Candidate test.
