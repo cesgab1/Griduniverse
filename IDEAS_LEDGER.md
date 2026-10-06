@@ -2062,3 +2062,10 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Verdict: bursts are ~10-25x too imprecise even with 1000 bursts; a catalogue fit cannot test the law (this would only add free
   calibration choices). No data hunt. The law's test stays with BAO + supernovae + CMB (DESI final, Rubin/LSST, Roman).
   Note: a direct catalogue download failed here (arXiv/VizieR/GitHub blocked from the shell); the power check makes it unnecessary.
+
+- ITERATION 111 (grb/, PREREG_111, RESULT_111): A118 bursts (Khadka+2021) read from the paper's HTML via browser; verified by exact
+  column sums and by recovering the paper's Amati fit (gamma 1.10, s_int 0.40). Our law vs LCDM: delta(-2lnL) -0.21 / +0.003 ->
+  indistinguishable, as the power check predicted. SLIP logged: my pre-registered slope check used the paper's form while my
+  method used the reverse form. FINDING: the direction of the Amati relation is a hidden free choice that flips results
+  (best Om 0.07 vs 0.89; EdS and atoms-only universes swap between rejected and fine). GRBs say nothing reliable about
+  no-dark-energy universes. Rule added: any GRB distance claim must be shown in both forms.

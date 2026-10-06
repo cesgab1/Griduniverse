@@ -1,0 +1,10 @@
+Iteration 111 -- A118 gamma-ray bursts, Amati relation fitted jointly with each cosmology (H0 absorbed)
+N = 118, z 0.34-8.20
+  LCDM      best Om 0.07 (1-sigma range 0.06-0.20); -2lnL 40.464; Amati a 1.937 b 0.517 s_int 0.276 dex; at Om = 0.31: -2lnL 42.404 (delta +1.94)
+  LAW       best Om 0.06 (1-sigma range 0.06-0.18); -2lnL 40.257; Amati a 1.957 b 0.517 s_int 0.275 dex; at Om = 0.31: -2lnL 42.337 (delta +2.08)
+  EdS       (Om fixed 1.0): -2lnL 45.972; Amati b 0.541 s_int 0.282
+  BARE-OPEN (Om fixed 0.05): -2lnL 39.395; Amati b 0.515 s_int 0.274
+
+  LAW       minus LCDM: delta(-2lnL) = -0.206
+  EdS       minus LCDM: delta(-2lnL) = +5.508  (LCDM has 1 more free parameter here)
+  BARE-OPEN minus LCDM: delta(-2lnL) = -1.069  (LCDM has 1 more free parameter here)

@@ -1,0 +1,8 @@
+Iteration 111 -- paper's form: log Eiso = beta + gamma log Ep
+  LCDM      best Om 0.89 (1-sigma 0.35-0.99); -2lnL 128.722; beta 50.02 gamma 1.098 s_int 0.401 dex; Om=0.31 delta +1.29
+  LAW       best Om 0.90 (1-sigma 0.36-0.99); -2lnL 128.725; beta 50.02 gamma 1.098 s_int 0.401 dex; Om=0.31 delta +1.36
+  EdS       -2lnL 128.733; gamma 1.095 s_int 0.401
+  BARE-OPEN -2lnL 138.141; gamma 1.194 s_int 0.418
+  LAW       minus LCDM: delta(-2lnL) = +0.003
+  EdS       minus LCDM: delta(-2lnL) = +0.010
+  BARE-OPEN minus LCDM: delta(-2lnL) = +9.418
