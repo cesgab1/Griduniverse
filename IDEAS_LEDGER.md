@@ -2112,3 +2112,8 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Quantum compactness bound m >= 1.14 hbar/(sigma r1/2): strongest Segue 1 / Grus I ~2e-20 eV (1e-20 conservative); 16 dwarfs
   need > 2e-21; sigma x r varies x315 (not one soliton mass); Fornax-core mass 1.8e-22 excluded x65-100. All 4 expectations
   HIT. Wave DM survives only above ~1e-20 eV, where its waves (<~30 pc) no longer shape dwarf cores.
+
+- ITERATION 117 (around_not_in/, Coalesce: 'the effect would be around it, not in it'): Poisson's law is local, so outside
+  material (shells, rings, repulsive or attractive) adds no inferred local mass. At the Sun: measured 68 +/- 4 Msun/pc^2
+  within 1.1 kpc (Bovy & Rix 2013) vs visible 43.8 (McKee+2015) or 51.7 -> unseen 16-24, 2.8-4.7 sigma above the 'around'
+  prediction of zero. The extra is IN the galaxy at our position (Newtonian reading; phantom if gravity is modified).
