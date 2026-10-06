@@ -1966,3 +1966,11 @@ hadronic instability. The 5.4 ratio would need ~84% of all baryon number trapped
 - Our project: the grid need NOT supply dark matter -> its 'clock dust' must be absent or tiny (a constraint on the grid); clusters'
   missing pull solved by mass; galaxy-regularity puzzle remains (as for any cold dark matter); dark energy and quantum-gravity tracks
   unchanged. Nuggets live at nuclear density, far from the Planck scale: no quantum gravity needed for them.
+
+## Helium hint and nugget formation (dm_thermal/helium_lepton.*) -- literature check, not pre-registered
+EMPRESS XV (2025): Y_P = 0.2402 +/- 0.0040, xi_e = 0.05 +0.02 -0.03 (N_eff 2.54, ~2 sigma). Converts to lepton asymmetry ~0.0018 per
+entropy. Allowed total |l| < 1.2e-2; 2025 analysis (arXiv:2511.11995): even maximal flavour asymmetries reach mu_B ~250 MeV < 450 MeV
+where lattice QCD would allow a first-order transition -> the lepton-asymmetry route to forming nuggets is CLOSED in standard cosmology.
+Helium hint is ~7x below even that maximum. Remaining nugget-formation routes: percolation clustering, hadronic instability (unproven).
+Quark nuggets: still allowed observationally, but their formation now lacks a working mechanism. Downgraded.
+(Could not read PRL 128, 131301 abstract: 403 / rate-limited.)

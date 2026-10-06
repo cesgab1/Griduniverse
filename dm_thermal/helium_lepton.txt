@@ -1,0 +1,5 @@
+helium hint xi_e = 0.05 -> electron-neutrino asymmetry 0.0124 per photon = 0.0018 per unit entropy
+CMB/BBN limit on TOTAL lepton asymmetry: |l| < 1.2e-2 (Middeldorf-Wygas et al.); flavours can be larger if they cancel
+2025 analysis (arXiv:2511.11995): within |l| <~ 1e-2, max baryon chemical potential ~250 MeV; lattice QCD excludes a
+  first-order transition below ~450 MeV -> lepton asymmetries CANNOT make the cosmic QCD transition first-order
+helium-hint asymmetry (0.0018) is ~7x below even the maximum allowed, which itself falls short
