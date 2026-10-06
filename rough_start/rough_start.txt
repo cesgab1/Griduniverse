@@ -1,0 +1,6 @@
+1. shaking left as gravitational waves: at most 8% of the energy in light (from N_eff); the rest must have become heat
+2. Planck-mass leftover = 22 micrograms; to be all dark matter today: 1.0e-19 per m^3 (one per cube 2144 km on a side)
+   fraction of Planck-sized regions that may collapse at the start: 1.8e-28; ripple size needed at the Planck scale: 0.041
+   (measured ripples on galaxy scales: ~2e-5 -> the start must be ~2033x rougher at the Planck scale than on large scales)
+   if the start were fully chaotic (ripples ~0.3-1): leftovers would outweigh what is seen by x5e+26 or more -> excluded unless they evaporate completely
+   through Earth: 3.2 per second -- interacting only by gravity (quantum-sensor arrays proposed to catch them, mem)

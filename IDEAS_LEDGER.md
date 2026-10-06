@@ -1974,3 +1974,13 @@ where lattice QCD would allow a first-order transition -> the lepton-asymmetry r
 Helium hint is ~7x below even that maximum. Remaining nugget-formation routes: percolation clustering, hadronic instability (unproven).
 Quark nuggets: still allowed observationally, but their formation now lacks a working mechanism. Downgraded.
 (Could not read PRL 128, 131301 abstract: 403 / rate-limited.)
+
+## Coalesce: the start was violently vibrating, not smooth (rough_start/)
+- Agreed it need not be smooth at the tiniest scales: large-scale smoothness (1e-5) is measured; Planck-scale roughness is not.
+- Shaking that ended as gravitational waves is capped at ~8% of the light's energy (N_eff); the rest must have turned into heat --
+  i.e. the hot Big Bang can BE the shaking, thermalised. Hot-fluid pressure/diffusion then erases small-scale lumps (except collapses).
+- Collapses at the Planck scale + the grid's density cap (no complete evaporation) -> Planck-mass leftovers (22 micrograms) as dark
+  matter (prior art: MacGibbon 1987; Barrow-Copeland-Liddle). Need only 1 in 5.5e27 Planck regions to collapse -> ripples ~0.04 at the
+  Planck scale (~2000x rougher than galaxy-scale ripples). A FULLY chaotic start (ripples 0.3-1) overproduces by >~1e26 -> excluded
+  unless leftovers evaporate. One adjusted number (ripple size) for one datum (amount): a fit, not a prediction. Gravity-only: ~3
+  pass through Earth per second; undetectable now. New candidate tied to the grid's cap; record as lead.
