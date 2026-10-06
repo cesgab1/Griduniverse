@@ -1,0 +1,4 @@
+radiation energy lost since z = 1090: 1090 E_r0 = 38% of dark matter's energy today
+radiation energy lost since z = 3400: 3400 E_r0 = 119% of dark matter's energy today
+dark matter / radiation at z = 1090: 2.62 (already ~3x radiation when the glow was released)
+temperature contrast at z = 1090: ~1e-5 everywhere -> no 'cooled regions' yet, but dark matter already 5.4x ordinary matter

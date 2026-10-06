@@ -1882,3 +1882,13 @@ to today's 5.3e-10 Pa = the dark-energy SIZE problem again. Links 'seeds' and 's
   energy grows late (~a^3); CMB limits early dark energy -> fails on rate and timing. Cumulative match (z ~ 7600) is start-dependent.
 - Grid angle: our grid HAS a global time (stamp/Khronon), which in principle allows a conserved total energy including grid tension;
   not derived. Candidate question for the quantum-gravity track.
+
+## Idea (Coalesce): dark matter = regions of space that cool and contract themselves
+- For it: the extra pull sits with cold things (Bullet galaxies, not the hot gas; cold dwarfs need the most).
+- Against: (1) dark matter already 5.4x ordinary matter at z = 1090 when temperature was uniform to 1e-5 (no cooled regions yet);
+  (2) if built from cooling, radiation lost since z = 1090 = 38% of dark matter's energy (since z = 3400: 119%) -> dark matter would
+  have grown strongly since the glow; early (CMB) and late (BAO/lensing) dark-matter amounts agree to a few % (from memory);
+  (3) at fixed pull strength the extra pull does not depend on gas content (iteration 96 gas-fraction slope -0.01 +/- 0.12) and
+  ellipticals with hot gas follow the same relation as cold spirals (Lelli+2017, from memory); (4) contraction of space needs a
+  source in Einstein gravity (Raychaudhuri), i.e. the mass returns.
+- Verdict: pattern 'cold <-> pull' is real but follows from the fact that hot gas is pressure-supported and does not clump; not a cause.
