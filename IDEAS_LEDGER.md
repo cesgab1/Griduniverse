@@ -2101,3 +2101,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   1e7 x the brightest quasar), annihilating 2.5e18 Msun over 13.8 Gyr (1e4 x Coma's visible mass). Excluded: we would see
   it, and annihilation happens where gas meets gas (Bullet: wrong place). Lesson: pull that stays needs energy moving slower
   than escape speed (~3000 km/s) -> massive, slow -> matter again.
+
+- QUANTUM PORTRAIT of the missing pull (quantum_portrait/portrait.py; some inputs from memory, flagged). Fermions: Pauli
+  packing in Fornax -> mass >= ~250 eV (Coma only >= 3 eV; dwarfs decide). Bosons: quantum wave must fit a dwarf core ->
+  mass >= ~3e-22 eV ('fuzzy' end: one wave ~ a galaxy core). Stickiness (Bullet < ~1 cm^2/g): atoms 6e8, neutron-proton
+  ~3 cm^2/g -> too sticky; neutrino-like fine. Black-hole form >= 5e11 kg (Hawking). Window > 70 orders of magnitude;
+  ordinary atoms, nuclei and known neutrinos (too light/hot) all excluded.

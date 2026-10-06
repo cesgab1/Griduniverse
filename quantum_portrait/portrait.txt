@@ -1,0 +1,12 @@
+1. If it is made of FERMIONS (like electrons/neutrinos): Pauli exclusion limits how densely they can pack ->
+   Fornax dwarf (sigma 11.7 (v); core density ~0.1 Msun/pc^3, core ~500 pc (m)): particle mass >= 249.4 eV
+   Coma at 100 kpc (gas-measured mass, iteration 113 (v)): particle mass >= 3.2 eV
+2. If it is made of BOSONS (like photons/Higgs): its quantum wave (de Broglie length) must fit inside the core ->
+   Fornax dwarf (sigma 11.7 (v); core density ~0.1 Msun/pc^3, core ~500 pc (m)): particle mass >= 3.3e-22 eV  (lighter -> one quantum wave bigger than the galaxy core)
+   Coma at 100 kpc (gas-measured mass, iteration 113 (v)): particle mass >= 1.9e-26 eV  (lighter -> one quantum wave bigger than the galaxy core)
+3. It must not stick: Bullet Cluster limit sigma/m < ~1 cm^2/g (m). Ordinary stuff for comparison:
+   hydrogen atom on hydrogen atom (~1e-15 cm^2) (m): 6.0e+08 cm^2/g -> too sticky
+   neutron on proton at ~50 keV (~5 barn) (m): 3.0e+00 cm^2/g -> too sticky
+   neutrino on proton at ~50 keV (~1e-43 cm^2) (m): 6.0e-20 cm^2/g -> allowed
+4. If it is black holes (quantum Hawking evaporation): lighter than ~5e11 kg would have evaporated by now (m)
+   -> a black-hole form must weigh >= 5e11 kg (= 3e+47 eV); the window runs from ~1e-22 eV (bosons) to black holes: >70 orders of magnitude
