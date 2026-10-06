@@ -1,0 +1,14 @@
+stage                               temperature (K)         time      scale    visible-universe diameter today-patch
+today                                             -  1.38e+10 yr   1.00e+00                     9.30e+10 light-years
+fog clears (380,000 yr)                    3.00e+03  3.80e+05 yr   9.17e-04                     8.53e+07 light-years
+matter = radiation (~50,000 yr)            9.00e+03  5.00e+04 yr   2.94e-04                     2.74e+07 light-years
+nuclei form (~3 min)                       1.00e+09    1.8e+02 s   2.73e-09                     2.53e+02 light-years
+neutrinos decouple (~1 s)                  1.00e+10    9.9e-01 s   1.95e-10                     1.81e+01 light-years
+collider limit (~1e-12 s)                  1.20e+15    2.2e-11 s   7.54e-16                              4.44e+00 AU
+10^-30 s                                   5.62e+24    1.0e-30 s   1.61e-25                            141807.252 mm
+density reaches the cap                    4.65e+31    1.5e-44 s   1.94e-32                                 0.017 mm
+
+At the cap: density 2.11e+96 kg/m^3 (0.41 Planck), temperature 4.7e+31 K, our visible universe was 0.017 mm across.
+Classical equation: density -> infinity a further 1.5e-44 s earlier (singularity). Grid cap: expansion rate falls to zero
+  there instead -- a BOUNCE (H^2 = 8piG/3 rho (1 - rho/rho_cap)): before it, a contracting phase, mirror image.
+Light-travel region at that moment ~8.7e-36 m = 0.5 Planck lengths; regions in the patch that never touched: 7.5e+90

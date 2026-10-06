@@ -1846,3 +1846,12 @@ Pantheon+ drop-one-survey: split persists (p 8.7-12.3%), not one survey's doing 
 3.7% -> 8.3% with analysis details. Union3 (independent calibration, simplified): opposite sense, p = 64%. Verdict: not reproduced;
 likely a fluctuation. Far-off centre: no supernova support; not excluded. Lesson: a 2-sigma direction hint needs an independent
 catalogue before it means anything.
+
+## Calculation (Coalesce): run the expansion equation in reverse -- how do the 'doors' open? (reverse_bang/)
+Today's visible universe (93 billion ly across) shrinks to: 85 million ly at 380,000 yr; 250 ly at 3 min; 18 ly at 1 s; 4 AU at 1e-11 s;
+~140 m at 1e-30 s; 0.017 mm when density hits the grid cap (0.41 Planck density, 4.7e31 K, 1.5e-44 s after the classical t = 0).
+Classical equation: infinite density 1.5e-44 s earlier. Grid cap: expansion rate falls to zero -> a bounce (mirror-image contraction before).
+Not a point: everything shrinks together everywhere; the patch at the cap holds ~7.5e90 regions that had never been in contact
+(light-travel region ~0.5 Planck length) -> they all 'open' at once. The grid's global time stamp would supply the simultaneous
+start for free (a preferred 'now'); its graininess gives ripples ~1e-37, far below the measured 1e-5 -> the grid explains the
+synchronised, smooth opening but not the seeds of structure (open problem; inflation's main job).
