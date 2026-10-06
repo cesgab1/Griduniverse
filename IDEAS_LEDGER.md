@@ -2075,3 +2075,11 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   black holes, vacuum energy -> 0.180 of the needed mass (short x5.6, robust to radius). Non-particle items total -0.75%
   (vacuum energy subtracts). Naive quantum vacuum 3e120 x too much and repulsive. MISS logged: forgot vacuum term in the
   "<1e-3" expectation. The books do not balance at the quantum level either (not a new measurement of the gap -- it rules out hiding places on the visible side).
+
+- ITERATION 113 (emergent_gravity/): Verlinde emergent gravity, Coma, no free parameter, verified gas profile
+  (Briel+1992 via Bonafede+2010). EG/measured: 0.92-0.97 at 2.5 Mpc (HIT), 0.5-0.8 inside 1.5 Mpc; inner 100 kpc set by
+  the star-profile choice (0.6 or 3.1) -> not decisive (MISS on 'short >x2'). Post-hoc: EG beats MOND by ~1.5x (spread-out
+  gas term). Entropies (k_B): thermal 5.5e78 (CMB + neutrinos dominate, gas 2.4e73), black hole 4.2e97, de Sitter volume
+  part 4.2e112, area ceiling 7.2e115, von Neumann of the whole 0 and constant. Matter displaces 1.3% of de Sitter entropy.
+  MISS: BH/thermal 1.5e19 not >1e20 (forgot CMB in volume). CORRECTION to 112: gas 1.5e14 -> gap x8.3.
+  Open: Bullet Cluster cannot be done with the spherical formula; EG needs a non-spherical version to face it.

@@ -1,0 +1,36 @@
+Iteration 113 -- emergent gravity (Verlinde) in Coma; no free parameter (H0 = 70)
+check: gas mass within 2.5 Mpc 1.53e+14 Msun (project 2.5e14); hydrostatic mass at 2.5 Mpc 1.69e+15 (project 1.6e15); Verlinde a0 = cH0/6 = 1.13e-10 m/s^2
+
+stars gas-shape:   r [kpc] | visible | emergent extra | EG total | measured (hydrostatic) | EG/measured
+     100 | 5.14e+11 | 4.02e+12 | 4.53e+12 | 7.25e+12 | 0.63
+     300 | 8.91e+12 | 4.59e+13 | 5.48e+13 | 1.06e+14 | 0.52
+     500 | 2.48e+13 | 1.18e+14 | 1.43e+14 | 2.56e+14 | 0.56
+    1000 | 7.16e+13 | 3.67e+14 | 4.39e+14 | 6.31e+14 | 0.70
+    1500 | 1.18e+14 | 6.79e+14 | 7.96e+14 | 9.90e+14 | 0.80
+    2500 | 2.03e+14 | 1.43e+15 | 1.64e+15 | 1.69e+15 | 0.97
+
+stars hernquist:   r [kpc] | visible | emergent extra | EG total | measured (hydrostatic) | EG/measured
+     100 | 9.38e+12 | 1.32e+13 | 2.25e+13 | 7.25e+12 | 3.11
+     300 | 3.17e+13 | 6.80e+13 | 9.97e+13 | 1.06e+14 | 0.94
+     500 | 5.19e+13 | 1.43e+14 | 1.95e+14 | 2.56e+14 | 0.76
+    1000 | 9.64e+13 | 3.81e+14 | 4.77e+14 | 6.31e+14 | 0.76
+    1500 | 1.35e+14 | 6.69e+14 | 8.04e+14 | 9.90e+14 | 0.81
+    2500 | 2.03e+14 | 1.35e+15 | 1.56e+15 | 1.69e+15 | 0.92
+
+ENTROPY LEDGER for Coma inside 2.5 Mpc (units of k_B)
+  thermodynamic:
+    hot gas (Sackur-Tetrode, electrons + ions)          2.4e+73
+    stars (~15 k per baryon)                             8.9e+71
+    relic light (CMB) in the volume                      2.8e+78
+    relic neutrinos in the volume                        2.7e+78
+  coarse-grained gravitational (black holes, Bekenstein-Hawking):
+    one 2e10 Msun black hole (NGC 4889 class)            4.2e+97
+    1000 x 1e8 Msun black holes                          1.0e+96
+  entanglement / holographic:
+    area law A/4l_P^2 (= maximum the region can hold)    7.2e+115
+    de Sitter volume-law part S_DE = area x r/L          4.2e+112
+    entropy displaced by Coma's visible matter S_M       5.6e+110
+  von Neumann entropy of the whole (cluster + rest of universe, pure state): 0, and constant in time
+
+Where emergent gravity switches on: S_M/S_DE = g_N/(cH0/2)  (< 1 -> 'weak pull', apparent dark matter appears)
+   100 kpc: 0.021, 300 kpc: 0.041, 500 kpc: 0.041, 1000 kpc: 0.029, 1500 kpc: 0.021, 2500 kpc: 0.013

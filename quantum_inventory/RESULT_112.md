@@ -11,3 +11,6 @@ Against expectations: total 0.18 HIT; neutrinos < 1e-4 HIT (9e-6); naive vacuum 
 Verdict: at the quantum level the books do not balance. Every known ingredient leaves Coma short x5.6, the same gap as the
 speeds, lensing and trajectories (iterations 94, 98, 102). The missing part is not hiding in heat, light, fields, neutrinos
 or quantum structure; it is either unknown matter or a change in how gravity adds up.
+
+CORRECTION (iteration 113): the project's gas mass 2.5e14 was too high for 2.5 Mpc; verified profile gives 1.5e14.
+Visible total 2.0e14 = 0.12 of the gas-measured (hydrostatic) mass -> short x8.3, not x5.6. Verdict unchanged.
