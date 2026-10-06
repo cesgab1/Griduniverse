@@ -1956,3 +1956,13 @@ crossings at 250 km/s depositing ~100 kt (1e7 kg) to ~2e7 kt (1e15 kg) along a 1
 Formation: Witten's mechanism needs a first-order quark-hadron transition; lattice QCD says crossover at zero density. Escape routes
 (MNRAS 2025 reappraisal): large lepton asymmetry pushing the early universe through the first-order region, percolation clustering,
 hadronic instability. The 5.4 ratio would need ~84% of all baryon number trapped (total asymmetry x6.4 the deuterium value): not derived.
+
+## Hypothetical (Coalesce): assume quark nuggets ARE the dark matter -- what then?
+- Physics: no new particle; Standard Model + gravity suffice. Strange quark matter is the true ground state of matter -> some 'neutron
+  stars' are strange stars (smaller radii; NICER mass-radius data), strangelets in cosmic rays (AMS-02), neutron-star conversion events.
+  Total quark asymmetry x6.4 the deuterium value; if formed via a lepton asymmetry, Big-Bang helium shifts (hint: EMPRESS helium
+  anomaly, from memory). WIMP/axion searches keep finding nothing (prediction).
+- Signals: straight-line 'quakes' through Earth (once per ~14 yr at 1e7 kg); cosmic-ray strangelets; strange-star radii.
+- Our project: the grid need NOT supply dark matter -> its 'clock dust' must be absent or tiny (a constraint on the grid); clusters'
+  missing pull solved by mass; galaxy-regularity puzzle remains (as for any cold dark matter); dark energy and quantum-gravity tracks
+  unchanged. Nuggets live at nuclear density, far from the Planck scale: no quantum gravity needed for them.
