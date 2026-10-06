@@ -1,0 +1,11 @@
+z =   1: law minus constant dark energy, distance modulus (shape) +0.0000 mag
+z =   2: law minus constant dark energy, distance modulus (shape) +0.0014 mag
+z =   3: law minus constant dark energy, distance modulus (shape) +0.0027 mag
+z =   4: law minus constant dark energy, distance modulus (shape) +0.0033 mag
+z =   6: law minus constant dark energy, distance modulus (shape) +0.0038 mag
+z =   8: law minus constant dark energy, distance modulus (shape) +0.0040 mag
+z =   9: law minus constant dark energy, distance modulus (shape) +0.0040 mag
+burst distances: scatter ~0.5-1.0 mag per burst after calibration (energy-peak relations, mem);
+  118 bursts at z > 1: mean shape error ~ 0.104 mag per half-sample
+  220 bursts at z > 1: mean shape error ~ 0.076 mag per half-sample
+  1000 bursts at z > 1: mean shape error ~ 0.036 mag per half-sample

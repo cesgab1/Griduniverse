@@ -2055,3 +2055,10 @@ and GRB 221009A (quadratic, >1.2e12 GeV) already used here; the grid predicts NO
 Clues more such events can give: (1) graininess tests (need high-energy photons: Fermi/LHAASO-class bursts); (2) a distance ladder to
 z ~ 9 to test our dark-energy law beyond supernovae (GRB energy-peak correlations; large scatter, calibration caveats); (3) early star
 formation and chemistry via afterglow spectra; (4) burst rates -> how many are beamed away from us.
+
+- GRB POWER CHECK (grb/power.py, power.txt). Could gamma-ray-burst distances (z ~ 1-9) separate our law (beta = 1/2) from constant
+  dark energy? Both fitted to current data, then compared in shape (anchored at z = 1): they differ by only +0.001 to +0.004 mag at
+  z = 2-9. Burst distances carry ~0.5-1.0 mag scatter each, so the shape error is ~0.10 mag (118 bursts), 0.076 (220), 0.036 (1000).
+  Verdict: bursts are ~10-25x too imprecise even with 1000 bursts; a catalogue fit cannot test the law (this would only add free
+  calibration choices). No data hunt. The law's test stays with BAO + supernovae + CMB (DESI final, Rubin/LSST, Roman).
+  Note: a direct catalogue download failed here (arXiv/VizieR/GitHub blocked from the shell); the power check makes it unnecessary.
