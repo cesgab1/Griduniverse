@@ -2021,3 +2021,9 @@ solution, but (1) is a test of asteroid-mass primordial black holes and (2) bear
   a well needs a source); (ii) Bullet: the dimples moved with the galaxies at ~4500 km/s, so they are MOBILE lumps of curvature that
   carry energy -> they behave as cold dust. This is the grid 'clock dust' / mimetic idea in another picture: curvature not tied to
   ordinary matter. Same open question: what sets its amount (5.4x).
+
+## Iteration 109 -- unexpectedly early clusters (Coalesce) (early_clusters/)
+JADES-ID1 (z ~ 5.7, ~2e13 Msun, hot gas; Chandra/Webb Jan 2026): cold dark matter expects 3.3e-5 such halos in the JADES volume
+(~4 sigma); 1e-3 (~3 sigma) if mass x2 lower; 2.5e-2 (~2 sigma) if x4 lower. Expectation missed (rarer than predicted). Without dark
+matter: none. Early clusters need MORE early pull; protocluster 'total mass' may be region mass (caveat). SPT2349-56 (z = 4.3): gas
+>= 5x hotter than predicted -- early black-hole heating.
