@@ -1,0 +1,5 @@
+Q1 Planck-radius static universe: density 0.060 Planck densities (grid cap 0.41); Lambda = 1.50 / l_P^2
+Q2 its temperature 0.20 T_P, entropy 7.7 (units of k_B); our visible universe ~1e+89 -> must create x1e+88; e-folds of conversion ~ 68
+Q3 our law rho_DE ~ |adot|^-1/2 -> infinite at a static phase (adot = 0): incompatible unless the law is cut off near the cap
+Q4 area-law thermal seeds: scale-invariant; amplitude needs T = 4.6e-05 T_P = 6.5e+27 K (cell 1.67 l_P)
+   Einstein-static at that T: radius 2.0e+07 l_P, entropy 6.7e+11; to hold 1e89 it needs radius 1.0e+33 l_P -> mismatch x5e+25 in size (x1e+77 in entropy)

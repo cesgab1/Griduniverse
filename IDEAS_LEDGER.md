@@ -1860,3 +1860,10 @@ synchronised, smooth opening but not the seeds of structure (open problem; infla
 mirror radiation-era contraction gives n_s = 3 for k > k_eq (power x370 vs x0.90 measured) -- second failure of bounce-without-
 inflation; bounce features otherwise ~1e30 below observable scales. Bounce + inflation: low-l suppression dchi2 -1.4 (not evidence).
 Status unchanged: bounce replaces the infinite-density point but makes no visible imprint without an (added) inflaton.
+
+## Iteration 107 -- Einstein's static universe at the Planck scale as the start (einstein_static/)
+Planck-radius Einstein universe: 0.06 Planck density (cap 0.41); holds ~8 units of entropy vs 1e89 -> needs inflation-like
+conversion (68 e-folds) to become ours (emergent-universe prior art). Our DE law is infinite in a static phase (cut-off needed).
+NEW LEAD: area-law heat capacity (our grid's entropy) + thermal jiggling in a quasi-static hot phase -> scale-invariant seeds;
+amplitude fixes T = 4.6e-5 T_P. A Lambda-balanced static universe cannot be both that hot and big enough (x5e25). Needs a quasi-
+static phase held by the grid's stiffness. Prediction to derive: blue-tilted gravitational-wave seeds (n_t > 0).
