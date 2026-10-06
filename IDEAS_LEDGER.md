@@ -1996,3 +1996,11 @@ Quark nuggets: still allowed observationally, but their formation now lacks a wo
 To close the gap the STARS would need x27 (Coma) to x50 (Bullet main galaxies) their light-based mass (gas mass comes from X-rays,
 not light). Checks (mem): galaxy-centre motions and strong lensing give true star mass 1-2x light-based; Thorne-Zytkow-type hidden
 neutron stars add ~10%; and x27-x50 heavier stars would breach the deuterium cap (~5-6x). Excluded as the cluster solution.
+
+## Coalesce: can a big enough star hide a black hole inside? (answer, mem)
+Yes, three known forms: (1) 'Hawking stars' -- a tiny primordial black hole captured at a star's centre; the star looks normal for a
+long time (Bellinger et al. 2023); (2) 'quasi-stars' -- huge, puffy early-universe stars powered by a black hole growing inside
+(Begelman et al. 2006); JWST 'little red dots' have been proposed as 'black-hole stars' of this kind (2025, debated); (3) failed
+supernovae -- a massive star's core collapses straight to a black hole and the star simply vanishes (candidate N6946-BH1).
+Mass budget: hidden black holes made from stars are ordinary matter (deuterium cap); only primordial ones are not. Not the cluster
+solution, but (1) is a test of asteroid-mass primordial black holes and (2) bears on how giant black holes grew so early.
