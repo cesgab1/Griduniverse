@@ -2041,3 +2041,8 @@ judge POPULATIONS, not single objects -- define the surveyed volume, count every
 (handles both 'not looking' and the opposite bias: surveys that hunt for extremes over-select them, and early mass estimates
 tend to scatter UP -- Eddington bias). Early massive objects are already a population (several early protoclusters, many
 'too early/too massive' galaxies, 'little red dots'), so the JADES-ID1 tension should be tested as a population. Candidate test.
+
+## Iteration 110 -- population count of early ultra-massive galaxies (early_clusters/)
+FRESCO (124 arcmin^2, z 4.9-6.6, 3 galaxies log M* 11.04-11.37): fits standard cosmology if ~50% of gas became stars (expected 2.2,
+p = 37%); with typical 20% efficiency a 2.3-3.3 sigma excess. -> galaxy-formation efficiency issue, not gravity/dark matter amount.
+JADES-ID1 differs: total mass, efficiency-independent; ~4 sigma if 2e13 holds -> needs an independent mass.

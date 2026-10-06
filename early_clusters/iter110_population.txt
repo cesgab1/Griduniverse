@@ -1,0 +1,9 @@
+FRESCO 124 arcmin^2, 4.9 < z < 6.6; observed galaxies with log M* >= 11.04: 3
+-- masses as published
+   eps = 1.0: needs halo >= 7.0e+11 Msun; expected 1.20e+01; chance of >= 3: 1.0e+00 (-3.3 sigma)
+   eps = 0.5: needs halo >= 1.4e+12 Msun; expected 2.17e+00; chance of >= 3: 3.7e-01 (0.3 sigma)
+   eps = 0.2: needs halo >= 3.5e+12 Msun; expected 1.46e-01; chance of >= 3: 4.7e-04 (3.3 sigma)
+-- masses 0.15 dex lower (error-scatter correction)
+   eps = 1.0: needs halo >= 4.9e+11 Msun; expected 2.57e+01; chance of >= 3: 1.0e+00 (-5.9 sigma)
+   eps = 0.5: needs halo >= 9.9e+11 Msun; expected 5.24e+00; chance of >= 3: 8.9e-01 (-1.3 sigma)
+   eps = 0.2: needs halo >= 2.5e+12 Msun; expected 4.34e-01; chance of >= 3: 9.9e-03 (2.3 sigma)
