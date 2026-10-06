@@ -2083,3 +2083,10 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   part 4.2e112, area ceiling 7.2e115, von Neumann of the whole 0 and constant. Matter displaces 1.3% of de Sitter entropy.
   MISS: BH/thermal 1.5e19 not >1e20 (forgot CMB in volume). CORRECTION to 112: gas 1.5e14 -> gap x8.3.
   Open: Bullet Cluster cannot be done with the spherical formula; EG needs a non-spherical version to face it.
+
+- ITERATION 114 (bullet_emergent/): first non-spherical emergent-gravity test of the Bullet Cluster (published tests called
+  it 'not a valid test case'). Built from Hossenfelder's covariant EG static limit (div(|grad phi|grad phi) = 4piG a_V rho,
+  a_V = cH0/6): curl-free 5.2 sigma, full non-linear solve 5.2 sigma (curl term ~3%); our local Verlinde variant 5.9 sigma.
+  Tip on the gas every time. Same failure as the galaxy rule (5.1): extra pull sourced by visible matter follows the gas.
+  Only escape left in this family: a field that lags the matter after the collision (not tested). Also flagged: our Coma
+  EG ratio 0.70-0.76 at 1 Mpc vs Tamosiunas+2019 '~2x too high' -- different measured masses, unresolved.

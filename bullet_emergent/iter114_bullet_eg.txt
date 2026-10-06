@@ -1,0 +1,25 @@
+Iteration 114 -- emergent gravity vs the Bullet Cluster (visible matter of iteration 102)
+
+A1 Hossenfelder static limit, curl-free (20 kpc grid):
+   kappa: main BCG 0.205 (meas 0.36), main plasma 0.245 (meas 0.05), sub BCG 0.125 (meas 0.20), sub plasma 0.196 (meas 0.02)
+   galaxy-minus-gas: main -0.040 (meas +0.31) -> 4.1 sigma; sub -0.072 (meas +0.18) -> 3.2 sigma; combined 5.2 sigma
+   TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+B Verlinde spread term made local, centre (192,89) (20 kpc grid):
+   kappa: main BCG 0.280 (meas 0.36), main plasma 0.352 (meas 0.05), sub BCG 0.149 (meas 0.20), sub plasma 0.264 (meas 0.02)
+   galaxy-minus-gas: main -0.072 (meas +0.31) -> 4.5 sigma; sub -0.115 (meas +0.18) -> 3.8 sigma; combined 5.9 sigma
+   TIP at (500,120) kpc -> nearest sub plasma (23 kpc)
+reference: galaxy rule QUMOND (iteration 102 method):
+   kappa: main BCG 0.178 (meas 0.36), main plasma 0.214 (meas 0.05), sub BCG 0.110 (meas 0.20), sub plasma 0.170 (meas 0.02)
+   galaxy-minus-gas: main -0.037 (meas +0.31) -> 4.1 sigma; sub -0.060 (meas +0.18) -> 3.1 sigma; combined 5.1 sigma
+   TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+
+A1 curl-free on the coarse box (40 kpc, |z| < 1.2 Mpc) -- baseline for the curl check:
+   kappa: main BCG 0.190 (meas 0.36), main plasma 0.229 (meas 0.05), sub BCG 0.111 (meas 0.20), sub plasma 0.181 (meas 0.02)
+   galaxy-minus-gas: main -0.039 (meas +0.31) -> 4.1 sigma; sub -0.070 (meas +0.18) -> 3.2 sigma; combined 5.2 sigma
+   TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+A2 Hossenfelder static limit, FULL non-linear solution (40 kpc):
+   kappa: main BCG 0.192 (meas 0.36), main plasma 0.231 (meas 0.05), sub BCG 0.109 (meas 0.20), sub plasma 0.177 (meas 0.02)
+   galaxy-minus-gas: main -0.038 (meas +0.31) -> 4.1 sigma; sub -0.068 (meas +0.18) -> 3.2 sigma; combined 5.2 sigma
+   TIP at (160,80) kpc -> nearest main plasma (31 kpc)
+   curl term: extra kappa A2/A1 at markers: main BCG 1.02, main plasma 1.01, sub BCG 0.98, sub plasma 0.96
+   (solver: 374 iterations, CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH)
