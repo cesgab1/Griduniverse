@@ -1945,3 +1945,6 @@ Literature (mem): Earth/mica/detector searches exclude light lumps up to ~1e4 kg
 10 Msun for any compact object. Open band ~1e4 - 2e19 kg. Early-universe survival needs mass >~1e15-1e25 kg (very uncertain;
 re-absorption 'loop' helps). Verdict: alive in the asteroid band if survival works there; not excluded, not favoured. Same open band
 as primordial black holes -- future microlensing/femtolensing and gravitational-wave-detector transits could probe it.
+CORRECTION (verified, MNRAS 537, 1056, 2025): viable quark-nugget window is 1e10 - 1e18 g = 1e7 - 1e15 kg (0.2 mm - 8 cm), after mica,
+seismic, compact-star runaway, femtolensing and microlensing limits; survival scenario gives baryon number ~1e35 (~2e8 kg) -- inside it.
+Conditional on unproven quark-matter physics. My from-memory band (1e4 - 2e19 kg) was too wide.
