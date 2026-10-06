@@ -1840,3 +1840,9 @@ A (no dark energy, no dark matter): fails in both halves, nothing direction-spec
 B (dark energy): dark-energy share 0.705 toward vs 0.640 away (law: 0.730 vs 0.655); random-axis p = 3.5-3.7% at z > 0.05 (main),
 12-13% at z > 0.01. Expectation MISSED (predicted p > 0.05): a ~2 sigma hint of direction-dependent speed-up toward the anomaly axis.
 Caveat: survey mix differs by hemisphere. Next: survey composition, Union3/DES by direction, DESI BAO by direction.
+
+## Iteration 106 -- robustness of the hemisphere split (hemispheres/)
+Pantheon+ drop-one-survey: split persists (p 8.7-12.3%), not one survey's doing (expectation missed), but baseline significance moves
+3.7% -> 8.3% with analysis details. Union3 (independent calibration, simplified): opposite sense, p = 64%. Verdict: not reproduced;
+likely a fluctuation. Far-off centre: no supernova support; not excluded. Lesson: a 2-sigma direction hint needs an independent
+catalogue before it means anything.

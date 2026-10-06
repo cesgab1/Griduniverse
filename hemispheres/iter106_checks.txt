@@ -1,0 +1,10 @@
+CHECK 1 -- Pantheon+ (z > 0.05) survey make-up (IDSURVEY: count toward / away)
+   1: 19/302, 15: 113/153, 10: 64/139, 4: 38/122, 150: 19/22, 100: 5/11, 5: 4/8, 106: 3/5, 64: 1/5, 101: 0/6, 50: 4/0, 51: 0/4, 65: 1/2, 63: 0/2, 56: 0/1, 62: 0/1, 66: 0/1, 57: 0/1
+   all surveys      N 271/785: matter-share difference (toward - away) -0.060 +/- 0.032; random-axis p = 8.3%
+   drop survey 1    N 252/483: matter-share difference (toward - away) -0.070 +/- 0.039; random-axis p = 8.7%
+   drop survey 4    N 233/663: matter-share difference (toward - away) -0.070 +/- 0.042; random-axis p = 11.3%
+   drop survey 10   N 207/646: matter-share difference (toward - away) -0.070 +/- 0.039; random-axis p = 8.7%
+   drop survey 15   N 158/632: matter-share difference (toward - away) -0.050 +/- 0.039; random-axis p = 12.3%
+
+CHECK 2 -- Union3 inputs (simplified: alpha 0.14, beta 2.90, per-sample offsets, 0.10 mag scatter), z > 0.05, N = 1497
+   matter share toward 0.470, away 0.430 (dark energy 0.530 vs 0.570); difference +0.040 +/- 0.056; random-axis p = 63.7%  (N 355/1142)
