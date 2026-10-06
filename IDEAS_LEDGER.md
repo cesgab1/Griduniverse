@@ -2134,3 +2134,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   points from 64 systems. Measured/galaxy-rule: inner x2.4-3.0, outer x1.4-1.6; offset rises with visible pull (x1.4 ->
   x2.7), opposite to the galaxy rule. All 3 expectations HIT. Conventions removed, conclusion unchanged and sharper:
   clusters' extra pull is concentrated toward their centres, where a weak-pull rule gives least help.
+
+- CONVENTIONS AUDIT (conventions/CONVENTIONS_AUDIT.md, Coalesce: 'check the theories for conventions, even borrowed
+  equations'). Sorted A (bookkeeping, 6), B (modelling choices that can change results, 12), C (hypotheses dressed as
+  conventions, 12). Drill 1 (mass-to-light 0.2-0.8): galaxy pattern survives (scatter 0.146-0.159 dex), weak-pull boost
+  x9-11 robust; switch-on point moves; M/L > ~0.6 gives impossible boost < 1 in inner points. Open drills: hydrostatic vs
+  lensing masses, nu-function choice, w0-wa parametrisation of the DESI signal, energy conditions vs Big Bang singularity.
