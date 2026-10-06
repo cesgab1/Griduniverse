@@ -2004,3 +2004,11 @@ long time (Bellinger et al. 2023); (2) 'quasi-stars' -- huge, puffy early-univer
 supernovae -- a massive star's core collapses straight to a black hole and the star simply vanishes (candidate N6946-BH1).
 Mass budget: hidden black holes made from stars are ordinary matter (deuterium cap); only primordial ones are not. Not the cluster
 solution, but (1) is a test of asteroid-mass primordial black holes and (2) bears on how giant black holes grew so early.
+
+## Coalesce: clusters' gravity could be shallow and spread evenly across the stars, giving a more 'harmonious' collective pull
+- Newtonian gravity adds linearly: N small dents make exactly the sum, no bonus; spreading mass out changes the SHAPE, not the total
+  pull at a given radius (only the mass inside counts -- shell theorem). Einstein's non-linear correction ~ depth (sigma/c)^2: 2.5e-7
+  (galaxy) to 1.1e-5 (cluster) -> 'harmony' bonus ~1e-5 of the pull vs +400% needed.
+- Data on shape: lensing shows cluster mass CONCENTRATED (peaked at central galaxies, Bullet tip on galaxies), not shallow/even.
+- Galaxy-rule (MOND) non-linearity is the real 'collective' option; already computed for the Bullet (iteration 102: still misses) and
+  per-galaxy addition (galaxies_lensing/cluster_review: overshoots, combines non-linearly). Excluded.
