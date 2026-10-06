@@ -1984,3 +1984,10 @@ Quark nuggets: still allowed observationally, but their formation now lacks a wo
   Planck scale (~2000x rougher than galaxy-scale ripples). A FULLY chaotic start (ripples 0.3-1) overproduces by >~1e26 -> excluded
   unless leftovers evaporate. One adjusted number (ripple size) for one datum (amount): a fit, not a prediction. Gravity-only: ~3
   pass through Earth per second; undetectable now. New candidate tied to the grid's cap; record as lead.
+
+## Coalesce: stars with a neutron star hidden inside (Thorne-Zytkow objects) in clusters
+- Real proposal (Thorne & Zytkow 1977): a red supergiant swallowing a neutron star; candidate HV 2112 (debated). Short-lived (~1e5 yr?),
+  rare (a handful per galaxy at any time, mem). They shine as supergiants, so their light is counted; the hidden neutron star (~1.4 Msun)
+  is ordinary matter inside the deuterium cap. Cannot supply the x5 cluster pull.
+- Related and useful: 'Hawking stars' (Bellinger et al. 2023, mem) -- stars with a captured tiny primordial black hole at the centre;
+  star-quake (asteroseismology) signatures could test the asteroid-mass black-hole window from the dark-matter discussion.
