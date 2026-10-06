@@ -2027,3 +2027,12 @@ JADES-ID1 (z ~ 5.7, ~2e13 Msun, hot gas; Chandra/Webb Jan 2026): cold dark matte
 (~4 sigma); 1e-3 (~3 sigma) if mass x2 lower; 2.5e-2 (~2 sigma) if x4 lower. Expectation missed (rarer than predicted). Without dark
 matter: none. Early clusters need MORE early pull; protocluster 'total mass' may be region mass (caveat). SPT2349-56 (z = 4.3): gas
 >= 5x hotter than predicted -- early black-hole heating.
+
+## Method rule (Coalesce, Oct 6 2026): no picking and choosing anomalies
+Every anomaly gets the same three-way judgement -- (a) the theory is wrong, (b) the measurement is wrong, (c) a fluke -- decided
+by the same criteria, written down in advance: (1) significance with look-elsewhere counted (~109 iterations here -> ~5 chance
+2-sigma 'hits' expected); (2) survives an INDEPENDENT method/dataset? (3) repeats in the same direction as data improve?
+Survives (2)+(3) -> evidence against the theory; fades with better data -> measurement; neither -> fluke until retested.
+Examples: our supernova hemisphere split (fluke: independent Union3 did not repeat it); early JWST 'too massive' galaxies of 2022-23
+(largely measurement: some masses revised down, some light from black holes -- mem); Hubble tension (survives many independent
+checks -> points at theory); cluster missing pull (survives 4+ independent methods -> real).
