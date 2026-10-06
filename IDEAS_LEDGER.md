@@ -2074,4 +2074,4 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   protons, 4.5e70 neutrons, 3.1e71 electrons + heat, light, CMB, magnetism, cosmic rays, neutrinos (Pauli-limited trapping),
   black holes, vacuum energy -> 0.180 of the needed mass (short x5.6, robust to radius). Non-particle items total -0.75%
   (vacuum energy subtracts). Naive quantum vacuum 3e120 x too much and repulsive. MISS logged: forgot vacuum term in the
-  "<1e-3" expectation. The books do not balance at the quantum level either -- fifth independent sight of the same gap.
+  "<1e-3" expectation. The books do not balance at the quantum level either (not a new measurement of the gap -- it rules out hiding places on the visible side).
