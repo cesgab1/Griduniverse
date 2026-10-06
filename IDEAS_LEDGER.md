@@ -2140,3 +2140,10 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   conventions, 12). Drill 1 (mass-to-light 0.2-0.8): galaxy pattern survives (scatter 0.146-0.159 dex), weak-pull boost
   x9-11 robust; switch-on point moves; M/L > ~0.6 gives impossible boost < 1 in inner points. Open drills: hydrostatic vs
   lensing masses, nu-function choice, w0-wa parametrisation of the DESI signal, energy conditions vs Big Bang singularity.
+
+- CONVENTION DRILLS (conventions/DRILLS.md, Coalesce: 'find a better equation for each'): D1 gas-only galaxy points ->
+  pattern independent of mass-to-light. D2 galaxies' own curve instead of assumed nu -> clusters x2.60 inner / x1.54 outer
+  (unchanged). D3 free-bin dark energy (Pantheon+ and Union3 agree): w ~ -0.9 at z < 0.4 (our law -0.94, zero extra
+  parameters), dip to ~-1.5 at z 0.8-1.5 (~2 sigma, 1 of 4 bins, not significant); w0-wa's straight line blends the two.
+  D4 Coma lensing masses disagree x2.2 with each other -> stuck. D5 unimodular gravity removes the 1e120 problem and fits a
+  grid naturally (fixed cells per volume). D6 singularity theorems need conditions dark energy breaks; a bounce is allowed.

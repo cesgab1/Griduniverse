@@ -1,0 +1,10 @@
+Drill 3 -- dark energy shape without the w0-wa convention (SNSET=PANTHEON)
+  LCDM  chi2   1420.15  (vs LCDM   +0.00; extra parameters 0)  params [0.302 0.684 0.023]
+  LAW   chi2   1414.71  (vs LCDM   -5.43; extra parameters 0)  params [0.31  0.675 0.023]
+  w0wa  chi2   1413.01  (vs LCDM   -7.14; extra parameters 2)  params [ 0.311  0.677  0.022 -0.856 -0.5  ]
+  BINW  chi2   1408.76  (vs LCDM  -11.38; extra parameters 4)  params [ 0.312  0.677  0.022 -0.944 -0.839 -1.581 -1.013]
+  binned w (1-sigma, profiled)  |  our law's own effective w  |  LCDM -1
+   z 0.0-0.4: w = -0.94 [-0.97, -0.91]   law -0.94   -1 is OUTSIDE 1 sigma
+   z 0.4-0.8: w = -0.84 [-0.97, -0.72]   law -0.99   -1 is OUTSIDE 1 sigma
+   z 0.8-1.5: w = -1.58 [-1.88, -1.31]   law -1.03   -1 is OUTSIDE 1 sigma
+   z 1.5-3.0: w = -1.01 [-1.61, -0.64]   law -1.07   -1 is inside 1 sigma
