@@ -1872,3 +1872,13 @@ static phase held by the grid's stiffness. Prediction to derive: blue-tilted gra
 No adjustable numbers: seeds 2e8-2e9 too strong (fails). One adjusted number (T = 4.6e-5 T_P): fits size/tilt; predicts blue GW tilt
 n_t = +0.035 (untestable soon: 2.6e7 below LIGO). Holding it needs 2.4e97 Pa: grid's Planck stiffness suffices but must relax x9e122
 to today's 5.3e-10 Pa = the dark-energy SIZE problem again. Links 'seeds' and 'size' into one problem; solves neither.
+
+## Question (Coalesce): why is the universe cooling, where does the heat go? (cooling/)
+- Cooling = stretching: each photon's wavelength grows with the expansion (energy ~ 1/a); particles slow. Entropy of the CMB is
+  conserved (no heat flows anywhere; adiabatic). Since z = 1090 each CMB photon lost 99.9% of its energy.
+- In Einstein gravity there is no global energy conservation for expanding space (no time-translation symmetry); local balance holds.
+  Same rule lets dark energy's total GROW with volume.
+- Test 'the heat goes into dark energy': today dark energy gains 2.3e4 x more than radiation loses; losses are early (~1/a), dark
+  energy grows late (~a^3); CMB limits early dark energy -> fails on rate and timing. Cumulative match (z ~ 7600) is start-dependent.
+- Grid angle: our grid HAS a global time (stamp/Khronon), which in principle allows a conserved total energy including grid tension;
+  not derived. Candidate question for the quantum-gravity track.

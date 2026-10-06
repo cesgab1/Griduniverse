@@ -1,0 +1,6 @@
+radiation (CMB + neutrinos) energy in the visible universe now: 2.5e+67 J;  dark energy: 1.9e+71 J
+rates today: radiation LOSES 1.7e+57 J/yr (each photon stretched); dark energy GAINS 3.9e+61 J/yr (same density, more volume)
+gain/loss ratio today: 22747
+CMB photons since the fog cleared (z = 1090): energy per photon down x1091 -> 99.91% of their energy 'gone'
+cumulative radiation loss equals today's dark energy if counted from a = 1.3e-04 (z ~ 7582); from the grid cap (a ~ 2e-32) the loss is 1e+99 J -- arbitrary, depends on the start
+timing: radiation losses are concentrated EARLY (rate ~ 1/a), dark energy accumulates LATE (~ a^3); CMB limits early dark energy to ~<1-2% near z ~ 1000 -> 'heat feeds dark energy' fails on timing
