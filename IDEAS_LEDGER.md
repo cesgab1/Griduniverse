@@ -2046,3 +2046,12 @@ tend to scatter UP -- Eddington bias). Early massive objects are already a popul
 FRESCO (124 arcmin^2, z 4.9-6.6, 3 galaxies log M* 11.04-11.37): fits standard cosmology if ~50% of gas became stars (expected 2.2,
 p = 37%); with typical 20% efficiency a 2.3-3.3 sigma excess. -> galaxy-formation efficiency issue, not gravity/dark matter amount.
 JADES-ID1 differs: total mass, efficiency-independent; ~4 sigma if 2e13 holds -> needs an independent mass.
+
+## Coalesce: events like GRB 080319B (naked-eye burst) as clues (grb/)
+Facts (verified): 19 Mar 2008, z = 0.937 (~7.5 billion ly), peak mag 5.8, naked-eye ~30 s; optical and gamma peaks together (~2 s);
+jet pointed straight at us (narrow core + wider cone) -> if typical, most bursts are seen only off-axis and GRBs are more common than
+counted. Its own graininess (quantum-gravity) bound: > ~2e-5 to 1e-4 Planck energies -- ~1e5 weaker than GRB 090510 (linear, >1.2 E_P)
+and GRB 221009A (quadratic, >1.2e12 GeV) already used here; the grid predicts NO energy-dependent delays (PREREG_53 B3).
+Clues more such events can give: (1) graininess tests (need high-energy photons: Fermi/LHAASO-class bursts); (2) a distance ladder to
+z ~ 9 to test our dark-energy law beyond supernovae (GRB energy-peak correlations; large scatter, calibration caveats); (3) early star
+formation and chemistry via afterglow spectra; (4) burst rates -> how many are beamed away from us.

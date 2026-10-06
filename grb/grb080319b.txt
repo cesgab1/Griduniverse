@@ -1,0 +1,4 @@
+080319B: optical and gamma together within 2 s over z = 0.937 -> grid/QG scale > 2.4e+14 GeV = 2e-05 Planck energies
+080319B: optical and gamma together within 10 s over z = 0.937 -> grid/QG scale > 4.8e+13 GeV = 4e-06 Planck energies
+record holders already in the project: GRB 090510 (Fermi) linear > 1.2 Planck energies; GRB 221009A (LHAASO) quadratic > 1.2e12 GeV
+-> 080319B is ~1e5x weaker as a graininess test (photons only ~MeV); its value is elsewhere (jets, rates, early universe)
