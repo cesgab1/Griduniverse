@@ -33,3 +33,8 @@ derivation from the grid.
 
 Status: 'no singularity' is natural on a grid and consistent with everything we have. 'No inflation' (a bounce doing
 inflation's job) fails the running test by ~30 sigma. What survives is bounce + inflation, which our model doesn't yet explain.
+
+Supplement (Oct 5 2026, mirror_radiation.*): in the mirror-image contraction, CMB modes with k > k_eq (0.0104/Mpc) left the horizon
+while the contraction was radiation-dominated -> tilt n_s = 3: power at k = 0.2/Mpc would be ~x370 that at k_eq vs measured x0.90.
+A second, independent failure of bounce-instead-of-inflation. Without inflation the bounce's own features sit at scales ~1e30 times
+smaller than the largest we can observe -> invisible.

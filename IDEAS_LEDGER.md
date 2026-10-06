@@ -1855,3 +1855,8 @@ Not a point: everything shrinks together everywhere; the patch at the cap holds 
 (light-travel region ~0.5 Planck length) -> they all 'open' at once. The grid's global time stamp would supply the simultaneous
 start for free (a preferred 'now'); its graininess gives ripples ~1e-37, far below the measured 1e-5 -> the grid explains the
 synchronised, smooth opening but not the seeds of structure (open problem; inflation's main job).
+
+## Re-asked (Coalesce, Oct 5 2026): what would the grid's bounce do? -> already done (Family 6, bounce/). Supplement added:
+mirror radiation-era contraction gives n_s = 3 for k > k_eq (power x370 vs x0.90 measured) -- second failure of bounce-without-
+inflation; bounce features otherwise ~1e30 below observable scales. Bounce + inflation: low-l suppression dchi2 -1.4 (not evidence).
+Status unchanged: bounce replaces the infinite-density point but makes no visible imprint without an (added) inflaton.

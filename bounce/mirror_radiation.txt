@@ -1,0 +1,2 @@
+radiation-contraction tilt n_s = 3.0; power at k = 0.2 vs k_eq: predicted x370, measured x0.90
+bounce curvature scale ~ Planck length; visible universe at the bounce 1.7e-05 m -> bounce features sit at scales 1e+30 times smaller than the largest we can observe (unless inflation stretched them)
