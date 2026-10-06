@@ -1,0 +1,15 @@
+quark era ends (quarks bind into protons/neutrons, T ~ 150 MeV): t ~ 1.4e-05 s
+neutrinos stop trading heat (T ~ 1 MeV): t ~ 0.7 s;  element-making (T ~ 0.07 MeV): t ~ 4 min
+neutrinos: max share of the missing mass = (sum m / 93 eV) / 0.120 = 0.6%  (and they are hot)
+
+ingredient | why | verdict
+photons, gravitational waves | move at light speed: hot | no
+quarks, gluons | bound into protons/neutrons by ~1e-5 s -> counted by deuterium | no
+electrons, muons, taus | charged; muons/taus decay in microseconds | no
+W, Z, Higgs, top quark | decay in ~1e-25 s | no
+neutrinos | stable, dark, but hot and at most ~0.6% of the need | no
+protons, neutrons, nuclei, atoms | ordinary matter: deuterium caps it (x6 short) | no
+pions, kaons and other hadrons | decay in < 1e-7 s | no
+QUARK NUGGETS (dense lumps of quarks formed at ~1e-5 s, Witten 1984) | locked away BEFORE element-making, so deuterium never 'sees' them; cold, dark, heavy | OPEN (needs strange-quark matter to be stable; survival in the hot early universe debated, mem)
+PRIMORDIAL BLACK HOLES | known physics; asteroid-mass window open (mem) | OPEN (needs big small-scale ripples)
+SPACETIME 'CLOCK DUST' (preferred-time gravity; our grid's clock) | no particle at all; cold and collisionless automatically | OPEN (amount not derived)

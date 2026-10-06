@@ -1913,3 +1913,11 @@ Two classes: (A) once in heat contact (thermal relic): mass > ~10 MeV (BBN/N_eff
 (B) never in contact (axion-like, primordial black holes, or dust tied to the grid's clock -- 'dark matter as integration constant',
 Mukohyama 2009; mimetic gravity): no 'when'. Grid-native candidate = (B)-type clock dust: born with the cosmic clock, cold, collisionless
 (rides with Bullet galaxies). Not yet derived; its amount (5.4x ordinary matter) would be a second 'stamped' number like dark energy's size.
+
+## Coalesce: infer dark matter's composition from the time and the ingredients available (dm_thermal/inventory.*)
+Known ingredients of the first seconds checked against: stable, dark, cold, collisionless, not counted by deuterium, 5.4x ordinary.
+Excluded: light/gravitational waves (hot), quarks/gluons -> baryons by 1.4e-5 s (deuterium), charged leptons, W/Z/Higgs/top (decay),
+neutrinos (hot, <= 0.6% of need with sum m < 0.064 eV), nuclei/atoms (deuterium x6), hadrons (decay).
+Survivors made of KNOWN physics: (1) quark nuggets formed at the quark-hadron transition (~1e-5 s; Witten 1984) -- hidden from
+deuterium; needs stable strange-quark matter, survival debated (mem); (2) primordial black holes (asteroid window, needs big ripples);
+(3) spacetime 'clock dust' from the grid's preferred time (amount not derived). Everything else would be a new particle.
