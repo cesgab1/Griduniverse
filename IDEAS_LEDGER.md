@@ -1921,3 +1921,12 @@ neutrinos (hot, <= 0.6% of need with sum m < 0.064 eV), nuclei/atoms (deuterium 
 Survivors made of KNOWN physics: (1) quark nuggets formed at the quark-hadron transition (~1e-5 s; Witten 1984) -- hidden from
 deuterium; needs stable strange-quark matter, survival debated (mem); (2) primordial black holes (asteroid window, needs big ripples);
 (3) spacetime 'clock dust' from the grid's preferred time (amount not derived). Everything else would be a new particle.
+
+## Coalesce: dark-matter pieces need not be stable -- they could run on a loop (break and re-form)
+- Fair: only the TOTAL dark mass must persist (as with neutrons in neutron stars, kept by a decay/capture loop -- Urca process).
+- Constraint if the loop passes through ordinary matter: ordinary matter at 3 min (deuterium 0.0222 +/- 0.0005) and at 380,000 yr
+  (CMB 0.02239 +/- 0.00015) agree -> at most ~5.5% of ordinary matter = ~1.0% of dark matter leaked in between (2 sigma).
+  Visible decay products (photons, electrons) are limited further (lifetimes >> age of universe; mem).
+- Re-forming heavy objects from scattered pieces needs early-universe density/temperature -> today a loop through ordinary matter
+  becomes a one-way leak. A loop that stays INSIDE dense objects (quark nuggets: surface evaporation re-absorbed) or entirely within
+  a dark sector is allowed. Quark-nugget survival with re-absorption: debated in the literature (mem).

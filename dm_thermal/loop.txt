@@ -1,0 +1,4 @@
+ordinary matter: element-making (3 min) 0.0222 vs early-universe glow (380,000 yr) 0.02239: change +0.00019 +/- 0.00052
+-> at most 0.00123 added (2 sigma) = 5.6% of ordinary matter = 1.0% of dark matter could have leaked into
+   ordinary matter between 3 minutes and 380,000 years
+a loop that never touches ordinary matter or light: unconstrained by this (a 'dark sector' with its own internal cycle)
