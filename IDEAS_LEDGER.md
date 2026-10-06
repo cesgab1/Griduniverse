@@ -1867,3 +1867,8 @@ conversion (68 e-folds) to become ours (emergent-universe prior art). Our DE law
 NEW LEAD: area-law heat capacity (our grid's entropy) + thermal jiggling in a quasi-static hot phase -> scale-invariant seeds;
 amplitude fixes T = 4.6e-5 T_P. A Lambda-balanced static universe cannot be both that hot and big enough (x5e25). Needs a quasi-
 static phase held by the grid's stiffness. Prediction to derive: blue-tilted gravitational-wave seeds (n_t > 0).
+
+## Iteration 108 -- grid-held hot still phase (einstein_static/)
+No adjustable numbers: seeds 2e8-2e9 too strong (fails). One adjusted number (T = 4.6e-5 T_P): fits size/tilt; predicts blue GW tilt
+n_t = +0.035 (untestable soon: 2.6e7 below LIGO). Holding it needs 2.4e97 Pa: grid's Planck stiffness suffices but must relax x9e122
+to today's 5.3e-10 Pa = the dark-energy SIZE problem again. Links 'seeds' and 'size' into one problem; solves neither.
