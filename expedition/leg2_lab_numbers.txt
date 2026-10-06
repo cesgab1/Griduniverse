@@ -1,0 +1,4 @@
+Westphal 2021: 90 mg gold, centres ~2.4 mm: own pull 1.0e-09 m/s^2 -> boost if set by the source's own pull x1.06
+same, centres 10 mm: own pull 6.0e-11 m/s^2 -> boost if set by the source's own pull x1.97
+1 mg spheres, 5 mm: own pull 2.7e-12 m/s^2 -> boost if set by the source's own pull x7.22
+quantum-entanglement proposal: 1e-14 kg microdiamonds, 0.2 mm (Bose+2017, memory): own pull 1.7e-17 m/s^2 -> boost if set by the source's own pull x2682.31

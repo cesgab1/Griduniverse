@@ -2117,3 +2117,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   material (shells, rings, repulsive or attractive) adds no inferred local mass. At the Sun: measured 68 +/- 4 Msun/pc^2
   within 1.1 kpc (Bovy & Rix 2013) vs visible 43.8 (McKee+2015) or 51.7 -> unseen 16-24, 2.8-4.7 sigma above the 'around'
   prediction of zero. The extra is IN the galaxy at our position (Newtonian reading; phantom if gravity is modified).
+
+- EXPEDITION (expedition/, Coalesce: 'work backwards: how strong would gravity have to be'). Leg 1: SPARC 2803 points ->
+  boost follows weakness of pull (0.15 dex) far better than distance (0.27 dex): x1 above 1e-9, x1.5 at 1e-10, x7.8 at
+  ~2e-12 m/s^2. Coma x1.4 above trend; Bullet location and early universe not covered. Leg 2: split H_total (MOND with
+  external field) vs H_self (source's own pull): H_self predicts x~7 for 1 mg lab masses and x~2600 faster gravitational
+  entanglement in proposed quantum experiments -- a lab/quantum discriminator. Wide binaries (Gaia DR4) test H_total.
