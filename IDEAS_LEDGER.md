@@ -2090,3 +2090,8 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Tip on the gas every time. Same failure as the galaxy rule (5.1): extra pull sourced by visible matter follows the gas.
   Only escape left in this family: a field that lags the matter after the collision (not tested). Also flagged: our Coma
   EG ratio 0.70-0.76 at 1 Mpc vs Tamosiunas+2019 '~2x too high' -- different measured masses, unresolved.
+
+- ITERATION 115 (bullet_emergent/, Coalesce: 'describe how a lag should look and find it'): extra pull sourced by matter
+  where it was tau ago, tau 0-400 Myr, 3 gas-speed cases -> best 4.8 sigma, never better. A delay points the pull to past
+  positions (behind the galaxies), never onto them. Lesson: to follow the galaxies the pull's source must carry momentum ->
+  it behaves like matter. Milky Way lag tests (bar, LMC wake) not pursued since no tau fits the Bullet.

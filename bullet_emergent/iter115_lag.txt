@@ -1,0 +1,62 @@
+Iteration 115 -- lagged emergent pull; v_sub 2664, v_main 36 km/s along the axis; T = 150 Myr
+
+gas speed after passage = 0.5 x galaxies'
+   tau   0 Myr: main -0.040 sub -0.072 -> combined 5.2 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau  25 Myr: main -0.040 sub -0.076 -> combined 5.3 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau  50 Myr: main -0.040 sub -0.078 -> combined 5.3 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau  75 Myr: main -0.039 sub -0.075 -> combined 5.3 sigma; TIP at (400,100) kpc -> nearest sub plasma (124 kpc)
+   tau 100 Myr: main -0.039 sub -0.069 -> combined 5.2 sigma; TIP at (360,100) kpc -> nearest sub plasma (163 kpc)
+   tau 125 Myr: main -0.041 sub -0.064 -> combined 5.2 sigma; TIP at (320,80) kpc -> nearest main plasma (131 kpc)
+   tau 150 Myr: main -0.047 sub -0.061 -> combined 5.2 sigma; TIP at (300,80) kpc -> nearest main plasma (111 kpc)
+   tau 175 Myr: main -0.060 sub -0.059 -> combined 5.3 sigma; TIP at (240,80) kpc -> nearest main plasma (52 kpc)
+   tau 200 Myr: main -0.062 sub -0.059 -> combined 5.3 sigma; TIP at (180,60) kpc -> nearest main plasma (31 kpc)
+   tau 225 Myr: main -0.045 sub -0.059 -> combined 5.2 sigma; TIP at (120,60) kpc -> nearest main plasma (75 kpc)
+   tau 250 Myr: main -0.017 sub -0.058 -> combined 4.9 sigma; TIP at (60,60) kpc -> nearest main BCG (85 kpc)
+   tau 275 Myr: main -0.008 sub -0.059 -> combined 4.8 sigma; TIP at (20,40) kpc -> nearest main BCG (45 kpc)
+   tau 300 Myr: main -0.018 sub -0.059 -> combined 4.9 sigma; TIP at (140,80) kpc -> nearest main plasma (50 kpc)
+   tau 325 Myr: main -0.031 sub -0.059 -> combined 5.1 sigma; TIP at (140,80) kpc -> nearest main plasma (50 kpc)
+   tau 350 Myr: main -0.037 sub -0.059 -> combined 5.1 sigma; TIP at (160,80) kpc -> nearest main plasma (31 kpc)
+   tau 375 Myr: main -0.039 sub -0.059 -> combined 5.1 sigma; TIP at (160,80) kpc -> nearest main plasma (31 kpc)
+   tau 400 Myr: main -0.040 sub -0.059 -> combined 5.1 sigma; TIP at (160,80) kpc -> nearest main plasma (31 kpc)
+   BEST: tau = 275 Myr, 4.8 sigma
+
+gas speed after passage = 0.0 x galaxies'
+   tau   0 Myr: main -0.040 sub -0.072 -> combined 5.2 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau  25 Myr: main -0.040 sub -0.075 -> combined 5.3 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau  50 Myr: main -0.040 sub -0.080 -> combined 5.3 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau  75 Myr: main -0.040 sub -0.083 -> combined 5.3 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau 100 Myr: main -0.040 sub -0.081 -> combined 5.3 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau 125 Myr: main -0.041 sub -0.079 -> combined 5.3 sigma; TIP at (220,80) kpc -> nearest main plasma (33 kpc)
+   tau 150 Myr: main -0.043 sub -0.077 -> combined 5.3 sigma; TIP at (220,80) kpc -> nearest main plasma (33 kpc)
+   tau 175 Myr: main -0.045 sub -0.075 -> combined 5.3 sigma; TIP at (220,60) kpc -> nearest main plasma (43 kpc)
+   tau 200 Myr: main -0.045 sub -0.065 -> combined 5.2 sigma; TIP at (200,60) kpc -> nearest main plasma (32 kpc)
+   tau 225 Myr: main -0.044 sub -0.061 -> combined 5.2 sigma; TIP at (280,80) kpc -> nearest main plasma (92 kpc)
+   tau 250 Myr: main -0.049 sub -0.059 -> combined 5.2 sigma; TIP at (240,80) kpc -> nearest main plasma (52 kpc)
+   tau 275 Myr: main -0.050 sub -0.059 -> combined 5.2 sigma; TIP at (180,80) kpc -> nearest main plasma (13 kpc)
+   tau 300 Myr: main -0.040 sub -0.059 -> combined 5.1 sigma; TIP at (120,60) kpc -> nearest main plasma (75 kpc)
+   tau 325 Myr: main -0.020 sub -0.059 -> combined 4.9 sigma; TIP at (80,60) kpc -> nearest main BCG (100 kpc)
+   tau 350 Myr: main -0.014 sub -0.059 -> combined 4.9 sigma; TIP at (20,40) kpc -> nearest main BCG (45 kpc)
+   tau 375 Myr: main -0.024 sub -0.059 -> combined 5.0 sigma; TIP at (140,80) kpc -> nearest main plasma (50 kpc)
+   tau 400 Myr: main -0.034 sub -0.059 -> combined 5.1 sigma; TIP at (160,80) kpc -> nearest main plasma (31 kpc)
+   BEST: tau = 350 Myr, 4.9 sigma
+
+gas speed after passage = 1.0 x galaxies'
+   tau   0 Myr: main -0.040 sub -0.072 -> combined 5.2 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau  25 Myr: main -0.040 sub -0.073 -> combined 5.2 sigma; TIP at (200,80) kpc -> nearest main plasma (15 kpc)
+   tau  50 Myr: main -0.039 sub -0.068 -> combined 5.2 sigma; TIP at (360,100) kpc -> nearest sub plasma (163 kpc)
+   tau  75 Myr: main -0.044 sub -0.066 -> combined 5.2 sigma; TIP at (300,80) kpc -> nearest main plasma (111 kpc)
+   tau 100 Myr: main -0.056 sub -0.063 -> combined 5.3 sigma; TIP at (240,80) kpc -> nearest main plasma (52 kpc)
+   tau 125 Myr: main -0.059 sub -0.061 -> combined 5.3 sigma; TIP at (180,80) kpc -> nearest main plasma (13 kpc)
+   tau 150 Myr: main -0.049 sub -0.059 -> combined 5.2 sigma; TIP at (140,60) kpc -> nearest main plasma (57 kpc)
+   tau 175 Myr: main -0.030 sub -0.059 -> combined 5.0 sigma; TIP at (80,60) kpc -> nearest main BCG (100 kpc)
+   tau 200 Myr: main -0.023 sub -0.059 -> combined 5.0 sigma; TIP at (140,60) kpc -> nearest main plasma (57 kpc)
+   tau 225 Myr: main -0.024 sub -0.059 -> combined 5.0 sigma; TIP at (120,60) kpc -> nearest main plasma (75 kpc)
+   tau 250 Myr: main -0.026 sub -0.059 -> combined 5.0 sigma; TIP at (120,60) kpc -> nearest main plasma (75 kpc)
+   tau 275 Myr: main -0.028 sub -0.059 -> combined 5.0 sigma; TIP at (140,60) kpc -> nearest main plasma (57 kpc)
+   tau 300 Myr: main -0.033 sub -0.059 -> combined 5.1 sigma; TIP at (160,80) kpc -> nearest main plasma (31 kpc)
+   tau 325 Myr: main -0.037 sub -0.059 -> combined 5.1 sigma; TIP at (160,80) kpc -> nearest main plasma (31 kpc)
+   tau 350 Myr: main -0.040 sub -0.059 -> combined 5.1 sigma; TIP at (160,80) kpc -> nearest main plasma (31 kpc)
+   tau 375 Myr: main -0.041 sub -0.059 -> combined 5.1 sigma; TIP at (180,80) kpc -> nearest main plasma (13 kpc)
+   tau 400 Myr: main -0.042 sub -0.059 -> combined 5.2 sigma; TIP at (180,80) kpc -> nearest main plasma (13 kpc)
+   BEST: tau = 200 Myr, 5.0 sigma
+
