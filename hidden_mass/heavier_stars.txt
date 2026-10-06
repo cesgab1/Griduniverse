@@ -1,0 +1,11 @@
+Coma (whole cluster)            : stars would have to weigh x27 what their light suggests
+Bullet, main galaxies (100 kpc) : stars would have to weigh x51 what their light suggests
+Bullet, sub galaxies (100 kpc)  : stars would have to weigh x21 what their light suggests
+
+Independent checks on how heavy stars really are (mem):
+  * gas mass is NOT from light: X-ray brightness gives it directly (and the SZ effect agrees)
+  * star masses checked by motions in galaxy centres and by strong lensing of elliptical galaxies' inner parts:
+    true star mass = 1-2x the light-based estimate (the 'bottom-heavy' debate), not x10-x50
+  * star clusters / binaries: individual stellar masses known to ~percent
+  * deuterium cap: making stars x27-x50 heavier puts ordinary matter at ~5-6x the Big-Bang value
+A star with a hidden neutron star (Thorne-Zytkow) is ~+10% heavier than its light suggests -- far short of x27.

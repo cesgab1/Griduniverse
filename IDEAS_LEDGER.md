@@ -1991,3 +1991,8 @@ Quark nuggets: still allowed observationally, but their formation now lacks a wo
   is ordinary matter inside the deuterium cap. Cannot supply the x5 cluster pull.
 - Related and useful: 'Hawking stars' (Bellinger et al. 2023, mem) -- stars with a captured tiny primordial black hole at the centre;
   star-quake (asteroseismology) signatures could test the asteroid-mass black-hole window from the dark-matter discussion.
+
+## Coalesce: objects may be heavier than their light suggests (hidden dense cores) (hidden_mass/)
+To close the gap the STARS would need x27 (Coma) to x50 (Bullet main galaxies) their light-based mass (gas mass comes from X-rays,
+not light). Checks (mem): galaxy-centre motions and strong lensing give true star mass 1-2x light-based; Thorne-Zytkow-type hidden
+neutron stars add ~10%; and x27-x50 heavier stars would breach the deuterium cap (~5-6x). Excluded as the cluster solution.
