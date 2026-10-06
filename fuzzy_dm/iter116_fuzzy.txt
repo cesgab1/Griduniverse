@@ -1,0 +1,43 @@
+Iteration 116 -- minimum particle mass if each dwarf's dark core is no more compact than one quantum wave allows
+N = 34 dwarfs (Simon 2019, measured sigma)
+
+  dwarf              R1/2 pc  sigma   m_min (eV)   conservative (sigma+1, R+1 err)
+  GrusI                 28    2.9   2.03e-20     6.45e-21
+  Segue1                24    3.7   1.85e-20     1.15e-20
+  LeoV                  49    2.3   1.46e-20     4.60e-21
+  Willman1              33    4.0   1.25e-20     8.36e-21
+  HydrusI               53    2.7   1.15e-20     9.02e-21
+  CarinaIII             30    5.6   9.80e-21     4.37e-21
+  ReticulumII           51    3.3   9.78e-21     7.62e-21
+  HorologiumI           40    4.9   8.40e-21     4.27e-21
+  CarinaII              92    3.4   5.26e-21     3.58e-21
+  ComaBerenices         69    4.6   5.19e-21     4.12e-21
+  PiscesII              60    5.4   5.08e-21     2.61e-21
+  CanesVenaticiII       71    4.6   5.04e-21     3.58e-21
+  LeoIV                114    3.3   4.37e-21     2.59e-21
+  BootesII              39   10.5   4.02e-21     2.09e-21
+  PegasusIII            78    5.4   3.91e-21     1.80e-21
+  UrsaMajorII          139    5.6   2.11e-21     1.59e-21
+  AquariusII           160    5.4   1.90e-21     1.01e-21
+  BootesI              191    4.6   1.87e-21     1.53e-21
+  LeoT                 118    7.5   1.86e-21     1.40e-21
+  TucanaII             121    8.6   1.58e-21     8.12e-22
+  Hercules             216    5.1   1.49e-21     1.16e-21
+  LeoII                171    7.4   1.30e-21     1.17e-21
+  EridanusII           246    6.9   9.70e-22     7.73e-22
+  Carina               311    6.6   8.02e-22     6.47e-22
+  UrsaMajorI           295    7.0   7.97e-22     6.37e-22
+  Draco                231    9.1   7.83e-22     6.44e-22
+  LeoI                 270    9.2   6.63e-22     5.97e-22
+  Sculptor             279    9.2   6.41e-22     5.42e-22
+  CraterII            1066    2.7   5.72e-22     4.76e-22
+  CanesVenaticiI       437    7.6   4.96e-22     4.52e-22
+  Sextans              456    7.9   4.57e-22     3.80e-22
+  UrsaMinor            405    9.5   4.28e-22     3.61e-22
+  Fornax               792   11.7   1.78e-22     1.61e-22
+  Sagittarius         2662    9.6   6.44e-23     5.76e-23
+
+  dwarfs above:  1e-22 eV: 33 (conservative 33), 1e-21 eV: 22 (conservative 21), 2e-21 eV: 16 (conservative 14), 1e-20 eV: 5 (conservative 1), 1e-19 eV: 0 (conservative 0)
+  strongest three: GrusI 6.5e-21, Segue1 1.2e-20, LeoV 4.6e-21 (conservative)
+  sigma x r1/2 spread: 108 to 34074 km/s pc = x315  (one soliton mass for all would need this to be constant)
+  mass that makes Fornax's core a soliton: 1.8e-22 eV -> excluded by 28 dwarfs at >x3 (conservative)

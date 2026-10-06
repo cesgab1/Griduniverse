@@ -2107,3 +2107,8 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   mass >= ~3e-22 eV ('fuzzy' end: one wave ~ a galaxy core). Stickiness (Bullet < ~1 cm^2/g): atoms 6e8, neutron-proton
   ~3 cm^2/g -> too sticky; neutrino-like fine. Black-hole form >= 5e11 kg (Hawking). Window > 70 orders of magnitude;
   ordinary atoms, nuclei and known neutrinos (too light/hot) all excluded.
+
+- ITERATION 116 (fuzzy_dm/): wave ('fuzzy') dark matter vs all 34 Simon-2019 dwarfs with measured sigma (checksummed).
+  Quantum compactness bound m >= 1.14 hbar/(sigma r1/2): strongest Segue 1 / Grus I ~2e-20 eV (1e-20 conservative); 16 dwarfs
+  need > 2e-21; sigma x r varies x315 (not one soliton mass); Fornax-core mass 1.8e-22 excluded x65-100. All 4 expectations
+  HIT. Wave DM survives only above ~1e-20 eV, where its waves (<~30 pc) no longer shape dwarf cores.
