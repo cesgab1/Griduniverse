@@ -1,0 +1,3 @@
+lump 1e+14 kg: radius 3.9 cm; blocking area per kg 4.8e-17 m^2/kg; fraction of light blocked across the whole universe 1e-17, across our galaxy's halo 1e-16
+lump 1e+17 kg: radius 39.1 cm; blocking area per kg 4.8e-18 m^2/kg; fraction of light blocked across the whole universe 1e-18, across our galaxy's halo 1e-17
+lump 1e+20 kg: radius 390.8 cm; blocking area per kg 4.8e-19 m^2/kg; fraction of light blocked across the whole universe 1e-19, across our galaxy's halo 1e-18

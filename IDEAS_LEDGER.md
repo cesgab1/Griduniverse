@@ -1930,3 +1930,11 @@ deuterium; needs stable strange-quark matter, survival debated (mem); (2) primor
 - Re-forming heavy objects from scattered pieces needs early-universe density/temperature -> today a loop through ordinary matter
   becomes a one-way leak. A loop that stays INSIDE dense objects (quark nuggets: surface evaporation re-absorbed) or entirely within
   a dark sector is allowed. Quark-nugget survival with re-absorption: debated in the literature (mem).
+
+## Coalesce: can a combination of particles be transparent?
+Yes: (1) equal +/- charges bound together (atoms) are transparent except at their own colours (lines) -- the universe itself turned
+transparent at 380,000 yr when electrons and protons combined; (2) neutrons: charged quarks summing to zero, nearly invisible to light;
+(3) quantum interference can make an opaque medium transparent at one colour (electromagnetically induced transparency); (4) DENSE
+LUMPS are transparent by sparseness: nuclear-density lumps of 1e14-1e20 kg would block only ~1e-16 to ~1e-20 of light across the whole
+universe (transparency.*). So quark nuggets would be dark simply because they are so compact -- consistent with them as dark matter.
+Being transparent is necessary, not sufficient: they must also not glow or collide much.
