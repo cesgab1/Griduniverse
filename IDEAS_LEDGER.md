@@ -1895,6 +1895,6 @@ to today's 5.3e-10 Pa = the dark-energy SIZE problem again. Links 'seeds' and 's
 
 ## Work backwards from clusters (Coalesce): what would the 'cooling' have to supply? (cooling/infer_from_clusters.*)
 Coma's extra pull = 1.3e15 Msun = 2.3e62 J. Heat in its gas now: short x2e5; X-ray cooling over 13.8 Gyr: short x7e6; expansion cooling
-of the region that fell in: right size (0.4-1.3x) but circular (equality is defined by the dark-matter amount) and wrong timing (it8).
+of the region that fell in: right size (0.4-1.3x) but circular (equality is defined by the dark-matter amount) and wrong timing (cooling/cooling_dm: dark matter already present at z = 1090).
 Shape: extra pull ~ sqrt(g_bar x scale) in both galaxies and clusters, scale x17 larger in clusters, which are ~44x HOTTER -> hotter
 needs more: opposite to 'cooling causes it' (same as the depth law, iterations 96/101).
