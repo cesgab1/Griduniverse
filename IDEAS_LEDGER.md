@@ -1938,3 +1938,10 @@ transparent at 380,000 yr when electrons and protons combined; (2) neutrons: cha
 LUMPS are transparent by sparseness: nuclear-density lumps of 1e14-1e20 kg would block only ~1e-17 to ~1e-19 of light across the whole
 universe and ~1e-16 to ~1e-18 across our galaxy's halo (transparency.*). So quark nuggets would be dark simply because they are so compact -- consistent with them as dark matter.
 Being transparent is necessary, not sufficient: they must also not glow or collide much.
+
+## Quark nuggets as all dark matter: mass window (dm_thermal/nuggets.*)
+Earth hit rates computed: 1 kg -> 7e5/yr; 1e9 kg -> 1 per 1.4e3 yr; 1e15 kg -> 1 per 1.4e9 yr (invisible to Earth searches).
+Literature (mem): Earth/mica/detector searches exclude light lumps up to ~1e4 kg; microlensing (HSC/EROS/OGLE) excludes ~2e19 kg -
+10 Msun for any compact object. Open band ~1e4 - 2e19 kg. Early-universe survival needs mass >~1e15-1e25 kg (very uncertain;
+re-absorption 'loop' helps). Verdict: alive in the asteroid band if survival works there; not excluded, not favoured. Same open band
+as primordial black holes -- future microlensing/femtolensing and gravitational-wave-detector transits could probe it.

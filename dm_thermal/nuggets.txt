@@ -1,0 +1,23 @@
+ nugget mass (kg)    (Msun)       size  quarks/3 (baryon number)          hits on Earth
+            1e-03     5e-34     0.1 um                   6.0e+23         7.2e+08 per yr
+            1e+00     5e-31     0.8 um                   6.0e+26         7.2e+05 per yr
+            1e+03     5e-28     8.4 um                   6.0e+29         7.2e+02 per yr
+            1e+06     5e-25    84.2 um                   6.0e+32       1 per 1.4e+00 yr
+            1e+09     5e-22   841.9 um                   6.0e+35       1 per 1.4e+03 yr
+            1e+12     5e-19     0.8 cm                   6.0e+38       1 per 1.4e+06 yr
+            1e+15     5e-16     8.4 cm                   6.0e+41       1 per 1.4e+09 yr
+            1e+18     5e-13    84.2 cm                   6.0e+44       1 per 1.4e+12 yr
+            1e+21     5e-10   841.9 cm                   6.0e+47       1 per 1.4e+15 yr
+            1e+24     5e-07       84 m                   6.0e+50       1 per 1.4e+18 yr
+            1e+27     5e-04      842 m                   6.0e+53       1 per 1.4e+21 yr
+
+Limits on compact dark lumps as ALL dark matter (mem -- from memory of the literature, not looked up here):
+  * light end: lumps hitting Earth often would leave tracks in ancient mica / detectors / seismic data -> excluded up to roughly
+    tens of grams to ~1e4 kg (various searches; 'macro' dark matter reviews)
+  * microlensing of stars in Andromeda (HSC) and the Milky Way (EROS, OGLE, MACHO): excludes ~2e19 kg (1e-11 Msun) up to ~10 Msun
+    for ANY compact object, black hole or nugget
+  * open band: roughly 1e4 kg - 2e19 kg (planetoid/asteroid range)
+  * survival through the hot early universe (boiling-off of nucleons, Alcock & Farhi 1985; later work with re-absorption): needs
+    baryon number above ~1e42-1e52 depending on assumptions -> mass above ~1e15-1e25 kg  [highly uncertain]
+Combined: alive only if survival works at baryon number <~ 1e46 (mass <~ 2e19 kg), i.e. within the asteroid band, or if the
+'loop' (re-absorption) is efficient. Not excluded, not favoured.
