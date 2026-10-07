@@ -1,0 +1,11 @@
+reference: Fan 2023 g-2 (headline)  alpha^-1 = 137.035999166(15)
+   Cs-133 (Parker 2018)   mass 132.905 u: capacity correction eps(h/m) = +1.75e-09  (3.9 sigma)
+   Rb-87 (Morel 2020)     mass  86.909 u: capacity correction eps(h/m) = -5.84e-10  (2.2 sigma)
+   -> single monotonic capacity law EXCLUDED (opposite signs, each > 2 sigma)
+reference: Hanneke 2008 g-2 (alt)  alpha^-1 = 137.035999084(51)
+   Cs-133 (Parker 2018)   mass 132.905 u: capacity correction eps(h/m) = +5.55e-10  (0.7 sigma)
+   Rb-87 (Morel 2020)     mass  86.909 u: capacity correction eps(h/m) = -1.78e-09  (2.3 sigma)
+   -> inconclusive (opposite signs but not both > 2 sigma)
+
+Cs vs Rb directly: 5.5 sigma (papers: '> 5 sigma')
+Neutron h/m (Kruger 1999) relative uncertainty 7.3e-8: ~100x too coarse to see these 1e-9 effects.

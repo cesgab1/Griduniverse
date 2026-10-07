@@ -1,0 +1,11 @@
+test                                                    k=1: l <    k=2: l <
+electron, VIP-2 2022 open system (90%)                   2.6e-54     1.0e-33  <- headline
+electron, VIP-2 2024 modulated current (90%)             2.6e-55     3.2e-34
+electron, Majorana 2023 closed system (90%, model)       3.9e-61     3.9e-37
+nucleon, Borexino 2010 strong (90%)                      8.6e-76     4.3e-46  <- headline
+nucleon, Borexino 2026 full data (90%, via summary)      1.5e-76     1.8e-46
+photon (boson forced to lock), English+2010 (90%)        4.0e-17     6.3e-12  <- headline
+
+reference: regular-grid limit from photon timing 1.7e-27 m; Planck length 1.6e-35 m (comparison only)
+predicted leak if l = Planck length: electron k=1 4.2e-23, k=2 1.8e-45
+predicted leak if l = Planck length: nucleon  k=1 7.7e-20, k=2 5.9e-39

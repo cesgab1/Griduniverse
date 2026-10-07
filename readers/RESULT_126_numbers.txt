@@ -1,0 +1,12 @@
+(a) particle vs antiparticle capacity (mass) equality:
+    neutral kaon mass |dm|/m (90%)       equal to 6e-19
+    proton/antiproton q/m (BASE 2022)    equal to 2e-11
+    electron/positron g                  equal to 2e-12
+    electron/positron mass (90%)         equal to 8e-09
+
+(b) CP asymmetry vs mass (capacity):
+    headline (largest well-measured per system) : Spearman rho = +0.50, p = 0.39 -> no significant trend
+    alternative (direct asymmetries)            : Spearman rho = +0.70, p = 0.19 -> no significant trend
+    power note: with 5 systems only rho = +/-1.0 reaches p < 0.05; three systems sit at 5.3-5.6 GeV (all b-quark)
+
+(c) matter excess: standard CP measure J*prod(dm^2)/T^12 at T=100 GeV = 1.2e-19; needed eta = 6.1e-10; short by 5e+09

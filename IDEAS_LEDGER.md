@@ -2235,3 +2235,12 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Open: mechanism for spin-1/2 = lock vs spin-1 = share (standard answer: spin-statistics theorem); paired fermions act
   as bosons (Cooper pairs, helium-4). Tests: Pauli-violation searches (e.g. VIP-2, limits from memory ~1e-30 level,
   verify). Discussion only.
+
+- ITERATIONS 124-126 (readers/, Coalesce: 'test all, learn from each'). 124 LOCK LEAK: leak = (cell/footprint)^k;
+  electrons (VIP-2) need cells < 2.6e-54 m (k=1) / 1.0e-33 m (k=2); nucleons (Borexino) < 4.3e-46 m even for k=2;
+  leak must fall at least as the 3rd-5th power -> lesson: exclusion is exact, built into the pattern's shape
+  (psi - psi = 0), not a busy signal. 125 CAPACITY IN READING: alpha from h/m(Cs), h/m(Rb) vs electron g-2: Cs +1.75e-9
+  (3.9 sigma), Rb -5.8e-10 (2.2 sigma) -> opposite signs -> no single capacity law (inconclusive with 2008 reference);
+  Cs-Rb 5.5 sigma tension not an anomaly by our rules (2 labs, unconfirmed). Lesson: capacity enters only as h/m to
+  ~1e-9. 126 ANTI-READERS: masses equal to 6e-19; CP asymmetry vs mass rho +0.50/+0.70, not significant (low power);
+  measured CP difference 1.2e-19 vs needed 6.1e-10 -> short ~5e9 (measured gap). All pre-registered expectations HIT.

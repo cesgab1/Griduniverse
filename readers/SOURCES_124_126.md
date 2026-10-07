@@ -1,0 +1,15 @@
+# Sources for iterations 124-126 (fetched 2026-10-07; some via fetch summaries, verify wording before quoting)
+- VIP-2 2022 (Napolitano et al.): beta^2/2 <= 6.8e-42 (90%) https://www.mdpi.com/2073-8994/14/5/893
+- VIP-2 2024 (Porcelli et al., EPJC): < 6.74e-43 (90%) https://iris.cref.it/retrieve/c43aedb1-8dee-4492-941d-579c165c6a46/s10052-024-12599-8.pdf
+- Majorana Demonstrator 2023: < 1.0e-48 (90%, Type III) https://arxiv.org/pdf/2203.02033
+- Borexino 2010: delta^2_N <= 4.1e-60 (90%) https://ar5iv.arxiv.org/html/0911.0548 ; 2026 full data 7.0e-61 (summary page) https://www.citedrive.com/en/discovery/new-limits-on-the-pauli-forbidden-transitions-in-12textrmc-nuclei-obtained-with-the-complete-borexino-dataset/
+- English, Yashchuk, Budker 2010 (photon Bose symmetry): nu < 4.0e-11 (90%) https://arxiv.org/pdf/1001.1771
+- Parker et al. 2018 (Cs): 137.035999046(27) https://www.arxiv.org/abs/1812.04130
+- Morel et al. 2020 (Rb): 137.035999206(11) https://ideas.repec.org/a/nat/nature/v588y2020i7836d10.1038_s41586-020-2964-7.html
+- Fan et al. 2023 (g-2): 137.035999166(15) https://ar5iv.labs.arxiv.org/html/2209.13084 ; Hanneke 2008: 137.035999084(51) https://www.arxiv.org/abs/0801.1134
+- Neutron h/m (Kruger 1999, via review) https://arxiv.org/pdf/1303.0825
+- PDG: K0 mass difference <6e-19 https://pdglive.lbl.gov/view/S011DMM ; e+/e- https://pdglive.lbl.gov/Particle.action?node=S003 ; masses (pdglive pages S011M, S032M, S042M, S086M, S040M)
+- BASE 2022 (16 ppt) https://cerncourier.com/a/base-breaks-new-ground-in-matter-antimatter-tests/
+- PDG 2019 CKM review (|eps_K|, eps'/eps, sin2beta, J) https://pdg.lbl.gov/2019/reviews/rpp2019-rev-ckm-matrix.pdf
+- LHCb 2019 Delta A_CP https://arxiv.org/pdf/1905.05428 ; LHCb B0/Bs direct A_CP https://arxiv.org/pdf/2012.05319 ; LHCb 2025 Lambda_b https://arxiv.org/pdf/2503.16954
+- Fields et al. 2020 eta https://arxiv.org/pdf/1912.01132 ; PDG 2024 quark masses https://ccwww.kek.jp/pdg/2024/tables/rpp2024-sum-quarks.pdf ; Cline ~1e-20 https://arxiv.org/pdf/hep-ph/0609145
