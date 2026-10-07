@@ -2187,3 +2187,10 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Falsifiable consequences (not yet run): black-hole area changes in steps -> discrete absorption lines / gravitational-
   wave echoes after mergers (published LIGO searches inconclusive). Caveat: tile size inherits G extrapolated ~30
   decades below tested range. Status: idea logged, no test run, no claim.
+
+- ITERATION 122 (cell_size/, Coalesce: 'measure a bit's size without using Planck'): photon timing from GRB 090510
+  (Fermi, 28 GeV photon) and GRB 221009A (LHAASO, 0.2-7 TeV). Only hbar*c and distances used. Reproduced Fermi's 1.19
+  (PASS). Regular pixel grid: cell < 1.7e-27 m (diagonal; 9.9e-28 axis) -- a trillionth of a proton, still ~1e8 x
+  Planck length. Linear graininess: < 2.0e-36 m (0.12 x Planck length). Expectations E1, E2 HIT. Random Lorentz-friendly
+  grid (current model) predicts no delay -> not sized by this test. Correction: LHAASO limits 1.0e20 / 6.9e11 GeV (ML),
+  not 1.47e20 / 1.2e12 as quoted earlier from memory.

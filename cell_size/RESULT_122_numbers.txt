@@ -1,0 +1,26 @@
+C1 reproduction: row (a) -> E_QG,1 = 1.453e+19 GeV = 1.190 x paper unit (paper 1.19); PASS
+
+A. GRB 090510 (Fermi, single 28 GeV photon, z = 0.900)
+start assumption        dt limit  linear l <  grid(diag) l <  grid(axis) l <
+(a) any <1 MeV             859ms    1.36e-35        3.97e-26        2.29e-26
+(b) main <1 MeV            299ms    4.73e-36        2.34e-26        1.35e-26
+(c) main >0.1 GeV          181ms    2.87e-36        1.82e-26        1.05e-26
+(d) >1 GeV                  99ms    1.62e-36        1.35e-26        7.78e-27
+(g) spike lags          30ms/GeV    1.33e-35              --              --
+
+B. GRB 221009A (LHAASO, 0.2-7 TeV, z = 0.151, 95% ML subluminal)
+   linear l < 1.97e-36 m;  regular grid l < 1.72e-27 m (diagonal), 9.91e-28 m (axis)
+   i.e. data allow at most 11.9 s (grid) / 4.9 s (linear) delay of 7 TeV behind 0.2 TeV photons
+
+E3. Delay of 7 TeV vs 0.2 TeV photons from GRB 221009A for a regular grid (diagonal):
+   cell 1e-24 m -> 4.04e+06 s
+   cell 1e-26 m -> 404 s
+   cell 1e-27 m -> 4.04 s
+   cell 1e-28 m -> 0.0404 s
+   cell 1e-30 m -> 4.04e-06 s
+   cell 1e-35 m -> 4.04e-16 s
+
+Cosmology spread (H0 67-73, Om 0.27-0.32) on headline grid bound:
+   l < 1.65e-27 to 1.73e-27 m  (bound scales as sqrt of the distance integral)
+
+Comparison only: Planck length 1.62e-35 m. Regular grid allowed down to 1.1e+08 x it; linear graininess must be < 0.12 x it.
