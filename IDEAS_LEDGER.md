@@ -2175,3 +2175,8 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   measured gap tables (galaxies by pull; Sun's column; clusters x1.6-3.4 beyond galaxy curve; collisions: gap on stars;
   early universe). Hold-out: galaxy gap curve built on half of 164 galaxies predicts the other half to x1.40 (0.145 dex)
   vs Newton-visible x2.68 -> predictive, not just descriptive. No dark-matter particle, MOND formula or Planck grid inside.
+
+- EXPEDITION LEG 2 DESIGN (expedition/LEG2_LAB_DESIGN.md): predictions on record using only the measured galaxy gap curve.
+  Torsion balance, 90 mg at 2.4 vs 10-20 mm or 1 g at 5 vs 50 mm: if the gap follows the source's own pull, far/near
+  signal ratio is x1.9-3.3 Newton's; extra signal 9-14x demonstrated statistical precision, ~1x systematic -> needs ~x3-5
+  better systematics. If the gap follows total pull, lab sees x1.00. Quantum version: x~2600 faster entanglement.

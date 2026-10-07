@@ -1,0 +1,15 @@
+Expedition leg 2 -- lab design (predictions put on record before any such measurement)
+galaxy gap curve used: measured SPARC medians, range 1e-11.9..1e-8.5 m/s^2
+
+90 mg gold (Westphal-class), 2.4 mm vs 10 mm: own pull 1.0e-09 -> 6.0e-11 m/s^2
+   far signal: Newton 6.0e-11, H_self 1.2e-10 (x1.95); extra 5.7e-11 = 14x statistical, 1.4x systematic precision
+   far/near ratio: Newton 0.0576, H_self 0.1095 (x1.90) -- calibration and G cancel
+90 mg gold, 2.4 mm vs 20 mm: own pull 1.0e-09 -> 1.5e-11 m/s^2
+   far signal: Newton 1.5e-11, H_self 5.0e-11 (x3.35); extra 3.5e-11 = 9x statistical, 0.9x systematic precision
+   far/near ratio: Newton 0.0144, H_self 0.0470 (x3.26) -- calibration and G cancel
+1 g tungsten, 5 mm vs 50 mm: own pull 2.7e-09 -> 2.7e-11 m/s^2
+   far signal: Newton 2.7e-11, H_self 7.2e-11 (x2.69); extra 4.5e-11 = 11x statistical, 1.1x systematic precision
+   far/near ratio: Newton 0.0100, H_self 0.0237 (x2.37) -- calibration and G cancel
+
+Quantum version (gravity-entanglement proposals, 1e-14 kg at 0.2 mm, memory): own pull ~1.7e-17 m/s^2 -- below the
+galaxy curve's measured range; extrapolating the deep-regime slope gives x~2600 faster entanglement (H_self) vs x1 (H_total).
