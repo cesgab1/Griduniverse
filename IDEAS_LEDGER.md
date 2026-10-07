@@ -2158,3 +2158,8 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   hot-gas bias (0.76-0.95) makes cluster shortfall larger (inner x2.7-3.4). S4 72 collisions (Harvey+2015): unseen mass
   sits with stars (5.8 +/- 8.2 kpc), 7.6 sigma -> Bullet is a population. S5 Starobinsky R^2 1.7-3.0 sigma low vs latest
   n_s (0.975); fine with Planck alone. S6 short-range G, fluid, Planck scale: notes only.
+
+- ITERATION 120 (viewing_angle/, Coalesce: '3-D, 2-D or flat?'): nothing is measured in 3-D; galaxies are deprojected as
+  tilted flat disks. Split SPARC by tilt (30-50, 50-70, 70-90 deg): offsets -0.003 / +0.005 / -0.000 dex (+/-0.005),
+  scatter 0.138 / 0.146 / 0.137 -> pattern independent of viewing angle (HIT); expected extra scatter at low tilt not seen
+  (MISS). Deprojection added to the conventions audit; Bullet is a clean 2-D vs 2-D comparison.

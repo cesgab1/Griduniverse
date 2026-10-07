@@ -41,3 +41,10 @@ convention -> is a testable hypothesis). 'Drill' = what we did or will do. (m) =
 | Lorentz invariance at high energy | GR, grid | tested beyond Planck energy for linear effects (GRB 090510, 221009A; our it.) |
 | Gaussian, adiabatic initial ripples | CMB fits | tested: non-Gaussianity ~0 (Planck) (m) |
 | Planck length = quantum-gravity scale | grid cell size | ASSUMED -- see ledger; untested |
+
+## Added (Coalesce: 'what plane do these measure?') -- deprojection: almost nothing is measured in 3-D
+Telescopes record 2-D sky images and 1-D line-of-sight speeds; 3-D comes from shape assumptions: galaxies = flat tilted
+disks; clusters = spheres (X-ray) vs 2-D columns (lensing); dwarfs = round and settled; the Sun's column = flat settled disk.
+| galaxy flat-disk tilt correction | DONE it.120: pattern identical for face-on, middle and edge-on views (within 0.01 dex) |
+| cluster spheres vs lensing columns | partly explains lensing/hot-gas disagreements (elongation along the line of sight); population bias used in S3 |
+| Bullet | 2-D vs 2-D comparison -- free of this convention |

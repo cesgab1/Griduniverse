@@ -1,0 +1,7 @@
+Iteration 120 -- galaxy pattern by viewing angle (SPARC, mass-to-light 0.5)
+  low tilt 30-50   all points   : N  484 pts /  34 galaxies; offset from all-galaxy curve -0.003 dex (+/-0.005); scatter 0.138 dex | 1e-11: x4.00; 1e-10: x1.61; 1e-9: x1.41
+  low tilt 30-50   gas-dominated: N   14 pts /   5 galaxies; offset from all-galaxy curve -0.056 dex (+/-0.034); scatter 0.139 dex | 1e-11: x3.36
+  middle 50-70     all points   : N 1342 pts /  70 galaxies; offset from all-galaxy curve +0.005 dex (+/-0.004); scatter 0.146 dex | 1e-12: x9.20; 1e-11: x3.85; 1e-10: x1.79; 1e-9: x1.00
+  middle 50-70     gas-dominated: N   83 pts /  16 galaxies; offset from all-galaxy curve -0.044 dex (+/-0.022); scatter 0.126 dex | 1e-12: x9.33; 1e-11: x3.62
+  high tilt 70-90  all points   : N  939 pts /  51 galaxies; offset from all-galaxy curve -0.000 dex (+/-0.004); scatter 0.137 dex | 1e-12: x10.71; 1e-11: x3.88; 1e-10: x1.70; 1e-9: x0.99
+  high tilt 70-90  gas-dominated: N   40 pts /   5 galaxies; offset from all-galaxy curve -0.089 dex (+/-0.091); scatter 0.167 dex | 1e-12: x10.90
