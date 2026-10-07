@@ -1,0 +1,46 @@
+# Source: Genzel et al. 2020, ApJ 902, 98 "Rotation Curves in z~1-2 Star-Forming Disks: Evidence for Cored Dark Matter Distributions"; arXiv:2006.03046, PDF fetched at https://web3.arxiv.org/pdf/2006.03046
+# Table 1 (RC41 overview). Extracted via WebFetch (LLM over PDF text). Extractor warned PDF text was misaligned in B/T and interaction columns, so ONLY the core columns below are kept; verify against PDF.
+# Units: z; incl deg; vc_Re km/s = circular velocity at R_e; Re_kpc = effective radius (HST optical) kpc; scale kpc/arcsec; logMstar = log10(M*/Msun), HST-based input, Chabrier 2003 IMF; cosmology Om=0.3, H0=70.
+# NOT in this table: gas mass, baryonic mass, f_DM(Re). Those are in Table D1 (cols 27-28 give f_DM at Re), which is not in the arXiv text (likely online/machine-readable only). Gas masses in paper: Tacconi et al. 2018 scaling relations.
+galaxy,z,incl_deg,vc_Re_kms,Re_kpc,scale_kpc_per_arcsec,logMstar
+EGS3_10098/EGS4_30084,0.66,31,326,3.0,6.9,11.1
+U3_21388,0.67,82,230,7.0,7.0,10.8
+EGS4_21351,0.73,47,187,3.3,7.2,10.9
+EGS4_11261,0.75,60,327,4.0,7.3,11.3
+GS4_13143,0.76,74,156,5.6,7.4,9.8
+U3_05138,0.81,55,145,7.5,7.5,10.2
+GS4_03228,0.82,78,146,7.1,7.6,9.5
+GS4_32976,0.83,68,249,6.8,7.6,10.4
+COS4_01351,0.85,68,290,8.0,7.7,10.7
+COS3_22796,0.91,58,145,9.0,7.8,10.3
+U3_15226,0.92,50,194,5.5,7.9,11.1
+GS4_05881,0.99,60,200,5.6,8.0,9.8
+COS3_16954,1.03,49.5,282,8.1,8.1,10.7
+COS3_04796,1.03,50,269,9.7,8.1,10.8
+EGS_13035123,1.12,24,220,10.2,8.2,11.2
+EGS_13004291,1.20,27,354,3.0,8.3,11.0
+EGS_13003805,1.23,37,393,5.6,8.3,11.2
+G4-38153,1.36,75,356,5.9,8.4,10.4
+G4_24985,1.40,40,300,4.6,8.4,10.9
+zC_403741,1.45,28,204,2.6,8.5,10.7
+D3a_6397,1.50,30,308,6.4,8.5,11.1
+EGS_13011166,1.53,60,348,6.3,8.6,11.1
+GS4_43501 (GK 2438),1.61,62,257,4.9,8.5,10.6
+GS4_14152,1.62,55,397,6.8,8.5,11.3
+K20_ID9-GS4_27404,2.04,48,250,7.1,8.3,10.6
+zC_405501,2.15,75,139,5.0,8.3,9.9
+SSA22_MD41,2.17,72,189,7.1,8.3,9.9
+BX389,2.18,76,331,7.4,8.3,10.6
+zC_407302,2.18,60,280,4.0,8.3,10.4
+GS3_24273,2.19,60,222,7.0,8.3,11.0
+zC_406690,2.20,25,301,4.5,8.3,10.6
+BX610,2.21,39,327,4.9,8.2,11.0
+K20_ID7-GS4_29868,2.23,64,308,8.2,8.2,10.3
+K20_ID6-GS3_22466-GS4_33689,2.24,31,162,5.0,8.2,10.4
+zC_400569,2.24,45,289,4.0,8.2,11.1
+BX482,2.26,60,293,5.8,8.2,10.3
+COS4_02672,2.31,62,190,7.4,8.2,10.6
+D3a_15504,2.38,40,268,6.1,8.1,11.0
+D3a_6004,2.39,20,416,5.3,8.1,11.5
+GS4_37124,2.43,67,260,3.2,8.1,10.6
+GS4_42930 (GK 2363),2.45,59,171,2.8,8.1,10.3

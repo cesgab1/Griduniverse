@@ -1,0 +1,13 @@
+# Source: Genzel et al. 2017, Nature 543, 397 "Strongly baryon-dominated disk galaxies at the peak of galaxy formation ten billion years ago"; arXiv:1703.04310, https://arxiv.org/pdf/1703.04310
+# Table 1 "Physical Parameters of Observed Star-Forming Galaxies" (transposed: one row per galaxy). Extracted via WebFetch (LLM-summarized PDF text); spot-check against PDF before relying on it.
+# Units: z dimensionless; scale kpc/arcsec; Mstar_prior, Mbar_prior, Mbar_fit in 1e11 Msun; R12_H and R12_disk_fit in kpc; incl deg; vc_R12 km/s; sigma0 km/s.
+# Notes: Mstar Chabrier IMF. Mbar_prior = gas+stars prior; molecular gas from redshift-dependent scaling relations for main-sequence galaxies (may be lower limits); no separate gas column in source.
+# vc_R12 = circular velocity at rest-frame optical half-light radius R1/2 (bulge+disk+DM), corrected for asymmetric drift. fDM_R12 = DM/total mass at R1/2, NFW with concentration c, no adiabatic contraction; fDM_err field = +-2rms (~95%) or upper limit as printed.
+# Mgas not given separately: Mgas ~ Mbar_prior - Mstar_prior would be a derived quantity, not in source.
+galaxy,z,scale_kpc_per_arcsec,Mstar_prior_1e11,Mstar_prior_err,Mbar_prior_1e11,Mbar_prior_err,R12_H_kpc,R12_H_err,incl_deg,incl_err,c_NFW,vc_R12_kms,R12_disk_fit_kpc,sigma0_kms,Mbar_fit_1e11,Mbulge_over_Mbar,fDM_R12,fDM_err
+COS4 01351,0.854,7.68,0.54,0.16,0.9,0.5,8.6,1.3,75,5,6.8,276,7.3,39,1.7,0.2,0.21,+-0.1
+D3a 6397,1.500,8.46,1.2,0.37,2.3,1.1,5.9,0.8,30,5,5,310,7.4,73,2.3,0.35,0.17,<0.38
+GS4 43501,1.613,8.47,0.41,0.12,0.75,0.37,4.9,0.7,62,5,5,257,4.9,39,1.0,0.4,0.19,+-0.09
+zC 406690,2.196,8.26,0.42,0.12,1.4,0.7,5.5,1,25,12,4,301,5.5,74,1.7,0.6,0.0,<0.08
+zC 400569,2.242,8.23,1.2,0.37,2.5,1.2,4,2,45,10,4,364,3.3,34,1.7,0.37,0.0,<0.07
+D3a 15504,2.383,8.14,1.1,0.34,2.0,1.0,6.3,1,34,5,4,299,6,76,2.1,0.15,0.12,<0.26

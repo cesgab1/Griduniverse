@@ -2308,3 +2308,10 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   the local slope becomes comparable to the cosmic background -- i.e. at accelerations ~cH0/6 ~1e-10 m/s^2, where the
   galaxy gap appears (our boost map organised by acceleration, 0.147 vs 0.265 dex). Falsifiable: if the threshold
   tracks the expansion rate, it should be LARGER in early galaxies (H(z) higher). Candidate pre-registered test.
+
+- ITERATION 132 (compression/, Coalesce: 'proceed' -- threshold vs expansion rate). Own fit (Genzel+2017, 6 gal.):
+  no preference. Direct published RAR measurement (Ciocan+2026 MUSE-DARK III, 79 gal., z 0.33-1.44): a(z~1) =
+  2.38e-10 -> constant threshold excluded 4.4-24 sigma; H(z)-scaling fits with SPARC anchor (+0.6 sigma) but too slow
+  with survey's own anchor (9.5 sigma, 'faster than H(z)'). Tully-Fisher zero points conflict (Ubler evolves
+  non-monotonically; MUSE-DARK II none) -> gas convention. By our rules: promising, not established (one survey,
+  same-team tension). Expectation partly MISSED (did not anticipate a strong direct measurement).

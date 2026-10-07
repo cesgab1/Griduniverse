@@ -1,0 +1,31 @@
+(1) Our own: Genzel+2017 six galaxies (enclosed baryons = half of total at R1/2; free choice)
+   COS4 01351  z=0.85: g_bar=8.5e-11, g_obs=2.9e-10 (ratio 3.38) -> a = 6.9e-10   [C predicts 1.9e-10, K 1.2e-10]
+   D3a 6397    z=1.50: g_bar=4.6e-10, g_obs=5.3e-10 (ratio 1.15) -> a = 1.1e-10   [C predicts 2.8e-10, K 1.2e-10]
+   GS4 43501   z=1.61: g_bar=2.2e-10, g_obs=4.4e-10 (ratio 2.01) -> a = 4.6e-10   [C predicts 3.0e-10, K 1.2e-10]
+   zC 406690   z=2.20: g_bar=3.2e-10, g_obs=5.3e-10 (ratio 1.65) -> a = 3.8e-10   [C predicts 3.9e-10, K 1.2e-10]
+   zC 400569   z=2.24: g_bar=1.1e-09, g_obs=1.1e-09 (ratio 0.99) -> a = 0.0e+00   [C predicts 4.0e-10, K 1.2e-10]
+   D3a 15504   z=2.38: g_bar=3.5e-10, g_obs=4.6e-10 (ratio 1.31) -> a = 1.7e-10   [C predicts 4.2e-10, K 1.2e-10]
+   note: g_bar = 0.9e-10 to 1.1e-9 m/s^2 = 1-9x a0 (corrected; an earlier draft said 10-30x)
+   [prior masses] median g_obs/g_bar = 1.48; galaxies with g_obs<=g_bar: 1/6
+   [fit masses] median g_obs/g_bar = 1.41; galaxies with g_obs<=g_bar: 0/6
+   Monte Carlo (baryonic mass +- quoted error, speed +-10%, assumed), bins z<2 and z>2:
+     z<2: median log a = -9.36 +/- 0.54 (a = 4.3e-10); C 2.8e-10, K 1.2e-10
+     z>2: median log a = -9.63 +/- 1.09 (a = 2.3e-10); C 4.0e-10, K 1.2e-10
+   chi^2: C = 0.2, K = 1.1 (2 bins) -> delta = +1.0 (no preference (|delta|<4))
+
+(2) Published direct measurement: Ciocan+2026 (MUSE-DARK III, 79 galaxies, 0.33<z<1.44)
+   z=0.50: measured (linear fit) 1.80e-10;  C with SPARC anchor 1.57e-10;  C with their own a(0)=1.0e-10 1.31e-10;  K 1.2e-10
+   z=1.00: measured (linear fit) 2.59e-10;  C with SPARC anchor 2.11e-10;  C with their own a(0)=1.0e-10 1.76e-10;  K 1.2e-10
+   z=1.44: measured (linear fit) 3.29e-10;  C with SPARC anchor 2.70e-10;  C with their own a(0)=1.0e-10 2.25e-10;  K 1.2e-10
+   z~1: C, SPARC anchor  predicts 2.11e-10 -> deviation +0.6 sigma
+   z~1: C, own anchor    predicts 1.76e-10 -> deviation +9.5 sigma
+   z~1: K, SPARC anchor  predicts 1.20e-10 -> deviation +4.4 sigma
+   z~1: K, own anchor    predicts 1.00e-10 -> deviation +23.6 sigma
+
+(3) Published baryonic Tully-Fisher zero point vs local (dex in baryonic mass at fixed speed; C predicts -log E(z))
+   Ubler+2017                   z=0.9: measured -0.44 +/- 0.06;  C -0.22 (-3.7 sigma);  K +0.00 (-7.3 sigma)
+   Ubler+2017                   z=2.3: measured -0.27 +/- 0.07;  C -0.53 (+3.7 sigma);  K +0.00 (-3.9 sigma)
+   Jeanneau+2026 (MUSE-DARK II) z=1.0: measured +0.00 +/- 0.06;  C -0.25 (+4.1 sigma);  K +0.00 (+0.0 sigma)
+   (Ubler errors approximated from quoted zero-point errors; gas treatment differs between studies)
+
+(4) Milgrom 2017 (Genzel z~2 curves): 'all but exclude ~4 a0 at z~2'; C predicts 3.2 a0 at z=2.2; Ciocan linear extrapolation 3.7 a0
