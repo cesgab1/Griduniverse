@@ -1,0 +1,31 @@
+T1  LOCKED BITS: jitter over distance L is dL = l^(1-b) L^b
+  (a) GRB 090510 spikes <~10 ms, L = 9.47e+25 m -> distance jitter < 3.0e+06 m
+      b = 0.50 independent bits (random walk)          : l < 9.5e-14 m
+      b = 0.33 locked bits (holographic, Ng-van Dam)   : l < 5.3e-04 m
+  (b) random speed spread, linear (Vasileiou+2015, xi > 2.8 at 95%): random grid l < 5.8e-36 m
+  (b) random speed spread, linear (Vasileiou+2015, xi > 1.6 at 99%): random grid l < 1.0e-35 m
+      quadratic random spread: paper says limits are 'several orders' from Planck scale; no number -> not converted
+  (c) Holometer 2017, shear-holographic (Hogan) model: |beta_2 L| < 0.25 t_P (2 sigma) -> that model's scale < 4.0e-36 m  [model-specific]
+  (d) CONTESTED image-blurring (Perlman+2015, TeV source z=0.944): locked bits l < 2.2e-40 m  [disputed: Coule 2003 -- random kicks cancel; not in headline]
+
+T2  SURFACE BITS: horizon area grows in tiles a = alpha*hbar*G/c^3; allowed ringing lines
+    omega_n M = [n alpha s + 16 pi chi] / [16 pi (1+s)],  s = sqrt(1-chi^2)   (Foit-Kleban / Laghi+2021 eq.)
+  GW150914: spin (0.6, 0.72), freq tolerance 20.0% -> excluded alpha fraction in 0.5-120: 75.9%; smallest excluded alpha 29.36
+  GW250114: spin (0.67, 0.69), freq tolerance 2.4% -> excluded alpha fraction in 0.5-120: 91.1%; smallest excluded alpha 4.37
+  alpha =  2.773 4 ln2 (one bit per tile)    : chi=0.68 needs n =   5.64; nearest line off by  1.6% (spacing  4.5%) -> allowed (both events, spin range included)
+  alpha =  4.394 4 ln3 (Hod)                 : chi=0.68 needs n =   3.56; nearest line off by  3.1% (spacing  7.1%) -> EXCLUDED (both events, spin range included)
+  alpha =  5.545 8 ln2                       : chi=0.68 needs n =   2.82; nearest line off by  1.6% (spacing  8.9%) -> allowed (both events, spin range included)
+  alpha = 25.133 8 pi (Bekenstein/Maggiore)  : chi=0.68 needs n =   0.62; nearest line off by 15.2% (spacing 40.4%) -> EXCLUDED (both events, spin range included)
+  GW250114 alone: all alpha < 4.37 allowed (lines too dense); in 0.5-120 excluded fraction 91%
+  tile area for alpha = 4 ln2: a = 7.2e-70 m^2 (measured hbar, G, c)
+  Alternative criterion (line within QNM half-width, 15.6%): all alpha < 25.6 allowed, incl. 8 pi (25.13)
+  Published: Laghi+2021 alpha = 15.6 +20.5/-13.3, log odds 0.1 +/- 0.6 (uninformative); GWTC-3: no echoes.
+
+T3  DOES THE AREA RULE BREAK AT SMALL SCALES?
+  (a) Newton's law verified down to 3.86e-5 m (Lee+2020, gravitational-strength Yukawa ranges < 38.6 um only)
+      gap to a 1.7e-27 m cell: 22 powers of ten untested
+      gap to a 1.6e-35 m cell: 30 powers of ten untested
+  (b) Area never decreases: GW150914 97% (Isi+2021); GW250114 4.4 sigma (LVK 2025) -> classical area rule HOLDS
+  (c) graininess vs Hawking energy: BEC analog k T_H = 0.12 m c^2 (grain energy) -> ratio 0.12; spectrum thermal, no free parameters (Munoz de Nova+2019)
+      real 62.7 Msun hole: T_H = 9.8e-10 K, horizon 185 km; vs 1.7e-27 m cell -> ratio 7e-34
+      -> the analog was ~2e+32 times MORE grainy (relative) and the thermal law still held

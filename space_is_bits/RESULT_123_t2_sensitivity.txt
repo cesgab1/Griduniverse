@@ -1,0 +1,6 @@
+GW250114, spin 0.67-0.69
+tol  2.0%: smallest excluded alpha   3.44; excluded fraction  92%  | 4ln2 (one bit):ok  4ln3 (Hod):X  8ln2:ok  8pi:X
+tol  2.4%: smallest excluded alpha   4.36; excluded fraction  91%  | 4ln2 (one bit):ok  4ln3 (Hod):X  8ln2:ok  8pi:X
+tol  2.9%: smallest excluded alpha   4.44; excluded fraction  90%  | 4ln2 (one bit):ok  4ln3 (Hod):ok  8ln2:ok  8pi:X
+tol  4.0%: smallest excluded alpha   6.14; excluded fraction  88%  | 4ln2 (one bit):ok  4ln3 (Hod):ok  8ln2:ok  8pi:X
+tol  5.0%: smallest excluded alpha   9.52; excluded fraction  87%  | 4ln2 (one bit):ok  4ln3 (Hod):ok  8ln2:ok  8pi:X

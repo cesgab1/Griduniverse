@@ -2200,3 +2200,11 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   allows only ~1.7e70 bits (factor ~5e10 over; ~1e35 over with Planck-size cells). So either the bits are not
   independent (mostly locked together), or space's bits live on boundaries (holography), or the area bound fails at
   small scales (it rests on G extrapolated ~30 decades). Not tested; logged.
+
+- ITERATION 123 (space_is_bits/, Coalesce: 'test all three avenues'): (T1 locked bits) timing allows locked
+  (holographic) cells up to ~0.5 mm, independent-bit cells < 1e-13 m; Hogan's specific locked model < 4e-36 m
+  (Holometer); contested image-blurring would give < 2e-40 m. (T2 surface bits, GW250114 ringdown, narrow lines):
+  one bit per tile (4 ln2) allowed/untestable; 8 pi excluded (robust over 2-5% tolerance, but allowed if lines are as
+  wide as the ringing); 4 ln3 marginal (excluded only at <= 2.4%). (T3 small-scale breakdown) area law holds (4.4
+  sigma); BEC analog ~2e32x more grainy still thermal; G tested only to 39 um. Expectations: T1 HIT, T2 half MISS
+  (tests down to alpha ~4, better than expected), T3 HIT. Correction: area rule's G is horizon-scale, not 1e-35 m.
