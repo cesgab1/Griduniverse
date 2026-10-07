@@ -2208,3 +2208,12 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   wide as the ringing); 4 ln3 marginal (excluded only at <= 2.4%). (T3 small-scale breakdown) area law holds (4.4
   sigma); BEC analog ~2e32x more grainy still thermal; G tested only to 39 um. Expectations: T1 HIT, T2 half MISS
   (tests down to alpha ~4, better than expected), T3 HIT. Correction: area rule's G is horizon-scale, not 1e-35 m.
+
+- IDEA (Coalesce: 'particles are different processing capacities of the universe'). Established link: Margolus-Levitin
+  max operations/s = 2E/(pi hbar) -> electron 4.9e20/s, proton 9.1e23/s; photon: no rest clock. Intuitive SR reading:
+  fixed 'spacetime speed budget' split between moving and internal ticking (d tau/dt = sqrt(1-v^2/c^2)). Neutrino
+  oscillation = evidence of internal clocks (needs mass). Picture: particles as patterns (gliders) on the bit-grid.
+  To be more than relabelling it must predict: (a) gravity follows processing -> equivalence tests require processing
+  proportional to energy to ~1e-15 (MICROSCOPE); (b) mass ratios from 'program' structure (no derivation exists;
+  numerology risk, e.g. Koide); (c) max processing per cell -> grid shows at ~1e11-1e12 GeV, near LHAASO limits and
+  the highest cosmic-ray energies (~3e11 GeV). Not tested; logged.
