@@ -2298,3 +2298,13 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   (equal fall to ~1e-15) forces the squeeze to track total mass-energy exactly. Good fit: stars = balance of squeeze
   vs internal pressure (stellar structure already reads this way). Candidate test: turn the measured bounds into
   required properties of the 'squeezing medium'. Discussion only.
+
+- IDEA refined (Coalesce: 'the medium is space/the universe itself; uniform compression is unnoticeable, like we
+  don't notice ourselves compressing'). Agreement: uniform pressure produces no force (atmosphere: ~10 t/m^2 unfelt);
+  freely falling observers feel nothing (equivalence principle) -- only DIFFERENCES between places are measurable.
+  Space-itself version avoids the particle-medium drag/heating objections. Consequence: gravity = the SLOPE of the
+  compression made by matter; equal falling forces the squeeze to act per unit energy (not volume, not composition).
+  New angle: if the baseline compression is set by the whole universe, departures from Newton should appear where
+  the local slope becomes comparable to the cosmic background -- i.e. at accelerations ~cH0/6 ~1e-10 m/s^2, where the
+  galaxy gap appears (our boost map organised by acceleration, 0.147 vs 0.265 dex). Falsifiable: if the threshold
+  tracks the expansion rate, it should be LARGER in early galaxies (H(z) higher). Candidate pre-registered test.
