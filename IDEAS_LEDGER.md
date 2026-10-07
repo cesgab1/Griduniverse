@@ -2169,3 +2169,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   recombination. Meets data (0.5-2x since z 1.5, < 5% of matter at z 1100) in 0.007% of 200000 realisations (~4 sigma).
   Today's SIZE (~1/sqrt(N)) works; the TIME behaviour fails unless past fluctuations are damped >~ x50 (free choice).
   Published versions differ (memory) -- only the basic scaling tested.
+
+- WORKING MODEL (working_model/WORKING_MODEL.md, Coalesce: 'non-conflicting gravity; never put numbers in for what we
+  don't know'). Layer 1: Newton + measured relativistic add-ons + measured Lambda push (no cause assumed). Layer 2:
+  measured gap tables (galaxies by pull; Sun's column; clusters x1.6-3.4 beyond galaxy curve; collisions: gap on stars;
+  early universe). Hold-out: galaxy gap curve built on half of 164 galaxies predicts the other half to x1.40 (0.145 dex)
+  vs Newton-visible x2.68 -> predictive, not just descriptive. No dark-matter particle, MOND formula or Planck grid inside.

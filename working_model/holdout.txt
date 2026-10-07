@@ -1,0 +1,3 @@
+Hold-out test, 200 random half/half splits of 164 galaxies (curve built on one half, applied to the other):
+  prediction error with the measured gap curve: 0.145 dex (x1.40) typical
+  Newton with visible matter alone: off by 0.429 dex (x2.68) typical (median)
