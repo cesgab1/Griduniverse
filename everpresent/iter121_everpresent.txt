@@ -1,0 +1,8 @@
+Iteration 121 -- simplest everpresent Lambda (Sorkin) vs data; 200000 realisations
+age ratios t(z)/t0: z=1100: 2.66e-05, z=1.5: 0.31, z=0.8: 0.49, z=0.4: 0.68
+typical |dark energy(z)| / today (median of |ratio|): z=1100: 1.42e+09, z=1.5: 10.4, z=0.8: 4.13, z=0.4: 2.15
+(a) positive today: 0.500
+(b) 0.5-2x today at z = 0.4, 0.8, 1.5: 0.0045  (given (a): 0.0045)
+(c) < 5% of matter at z = 1100: 0.0136
+(a)+(b)+(c) together: 0.00007   (constant Lambda: 1)
+needed damping of past fluctuations for (c) in half of realisations: early jitter must be smaller by x47

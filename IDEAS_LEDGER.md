@@ -2163,3 +2163,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   tilted flat disks. Split SPARC by tilt (30-50, 50-70, 70-90 deg): offsets -0.003 / +0.005 / -0.000 dex (+/-0.005),
   scatter 0.138 / 0.146 / 0.137 -> pattern independent of viewing angle (HIT); expected extra scatter at low tilt not seen
   (MISS). Deprojection added to the conventions audit; Bullet is a clean 2-D vs 2-D comparison.
+
+- ITERATION 121 (everpresent/, Coalesce: 'Planck scale as a count, not a constant'): simplest everpresent Lambda
+  (Lambda = random walk over past 4-volume / 4-volume): dark energy should be ~x10 today's at z 1.5 and ~1e9x at
+  recombination. Meets data (0.5-2x since z 1.5, < 5% of matter at z 1100) in 0.007% of 200000 realisations (~4 sigma).
+  Today's SIZE (~1/sqrt(N)) works; the TIME behaviour fails unless past fluctuations are damped >~ x50 (free choice).
+  Published versions differ (memory) -- only the basic scaling tested.
