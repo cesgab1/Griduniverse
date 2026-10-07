@@ -2217,3 +2217,11 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   proportional to energy to ~1e-15 (MICROSCOPE); (b) mass ratios from 'program' structure (no derivation exists;
   numerology risk, e.g. Koide); (c) max processing per cell -> grid shows at ~1e11-1e12 GeV, near LHAASO limits and
   the highest cosmic-ray energies (~3e11 GeV). Not tested; logged.
+
+- IDEA (Coalesce: 'particles read and interpret the bit plane; different capacity -> slightly different behaviour;
+  antiparticles = null/opposite action'). Feedback: capacity ~ mass, interpretation ~ charges/couplings; reading must
+  also be writing (momentum conservation; active = passive mass). Existing measurements from memory, to verify before
+  testing: free fall identical to ~1e-15 (MICROSCOPE); quantum phase does depend on mass (neutron interferometry, COW
+  1975); antihydrogen falls down (ALPHA-g 2023, ~0.75 +/- 0.2 g); proton/antiproton charge-to-mass equal to 16 ppt
+  (BASE 2022); CP violation = small measured particle/antiparticle difference (kaons, B mesons). Antiparticle as the
+  pattern read backwards in time (Feynman-Stueckelberg). Discussion only; tests next.
