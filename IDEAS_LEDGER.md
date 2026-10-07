@@ -2250,3 +2250,10 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   131-160 GeV. That timing rests on sphalerons (never directly observed; switch-off from lattice). Running masses
   enlarge gap x60; 'zero start' (inflation) and 'out of balance' (lattice crossover) are the other load-bearing
   premises; the T^12 formula is invalid where it would succeed. Expectations HIT. Lesson: the gap measures premises.
+
+- ITERATION 128 (readers/, Coalesce: 'apply this to classical physics: creation at 16-20 GeV?'). Newton shell
+  theorem + heat physics: 16-20 GeV was at ~1 ns. Matter-changing hop barrier 9.0 TeV (measured v, g + theory shape)
+  = ~450x heat energy -> hop rate 1e-180 of expansion; hopping needs barrier <= 0.6-0.8 TeV (12-15x lower). Weak rates
+  5e13x faster than expansion, nothing freezes out at 16-20 GeV -> in balance. Expectations HIT. Lesson: later
+  creation is blocked twice; one block (barrier) rests on an unmeasured theory solution, the other (balance) on
+  measured particles only.
