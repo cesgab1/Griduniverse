@@ -1,0 +1,50 @@
+# Source: Rilinger & Espaillat 2021, ApJ 921, 182, Table 1 (M*) joined with Table 4 (DIAD SED-model disk mass)
+# URL: https://arxiv.org/pdf/2106.05247v1 (extracted via WebFetch). Mdisk = TOTAL (gas+dust) model disk mass in Jupiter masses, NOT flux-derived dust mass.
+# 'CRBR 2322.3' in Table 4 matched to 'CRBR 2322.3-1143'. Units: Mstar Msun; Mdisk_total MJup
+name,region,Mstar_Msun,Mdisk_total_MJup
+J04390396+2544264,Taurus,0.035,0.283
+J04141188+2811535,Taurus,0.053,0.188
+J04292165+2701259,Taurus,0.058,0.366
+J04230607+2801194,Taurus,0.058,2.964
+KPNO Tau 3,Taurus,0.058,2.964
+GM Tau,Taurus,0.048,0.450
+J04390163+2336029,Taurus,0.058,0.209
+J04400067+2358211,Taurus,0.058,3.121
+J04414825+2534304,Taurus,0.028,0.628
+J04442713+2512164,Taurus,0.05,2.050
+CFHT Tau 4,Taurus,0.095,0.420
+CFHT Tau 9,Taurus,0.064,0.052
+KPNO Tau 6,Taurus,0.02,0.262
+KPNO Tau 7,Taurus,0.024,0.524
+J04330945+2246487,Taurus,0.069,0.002
+J04214631+2659296,Taurus,0.063,0.052
+J04414489+2301513,Taurus,0.023,0.220
+KPNO Tau 12,Taurus,0.011,0.095
+J04201611+2821325,Taurus,0.041,0.042
+J04263055+2443558,Taurus,0.02,1.37e-4
+J04290068+2755033,Taurus,0.023,0.157
+J04554969+3019400,Taurus,0.052,0.042
+J04574903+3015195,Taurus,0.015,3.048
+ISO-Oph 23,Ophiuchus,0.07,0.220
+ISO-Oph 32,Ophiuchus,0.07,0.115
+ISO-Oph 33,Ophiuchus,0.03,0.377
+CRBR 2322.3-1143,Ophiuchus,0.07,0.030
+ISO-Oph 138,Ophiuchus,0.05,0.063
+GY92 264,Ophiuchus,0.03,0.199
+ISO-Oph 160,Ophiuchus,0.06,0.754
+ISO-Oph 164,Ophiuchus,0.05,0.052
+GY92 320,Ophiuchus,0.04,0.031
+ISO-Oph 176,Ophiuchus,0.06,0.018
+J15451851-3421246,Lupus,0.09,0.443
+SONYC Lup 3-7,Lupus,0.02,0.199
+Lup 706,Lupus,0.05,0.268
+AKC 2006-18,Lupus,0.07,0.052
+Lup 818s,Lupus,0.09,2.138
+J16101984-3836065,Lupus,0.09,0.157
+J16085529-3848481,Lupus,0.09,0.578
+Lup 607,Lupus,0.1,0.147
+J15555600-2045187,UpperSco,0.07,0.325
+J15560104-2338081,UpperSco,0.07,0.733
+J15591135-2338002,UpperSco,0.06,0.721
+J16100541-1919362,UpperSco,0.06,0.063
+J16060391-2056443,UpperSco,0.04,0.042

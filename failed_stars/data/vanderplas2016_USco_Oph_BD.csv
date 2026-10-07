@@ -1,0 +1,13 @@
+# Source: van der Plas et al. 2016, ApJ 819, 102, Tables 2-3. Regions: Upper Sco (7) + Ophiuchus (Allers 8 = J16214199). 885 um
+# URL: https://ar5iv.arxiv.org/html/1602.01724 (extracted via WebFetch). Mdust (Earth masses as per abstract range; table units not stated):
+# Mdust_A13 uses T=25(L/Lsun)^0.25 K; Mdust_vdP16 uses T=22(L/Lsun)^0.16 K; Mdust_model = MCFOST RT model. Parenthesised alt values omitted.
+# kappa_885=2.7 cm2/g (analytic). upper=1 => upper limit
+name,region,SpT,Mstar_Msun,L_Lsun,F885_mJy,F885_err,F_upper,Mdust_A13,Mdust_vdP16,Mdust_model
+J15555600-2045187,UpperSco,M6.5,0.07,0.0075,0.68,0.13,0,1.20,0.54,0.33
+J15560104-2338081,UpperSco,M6.5,0.07,0.0075,2.46,0.12,0,4.35,1.96,1.05
+J15591135-2338002,UpperSco,M7,0.06,0.0114,2.00,0.12,0,3.91,1.67,1.05
+J16024575-2304509,UpperSco,M5.5,0.10,0.0064,0.49,0.13,0,0.68,0.35,0.11
+J16060391-2056443,UpperSco,M7.5,0.04,0.0045,0.13,,1,0.32,0.12,0.03
+J16100541-1919362,UpperSco,M7,0.06,0.0064,0.52,0.13,0,1.02,0.44,0.33
+J16193976-2145349,UpperSco,M7,0.06,0.0064,0.94,0.12,0,1.84,0.79,0.33
+J16214199-2313432,Ophiuchus,M3,0.34,0.078,3.68,0.13,0,1.94,1.57,1.05
