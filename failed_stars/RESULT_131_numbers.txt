@@ -1,0 +1,16 @@
+(a) Milky Way dust budget (published inputs, Draine 2009 / Zhukovska 2008, 2016 / Slavin 2015):
+   destruction time 0.40 Gyr (Draine 2009 shock lifetime): stardust standing stock = 2.0e+06 Msun = 8% of observed -> 92% must regrow in clouds
+   destruction time 0.35 Gyr (Zhukovska 2016 best fit): stardust standing stock = 1.8e+06 Msun = 7% of observed -> 93% must regrow in clouds
+   destruction time 2.50 Gyr (Slavin 2015 silicates): stardust standing stock = 1.2e+07 Msun = 50% of observed -> 50% must regrow in clouds
+   if every supernova kept SN-1987A-like dust (0.5 Msun, rate ~0.02/yr, assumed): +0.010 Msun/yr (x2 the other stellar sources) -> survival through the reverse shock decides it
+
+(b) Gathering: Per-Tau shell snowplough (radius 78 pc, Bialy 2021); ambient density not published -> range
+   n = 1 cm^-3: swept gas 6.9e+04 Msun (dust ~688-344 Msun); Perseus+Taurus clouds = 49% of it
+   n = 2 cm^-3: swept gas 1.4e+05 Msun (dust ~1376-688 Msun); Perseus+Taurus clouds = 25% of it
+   n = 5 cm^-3: swept gas 3.4e+05 Msun (dust ~3441-1720 Msun); Perseus+Taurus clouds = 10% of it
+
+(c) Why mm dust stays in disks: classical drag drift (Epstein), disk = 1% of central mass, Sigma ~ 1/r, T ~ r^-1/2
+   Sun-like star (1 Msun, 1 Lsun, disk 100 AU)               : 1-mm grain at half disk radius drifts in 2.9e+04 yr (Stokes 0.09, eta 0.011)
+   brown dwarf (0.05 Msun, 0.003 Lsun, disk 20 AU)           : 1-mm grain at half disk radius drifts in 7.0e+03 yr (Stokes 0.07, eta 0.023)
+   IC 348-type (0.002 Msun ~2 MJup, 3e-4 Lsun, disk 10 AU)   : 1-mm grain at half disk radius drifts in 2.4e+02 yr (Stokes 0.44, eta 0.226)
+   observed: mm grains present in brown-dwarf disks at ~1-3 Myr ages (Ricci 2014; Testi 2022 detections above)

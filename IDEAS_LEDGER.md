@@ -2280,3 +2280,13 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Galilean moons' total) -> only small rocky bodies. Pull near such objects >> galaxy-gap regime (Newtonian).
   Candidate population test: disk dust mass vs central mass, stars -> brown dwarfs -> planetary-mass objects; does
   one scaling hold? Also: 2 MJ collapse tests the minimum-fragment (opacity) limit.
+
+- ITERATIONS 129-131 (failed_stars/, Coalesce: 'do both, learn from each; where does the dust come from').
+  129 ONE RECIPE: brown-dwarf disks sit on the stars' dust-mass line (L1688 +0.32/+0.09 dex, Lupus +0.23/-0.13;
+  fixed 20 K) -> no break; luminosity-scaled temperature lifts BDs +0.5-0.9 dex (convention > effect); my
+  'convention B closer' expectation MISSED. 130 FLOOR: crude classical floor 0.14 MJup vs published 3 +/- 1 ->
+  reproduction FAILED (x23); post-hoc: floor ~ (radius factor)^-9/4, virial radius gives 5.1, 2/5 gives 1.1 MJup.
+  Observed populations stop at ~2-5 MJup (IC 348 2, NGC 1333 deficit below 4-5); JuMBOs disputed; no violation.
+  Lesson: observed cutoff now measures the floor better than theory. 131 DUST: stardust = 7-50% of Galactic dust
+  (destruction-time convention) -> 50-93% regrown in clouds; Per-Tau supernova bubble swept 0.7-3.4e5 Msun into
+  Perseus/Taurus; mm-grain drift 3e4 yr (star), 7e3 yr (BD), 240 yr (2 MJup) vs seen at Myr -> traps required.

@@ -1,0 +1,14 @@
+Classical floor (our derivation, order-unity factors):
+   T =  7 K: 0.13 Jupiter masses (f=1); 0.23 (f=0.3, inefficient radiator)
+   T = 10 K: 0.14 Jupiter masses (f=1); 0.25 (f=0.3, inefficient radiator)
+   T = 15 K: 0.15 Jupiter masses (f=1); 0.28 (f=0.3, inefficient radiator)
+   T = 20 K: 0.16 Jupiter masses (f=1); 0.30 (f=0.3, inefficient radiator)
+Check vs published: Whitworth 2018 0.003 +/- 0.001 Msun = 3.1 +/- 1.0 MJup; ours at 10 K = 0.1 -> ratio 22.8 (order-unity prefactors; PASS if within x3)
+
+Published floor range ~1-4 MJup; violation needs confirmed objects < floor/2 in >= 2 regions
+   IC 348 (JWST NIRSpec, Luhman & Alves de Oliveira 2025)  lowest ~2.0 MJup (spectroscopic members) -> at/above floor
+   NGC 1333 (JWST NIRISS, Langeveld 2024)                  lowest ~4.5 MJup (none below ~4-5 MJup despite sensitivity) -> at/above floor
+   NGC 2024 (JWST NIRCam, 2024)                            lowest ~3.0 MJup (photometric; turnover below ~12 MJup) -> at/above floor
+   Upper Sco (Miret-Roig 2022)                             lowest ~4.0 MJup (photometric/kinematic) -> at/above floor
+   Orion Trapezium JuMBOs (Pearson & McCaughrean 2023)     lowest ~0.6 MJup (DISPUTED: NIRSpec follow-up -> background) -> at/above floor
+Regions with confirmed objects below floor/2: 0 -> no violation
