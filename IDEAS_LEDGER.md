@@ -2257,3 +2257,11 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   5e13x faster than expansion, nothing freezes out at 16-20 GeV -> in balance. Expectations HIT. Lesson: later
   creation is blocked twice; one block (barrier) rests on an unmeasured theory solution, the other (balance) on
   measured particles only.
+
+- DISCUSSION (Coalesce: 'the slam could be rapid expansion; assume no holes in the wall'). Expansion IS the usual
+  slam (it froze the neutron/proton ratio at ~1 MeV -> measured helium ~25%), but at 16-20 GeV processes run ~5e13x
+  faster than expansion, so measured contents make it too gentle by ~1e13. No holes (no tunnelling): the wall height
+  grows as the universe cools (barrier ~ Higgs field strength); rough estimate wall climbable above ~133 GeV (lattice
+  131.7). Windows do not overlap: door open only above ~130 GeV where the tilt is ~1e-21; tilt sufficient only below
+  ~16-18 GeV where the door is shut. Gap = factor ~8 in temperature. Rising wall could itself be the slam only if it
+  rose abruptly; measured Higgs mass -> gradual (crossover).
