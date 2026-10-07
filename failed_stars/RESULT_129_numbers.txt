@@ -1,0 +1,20 @@
+
+L1688 conv A: stars 10 (det 7), brown dwarfs 13 (det 6)
+   published slope (b=1.90) detections only : BD median residual +0.32 +/- 0.38 dex (n=6) -> on the line
+   published slope (b=1.90) limits as values: BD median residual +0.09 +/- 0.38 dex (n=13) -> on the line
+   own slope       (b=3.83) detections only : BD median residual +1.23 +/- 0.53 dex (n=6) -> BREAK-candidate
+   own slope       (b=3.83) limits as values: BD median residual +1.61 +/- 0.50 dex (n=13) -> BREAK-candidate
+
+L1688 conv B: stars 10 (det 7), brown dwarfs 13 (det 6)
+   published slope (b=1.90) detections only : BD median residual +0.87 +/- 0.50 dex (n=6) -> on the line
+   published slope (b=1.90) limits as values: BD median residual +1.03 +/- 0.46 dex (n=13) -> BREAK-candidate
+   own slope       (b=2.00) detections only : BD median residual +0.68 +/- 0.46 dex (n=6) -> on the line
+   own slope       (b=2.00) limits as values: BD median residual +0.86 +/- 0.41 dex (n=13) -> BREAK-candidate
+
+Lupus conv A: stars 6 (det 6), brown dwarfs 4 (det 2)
+   published slope (b=1.73) detections only : BD median residual +0.23 +/- 0.42 dex (n=2) -> on the line
+   published slope (b=1.73) limits as values: BD median residual -0.13 +/- 0.51 dex (n=4) -> on the line
+   own slope       (b=1.34) detections only : BD median residual -0.15 +/- 0.25 dex (n=2) -> on the line
+   own slope       (b=1.34) limits as values: BD median residual -0.48 +/- 0.39 dex (n=4) -> on the line
+
+Upper Sco (older, BDs only, descriptive): median dust 1.20 (A13 T) / 0.54 (vdP16 T) Earth masses at median M = 0.06 Msun
