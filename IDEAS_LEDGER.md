@@ -2271,3 +2271,12 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   lasting matter; (2) protons would decay today. Measured: proton lifetime > ~2.4e34 yr (Super-K p -> e+ pi0, from
   memory; verify), ~1e24 x the universe's age -> a wall exists now. Existence of matter is itself evidence the lock
   is strong today. Pair creation never changes the count (one matter + one antimatter).
+
+- TOPIC (Coalesce: failed stars with planets; dusty-region observation). IC 348 (~1000 ly, ~5 Myr): JWST found two
+  new objects ~2 and ~10 Jupiter masses with infrared-excess disks (Luhman & Alves de Oliveira; NASA feature Sep
+  2026); no planets detected; masses model-based. St Andrews (Damian, Scholz 2025): 6 of 8 free-floating
+  planetary-mass objects have disks; silicate growth/crystallisation. Physics: spin -> disk at any mass; scaled-down
+  solar system (cf. Jupiter's moons). Rough: 2 MJ disk ~1% -> dust ~0.06 Earth masses (~5 Moons, similar to the
+  Galilean moons' total) -> only small rocky bodies. Pull near such objects >> galaxy-gap regime (Newtonian).
+  Candidate population test: disk dust mass vs central mass, stars -> brown dwarfs -> planetary-mass objects; does
+  one scaling hold? Also: 2 MJ collapse tests the minimum-fragment (opacity) limit.
