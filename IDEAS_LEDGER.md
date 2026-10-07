@@ -2265,3 +2265,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   131.7). Windows do not overlap: door open only above ~130 GeV where the tilt is ~1e-21; tilt sufficient only below
   ~16-18 GeV where the door is shut. Gap = factor ~8 in temperature. Rising wall could itself be the slam only if it
   rose abruptly; measured Higgs mass -> gradual (crossover).
+
+- DISCUSSION (Coalesce: 'what if there were no wall at all?'). No wall = matter count changes freely -> (1) any
+  surplus is evened out back to zero (free two-way traffic with equal capacity -> balance), so no wall means no
+  lasting matter; (2) protons would decay today. Measured: proton lifetime > ~2.4e34 yr (Super-K p -> e+ pi0, from
+  memory; verify), ~1e24 x the universe's age -> a wall exists now. Existence of matter is itself evidence the lock
+  is strong today. Pair creation never changes the count (one matter + one antimatter).
