@@ -2225,3 +2225,13 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   1975); antihydrogen falls down (ALPHA-g 2023, ~0.75 +/- 0.2 g); proton/antiproton charge-to-mass equal to 16 ppt
   (BASE 2022); CP violation = small measured particle/antiparticle difference (kaons, B mesons). Antiparticle as the
   pattern read backwards in time (Feynman-Stueckelberg). Discussion only; tests next.
+
+- IDEA (Coalesce: 'reading/writing the bit plane could explain why particles can't share a position' = Pauli
+  exclusion). Feedback: only fermions exclude; bosons pile up (lasers, BEC) -> in processing terms fermions take an
+  exclusive write lock, bosons share. Exclusion is per quantum state (two electrons share a place with opposite spin).
+  Math already reads as 'two identical writes cancel to null' (psi - psi = 0) vs bosons reinforce (psi + psi).
+  Capacity link already measured: degeneracy pressure ~ hbar^2 n^(5/3) / m -> low-capacity (light) particles have
+  bigger footprints and push harder (white dwarfs held by electrons, neutron stars by neutrons; Chandrasekhar limit).
+  Open: mechanism for spin-1/2 = lock vs spin-1 = share (standard answer: spin-statistics theorem); paired fermions act
+  as bosons (Cooper pairs, helium-4). Tests: Pauli-violation searches (e.g. VIP-2, limits from memory ~1e-30 level,
+  verify). Discussion only.
