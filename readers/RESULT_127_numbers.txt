@@ -1,0 +1,21 @@
+Supply D(T) vs need:   need eta = 6.1e-10  (or n_B/s = 8.7e-11, a different bookkeeping)
+ T (GeV)  D, PDG masses   D, running  gap (eta/D)
+     160        4.3e-22      7.7e-24      1.4e+12
+     131        4.8e-21      8.5e-23      1.3e+11
+     100        1.2e-19      2.2e-21      5.0e+09
+      50        5.0e-16      8.9e-18      1.2e+06
+      25        2.0e-12      3.6e-14      3.0e+02
+      18        1.1e-10      1.9e-12      5.8e+00
+      10        1.2e-07      2.2e-09      5.0e-03
+
+How many powers of ten each premise controls (headline T = 100 GeV, PDG masses: gap = 5.0e+09 = 10^9.7)
+  P1 creation temperature 131 GeV (sphaleron switch-off, lattice): gap 10^11.1
+  P1 ... 160 GeV (crossover)                                : gap 10^12.1
+  P2 masses at creation energy instead of PDG               : gap 10^11.5  (larger)
+  need written as n_B/s instead of eta                      : gap 10^8.9
+  temperature at which the measured bias would be enough (eta): T = 16 GeV
+  temperature at which the measured bias would be enough (n_B/s): T = 18 GeV
+  P3 the (m/T)^12 form: valid only when all masses << T; at T ~ 20 GeV top (173) and bottom (4) are not << T ->
+     the estimate itself breaks where it would 'succeed' (the real suppression is NOT this simple power law there)
+  P4 zero starting excess: if false, the needed creation is 0 -> the whole gap (10^9.7) disappears
+  P5 out-of-balance: smooth crossover (lattice, Higgs 125 GeV) multiplies supply by ~0 -> independent of P1-P3

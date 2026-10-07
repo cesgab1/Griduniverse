@@ -2244,3 +2244,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Cs-Rb 5.5 sigma tension not an anomaly by our rules (2 labs, unconfirmed). Lesson: capacity enters only as h/m to
   ~1e-9. 126 ANTI-READERS: masses equal to 6e-19; CP asymmetry vs mass rho +0.50/+0.70, not significant (low power);
   measured CP difference 1.2e-19 vs needed 6.1e-10 -> short ~5e9 (measured gap). All pre-registered expectations HIT.
+
+- ITERATION 127 (readers/, Coalesce: 'break the formula down to find WHY there is a gap'): the 5e9 gap is almost
+  entirely the creation-temperature premise: measured bias / T^12 suffices at ~16-18 GeV, fails by 1e11-1e12 at
+  131-160 GeV. That timing rests on sphalerons (never directly observed; switch-off from lattice). Running masses
+  enlarge gap x60; 'zero start' (inflation) and 'out of balance' (lattice crossover) are the other load-bearing
+  premises; the T^12 formula is invalid where it would succeed. Expectations HIT. Lesson: the gap measures premises.
