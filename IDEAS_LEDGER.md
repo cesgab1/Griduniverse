@@ -2290,3 +2290,11 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Lesson: observed cutoff now measures the floor better than theory. 131 DUST: stardust = 7-50% of Galactic dust
   (destruction-time convention) -> 50-93% regrown in clouds; Per-Tau supernova bubble swept 0.7-3.4e5 Msun into
   Perseus/Taurus; mm-grain drift 3e4 yr (star), 7e3 yr (BD), 240 yr (2 MJup) vs seen at Myr -> traps required.
+
+- IDEA (Coalesce: 'gravity is pressure against matter; space squeezes; response depends on what matter is made of').
+  = push gravity (Fatio 1690 / Le Sage 1748). Strength: shadowing gives 1/r^2 by geometry. Known obstacles: drag on
+  orbits (needs pushing agent >> c; Laplace), heating (absorbed momentum -> heat; Maxwell/Poincare), non-additivity
+  /shielding (eclipse and lunar-ranging bounds, from memory -- verify), and composition dependence -> MICROSCOPE
+  (equal fall to ~1e-15) forces the squeeze to track total mass-energy exactly. Good fit: stars = balance of squeeze
+  vs internal pressure (stellar structure already reads this way). Candidate test: turn the measured bounds into
+  required properties of the 'squeezing medium'. Discussion only.
