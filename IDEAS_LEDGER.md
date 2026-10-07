@@ -2196,7 +2196,7 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   not 1.47e20 / 1.2e12 as quoted earlier from memory.
 
 - IDEA (Coalesce: 'IT is space' -- the bit IS the cell of space; cf. Wheeler 'it from bit'). Tension found: a 1 m ball
-  of volume-filling bits with cells <= 1.7e-27 m (iteration 122) holds >= 8.5e80 bits, but the black-hole area bound
+  of volume-filling bits with cells <= 1.7e-27 m (iteration 122) holds >= 8.2e80 bits, but the black-hole area bound
   allows only ~1.7e70 bits (factor ~5e10 over; ~1e35 over with Planck-size cells). So either the bits are not
   independent (mostly locked together), or space's bits live on boundaries (holography), or the area bound fails at
   small scales (it rests on G extrapolated ~30 decades). Not tested; logged.
