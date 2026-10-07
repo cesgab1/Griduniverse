@@ -2180,3 +2180,10 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Torsion balance, 90 mg at 2.4 vs 10-20 mm or 1 g at 5 vs 50 mm: if the gap follows the source's own pull, far/near
   signal ratio is x1.9-3.3 Newton's; extra signal 9-14x demonstrated statistical precision, ~1x systematic -> needs ~x3-5
   better systematics. If the gap follows total pull, lab sees x1.00. Quantum version: x~2600 faster entanglement.
+
+- IDEA (Coalesce: '1 bit might be the size of a Planck'): one bit = one fundamental area tile. Prior art: Bekenstein-
+  Mukhanov (1995) area steps of 4 ln k l_P^2 (k=2 -> exactly one bit per step); Hod (2001) argued k=3. Holographic tile
+  is 4 ln2 l_P^2 ~ 7.2e-70 m^2 (side ~1.7 l_P), so "one bit ~ one Planck area" agrees to within a factor of ~3 in area.
+  Falsifiable consequences (not yet run): black-hole area changes in steps -> discrete absorption lines / gravitational-
+  wave echoes after mergers (published LIGO searches inconclusive). Caveat: tile size inherits G extrapolated ~30
+  decades below tested range. Status: idea logged, no test run, no claim.
