@@ -2194,3 +2194,9 @@ formation and chemistry via afterglow spectra; (4) burst rates -> how many are b
   Planck length. Linear graininess: < 2.0e-36 m (0.12 x Planck length). Expectations E1, E2 HIT. Random Lorentz-friendly
   grid (current model) predicts no delay -> not sized by this test. Correction: LHAASO limits 1.0e20 / 6.9e11 GeV (ML),
   not 1.47e20 / 1.2e12 as quoted earlier from memory.
+
+- IDEA (Coalesce: 'IT is space' -- the bit IS the cell of space; cf. Wheeler 'it from bit'). Tension found: a 1 m ball
+  of volume-filling bits with cells <= 1.7e-27 m (iteration 122) holds >= 8.5e80 bits, but the black-hole area bound
+  allows only ~1.7e70 bits (factor ~5e10 over; ~1e35 over with Planck-size cells). So either the bits are not
+  independent (mostly locked together), or space's bits live on boundaries (holography), or the area bound fails at
+  small scales (it rests on G extrapolated ~30 decades). Not tested; logged.
